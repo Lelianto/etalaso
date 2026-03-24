@@ -25,22 +25,15 @@ function LoginContent() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-indigo-50 via-white to-sky-50 flex items-center justify-center px-4">
       <div className="w-full max-w-sm">
-        <div className="text-center mb-8">
-          <h1 className="text-3xl font-black tracking-tight text-slate-900">
-            etalaso
-          </h1>
-          <p className="text-slate-500 text-sm mt-2">
-            Platform halaman bisnis UMKM Indonesia
-          </p>
-        </div>
-
         <div className="bg-white rounded-2xl shadow-lg p-8">
-          <h2 className="text-xl font-bold text-slate-800 mb-2 text-center">
-            Masuk ke Etalaso
-          </h2>
-          <p className="text-slate-500 text-sm text-center mb-6">
-            Gunakan akun Google untuk masuk atau daftar otomatis
-          </p>
+          <div className="text-center mb-6">
+            <h1 className="text-2xl font-black tracking-tight text-slate-900">
+              Masuk ke Etalaso
+            </h1>
+            <p className="text-slate-500 text-sm mt-1">
+              Gunakan akun Google untuk masuk atau daftar
+            </p>
+          </div>
 
           {error && (
             <div className="bg-red-50 text-red-700 text-sm rounded-xl p-3 mb-4 text-center">

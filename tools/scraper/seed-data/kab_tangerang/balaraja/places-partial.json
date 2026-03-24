@@ -1,12 +1,12 @@
 {
   "_meta": {
-    "scraped_at": "2026-03-24T08:27:06.882Z",
-    "total_places": 993,
+    "scraped_at": "2026-03-24T08:39:28.635Z",
+    "total_places": 1044,
     "by_category": {
       "kuliner": 376,
       "jasa": 351,
       "otomotif": 238,
-      "kecantikan": 28
+      "kecantikan": 79
     },
     "potential_duplicates": []
   },
@@ -34678,6 +34678,1980 @@
           "rating": 5,
           "text": "Kerja y telaten istri ku jadi puas",
           "date": "3 tahun lalu"
+        }
+      ],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJuVNRrtgAQi4RWaAaw41pUEw",
+      "name": "SALON MAWAR",
+      "address": "Talaga Cakwah, Kec. Cikupa, Kabupaten Tangerang, Banten 15710",
+      "maps_url": "https://www.google.com/maps/place/SALON+MAWAR/data=!4m7!3m6!1s0x2e4200d8ae5153b9:0x4c50698dc31aa059!8m2!3d-6.2139001!4d106.5088325!16s%2Fg%2F11gdtjjrk7!19sChIJuVNRrtgAQi4RWaAaw41pUEw?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": "Buka · Tutup pukul 17.30 ",
+      "category": "kecantikan",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.2139001,
+      "longitude": 106.5088325,
+      "google_types": "Salon Rambut",
+      "reviews": [
+        {
+          "author": "Ega Handayani",
+          "rating": 5,
+          "text": "Kontak whatsapp nya ada ga gan",
+          "date": "5 tahun lalu"
+        },
+        {
+          "author": "Ega Handayani",
+          "rating": 5,
+          "text": "Kontak whatsapp nya ada ga gan",
+          "date": "5 tahun lalu"
+        },
+        {
+          "author": "gaming mouse",
+          "rating": 5,
+          "text": "Hasilnya istimewa",
+          "date": "8 tahun lalu"
+        },
+        {
+          "author": "gaming mouse",
+          "rating": 5,
+          "text": "Hasilnya istimewa",
+          "date": "8 tahun lalu"
+        },
+        {
+          "author": "Hendra Legawa",
+          "rating": 5,
+          "text": "Bagus",
+          "date": "6 tahun lalu"
+        }
+      ],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJSXbUZgAHQi4Rv35wlhig0eM",
+      "name": "Aurora Beauty Salon",
+      "address": "Dukuh, Kec. Cikupa, Kabupaten Tangerang, Banten 15710",
+      "maps_url": "https://www.google.com/maps/place/Aurora+Beauty+Salon/data=!4m7!3m6!1s0x2e42070066d47649:0xe3d1a01896707ebf!8m2!3d-6.2444126!4d106.5306771!16s%2Fg%2F11w_xlrb3_!19sChIJSXbUZgAHQi4Rv35wlhig0eM?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": "Buka · Tutup pukul 21.00 ",
+      "category": "kecantikan",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.2444126,
+      "longitude": 106.5306771,
+      "google_types": "Salon Kecantikan",
+      "reviews": [
+        {
+          "author": "Tria Oktaviani",
+          "rating": 5,
+          "text": "Salon langganan banget, udah lama engga pernah kesalon, terus nemu salon ini cocok bgt dan ga malu juga dateng ke salonnya karna wktu itu rambut kaya singa + tipis bgt.  sempet ga nyalon berbulan2, akhirnya balik lagi ke salon ini. …",
+          "date": "6 bulan lalu"
+        },
+        {
+          "author": "Tria Oktaviani",
+          "rating": 5,
+          "text": "Salon langganan banget, udah lama engga pernah kesalon, terus nemu salon ini cocok bgt dan ga malu juga dateng ke salonnya karna wktu itu rambut kaya singa + tipis bgt.  sempet ga nyalon berbulan2, akhirnya balik lagi ke salon ini. …",
+          "date": "6 bulan lalu"
+        },
+        {
+          "author": "Elsa Marinda",
+          "rating": 5,
+          "text": "Treatment rambut disini puas sekalii , kakak nyaa pada baik dan ramah2\nRekomendasi bgt sihh , kalian harus coba",
+          "date": "2 bulan lalu"
+        },
+        {
+          "author": "Elsa Marinda",
+          "rating": 5,
+          "text": "Treatment rambut disini puas sekalii , kakak nyaa pada baik dan ramah2\nRekomendasi bgt sihh , kalian harus coba",
+          "date": "2 bulan lalu"
+        },
+        {
+          "author": "Celine Dion",
+          "rating": 5,
+          "text": "Hasil smotingy bagus bgt..tahan lama ..gigi gingsuly jg cantik..awet..owner-nya ramah dan baik hati..puas pokoknya nyalon d Aurora beauty salon....thx ea KK..",
+          "date": "4 bulan lalu"
+        }
+      ],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJZ45ZVXQBQi4R2jM9nyRcVSI",
+      "name": "DORA Beauty Salon",
+      "address": "RF56+PFM, Jl. Raya Kresek, Saga, Kec. Balaraja, Kabupaten Tangerang, Banten 15610",
+      "maps_url": "https://www.google.com/maps/place/DORA+Beauty+Salon/data=!4m7!3m6!1s0x2e42017455598e67:0x22555c249f3d33da!8m2!3d-6.1906545!4d106.4611802!16s%2Fg%2F11wc310w38!19sChIJZ45ZVXQBQi4R2jM9nyRcVSI?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": "Buka · Tutup pukul 20.00 Diperbarui oleh pengguna lain 6 minggu yang lalu",
+      "category": "kecantikan",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.1906545,
+      "longitude": 106.4611802,
+      "google_types": "Salon Kecantikan",
+      "reviews": [
+        {
+          "author": "quh vanie ajah",
+          "rating": 5,
+          "text": "Puas sangat bagus,jangan lihat dari omongan orang tuh salon jelek\nPadahal hasil nya memuaskan",
+          "date": "sebulan lalu"
+        },
+        {
+          "author": "quh vanie ajah",
+          "rating": 5,
+          "text": "Puas sangat bagus,jangan lihat dari omongan orang tuh salon jelek\nPadahal hasil nya memuaskan",
+          "date": "sebulan lalu"
+        },
+        {
+          "author": "Raisya najla Kurnia putri",
+          "rating": 5,
+          "text": "50k buat cuci + potong + catok worth it bangeeet, hasilnya jugaa bagus aku sukaaa 💕 …",
+          "date": "5 bulan lalu"
+        },
+        {
+          "author": "Raisya najla Kurnia putri",
+          "rating": 5,
+          "text": "50k buat cuci + potong + catok worth it bangeeet, hasilnya jugaa bagus aku sukaaa 💕 …",
+          "date": "5 bulan lalu"
+        }
+      ],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJiYNHWAABQi4RWzcGucvYg5U",
+      "name": "D'VA Beauty Salon",
+      "address": "Jl. Raya Kresek, Balaraja, Kec. Balaraja, Kabupaten Tangerang, Banten",
+      "maps_url": "https://www.google.com/maps/place/D%27VA+Beauty+Salon/data=!4m7!3m6!1s0x2e42010058478389:0x9583d8cbb906375b!8m2!3d-6.189838!4d106.4588734!16s%2Fg%2F11y54gvwcm!19sChIJiYNHWAABQi4RWzcGucvYg5U?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": "Buka · Tutup pukul 21.00 ",
+      "category": "kecantikan",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.189838,
+      "longitude": 106.4588734,
+      "google_types": "Salon Kecantikan",
+      "reviews": [],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJRSc8fE4HQi4RMejl0BEaJI8",
+      "name": "Fans Salon",
+      "address": "Ruko Danau Citra Raya, Blk. A3 No.12, Cikupa, Kec. Cikupa, Kabupaten Tangerang, Banten 15710",
+      "maps_url": "https://www.google.com/maps/place/Fans+Salon/data=!4m7!3m6!1s0x2e42074e7c3c2745:0x8f241a11d0e5e831!8m2!3d-6.2325525!4d106.5206229!16s%2Fg%2F11clsngbm2!19sChIJRSc8fE4HQi4RMejl0BEaJI8?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": "Buka · Tutup pukul 19.00 ",
+      "category": "kecantikan",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.2325525,
+      "longitude": 106.5206229,
+      "google_types": "Salon Kecantikan",
+      "reviews": [
+        {
+          "author": "yulitha hermila sari",
+          "rating": 5,
+          "text": "Langganan dari 2013, kesini dari waktu masih sekolah sampe punya anak 1 😄 …",
+          "date": "setahun lalu"
+        },
+        {
+          "author": "yulitha hermila sari",
+          "rating": 5,
+          "text": "Langganan dari 2013, kesini dari waktu masih sekolah sampe punya anak 1 😄 …",
+          "date": "setahun lalu"
+        },
+        {
+          "author": "kho jacq",
+          "rating": 5,
+          "text": "Potongan rambutnya rapi, pijitan saat creambath bikin saya sampe tidur. Nagih banget deh pelayanannya",
+          "date": "7 tahun lalu"
+        },
+        {
+          "author": "kho jacq",
+          "rating": 5,
+          "text": "Potongan rambutnya rapi, pijitan saat creambath bikin saya sampe tidur. Nagih banget deh pelayanannya",
+          "date": "7 tahun lalu"
+        },
+        {
+          "author": "상택남",
+          "rating": 5,
+          "text": "Mudah cari alamat",
+          "date": "2 tahun lalu"
+        }
+      ],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJrfq_u8YAQi4RvIpxOfYR0LM",
+      "name": "Nadia Salon",
+      "address": "Jl. Cihideung, RT.03/RW.02, Talaga, Kec. Cikupa, Kabupaten Tangerang, Banten 15710",
+      "maps_url": "https://www.google.com/maps/place/Nadia+Salon/data=!4m7!3m6!1s0x2e4200c6bbbffaad:0xb3d011f639718abc!8m2!3d-6.212988!4d106.5064106!16s%2Fg%2F11c59443j8!19sChIJrfq_u8YAQi4RvIpxOfYR0LM?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": "Buka · Tutup pukul 21.00 ",
+      "category": "kecantikan",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.212988,
+      "longitude": 106.5064106,
+      "google_types": "Salon Rambut",
+      "reviews": [
+        {
+          "author": "Hendrik Agus",
+          "rating": 5,
+          "text": "Bisa kirim alat semir gak masih daerah Cikupa",
+          "date": "4 bulan lalu"
+        },
+        {
+          "author": "Hendrik Agus",
+          "rating": 5,
+          "text": "Bisa kirim alat semir gak masih daerah Cikupa",
+          "date": "4 bulan lalu"
+        },
+        {
+          "author": "Ahmad Saripin",
+          "rating": 5,
+          "text": "Ok bagus",
+          "date": "5 tahun lalu"
+        },
+        {
+          "author": "Ahmad Saripin",
+          "rating": 5,
+          "text": "Ok bagus",
+          "date": "5 tahun lalu"
+        },
+        {
+          "author": "Muhamad Jaal Baqiruddin",
+          "rating": 5,
+          "text": "Terimakasih",
+          "date": "2 tahun lalu"
+        }
+      ],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJm15wJGYHQi4R3NzZRIheVIs",
+      "name": "Srikandi Spa Khusus Wanita",
+      "address": "Jl. Ecopolis Citra Raya, Mekar Bakti, Kec. Panongan, Kabupaten Tangerang, Banten 15710",
+      "maps_url": "https://www.google.com/maps/place/Srikandi+Spa+Khusus+Wanita/data=!4m7!3m6!1s0x2e42076624705e9b:0x8b545e8844d9dcdc!8m2!3d-6.2508135!4d106.5234455!16s%2Fg%2F11fy_qhh57!19sChIJm15wJGYHQi4R3NzZRIheVIs?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": "Buka · Tutup pukul 19.00 ",
+      "category": "kecantikan",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.2508135,
+      "longitude": 106.5234455,
+      "google_types": "Day Spa",
+      "reviews": [
+        {
+          "author": "Alif Via Azzahra",
+          "rating": 5,
+          "text": "Sudah beberapa kali treatment disini badan langsung rileks dan fresh, terapisnya ramah dan pijitannya enak. Rekomend banget buat ciwi ciwi yg mau me time daerah citra raya🥰 …",
+          "date": "2 tahun lalu"
+        },
+        {
+          "author": "Alif Via Azzahra",
+          "rating": 5,
+          "text": "Sudah beberapa kali treatment disini badan langsung rileks dan fresh, terapisnya ramah dan pijitannya enak. Rekomend banget buat ciwi ciwi yg mau me time daerah citra raya🥰 …",
+          "date": "2 tahun lalu"
+        },
+        {
+          "author": "Kharizma Arivianti",
+          "rating": 5,
+          "text": "Aku udh beberapa kali kesini, nyoba di spa lain yaa menurutku pijatannya lebih lumayan disini dibandingkan tempat lain",
+          "date": "2 tahun lalu"
+        },
+        {
+          "author": "Kharizma Arivianti",
+          "rating": 5,
+          "text": "Aku udh beberapa kali kesini, nyoba di spa lain yaa menurutku pijatannya lebih lumayan disini dibandingkan tempat lain",
+          "date": "2 tahun lalu"
+        },
+        {
+          "author": "Rini Yuliarti",
+          "rating": 5,
+          "text": "Terapisny sih sudah ramah, pijitan nya jg tdk trllu sakit, akses nya mudah..sukses trs srikandi, next mau coba facial n ginger massage nya",
+          "date": "Diedit 2 tahun lalu"
+        }
+      ],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJj-KnVFoHQi4RJhYyFoyCXAQ",
+      "name": "Salon & Gallery Zuu makeup",
+      "address": "Kp.pabuaran dukuh RT 10/03 Kec.cikupa, Dukuh, Kec. Tangerang, Kabupaten Tangerang, Banten 15710",
+      "maps_url": "https://www.google.com/maps/place/Salon+%26+Gallery+Zuu+makeup/data=!4m7!3m6!1s0x2e42075a54a7e28f:0x45c828c16321626!8m2!3d-6.2366062!4d106.5353391!16s%2Fg%2F11rwr2hr6j!19sChIJj-KnVFoHQi4RJhYyFoyCXAQ?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": "Buka · Tutup pukul 21.00·Lihat jam lainnya",
+      "category": "kecantikan",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.2366062,
+      "longitude": 106.5353391,
+      "google_types": "Salon Kecantikan",
+      "reviews": [
+        {
+          "author": "Abcd Efg",
+          "rating": 5,
+          "text": "Yang aku suka perawatan disini, tempatnya nyaman,bersih,hasil nya memuaskan,Super humble banget teteh nya, recommend banget buat kalian yang mau coba perawatan",
+          "date": "3 minggu lalu"
+        },
+        {
+          "author": "Abcd Efg",
+          "rating": 5,
+          "text": "Yang aku suka perawatan disini, tempatnya nyaman,bersih,hasil nya memuaskan,Super humble banget teteh nya, recommend banget buat kalian yang mau coba perawatan",
+          "date": "3 minggu lalu"
+        },
+        {
+          "author": "dea Silvia",
+          "rating": 5,
+          "text": "Mantaapp banget potong rambut Disni 🥰 owner-nya baik supel banget lagi asyik jadinya pengen balik lagi terusss ❤️ …",
+          "date": "3 minggu lalu"
+        },
+        {
+          "author": "dea Silvia",
+          "rating": 5,
+          "text": "Mantaapp banget potong rambut Disni 🥰 owner-nya baik supel banget lagi asyik jadinya pengen balik lagi terusss ❤️ …",
+          "date": "3 minggu lalu"
+        },
+        {
+          "author": "mell melll",
+          "rating": 5,
+          "text": "baru kemarin treatmeant di sini.. hasil nya alhamdulillah sesuai yg di harapkan.. puaaasssss dan owner nya jg ramah baik",
+          "date": "3 minggu lalu"
+        }
+      ],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJxapbK0YHQi4RJIR4whwLEjg",
+      "name": "Ary SALON",
+      "address": "QG67+VPV, Jl. Padat Karya, Sukamulya, Kec. Cikupa, Kabupaten Tangerang, Banten 15710",
+      "maps_url": "https://www.google.com/maps/place/Ary+SALON/data=!4m7!3m6!1s0x2e4207462b5baac5:0x38120b1cc2788424!8m2!3d-6.2377623!4d106.5142837!16s%2Fg%2F11ddxpq0rd!19sChIJxapbK0YHQi4RJIR4whwLEjg?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": "Buka 24 jam ",
+      "category": "kecantikan",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.2377623,
+      "longitude": 106.5142837,
+      "google_types": "Salon Kecantikan",
+      "reviews": [
+        {
+          "author": "Ririin Nazhila",
+          "rating": 5,
+          "text": "Tempat apa yah.hah",
+          "date": "4 tahun lalu"
+        },
+        {
+          "author": "Ririin Nazhila",
+          "rating": 5,
+          "text": "Tempat apa yah.hah",
+          "date": "4 tahun lalu"
+        },
+        {
+          "author": "Ary Azhari",
+          "rating": 5,
+          "text": "Dan sebuah salon",
+          "date": "2 tahun lalu"
+        },
+        {
+          "author": "Ary Azhari",
+          "rating": 5,
+          "text": "Dan sebuah salon",
+          "date": "2 tahun lalu"
+        }
+      ],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJd2JaAKAHQi4RWA5QEVLDsvc",
+      "name": "Gea Salon",
+      "address": "Ruko Little Ginza, Jl. Citra Raya Boulevard No.235 Blok P02, cikupa, Kec. Panongan, Kabupaten Tangerang, Banten 15710",
+      "maps_url": "https://www.google.com/maps/place/Gea+Salon/data=!4m7!3m6!1s0x2e4207a0005a6277:0xf7b2c35211500e58!8m2!3d-6.2560231!4d106.5264597!16s%2Fg%2F11mkp9xhd7!19sChIJd2JaAKAHQi4RWA5QEVLDsvc?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": null,
+      "category": "kecantikan",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.2560231,
+      "longitude": 106.5264597,
+      "google_types": "Salon Kecantikan",
+      "reviews": [
+        {
+          "author": "honeybee 1428",
+          "rating": 5,
+          "text": "Pelayanan nya ramah dan profesional.\nHasil potongan nya rapi banget sesuai keinginan dan harganya sebanding dengan kualitas nya. …",
+          "date": "4 bulan lalu"
+        },
+        {
+          "author": "honeybee 1428",
+          "rating": 5,
+          "text": "Pelayanan nya ramah dan profesional.\nHasil potongan nya rapi banget sesuai keinginan dan harganya sebanding dengan kualitas nya. …",
+          "date": "4 bulan lalu"
+        },
+        {
+          "author": "Dera Namira",
+          "rating": 5,
+          "text": "pelayanannya bagus,tempatnya aestatich😍 …",
+          "date": "4 bulan lalu"
+        },
+        {
+          "author": "Dera Namira",
+          "rating": 5,
+          "text": "pelayanannya bagus,tempatnya aestatich😍 …",
+          "date": "4 bulan lalu"
+        },
+        {
+          "author": "Mrs_ Yuni",
+          "rating": 5,
+          "text": "Pelayanannya bagus, ramah,hasilnya pun memuaskan 👍\nNext nanti perawatan yang lain. …",
+          "date": "4 bulan lalu"
+        }
+      ],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJ40hmdQABQi4Rsf1LqZr8aL8",
+      "name": "Dora beauty salon",
+      "address": "Jl. Raya Kresek No.Depan, Kecamatan Lama, Kec. Balaraja, Kabupaten Tangerang, Banten",
+      "maps_url": "https://www.google.com/maps/place/Dora+beauty+salon/data=!4m7!3m6!1s0x2e420100756648e3:0xbf68fc9aa94bfdb1!8m2!3d-6.1762175!4d106.4460281!16s%2Fg%2F11y50f4nt6!19sChIJ40hmdQABQi4Rsf1LqZr8aL8?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": null,
+      "category": "kecantikan",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.1762175,
+      "longitude": 106.4460281,
+      "google_types": "Salon Kecantikan",
+      "reviews": [
+        {
+          "author": "Nuri 7",
+          "rating": 5,
+          "text": "Pelayanan and servisnya bagus juga nyaman",
+          "date": "7 bulan lalu"
+        },
+        {
+          "author": "Nuri 7",
+          "rating": 5,
+          "text": "Pelayanan and servisnya bagus juga nyaman",
+          "date": "7 bulan lalu"
+        },
+        {
+          "author": "Liza Farlina",
+          "rating": 5,
+          "text": "Cucok salon disini nyaman udh kedua kalinya smoothing dan warnain disini",
+          "date": "setahun lalu"
+        },
+        {
+          "author": "Liza Farlina",
+          "rating": 5,
+          "text": "Cucok salon disini nyaman udh kedua kalinya smoothing dan warnain disini",
+          "date": "setahun lalu"
+        },
+        {
+          "author": "quh vanie ajah",
+          "rating": 5,
+          "text": "Sangat puas dan bagus tidak kecewa",
+          "date": "setahun lalu"
+        }
+      ],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJD3qbdLv9aS4RyCd51kcZw2s",
+      "name": "Cindy Salon",
+      "address": "Jalan Raya Parigi No.57 RT.03/07, Suka Bakti, Curug, Sukabakti, Kec. Curug, Kabupaten Tangerang, Banten 15810",
+      "maps_url": "https://www.google.com/maps/place/Cindy+Salon/data=!4m7!3m6!1s0x2e69fdbb749b7a0f:0x6bc31947d67927c8!8m2!3d-6.2540944!4d106.5655429!16s%2Fg%2F11b5wkfd9b!19sChIJD3qbdLv9aS4RyCd51kcZw2s?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": "Buka · Tutup pukul 19.00 ",
+      "category": "kecantikan",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.2540944,
+      "longitude": 106.5655429,
+      "google_types": "Salon Kecantikan",
+      "reviews": [
+        {
+          "author": "Tikaaa syahraniii",
+          "rating": 5,
+          "text": "sukaaaa bngt sm potongan nyaaa, rapih bagus ga bikin kecewa\nintinya the Best bngt buat salon nyaa",
+          "date": "seminggu lalu"
+        },
+        {
+          "author": "Tikaaa syahraniii",
+          "rating": 5,
+          "text": "sukaaaa bngt sm potongan nyaaa, rapih bagus ga bikin kecewa\nintinya the Best bngt buat salon nyaa",
+          "date": "seminggu lalu"
+        },
+        {
+          "author": "erlinah jjj",
+          "rating": 5,
+          "text": "Makasih cci ud repair rambut saya, puas banget sama hasilnya 😍😍aku rekomen banget dengan cindy salon ini cci nya telaten & rapi banget kerjanya n semua crew ramah & humoris walaupun keratin smooth yg hampir setengah hari dijamin kalian gak akan bosen n gabut 😊😄 maacih cci 😘🤗🤗 …",
+          "date": "sebulan lalu"
+        },
+        {
+          "author": "erlinah jjj",
+          "rating": 5,
+          "text": "Makasih cci ud repair rambut saya, puas banget sama hasilnya 😍😍aku rekomen banget dengan cindy salon ini cci nya telaten & rapi banget kerjanya n semua crew ramah & humoris walaupun keratin smooth yg hampir setengah hari dijamin kalian gak akan bosen n gabut 😊😄 maacih cci 😘🤗🤗 …",
+          "date": "sebulan lalu"
+        },
+        {
+          "author": "Rahma Dwi Setiawati",
+          "rating": 5,
+          "text": "Waaah kalo ada sampe bintang 10 aku kasih bintang 10 .\nSalonnya bersih, pengerjaannya detail banget, di kasih saran cocok atau gak nya . …",
+          "date": "4 bulan lalu"
+        }
+      ],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJAWAQtU0HQi4Rmev1kB0eSKc",
+      "name": "Anita salon citra raya",
+      "address": "Taman chrysant, Jl. Graha Raya No.19 blok Q2, Ciakar, Kec. Panongan, Kabupaten Tangerang, Banten 15710",
+      "maps_url": "https://www.google.com/maps/place/Anita+salon+citra+raya/data=!4m7!3m6!1s0x2e42074db5106001:0xa7481e1d90f5eb99!8m2!3d-6.2602369!4d106.5281746!16s%2Fg%2F11jr6krr63!19sChIJAWAQtU0HQi4Rmev1kB0eSKc?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": "Buka · Tutup pukul 20.00 ",
+      "category": "kecantikan",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.2602369,
+      "longitude": 106.5281746,
+      "google_types": "Salon Kecantikan",
+      "reviews": [
+        {
+          "author": "Sulihat",
+          "rating": 5,
+          "text": "Wow keren aku suka hasil nya\nWarna rambut ku jadi cantik\nPelayanan nya sopan and ramah\nPokoknya aku suka deh ❤️❤️❤️❤️❤️💋💋💋💋💋 …",
+          "date": "2 tahun lalu"
+        },
+        {
+          "author": "Sulihat",
+          "rating": 5,
+          "text": "Wow keren aku suka hasil nya\nWarna rambut ku jadi cantik\nPelayanan nya sopan and ramah\nPokoknya aku suka deh ❤️❤️❤️❤️❤️💋💋💋💋💋 …",
+          "date": "2 tahun lalu"
+        },
+        {
+          "author": "rahma wati",
+          "rating": 5,
+          "text": "Hasil potongannya bagus, pengerjaannya rapih dan teliti banget. Kaka nya ramah.",
+          "date": "7 bulan lalu"
+        },
+        {
+          "author": "rahma wati",
+          "rating": 5,
+          "text": "Hasil potongannya bagus, pengerjaannya rapih dan teliti banget. Kaka nya ramah.",
+          "date": "7 bulan lalu"
+        },
+        {
+          "author": "Lisset Claudia",
+          "rating": 5,
+          "text": "harganya terjangkau, mba nya baik dan memberikan saran yang bagus, mantabb",
+          "date": "setahun lalu"
+        }
+      ],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJk1jQkisHQi4RMCBpCxLoHs8",
+      "name": "Edhew Beauty",
+      "address": "Jl. Kp. Dukuh Jl. Mesjid Al Anam Pabuaran Dukuh No.41, RT.005/RW.02, Dukuh, Kec. Cikupa, Kabupaten Tangerang, Banten 15710",
+      "maps_url": "https://www.google.com/maps/place/Edhew+Beauty/data=!4m7!3m6!1s0x2e42072b92d05893:0xcf1ee8120b692030!8m2!3d-6.2337879!4d106.529219!16s%2Fg%2F11lm8ljqyg!19sChIJk1jQkisHQi4RMCBpCxLoHs8?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": "Buka · Tutup pukul 22.00 ",
+      "category": "kecantikan",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.2337879,
+      "longitude": 106.529219,
+      "google_types": "Salon Kecantikan",
+      "reviews": [
+        {
+          "author": "citramedya pratiwi",
+          "rating": 5,
+          "text": "Langganan eyelash di edhew beauty.. nyaman ga perih, dan pastinya awet .. udah di kucek2 tetep kuat eyelashnya.. sekali pasang dsn ga berpindah ke lainhati.. sampe kluarga dan temen juga eyelash dsn❤️",
+          "date": "setahun lalu"
+        },
+        {
+          "author": "citramedya pratiwi",
+          "rating": 5,
+          "text": "Langganan eyelash di edhew beauty.. nyaman ga perih, dan pastinya awet .. udah di kucek2 tetep kuat eyelashnya.. sekali pasang dsn ga berpindah ke lainhati.. sampe kluarga dan temen juga eyelash dsn❤️",
+          "date": "setahun lalu"
+        },
+        {
+          "author": "Imelia Wati",
+          "rating": 5,
+          "text": "tiap bulan gapernah absen eyelash di tempat ini,hasilnya bagus ga gumpal,lem nya kuat,ga nusuk2 .harganya juga masi aman di kantong,plissss jangan ragu buat eyelash disini",
+          "date": "setahun lalu"
+        },
+        {
+          "author": "Imelia Wati",
+          "rating": 5,
+          "text": "tiap bulan gapernah absen eyelash di tempat ini,hasilnya bagus ga gumpal,lem nya kuat,ga nusuk2 .harganya juga masi aman di kantong,plissss jangan ragu buat eyelash disini",
+          "date": "setahun lalu"
+        },
+        {
+          "author": "dwi wanti",
+          "rating": 5,
+          "text": "Selalu langganan eyelash di edhew beauty,  pemasangan cepat, rapih, owner nya ramah.. top banget. Sukses terus edhew beauty... ❤️",
+          "date": "10 bulan lalu"
+        }
+      ],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJG1eFv5sBQi4RKqrlRf49gcY",
+      "name": "Wina Salon Hair & Beauty talaga sari cikupa",
+      "address": "Jl. Raya Otonom Cikupa Jln otonom No.32 RT/RW 01/01, Talagasari, Kec. Cikupa, Kabupaten Tangerang, Banten 15710",
+      "maps_url": "https://www.google.com/maps/place/Wina+Salon+Hair+%26+Beauty+talaga+sari+cikupa/data=!4m7!3m6!1s0x2e42019bbf85571b:0xc6813dfe45e5aa2a!8m2!3d-6.2271281!4d106.5196561!16s%2Fg%2F11p64k6qvx!19sChIJG1eFv5sBQi4RKqrlRf49gcY?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": "Buka · Tutup pukul 18.00 ",
+      "category": "kecantikan",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.2271281,
+      "longitude": 106.5196561,
+      "google_types": "Salon Rambut",
+      "reviews": [
+        {
+          "author": "anisa afrida",
+          "rating": 5,
+          "text": "Pelayanan sangat memuaskan rapih dan bersih tempat pun nyaman🥰 …",
+          "date": "sebulan lalu"
+        },
+        {
+          "author": "anisa afrida",
+          "rating": 5,
+          "text": "Pelayanan sangat memuaskan rapih dan bersih tempat pun nyaman🥰 …",
+          "date": "sebulan lalu"
+        }
+      ],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJ-fvwFAADQi4R0o-yG6xUPCU",
+      "name": "Aruna Beauty Clinic",
+      "address": "Jl. Raya Kresek, Balaraja, Kec. Balaraja, Regency, Banten 15610",
+      "maps_url": "https://www.google.com/maps/place/Aruna+Beauty+Clinic/data=!4m7!3m6!1s0x2e42030014f0fbf9:0x253c54ac1bb28fd2!8m2!3d-6.1904522!4d106.4607653!16s%2Fg%2F11y38q265v!19sChIJ-fvwFAADQi4R0o-yG6xUPCU?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": "Tutup · Buka Rab pukul 09.00 ",
+      "category": "kecantikan",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.1904522,
+      "longitude": 106.4607653,
+      "google_types": "Toko Kesehatan dan Kecantikan",
+      "reviews": [
+        {
+          "author": "Sofianto Hong",
+          "rating": 5,
+          "text": "Pertama kali coba facial di sini overall puas dengan pelayanannya.\n\nLayanan sangat ramah, cepat dan komunikatif. …",
+          "date": "2 tahun lalu"
+        },
+        {
+          "author": "Sofianto Hong",
+          "rating": 5,
+          "text": "Pertama kali coba facial di sini overall puas dengan pelayanannya.\n\nLayanan sangat ramah, cepat dan komunikatif. …",
+          "date": "2 tahun lalu"
+        },
+        {
+          "author": "DESI MELIANA",
+          "rating": 5,
+          "text": "Tempat nya bersih, nyaman, pelayanan ramah bgt dr fo smpe therapist nya ka rita. Baru pertama facial kesini puas bgt. Dan harus balik lagi next time",
+          "date": "setahun lalu"
+        },
+        {
+          "author": "DESI MELIANA",
+          "rating": 5,
+          "text": "Tempat nya bersih, nyaman, pelayanan ramah bgt dr fo smpe therapist nya ka rita. Baru pertama facial kesini puas bgt. Dan harus balik lagi next time",
+          "date": "setahun lalu"
+        },
+        {
+          "author": "Desy Damayanti",
+          "rating": 5,
+          "text": "Pertama kali treatment di aruna pelayanan nya ramah & menyenangkan, treatmentnya memuaskan. Admin nya fast respon. Harganya ramah di kantong. Makasih aruna clinic",
+          "date": "setahun lalu"
+        }
+      ],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJ_1LfRQb9aS4RyXBfey1vu3o",
+      "name": "SANDDY Hair Salon",
+      "address": "Jl. Diklat Pemda, Sukabakti, Kec. Curug, Kabupaten Tangerang, Banten 15810",
+      "maps_url": "https://www.google.com/maps/place/SANDDY+Hair+Salon/data=!4m7!3m6!1s0x2e69fd0645df52ff:0x7abb6f2d7b5f70c9!8m2!3d-6.2562389!4d106.5757536!16s%2Fg%2F11xkd5rv2p!19sChIJ_1LfRQb9aS4RyXBfey1vu3o?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": "Buka · Tutup pukul 21.00 ",
+      "category": "kecantikan",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.2562389,
+      "longitude": 106.5757536,
+      "google_types": "Salon Kecantikan",
+      "reviews": [
+        {
+          "author": "Dopamine Dopamine",
+          "rating": 5,
+          "text": "Hari ini datang ke Sanddy salon karena merasa rambut sudah berantakan seperti orgil ;), mau potong rambut dan creambath. Potong rambut sama ibu Susan yang ramah, cekatan dan yang pasti hasilnya bagus bgt sesuai dengan yang diharapkan. Untuk …",
+          "date": "3 minggu lalu"
+        },
+        {
+          "author": "Dopamine Dopamine",
+          "rating": 5,
+          "text": "Hari ini datang ke Sanddy salon karena merasa rambut sudah berantakan seperti orgil ;), mau potong rambut dan creambath. Potong rambut sama ibu Susan yang ramah, cekatan dan yang pasti hasilnya bagus bgt sesuai dengan yang diharapkan. Untuk …",
+          "date": "3 minggu lalu"
+        },
+        {
+          "author": "Devina Andiani",
+          "rating": 5,
+          "text": "Pertama kalinya ke sanddy salon, pas bgt deket dari rumah jalan kaki jg bisa haha. Aku hair mask+smoothing, sat set bangett yg ngerjain bisa 2-3 orang, jadinya cepett. Hasilnya oke sih, puasss. Thankyou sanddy salon😉⭐️⭐️⭐️⭐️⭐️ …",
+          "date": "2 bulan lalu"
+        },
+        {
+          "author": "Devina Andiani",
+          "rating": 5,
+          "text": "Pertama kalinya ke sanddy salon, pas bgt deket dari rumah jalan kaki jg bisa haha. Aku hair mask+smoothing, sat set bangett yg ngerjain bisa 2-3 orang, jadinya cepett. Hasilnya oke sih, puasss. Thankyou sanddy salon😉⭐️⭐️⭐️⭐️⭐️ …",
+          "date": "2 bulan lalu"
+        },
+        {
+          "author": "Daniella Satyasari",
+          "rating": 5,
+          "text": "Dipotongin langsung sm ownernya. Rapih n cekatan. Lalu hair mask dan dicatok.\nPelayanan baik, ramah.\nTempat bersih. …",
+          "date": "3 minggu lalu"
+        }
+      ],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJ00iUUnwHQi4RFy_19gvSbwc",
+      "name": "VITA SALON - CITRA RAYA",
+      "address": "Jalan Padat Karya RT 08 RW 07 Cipari Ciakar Panongan, Ciakar, Kabupaten Tangerang, Banten 15710",
+      "maps_url": "https://www.google.com/maps/place/VITA+SALON+-+CITRA+RAYA/data=!4m7!3m6!1s0x2e42077c529448d3:0x76fd20bf6f52f17!8m2!3d-6.2606024!4d106.5319136!16s%2Fg%2F11cm630png!19sChIJ00iUUnwHQi4RFy_19gvSbwc?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": "Buka · Tutup pukul 19.00 ",
+      "category": "kecantikan",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.2606024,
+      "longitude": 106.5319136,
+      "google_types": "Salon Kecantikan",
+      "reviews": [
+        {
+          "author": "Bobby Wellington",
+          "rating": 5,
+          "text": "Pemasangan bulu mata oke banget, dikasih tau stepnya ga boleh diapakah supaya ga gampang copot.\nAda retouchnya jika dalam waktu dekat ingin retouch. …",
+          "date": "5 bulan lalu"
+        },
+        {
+          "author": "Bobby Wellington",
+          "rating": 5,
+          "text": "Pemasangan bulu mata oke banget, dikasih tau stepnya ga boleh diapakah supaya ga gampang copot.\nAda retouchnya jika dalam waktu dekat ingin retouch. …",
+          "date": "5 bulan lalu"
+        },
+        {
+          "author": "Maharani Roulina Simanjuntak",
+          "rating": 5,
+          "text": "Nail art dan eyelash nya terbaik se citra raya, udah beberapa kali ke sini.  Harganya juga murah banget😍😍😍 Tempatnya cukup bersih, tapi bisa ditingkatkan supaya tempat nya lebih bersih lagi✨ Terimakasihh …",
+          "date": "setahun lalu"
+        },
+        {
+          "author": "Maharani Roulina Simanjuntak",
+          "rating": 5,
+          "text": "Nail art dan eyelash nya terbaik se citra raya, udah beberapa kali ke sini.  Harganya juga murah banget😍😍😍 Tempatnya cukup bersih, tapi bisa ditingkatkan supaya tempat nya lebih bersih lagi✨ Terimakasihh …",
+          "date": "setahun lalu"
+        },
+        {
+          "author": "Derby Fransiska",
+          "rating": 5,
+          "text": "Selalu nail art disini, udah harga murah, hasilnya duhh bagusnya pakai banget, belum lagii setiap detailnya diperhatikan, dann juga cici nyaa ramahh banget jadi sepanjang nail ga berasa udah kelar ajaa, pokoknga the best deh",
+          "date": "setahun lalu"
+        }
+      ],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJN9cwCcEBQi4RStp2EJ-q_ls",
+      "name": "Nail Art Tangerang",
+      "address": "QGH9+C5C, Talagasari, Kec. Cikupa, Kabupaten Tangerang, Banten 15710",
+      "maps_url": "https://www.google.com/maps/place/Nail+Art+Tangerang/data=!4m7!3m6!1s0x2e4201c10930d737:0x5bfeaa9f1076da4a!8m2!3d-6.2214474!4d106.5178898!16s%2Fg%2F11sgj2lt17!19sChIJN9cwCcEBQi4RStp2EJ-q_ls?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": "Buka · Tutup pukul 18.00 ",
+      "category": "kecantikan",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.2214474,
+      "longitude": 106.5178898,
+      "google_types": "Salon Kuku",
+      "reviews": [
+        {
+          "author": "Indri Yani",
+          "rating": 5,
+          "text": "Nail art ter the best si buat kalangan menengah,  love banget",
+          "date": "3 tahun lalu"
+        },
+        {
+          "author": "Indri Yani",
+          "rating": 5,
+          "text": "Nail art ter the best si buat kalangan menengah,  love banget",
+          "date": "3 tahun lalu"
+        },
+        {
+          "author": "Dessy Chen",
+          "rating": 5,
+          "text": "Tersedia JAR 10 ml, 15 ml, 20 ml, 25 ml, 50 ml, 100 ml, 200 ml,",
+          "date": "3 tahun lalu"
+        },
+        {
+          "author": "Dessy Chen",
+          "rating": 5,
+          "text": "Tersedia JAR 10 ml, 15 ml, 20 ml, 25 ml, 50 ml, 100 ml, 200 ml,",
+          "date": "3 tahun lalu"
+        },
+        {
+          "author": "Yunita Kesiana",
+          "rating": 5,
+          "text": "Bagus banget sumpah!!! Kukunya juga awet 😢 …",
+          "date": "3 tahun lalu"
+        }
+      ],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJa1nODkYHQi4RnDRLmWVmbPY",
+      "name": "Chabita Salon",
+      "address": "Cikupa, Kec. Cikupa, Kabupaten Tangerang, Banten 15710",
+      "maps_url": "https://www.google.com/maps/place/Chabita+Salon/data=!4m7!3m6!1s0x2e4207460ece596b:0xf66c6665994b349c!8m2!3d-6.2376875!4d106.5179375!16s%2Fg%2F11b6sydd1h!19sChIJa1nODkYHQi4RnDRLmWVmbPY?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": "Tutup · Buka Rab pukul 10.00 ",
+      "category": "kecantikan",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.2376875,
+      "longitude": 106.5179375,
+      "google_types": "Salon Kecantikan",
+      "reviews": [
+        {
+          "author": "Mia Sumiyati",
+          "rating": 5,
+          "text": "suka bngt sma chabita salon langganan aku dari masih gadis 2016-2026 10tahun loh ga prnh ngecewain topp 👍🏻👍🏻👍🏻 …",
+          "date": "sebulan lalu"
+        },
+        {
+          "author": "Mia Sumiyati",
+          "rating": 5,
+          "text": "suka bngt sma chabita salon langganan aku dari masih gadis 2016-2026 10tahun loh ga prnh ngecewain topp 👍🏻👍🏻👍🏻 …",
+          "date": "sebulan lalu"
+        },
+        {
+          "author": "nona nona",
+          "rating": 5,
+          "text": "Tempatnya bagus, pelayananya juga oke bgtt..sering smooting rambut dsini dan hasilnya gak mengecewakan..sukses selalu chabita salon",
+          "date": "3 tahun lalu"
+        },
+        {
+          "author": "nona nona",
+          "rating": 5,
+          "text": "Tempatnya bagus, pelayananya juga oke bgtt..sering smooting rambut dsini dan hasilnya gak mengecewakan..sukses selalu chabita salon",
+          "date": "3 tahun lalu"
+        },
+        {
+          "author": "Abel Winola Azahra",
+          "rating": 5,
+          "text": "Pelayanan nya ramah dan saat creambath pijitan nya enak..murah lagi...recomended",
+          "date": "4 tahun lalu"
+        }
+      ],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJ82AAyjMHQi4Rm75FiN6SCMM",
+      "name": "Yuli Salon",
+      "address": "Jalan Padat Karya Rt 22 Rw 07 Desa Sukamulya Kabupayen, Sukamulya, Kec. Cikupa, Kabupaten Tangerang, Banten 15710",
+      "maps_url": "https://www.google.com/maps/place/Yuli+Salon/data=!4m7!3m6!1s0x2e420733ca0060f3:0xc30892de8845be9b!8m2!3d-6.2330236!4d106.5027678!16s%2Fg%2F11cm741l3_!19sChIJ82AAyjMHQi4Rm75FiN6SCMM?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": "Buka · Tutup pukul 21.00 ",
+      "category": "kecantikan",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.2330236,
+      "longitude": 106.5027678,
+      "google_types": "Salon Rambut",
+      "reviews": [
+        {
+          "author": "Paraffin Wax",
+          "rating": 5,
+          "text": "yuli salon sekarang pindah kemana yah...\nsaya bingung nyari penggantinya...\nsoalnya udah bertahun2 jd langganan yuli salon.",
+          "date": "7 tahun lalu"
+        },
+        {
+          "author": "Paraffin Wax",
+          "rating": 5,
+          "text": "yuli salon sekarang pindah kemana yah...\nsaya bingung nyari penggantinya...\nsoalnya udah bertahun2 jd langganan yuli salon.",
+          "date": "7 tahun lalu"
+        },
+        {
+          "author": "Sonny Ogawa",
+          "rating": 5,
+          "text": "Belum pernah kesini... Pelayanannya bagus ga sich?",
+          "date": "6 tahun lalu"
+        },
+        {
+          "author": "Sonny Ogawa",
+          "rating": 5,
+          "text": "Belum pernah kesini... Pelayanannya bagus ga sich?",
+          "date": "6 tahun lalu"
+        },
+        {
+          "author": "Arull Arull",
+          "rating": 5,
+          "text": "Tempat ini menguntungkan",
+          "date": "6 tahun lalu"
+        }
+      ],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJ4-QeIgABQi4Rpw2GwmIGIq4",
+      "name": "Jakarta timur Tangerang Banten Cikupa Serang",
+      "address": "RF73+QW6, Cikupa, Kec. Balaraja, Kabupaten Tangerang, Banten 15610",
+      "maps_url": "https://www.google.com/maps/place/Jakarta+timur+Tangerang+Banten+Cikupa+Serang/data=!4m7!3m6!1s0x2e420100221ee4e3:0xae220662c2860da7!8m2!3d-6.1855765!4d106.4547506!16s%2Fg%2F11y3h4mbrp!19sChIJ4-QeIgABQi4Rpw2GwmIGIq4?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": null,
+      "category": "kecantikan",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.1855765,
+      "longitude": 106.4547506,
+      "google_types": "Salon Rambut",
+      "reviews": [],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJm-JCN_IHQi4RTkO53_7ksj4",
+      "name": "Namora Beauty",
+      "address": "Perum Hijau Lestari Blok B3 no. 3, Kec. Panongan, Kabupaten Tangerang, Banten 15710",
+      "maps_url": "https://www.google.com/maps/place/Namora+Beauty/data=!4m7!3m6!1s0x2e4207f23742e29b:0x3eb2e4fedfb9434e!8m2!3d-6.2496968!4d106.5074908!16s%2Fg%2F11s7py_r2r!19sChIJm-JCN_IHQi4RTkO53_7ksj4?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": "Buka 24 jam ",
+      "category": "kecantikan",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.2496968,
+      "longitude": 106.5074908,
+      "google_types": "Salon Kecantikan",
+      "reviews": [
+        {
+          "author": "Rara Nurazizah",
+          "rating": 5,
+          "text": "Ternyaman, ownernya ramah bangettt .. jadi kinclong perawtaan disini",
+          "date": "3 tahun lalu"
+        },
+        {
+          "author": "Rara Nurazizah",
+          "rating": 5,
+          "text": "Ternyaman, ownernya ramah bangettt .. jadi kinclong perawtaan disini",
+          "date": "3 tahun lalu"
+        }
+      ],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJgyjL_VwHQi4R7MDgv5FaG9E",
+      "name": "Nina Salon & Spa",
+      "address": "QG4G+45F, Mekar Bakti, Kec. Panongan, Kabupaten Tangerang, Banten 15710",
+      "maps_url": "https://www.google.com/maps/place/Nina+Salon+%26+Spa/data=!4m7!3m6!1s0x2e42075cfdcb2883:0xd11b5a91bfe0c0ec!8m2!3d-6.2446883!4d106.5254075!16s%2Fg%2F11g8cyg35h!19sChIJgyjL_VwHQi4R7MDgv5FaG9E?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": "Buka · Tutup pukul 20.00 ",
+      "category": "kecantikan",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.2446883,
+      "longitude": 106.5254075,
+      "google_types": "Salon Kecantikan",
+      "reviews": [
+        {
+          "author": "Ubay klik 2021",
+          "rating": 5,
+          "text": "Iya",
+          "date": "6 tahun lalu"
+        },
+        {
+          "author": "Ubay klik 2021",
+          "rating": 5,
+          "text": "Iya",
+          "date": "6 tahun lalu"
+        },
+        {
+          "author": "yunus purwanto",
+          "rating": 5,
+          "text": "Joss tenan",
+          "date": "6 tahun lalu"
+        },
+        {
+          "author": "yunus purwanto",
+          "rating": 5,
+          "text": "Joss tenan",
+          "date": "6 tahun lalu"
+        },
+        {
+          "author": "Hartawan (Hartawan)",
+          "rating": 5,
+          "text": "Cinta",
+          "date": "2 tahun lalu"
+        }
+      ],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJU0F5giX9aS4RFWepJdbxOlI",
+      "name": "SALON DE CASA dan NIRVANA FAMILY MASSAGE & REFLEXOLOGY",
+      "address": "Ruko Hive Parc, Jl. Cendana Parc 1 Jl. Pasir Randu No.32, Kadu, Kec. Curug, Kabupaten Tangerang, Banten 15810",
+      "maps_url": "https://www.google.com/maps/place/SALON+DE+CASA+dan+NIRVANA+FAMILY+MASSAGE+%26+REFLEXOLOGY/data=!4m7!3m6!1s0x2e69fd2582794153:0x523af1d625a96715!8m2!3d-6.2366419!4d106.5782168!16s%2Fg%2F11vzyb8mk_!19sChIJU0F5giX9aS4RFWepJdbxOlI?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": "Buka · Tutup pukul 21.00 ",
+      "category": "kecantikan",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.2366419,
+      "longitude": 106.5782168,
+      "google_types": "Salon Kecantikan",
+      "reviews": [
+        {
+          "author": "amanda risty",
+          "rating": 5,
+          "text": "Akhirnya nemu salon yang cocok di deket rumah,tmptnya bersih, ber AC,prtama x ksana nyoba cuci potong blow,di potong sm yg cewe,sukaa banget hasil potongnya,mbanya ga too much,suka ngobrol tp ga trlalu bnyk ngomong jg jd kita nyaman …",
+          "date": "4 bulan lalu"
+        },
+        {
+          "author": "amanda risty",
+          "rating": 5,
+          "text": "Akhirnya nemu salon yang cocok di deket rumah,tmptnya bersih, ber AC,prtama x ksana nyoba cuci potong blow,di potong sm yg cewe,sukaa banget hasil potongnya,mbanya ga too much,suka ngobrol tp ga trlalu bnyk ngomong jg jd kita nyaman …",
+          "date": "4 bulan lalu"
+        },
+        {
+          "author": "Ruth Angelina Sanjaya",
+          "rating": 5,
+          "text": "Puas banget sama hasil guntingannya, bener2 sesuai sama yang diinginkan. Basic coloringnya juga bagusss, warnanya diracik sendiri sama hair stylistnya, Mas Eric, bisa bikin wajah gak keliatan kusam lagi. Mba Clara juga pelayanannya top banget, ramah, dan pijitannya enak. Akhirnya ada salon yang bagus tanpa harus ke mall lagi.",
+          "date": "setahun lalu"
+        },
+        {
+          "author": "Ruth Angelina Sanjaya",
+          "rating": 5,
+          "text": "Puas banget sama hasil guntingannya, bener2 sesuai sama yang diinginkan. Basic coloringnya juga bagusss, warnanya diracik sendiri sama hair stylistnya, Mas Eric, bisa bikin wajah gak keliatan kusam lagi. Mba Clara juga pelayanannya top banget, ramah, dan pijitannya enak. Akhirnya ada salon yang bagus tanpa harus ke mall lagi.",
+          "date": "setahun lalu"
+        },
+        {
+          "author": "Desti Mulyani",
+          "rating": 5,
+          "text": "Sukak banget pertama kali nyobain keratin smooth hasilnya bener-bener natural, halus bgt,sukak bgt, sesuai sama kemauan aku huhu kakak nya ramah2 the best pokoknya wajib nyalon disini",
+          "date": "setahun lalu"
+        }
+      ],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJ_VYdpK_9aS4RPO3hForXWNc",
+      "name": "Kharis Beauty Bar",
+      "address": "Jl. Aryana Karawaci No.ab 15, Sukabakti, Kec. Curug, Kabupaten Tangerang, Banten 15810",
+      "maps_url": "https://www.google.com/maps/place/Kharis+Beauty+Bar/data=!4m7!3m6!1s0x2e69fdafa41d56fd:0xd758d78a16e1ed3c!8m2!3d-6.2525678!4d106.5757192!16s%2Fg%2F11rk07w3cf!19sChIJ_VYdpK_9aS4RPO3hForXWNc?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": "Buka · Tutup pukul 19.00 ",
+      "category": "kecantikan",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.2525678,
+      "longitude": 106.5757192,
+      "google_types": "Salon Kecantikan",
+      "reviews": [
+        {
+          "author": "Asti Kusriyanti",
+          "rating": 5,
+          "text": "Suka banget sama hasil nailsnya rapih dan awet..\nIni udah 2 minggu lebih blm ada yang mengelupass, pelayanannya juga ramah .\nNice and cozy place!!  🥰 …",
+          "date": "3 bulan lalu"
+        },
+        {
+          "author": "Asti Kusriyanti",
+          "rating": 5,
+          "text": "Suka banget sama hasil nailsnya rapih dan awet..\nIni udah 2 minggu lebih blm ada yang mengelupass, pelayanannya juga ramah .\nNice and cozy place!!  🥰 …",
+          "date": "3 bulan lalu"
+        },
+        {
+          "author": "Divana Hitipeuw",
+          "rating": 5,
+          "text": "Thanks kak. Ramah, baik, pengerjaan cat eye ok, gelnya awet semoga bisa tahan 1 bulanan, tempatnya bersih dan rapi.\nSkali lagi makasihya kak udah menolong konseranku",
+          "date": "5 bulan lalu"
+        },
+        {
+          "author": "Divana Hitipeuw",
+          "rating": 5,
+          "text": "Thanks kak. Ramah, baik, pengerjaan cat eye ok, gelnya awet semoga bisa tahan 1 bulanan, tempatnya bersih dan rapi.\nSkali lagi makasihya kak udah menolong konseranku",
+          "date": "5 bulan lalu"
+        },
+        {
+          "author": "Tri Bunga Apriliani",
+          "rating": 5,
+          "text": "Wow, nail art-nya keren banget! Desainnya unik dan warna-warnanya sangat cerah. Pengerjaannya juga menurutku sangat rapi dan detail. Aku sangat puas dengan hasilnya! 💅🏻 Pasti akan kembali lagi😍🫰🏻 …",
+          "date": "3 bulan lalu"
+        }
+      ],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJ2fL4bKQHQi4RtdIOYXbQsws",
+      "name": "Desli salon",
+      "address": "Villa verde timur Blok X.05/05 RT/RW 19/02, Cikupa, Kec. Cikupa, Kabupaten Tangerang, Banten 15710",
+      "maps_url": "https://www.google.com/maps/place/Desli+salon/data=!4m7!3m6!1s0x2e4207a46cf8f2d9:0xbb3d076610ed2b5!8m2!3d-6.2404569!4d106.5176794!16s%2Fg%2F11ptjvm24l!19sChIJ2fL4bKQHQi4RtdIOYXbQsws?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": "Buka · Tutup pukul 21.00 ",
+      "category": "kecantikan",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.2404569,
+      "longitude": 106.5176794,
+      "google_types": "Salon Kecantikan",
+      "reviews": [
+        {
+          "author": "ApiiL UpiiL",
+          "rating": 5,
+          "text": "Hasil smoothing nya bagus bangettt di desli salon",
+          "date": "4 tahun lalu"
+        },
+        {
+          "author": "ApiiL UpiiL",
+          "rating": 5,
+          "text": "Hasil smoothing nya bagus bangettt di desli salon",
+          "date": "4 tahun lalu"
+        },
+        {
+          "author": "Oki Nurfauzan",
+          "rating": 5,
+          "text": "Mantaap, salon bersih rapih wangi",
+          "date": "4 tahun lalu"
+        },
+        {
+          "author": "Oki Nurfauzan",
+          "rating": 5,
+          "text": "Mantaap, salon bersih rapih wangi",
+          "date": "4 tahun lalu"
+        },
+        {
+          "author": "Rizal Nurhakim",
+          "rating": 5,
+          "text": "Hasil nya bagus banget",
+          "date": "4 tahun lalu"
+        }
+      ],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJ7-fJtLcAQi4R_2uhCej_Kwg",
+      "name": "Anna Salon",
+      "address": "QGJ7+554, Talaga, Kec. Cikupa, Kabupaten Tangerang, Banten 15710",
+      "maps_url": "https://www.google.com/maps/place/Anna+Salon/data=!4m7!3m6!1s0x2e4200b7b4c9e7ef:0x82bffe809a16bff!8m2!3d-6.2196273!4d106.5130176!16s%2Fg%2F11j2dn4t81!19sChIJ7-fJtLcAQi4R_2uhCej_Kwg?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": null,
+      "category": "kecantikan",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.2196273,
+      "longitude": 106.5130176,
+      "google_types": "Salon Rambut",
+      "reviews": [],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJFyCsDwL-aS4ReyBT9khtm3o",
+      "name": "Yuli Salon",
+      "address": "Jl. Raya Serang No.2, RT.2/RW.3, Sukadamai, Kec. Cikupa, Kabupaten Tangerang, Banten 15710",
+      "maps_url": "https://www.google.com/maps/place/Yuli+Salon/data=!4m7!3m6!1s0x2e69fe020fac2017:0x7a9b6d48f653207b!8m2!3d-6.2206474!4d106.5354283!16s%2Fg%2F11bzrpm6m0!19sChIJFyCsDwL-aS4ReyBT9khtm3o?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": null,
+      "category": "kecantikan",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.2206474,
+      "longitude": 106.5354283,
+      "google_types": "Salon Kecantikan",
+      "reviews": [
+        {
+          "author": "E2NG Bhae",
+          "rating": 5,
+          "text": "Pelayanan bagus, ramah semua..",
+          "date": "6 tahun lalu"
+        },
+        {
+          "author": "E2NG Bhae",
+          "rating": 5,
+          "text": "Pelayanan bagus, ramah semua..",
+          "date": "6 tahun lalu"
+        },
+        {
+          "author": "Sawilah Wilah",
+          "rating": 5,
+          "text": "Ramah dan murah",
+          "date": "4 tahun lalu"
+        },
+        {
+          "author": "Sawilah Wilah",
+          "rating": 5,
+          "text": "Ramah dan murah",
+          "date": "4 tahun lalu"
+        },
+        {
+          "author": "Purnomo 946",
+          "rating": 5,
+          "text": "Pelayanannya Oke",
+          "date": "6 tahun lalu"
+        }
+      ],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJLdJtCAABQi4RaJACGrgZvE0",
+      "name": "Mariana salon",
+      "address": "RF73+QW6 jembatan 2, Balaraja, Kec. Balaraja, Kabupaten Tangerang, Banten 15610",
+      "maps_url": "https://www.google.com/maps/place/Mariana+salon/data=!4m7!3m6!1s0x2e420100086dd22d:0x4dbc19b81a029068!8m2!3d-6.1855765!4d106.4547506!16s%2Fg%2F11wy21b0sr!19sChIJLdJtCAABQi4RaJACGrgZvE0?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": null,
+      "category": "kecantikan",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.1855765,
+      "longitude": 106.4547506,
+      "google_types": "Salon Kecantikan",
+      "reviews": [],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJzywLJHf-aS4R4PDbuYg-xCU",
+      "name": "Veby Salon",
+      "address": "QHG8+9VJ, Jl. Kp. Kadu, Kadu, Kec. Curug, Kabupaten Tangerang, Banten 15810",
+      "maps_url": "https://www.google.com/maps/place/Veby+Salon/data=!4m7!3m6!1s0x2e69fe77240b2ccf:0x25c43e88b9dbf0e0!8m2!3d-6.2240309!4d106.5671363!16s%2Fg%2F11f2ckz8m9!19sChIJzywLJHf-aS4R4PDbuYg-xCU?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": null,
+      "category": "kecantikan",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.2240309,
+      "longitude": 106.5671363,
+      "google_types": "Salon Kecantikan",
+      "reviews": [
+        {
+          "author": "hendra kamajaya",
+          "rating": 5,
+          "text": "Istri dan anak saya senang. Ramah, dan saran sarannya bagus",
+          "date": "setahun lalu"
+        },
+        {
+          "author": "hendra kamajaya",
+          "rating": 5,
+          "text": "Istri dan anak saya senang. Ramah, dan saran sarannya bagus",
+          "date": "setahun lalu"
+        },
+        {
+          "author": "Muslich Nurhapian",
+          "rating": 5,
+          "text": "Murah dan ramah",
+          "date": "2 tahun lalu"
+        },
+        {
+          "author": "Muslich Nurhapian",
+          "rating": 5,
+          "text": "Murah dan ramah",
+          "date": "2 tahun lalu"
+        }
+      ],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJB7-2sSAHQi4R4-jZmSTCqX4",
+      "name": "Riana Salon Citra Raya",
+      "address": "Grand Catania O.17 / 46, Jl. Citra Raya Boulevard, Kec. Panongan, Kabupaten Tangerang, Banten 15710",
+      "maps_url": "https://www.google.com/maps/place/Riana+Salon+Citra+Raya/data=!4m7!3m6!1s0x2e420720b1b6bf07:0x7ea9c22499d9e8e3!8m2!3d-6.2665748!4d106.5293611!16s%2Fg%2F11t6mzyg71!19sChIJB7-2sSAHQi4R4-jZmSTCqX4?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": "Buka · Tutup pukul 21.00 ",
+      "category": "kecantikan",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.2665748,
+      "longitude": 106.5293611,
+      "google_types": "Salon Kecantikan",
+      "reviews": [],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJ88TrsR4HQi4RnLPxfw-qRTs",
+      "name": "Pipit Salon",
+      "address": "QG8H+CM7, Jl. Lamporan, Dukuh, Kec. Cikupa, Kabupaten Tangerang, Banten 15710",
+      "maps_url": "https://www.google.com/maps/place/Pipit+Salon/data=!4m7!3m6!1s0x2e42071eb1ebc4f3:0x3b45aa0f7ff1b39c!8m2!3d-6.2339563!4d106.5291668!16s%2Fg%2F11rqkwqwkl!19sChIJ88TrsR4HQi4RnLPxfw-qRTs?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": "Buka · Tutup pukul 21.00 ",
+      "category": "kecantikan",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.2339563,
+      "longitude": 106.5291668,
+      "google_types": "Salon Kecantikan",
+      "reviews": [
+        {
+          "author": "Nina Marlina",
+          "rating": 5,
+          "text": "Pasang eyelash disini murce banget cuma 80ribu. Pemasangan jg tidak terlalu lama, kurang lebih sejam. Hasilnya cetar,,",
+          "date": "3 tahun lalu"
+        },
+        {
+          "author": "Nina Marlina",
+          "rating": 5,
+          "text": "Pasang eyelash disini murce banget cuma 80ribu. Pemasangan jg tidak terlalu lama, kurang lebih sejam. Hasilnya cetar,,",
+          "date": "3 tahun lalu"
+        }
+      ],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJcT8je8sAQi4R115IoVWLYwM",
+      "name": "Lolita Salon Kec. Cikupa",
+      "address": "QGF4+943, Bojong, Kec. Cikupa, Kabupaten Tangerang, Banten 15710",
+      "maps_url": "https://www.google.com/maps/place/Lolita+Salon+Kec.+Cikupa/data=!4m7!3m6!1s0x2e4200cb7b233f71:0x3638b55a1485ed7!8m2!3d-6.2266215!4d106.5052928!16s%2Fg%2F11hcw45mwg!19sChIJcT8je8sAQi4R115IoVWLYwM?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": "Buka · Tutup pukul 20.00 ",
+      "category": "kecantikan",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.2266215,
+      "longitude": 106.5052928,
+      "google_types": "Salon Kecantikan",
+      "reviews": [],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJnf5CxB4BQi4RKxTqz3sRgww",
+      "name": "Incezz Salon",
+      "address": "Jl. Raya Serang No.kM 13 8, RW.pengkolan, Pasir Gadung, Kec. Cikupa, Kabupaten Tangerang, Banten 15710",
+      "maps_url": "https://www.google.com/maps/place/Incezz+Salon/data=!4m7!3m6!1s0x2e42011ec442fe9d:0xc83117bcfea142b!8m2!3d-6.2204527!4d106.5298006!16s%2Fg%2F11sgnjj384!19sChIJnf5CxB4BQi4RKxTqz3sRgww?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": "Buka · Tutup pukul 21.30 ",
+      "category": "kecantikan",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.2204527,
+      "longitude": 106.5298006,
+      "google_types": "Salon Rambut",
+      "reviews": [
+        {
+          "author": "Jeli a",
+          "rating": 5,
+          "text": "Salon nya sangat ramah dan sangat puas udah 4 thn langganan di sini",
+          "date": "4 bulan lalu"
+        },
+        {
+          "author": "Jeli a",
+          "rating": 5,
+          "text": "Salon nya sangat ramah dan sangat puas udah 4 thn langganan di sini",
+          "date": "4 bulan lalu"
+        },
+        {
+          "author": "Hani Yulianti",
+          "rating": 5,
+          "text": "pelayanannya bagus, harga masih terjangkau.",
+          "date": "sebulan lalu"
+        },
+        {
+          "author": "Hani Yulianti",
+          "rating": 5,
+          "text": "pelayanannya bagus, harga masih terjangkau.",
+          "date": "sebulan lalu"
+        },
+        {
+          "author": "Muhammad Gibran",
+          "rating": 5,
+          "text": "GK pernah kesalon ,selain ke incez salon\nDr Thun 2017,sampai sekarang.\nYg pnya ramah,baik,.\nHasilnya puas..🥰🥰🥰 …",
+          "date": "8 bulan lalu"
+        }
+      ],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJxU2m0oMHQi4Rg_YXyH7ywLg",
+      "name": "Rosa Salon",
+      "address": "PGHH+V75, Jl. Graha Raya, Ciakar, Kec. Panongan, Kabupaten Tangerang, Banten 15710",
+      "maps_url": "https://www.google.com/maps/place/Rosa+Salon/data=!4m7!3m6!1s0x2e420783d2a64dc5:0xb8c0f27ec817f683!8m2!3d-6.270373!4d106.5282404!16s%2Fg%2F11j53bz55s!19sChIJxU2m0oMHQi4Rg_YXyH7ywLg?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": null,
+      "category": "kecantikan",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.270373,
+      "longitude": 106.5282404,
+      "google_types": "Salon Kecantikan",
+      "reviews": [],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJSX7-XdsHQi4RSVeVO9sQebM",
+      "name": "Nina salon",
+      "address": "Jl. Padat Karya No.1, Ciakar, Kec. Panongan, Kabupaten Tangerang, Banten 15710",
+      "maps_url": "https://www.google.com/maps/place/Nina+salon/data=!4m7!3m6!1s0x2e4207db5dfe7e49:0xb37910db3b955749!8m2!3d-6.2605617!4d106.5321406!16s%2Fg%2F11p_7h_y_5!19sChIJSX7-XdsHQi4RSVeVO9sQebM?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": "Buka · Tutup pukul 22.30 ",
+      "category": "kecantikan",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.2605617,
+      "longitude": 106.5321406,
+      "google_types": "Salon Kecantikan",
+      "reviews": [
+        {
+          "author": "Ayu Diah Lestari",
+          "rating": 5,
+          "text": "Salon dengan kualitas bagus dengan harga yg terjangkau. Kemarin potong rambut, keramas, dan cat rambut. Semua tahapan diinfokan plus minusnya, serta disarankan yg bagus sesuai permintaan. Harga terjangkau dengan berbagai macam perawatan, …",
+          "date": "Diedit 3 tahun lalu"
+        },
+        {
+          "author": "Ayu Diah Lestari",
+          "rating": 5,
+          "text": "Salon dengan kualitas bagus dengan harga yg terjangkau. Kemarin potong rambut, keramas, dan cat rambut. Semua tahapan diinfokan plus minusnya, serta disarankan yg bagus sesuai permintaan. Harga terjangkau dengan berbagai macam perawatan, …",
+          "date": "Diedit 3 tahun lalu"
+        },
+        {
+          "author": "Topik Aceng",
+          "rating": 5,
+          "text": "Pelayanan jitot lumayan sayang GK pada ngerti metik mangga harus di ajarin cara metik mangga",
+          "date": "setahun lalu"
+        },
+        {
+          "author": "Topik Aceng",
+          "rating": 5,
+          "text": "Pelayanan jitot lumayan sayang GK pada ngerti metik mangga harus di ajarin cara metik mangga",
+          "date": "setahun lalu"
+        }
+      ],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJLzUfCm8HQi4R410dMRJXzng",
+      "name": "ming ming salon",
+      "address": "Ruko City Market, Jl. Citra Raya Boulevard No.10 Blok T2, Mekar Bakti, Kec. Panongan, Kabupaten Tangerang, Banten 15710",
+      "maps_url": "https://www.google.com/maps/place/ming+ming+salon/data=!4m7!3m6!1s0x2e42076f0a1f352f:0x78ce5712311d5de3!8m2!3d-6.2552799!4d106.5212801!16s%2Fg%2F11f3rvykj9!19sChIJLzUfCm8HQi4R410dMRJXzng?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": "Buka · Tutup pukul 21.00 ",
+      "category": "kecantikan",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.2552799,
+      "longitude": 106.5212801,
+      "google_types": "Salon Kecantikan",
+      "reviews": [
+        {
+          "author": "Ratna sari",
+          "rating": 5,
+          "text": "Salon langganan dari saya masih remaja sampe udh emak2 😅 …",
+          "date": "4 tahun lalu"
+        },
+        {
+          "author": "Ratna sari",
+          "rating": 5,
+          "text": "Salon langganan dari saya masih remaja sampe udh emak2 😅 …",
+          "date": "4 tahun lalu"
+        },
+        {
+          "author": "de kusnadi",
+          "rating": 5,
+          "text": "Ternyata tukang potong rambutnya bang Ebed",
+          "date": "6 tahun lalu"
+        },
+        {
+          "author": "de kusnadi",
+          "rating": 5,
+          "text": "Ternyata tukang potong rambutnya bang Ebed",
+          "date": "6 tahun lalu"
+        },
+        {
+          "author": "Eka Prasetya",
+          "rating": 5,
+          "text": "Bagus",
+          "date": "6 tahun lalu"
+        }
+      ],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJoas59UwHQi4RmdRLRWP8qmM",
+      "name": "Carolina Salon",
+      "address": "Jl. Raya Serang KM.15 No.6, Cikupa, Kec. Cikupa, Kabupaten Tangerang, Banten 15710",
+      "maps_url": "https://www.google.com/maps/place/Carolina+Salon/data=!4m7!3m6!1s0x2e42074cf539aba1:0x63aafc63454bd499!8m2!3d-6.229613!4d106.518692!16s%2Fg%2F11clzqf146!19sChIJoas59UwHQi4RmdRLRWP8qmM?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": "Buka · Tutup pukul 21.00 ",
+      "category": "kecantikan",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.229613,
+      "longitude": 106.518692,
+      "google_types": "Salon Kecantikan",
+      "reviews": [
+        {
+          "author": "Gojek Jakarta Driver",
+          "rating": 5,
+          "text": "Bagus dari sini saya tau arti keluarga",
+          "date": "4 tahun lalu"
+        },
+        {
+          "author": "Gojek Jakarta Driver",
+          "rating": 5,
+          "text": "Bagus dari sini saya tau arti keluarga",
+          "date": "4 tahun lalu"
+        }
+      ],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJU_ox_WgHQi4RvOkS8TDFy2k",
+      "name": "Siisca beauty",
+      "address": "hendar cell, Kadusabrang rt 05/02 Gang rumah sebrang, Kabupaten Tangerang, Banten 15710",
+      "maps_url": "https://www.google.com/maps/place/Siisca+beauty/data=!4m7!3m6!1s0x2e420768fd31fa53:0x69cbc530f112e9bc!8m2!3d-6.2399846!4d106.5186849!16s%2Fg%2F11pwdxcz6_!19sChIJU_ox_WgHQi4RvOkS8TDFy2k?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": null,
+      "category": "kecantikan",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.2399846,
+      "longitude": 106.5186849,
+      "google_types": "Salon Kecantikan",
+      "reviews": [
+        {
+          "author": "Omni Lestari",
+          "rating": 5,
+          "text": "Puas banget sama hasilnnya",
+          "date": "Diedit 4 tahun lalu"
+        },
+        {
+          "author": "Omni Lestari",
+          "rating": 5,
+          "text": "Puas banget sama hasilnnya",
+          "date": "Diedit 4 tahun lalu"
+        }
+      ],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJx3N5WQAHQi4R0eGkOnA_Flc",
+      "name": "TINTIN SALON",
+      "address": "Ruko Bizlink, blok s05/327, Sukamulya, kec. Cikupa, kota Tangerang, Kabupaten Tangerang, Banten 15710",
+      "maps_url": "https://www.google.com/maps/place/TINTIN+SALON/data=!4m7!3m6!1s0x2e420700597973c7:0x57163f703aa4e1d1!8m2!3d-6.2414187!4d106.5032614!16s%2Fg%2F11l_1c7jrk!19sChIJx3N5WQAHQi4R0eGkOnA_Flc?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": "Buka · Tutup pukul 20.00 ",
+      "category": "kecantikan",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.2414187,
+      "longitude": 106.5032614,
+      "google_types": "Salon Rambut",
+      "reviews": [],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJVVVVVXYHQi4RWJ6alKjWlZM",
+      "name": "Try beauty salon",
+      "address": "Perumahan Citra Raya Graha Raflesia 2 Blok E25 No.30, Ciakar, Kec. Panongan, Kabupaten Tangerang, Banten 15710",
+      "maps_url": "https://www.google.com/maps/place/Try+beauty+salon/data=!4m7!3m6!1s0x2e42077655555555:0x9395d6a8949a9e58!8m2!3d-6.2665902!4d106.5237216!16s%2Fg%2F11rfbkjg10!19sChIJVVVVVXYHQi4RWJ6alKjWlZM?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": "Buka · Tutup pukul 20.10 ",
+      "category": "kecantikan",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.2665902,
+      "longitude": 106.5237216,
+      "google_types": "Salon Kecantikan",
+      "reviews": [],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJU9rjhqQHQi4RkX8KCnv71xw",
+      "name": "Salon Ai Nails",
+      "address": "Jl. Ecopolis Citra Raya, Ruko The Boulevard Blok VE 05 No 35, Mekar Bakti, Kec. Panongan, Kabupaten Tangerang, Banten 15710",
+      "maps_url": "https://www.google.com/maps/place/Salon+Ai+Nails/data=!4m7!3m6!1s0x2e4207a486e3da53:0x1cd7fb7b0a0a7f91!8m2!3d-6.2487902!4d106.525051!16s%2Fg%2F11qp12crfg!19sChIJU9rjhqQHQi4RkX8KCnv71xw?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": "Buka · Tutup pukul 21.00 ",
+      "category": "kecantikan",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.2487902,
+      "longitude": 106.525051,
+      "google_types": "Salon Kuku",
+      "reviews": [
+        {
+          "author": "Adhin Siro",
+          "rating": 5,
+          "text": "Tmpt ny nyaman... Tmpt tunggu nyaman..\nAdemm.. (SAYA Hnya menemani) 👀🤣\nKta yg pakai jasanya(istri) si standar.Hehe …",
+          "date": "4 tahun lalu"
+        },
+        {
+          "author": "Adhin Siro",
+          "rating": 5,
+          "text": "Tmpt ny nyaman... Tmpt tunggu nyaman..\nAdemm.. (SAYA Hnya menemani) 👀🤣\nKta yg pakai jasanya(istri) si standar.Hehe …",
+          "date": "4 tahun lalu"
+        },
+        {
+          "author": "Kartika Tika",
+          "rating": 5,
+          "text": "Udah kesekian kali nya ini ga pernah gagal medi pedi di ainails puas bangettt🥰🥰\nPelayanan dan tempat nya juga nyaman banget …",
+          "date": "setahun lalu"
+        },
+        {
+          "author": "Kartika Tika",
+          "rating": 5,
+          "text": "Udah kesekian kali nya ini ga pernah gagal medi pedi di ainails puas bangettt🥰🥰\nPelayanan dan tempat nya juga nyaman banget …",
+          "date": "setahun lalu"
+        },
+        {
+          "author": "mamat ridw",
+          "rating": 5,
+          "text": "PELAYANAN BAGUS BANGET CICI HASIL NYA MEMUASKAN SEKALIII nailart nya bagus banget sama cici",
+          "date": "4 bulan lalu"
+        }
+      ],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJ6W4_ObP9aS4R5wCJbNKEyX0",
+      "name": "Rose Salon Curug",
+      "address": "PHP8+VXG, Jl. Curug Wetan, Curug Wetan, Kec. Curug, Kabupaten Tangerang, Banten 15810",
+      "maps_url": "https://www.google.com/maps/place/Rose+Salon+Curug/data=!4m7!3m6!1s0x2e69fdb3393f6ee9:0x7dc984d26c8900e7!8m2!3d-6.2628101!4d106.5674549!16s%2Fg%2F11lglytvnf!19sChIJ6W4_ObP9aS4R5wCJbNKEyX0?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": "Buka · Tutup pukul 19.00 ",
+      "category": "kecantikan",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.2628101,
+      "longitude": 106.5674549,
+      "google_types": "Salon Kecantikan",
+      "reviews": [
+        {
+          "author": "Indry Audina",
+          "rating": 5,
+          "text": "Langganan akuu, best bgt salonnya,\nSama owner nya baiiiikkkkkkk buangetttttt",
+          "date": "11 bulan lalu"
+        },
+        {
+          "author": "Indry Audina",
+          "rating": 5,
+          "text": "Langganan akuu, best bgt salonnya,\nSama owner nya baiiiikkkkkkk buangetttttt",
+          "date": "11 bulan lalu"
+        },
+        {
+          "author": "Kristian",
+          "rating": 5,
+          "text": "Bagus smoting dan warna rambut disini gak bakal nyesel dehhhh pokoknya bagusss banget🥰 …",
+          "date": "3 tahun lalu"
+        },
+        {
+          "author": "Kristian",
+          "rating": 5,
+          "text": "Bagus smoting dan warna rambut disini gak bakal nyesel dehhhh pokoknya bagusss banget🥰 …",
+          "date": "3 tahun lalu"
+        },
+        {
+          "author": "Teni Widia",
+          "rating": 5,
+          "text": "Urusan perawatan dn style,.. Rose Salon rekomended bangeeeet 👍 …",
+          "date": "4 tahun lalu"
+        }
+      ],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJr4P4Zv0HQi4RqTXCGvFHw24",
+      "name": "Salon bintang",
+      "address": "PGX6+VC, Mekar Bakti, Kec. Panongan, Kabupaten Tangerang, Banten",
+      "maps_url": "https://www.google.com/maps/place/Salon+bintang/data=!4m7!3m6!1s0x2e4207fd66f883af:0x6ec347f11ac235a9!8m2!3d-6.2503557!4d106.5110923!16s%2Fg%2F11q42yc4g0!19sChIJr4P4Zv0HQi4RqTXCGvFHw24?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": "Buka · Tutup pukul 21.00 ",
+      "category": "kecantikan",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.2503557,
+      "longitude": 106.5110923,
+      "google_types": "Salon Kecantikan",
+      "reviews": [
+        {
+          "author": "Ikro Mullah",
+          "rating": 5,
+          "text": "Recomendet buat semua kalangan",
+          "date": "2 tahun lalu"
+        },
+        {
+          "author": "Ikro Mullah",
+          "rating": 5,
+          "text": "Recomendet buat semua kalangan",
+          "date": "2 tahun lalu"
+        },
+        {
+          "author": "faiz official",
+          "rating": 5,
+          "text": "Keren",
+          "date": "3 tahun lalu"
+        },
+        {
+          "author": "faiz official",
+          "rating": 5,
+          "text": "Keren",
+          "date": "3 tahun lalu"
+        }
+      ],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJtx83HGsHQi4RT4ZW318zz_s",
+      "name": "DIVA SALON DAN TREATMENT",
+      "address": "2, citra raya squer, Jl. Raya Serang, Cikupa, Kec. Cikupa, Kabupaten Tangerang, Banten 15710",
+      "maps_url": "https://www.google.com/maps/place/DIVA+SALON+DAN+TREATMENT/data=!4m7!3m6!1s0x2e42076b1c371fb7:0xfbcf335fdf56864f!8m2!3d-6.2318468!4d106.5225336!16s%2Fg%2F11hzhrc6n7!19sChIJtx83HGsHQi4RT4ZW318zz_s?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": "Buka · Tutup pukul 21.00 ",
+      "category": "kecantikan",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.2318468,
+      "longitude": 106.5225336,
+      "google_types": "Salon Kecantikan",
+      "reviews": [
+        {
+          "author": "Rj Fas",
+          "rating": 5,
+          "text": "Tempat perawatan yg paling bagus dan sangat rekomendasi ...karna bos dan karyawan nya ramah dan pelayanannya sangat baik",
+          "date": "6 tahun lalu"
+        },
+        {
+          "author": "Rj Fas",
+          "rating": 5,
+          "text": "Tempat perawatan yg paling bagus dan sangat rekomendasi ...karna bos dan karyawan nya ramah dan pelayanannya sangat baik",
+          "date": "6 tahun lalu"
+        }
+      ],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJQ1VuIU4HQi4RrjBIfSPtTAg",
+      "name": "Piter Salon 2",
+      "address": "Ruko Berlian mask, Jl. Citra Raya Boulevard No.11, Cikupa, Kec. Cikupa, Kabupaten Tangerang, Banten 15710",
+      "maps_url": "https://www.google.com/maps/place/Piter+Salon+2/data=!4m7!3m6!1s0x2e42074e216e5543:0x84ced237d4830ae!8m2!3d-6.2336649!4d106.5228586!16s%2Fg%2F11gff79lng!19sChIJQ1VuIU4HQi4RrjBIfSPtTAg?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": "Buka · Tutup pukul 21.00 ",
+      "category": "kecantikan",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.2336649,
+      "longitude": 106.5228586,
+      "google_types": "Tempat Cukur Rambut",
+      "reviews": [
+        {
+          "author": "RIKO CE",
+          "rating": 5,
+          "text": "Maaf ka depan ruko nya bsa di sewa tidak ya utk usaha minuman",
+          "date": "setahun lalu"
+        },
+        {
+          "author": "RIKO CE",
+          "rating": 5,
+          "text": "Maaf ka depan ruko nya bsa di sewa tidak ya utk usaha minuman",
+          "date": "setahun lalu"
+        },
+        {
+          "author": "Ahmad Alpariji",
+          "rating": 5,
+          "text": "Bagus salonnya terawat dengan rapih, dan professional",
+          "date": "5 tahun lalu"
+        },
+        {
+          "author": "Ahmad Alpariji",
+          "rating": 5,
+          "text": "Bagus salonnya terawat dengan rapih, dan professional",
+          "date": "5 tahun lalu"
+        },
+        {
+          "author": "Bagus Eko",
+          "rating": 5,
+          "text": "Tempatnya enak adem dan s3juk",
+          "date": "6 tahun lalu"
+        }
+      ],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJJ5t7IQABQi4RGye1ed9IiP0",
+      "name": "Bopo pangkas",
+      "address": "RF93+46Q, Tobat, Kec. Balaraja, Kabupaten Tangerang, Banten",
+      "maps_url": "https://www.google.com/maps/place/Bopo+pangkas/data=!4m7!3m6!1s0x2e420100217b9b27:0xfd8848df79b5271b!8m2!3d-6.182023!4d106.4530145!16s%2Fg%2F11x7sy9qmx!19sChIJJ5t7IQABQi4RGye1ed9IiP0?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": "Buka · Tutup pukul 22.50 ",
+      "category": "kecantikan",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.182023,
+      "longitude": 106.4530145,
+      "google_types": "Salon Rambut",
+      "reviews": [
+        {
+          "author": "Simon Abad",
+          "rating": 5,
+          "text": "abis lebaran  mau nyukur ,q nyari langgananku yg paling depan ,badanya kecil gak dateng. Padahal udah bolak balik 4 kali, yaudah  next time aja.mohon cantum kan no wa biar gak q gak bolak balik",
+          "date": "Diedit 10 bulan lalu"
+        },
+        {
+          "author": "Simon Abad",
+          "rating": 5,
+          "text": "abis lebaran  mau nyukur ,q nyari langgananku yg paling depan ,badanya kecil gak dateng. Padahal udah bolak balik 4 kali, yaudah  next time aja.mohon cantum kan no wa biar gak q gak bolak balik",
+          "date": "Diedit 10 bulan lalu"
+        },
+        {
+          "author": "Apri Abdulloh",
+          "rating": 5,
+          "text": "Q selalu langganan dengan mas rian.yg dibelakang, potongan nya rapi dan bagus.ngikutin tren masa kini",
+          "date": "setahun lalu"
+        },
+        {
+          "author": "Apri Abdulloh",
+          "rating": 5,
+          "text": "Q selalu langganan dengan mas rian.yg dibelakang, potongan nya rapi dan bagus.ngikutin tren masa kini",
+          "date": "setahun lalu"
+        },
+        {
+          "author": "Imam Sibaweh",
+          "rating": 5,
+          "text": "Pelayan bagus & ramah2",
+          "date": "11 bulan lalu"
+        }
+      ],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJn5yTlN4HQi4RySrHUyOH1-k",
+      "name": "Asoka Gym & Sarah Salon",
+      "address": "Jl. Ruko avenue no Z06/70, Cikupa, Kec. Cikupa, Kabupaten Tangerang, Banten 15710",
+      "maps_url": "https://www.google.com/maps/place/Asoka+Gym+%26+Sarah+Salon/data=!4m7!3m6!1s0x2e4207de94939c9f:0xe9d7872353c72ac9!8m2!3d-6.2311887!4d106.5132152!16s%2Fg%2F11kj3g4lq5!19sChIJn5yTlN4HQi4RySrHUyOH1-k?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": "Buka · Tutup pukul 22.00 ",
+      "category": "kecantikan",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.2311887,
+      "longitude": 106.5132152,
+      "google_types": "Tempat Fitness",
+      "reviews": [
+        {
+          "author": "Mega Puspita",
+          "rating": 5,
+          "text": "Cuma ada disini perawatan + pembentukan tubuh, nggak nyangka tempatnya hommy banget bersih nyaman dan harganya pas di kantong. Seneng bisa member disini",
+          "date": "2 tahun lalu"
+        },
+        {
+          "author": "Mega Puspita",
+          "rating": 5,
+          "text": "Cuma ada disini perawatan + pembentukan tubuh, nggak nyangka tempatnya hommy banget bersih nyaman dan harganya pas di kantong. Seneng bisa member disini",
+          "date": "2 tahun lalu"
+        },
+        {
+          "author": "Samual Bupolo",
+          "rating": 5,
+          "text": "Tempat nya nyaman bro😎\nCocok buat yang pemula …",
+          "date": "setahun lalu"
+        },
+        {
+          "author": "Samual Bupolo",
+          "rating": 5,
+          "text": "Tempat nya nyaman bro😎\nCocok buat yang pemula …",
+          "date": "setahun lalu"
+        },
+        {
+          "author": "Rangga Djati",
+          "rating": 5,
+          "text": "Apakah masih buka? Ada no yg bs dihubungi?",
+          "date": "3 bulan lalu"
+        }
+      ],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJqZbe5yQBQi4R6l3cBX-WhP0",
+      "name": "RIZKI SALON",
+      "address": "QGJJ+J4W, Pasir Jaya, Kec. Cikupa, Kabupaten Tangerang, Banten 15710",
+      "maps_url": "https://www.google.com/maps/place/RIZKI+SALON/data=!4m7!3m6!1s0x2e420124e7de96a9:0xfd84967f05dc5dea!8m2!3d-6.2183773!4d106.5303149!16s%2Fg%2F11k6qz7rsr!19sChIJqZbe5yQBQi4R6l3cBX-WhP0?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": "Buka · Tutup pukul 21.00 ",
+      "category": "kecantikan",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.2183773,
+      "longitude": 106.5303149,
+      "google_types": "Salon Rambut",
+      "reviews": [
+        {
+          "author": "Wiwin Sulistiani",
+          "rating": 5,
+          "text": "Selalu potong rambut di rizky salon,,selalu memuaskan",
+          "date": "4 tahun lalu"
+        },
+        {
+          "author": "Wiwin Sulistiani",
+          "rating": 5,
+          "text": "Selalu potong rambut di rizky salon,,selalu memuaskan",
+          "date": "4 tahun lalu"
+        },
+        {
+          "author": "nedy_ agus",
+          "rating": 5,
+          "text": "Pelayanan bagus, hasil pangkasan rapi",
+          "date": "4 tahun lalu"
+        },
+        {
+          "author": "nedy_ agus",
+          "rating": 5,
+          "text": "Pelayanan bagus, hasil pangkasan rapi",
+          "date": "4 tahun lalu"
+        }
+      ],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJuWFaXp_9aS4RAbTyZpBXPXA",
+      "name": "Riandi Salon Make Up Hair Do",
+      "address": "PHP5+V82, Curug Wetan, Kec. Curug, Kabupaten Tangerang, Banten 15810",
+      "maps_url": "https://www.google.com/maps/place/Riandi+Salon+Make+Up+Hair+Do/data=!4m7!3m6!1s0x2e69fd9f5e5a61b9:0x703d579066f2b401!8m2!3d-6.262864!4d106.5582527!16s%2Fg%2F11f53n0sfq!19sChIJuWFaXp_9aS4RAbTyZpBXPXA?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": "Buka · Tutup pukul 19.30 ",
+      "category": "kecantikan",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.262864,
+      "longitude": 106.5582527,
+      "google_types": "Salon Kecantikan",
+      "reviews": [
+        {
+          "author": "Siti Fatima Tuz Zahra",
+          "rating": 5,
+          "text": "Tempatnya bersih nyaman potongannya sesuai bagus krna emg pengen potong pendek aja si klo request takut ga sesuai",
+          "date": "4 bulan lalu"
+        },
+        {
+          "author": "Siti Fatima Tuz Zahra",
+          "rating": 5,
+          "text": "Tempatnya bersih nyaman potongannya sesuai bagus krna emg pengen potong pendek aja si klo request takut ga sesuai",
+          "date": "4 bulan lalu"
+        },
+        {
+          "author": "si ulul",
+          "rating": 5,
+          "text": "Ini salon langganan almh mamah sampe skrng gua masih suka kesini,worth it banget apa lagi owner nya baik banget dan dia bahkan mau pegang pelanggan nya langsung gk harus nunggu anak buah nya keren sih wajar bngt klo bisa bertahan salon nya sampe sekarang karna pelayanannya memuaskan,thank you",
+          "date": "2 tahun lalu"
+        },
+        {
+          "author": "si ulul",
+          "rating": 5,
+          "text": "Ini salon langganan almh mamah sampe skrng gua masih suka kesini,worth it banget apa lagi owner nya baik banget dan dia bahkan mau pegang pelanggan nya langsung gk harus nunggu anak buah nya keren sih wajar bngt klo bisa bertahan salon nya sampe sekarang karna pelayanannya memuaskan,thank you",
+          "date": "2 tahun lalu"
+        },
+        {
+          "author": "Choirunisa",
+          "rating": 5,
+          "text": "Tempat nyaman, berAc, harga bersahabat, lokasi strategis didekat pasar curug, pelayanannya cepat dan ramah. Untuk laki-laki dan perempuan terpisah, make up artist bagus untuk event maupun acara pernikahan",
+          "date": "6 tahun lalu"
         }
       ],
       "category_conflict": false
