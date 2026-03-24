@@ -1,5 +1,6 @@
 import { requireAuth, getUserBusiness, getUserProfile } from '@/lib/auth/helpers'
 import EditProfileForm from './EditProfileForm'
+import UpgradeNudge from '@/components/ordering/UpgradeNudge'
 
 export default async function DashboardPage() {
   await requireAuth()
@@ -50,6 +51,9 @@ export default async function DashboardPage() {
           </div>
         )}
       </div>
+
+      {/* Upgrade nudge for UMKM tier */}
+      {profile?.planId === 'umkm' && <UpgradeNudge />}
 
       {/* Quick Stats */}
       <div className="bg-white rounded-2xl shadow-sm border border-slate-200 p-6">

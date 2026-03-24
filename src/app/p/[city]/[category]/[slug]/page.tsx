@@ -1,7 +1,11 @@
 import supabase from '@/lib/db/supabase'
 import { notFound } from 'next/navigation'
-import { TemplateFactory } from '@/components/templates'
+import { TemplateFactory, getTemplateTheme } from '@/components/templates'
 import type { Metadata } from 'next'
+import { BASE_URL, canonicalUrl, fromSlug } from '@/lib/seo/utils'
+import { generateBusinessJsonLd, generateBreadcrumbJsonLd } from '@/lib/seo/structured-data'
+import OrderingWrapper from '@/components/ordering/OrderingWrapper'
+import { canDineIn } from '@/lib/ordering/tier'
 
 export const revalidate = 86400 // 1 day
 
@@ -45,23 +49,38 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     return { title: 'Bisnis Tidak Ditemukan | Etalaso' }
   }
 
-  const cityName = city.split('-').map(w => w.charAt(0).toUpperCase() + w.slice(1)).join(' ')
-  const catName = category.split('-').map(w => w.charAt(0).toUpperCase() + w.slice(1)).join(' ')
+  const cityName = fromSlug(city)
+  const catName = fromSlug(category)
+  const pageUrl = canonicalUrl(`/p/${city}/${category}/${slug}`)
+
+  const description = business.description
+    || `Lihat ${business.name}, ${catName} di ${cityName}. Hubungi langsung via WhatsApp. Alamat: ${business.address || cityName}.`
 
   return {
     title: `${business.name} di ${cityName} | ${catName} | Etalaso`,
-    description: business.description
-      || `Lihat ${business.name}, ${catName} di ${cityName}. Hubungi langsung via WhatsApp. Alamat: ${business.address || cityName}.`,
+    description,
+    alternates: {
+      canonical: pageUrl,
+    },
     openGraph: {
       title: `${business.name} — ${catName} di ${cityName}`,
       description: `${business.name} adalah ${catName.toLowerCase()} di ${cityName}. Lihat produk, review, dan hubungi via WhatsApp di Etalaso.`,
       type: 'website',
+      url: pageUrl,
+      locale: 'id_ID',
+      siteName: 'Etalaso',
+      images: business.imageUrl ? [{ url: business.imageUrl }] : undefined,
+    },
+    twitter: {
+      card: 'summary',
+      title: `${business.name} — ${catName} di ${cityName}`,
+      description,
     },
   }
 }
 
 export default async function BusinessPage({ params }: Props) {
-  const { slug } = await params
+  const { slug, city, category } = await params
   const business = await getBusinessData(slug)
 
   if (!business) {
@@ -69,6 +88,44 @@ export default async function BusinessPage({ params }: Props) {
   }
 
   const templateKey = (business.template || 'minimal')
+  const cityName = fromSlug(city)
+  const catName = fromSlug(category)
 
-  return <TemplateFactory templateId={templateKey} business={business} />
+  const businessJsonLd = generateBusinessJsonLd({ business, city, category, slug })
+  const breadcrumbJsonLd = generateBreadcrumbJsonLd([
+    { name: 'Beranda', url: BASE_URL },
+    { name: cityName, url: canonicalUrl(`/bisnis/${city}`) },
+    { name: catName, url: canonicalUrl(`/p/${city}/${category}`) },
+    { name: business.name },
+  ])
+
+  // Ordering is only enabled for kuliner category with paid tiers
+  const isKuliner = category === 'kuliner'
+  const tier = business.subscriptionType || 'free'
+  const orderingEnabled = isKuliner && canDineIn(tier)
+  const theme = getTemplateTheme(templateKey)
+
+  return (
+    <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(businessJsonLd) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }}
+      />
+      {orderingEnabled ? (
+        <OrderingWrapper business={business} accentColor={theme.colors.accent}>
+          <TemplateFactory templateId={templateKey} business={business} orderingActive />
+        </OrderingWrapper>
+      ) : isKuliner ? (
+        <OrderingWrapper business={business} accentColor={theme.colors.accent}>
+          <TemplateFactory templateId={templateKey} business={business} />
+        </OrderingWrapper>
+      ) : (
+        <TemplateFactory templateId={templateKey} business={business} />
+      )}
+    </>
+  )
 }

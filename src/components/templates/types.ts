@@ -12,6 +12,10 @@ export interface BusinessData {
   imageUrl?: string | null
   galleryImages?: string[]
   subscriptionType?: 'business' | 'umkm' | 'free'
+  bankName?: string | null
+  bankAccountNumber?: string | null
+  bankAccountName?: string | null
+  qrisImageUrl?: string | null
   products: Array<{
     id: string
     name: string

@@ -214,7 +214,7 @@ export function getTemplatesByCategory(): Record<string, TemplateDefinition[]> {
   return grouped
 }
 
-const LAYOUT_MAP: Record<LayoutType, React.FC<{ business: BusinessData; theme: typeof THEMES.minimal }>> = {
+const LAYOUT_MAP: Record<LayoutType, React.FC<{ business: BusinessData; theme: typeof THEMES.minimal; orderingActive?: boolean }>> = {
   standard: StandardLayout,
   split: SplitLayout,
   app: AppLayout,
@@ -230,9 +230,10 @@ const LAYOUT_MAP: Record<LayoutType, React.FC<{ business: BusinessData; theme: t
 interface TemplateFactoryProps {
   templateId: string
   business: BusinessData
+  orderingActive?: boolean
 }
 
-export const TemplateFactory: React.FC<TemplateFactoryProps> = ({ templateId, business }) => {
+export const TemplateFactory: React.FC<TemplateFactoryProps> = ({ templateId, business, orderingActive = false }) => {
   // 1. Try legacy hand-crafted templates first
   if (templateId in LEGACY_TEMPLATES) {
     const Template = LEGACY_TEMPLATES[templateId]
@@ -244,5 +245,11 @@ export const TemplateFactory: React.FC<TemplateFactoryProps> = ({ templateId, bu
   const theme = THEMES[config.theme] || THEMES.minimal
   const Layout = LAYOUT_MAP[config.layout] || StandardLayout
 
-  return <Layout business={business} theme={theme} />
+  return <Layout business={business} theme={theme} orderingActive={orderingActive} />
+}
+
+/** Get the theme config for a template ID (used by OrderingWrapper) */
+export function getTemplateTheme(templateId: string): typeof THEMES.minimal {
+  const config = TEMPLATE_REGISTRY[templateId] || TEMPLATE_REGISTRY['std-minimal']
+  return THEMES[config.theme] || THEMES.minimal
 }

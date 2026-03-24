@@ -1,0 +1,1542 @@
+{
+  "_meta": {
+    "scraped_at": "2026-03-24T14:43:09.738Z",
+    "total_places": 42,
+    "kecamatan": "Balaraja",
+    "region": "Kabupaten Tangerang",
+    "by_category": {
+      "lainnya": 42
+    },
+    "potential_duplicates": []
+  },
+  "places": [
+    {
+      "place_id": "ChIJjSCTqfgDQi4ROGgtvR9yEKc",
+      "name": "Toko Pakan Nino",
+      "address": "QCCM+3M8, Jalan Bukit Gading Balaraja Desa Ciapus Balaraja, Cangkudu, Kec. Balaraja, Kabupaten Tangerang, Banten 15610",
+      "maps_url": "https://www.google.com/maps/place/Toko+Pakan+Nino/data=!4m7!3m6!1s0x2e4203f8a993208d:0xa710721fbd2d6838!8m2!3d-6.2298341!4d106.4342035!16s%2Fg%2F11c5556nw5!19sChIJjSCTqfgDQi4ROGgtvR9yEKc?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": "Tutup · Buka Rab pukul 07.00 ",
+      "category": "lainnya",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.2298341,
+      "longitude": 106.4342035,
+      "google_types": "Toko Pakan Hewan",
+      "reviews": [
+        {
+          "author": "TITIN PRIHATIN",
+          "rating": 5,
+          "text": "Seru",
+          "date": "2 minggu lalu"
+        },
+        {
+          "author": "TITIN PRIHATIN",
+          "rating": 5,
+          "text": "Seru",
+          "date": "2 minggu lalu"
+        },
+        {
+          "author": "ade hartono",
+          "rating": 5,
+          "text": "Mantap",
+          "date": "4 tahun lalu"
+        },
+        {
+          "author": "ade hartono",
+          "rating": 5,
+          "text": "Mantap",
+          "date": "4 tahun lalu"
+        }
+      ],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJcUI8fwABQi4RFRmoefNZLYI",
+      "name": "Agen pakan Peternak",
+      "address": "RFF4+R4G, Saga, Kec. Balaraja, Kabupaten Tangerang, Banten 15610",
+      "maps_url": "https://www.google.com/maps/place/Agen+pakan+Peternak/data=!4m7!3m6!1s0x2e4201007f3c4271:0x822d59f379a81915!8m2!3d-6.1754345!4d106.4553135!16s%2Fg%2F11y2ym6m2f!19sChIJcUI8fwABQi4RFRmoefNZLYI?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": null,
+      "category": "lainnya",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.1754345,
+      "longitude": 106.4553135,
+      "google_types": "Toko Pakan Hewan",
+      "reviews": [],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJr8Pc1HkBQi4Rk0hpN1XjnWY",
+      "name": "KIOS PATEN (PAKAN TERNAK) OM YADI",
+      "address": "Pasir Bolang, Kec. Tigaraksa, Kabupaten Tangerang, Banten 15720",
+      "maps_url": "https://www.google.com/maps/place/KIOS+PATEN+%28PAKAN+TERNAK%29+OM+YADI/data=!4m7!3m6!1s0x2e420179d4dcc3af:0x669de35537694893!8m2!3d-6.2150738!4d106.4726825!16s%2Fg%2F11rwmh54jn!19sChIJr8Pc1HkBQi4Rk0hpN1XjnWY?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": "Segera tutup · 22.00 · Buka Rab pukul 06.00 ",
+      "category": "lainnya",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.2150738,
+      "longitude": 106.4726825,
+      "google_types": "Toko Pakan Hewan",
+      "reviews": [
+        {
+          "author": "Janetta",
+          "rating": 5,
+          "text": "Anak bebek ada ga",
+          "date": "8 bulan lalu"
+        },
+        {
+          "author": "Janetta",
+          "rating": 5,
+          "text": "Anak bebek ada ga",
+          "date": "8 bulan lalu"
+        },
+        {
+          "author": "Adrian Syah",
+          "rating": 5,
+          "text": "Harga murah&bersahabat",
+          "date": "2 tahun lalu"
+        },
+        {
+          "author": "Adrian Syah",
+          "rating": 5,
+          "text": "Harga murah&bersahabat",
+          "date": "2 tahun lalu"
+        },
+        {
+          "author": "Maulana fadli Fm",
+          "rating": 5,
+          "text": "Mantap",
+          "date": "4 tahun lalu"
+        }
+      ],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJ6brUagABQi4RDzLukGkf0_g",
+      "name": "SAGA PS(POULTRY SHOP)",
+      "address": "RF93+55F, Saga, Kec. Balaraja, Kabupaten Tangerang, Banten 15610",
+      "maps_url": "https://www.google.com/maps/place/SAGA+PS%28POULTRY+SHOP%29/data=!4m7!3m6!1s0x2e4201006ad4bae9:0xf8d31f6990ee320f!8m2!3d-6.1820677!4d106.4529319!16s%2Fg%2F11y2ymf6x8!19sChIJ6brUagABQi4RDzLukGkf0_g?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": "Tutup · Buka Rab pukul 08.00 ",
+      "category": "lainnya",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.1820677,
+      "longitude": 106.4529319,
+      "google_types": "Toko Pakan Hewan",
+      "reviews": [
+        {
+          "author": "Tengku Deryanda",
+          "rating": 5,
+          "text": "Pelayanan nya mantap dan harga beda dari yang lain",
+          "date": "6 bulan lalu"
+        },
+        {
+          "author": "Tengku Deryanda",
+          "rating": 5,
+          "text": "Pelayanan nya mantap dan harga beda dari yang lain",
+          "date": "6 bulan lalu"
+        },
+        {
+          "author": "Fikry Satria Nugraha",
+          "rating": 5,
+          "text": "barang okeee, pelayanan mantapp jasaaa",
+          "date": "2 tahun lalu"
+        },
+        {
+          "author": "Fikry Satria Nugraha",
+          "rating": 5,
+          "text": "barang okeee, pelayanan mantapp jasaaa",
+          "date": "2 tahun lalu"
+        }
+      ],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJveGbYfgDQi4RHOGJzlpzHW4",
+      "name": "Rajawali PS",
+      "address": "JL Raya Serang, Km. 29, Cikupa, Balaraja, Cangkudu, Tangerang, Kabupaten Tangerang, Banten 15610",
+      "maps_url": "https://www.google.com/maps/place/Rajawali+PS/data=!4m7!3m6!1s0x2e4203f8619be1bd:0x6e1d735ace89e11c!8m2!3d-6.2289067!4d106.4316429!16s%2Fg%2F11btmb0mng!19sChIJveGbYfgDQi4RHOGJzlpzHW4?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": "Tutup · Buka Rab pukul 07.00 ",
+      "category": "lainnya",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.2289067,
+      "longitude": 106.4316429,
+      "google_types": "Toko Hewan Peliharaan",
+      "reviews": [
+        {
+          "author": "muhammad triyuliandi",
+          "rating": 5,
+          "text": "Tempat terbaik untuk beli pakan ternak. Lengkap, harga terjangkau, pelayanan ramah, dan kualitas pakan terjamin. Sangat direkomendasikan.",
+          "date": "6 bulan lalu"
+        },
+        {
+          "author": "muhammad triyuliandi",
+          "rating": 5,
+          "text": "Tempat terbaik untuk beli pakan ternak. Lengkap, harga terjangkau, pelayanan ramah, dan kualitas pakan terjamin. Sangat direkomendasikan.",
+          "date": "6 bulan lalu"
+        },
+        {
+          "author": "nenil yanuartivo",
+          "rating": 5,
+          "text": "Recommended toko pakan ternak terlengkap deh pokok nya.. pelayanan nya ramah dan cepat 🫰 …",
+          "date": "6 bulan lalu"
+        },
+        {
+          "author": "nenil yanuartivo",
+          "rating": 5,
+          "text": "Recommended toko pakan ternak terlengkap deh pokok nya.. pelayanan nya ramah dan cepat 🫰 …",
+          "date": "6 bulan lalu"
+        },
+        {
+          "author": "Zidan Junior",
+          "rating": 5,
+          "text": "Harga produk dan bibit bibitnya terjangkau, wajib dibeli warga warga banten....",
+          "date": "6 bulan lalu"
+        }
+      ],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJ3dV77fYDQi4RuwK-HzW7X-Q",
+      "name": "Charoen Pokphand Indonesia Feedmill",
+      "address": "QCFF+7RG, Cangkudu, Kec. Balaraja, Kabupaten Tangerang, Banten 15610",
+      "maps_url": "https://www.google.com/maps/place/Charoen+Pokphand+Indonesia+Feedmill/data=!4m7!3m6!1s0x2e4203f6ed7bd5dd:0xe45fbb351fbe02bb!8m2!3d-6.2268203!4d106.4245873!16s%2Fg%2F1ptv_736s!19sChIJ3dV77fYDQi4RuwK-HzW7X-Q?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": "Tutup · Buka Rab pukul 08.00 ",
+      "category": "lainnya",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.2268203,
+      "longitude": 106.4245873,
+      "google_types": "Produsen Pakan",
+      "reviews": [
+        {
+          "author": "Andri Romandon",
+          "rating": 5,
+          "text": "Gak tau kenapa. Gua sering ke ATM di depan Perusahaan 1 ini.\nDan sesigap itu juga security pasti bantu nyebrangin motor lalu lalang. Ke ATM. Padahal bukan karyawan Perusahaan mreka.\nSalut sih..., ngasih bintang 5. Buat security yg tugas.",
+          "date": "2 tahun lalu"
+        },
+        {
+          "author": "Andri Romandon",
+          "rating": 5,
+          "text": "Gak tau kenapa. Gua sering ke ATM di depan Perusahaan 1 ini.\nDan sesigap itu juga security pasti bantu nyebrangin motor lalu lalang. Ke ATM. Padahal bukan karyawan Perusahaan mreka.\nSalut sih..., ngasih bintang 5. Buat security yg tugas.",
+          "date": "2 tahun lalu"
+        },
+        {
+          "author": "Bahroni Al Mansur Sudin",
+          "rating": 5,
+          "text": "Pabrik pakan ternak yang besar dan luas, nyaman dan bersih serta pegawai nya ramah",
+          "date": "setahun lalu"
+        },
+        {
+          "author": "Bahroni Al Mansur Sudin",
+          "rating": 5,
+          "text": "Pabrik pakan ternak yang besar dan luas, nyaman dan bersih serta pegawai nya ramah",
+          "date": "setahun lalu"
+        },
+        {
+          "author": "Dadang Suratno",
+          "rating": 5,
+          "text": "Lumayan",
+          "date": "sebulan lalu"
+        }
+      ],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJoUV6bZQGQi4RuoQEd3EJRBE",
+      "name": "Toko Pakan Hewan",
+      "address": "Jln SD BABAKAN, Pete, Kec. Tigaraksa, Kabupaten Tangerang",
+      "maps_url": "https://www.google.com/maps/place/Toko+Pakan+Hewan/data=!4m7!3m6!1s0x2e4206946d7a45a1:0x11440971770484ba!8m2!3d-6.2542261!4d106.4612508!16s%2Fg%2F11cjhycnhl!19sChIJoUV6bZQGQi4RuoQEd3EJRBE?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": "Buka 24 jam ",
+      "category": "lainnya",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.2542261,
+      "longitude": 106.4612508,
+      "google_types": "Toko",
+      "reviews": [
+        {
+          "author": "Muhammad Hifdi",
+          "rating": 5,
+          "text": "Bagus",
+          "date": "8 tahun lalu"
+        },
+        {
+          "author": "Muhammad Hifdi",
+          "rating": 5,
+          "text": "Bagus",
+          "date": "8 tahun lalu"
+        },
+        {
+          "author": "denaya nadhira",
+          "rating": 5,
+          "text": "Oke",
+          "date": "7 tahun lalu"
+        },
+        {
+          "author": "denaya nadhira",
+          "rating": 5,
+          "text": "Oke",
+          "date": "7 tahun lalu"
+        }
+      ],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJt6K_DzoHQi4RYGweUE4UvQk",
+      "name": "Toko Pakan Aji",
+      "address": "QF54+WH2, Pematang, Kec. Tigaraksa, Kabupaten Tangerang, Banten 15720",
+      "maps_url": "https://www.google.com/maps/place/Toko+Pakan+Aji/data=!4m7!3m6!1s0x2e42073a0fbfa2b7:0x9bd144e501e6c60!8m2!3d-6.2402408!4d106.4563833!16s%2Fg%2F11r4jn9lmw!19sChIJt6K_DzoHQi4RYGweUE4UvQk?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": "Buka 24 jam ",
+      "category": "lainnya",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.2402408,
+      "longitude": 106.4563833,
+      "google_types": "Toko Pakan Hewan",
+      "reviews": [
+        {
+          "author": "Yus Mulyadi",
+          "rating": 5,
+          "text": "Baik",
+          "date": "2 tahun lalu"
+        },
+        {
+          "author": "Yus Mulyadi",
+          "rating": 5,
+          "text": "Baik",
+          "date": "2 tahun lalu"
+        }
+      ],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJCzuELw4HQi4RrMyFSIY6OLs",
+      "name": "PT. Matahari Sakti",
+      "address": "PGR2+6XW, Peusar, Kec. Panongan, Kabupaten Tangerang, Banten 15710",
+      "maps_url": "https://www.google.com/maps/place/PT.+Matahari+Sakti/data=!4m7!3m6!1s0x2e42070e2f843b0b:0xbb383a864885ccac!8m2!3d-6.259386!4d106.502455!16s%2Fg%2F11cn2_llzw!19sChIJCzuELw4HQi4RrMyFSIY6OLs?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": "Tutup · Buka Rab pukul 08.00 ",
+      "category": "lainnya",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.259386,
+      "longitude": 106.502455,
+      "google_types": "Produsen Pakan",
+      "reviews": [
+        {
+          "author": "Aan fattah Andoyo",
+          "rating": 5,
+          "text": "Pabrik bersih dengan teknologi otomatis semua menciptakan pakan ikan terbaik",
+          "date": "7 bulan lalu"
+        },
+        {
+          "author": "Aan fattah Andoyo",
+          "rating": 5,
+          "text": "Pabrik bersih dengan teknologi otomatis semua menciptakan pakan ikan terbaik",
+          "date": "7 bulan lalu"
+        },
+        {
+          "author": "HM Hasta Stepanus",
+          "rating": 5,
+          "text": "gudang pakan. pernah bongkar disini. muat dari gempol",
+          "date": "8 bulan lalu"
+        },
+        {
+          "author": "HM Hasta Stepanus",
+          "rating": 5,
+          "text": "gudang pakan. pernah bongkar disini. muat dari gempol",
+          "date": "8 bulan lalu"
+        },
+        {
+          "author": "Costumer Service Andien",
+          "rating": 5,
+          "text": "Terima kasih atas review nya dan untuk keluhan bisa contact kami dengan klik Poto.",
+          "date": "9 bulan lalu"
+        }
+      ],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJM_RLbkUDQi4RE7YbmR-cMbI",
+      "name": "TOKO PUTRA MANDIRI TERNAK",
+      "address": "Pangkat, Kec. Jayanti, Kabupaten Tangerang, Banten 15610",
+      "maps_url": "https://www.google.com/maps/place/TOKO+PUTRA+MANDIRI+TERNAK/data=!4m7!3m6!1s0x2e4203456e4bf433:0xb2319c1f991bb613!8m2!3d-6.1964227!4d106.3942442!16s%2Fg%2F11h554mjp7!19sChIJM_RLbkUDQi4RE7YbmR-cMbI?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": "Tutup · Buka Rab pukul 08.00 ",
+      "category": "lainnya",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.1964227,
+      "longitude": 106.3942442,
+      "google_types": "Toko Pakan Hewan",
+      "reviews": [
+        {
+          "author": "Angga Arya",
+          "rating": 5,
+          "text": "Ada Doc ayam petelur ga?",
+          "date": "5 bulan lalu"
+        },
+        {
+          "author": "Angga Arya",
+          "rating": 5,
+          "text": "Ada Doc ayam petelur ga?",
+          "date": "5 bulan lalu"
+        }
+      ],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJwQrMh3MBQi4RzrArD-oOfGY",
+      "name": "Toko Bangunan Cahaya Balaraja",
+      "address": "Jl. Raya Serang No.Km. 24, Balaraja, Kec. Balaraja, Kabupaten Tangerang, Banten 15610",
+      "maps_url": "https://www.google.com/maps/place/Toko+Bangunan+Cahaya+Balaraja/data=!4m7!3m6!1s0x2e42017387cc0ac1:0x667c0eea0f2bb0ce!8m2!3d-6.1932596!4d106.4604767!16s%2Fg%2F11b6dp2g45!19sChIJwQrMh3MBQi4RzrArD-oOfGY?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": "Tutup · Buka Rab pukul 07.30·Lihat jam lainnya",
+      "category": "lainnya",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.1932596,
+      "longitude": 106.4604767,
+      "google_types": "Toko Bahan Bangunan",
+      "reviews": [
+        {
+          "author": "adrian lungkat",
+          "rating": 5,
+          "text": "Barang”nya lengkap, staff toko dan owner melayani dengan baik, harganya jg paling bagus ga usah repot” bandingin lagi sama toko sebelah. Mantaapppp Cahaya Balaraja.",
+          "date": "setahun lalu"
+        },
+        {
+          "author": "adrian lungkat",
+          "rating": 5,
+          "text": "Barang”nya lengkap, staff toko dan owner melayani dengan baik, harganya jg paling bagus ga usah repot” bandingin lagi sama toko sebelah. Mantaapppp Cahaya Balaraja.",
+          "date": "setahun lalu"
+        },
+        {
+          "author": "Latief Sanjaya",
+          "rating": 5,
+          "text": "Toko material paling lengkap di balaraja, akses mudah, harga bersaing. Bos nya masih muda ternyata dan ramah",
+          "date": "2 tahun lalu"
+        },
+        {
+          "author": "Latief Sanjaya",
+          "rating": 5,
+          "text": "Toko material paling lengkap di balaraja, akses mudah, harga bersaing. Bos nya masih muda ternyata dan ramah",
+          "date": "2 tahun lalu"
+        },
+        {
+          "author": "Nico Pratama",
+          "rating": 5,
+          "text": "Lengkap, aman, dan terpercaya.. Service yg baik dan barang yg sangat lengkap, mau cari kebutuhan matrial apapun disini tersedia👍🏻👍🏻 …",
+          "date": "setahun lalu"
+        }
+      ],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJybGiEGYBQi4RgZanQFW237c",
+      "name": "Prima Agung",
+      "address": "Jl. Raya Serang No.KM.25, Balaraja, Kec. Balaraja, Kabupaten Tangerang, Banten 15610",
+      "maps_url": "https://www.google.com/maps/place/Prima+Agung/data=!4m7!3m6!1s0x2e42016610a2b1c9:0xb7dfb65540a79681!8m2!3d-6.2052642!4d106.4518576!16s%2Fg%2F1hm45jrtq!19sChIJybGiEGYBQi4RgZanQFW237c?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": "Buka · Tutup Rab pukul 04.30 ",
+      "category": "lainnya",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.2052642,
+      "longitude": 106.4518576,
+      "google_types": "Toko Bahan Bangunan",
+      "reviews": [
+        {
+          "author": "Rony Haeri",
+          "rating": 5,
+          "text": "Pelayanan karyawan baik, perlengkapan bangunan",
+          "date": "3 bulan lalu"
+        },
+        {
+          "author": "Rony Haeri",
+          "rating": 5,
+          "text": "Pelayanan karyawan baik, perlengkapan bangunan",
+          "date": "3 bulan lalu"
+        },
+        {
+          "author": "Rizal Alayubi",
+          "rating": 5,
+          "text": "Tempat Belanja Bahan Bangunan terfavorit.... Lumayan lengkap.",
+          "date": "4 tahun lalu"
+        },
+        {
+          "author": "Rizal Alayubi",
+          "rating": 5,
+          "text": "Tempat Belanja Bahan Bangunan terfavorit.... Lumayan lengkap.",
+          "date": "4 tahun lalu"
+        },
+        {
+          "author": "Asep subadra",
+          "rating": 5,
+          "text": "Ayo order cat kansai paint di sini",
+          "date": "5 tahun lalu"
+        }
+      ],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJ_YnsHCIBQi4RdoKr-BfF5qk",
+      "name": "Balaraja TB",
+      "address": "JL. Raya Serang Km No.24, Sukanagara, Cikupa, Tangerang Regency, Banten 15610",
+      "maps_url": "https://www.google.com/maps/place/Balaraja+TB/data=!4m7!3m6!1s0x2e4201221cec89fd:0xa9e6c517f8ab8276!8m2!3d-6.2083333!4d106.4818433!16s%2Fg%2F1hc102g8_!19sChIJ_YnsHCIBQi4RdoKr-BfF5qk?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": "Segera tutup · 22.00 · Buka Rab pukul 07.00 ",
+      "category": "lainnya",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.2083333,
+      "longitude": 106.4818433,
+      "google_types": "Toko Bahan Bangunan",
+      "reviews": [
+        {
+          "author": "Mar Yono",
+          "rating": 5,
+          "text": "Sangat membantu anak dalam belajar dan memahami cara membaca menulis berhitung untuk bekal mempersiapkan belajar ke jenjang selanjutnya",
+          "date": "2 tahun lalu"
+        },
+        {
+          "author": "Mar Yono",
+          "rating": 5,
+          "text": "Sangat membantu anak dalam belajar dan memahami cara membaca menulis berhitung untuk bekal mempersiapkan belajar ke jenjang selanjutnya",
+          "date": "2 tahun lalu"
+        }
+      ],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJZT8nxXoBQi4R6R_bqK56wOc",
+      "name": "TB. Cahaya Kapuas",
+      "address": "QCMV+RH4, Sentul, Kec. Balaraja, Kabupaten Tangerang, Banten 15610",
+      "maps_url": "https://www.google.com/maps/place/TB.+Cahaya+Kapuas/data=!4m7!3m6!1s0x2e42017ac5273f65:0xe7c07aaea8db1fe9!8m2!3d-6.2154768!4d106.4439661!16s%2Fg%2F11h07yy76c!19sChIJZT8nxXoBQi4R6R_bqK56wOc?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": "Buka · Tutup pukul 04.00 ",
+      "category": "lainnya",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.2154768,
+      "longitude": 106.4439661,
+      "google_types": "Toko Bahan Bangunan",
+      "reviews": [
+        {
+          "author": "Aji Gote",
+          "rating": 5,
+          "text": "Toko grosir yang amanah nih",
+          "date": "3 tahun lalu"
+        },
+        {
+          "author": "Aji Gote",
+          "rating": 5,
+          "text": "Toko grosir yang amanah nih",
+          "date": "3 tahun lalu"
+        },
+        {
+          "author": "fendisvc 1708",
+          "rating": 5,
+          "text": "Puas dengan pelayanan toko ini",
+          "date": "4 tahun lalu"
+        },
+        {
+          "author": "fendisvc 1708",
+          "rating": 5,
+          "text": "Puas dengan pelayanan toko ini",
+          "date": "4 tahun lalu"
+        },
+        {
+          "author": "Tugiman Wkb",
+          "rating": 5,
+          "text": "cepet respon",
+          "date": "6 tahun lalu"
+        }
+      ],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJ2THM2uUBQi4Rd_z90eQhE4w",
+      "name": "Toko Jaya Talaga Bangunan",
+      "address": "RF68+88W, Jl. Irigasi, Balaraja, Kec. Balaraja, Kabupaten Tangerang, Banten 15610",
+      "maps_url": "https://www.google.com/maps/place/Toko+Jaya+Talaga+Bangunan/data=!4m7!3m6!1s0x2e4201e5dacc31d9:0x8c1321e4d1fdfc77!8m2!3d-6.1891384!4d106.4658335!16s%2Fg%2F11lfbfg1c9!19sChIJ2THM2uUBQi4Rd_z90eQhE4w?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": "Tutup · Buka Rab pukul 07.30 ",
+      "category": "lainnya",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.1891384,
+      "longitude": 106.4658335,
+      "google_types": "Toko Bahan Bangunan",
+      "reviews": [
+        {
+          "author": "Devi Rukmana",
+          "rating": 5,
+          "text": "Toko bangunan terdekat dari tempat saya tinggal,\nCuman gak bisa ngutang 😆😆😆 …",
+          "date": "4 tahun lalu"
+        },
+        {
+          "author": "Devi Rukmana",
+          "rating": 5,
+          "text": "Toko bangunan terdekat dari tempat saya tinggal,\nCuman gak bisa ngutang 😆😆😆 …",
+          "date": "4 tahun lalu"
+        },
+        {
+          "author": "sigit",
+          "rating": 5,
+          "text": "toko bahan bangunan lengkap harga terjangkau",
+          "date": "2 tahun lalu"
+        },
+        {
+          "author": "sigit",
+          "rating": 5,
+          "text": "toko bahan bangunan lengkap harga terjangkau",
+          "date": "2 tahun lalu"
+        },
+        {
+          "author": "reza julian",
+          "rating": 5,
+          "text": "Makanannya dan minumanyA enakkk",
+          "date": "2 tahun lalu"
+        }
+      ],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJ5dy4f2gBQi4Re55TF6bLwtY",
+      "name": "Toko tri jaya bangunan",
+      "address": "Jl. Raya Kresek No.69, Balaraja, Kec. Balaraja, Kabupaten Tangerang, Banten 15610",
+      "maps_url": "https://www.google.com/maps/place/Toko+tri+jaya+bangunan/data=!4m7!3m6!1s0x2e4201687fb8dce5:0xd6c2cba617539e7b!8m2!3d-6.1882382!4d106.4568986!16s%2Fg%2F11h6rrym0k!19sChIJ5dy4f2gBQi4Re55TF6bLwtY?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": "Tutup · Buka Rab pukul 07.00 ",
+      "category": "lainnya",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.1882382,
+      "longitude": 106.4568986,
+      "google_types": "Toko Bahan Bangunan",
+      "reviews": [
+        {
+          "author": "Akhmad Fauzy",
+          "rating": 5,
+          "text": "Barbagai bahan bangunan komplit dan murah..\nHarga jg miring bs cincai di bandingkan dg toko2 yg lain",
+          "date": "3 tahun lalu"
+        },
+        {
+          "author": "Akhmad Fauzy",
+          "rating": 5,
+          "text": "Barbagai bahan bangunan komplit dan murah..\nHarga jg miring bs cincai di bandingkan dg toko2 yg lain",
+          "date": "3 tahun lalu"
+        },
+        {
+          "author": "yeyen suhandi",
+          "rating": 5,
+          "text": "Toko bangunan yang sudah cukup lama, berpengalaman,  barang nya lengkap, harganya terjangkau. Tokonya di jalan raya sangat mudah di akses.",
+          "date": "4 tahun lalu"
+        },
+        {
+          "author": "yeyen suhandi",
+          "rating": 5,
+          "text": "Toko bangunan yang sudah cukup lama, berpengalaman,  barang nya lengkap, harganya terjangkau. Tokonya di jalan raya sangat mudah di akses.",
+          "date": "4 tahun lalu"
+        },
+        {
+          "author": "Alex Kurniawan",
+          "rating": 5,
+          "text": "Harga murah, bosnya baik dan ramah.",
+          "date": "4 tahun lalu"
+        }
+      ],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJp8XWp2gBQi4RmEEqPOnFpQ8",
+      "name": "Toko Besi Cahaya Baja Pratama Gemilang",
+      "address": "Jl. Raya Serang No.Km. 25, Sentul, Kec. Balaraja, Kabupaten Tangerang, Banten 15610",
+      "maps_url": "https://www.google.com/maps/place/Toko+Besi+Cahaya+Baja+Pratama+Gemilang/data=!4m7!3m6!1s0x2e420168a7d6c5a7:0xfa5c5e93c2a4198!8m2!3d-6.2043509!4d106.4524609!16s%2Fg%2F11b6dtkfh0!19sChIJp8XWp2gBQi4RmEEqPOnFpQ8?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": "Tutup · Buka Rab pukul 07.00 ",
+      "category": "lainnya",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.2043509,
+      "longitude": 106.4524609,
+      "google_types": "Toko Bahan Bangunan",
+      "reviews": [
+        {
+          "author": "Yahya Rozikin",
+          "rating": 5,
+          "text": "Pelayanan ramah harga murah top bgt ... Recommended pokoky y..",
+          "date": "5 tahun lalu"
+        },
+        {
+          "author": "Yahya Rozikin",
+          "rating": 5,
+          "text": "Pelayanan ramah harga murah top bgt ... Recommended pokoky y..",
+          "date": "5 tahun lalu"
+        },
+        {
+          "author": "Tigor Pandapotan",
+          "rating": 5,
+          "text": "Cari besi holo,baja ringan,  spandex bahkan pipa tersedia disini",
+          "date": "5 tahun lalu"
+        },
+        {
+          "author": "Tigor Pandapotan",
+          "rating": 5,
+          "text": "Cari besi holo,baja ringan,  spandex bahkan pipa tersedia disini",
+          "date": "5 tahun lalu"
+        },
+        {
+          "author": "Arif Irawan",
+          "rating": 5,
+          "text": "Lengkap, area balaraja bisa pesan by WA dan COD",
+          "date": "3 tahun lalu"
+        }
+      ],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJc9U6sD0BQi4RoGUGwBRNei0",
+      "name": "TB. Sumber Cahaya",
+      "address": "Jl. Raya Saga - Bunar, Saga, Kec. Balaraja, Kabupaten Tangerang, Banten 15610",
+      "maps_url": "https://www.google.com/maps/place/TB.+Sumber+Cahaya/data=!4m7!3m6!1s0x2e42013db03ad573:0x2d7a4d14c00665a0!8m2!3d-6.1802166!4d106.4526205!16s%2Fg%2F11gtyz2hvw!19sChIJc9U6sD0BQi4RoGUGwBRNei0?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": "Tutup · Buka Rab pukul 06.30 ",
+      "category": "lainnya",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.1802166,
+      "longitude": 106.4526205,
+      "google_types": "Toko Bahan Bangunan",
+      "reviews": [
+        {
+          "author": "Rizki Fitriana",
+          "rating": 5,
+          "text": "Untuk pemesanan karbung bisa cek IG kami @shyntaflorist atau wa 081388137630",
+          "date": "4 tahun lalu"
+        },
+        {
+          "author": "Rizki Fitriana",
+          "rating": 5,
+          "text": "Untuk pemesanan karbung bisa cek IG kami @shyntaflorist atau wa 081388137630",
+          "date": "4 tahun lalu"
+        },
+        {
+          "author": "Ina Aqila",
+          "rating": 5,
+          "text": "Belanja nyaman dan dilayani dengan baik dan ramah di toko ini",
+          "date": "6 tahun lalu"
+        },
+        {
+          "author": "Ina Aqila",
+          "rating": 5,
+          "text": "Belanja nyaman dan dilayani dengan baik dan ramah di toko ini",
+          "date": "6 tahun lalu"
+        },
+        {
+          "author": "Indra Juve",
+          "rating": 5,
+          "text": "Siip",
+          "date": "setahun lalu"
+        }
+      ],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJAcc3BJ0BQi4Rq-z6jlzlH_A",
+      "name": "PD Cahaya Saga",
+      "address": "Jl Raya Kresek KM 1 No 88 Kampung Kiara Desa Tobat Balaraja Balaraja, Tangerang kabupaten, Tobat, Kec. Balaraja, Kabupaten Tangerang, Banten 15610",
+      "maps_url": "https://www.google.com/maps/place/PD+Cahaya+Saga/data=!4m7!3m6!1s0x2e42019d0437c701:0xf01fe55c8efaecab!8m2!3d-6.1861761!4d106.45476!16s%2Fg%2F11cn6lwywh!19sChIJAcc3BJ0BQi4Rq-z6jlzlH_A?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": "Tutup · Buka Rab pukul 07.00 ",
+      "category": "lainnya",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.1861761,
+      "longitude": 106.45476,
+      "google_types": "Toko Bahan Bangunan",
+      "reviews": [
+        {
+          "author": "Clairine Aqueena cew",
+          "rating": 5,
+          "text": "Langganan  orang tua  dari sya masih sekolah, sekarang saya jugaikutan jadi pelanggan setia, uda percaya, harga sesuai dengan kwalitas. Tokonya juga tetep eksis walaupun sudah banyak toko lain di sekitaran rumah, pelayanan jg ok, ramah. Harga juga sesuai lah, kalo mau kwalitas ya pasti ada harga ya",
+          "date": "3 tahun lalu"
+        },
+        {
+          "author": "Clairine Aqueena cew",
+          "rating": 5,
+          "text": "Langganan  orang tua  dari sya masih sekolah, sekarang saya jugaikutan jadi pelanggan setia, uda percaya, harga sesuai dengan kwalitas. Tokonya juga tetep eksis walaupun sudah banyak toko lain di sekitaran rumah, pelayanan jg ok, ramah. Harga juga sesuai lah, kalo mau kwalitas ya pasti ada harga ya",
+          "date": "3 tahun lalu"
+        },
+        {
+          "author": "Christabelle Laquisha 4C / Clairine Aqueena 2B",
+          "rating": 5,
+          "text": "Pelayanan ok, harga paling murah dan kirim barang kualitas sesuai dengan yang dipesan. Puas belanja disini. Sudah langganan dari dulu",
+          "date": "5 tahun lalu"
+        },
+        {
+          "author": "Christabelle Laquisha 4C / Clairine Aqueena 2B",
+          "rating": 5,
+          "text": "Pelayanan ok, harga paling murah dan kirim barang kualitas sesuai dengan yang dipesan. Puas belanja disini. Sudah langganan dari dulu",
+          "date": "5 tahun lalu"
+        },
+        {
+          "author": "Piao candy",
+          "rating": 5,
+          "text": "Toko paling baik di balaraja....harga murah pelayan nya ramah....jarang tipu2 konsumen...dijamin puas belanja disini...termasuk toko lama di balaraja",
+          "date": "Diedit 5 tahun lalu"
+        }
+      ],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJP07GW3sBQi4RVqZjAY9_u-M",
+      "name": "BAROKAH ROSSA _ BALARAJA",
+      "address": "Kp.Pasir, RT.02/RW.01, Sentul, Kec. Balaraja, Kabupaten Tangerang, Banten 15610",
+      "maps_url": "https://www.google.com/maps/place/BAROKAH+ROSSA+_+BALARAJA/data=!4m7!3m6!1s0x2e42017b5bc64e3f:0xe3bb7f8f0163a656!8m2!3d-6.2048744!4d106.4549037!16s%2Fg%2F11tndy3n74!19sChIJP07GW3sBQi4RVqZjAY9_u-M?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": "Segera tutup · 22.00 · Buka Rab pukul 08.00 ",
+      "category": "lainnya",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.2048744,
+      "longitude": 106.4549037,
+      "google_types": "Toko Bahan Bangunan",
+      "reviews": [
+        {
+          "author": "eko prihutomo",
+          "rating": 5,
+          "text": "Untuk kalian yang ingin mencari produk keramik ataupun atap Tempat ini bisa di jadikan pilihan …",
+          "date": "8 bulan lalu"
+        },
+        {
+          "author": "eko prihutomo",
+          "rating": 5,
+          "text": "Untuk kalian yang ingin mencari produk keramik ataupun atap Tempat ini bisa di jadikan pilihan …",
+          "date": "8 bulan lalu"
+        },
+        {
+          "author": "Khansa Pelangi",
+          "rating": 5,
+          "text": "Bener bener amanah , cepet banget respon nya mantaap pengiriman cepat sat set... terimakasih barokah rossa_balaraja",
+          "date": "10 bulan lalu"
+        },
+        {
+          "author": "Khansa Pelangi",
+          "rating": 5,
+          "text": "Bener bener amanah , cepet banget respon nya mantaap pengiriman cepat sat set... terimakasih barokah rossa_balaraja",
+          "date": "10 bulan lalu"
+        },
+        {
+          "author": "Azrulfikar Ramadhan",
+          "rating": 5,
+          "text": "Terimaksih Barokah Rossa, kami ucapkan terimakasih banyak. Barangnya sampai ke BSD lumayan cepat, barang yg dikirim terpilih semua tanpa cacat. Berkah selalu",
+          "date": "setahun lalu"
+        }
+      ],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJX10keZoFQi4RtEOnkn1S4lE",
+      "name": "Toko Dmart Bangunan",
+      "address": "Jl. Bukit Gading Balaraja A No.1 blok n1, Cangkudu, Kec. Balaraja, Kabupaten Tangerang, Banten 15610",
+      "maps_url": "https://www.google.com/maps/place/Toko+Dmart+Bangunan/data=!4m7!3m6!1s0x2e42059a79245d5f:0x51e2527d92a743b4!8m2!3d-6.2306479!4d106.4342692!16s%2Fg%2F11lkdpv49c!19sChIJX10keZoFQi4RtEOnkn1S4lE?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": "Segera tutup · 22.00 · Buka Rab pukul 08.00 ",
+      "category": "lainnya",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.2306479,
+      "longitude": 106.4342692,
+      "google_types": "Toko Bahan & Peralatan Pembuatan Bir",
+      "reviews": [
+        {
+          "author": "Nyari makaN",
+          "rating": 5,
+          "text": "Senang Belanja di sini 👍👍👍👍 …",
+          "date": "4 tahun lalu"
+        },
+        {
+          "author": "Nyari makaN",
+          "rating": 5,
+          "text": "Senang Belanja di sini 👍👍👍👍 …",
+          "date": "4 tahun lalu"
+        }
+      ],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJ80bWMgABQi4RIWqICHolQrw",
+      "name": "MR bangunan",
+      "address": "RF66+VPJ, Balaraja, Kec. Balaraja, Kabupaten Tangerang, Banten 15610",
+      "maps_url": "https://www.google.com/maps/place/MR+bangunan/data=!4m7!3m6!1s0x2e42010032d646f3:0xbc42257a08886a21!8m2!3d-6.1877754!4d106.4617611!16s%2Fg%2F11x04hqf6b!19sChIJ80bWMgABQi4RIWqICHolQrw?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": null,
+      "category": "lainnya",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.1877754,
+      "longitude": 106.4617611,
+      "google_types": "Toko Bahan Bangunan",
+      "reviews": [
+        {
+          "author": "Mustika Dahlan",
+          "rating": 5,
+          "text": "Pusat wpc",
+          "date": "4 bulan lalu"
+        },
+        {
+          "author": "Mustika Dahlan",
+          "rating": 5,
+          "text": "Pusat wpc",
+          "date": "4 bulan lalu"
+        }
+      ],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJhS4Ft3QBQi4RmhlthVh3Qds",
+      "name": "TB. CAHAYA IWUL",
+      "address": "RC4R+88V, KP.IWUL, DESA, Tobat, Kec. Balaraja, Kabupaten Tangerang, Banten 15610",
+      "maps_url": "https://www.google.com/maps/place/TB.+CAHAYA+IWUL/data=!4m7!3m6!1s0x2e420174b7052e85:0xdb417758856d199a!8m2!3d-6.1941348!4d106.4407993!16s%2Fg%2F11rtm9p15x!19sChIJhS4Ft3QBQi4RmhlthVh3Qds?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": "Tutup · Buka Rab pukul 07.00 ",
+      "category": "lainnya",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.1941348,
+      "longitude": 106.4407993,
+      "google_types": "Toko Bahan Bangunan",
+      "reviews": [
+        {
+          "author": "Heri Setiawan",
+          "rating": 5,
+          "text": "Bagus, ouwnernya ramah ☺👍🏻 …",
+          "date": "3 tahun lalu"
+        },
+        {
+          "author": "Heri Setiawan",
+          "rating": 5,
+          "text": "Bagus, ouwnernya ramah ☺👍🏻 …",
+          "date": "3 tahun lalu"
+        }
+      ],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJqbG-Ip4DQi4R0hTCqm67_Es",
+      "name": "Pd. Anugerah",
+      "address": "Jl. Raya Serang No.6, Cangkudu, Kec. Balaraja, Kabupaten Tangerang, Banten 15610",
+      "maps_url": "https://www.google.com/maps/place/Pd.+Anugerah/data=!4m7!3m6!1s0x2e42039e22beb1a9:0x4bfcbb6eaac214d2!8m2!3d-6.2286622!4d106.4315306!16s%2Fg%2F11h8k_zw13!19sChIJqbG-Ip4DQi4R0hTCqm67_Es?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": "Tutup · Buka Rab pukul 08.00 ",
+      "category": "lainnya",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.2286622,
+      "longitude": 106.4315306,
+      "google_types": "Toko Bahan Bangunan",
+      "reviews": [
+        {
+          "author": "Jeff Halim",
+          "rating": 5,
+          "text": "Barang sangat komplit, harga murah meriah, penjual sangat ramai. Sangat rekomen",
+          "date": "2 tahun lalu"
+        },
+        {
+          "author": "Jeff Halim",
+          "rating": 5,
+          "text": "Barang sangat komplit, harga murah meriah, penjual sangat ramai. Sangat rekomen",
+          "date": "2 tahun lalu"
+        },
+        {
+          "author": "Andri Burnas",
+          "rating": 5,
+          "text": "Pilihan blanja baik sekali... Akses mudah dan cepat",
+          "date": "Diedit 4 tahun lalu"
+        },
+        {
+          "author": "Andri Burnas",
+          "rating": 5,
+          "text": "Pilihan blanja baik sekali... Akses mudah dan cepat",
+          "date": "Diedit 4 tahun lalu"
+        },
+        {
+          "author": "Akang Abah",
+          "rating": 5,
+          "text": "Barangnya komplit dan harganya cukup miring",
+          "date": "6 tahun lalu"
+        }
+      ],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJ2dtqcgABQi4RmU1lZ4Uqv5U",
+      "name": "ZK BANGUNAN 2",
+      "address": "Jl. Raya Saga - Bunar, Saga, Kec. Balaraja, Kabupaten Tangerang, Banten 15610",
+      "maps_url": "https://www.google.com/maps/place/ZK+BANGUNAN+2/data=!4m7!3m6!1s0x2e420100726adbd9:0x95bf2a8567654d99!8m2!3d-6.1794853!4d106.4528763!16s%2Fg%2F11xcdnsc3l!19sChIJ2dtqcgABQi4RmU1lZ4Uqv5U?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": "Tutup · Buka Rab pukul 07.15 ",
+      "category": "lainnya",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.1794853,
+      "longitude": 106.4528763,
+      "google_types": "Toko Bahan Bangunan",
+      "reviews": [
+        {
+          "author": "Neng silvi Sehaluvti",
+          "rating": 5,
+          "text": "Harga Murah, pelayanan cepatt, dan banyak2 hadiah dari tokonya",
+          "date": "6 bulan lalu"
+        },
+        {
+          "author": "Neng silvi Sehaluvti",
+          "rating": 5,
+          "text": "Harga Murah, pelayanan cepatt, dan banyak2 hadiah dari tokonya",
+          "date": "6 bulan lalu"
+        },
+        {
+          "author": "Baguzz 421",
+          "rating": 5,
+          "text": "Mantap zk bangunan 2 terbaik pokoknya puas belanja di sini ayo buruan merapat banyak banget hadiah nya terimakasih pak",
+          "date": "4 bulan lalu"
+        },
+        {
+          "author": "Baguzz 421",
+          "rating": 5,
+          "text": "Mantap zk bangunan 2 terbaik pokoknya puas belanja di sini ayo buruan merapat banyak banget hadiah nya terimakasih pak",
+          "date": "4 bulan lalu"
+        },
+        {
+          "author": "Puspa Utama",
+          "rating": 5,
+          "text": "TB ZK..owner nya fast respon mau beli banyak mau pas beli sedikit tetap di anter\nkaryawan nya juga sat set no lelet …",
+          "date": "5 bulan lalu"
+        }
+      ],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJDxf5C-oDQi4R8wI_QkeL2Ys",
+      "name": "PD. Alba Sejati",
+      "address": "JL Gembong, RT 06 RW 08, Dangdeur, Suka Murni, Balaraja, Dangdeur, Tangerang, Kabupaten Tangerang, Banten 15610",
+      "maps_url": "https://www.google.com/maps/place/PD.+Alba+Sejati/data=!4m7!3m6!1s0x2e4203ea0bf9170f:0x8bd98b47423f02f3!8m2!3d-6.2099972!4d106.4217392!16s%2Fg%2F11b6dp77_d!19sChIJDxf5C-oDQi4R8wI_QkeL2Ys?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": "Tutup · Buka Rab pukul 08.00 ",
+      "category": "lainnya",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.2099972,
+      "longitude": 106.4217392,
+      "google_types": "Toko Bahan Bangunan",
+      "reviews": [
+        {
+          "author": "Mira Coco",
+          "rating": 5,
+          "text": "Pelayanan nya sangat ramah",
+          "date": "4 tahun lalu"
+        },
+        {
+          "author": "Mira Coco",
+          "rating": 5,
+          "text": "Pelayanan nya sangat ramah",
+          "date": "4 tahun lalu"
+        }
+      ],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJBWLN4wABQi4Ryd-pH-ax4u4",
+      "name": "SINAR BALARAJA SUKSES",
+      "address": "RF65+793, Balaraja, Kec. Balaraja, Kabupaten Tangerang, Banten 15610",
+      "maps_url": "https://www.google.com/maps/place/SINAR+BALARAJA+SUKSES/data=!4m7!3m6!1s0x2e420100e3cd6205:0xeee2b1e61fa9dfc9!8m2!3d-6.1893724!4d106.4584343!16s%2Fg%2F11h1r5_nmn!19sChIJBWLN4wABQi4Ryd-pH-ax4u4?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": "Tutup · Buka Rab pukul 08.00 ",
+      "category": "lainnya",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.1893724,
+      "longitude": 106.4584343,
+      "google_types": "Toko Kayu",
+      "reviews": [
+        {
+          "author": "the sworts killer",
+          "rating": 5,
+          "text": "Sangat bagus",
+          "date": "Diedit 7 tahun lalu"
+        },
+        {
+          "author": "the sworts killer",
+          "rating": 5,
+          "text": "Sangat bagus",
+          "date": "Diedit 7 tahun lalu"
+        }
+      ],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJTcQ5x10BQi4RejQMf439-Bw",
+      "name": "UD. EGI PRIMA KERAMIK",
+      "address": "QFV3+8FR, kp. Pasir, RT.003/RW.001 desa, Sentul, Kec. Balaraja, Kabupaten Tangerang, Banten",
+      "maps_url": "https://www.google.com/maps/place/UD.+EGI+PRIMA+KERAMIK/data=!4m7!3m6!1s0x2e42015dc739c44d:0x1cf8fd8d7f0c347a!8m2!3d-6.2066303!4d106.4536481!16s%2Fg%2F11kq7h4p3j!19sChIJTcQ5x10BQi4RejQMf439-Bw?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": "Buka 24 jam ",
+      "category": "lainnya",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.2066303,
+      "longitude": 106.4536481,
+      "google_types": "Toko Bahan Bangunan",
+      "reviews": [
+        {
+          "author": "vegol kaos",
+          "rating": 5,
+          "text": "Mantapp",
+          "date": "2 tahun lalu"
+        },
+        {
+          "author": "vegol kaos",
+          "rating": 5,
+          "text": "Mantapp",
+          "date": "2 tahun lalu"
+        }
+      ],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJ56KVI3EDQi4RSM7ypK7puqA",
+      "name": "TB. ALMAHYRA",
+      "address": "RT./rw/RW.01/01, Gembong, Kec. Balaraja, Kabupaten Tangerang, Banten 15610",
+      "maps_url": "https://www.google.com/maps/place/TB.+ALMAHYRA/data=!4m7!3m6!1s0x2e4203712395a2e7:0xa0bae9aea4f2ce48!8m2!3d-6.220038!4d106.4191579!16s%2Fg%2F11s75z0pd0!19sChIJ56KVI3EDQi4RSM7ypK7puqA?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": "Buka · Tutup Rab pukul 05.00 ",
+      "category": "lainnya",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.220038,
+      "longitude": 106.4191579,
+      "google_types": "Toko Bahan Bangunan",
+      "reviews": [],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJR4Uu7acBQi4RFmkHinIbn2A",
+      "name": "Lestari Jaya (Toko Bahan Bangunan)",
+      "address": "Jl. Raya Parahu No.8, Parahu, Kec. Balaraja, Kabupaten Tangerang, Banten 15610",
+      "maps_url": "https://www.google.com/maps/place/Lestari+Jaya+%28Toko+Bahan+Bangunan%29/data=!4m7!3m6!1s0x2e4201a7ed2e8547:0x609f1b728a076916!8m2!3d-6.1795853!4d106.4450617!16s%2Fg%2F11f6fzr12s!19sChIJR4Uu7acBQi4RFmkHinIbn2A?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": null,
+      "category": "lainnya",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.1795853,
+      "longitude": 106.4450617,
+      "google_types": "Kantor Perusahaan",
+      "reviews": [
+        {
+          "author": "Michael Lee",
+          "rating": 5,
+          "text": "Toko bahan bangunan",
+          "date": "setahun lalu"
+        },
+        {
+          "author": "Michael Lee",
+          "rating": 5,
+          "text": "Toko bahan bangunan",
+          "date": "setahun lalu"
+        },
+        {
+          "author": "Aliat Dody",
+          "rating": 5,
+          "text": "Tpt sasaran cari alamat nya",
+          "date": "6 tahun lalu"
+        },
+        {
+          "author": "Aliat Dody",
+          "rating": 5,
+          "text": "Tpt sasaran cari alamat nya",
+          "date": "6 tahun lalu"
+        }
+      ],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJ8dG30nMBQi4Rp3hHO71Z6CI",
+      "name": "PD. Anugrah",
+      "address": "Jl. Raya Serang KM.28, Talagasari, Kec. Balaraja, Kabupaten Tangerang, Banten 15610",
+      "maps_url": "https://www.google.com/maps/place/PD.+Anugrah/data=!4m7!3m6!1s0x2e420173d2b7d1f1:0x22e859bd3b4778a7!8m2!3d-6.1958115!4d106.4589739!16s%2Fg%2F11bc7r_c83!19sChIJ8dG30nMBQi4Rp3hHO71Z6CI?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": "Tutup · Buka Rab pukul 08.00 ",
+      "category": "lainnya",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.1958115,
+      "longitude": 106.4589739,
+      "google_types": "Toko Bahan Bangunan",
+      "reviews": [
+        {
+          "author": "yanto LABA",
+          "rating": 5,
+          "text": "Jarak jauh. Km 29. Tetap aja tertekan...",
+          "date": "setahun lalu"
+        },
+        {
+          "author": "yanto LABA",
+          "rating": 5,
+          "text": "Jarak jauh. Km 29. Tetap aja tertekan...",
+          "date": "setahun lalu"
+        },
+        {
+          "author": "Paopao Bubel",
+          "rating": 5,
+          "text": "Lengkap",
+          "date": "2 tahun lalu"
+        },
+        {
+          "author": "Paopao Bubel",
+          "rating": 5,
+          "text": "Lengkap",
+          "date": "2 tahun lalu"
+        }
+      ],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJibp8-pIDQi4RTKOAaP9hZ5o",
+      "name": "Duta Bangunan",
+      "address": "Sumur Bandung, Kec. Jayanti, Kabupaten Tangerang, Banten 15610",
+      "maps_url": "https://www.google.com/maps/place/Duta+Bangunan/data=!4m7!3m6!1s0x2e420392fa7cba89:0x9a6761ff6880a34c!8m2!3d-6.2166966!4d106.4084407!16s%2Fg%2F11rbk20_wk!19sChIJibp8-pIDQi4RTKOAaP9hZ5o?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": "Tutup · Buka Rab pukul 08.00 ",
+      "category": "lainnya",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.2166966,
+      "longitude": 106.4084407,
+      "google_types": "Toko Bahan Bangunan",
+      "reviews": [
+        {
+          "author": "Yehuda Leo",
+          "rating": 5,
+          "text": "Toko nya nyaman, produk Nippon paint bagus banget, spb nippon nya baik, sering ada event blobby caravan dari nippon paint, belanja jadi semakin untung",
+          "date": "3 tahun lalu"
+        },
+        {
+          "author": "Yehuda Leo",
+          "rating": 5,
+          "text": "Toko nya nyaman, produk Nippon paint bagus banget, spb nippon nya baik, sering ada event blobby caravan dari nippon paint, belanja jadi semakin untung",
+          "date": "3 tahun lalu"
+        },
+        {
+          "author": "Ucie Ajieb",
+          "rating": 5,
+          "text": "Belanja cat Nippon paint di toko ini banyak diskon dan hadiah , di tambah pelayanan dr SPG Nippon sangat ramah dan sopan , sukses selalu buat toko nya",
+          "date": "3 tahun lalu"
+        },
+        {
+          "author": "Ucie Ajieb",
+          "rating": 5,
+          "text": "Belanja cat Nippon paint di toko ini banyak diskon dan hadiah , di tambah pelayanan dr SPG Nippon sangat ramah dan sopan , sukses selalu buat toko nya",
+          "date": "3 tahun lalu"
+        },
+        {
+          "author": "AL fals22",
+          "rating": 5,
+          "text": "Di duta tersedia vinyl LG HAUSYS  , bikin lantai rumah elegant , mudah d bersihkan pemasangan jugq tidak seribet keramik ...\nAda juga cat Nippon Paint di duta Bangunan banyak pilihan warna, …",
+          "date": "Diedit 3 tahun lalu"
+        }
+      ],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJhTjblpwBQi4RgxlSSVFfKU8",
+      "name": "Tb.saga Jaya",
+      "address": "Jl. Raya Kresek Caringin No.40, Saga, Kec. Balaraja, Kabupaten Tangerang, Banten 15610",
+      "maps_url": "https://www.google.com/maps/place/Tb.saga+Jaya/data=!4m7!3m6!1s0x2e42019c96db3885:0x4f295f5149521983!8m2!3d-6.1839948!4d106.4541436!16s%2Fg%2F11fzfcrpzv!19sChIJhTjblpwBQi4RgxlSSVFfKU8?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": "Tutup · Buka Rab pukul 08.00 ",
+      "category": "lainnya",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.1839948,
+      "longitude": 106.4541436,
+      "google_types": "Toko Bahan Bangunan",
+      "reviews": [
+        {
+          "author": "Andrii Yansyah",
+          "rating": 5,
+          "text": "Pelayan nya ramah dan cepat",
+          "date": "5 bulan lalu"
+        },
+        {
+          "author": "Andrii Yansyah",
+          "rating": 5,
+          "text": "Pelayan nya ramah dan cepat",
+          "date": "5 bulan lalu"
+        },
+        {
+          "author": "Abdul Aziz",
+          "rating": 5,
+          "text": "Lokasinya sangat tepat buat tempat tinggal nyaman ud mulai rame dgn penduduk nya",
+          "date": "5 tahun lalu"
+        },
+        {
+          "author": "Abdul Aziz",
+          "rating": 5,
+          "text": "Lokasinya sangat tepat buat tempat tinggal nyaman ud mulai rame dgn penduduk nya",
+          "date": "5 tahun lalu"
+        },
+        {
+          "author": "Nova _Agatha",
+          "rating": 5,
+          "text": "desa",
+          "date": "6 tahun lalu"
+        }
+      ],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJuSTNyAQBQi4R45yIoBnrjBk",
+      "name": "Toko plafon PVC & WFC",
+      "address": "Gerbang Tol Balaraja Tim., Cibadak, Kec. Cikupa, Kabupaten Tangerang, Banten 15141",
+      "maps_url": "https://www.google.com/maps/place/Toko+plafon+PVC+%26+WFC/data=!4m7!3m6!1s0x2e420104c8cd24b9:0x198ceb19a0889ce3!8m2!3d-6.2019781!4d106.4822353!16s%2Fg%2F11yqmltlbg!19sChIJuSTNyAQBQi4R45yIoBnrjBk?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": "Buka 24 jam ",
+      "category": "lainnya",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.2019781,
+      "longitude": 106.4822353,
+      "google_types": "Toko Bahan Bangunan",
+      "reviews": [],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJzyvkvrwBQi4RKAlYcvmE1S4",
+      "name": "Depo Cat Cahaya Permata 2",
+      "address": "Jl. Raya Kresek No.KM 2, Saga, Kec. Balaraja, Kabupaten Tangerang, Banten 15610",
+      "maps_url": "https://www.google.com/maps/place/Depo+Cat+Cahaya+Permata+2/data=!4m7!3m6!1s0x2e4201bcbee42bcf:0x2ed584f972580928!8m2!3d-6.1835308!4d106.4537809!16s%2Fg%2F11f8f5x81m!19sChIJzyvkvrwBQi4RKAlYcvmE1S4?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": "Tutup · Buka Rab pukul 07.00 ",
+      "category": "lainnya",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.1835308,
+      "longitude": 106.4537809,
+      "google_types": "Toko Bahan Bangunan",
+      "reviews": [
+        {
+          "author": "Yehuda Leo",
+          "rating": 5,
+          "text": "Tersedia produk best in class Nippon paint disini, segera belanja produk yg paling  berkualitas dan pastinya banyak promo menarik",
+          "date": "Diedit 4 bulan lalu"
+        },
+        {
+          "author": "Yehuda Leo",
+          "rating": 5,
+          "text": "Tersedia produk best in class Nippon paint disini, segera belanja produk yg paling  berkualitas dan pastinya banyak promo menarik",
+          "date": "Diedit 4 bulan lalu"
+        },
+        {
+          "author": "muhammad yogi",
+          "rating": 5,
+          "text": "Pembelian produk Nippon paint di toko depo cat cahaya permata mendapatkan diskon dan stiap ada roadshow bisa bawa pulang hadiah langsung tanpa di undi, dan yg pasti nya pelayanan nya yg ramah dan memuaskan\nTrimakasih depo cat cahaya permata",
+          "date": "4 tahun lalu"
+        },
+        {
+          "author": "muhammad yogi",
+          "rating": 5,
+          "text": "Pembelian produk Nippon paint di toko depo cat cahaya permata mendapatkan diskon dan stiap ada roadshow bisa bawa pulang hadiah langsung tanpa di undi, dan yg pasti nya pelayanan nya yg ramah dan memuaskan\nTrimakasih depo cat cahaya permata",
+          "date": "4 tahun lalu"
+        },
+        {
+          "author": "Muhamad Bilal",
+          "rating": 5,
+          "text": "Senang berbelanja di pd cahaya permata, ada cat Nippon pain dengan kualitas terbaik, pelayanan spg nya pun sangat baik dan ramah, terimakasih Nippon paint sudah mewarnai rumah saya.",
+          "date": "3 tahun lalu"
+        }
+      ],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJ668HIbABQi4RL7zCrzTX0n0",
+      "name": "WIJAYA GRANIT",
+      "address": "No.Km25, Jl. Raya Serang, Sentul Jaya, Kec. Balaraja, Kabupaten Tangerang, Banten 15610",
+      "maps_url": "https://www.google.com/maps/place/WIJAYA+GRANIT/data=!4m7!3m6!1s0x2e4201b02107afeb:0x7dd2d734afc2bc2f!8m2!3d-6.2048281!4d106.4517681!16s%2Fg%2F11ys32x20m!19sChIJ668HIbABQi4RL7zCrzTX0n0?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": "Tutup · Buka Rab pukul 08.00 ",
+      "category": "lainnya",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.2048281,
+      "longitude": 106.4517681,
+      "google_types": "Toko Bahan Bangunan",
+      "reviews": [
+        {
+          "author": "Cantika Dewi Lestari",
+          "rating": 5,
+          "text": "pelayanan ramah harga juga kompetitif 🤭🤭 …",
+          "date": "3 bulan lalu"
+        },
+        {
+          "author": "Cantika Dewi Lestari",
+          "rating": 5,
+          "text": "pelayanan ramah harga juga kompetitif 🤭🤭 …",
+          "date": "3 bulan lalu"
+        },
+        {
+          "author": "Ahmad Khoerul Fadhli",
+          "rating": 5,
+          "text": "👍🏻 …",
+          "date": "3 bulan lalu"
+        },
+        {
+          "author": "Ahmad Khoerul Fadhli",
+          "rating": 5,
+          "text": "👍🏻 …",
+          "date": "3 bulan lalu"
+        }
+      ],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJuRykWZgDQi4RWmnIEUcdRYs",
+      "name": "TB. ANUGRAH",
+      "address": "QCXG+642, RT./RW/RW.002/002, Lobang, Sukamurni, Kec. Balaraja, Kabupaten Tangerang, Banten",
+      "maps_url": "https://www.google.com/maps/place/TB.+ANUGRAH/data=!4m7!3m6!1s0x2e42039859a41cb9:0x8b451d4711c8695a!8m2!3d-6.2019801!4d106.4252542!16s%2Fg%2F11tmsx3xl6!19sChIJuRykWZgDQi4RWmnIEUcdRYs?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": "Buka 24 jam ",
+      "category": "lainnya",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.2019801,
+      "longitude": 106.4252542,
+      "google_types": "Toko Bahan Bangunan",
+      "reviews": [],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJ05fIgY4BQi4RYpvh-xvkZZ4",
+      "name": "Toko dan Warung Baja Ringan Kp. Hauan",
+      "address": "Jl. Raya Hauan, Tobat, Kec. Balaraja, Kabupaten Tangerang, Banten 15610",
+      "maps_url": "https://www.google.com/maps/place/Toko+dan+Warung+Baja+Ringan+Kp.+Hauan/data=!4m7!3m6!1s0x2e42018e81c897d3:0x9e65e41bfbe19b62!8m2!3d-6.1959416!4d106.4429686!16s%2Fg%2F11k0v4wxx_!19sChIJ05fIgY4BQi4RYpvh-xvkZZ4?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": "Segera tutup · 22.00 · Buka Rab pukul 06.30 ",
+      "category": "lainnya",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.1959416,
+      "longitude": 106.4429686,
+      "google_types": "Toko Bahan Bangunan",
+      "reviews": [],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJ66jtr5YBQi4RdtPr6jA2Fvw",
+      "name": "CV. HAIFA KERAMIK (Pusat Keramik dan Granit ROMAN TERLENGKAP dan Murah)",
+      "address": "QFW2+2PW, Sentul Jaya, Kec. Balaraja, Kabupaten Tangerang, Banten 15610",
+      "maps_url": "https://www.google.com/maps/place/CV.+HAIFA+KERAMIK+%28Pusat+Keramik+dan+Granit+ROMAN+TERLENGKAP+dan+Murah%29/data=!4m7!3m6!1s0x2e420196afeda8eb:0xfc163630eaebd376!8m2!3d-6.2048852!4d106.4518178!16s%2Fg%2F11p4lb8f4w!19sChIJ66jtr5YBQi4RdtPr6jA2Fvw?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": "Buka 24 jam ",
+      "category": "lainnya",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.2048852,
+      "longitude": 106.4518178,
+      "google_types": "Toko",
+      "reviews": [
+        {
+          "author": "Alen Nuraeni",
+          "rating": 5,
+          "text": "Puas banget sama pelayanan nya, harganya juga kortinganya lumayan, saya beli banyak buat keperluan masjid, di korting hampir 4 juta, makasih ya bos, sukses selalu dan lancar rezekinya selalu , semoga rezekinya dilipat gandakan sama allah swt ya bos",
+          "date": "sebulan lalu"
+        },
+        {
+          "author": "Alen Nuraeni",
+          "rating": 5,
+          "text": "Puas banget sama pelayanan nya, harganya juga kortinganya lumayan, saya beli banyak buat keperluan masjid, di korting hampir 4 juta, makasih ya bos, sukses selalu dan lancar rezekinya selalu , semoga rezekinya dilipat gandakan sama allah swt ya bos",
+          "date": "sebulan lalu"
+        },
+        {
+          "author": "Reyke Fiteri Nur Fadilah",
+          "rating": 5,
+          "text": "Udah Ripit Order Yang Ke 5 Kalinya, Pokonya Rekomended,\npelayanan Ramah, Motif Barangnya Granit Sama Keramiknya Juga Banyak, Kalo soal Harga sih Worth it Lah kan harga menentukan kualitas,\nsemangat mas mas Pelayanan nya",
+          "date": "sebulan lalu"
+        },
+        {
+          "author": "Reyke Fiteri Nur Fadilah",
+          "rating": 5,
+          "text": "Udah Ripit Order Yang Ke 5 Kalinya, Pokonya Rekomended,\npelayanan Ramah, Motif Barangnya Granit Sama Keramiknya Juga Banyak, Kalo soal Harga sih Worth it Lah kan harga menentukan kualitas,\nsemangat mas mas Pelayanan nya",
+          "date": "sebulan lalu"
+        },
+        {
+          "author": "Danang Rahman",
+          "rating": 5,
+          "text": "pokonya sangat puas dengan semuanya, harganya bisa nego, kirim juga bisa ke luar jawa, saya dari lampung beneran di kirim, admin nya sopan , amanah , dan sangat ramah, ya walaupun saya ribet nanya nanya in barang tapi tetepdi layani dengan sungguh sungguh",
+          "date": "sebulan lalu"
+        }
+      ],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJQSMPv3wBQi4R0JIzPXfRS6o",
+      "name": "Nada Karya Gybsusa",
+      "address": "JL Adi Haura, RT 03 RW 05, Tobat, Balaraja, Tobat, Tangerang, Kabupaten Tangerang, Banten 15610",
+      "maps_url": "https://www.google.com/maps/place/Nada+Karya+Gybsusa/data=!4m7!3m6!1s0x2e42017cbf0f2341:0xaa4bd1773d3392d0!8m2!3d-6.1976944!4d106.4451333!16s%2Fg%2F11bc7p8fz_!19sChIJQSMPv3wBQi4R0JIzPXfRS6o?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": "Tutup · Buka Rab pukul 08.00 ",
+      "category": "lainnya",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.1976944,
+      "longitude": 106.4451333,
+      "google_types": "Toko Bahan Bangunan",
+      "reviews": [],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJDTY_qrkBQi4RUyDEQVnKsIg",
+      "name": "Toko bangunan Asia jaya",
+      "address": "Jl. Irigasi, Bakung, Kec. Balaraja, Kabupaten Tangerang, Banten 15610",
+      "maps_url": "https://www.google.com/maps/place/Toko+bangunan+Asia+jaya/data=!4m7!3m6!1s0x2e4201b9aa3f360d:0x88b0ca5941c42053!8m2!3d-6.1883501!4d106.4616033!16s%2Fg%2F11wtl544ys!19sChIJDTY_qrkBQi4RUyDEQVnKsIg?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": null,
+      "category": "lainnya",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.1883501,
+      "longitude": 106.4616033,
+      "google_types": "Toko Bahan Bangunan",
+      "reviews": [],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJwwLwQI8BQi4RSVuNwKGrOhw",
+      "name": "sinar rejeki",
+      "address": "Saga, Kec. Balaraja, Kabupaten Tangerang, Banten 15610",
+      "maps_url": "https://www.google.com/maps/place/sinar+rejeki/data=!4m7!3m6!1s0x2e42018f40f002c3:0x1c3aaba1c08d5b49!8m2!3d-6.177087!4d106.4477194!16s%2Fg%2F11h9wdhm8b!19sChIJwwLwQI8BQi4RSVuNwKGrOhw?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": "Tutup sementara ",
+      "category": "lainnya",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.177087,
+      "longitude": 106.4477194,
+      "google_types": "Pasar bahan bangunan",
+      "reviews": [],
+      "category_conflict": false
+    }
+  ]
+}

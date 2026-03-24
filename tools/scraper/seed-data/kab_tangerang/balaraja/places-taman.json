@@ -1,0 +1,2530 @@
+{
+  "_meta": {
+    "scraped_at": "2026-03-24T14:43:09.736Z",
+    "total_places": 90,
+    "kecamatan": "Balaraja",
+    "region": "Kabupaten Tangerang",
+    "by_category": {
+      "taman": 90
+    },
+    "potential_duplicates": []
+  },
+  "places": [
+    {
+      "place_id": "ChIJZQQSTQABQi4R-cTGayRz0yY",
+      "name": "mutiara playground",
+      "address": "rt./rw kel,kec:01/02, Kec. Balaraja",
+      "maps_url": "https://www.google.com/maps/place/mutiara+playground/data=!4m7!3m6!1s0x2e4201004d120465:0x26d373246bc6c4f9!8m2!3d-6.1904886!4d106.4608032!16s%2Fg%2F11ybt5rm87!19sChIJZQQSTQABQi4R-cTGayRz0yY?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": null,
+      "category": "taman",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.1904886,
+      "longitude": 106.4608032,
+      "google_types": "Arena Bermain Anak-Anak",
+      "reviews": [
+        {
+          "author": "Wandi Raihan",
+          "rating": 5,
+          "text": "Karyawanny ramah\nYang pasti murah\nRekomen buat anak main sepuasnya",
+          "date": "7 bulan lalu"
+        },
+        {
+          "author": "Wandi Raihan",
+          "rating": 5,
+          "text": "Karyawanny ramah\nYang pasti murah\nRekomen buat anak main sepuasnya",
+          "date": "7 bulan lalu"
+        },
+        {
+          "author": "Yuli Raihan",
+          "rating": 5,
+          "text": "tempatnya nyaman, ada banyak pilihan jajanan juga di sekitarnya",
+          "date": "8 bulan lalu"
+        },
+        {
+          "author": "Yuli Raihan",
+          "rating": 5,
+          "text": "tempatnya nyaman, ada banyak pilihan jajanan juga di sekitarnya",
+          "date": "8 bulan lalu"
+        },
+        {
+          "author": "Ridha Fitriyana",
+          "rating": 5,
+          "text": "Seru pokonya",
+          "date": "10 bulan lalu"
+        }
+      ],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJe8HhQQABQi4Rup_1YptSLy4",
+      "name": "Taman Bermain GRIYA SUTERA BALARAJA",
+      "address": "Jl. Perumahan Griya Sutera Balaraja No.18 blok i14, Talagasari, Kec. Balaraja, Kabupaten Tangerang, Banten 15610",
+      "maps_url": "https://www.google.com/maps/place/Taman+Bermain+GRIYA+SUTERA+BALARAJA/data=!4m7!3m6!1s0x2e42010041e1c17b:0x2e2f529b62f59fba!8m2!3d-6.1835582!4d106.4689538!16s%2Fg%2F11yz77kpnz!19sChIJe8HhQQABQi4Rup_1YptSLy4?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": null,
+      "category": "taman",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.1835582,
+      "longitude": 106.4689538,
+      "google_types": "Taman bermain",
+      "reviews": [
+        {
+          "author": "Akhmad Ulwan Hariry",
+          "rating": 5,
+          "text": "Tempat bermain anak, tapi belum ada permainannya",
+          "date": "sebulan lalu"
+        },
+        {
+          "author": "Akhmad Ulwan Hariry",
+          "rating": 5,
+          "text": "Tempat bermain anak, tapi belum ada permainannya",
+          "date": "sebulan lalu"
+        }
+      ],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJBVp7LQABQi4Rg-mCwiIC1L4",
+      "name": "Saung Babeh Oi",
+      "address": "RF65+8FC, Jl. Irigasi, Balaraja, Kec. Balaraja, Kabupaten Tangerang, Banten 15610",
+      "maps_url": "https://www.google.com/maps/place/Saung+Babeh+Oi/data=!4m7!3m6!1s0x2e4201002d7b5a05:0xbed40222c282e983!8m2!3d-6.189194!4d106.4586296!16s%2Fg%2F11mc9jj7vs!19sChIJBVp7LQABQi4Rg-mCwiIC1L4?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": "Buka · Tutup pukul 23.00 ",
+      "category": "taman",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.189194,
+      "longitude": 106.4586296,
+      "google_types": "Taman bermain",
+      "reviews": [
+        {
+          "author": "Asmiranda Safitri",
+          "rating": 5,
+          "text": "tempat biasa nongki orang balaraja",
+          "date": "11 bulan lalu"
+        },
+        {
+          "author": "Asmiranda Safitri",
+          "rating": 5,
+          "text": "tempat biasa nongki orang balaraja",
+          "date": "11 bulan lalu"
+        }
+      ],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJM13TfxsBQi4RY1AZBMV3-lM",
+      "name": "Jungle Walk Talaga Bestari",
+      "address": "QFXJ+XPM, Cibadak, Kec. Cikupa, Kabupaten Tangerang, Banten 15710",
+      "maps_url": "https://www.google.com/maps/place/Jungle+Walk+Talaga+Bestari/data=!4m7!3m6!1s0x2e42011b7fd35d33:0x53fa77c504195063!8m2!3d-6.2000289!4d106.4817908!16s%2Fg%2F11bx3mrlrd!19sChIJM13TfxsBQi4RY1AZBMV3-lM?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": "Buka · Tutup pukul 23.00 ",
+      "category": "taman",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.2000289,
+      "longitude": 106.4817908,
+      "google_types": "Taman bermain",
+      "reviews": [
+        {
+          "author": "Ardiansyah",
+          "rating": 5,
+          "text": "Suasana tenang, nyaman, aman, live music yang bagus , tempat nongkrong paling asik buat yang suka ketenangan man.",
+          "date": "6 tahun lalu"
+        },
+        {
+          "author": "Ardiansyah",
+          "rating": 5,
+          "text": "Suasana tenang, nyaman, aman, live music yang bagus , tempat nongkrong paling asik buat yang suka ketenangan man.",
+          "date": "6 tahun lalu"
+        },
+        {
+          "author": "Akhmad Fatony",
+          "rating": 5,
+          "text": "Kalau minggu ramai nih, jadi pusat keramaian.. Sering juga jadi tempat penyelenggaraan acara...",
+          "date": "6 tahun lalu"
+        },
+        {
+          "author": "Akhmad Fatony",
+          "rating": 5,
+          "text": "Kalau minggu ramai nih, jadi pusat keramaian.. Sering juga jadi tempat penyelenggaraan acara...",
+          "date": "6 tahun lalu"
+        },
+        {
+          "author": "Muhammad Rohman",
+          "rating": 5,
+          "text": "Tempat yang nyaman, adem.",
+          "date": "4 tahun lalu"
+        }
+      ],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJmzf7PJYBQi4RiSI_-pxIQDg",
+      "name": "Jaga&riksa",
+      "address": "RC7W+2G8, Kp, Comrang, Tobat, Kec. Balaraja, Kabupaten Tangerang, Banten 15610",
+      "maps_url": "https://www.google.com/maps/place/Jaga%26riksa/data=!4m7!3m6!1s0x2e4201963cfb379b:0x3840489cfa3f2289!8m2!3d-6.187473!4d106.4463408!16s%2Fg%2F11n0knjf74!19sChIJmzf7PJYBQi4RiSI_-pxIQDg?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": null,
+      "category": "taman",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.187473,
+      "longitude": 106.4463408,
+      "google_types": "Taman bermain",
+      "reviews": [
+        {
+          "author": "Jaga & Riksa",
+          "rating": 5,
+          "text": "Gerakan kecil untuk generasi muda yang aktif di kegiatan edukasi, sosial, kependakian, dan budaya.\nBelajar bersama untuk tumbuh lebih kritis terhadap perilaku remaja dan anak masa …",
+          "date": "Diedit 4 tahun lalu"
+        },
+        {
+          "author": "Jaga & Riksa",
+          "rating": 5,
+          "text": "Gerakan kecil untuk generasi muda yang aktif di kegiatan edukasi, sosial, kependakian, dan budaya.\nBelajar bersama untuk tumbuh lebih kritis terhadap perilaku remaja dan anak masa …",
+          "date": "Diedit 4 tahun lalu"
+        }
+      ],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJ9fE1SQAHQi4R4GRs2SdeoEc",
+      "name": "KidzHaven Playground",
+      "address": "Jl. Citra Raya Boulevard No.V01A/227, Ciakar, Kec. Cikupa, Kabupaten Tangerang, Banten 15710",
+      "maps_url": "https://www.google.com/maps/place/KidzHaven+Playground/data=!4m7!3m6!1s0x2e4207004935f1f5:0x47a05e27d96c64e0!8m2!3d-6.2671712!4d106.5253901!16s%2Fg%2F11yv_1tgz4!19sChIJ9fE1SQAHQi4R4GRs2SdeoEc?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": "Tutup · Buka Rab pukul 09.00 ",
+      "category": "taman",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.2671712,
+      "longitude": 106.5253901,
+      "google_types": "Taman bermain",
+      "reviews": [
+        {
+          "author": "Lidia Vitta",
+          "rating": 5,
+          "text": "Tempat bagus dan sangat menyenangkan untuk keluarga kecil🥰 …",
+          "date": "2 jam lalu"
+        },
+        {
+          "author": "Lidia Vitta",
+          "rating": 5,
+          "text": "Tempat bagus dan sangat menyenangkan untuk keluarga kecil🥰 …",
+          "date": "2 jam lalu"
+        },
+        {
+          "author": "Vincent Pratama",
+          "rating": 5,
+          "text": "Tempat nya nyaman dan menyenangkan untuk anak anak bermain dengan nyaman... Top lah poko nya kidzhaven playground... Dan yang terpenting harga nya tidak mahal... Hehehe.. Sukses terus kidZhaven",
+          "date": "3 jam lalu"
+        },
+        {
+          "author": "Vincent Pratama",
+          "rating": 5,
+          "text": "Tempat nya nyaman dan menyenangkan untuk anak anak bermain dengan nyaman... Top lah poko nya kidzhaven playground... Dan yang terpenting harga nya tidak mahal... Hehehe.. Sukses terus kidZhaven",
+          "date": "3 jam lalu"
+        },
+        {
+          "author": "takara dan natasha makan2",
+          "rating": 5,
+          "text": "Bagus",
+          "date": "1 hari lalu"
+        }
+      ],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJoTgU6REHQi4Rb63Ru22vv-0",
+      "name": "Taman Sayang Barudak",
+      "address": "Jl. Gardenia No.1, Mekar Bakti, Kec. Panongan, Kabupaten Tangerang, Banten 15710",
+      "maps_url": "https://www.google.com/maps/place/Taman+Sayang+Barudak/data=!4m7!3m6!1s0x2e420711e91438a1:0xedbfaf6dbbd1ad6f!8m2!3d-6.2543484!4d106.5158546!16s%2Fg%2F11qq5s5wnw!19sChIJoTgU6REHQi4Rb63Ru22vv-0?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": null,
+      "category": "taman",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.2543484,
+      "longitude": 106.5158546,
+      "google_types": "Taman bermain",
+      "reviews": [
+        {
+          "author": "Mas Wawan",
+          "rating": 5,
+          "text": "Ramai kalo wekeend.. lumayan.. cuma bayar parkir 2k saja.  Anak bisa maen sepuasnya.. luas tempatnya",
+          "date": "3 tahun lalu"
+        },
+        {
+          "author": "Mas Wawan",
+          "rating": 5,
+          "text": "Ramai kalo wekeend.. lumayan.. cuma bayar parkir 2k saja.  Anak bisa maen sepuasnya.. luas tempatnya",
+          "date": "3 tahun lalu"
+        },
+        {
+          "author": "Zaenal abidin",
+          "rating": 5,
+          "text": "Co2k untuk area taman bermain anak2...fasilitas kurang di jaga ...mohon untuk pihak setempat di jaga kerapihan nya dan di rawat sehingga tetap bersih rapih...dan sarana bermain anak di tambah...",
+          "date": "Diedit 4 tahun lalu"
+        },
+        {
+          "author": "Zaenal abidin",
+          "rating": 5,
+          "text": "Co2k untuk area taman bermain anak2...fasilitas kurang di jaga ...mohon untuk pihak setempat di jaga kerapihan nya dan di rawat sehingga tetap bersih rapih...dan sarana bermain anak di tambah...",
+          "date": "Diedit 4 tahun lalu"
+        },
+        {
+          "author": "Abdul Aziz",
+          "rating": 5,
+          "text": "Tempat yg adem utk bersantai dan melepas lelah bersama keluarga",
+          "date": "3 bulan lalu"
+        }
+      ],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJjc8k6ZEBQi4RWwDHp7Q8bwY",
+      "name": "Alun Alun Balaraja",
+      "address": "RF57+HGJ, Balaraja, Kec. Balaraja, Kabupaten Tangerang, Banten 15610",
+      "maps_url": "https://www.google.com/maps/place/Alun+Alun+Balaraja/data=!4m7!3m6!1s0x2e420191e924cf8d:0x66f3cb4a7c7005b!8m2!3d-6.1910419!4d106.4637768!16s%2Fg%2F11h1tg9q9r!19sChIJjc8k6ZEBQi4RWwDHp7Q8bwY?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": "Buka 24 jam ",
+      "category": "taman",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.1910419,
+      "longitude": 106.4637768,
+      "google_types": "Taman",
+      "reviews": [
+        {
+          "author": "Muslikh Brama Kumbara",
+          "rating": 5,
+          "text": "Gebyar lomba terampil tradisional (GLTT 2025)",
+          "date": "3 minggu lalu"
+        },
+        {
+          "author": "Muslikh Brama Kumbara",
+          "rating": 5,
+          "text": "Gebyar lomba terampil tradisional (GLTT 2025)",
+          "date": "3 minggu lalu"
+        },
+        {
+          "author": "Budi Saja",
+          "rating": 5,
+          "text": "Alun-Alun Balaraja merupakan ruang publik yang menjadi pusat aktivitas masyarakat di kawasan Balaraja, Tangerang. Taman ini menghadirkan suasana yang terbuka, hijau, dan nyaman untuk bersantai, berolahraga, maupun berkumpul bersama …",
+          "date": "5 bulan lalu"
+        },
+        {
+          "author": "Budi Saja",
+          "rating": 5,
+          "text": "Alun-Alun Balaraja merupakan ruang publik yang menjadi pusat aktivitas masyarakat di kawasan Balaraja, Tangerang. Taman ini menghadirkan suasana yang terbuka, hijau, dan nyaman untuk bersantai, berolahraga, maupun berkumpul bersama …",
+          "date": "5 bulan lalu"
+        },
+        {
+          "author": "Yayan Sukaesih",
+          "rating": 5,
+          "text": "Tempatnya nyaman banget dan bersih, ada toiletnya jg parkiran lega,taman bermain anak anak, dan wahana anak bermain lengkap..",
+          "date": "setahun lalu"
+        }
+      ],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJUZndICwBQi4RW0relOB3ATw",
+      "name": "BASE CAMP 567 Permata",
+      "address": "Perum Permata Balaraja Blok A91 No. 14, Saga, Kec. Balaraja, Kabupaten Tangerang, Banten 15610",
+      "maps_url": "https://www.google.com/maps/place/BASE+CAMP+567+Permata/data=!4m7!3m6!1s0x2e42012c20dd9951:0x3c0177e094de4a5b!8m2!3d-6.1795539!4d106.4638767!16s%2Fg%2F11st7dtwws!19sChIJUZndICwBQi4RW0relOB3ATw?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": null,
+      "category": "taman",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.1795539,
+      "longitude": 106.4638767,
+      "google_types": "Taman bermain",
+      "reviews": [
+        {
+          "author": "fahma aditya",
+          "rating": 5,
+          "text": "tempat nyaman kalau ada kopinya",
+          "date": "Diedit 8 bulan lalu"
+        },
+        {
+          "author": "fahma aditya",
+          "rating": 5,
+          "text": "tempat nyaman kalau ada kopinya",
+          "date": "Diedit 8 bulan lalu"
+        }
+      ],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJr6WBTgDnaS4RW4kiGuLsG-0",
+      "name": "Lapangan Kp Iwul",
+      "address": "Kp. Iwul, Tobat, Kec. Balaraja, Kabupaten Tangerang, Banten 15610",
+      "maps_url": "https://www.google.com/maps/place/Lapangan+Kp+Iwul/data=!4m7!3m6!1s0x2e69e7004e81a5af:0xed1bece21a22895b!8m2!3d-6.1920329!4d106.444312!16s%2Fg%2F11xl8_f14l!19sChIJr6WBTgDnaS4RW4kiGuLsG-0?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": "Buka 24 jam ",
+      "category": "taman",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.1920329,
+      "longitude": 106.444312,
+      "google_types": "Taman bermain",
+      "reviews": [
+        {
+          "author": "Hadi Ahadi",
+          "rating": 5,
+          "text": "Lapangan Kp. Iwul, lokasinya dekat makam Keramat kp. Iwul. Lapangannya cukup luas, biasa dipakai buat belajar motor/mobil juga. Kalau sore ramai yang main bola, di pinggirnya ada irigasi kecil jadi suka ada orang yang nyuci motor juga di …",
+          "date": "8 bulan lalu"
+        },
+        {
+          "author": "Hadi Ahadi",
+          "rating": 5,
+          "text": "Lapangan Kp. Iwul, lokasinya dekat makam Keramat kp. Iwul. Lapangannya cukup luas, biasa dipakai buat belajar motor/mobil juga. Kalau sore ramai yang main bola, di pinggirnya ada irigasi kecil jadi suka ada orang yang nyuci motor juga di …",
+          "date": "8 bulan lalu"
+        }
+      ],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJ6_vwDAADQi4R16QB9_kh9c4",
+      "name": "BADUT MC KABUPATEN TANGERANG",
+      "address": "QCM8+3CW, Gembong, Kec. Balaraja, Kabupaten Tangerang, Banten 15610",
+      "maps_url": "https://www.google.com/maps/place/BADUT+MC+KABUPATEN+TANGERANG/data=!4m7!3m6!1s0x2e4203000cf0fbeb:0xcef521f9f701a4d7!8m2!3d-6.2172644!4d106.4160725!16s%2Fg%2F11xvz91367!19sChIJ6_vwDAADQi4R16QB9_kh9c4?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": null,
+      "category": "taman",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.2172644,
+      "longitude": 106.4160725,
+      "google_types": "Taman bermain",
+      "reviews": [
+        {
+          "author": "Deski Susanti",
+          "rating": 5,
+          "text": "meriah sekali. thanks om badut",
+          "date": "6 bulan lalu"
+        },
+        {
+          "author": "Deski Susanti",
+          "rating": 5,
+          "text": "meriah sekali. thanks om badut",
+          "date": "6 bulan lalu"
+        },
+        {
+          "author": "dodoy setyawan",
+          "rating": 5,
+          "text": "lucu badutnyaaaaa",
+          "date": "4 bulan lalu"
+        },
+        {
+          "author": "dodoy setyawan",
+          "rating": 5,
+          "text": "lucu badutnyaaaaa",
+          "date": "4 bulan lalu"
+        }
+      ],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJ2c5Go20BQi4RHXlg_yy8qU8",
+      "name": "Taman bermain dan olah raga",
+      "address": "Kp. Tegal Kalibaru RT04/RW04, Balaraja, Kec. Balaraja, Kabupaten Tangerang, Banten 15610",
+      "maps_url": "https://www.google.com/maps/place/Taman+bermain+dan+olah+raga/data=!4m7!3m6!1s0x2e42016da346ced9:0x4fa9bc2cff60791d!8m2!3d-6.191345!4d106.455475!16s%2Fg%2F11kzjzf5xm!19sChIJ2c5Go20BQi4RHXlg_yy8qU8?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": "Buka 24 jam ",
+      "category": "taman",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.191345,
+      "longitude": 106.455475,
+      "google_types": "Tempat acara",
+      "reviews": [
+        {
+          "author": "Safriudin Ajalah",
+          "rating": 5,
+          "text": "Makasih yang sudah membuat tempat ini. saya bisa latihan voli di situ bersama teman teman saya",
+          "date": "2 tahun lalu"
+        },
+        {
+          "author": "Safriudin Ajalah",
+          "rating": 5,
+          "text": "Makasih yang sudah membuat tempat ini. saya bisa latihan voli di situ bersama teman teman saya",
+          "date": "2 tahun lalu"
+        },
+        {
+          "author": "20211101015 Rajwa Zilan Akmal",
+          "rating": 5,
+          "text": "oke aja",
+          "date": "5 bulan lalu"
+        },
+        {
+          "author": "20211101015 Rajwa Zilan Akmal",
+          "rating": 5,
+          "text": "oke aja",
+          "date": "5 bulan lalu"
+        },
+        {
+          "author": "cholid solihin",
+          "rating": 5,
+          "text": "Tempatnya asyik banget ga bikin ruwet pokoknya ok",
+          "date": "5 tahun lalu"
+        }
+      ],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJsVqmAdUHQi4R3hjmoDC4sEA",
+      "name": "Terrazone Cikupa Plaza Gotong Royong",
+      "address": "Plaza Gotong Royong, Jl. Raya Serang No.KM 15. No.9 lantai 3, Talagasari, Kec. Cikupa, Kabupaten Tangerang, Banten 15710",
+      "maps_url": "https://www.google.com/maps/place/Terrazone+Cikupa+Plaza+Gotong+Royong/data=!4m7!3m6!1s0x2e4207d501a65ab1:0x40b0b830a0e618de!8m2!3d-6.2287445!4d106.5195107!16s%2Fg%2F11h59pgfk8!19sChIJsVqmAdUHQi4R3hjmoDC4sEA?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": "Tutup · Buka Rab pukul 08.30 ",
+      "category": "taman",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.2287445,
+      "longitude": 106.5195107,
+      "google_types": "Pusat Hiburan Anak-Anak",
+      "reviews": [
+        {
+          "author": "Devi Rukmana",
+          "rating": 5,
+          "text": "Bersih nyaman dan murah meriah.. 50k udh puas bgt main di sini.. ditambah pegawai nya ramah2 bgt..",
+          "date": "2 tahun lalu"
+        },
+        {
+          "author": "Devi Rukmana",
+          "rating": 5,
+          "text": "Bersih nyaman dan murah meriah.. 50k udh puas bgt main di sini.. ditambah pegawai nya ramah2 bgt..",
+          "date": "2 tahun lalu"
+        },
+        {
+          "author": "imin kusdiyanto",
+          "rating": 5,
+          "text": "Nyaman tenang ...murah..ayo ramaikan....usaha lokal",
+          "date": "setahun lalu"
+        },
+        {
+          "author": "imin kusdiyanto",
+          "rating": 5,
+          "text": "Nyaman tenang ...murah..ayo ramaikan....usaha lokal",
+          "date": "setahun lalu"
+        },
+        {
+          "author": "yulinda panggabean",
+          "rating": 5,
+          "text": "Spg nya sangat welcome",
+          "date": "Diedit 9 bulan lalu"
+        }
+      ],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJoZ-QZwABQi4Rnm22Xeu-BUg",
+      "name": "Play land",
+      "address": "QGQF+VR6, Pasir Gadung, Kec. Cikupa, Kabupaten Tangerang, Banten",
+      "maps_url": "https://www.google.com/maps/place/Play+land/data=!4m7!3m6!1s0x2e42010067909fa1:0x4805beeb5db66d9e!8m2!3d-6.2103325!4d106.5245271!16s%2Fg%2F11x6jkrvx6!19sChIJoZ-QZwABQi4Rnm22Xeu-BUg?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": null,
+      "category": "taman",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.2103325,
+      "longitude": 106.5245271,
+      "google_types": "Taman bermain",
+      "reviews": [],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJz33UNfgAQi4RB9vPAc0cewU",
+      "name": "Taman Belajar Selaras",
+      "address": "Jl. Selaras 4 No.7, Wanakerta, Kec. Sindang Jaya, Kabupaten Tangerang, Banten 15560",
+      "maps_url": "https://www.google.com/maps/place/Taman+Belajar+Selaras/data=!4m7!3m6!1s0x2e4200f835d47dcf:0x57b1ccd01cfdb07!8m2!3d-6.1891334!4d106.4981882!16s%2Fg%2F11f2_rrxkx!19sChIJz33UNfgAQi4RB9vPAc0cewU?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": null,
+      "category": "taman",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.1891334,
+      "longitude": 106.4981882,
+      "google_types": "Taman bermain",
+      "reviews": [
+        {
+          "author": "sandra riswanda",
+          "rating": 5,
+          "text": "Tempat bermain,bercerita menuangkan ide,bercengkrama dan belajar bersama tetangga",
+          "date": "6 tahun lalu"
+        },
+        {
+          "author": "sandra riswanda",
+          "rating": 5,
+          "text": "Tempat bermain,bercerita menuangkan ide,bercengkrama dan belajar bersama tetangga",
+          "date": "6 tahun lalu"
+        },
+        {
+          "author": "devi rosita",
+          "rating": 5,
+          "text": "Rindang, segar, nyaman, bahagia...cocok buat anak2 hingga kakek nenek bermain dan belajar",
+          "date": "6 tahun lalu"
+        },
+        {
+          "author": "devi rosita",
+          "rating": 5,
+          "text": "Rindang, segar, nyaman, bahagia...cocok buat anak2 hingga kakek nenek bermain dan belajar",
+          "date": "6 tahun lalu"
+        },
+        {
+          "author": "Danu Panca Umbara",
+          "rating": 5,
+          "text": "Alami dan Asri, nyaman buat keluarga untuk belajar dan bersantai",
+          "date": "4 tahun lalu"
+        }
+      ],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJISJBXQAHQi4RTVMcXfYizXg",
+      "name": "Kidzilla Ecoplaza",
+      "address": "PGXF+RJP, Jl. Ecopolis Citra Raya, Mekar Bakti, Kec. Panongan, Kabupaten Tangerang, Banten 15710",
+      "maps_url": "https://www.google.com/maps/place/Kidzilla+Ecoplaza/data=!4m7!3m6!1s0x2e4207005d412221:0x78cd22f65d1c534d!8m2!3d-6.2505593!4d106.5244946!16s%2Fg%2F11w3hvmjlh!19sChIJISJBXQAHQi4RTVMcXfYizXg?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": "Segera tutup · 21.00 · Buka Rab pukul 10.00 ",
+      "category": "taman",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.2505593,
+      "longitude": 106.5244946,
+      "google_types": "Arena Bermain Anak-Anak",
+      "reviews": [
+        {
+          "author": "And S M",
+          "rating": 5,
+          "text": "Lumayan luas, dn bersih saya datang pukul 10 masih sepi jadi puas main nya, 60 ribu/ jam 1 anak & 1 dewasa kalau tambah dewasa lagi tambah 20rb. Wajib pakai kaus kaki ya kalau gak bawa bisa beli 10 ribu, kalau mau yang antislip 20ribu.",
+          "date": "setahun lalu"
+        },
+        {
+          "author": "And S M",
+          "rating": 5,
+          "text": "Lumayan luas, dn bersih saya datang pukul 10 masih sepi jadi puas main nya, 60 ribu/ jam 1 anak & 1 dewasa kalau tambah dewasa lagi tambah 20rb. Wajib pakai kaus kaki ya kalau gak bawa bisa beli 10 ribu, kalau mau yang antislip 20ribu.",
+          "date": "setahun lalu"
+        },
+        {
+          "author": "Prajwalita Pitaloka",
+          "rating": 5,
+          "text": "Main kesini pas weekend. Masuknya 70k untuk 1jam dan 90k untuk 3jam.\nPegawainya ramah2 dan tempatnya bersih. Kalau harga member bisa lebih murah (dapet member kalo udh main 10x)",
+          "date": "10 bulan lalu"
+        },
+        {
+          "author": "Prajwalita Pitaloka",
+          "rating": 5,
+          "text": "Main kesini pas weekend. Masuknya 70k untuk 1jam dan 90k untuk 3jam.\nPegawainya ramah2 dan tempatnya bersih. Kalau harga member bisa lebih murah (dapet member kalo udh main 10x)",
+          "date": "10 bulan lalu"
+        },
+        {
+          "author": "Sri Wahyu",
+          "rating": 5,
+          "text": "Playground cocok buat anak-anak\nTiket nya terjangkau banget\nTempat nya bersih, trs kolam bola nya pas tutup di beresin jadi emg beneran …",
+          "date": "setahun lalu"
+        }
+      ],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJz7k0VAABQi4RSxPmVSlwcMg",
+      "name": "Nizaro Busana dan Taman Bermain",
+      "address": "RCCX+XCR, Jl. Kresek Kronjo, RT.03/RW.03, Saga, Kec. Balaraja",
+      "maps_url": "https://www.google.com/maps/place/Nizaro+Busana+dan+Taman+Bermain/data=!4m7!3m6!1s0x2e4201005434b9cf:0xc870702955e6134b!8m2!3d-6.1775206!4d106.4485271!16s%2Fg%2F11vrv5s0g2!19sChIJz7k0VAABQi4RSxPmVSlwcMg?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": "Segera tutup · 21.00 · Buka Rab pukul 09.00 ",
+      "category": "taman",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.1775206,
+      "longitude": 106.4485271,
+      "google_types": "Pusat Perbelanjaan",
+      "reviews": [
+        {
+          "author": "Fitria Andini",
+          "rating": 5,
+          "text": "Anak2 Seneng banget main disini hampir tiap minggu / tiap libur slalu ksini HTM murah meriah 20rb udh dpt Free kaos kaki",
+          "date": "4 bulan lalu"
+        },
+        {
+          "author": "Fitria Andini",
+          "rating": 5,
+          "text": "Anak2 Seneng banget main disini hampir tiap minggu / tiap libur slalu ksini HTM murah meriah 20rb udh dpt Free kaos kaki",
+          "date": "4 bulan lalu"
+        },
+        {
+          "author": "Dwi Arum Sari",
+          "rating": 5,
+          "text": "Anak q suka banget ke playground nya\n\nSaran klo ksana lbh baik hari biasa …",
+          "date": "8 bulan lalu"
+        },
+        {
+          "author": "Dwi Arum Sari",
+          "rating": 5,
+          "text": "Anak q suka banget ke playground nya\n\nSaran klo ksana lbh baik hari biasa …",
+          "date": "8 bulan lalu"
+        },
+        {
+          "author": "Winarni Mba wien",
+          "rating": 5,
+          "text": "Permainannya lumayan lengkap, tapi kurang luas tempatnya... Apalagi kalo pas weekend.Utk pendamping diminimalisir lagi, kecuali benaran anaknya baru belajar jalan, utk mengurangi kepadatan diarea bermain",
+          "date": "setahun lalu"
+        }
+      ],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJuV0RZQD_aS4Rmb7PWAZG2cM",
+      "name": "KADU PLAYGROUND",
+      "address": "Kp. Kadu no. 16 RT 003/002, Kec. Curug, Kabupaten Tangerang",
+      "maps_url": "https://www.google.com/maps/place/KADU+PLAYGROUND/data=!4m7!3m6!1s0x2e69ff0065115db9:0xc3d9460658cfbe99!8m2!3d-6.2218282!4d106.567247!16s%2Fg%2F11mycwzgfv!19sChIJuV0RZQD_aS4Rmb7PWAZG2cM?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": "Segera tutup · 21.00 · Buka Rab pukul 10.00 Diperbarui oleh pengguna lain 12 minggu yang lalu",
+      "category": "taman",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.2218282,
+      "longitude": 106.567247,
+      "google_types": "Taman bermain",
+      "reviews": [
+        {
+          "author": "Nadya Rohmah",
+          "rating": 5,
+          "text": "Wau cantik sekali aku lagi fukus nonton drakor😂😂 …",
+          "date": "2 bulan lalu"
+        },
+        {
+          "author": "Nadya Rohmah",
+          "rating": 5,
+          "text": "Wau cantik sekali aku lagi fukus nonton drakor😂😂 …",
+          "date": "2 bulan lalu"
+        },
+        {
+          "author": "M Zumm",
+          "rating": 5,
+          "text": "mantap mumer bngt 10rbu sepuasnyaa",
+          "date": "2 bulan lalu"
+        },
+        {
+          "author": "M Zumm",
+          "rating": 5,
+          "text": "mantap mumer bngt 10rbu sepuasnyaa",
+          "date": "2 bulan lalu"
+        }
+      ],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJtYr5ZgAFQi4RxDON12LOBfE",
+      "name": "PLAYGROUND KIDZTODIA CISOKA",
+      "address": "PCPF+M3C, Jl. Megu - Cisoka, Cisoka, Kec. Cisoka, Kabupaten Tangerang, Banten 15730",
+      "maps_url": "https://www.google.com/maps/place/PLAYGROUND+KIDZTODIA+CISOKA/data=!4m7!3m6!1s0x2e42050066f98ab5:0xf105ce62d78d33c4!8m2!3d-6.2632999!4d106.4226528!16s%2Fg%2F11xvsdtf4y!19sChIJtYr5ZgAFQi4RxDON12LOBfE?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": "Segera tutup · 21.00 · Buka Rab pukul 10.00 ",
+      "category": "taman",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.2632999,
+      "longitude": 106.4226528,
+      "google_types": "Taman bermain",
+      "reviews": [
+        {
+          "author": "O L Y ' vivi",
+          "rating": 5,
+          "text": "Tempat nyaman, bersih tengah hari dateng kesini pun ga akan kepanasan pokoknya best deeh🤩🤩 …",
+          "date": "4 bulan lalu"
+        },
+        {
+          "author": "O L Y ' vivi",
+          "rating": 5,
+          "text": "Tempat nyaman, bersih tengah hari dateng kesini pun ga akan kepanasan pokoknya best deeh🤩🤩 …",
+          "date": "4 bulan lalu"
+        },
+        {
+          "author": "Anita Christanty",
+          "rating": 5,
+          "text": "Seruuu ,tempatnya nyaman ...\nApalagi kalo sore hari bikin betah anak main...\nNgumpulin stempel 10 poin dapet gratisan doung....",
+          "date": "4 bulan lalu"
+        },
+        {
+          "author": "Anita Christanty",
+          "rating": 5,
+          "text": "Seruuu ,tempatnya nyaman ...\nApalagi kalo sore hari bikin betah anak main...\nNgumpulin stempel 10 poin dapet gratisan doung....",
+          "date": "4 bulan lalu"
+        },
+        {
+          "author": "Ida Royani",
+          "rating": 5,
+          "text": "Bagus untuk permainan anak² tempatnya bersih dan nyaman, harganya juga terjangkau👌 …",
+          "date": "3 bulan lalu"
+        }
+      ],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJrakaV6kHQi4RDzp3ijgz4Eo",
+      "name": "Kidzilla Citra Raya",
+      "address": "Mall Ciputra Tanggerang, Ciakar, Kec. Panongan, Kabupaten Tangerang, Banten 15710",
+      "maps_url": "https://www.google.com/maps/place/Kidzilla+Citra+Raya/data=!4m7!3m6!1s0x2e4207a9571aa9ad:0x4ae033388a773a0f!8m2!3d-6.2606534!4d106.5246163!16s%2Fg%2F11pcn8g72c!19sChIJrakaV6kHQi4RDzp3ijgz4Eo?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": null,
+      "category": "taman",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.2606534,
+      "longitude": 106.5246163,
+      "google_types": "Arena Bermain Anak-Anak",
+      "reviews": [
+        {
+          "author": "Denni Tampubolon",
+          "rating": 5,
+          "text": "Tempat bermain yg cukup nyaman untuk anak-anak. Harga terakhir yang saya bayarkan yaitu untuk masuk 70rb/jam per anak, free untuk pendamping pertama.",
+          "date": "4 tahun lalu"
+        },
+        {
+          "author": "Denni Tampubolon",
+          "rating": 5,
+          "text": "Tempat bermain yg cukup nyaman untuk anak-anak. Harga terakhir yang saya bayarkan yaitu untuk masuk 70rb/jam per anak, free untuk pendamping pertama.",
+          "date": "4 tahun lalu"
+        },
+        {
+          "author": "Kartika Hadi",
+          "rating": 5,
+          "text": "Tempatnya enak dan luas. Anak2 senang. Ga ribet dengan aturan seperti mo ke toilet atau sholat. Krn 2 anak yg masuk, orangtuanya jd free 22 nya.. 🤗🤗 …",
+          "date": "3 tahun lalu"
+        },
+        {
+          "author": "Kartika Hadi",
+          "rating": 5,
+          "text": "Tempatnya enak dan luas. Anak2 senang. Ga ribet dengan aturan seperti mo ke toilet atau sholat. Krn 2 anak yg masuk, orangtuanya jd free 22 nya.. 🤗🤗 …",
+          "date": "3 tahun lalu"
+        },
+        {
+          "author": "Bagas Dwi Mulyanto",
+          "rating": 5,
+          "text": "Pernah dapat promo memperingati kemerdekaan Indonesia, bayar 70 ribu bisa main 2 jam 👍🤩 …",
+          "date": "3 tahun lalu"
+        }
+      ],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJzT7BIEIHQi4RlZ2MM1GvUiU",
+      "name": "Playground Stoneville",
+      "address": "QG29+2PV, Unnamed Road, Mekar Bakti, Panongan, Tangerang Regency, Banten 15710",
+      "maps_url": "https://www.google.com/maps/place/Playground+Stoneville/data=!4m7!3m6!1s0x2e42074220c13ecd:0x2552af51338c9d95!8m2!3d-6.2498834!4d106.5192868!16s%2Fg%2F11j0qn96ck!19sChIJzT7BIEIHQi4RlZ2MM1GvUiU?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": null,
+      "category": "taman",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.2498834,
+      "longitude": 106.5192868,
+      "google_types": "Taman bermain",
+      "reviews": [],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJHWoO5AIHQi4R3bBncEq59e0",
+      "name": "Playground Clubhouse Parkview Lagoonville",
+      "address": "QG29+75H, Unnamed Road, Mekar Bakti, Panongan, Tangerang Regency, Banten 15710",
+      "maps_url": "https://www.google.com/maps/place/Playground+Clubhouse+Parkview+Lagoonville/data=!4m7!3m6!1s0x2e420702e40e6a1d:0xedf5b94a7067b0dd!8m2!3d-6.2493159!4d106.5179748!16s%2Fg%2F11fpg5z3wm!19sChIJHWoO5AIHQi4R3bBncEq59e0?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": null,
+      "category": "taman",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.2493159,
+      "longitude": 106.5179748,
+      "google_types": "Taman bermain",
+      "reviews": [],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJ1biupDgBQi4RjDODGzwc45U",
+      "name": "SAUNG AIR (Sanggar Lukis dan Teater)",
+      "address": "QFMX+XJ4, Jalan, RT.002/RW.001, Sukanagara, Kec. Cikupa, Kabupaten Tangerang, Banten 15710",
+      "maps_url": "https://www.google.com/maps/place/SAUNG+AIR+%28Sanggar+Lukis+dan+Teater%29/data=!4m7!3m6!1s0x2e420138a4aeb8d5:0x95e31c3c1b83338c!8m2!3d-6.2152508!4d106.4992748!16s%2Fg%2F11sk0zs73x!19sChIJ1biupDgBQi4RjDODGzwc45U?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": null,
+      "category": "taman",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.2152508,
+      "longitude": 106.4992748,
+      "google_types": "Taman bermain",
+      "reviews": [],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJgY8jRAUDQi4RzzmAWOXaDbo",
+      "name": "Taman Graha Balaraja",
+      "address": "Jl. Graha Industri Balaraja Estate Kav. B2, Tobat, Sentul Jaya, Kec. Balaraja, Kabupaten Tangerang, Banten 15610",
+      "maps_url": "https://www.google.com/maps/place/Taman+Graha+Balaraja/data=!4m7!3m6!1s0x2e42030544238f81:0xba0ddae5588039cf!8m2!3d-6.203799!4d106.4388986!16s%2Fg%2F11h_ytt_x4!19sChIJgY8jRAUDQi4RzzmAWOXaDbo?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": null,
+      "category": "taman",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.203799,
+      "longitude": 106.4388986,
+      "google_types": "Taman",
+      "reviews": [
+        {
+          "author": "Evan Nmax",
+          "rating": 5,
+          "text": "Mantap buat jalan jalan di hari minggu dan buat ngabuburit",
+          "date": "6 tahun lalu"
+        },
+        {
+          "author": "Evan Nmax",
+          "rating": 5,
+          "text": "Mantap buat jalan jalan di hari minggu dan buat ngabuburit",
+          "date": "6 tahun lalu"
+        }
+      ],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJk6LHUAAFQi4RoCZES6Er4hE",
+      "name": "Lapangan perum bukit gading balaraja",
+      "address": "Jl. Gading Raya No.25, Cangkudu, Kec. Balaraja, Kabupaten Tangerang, Banten 15610",
+      "maps_url": "https://www.google.com/maps/place/Lapangan+perum+bukit+gading+balaraja/data=!4m7!3m6!1s0x2e42050050c7a293:0x11e22ba14b4426a0!8m2!3d-6.2318615!4d106.4368793!16s%2Fg%2F11xp1vssmh!19sChIJk6LHUAAFQi4RoCZES6Er4hE?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": null,
+      "category": "taman",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.2318615,
+      "longitude": 106.4368793,
+      "google_types": "Taman bermain",
+      "reviews": [],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJdQjxSEAHQi4Rf9U_HxU43sY",
+      "name": "Taman Bermain Garden Groove",
+      "address": "PGW7+HFC, Mekar Bakti, Kec. Panongan, Kabupaten Tangerang, Banten 15710",
+      "maps_url": "https://www.google.com/maps/place/Taman+Bermain+Garden+Groove/data=!4m7!3m6!1s0x2e42074048f10875:0xc6de38151f3fd57f!8m2!3d-6.2535562!4d106.5136387!16s%2Fg%2F11gr5zrkly!19sChIJdQjxSEAHQi4Rf9U_HxU43sY?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": null,
+      "category": "taman",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.2535562,
+      "longitude": 106.5136387,
+      "google_types": "Taman",
+      "reviews": [
+        {
+          "author": "fitriana rahmawati",
+          "rating": 5,
+          "text": "Walaupun wahana permainannya sudah pd rusak, tp ttp seru main di sini. Anak saya paling suka main perosotan dan lari2an di lahan luas sebelah tempat bermain. Ada jajanan anak2, penjual ikan & kelomang. Tempatnya jg bersih wlw kl hujan arena bermainnya jd becek.",
+          "date": "6 tahun lalu"
+        },
+        {
+          "author": "fitriana rahmawati",
+          "rating": 5,
+          "text": "Walaupun wahana permainannya sudah pd rusak, tp ttp seru main di sini. Anak saya paling suka main perosotan dan lari2an di lahan luas sebelah tempat bermain. Ada jajanan anak2, penjual ikan & kelomang. Tempatnya jg bersih wlw kl hujan arena bermainnya jd becek.",
+          "date": "6 tahun lalu"
+        },
+        {
+          "author": "Asep Mandala",
+          "rating": 5,
+          "text": "Alhamdulillah setelah di restorasi skrg bermain anak2 makin nyaman&aman . Topp",
+          "date": "6 tahun lalu"
+        },
+        {
+          "author": "Asep Mandala",
+          "rating": 5,
+          "text": "Alhamdulillah setelah di restorasi skrg bermain anak2 makin nyaman&aman . Topp",
+          "date": "6 tahun lalu"
+        },
+        {
+          "author": "Rika Wulandari",
+          "rating": 5,
+          "text": "Aku sangat bahagia😍😚❤ …",
+          "date": "6 tahun lalu"
+        }
+      ],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJnQt1WwABQi4Rw5b_psxNL4s",
+      "name": "Empang Madun",
+      "address": "QFQV+WQC, Kp. Cibadak, RT.7/RW.1, Sukanagara",
+      "maps_url": "https://www.google.com/maps/place/Empang+Madun/data=!4m7!3m6!1s0x2e4201005b750b9d:0x8b2f4dcca6ff96c3!8m2!3d-6.2101795!4d106.4943774!16s%2Fg%2F11kqw4sby5!19sChIJnQt1WwABQi4Rw5b_psxNL4s?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": "Buka · Tutup pukul 00.00 ",
+      "category": "taman",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.2101795,
+      "longitude": 106.4943774,
+      "google_types": "Taman bermain",
+      "reviews": [
+        {
+          "author": "Fitri Widyawati",
+          "rating": 5,
+          "text": "Tempat yg nyaman untuk yg hobi mancing recommended banget.. tempatnya sejuk rapih dan nyaman",
+          "date": "setahun lalu"
+        },
+        {
+          "author": "Fitri Widyawati",
+          "rating": 5,
+          "text": "Tempat yg nyaman untuk yg hobi mancing recommended banget.. tempatnya sejuk rapih dan nyaman",
+          "date": "setahun lalu"
+        },
+        {
+          "author": "Dadang Amjat",
+          "rating": 5,
+          "text": "ini ada harian lele gk,klo ada berapa duit harian ny,buka tutup jam brapa",
+          "date": "4 bulan lalu"
+        },
+        {
+          "author": "Dadang Amjat",
+          "rating": 5,
+          "text": "ini ada harian lele gk,klo ada berapa duit harian ny,buka tutup jam brapa",
+          "date": "4 bulan lalu"
+        }
+      ],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJR3KpVQAHQi4RpOZCnWrVUpA",
+      "name": "GUBUG 21",
+      "address": "QF4R+FQP, Budi Mulya, Kec. Cikupa, Kabupaten Tangerang, Banten",
+      "maps_url": "https://www.google.com/maps/place/GUBUG+21/data=!4m7!3m6!1s0x2e42070055a97247:0x9052d56a9d42e6a4!8m2!3d-6.243779!4d106.4919521!16s%2Fg%2F11y99c4594!19sChIJR3KpVQAHQi4RpOZCnWrVUpA?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": null,
+      "category": "taman",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.243779,
+      "longitude": 106.4919521,
+      "google_types": "Taman bermain",
+      "reviews": [
+        {
+          "author": "Bayong Isback",
+          "rating": 5,
+          "text": "lu mending Padaa main ke gubug dah",
+          "date": "setahun lalu"
+        },
+        {
+          "author": "Bayong Isback",
+          "rating": 5,
+          "text": "lu mending Padaa main ke gubug dah",
+          "date": "setahun lalu"
+        }
+      ],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJmZ4jfuAHQi4RktU4GY0Xadw",
+      "name": "Z home",
+      "address": "PGP5+GX6, Peusar, Kec. Panongan, Kabupaten Tangerang, Banten 15710",
+      "maps_url": "https://www.google.com/maps/place/Z+home/data=!4m7!3m6!1s0x2e4207e07e239e99:0xdc69178d1938d592!8m2!3d-6.2637218!4d106.5098893!16s%2Fg%2F11q2x9p6p2!19sChIJmZ4jfuAHQi4RktU4GY0Xadw?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": null,
+      "category": "taman",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.2637218,
+      "longitude": 106.5098893,
+      "google_types": "Taman bermain",
+      "reviews": [],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJC6JlZQAHQi4RpRSaCIFLW1c",
+      "name": "HOME EMBE18",
+      "address": "QF5R+4R5, Budi Mulya, Kec. Cikupa, Kabupaten Tangerang, Banten",
+      "maps_url": "https://www.google.com/maps/place/HOME+EMBE18/data=!4m7!3m6!1s0x2e4207006565a20b:0x575b4b81089a14a5!8m2!3d-6.2422448!4d106.492115!16s%2Fg%2F11wx0scll3!19sChIJC6JlZQAHQi4RpRSaCIFLW1c?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": null,
+      "category": "taman",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.2422448,
+      "longitude": 106.492115,
+      "google_types": "Taman bermain",
+      "reviews": [],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJ99PtIgADQi4R9KLjUW5jwqU",
+      "name": "Tongvin",
+      "address": "Jl. Kp. Ciapus No.rt01 rw 02, Cangkudu, Kec. Balaraja, Kabupaten Tangerang, Banten 15610",
+      "maps_url": "https://www.google.com/maps/place/Tongvin/data=!4m7!3m6!1s0x2e42030022edd3f7:0xa5c2636e51e3a2f4!8m2!3d-6.2276758!4d106.4365575!16s%2Fg%2F11xn5lzhzl!19sChIJ99PtIgADQi4R9KLjUW5jwqU?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": null,
+      "category": "taman",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.2276758,
+      "longitude": 106.4365575,
+      "google_types": "Taman Bermain Dalam Ruangan",
+      "reviews": [],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJpySlh8z_aS4RPOUajsgmwco",
+      "name": "NayKids Playground",
+      "address": "Jl. Kp. Bunder No.02, RT.13, Bunder, Kec. Cikupa, Kabupaten Tangerang, Banten 15713",
+      "maps_url": "https://www.google.com/maps/place/NayKids+Playground/data=!4m7!3m6!1s0x2e69ffcc87a524a7:0xcac126c88e1ae53c!8m2!3d-6.1983612!4d106.5432152!16s%2Fg%2F11y3kq36v5!19sChIJpySlh8z_aS4RPOUajsgmwco?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": "Segera tutup · 21.00 · Buka Rab pukul 11.00 ",
+      "category": "taman",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.1983612,
+      "longitude": 106.5432152,
+      "google_types": "Pusat Hiburan Anak-Anak",
+      "reviews": [
+        {
+          "author": "Nufus Diyawaki",
+          "rating": 5,
+          "text": "Murah meriah euy playground nya… banyak permainannya lagi",
+          "date": "setahun lalu"
+        },
+        {
+          "author": "Nufus Diyawaki",
+          "rating": 5,
+          "text": "Murah meriah euy playground nya… banyak permainannya lagi",
+          "date": "setahun lalu"
+        },
+        {
+          "author": "Athaya Nabilah",
+          "rating": 5,
+          "text": "Adik saya senang bermain disini! Kapan - kapan balik lagi deh🤭 …",
+          "date": "6 bulan lalu"
+        },
+        {
+          "author": "Athaya Nabilah",
+          "rating": 5,
+          "text": "Adik saya senang bermain disini! Kapan - kapan balik lagi deh🤭 …",
+          "date": "6 bulan lalu"
+        },
+        {
+          "author": "Fariza Amanda Putri",
+          "rating": 5,
+          "text": "Cukup terjangkau",
+          "date": "6 bulan lalu"
+        }
+      ],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJo68LUyz_aS4R_CfbZ5q-EmM",
+      "name": "Base Camp BCS (Bolang CS)",
+      "address": "Jl. Kp. Kadu Jaya No.13, RT.001/RW.1, Kadu Jaya, Kec. Curug, Kabupaten Tangerang, Banten 15810",
+      "maps_url": "https://www.google.com/maps/place/Base+Camp+BCS+%28Bolang+CS%29/data=!4m7!3m6!1s0x2e69ff2c530bafa3:0x6312be9a67db27fc!8m2!3d-6.211435!4d106.5605783!16s%2Fg%2F11rclg2sht!19sChIJo68LUyz_aS4R_CfbZ5q-EmM?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": "Buka 24 jam ",
+      "category": "taman",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.211435,
+      "longitude": 106.5605783,
+      "google_types": "Taman bermain",
+      "reviews": [
+        {
+          "author": "Ebhink A",
+          "rating": 5,
+          "text": "Kumpul\" positif",
+          "date": "4 tahun lalu"
+        },
+        {
+          "author": "Ebhink A",
+          "rating": 5,
+          "text": "Kumpul\" positif",
+          "date": "4 tahun lalu"
+        }
+      ],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJyaoz7X0BQi4RINRpnbReSTg",
+      "name": "Pangsor park",
+      "address": "QGRH+P2F, Kp pangsor, RT.06/RW.03,desa, Pasir Jaya, Cikupa, Tangerang Regency, Banten 15710",
+      "maps_url": "https://www.google.com/maps/place/Pangsor+park/data=!4m7!3m6!1s0x2e42017ded33aac9:0x38495eb49d69d420!8m2!3d-6.2081827!4d106.5275436!16s%2Fg%2F11snptf49_!19sChIJyaoz7X0BQi4RINRpnbReSTg?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": null,
+      "category": "taman",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.2081827,
+      "longitude": 106.5275436,
+      "google_types": "Taman bermain",
+      "reviews": [],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJIZV8PIoBQi4R1UMJPqM6ETc",
+      "name": "Rest Area Aqila",
+      "address": "QGJH+452, Jl. Kp. Pengkolan, Pasir Gadung, Kec. Cikupa, Kabupaten Tangerang, Banten 15710",
+      "maps_url": "https://www.google.com/maps/place/Rest+Area+Aqila/data=!4m7!3m6!1s0x2e42018a3c7c9521:0x37113aa33e0943d5!8m2!3d-6.2197391!4d106.5278756!16s%2Fg%2F11gk8n6tht!19sChIJIZV8PIoBQi4R1UMJPqM6ETc?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": null,
+      "category": "taman",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.2197391,
+      "longitude": 106.5278756,
+      "google_types": "Taman Bermain Dalam Ruangan",
+      "reviews": [],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJP8A1QUMHQi4R2_LWQ-_IzLY",
+      "name": "Playground RT06/RW01",
+      "address": "PFCC+5QM, Jl. Blk. C1, Sodong, Kec. Tigaraksa, Kabupaten Tangerang, Banten 15720",
+      "maps_url": "https://www.google.com/maps/place/Playground+RT06%2FRW01/data=!4m7!3m6!1s0x2e4207434135c03f:0xb6ccc8ef43d6f2db!8m2!3d-6.279537!4d106.471907!16s%2Fg%2F11krypj_l5!19sChIJP8A1QUMHQi4R2_LWQ-_IzLY?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": null,
+      "category": "taman",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.279537,
+      "longitude": 106.471907,
+      "google_types": "Taman bermain",
+      "reviews": [
+        {
+          "author": "Wahyudi Setyo Widodo",
+          "rating": 5,
+          "text": "Strategis.. Tempat baru utk bermain anak-anak..",
+          "date": "2 tahun lalu"
+        },
+        {
+          "author": "Wahyudi Setyo Widodo",
+          "rating": 5,
+          "text": "Strategis.. Tempat baru utk bermain anak-anak..",
+          "date": "2 tahun lalu"
+        },
+        {
+          "author": "akhmadfauzi hadisantoso",
+          "rating": 5,
+          "text": "Tempat strategis dan cukup seru",
+          "date": "setahun lalu"
+        },
+        {
+          "author": "akhmadfauzi hadisantoso",
+          "rating": 5,
+          "text": "Tempat strategis dan cukup seru",
+          "date": "setahun lalu"
+        },
+        {
+          "author": "WS Widodo",
+          "rating": 5,
+          "text": "Arena bermain dan acara outdoor",
+          "date": "2 tahun lalu"
+        }
+      ],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJZWZ--wcHQi4RL55ZXD_AvtY",
+      "name": "Belle Fleur Children Playground 2",
+      "address": "PGXJ+968, Ciakar, Kec. Panongan, Kabupaten Tangerang, Banten 15710",
+      "maps_url": "https://www.google.com/maps/place/Belle+Fleur+Children+Playground+2/data=!4m7!3m6!1s0x2e420707fb7e6665:0xd6bec03f5c599e2f!8m2!3d-6.2515835!4d106.5305876!16s%2Fg%2F11f6q813v_!19sChIJZWZ--wcHQi4RL55ZXD_AvtY?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": null,
+      "category": "taman",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.2515835,
+      "longitude": 106.5305876,
+      "google_types": "Taman bermain",
+      "reviews": [],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJ-S77MAABQi4Ro5ZRb9dlpYM",
+      "name": "Spot Keluarga Paser Mania Nusantara",
+      "address": "QFHR+H6W, Bojong, Kec. Cikupa, Kabupaten Tangerang, Banten 15710",
+      "maps_url": "https://www.google.com/maps/place/Spot+Keluarga+Paser+Mania+Nusantara/data=!4m7!3m6!1s0x2e42010030fb2ef9:0x83a565d76f5196a3!8m2!3d-6.2217006!4d106.4902985!16s%2Fg%2F11vy56n34k!19sChIJ-S77MAABQi4Ro5ZRb9dlpYM?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": null,
+      "category": "taman",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.2217006,
+      "longitude": 106.4902985,
+      "google_types": "Taman bermain",
+      "reviews": [],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJgSJcMgAHQi4RDQTIbKyN6yo",
+      "name": "FASUM AMBALAT",
+      "address": "Jl. Garden Raya No.8, Mekar Bakti, Kec. Panongan, Kabupaten Tangerang, Banten 15710",
+      "maps_url": "https://www.google.com/maps/place/FASUM+AMBALAT/data=!4m7!3m6!1s0x2e420700325c2281:0x2aeb8dac6cc8040d!8m2!3d-6.25881!4d106.51939!16s%2Fg%2F11xkh6vqjg!19sChIJgSJcMgAHQi4RDQTIbKyN6yo?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": null,
+      "category": "taman",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.25881,
+      "longitude": 106.51939,
+      "google_types": "Taman bermain",
+      "reviews": [],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJMVxnKwr_QS4Rxdi7m0s2-YM",
+      "name": "D'BOCIL",
+      "address": "Perumahan Mutiara Puri harmoni Blok G1 No.11, Sukamanah, Kec. Rajeg, Kabupaten Tangerang, Banten 15540",
+      "maps_url": "https://www.google.com/maps/place/D%27BOCIL/data=!4m7!3m6!1s0x2e41ff0a2b675c31:0x83f9364b9bbbd8c5!8m2!3d-6.122684!4d106.5062937!16s%2Fg%2F11rkvfrwj2!19sChIJMVxnKwr_QS4Rxdi7m0s2-YM?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": "Segera tutup · 21.00 · Buka Rab pukul 10.00 ",
+      "category": "taman",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.122684,
+      "longitude": 106.5062937,
+      "google_types": "Taman Bermain Dalam Ruangan",
+      "reviews": [
+        {
+          "author": "serba murah",
+          "rating": 5,
+          "text": "anakku senang sekali main disni, selain murah, g ada batasan waktu alias sepuasnya trs yang nggu juga ramah, pokoknya wajib banget kesini. Tempatnya luas dan bersih. Worth it bgtt bgtt bangeetttt",
+          "date": "setahun lalu"
+        },
+        {
+          "author": "serba murah",
+          "rating": 5,
+          "text": "anakku senang sekali main disni, selain murah, g ada batasan waktu alias sepuasnya trs yang nggu juga ramah, pokoknya wajib banget kesini. Tempatnya luas dan bersih. Worth it bgtt bgtt bangeetttt",
+          "date": "setahun lalu"
+        },
+        {
+          "author": "fitri da2205",
+          "rating": 5,
+          "text": "Tmpt. Nya bersih bgt...murah lg poko nha top lah..anak2 senang",
+          "date": "setahun lalu"
+        },
+        {
+          "author": "fitri da2205",
+          "rating": 5,
+          "text": "Tmpt. Nya bersih bgt...murah lg poko nha top lah..anak2 senang",
+          "date": "setahun lalu"
+        }
+      ],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJ49fFbpT9aS4RqH6st35WfG4",
+      "name": "Mini Playground NARAYA",
+      "address": "QH9J+5JC, Jl. Peusar, Binong, Kec. Curug, Kabupaten Tangerang, Banten 15810",
+      "maps_url": "https://www.google.com/maps/place/Mini+Playground+NARAYA/data=!4m7!3m6!1s0x2e69fd946ec5d7e3:0x6e7c567eb7ac7ea8!8m2!3d-6.2320531!4d106.5815013!16s%2Fg%2F11s6zknv6b!19sChIJ49fFbpT9aS4RqH6st35WfG4?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": "Buka · Tutup pukul 22.00 ",
+      "category": "taman",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.2320531,
+      "longitude": 106.5815013,
+      "google_types": "Taman Bermain Dalam Ruangan",
+      "reviews": [],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJIXGcgeMHQi4R-4JhN8TsVW4",
+      "name": "TAMAN WIJAYA 11",
+      "address": "blok W 29, Graha Pesona, Jl. Wijaya 9 No.29, Mekar Bakti, Kec. Panongan, Kabupaten Tangerang, Banten 15710",
+      "maps_url": "https://www.google.com/maps/place/TAMAN+WIJAYA+11/data=!4m7!3m6!1s0x2e4207e3819c7121:0x6e55ecc4376182fb!8m2!3d-6.2539228!4d106.5179906!16s%2Fg%2F11flqh1kbr!19sChIJIXGcgeMHQi4R-4JhN8TsVW4?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": null,
+      "category": "taman",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.2539228,
+      "longitude": 106.5179906,
+      "google_types": "Taman bermain",
+      "reviews": [],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJ-38aY4oHQi4R_C6b5_q3klk",
+      "name": "Azis chaplint",
+      "address": "kp tarisi rt 0201, Ciakar, Kec. Panongan, Kabupaten Tangerang, Banten 15710",
+      "maps_url": "https://www.google.com/maps/place/Azis+chaplint/data=!4m7!3m6!1s0x2e42078a631a7ffb:0x5992b7fae79b2efc!8m2!3d-6.2664459!4d106.518067!16s%2Fg%2F11rcjgljgs!19sChIJ-38aY4oHQi4R_C6b5_q3klk?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": null,
+      "category": "taman",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.2664459,
+      "longitude": 106.518067,
+      "google_types": "Taman bermain",
+      "reviews": [
+        {
+          "author": "Evi poky",
+          "rating": 5,
+          "text": "Bagus",
+          "date": "2 bulan lalu"
+        },
+        {
+          "author": "Evi poky",
+          "rating": 5,
+          "text": "Bagus",
+          "date": "2 bulan lalu"
+        }
+      ],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJRdVGyQYFQi4R4c8sjg9U4aQ",
+      "name": "Gg Fandi",
+      "address": "QC3H+X84, Jl. Raya Cangkudu - Cisoka, Cibugel, Kec. Cisoka, Kabupaten Tangerang, Banten 15730",
+      "maps_url": "https://www.google.com/maps/place/Gg+Fandi/data=!4m7!3m6!1s0x2e420506c946d545:0xa4e1540f8e2ccfe1!8m2!3d-6.2451119!4d106.4283344!16s%2Fg%2F11nngvh22c!19sChIJRdVGyQYFQi4R4c8sjg9U4aQ?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": null,
+      "category": "taman",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.2451119,
+      "longitude": 106.4283344,
+      "google_types": "Taman bermain",
+      "reviews": [],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJf5cFUwADQi4R4YpxgX2e90Q",
+      "name": "Tempat Iming Nongkrong",
+      "address": "QCCJ+9XJ, Cangkudu, Kec. Balaraja, Kabupaten Tangerang, Banten",
+      "maps_url": "https://www.google.com/maps/place/Tempat+Iming+Nongkrong/data=!4m7!3m6!1s0x2e4203005305977f:0x44f79e7d81718ae1!8m2!3d-6.2291871!4d106.4326135!16s%2Fg%2F11xmbt88t0!19sChIJf5cFUwADQi4R4YpxgX2e90Q?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": null,
+      "category": "taman",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.2291871,
+      "longitude": 106.4326135,
+      "google_types": "Taman bermain",
+      "reviews": [],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJ2aRQMwAHQi4R_yrdawStDwA",
+      "name": "Pos Kuk",
+      "address": "Jl. Mulya Asri 1 No.1, RW.2, Sukamulya, Kec. Cikupa, Kabupaten Tangerang, Banten 15155",
+      "maps_url": "https://www.google.com/maps/place/Pos+Kuk/data=!4m7!3m6!1s0x2e4207003350a4d9:0xfad046bdd2aff!8m2!3d-6.2386593!4d106.5091236!16s%2Fg%2F11w2jq7t6_!19sChIJ2aRQMwAHQi4R_yrdawStDwA?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": null,
+      "category": "taman",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.2386593,
+      "longitude": 106.5091236,
+      "google_types": "Taman bermain",
+      "reviews": [
+        {
+          "author": "Daniel Andre",
+          "rating": 5,
+          "text": "Asik banget",
+          "date": "setahun lalu"
+        },
+        {
+          "author": "Daniel Andre",
+          "rating": 5,
+          "text": "Asik banget",
+          "date": "setahun lalu"
+        }
+      ],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJkeHrBsADQi4RvGLqUBUcACY",
+      "name": "Pemancingan Galapung dan Toko Keramik Neng Dhea",
+      "address": "Kp Cariu, Kec. Balaraja, Kabupaten Tangerang, Banten",
+      "maps_url": "https://www.google.com/maps/place/Pemancingan+Galapung+dan+Toko+Keramik+Neng+Dhea/data=!4m7!3m6!1s0x2e4203c006ebe191:0x26001c1550ea62bc!8m2!3d-6.192481!4d106.438715!16s%2Fg%2F11t64bhh_j!19sChIJkeHrBsADQi4RvGLqUBUcACY?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": "Buka 24 jam ",
+      "category": "taman",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.192481,
+      "longitude": 106.438715,
+      "google_types": "Taman bermain",
+      "reviews": [],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJHe7aVEwDQi4RgOf-tisLEfY",
+      "name": "Posyandu tulip",
+      "address": "RC5P+286, Tobat, Kec. Balaraja, Kabupaten Tangerang, Banten 15610",
+      "maps_url": "https://www.google.com/maps/place/Posyandu+tulip/data=!4m7!3m6!1s0x2e42034c54daee1d:0xf6110b2bb6fee780!8m2!3d-6.1925415!4d106.4357676!16s%2Fg%2F11v3hwzcd5!19sChIJHe7aVEwDQi4RgOf-tisLEfY?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": null,
+      "category": "taman",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.1925415,
+      "longitude": 106.4357676,
+      "google_types": "Taman bermain",
+      "reviews": [],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJ7ffMN6EBQi4RMaXi7CFkY0Y",
+      "name": "Saung G69",
+      "address": "Jl. Perum Bukit Tiara P1 No.16, Pasir Jaya, Kec. Cikupa, Kabupaten Tangerang, Banten 15710",
+      "maps_url": "https://www.google.com/maps/place/Saung+G69/data=!4m7!3m6!1s0x2e4201a137ccf7ed:0x46636421ece2a531!8m2!3d-6.2031763!4d106.5333827!16s%2Fg%2F11srttcs0b!19sChIJ7ffMN6EBQi4RMaXi7CFkY0Y?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": null,
+      "category": "taman",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.2031763,
+      "longitude": 106.5333827,
+      "google_types": "Taman bermain",
+      "reviews": [],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJ3a6h-nMBQi4RhJFOqPpOdEk",
+      "name": "Sahabat Balaraja Department Stores",
+      "address": "Jl. Raya Serang No.KM 24, Talagasari, Kec. Balaraja, Kabupaten Tangerang, Banten 15610",
+      "maps_url": "https://www.google.com/maps/place/Sahabat+Balaraja+Department+Stores/data=!4m7!3m6!1s0x2e420173faa1aedd:0x49744efaa84e9184!8m2!3d-6.1943547!4d106.4600745!16s%2Fg%2F1pzqxkqn5!19sChIJ3a6h-nMBQi4RhJFOqPpOdEk?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": "Segera tutup · 21.00 · Buka Rab pukul 09.00 ",
+      "category": "taman",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.1943547,
+      "longitude": 106.4600745,
+      "google_types": "Toserba",
+      "reviews": [
+        {
+          "author": "isy. c",
+          "rating": 5,
+          "text": "Jujur aku suka banget belanja disini. Apa lagi pelayananya...😊❤️‍ nyaman Aman enak harga  masuk. …",
+          "date": "4 bulan lalu"
+        },
+        {
+          "author": "isy. c",
+          "rating": 5,
+          "text": "Jujur aku suka banget belanja disini. Apa lagi pelayananya...😊❤️‍ nyaman Aman enak harga  masuk. …",
+          "date": "4 bulan lalu"
+        },
+        {
+          "author": "Nurdianah Dixit",
+          "rating": 5,
+          "text": "Tempat ini bisa jadi tempat bermain anak yang asyik dan menyenangkan. Anak bisa mandi bola dan bermain edukatif sepuasnya hanya dengan 20ribuan ajah. Murah banget, kan? …",
+          "date": "6 tahun lalu"
+        },
+        {
+          "author": "Nurdianah Dixit",
+          "rating": 5,
+          "text": "Tempat ini bisa jadi tempat bermain anak yang asyik dan menyenangkan. Anak bisa mandi bola dan bermain edukatif sepuasnya hanya dengan 20ribuan ajah. Murah banget, kan? …",
+          "date": "6 tahun lalu"
+        },
+        {
+          "author": "adhe suhendry",
+          "rating": 5,
+          "text": "Sahabat swalayan tempatnya cukup lengkap, tempat belanja bulanan, baju , tempat bermain dilantai atas.\nSayangnya, udah ga ada gramedia nya",
+          "date": "Diedit 3 tahun lalu"
+        }
+      ],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJHZ2-bQD9aS4RAuEHIOot4uc",
+      "name": "perumahan teras citra",
+      "address": "PGVV+W9W, Cukanggalih, Kec. Curug, Kabupaten Tangerang, Banten 15810",
+      "maps_url": "https://www.google.com/maps/place/perumahan+teras+citra/data=!4m7!3m6!1s0x2e69fd006dbe9d1d:0xe7e22dea2007e102!8m2!3d-6.255127!4d106.5434679!16s%2Fg%2F11mz74yn35!19sChIJHZ2-bQD9aS4RAuEHIOot4uc?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": null,
+      "category": "taman",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.255127,
+      "longitude": 106.5434679,
+      "google_types": "Taman bermain",
+      "reviews": [
+        {
+          "author": "Abdul Fuad",
+          "rating": 5,
+          "text": "Lokasi nya akurat",
+          "date": "sebulan lalu"
+        },
+        {
+          "author": "Abdul Fuad",
+          "rating": 5,
+          "text": "Lokasi nya akurat",
+          "date": "sebulan lalu"
+        }
+      ],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJY3zmhjMBQi4ReSBEk2qiRtM",
+      "name": "KOLAM RENANG MINI HJ. TUTI",
+      "address": "QFVP+VVR, Cibadak, Kec. Cikupa, Kabupaten Tangerang, Banten",
+      "maps_url": "https://www.google.com/maps/place/KOLAM+RENANG+MINI+HJ.+TUTI/data=!4m7!3m6!1s0x2e42013386e67c63:0xd346a26a93442079!8m2!3d-6.2052562!4d106.4871345!16s%2Fg%2F11l35w0krt!19sChIJY3zmhjMBQi4ReSBEk2qiRtM?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": "Tutup · Buka Rab pukul 07.00 ",
+      "category": "taman",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.2052562,
+      "longitude": 106.4871345,
+      "google_types": "Taman bermain",
+      "reviews": [],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJq-xs_3P9aS4RMTGQ9ovlpC0",
+      "name": "Kiddos Play and Fun",
+      "address": "QH2G+X64, Jl. Raya Binong, Sukabakti, Kec. Curug, Kabupaten Tangerang, Banten 15810",
+      "maps_url": "https://www.google.com/maps/place/Kiddos+Play+and+Fun/data=!4m7!3m6!1s0x2e69fd73ff6cecab:0x2da4e58bf6903131!8m2!3d-6.2476294!4d106.5755364!16s%2Fg%2F11sk3h43g0!19sChIJq-xs_3P9aS4RMTGQ9ovlpC0?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": "Tutup · Buka Rab pukul 10.00 ",
+      "category": "taman",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.2476294,
+      "longitude": 106.5755364,
+      "google_types": "Taman bermain",
+      "reviews": [
+        {
+          "author": "Annisa Eka Putri",
+          "rating": 5,
+          "text": "Playground deket dari rumah, gak besar tapi mainannya cukup bervariatif, bersih dan semoga akan tetap bersih yaaa. Juga murah banget, cocoklah untuk sekedar refreshing anak-anak, gak perlu capek-capek ke Mall. …",
+          "date": "2 tahun lalu"
+        },
+        {
+          "author": "Annisa Eka Putri",
+          "rating": 5,
+          "text": "Playground deket dari rumah, gak besar tapi mainannya cukup bervariatif, bersih dan semoga akan tetap bersih yaaa. Juga murah banget, cocoklah untuk sekedar refreshing anak-anak, gak perlu capek-capek ke Mall. …",
+          "date": "2 tahun lalu"
+        },
+        {
+          "author": "A Ayu",
+          "rating": 5,
+          "text": "Tempatnya luas. Harganya tdk trlalu mahal.\nBersih nyaman.",
+          "date": "2 tahun lalu"
+        },
+        {
+          "author": "A Ayu",
+          "rating": 5,
+          "text": "Tempatnya luas. Harganya tdk trlalu mahal.\nBersih nyaman.",
+          "date": "2 tahun lalu"
+        }
+      ],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJg9KKJAAHQi4RfY0W6Lwg9Po",
+      "name": "Sekretariat FORBETA Forum Ojek Online Bersatu Kabupaten Tangerang",
+      "address": "PGW5+FJC, Peusar, Kec. Panongan, Kabupaten Tangerang, Banten 15710",
+      "maps_url": "https://www.google.com/maps/place/Sekretariat+FORBETA+Forum+Ojek+Online+Bersatu+Kabupaten+Tangerang/data=!4m7!3m6!1s0x2e420700248ad283:0xfaf420bce8168d7d!8m2!3d-6.2538302!4d106.5090233!16s%2Fg%2F11mz__cm4b!19sChIJg9KKJAAHQi4RfY0W6Lwg9Po?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": "Buka 24 jam Diperbarui oleh pengguna lain 8 minggu yang lalu",
+      "category": "taman",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.2538302,
+      "longitude": 106.5090233,
+      "google_types": "Taman bermain",
+      "reviews": [],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJsVoSCdIHQi4RrT8EPNtLKR0",
+      "name": "KidzHaven",
+      "address": "Ruko Grand Boulevard, Jl. Citra Raya Boulevard blok V, Kec. Cikupa, Kabupaten Tangerang, Banten 15710",
+      "maps_url": "https://www.google.com/maps/place/KidzHaven/data=!4m7!3m6!1s0x2e4207d209125ab1:0x1d294bdb3c043fad!8m2!3d-6.2584948!4d106.5285777!16s%2Fg%2F11yx4f7yv4!19sChIJsVoSCdIHQi4RrT8EPNtLKR0?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": null,
+      "category": "taman",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.2584948,
+      "longitude": 106.5285777,
+      "google_types": "",
+      "reviews": [],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJYRvtoQX9aS4RIYHhVEprqaw",
+      "name": "Taman Curug Garden",
+      "address": "PHV3+V29, Curug Kulon, Kec. Curug, Kabupaten Tangerang, Banten 15810",
+      "maps_url": "https://www.google.com/maps/place/Taman+Curug+Garden/data=!4m7!3m6!1s0x2e69fd05a1ed1b61:0xaca96b4a54e18121!8m2!3d-6.2553313!4d106.5526079!16s%2Fg%2F11sqq9zpgm!19sChIJYRvtoQX9aS4RIYHhVEprqaw?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": null,
+      "category": "taman",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.2553313,
+      "longitude": 106.5526079,
+      "google_types": "Taman bermain",
+      "reviews": [],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJB7rPJTUPQi4R0MdY3eXkVkQ",
+      "name": "AMURA PLAYHOUSE INDOOR ADIYASA",
+      "address": "Jl. Raya Tigaraksa - Adiyasa, Cikuya, Kec. Tigaraksa, Kabupaten Tangerang, Banten 15730",
+      "maps_url": "https://www.google.com/maps/place/AMURA+PLAYHOUSE+INDOOR+ADIYASA/data=!4m7!3m6!1s0x2e420f3525cfba07:0x4456e4e5dd58c7d0!8m2!3d-6.3256009!4d106.4235383!16s%2Fg%2F11rts13xwl!19sChIJB7rPJTUPQi4R0MdY3eXkVkQ?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": "Segera tutup · 21.00 · Buka Rab pukul 09.00 ",
+      "category": "taman",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.3256009,
+      "longitude": 106.4235383,
+      "google_types": "Taman bermain",
+      "reviews": [
+        {
+          "author": "Hanifah Azzahra",
+          "rating": 5,
+          "text": "Nyaman bgt main disini, tempatnya sejuk karena full AC, staff nya ramah dan tempatnya bersih serta mainannya beragam.. harganya terjangkau",
+          "date": "6 bulan lalu"
+        },
+        {
+          "author": "Hanifah Azzahra",
+          "rating": 5,
+          "text": "Nyaman bgt main disini, tempatnya sejuk karena full AC, staff nya ramah dan tempatnya bersih serta mainannya beragam.. harganya terjangkau",
+          "date": "6 bulan lalu"
+        },
+        {
+          "author": "Dewi Yulianti",
+          "rating": 5,
+          "text": "Tempat nya nyaman, banyak permainan nya, anak ku suka",
+          "date": "5 bulan lalu"
+        },
+        {
+          "author": "Dewi Yulianti",
+          "rating": 5,
+          "text": "Tempat nya nyaman, banyak permainan nya, anak ku suka",
+          "date": "5 bulan lalu"
+        },
+        {
+          "author": "Suci Najmi Amalia",
+          "rating": 5,
+          "text": "Permainan variatif, tempat bersih, AC adem bgt jadi ga kepanasan, mba nya ramah.",
+          "date": "setahun lalu"
+        }
+      ],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJC0uKQAEBQi4RCHJWsBH15zo",
+      "name": "CR.YK",
+      "address": "QGRH+JPF, Blk. H, Pasir Jaya, Kec. Cikupa, Kabupaten Tangerang, Banten 15710",
+      "maps_url": "https://www.google.com/maps/place/CR.YK/data=!4m7!3m6!1s0x2e420101408a4b0b:0x3ae7f511b0567208!8m2!3d-6.208436!4d106.5292934!16s%2Fg%2F11t40drbry!19sChIJC0uKQAEBQi4RCHJWsBH15zo?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": null,
+      "category": "taman",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.208436,
+      "longitude": 106.5292934,
+      "google_types": "Taman bermain",
+      "reviews": [],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJP0WVngcBQi4R6D-hC8rlyVY",
+      "name": "TempatBermain",
+      "address": "Perum Duta Asri Palem 6 No.02 Blk. A1, Saga, Kec. Balaraja, Kabupaten Tangerang, Banten 15610",
+      "maps_url": "https://www.google.com/maps/place/TempatBermain/data=!4m7!3m6!1s0x2e4201079e95453f:0x56c9e5ca0ba13fe8!8m2!3d-6.1812041!4d106.4599981!16s%2Fg%2F11vz8l3fvt!19sChIJP0WVngcBQi4R6D-hC8rlyVY?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": null,
+      "category": "taman",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.1812041,
+      "longitude": 106.4599981,
+      "google_types": "",
+      "reviews": [],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJbT5OCAABQi4RzklQuePcqO4",
+      "name": "Mama agam",
+      "address": "RF87+JQ8, Talagasari, Kec. Balaraja, Kabupaten Tangerang, Banten 15610",
+      "maps_url": "https://www.google.com/maps/place/Mama+agam/data=!4m7!3m6!1s0x2e420100084e3e6d:0xeea8dce3b95049ce!8m2!3d-6.1833828!4d106.4645094!16s%2Fg%2F11yb8f_8wm!19sChIJbT5OCAABQi4RzklQuePcqO4?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": null,
+      "category": "taman",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.1833828,
+      "longitude": 106.4645094,
+      "google_types": "Taman bermain",
+      "reviews": [],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJa5V-tqoBQi4RTXxD6MpXtuY",
+      "name": "Pemancingan Taman Bunga",
+      "address": "Mandiri balaraja, Tobat, Kec. Balaraja, Kabupaten Tangerang, Banten 15610",
+      "maps_url": "https://www.google.com/maps/place/Pemancingan+Taman+Bunga/data=!4m7!3m6!1s0x2e4201aab67e956b:0xe6b657cae8437c4d!8m2!3d-6.1878264!4d106.4537209!16s%2Fg%2F11vlhpkv_t!19sChIJa5V-tqoBQi4RTXxD6MpXtuY?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": null,
+      "category": "taman",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.1878264,
+      "longitude": 106.4537209,
+      "google_types": "Taman bermain",
+      "reviews": [],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJ3TEnHP_9aS4Rf-g5rgMzAYI",
+      "name": "Diorizam playground",
+      "address": "ruko yen yen, Jl. Sentul, Curug Kulon, Kec. Curug, Kabupaten Tangerang, Banten 15810",
+      "maps_url": "https://www.google.com/maps/place/Diorizam+playground/data=!4m7!3m6!1s0x2e69fdff1c2731dd:0x82013303ae39e87f!8m2!3d-6.2534716!4d106.5541206!16s%2Fg%2F11xsy4dnrq!19sChIJ3TEnHP_9aS4Rf-g5rgMzAYI?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": "Buka 24 jam ",
+      "category": "taman",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.2534716,
+      "longitude": 106.5541206,
+      "google_types": "Taman",
+      "reviews": [
+        {
+          "author": "irwan aja",
+          "rating": 5,
+          "text": "Tepat nya bagus buat parikr sangan luas",
+          "date": "6 bulan lalu"
+        },
+        {
+          "author": "irwan aja",
+          "rating": 5,
+          "text": "Tepat nya bagus buat parikr sangan luas",
+          "date": "6 bulan lalu"
+        },
+        {
+          "author": "patria ferdinand04",
+          "rating": 5,
+          "text": "tempatnya seru, rapih, pokonya keren, nanti main kesini lagi deh, anak saya seneng",
+          "date": "6 bulan lalu"
+        },
+        {
+          "author": "patria ferdinand04",
+          "rating": 5,
+          "text": "tempatnya seru, rapih, pokonya keren, nanti main kesini lagi deh, anak saya seneng",
+          "date": "6 bulan lalu"
+        }
+      ],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJHYqcmIP9aS4RrlsEs-VeVoc",
+      "name": "GG JOKER",
+      "address": "QH7C+8Q6, Jl. Poros Tengah, Kadu, Kec. Curug, Kabupaten Tangerang, Banten 15810",
+      "maps_url": "https://www.google.com/maps/place/GG+JOKER/data=!4m7!3m6!1s0x2e69fd83989c8a1d:0x87565ee5b3045bae!8m2!3d-6.2367086!4d106.5718846!16s%2Fg%2F11llwswh4b!19sChIJHYqcmIP9aS4RrlsEs-VeVoc?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": "Buka 24 jam ",
+      "category": "taman",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.2367086,
+      "longitude": 106.5718846,
+      "google_types": "Taman bermain",
+      "reviews": [
+        {
+          "author": "Sri Rahayu",
+          "rating": 5,
+          "text": "Bagus dan Nyaman",
+          "date": "5 tahun lalu"
+        },
+        {
+          "author": "Sri Rahayu",
+          "rating": 5,
+          "text": "Bagus dan Nyaman",
+          "date": "5 tahun lalu"
+        },
+        {
+          "author": "Samun Suprayitno",
+          "rating": 5,
+          "text": "Memudahkan utk cari Lokasi",
+          "date": "setahun lalu"
+        },
+        {
+          "author": "Samun Suprayitno",
+          "rating": 5,
+          "text": "Memudahkan utk cari Lokasi",
+          "date": "setahun lalu"
+        },
+        {
+          "author": "Janoko Aris",
+          "rating": 5,
+          "text": "Tempat bercanda tawa... . Malm libur kerja.. Monitor",
+          "date": "5 tahun lalu"
+        }
+      ],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJ04J_KAAHQi4Rg6tWRN5_1fU",
+      "name": "PJM",
+      "address": "PFJV+HX8, Jl. Bugel, Kadu Agung, Kec. Tigaraksa, Kabupaten Tangerang, Banten 15720",
+      "maps_url": "https://www.google.com/maps/place/PJM/data=!4m7!3m6!1s0x2e420700287f82d3:0xf5d57fde4456ab83!8m2!3d-6.2685821!4d106.4949561!16s%2Fg%2F11wvrrrr5m!19sChIJ04J_KAAHQi4Rg6tWRN5_1fU?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": null,
+      "category": "taman",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.2685821,
+      "longitude": 106.4949561,
+      "google_types": "Taman bermain",
+      "reviews": [],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJo8pX1an7aS4R7Yzv_lj_qAM",
+      "name": "Little Barn Adventure Park",
+      "address": "Mall ararasa BSD, Lantai 1, Lengkong Kulon, Kec. Pagedangan, Kabupaten Tangerang, Banten 15331",
+      "maps_url": "https://www.google.com/maps/place/Little+Barn+Adventure+Park/data=!4m7!3m6!1s0x2e69fba9d557caa3:0x3a8ff58feef8ced!8m2!3d-6.2825456!4d106.6374121!16s%2Fg%2F11ygg7x7c5!19sChIJo8pX1an7aS4R7Yzv_lj_qAM?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": "Buka · Tutup pukul 22.00 ",
+      "category": "taman",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.2825456,
+      "longitude": 106.6374121,
+      "google_types": "Taman bermain",
+      "reviews": [
+        {
+          "author": "BIMBEL ANAPAW Gading Serpong",
+          "rating": 5,
+          "text": "Playground yang berada di mall Ararasa, BSD. Seberang Qbig. Untuk ukuran Playground tidak terlalu besar, kita main di siang hari, pas kondisinya tidak terlalu panas. AC tidak panas namun juga tidak dingin. …",
+          "date": "Diedit 3 bulan lalu"
+        },
+        {
+          "author": "BIMBEL ANAPAW Gading Serpong",
+          "rating": 5,
+          "text": "Playground yang berada di mall Ararasa, BSD. Seberang Qbig. Untuk ukuran Playground tidak terlalu besar, kita main di siang hari, pas kondisinya tidak terlalu panas. AC tidak panas namun juga tidak dingin. …",
+          "date": "Diedit 3 bulan lalu"
+        },
+        {
+          "author": "Rikha Sya",
+          "rating": 5,
+          "text": "Tempatnya kecil tp bersih, dingin, terawat. Harganya murah. Kesini hari minggu tp ga begitu ramai jadi puas mainnya..",
+          "date": "3 bulan lalu"
+        },
+        {
+          "author": "Rikha Sya",
+          "rating": 5,
+          "text": "Tempatnya kecil tp bersih, dingin, terawat. Harganya murah. Kesini hari minggu tp ga begitu ramai jadi puas mainnya..",
+          "date": "3 bulan lalu"
+        },
+        {
+          "author": "Eka Dian Ayu",
+          "rating": 5,
+          "text": "tempatnya tidak terlalu besar, tapi bersih. harganya affordable, mainannya bagus untuk melatih sensori integrasi anak",
+          "date": "2 bulan lalu"
+        }
+      ],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJm-ES-OsHQi4RtifpTWgTsOI",
+      "name": "Eco Park Little Kyoto",
+      "address": "PGVG+2W7, Jl. Citra Raya Boulevard, Mekar Bakti, Kec. Panongan, Kabupaten Tangerang, Banten 15710",
+      "maps_url": "https://www.google.com/maps/place/Eco+Park+Little+Kyoto/data=!4m7!3m6!1s0x2e4207ebf812e19b:0xe2b013684de927b6!8m2!3d-6.2574506!4d106.5272915!16s%2Fg%2F11hzlsvnj3!19sChIJm-ES-OsHQi4RtifpTWgTsOI?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": "Tutup · Buka Rab pukul 08.00 ",
+      "category": "taman",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.2574506,
+      "longitude": 106.5272915,
+      "google_types": "Taman Kota",
+      "reviews": [
+        {
+          "author": "zidney haniefa",
+          "rating": 5,
+          "text": "Nyoba main ke little Kyoto di jumat sore sekitar jam 4. Parkiran motor nya lumayan luas, ada 2 sekuriti yg jaga di pintu gerbang, ada banyak tukang jualan juga, …",
+          "date": "setahun lalu"
+        },
+        {
+          "author": "zidney haniefa",
+          "rating": 5,
+          "text": "Nyoba main ke little Kyoto di jumat sore sekitar jam 4. Parkiran motor nya lumayan luas, ada 2 sekuriti yg jaga di pintu gerbang, ada banyak tukang jualan juga, …",
+          "date": "setahun lalu"
+        },
+        {
+          "author": "Laela Fitri Febia",
+          "rating": 5,
+          "text": "Baru sebulan tinggal di citra, bulan lalu liat dari pinggir jalan ini apa, ternyata semacam taman kota\nLuas bersih bagus, free entry jugaa …",
+          "date": "setahun lalu"
+        },
+        {
+          "author": "Laela Fitri Febia",
+          "rating": 5,
+          "text": "Baru sebulan tinggal di citra, bulan lalu liat dari pinggir jalan ini apa, ternyata semacam taman kota\nLuas bersih bagus, free entry jugaa …",
+          "date": "setahun lalu"
+        },
+        {
+          "author": "Putri Permata",
+          "rating": 5,
+          "text": "Akhirnya dibuka. Cocok buat track jalan atau jogging. Lengkap dengan fasilitas toilet, lapangan bola kecil, taman bermain anak, saung-saung kecil, parkir kendaraan, banyak pohon, dan dijaga security. Semoga terawat dengan baik.",
+          "date": "setahun lalu"
+        }
+      ],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJK0VCzyIHQi4R0M5Pw9Tz21U",
+      "name": "Rumah Barra",
+      "address": "Villa Verde Barat blok W 11/08, Kec. Cikupa, Kabupaten Tangerang, Banten 15710",
+      "maps_url": "https://www.google.com/maps/place/Rumah+Barra/data=!4m7!3m6!1s0x2e420722cf42452b:0x55dbf3d4c34fced0!8m2!3d-6.2385355!4d106.5169581!16s%2Fg%2F11t_k85fmv!19sChIJK0VCzyIHQi4R0M5Pw9Tz21U?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": null,
+      "category": "taman",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.2385355,
+      "longitude": 106.5169581,
+      "google_types": "Taman bermain",
+      "reviews": [],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJKVCQCgAHQi4RJA3jxpnLCoo",
+      "name": "FASUM RT 004 TAMAN PUSPA",
+      "address": "Jalan cello Raya No.11, Cikupa, Tangerang Regency, Banten 15710",
+      "maps_url": "https://www.google.com/maps/place/FASUM+RT+004+TAMAN+PUSPA/data=!4m7!3m6!1s0x2e4207000a905029:0x8a0acb99c6e30d24!8m2!3d-6.2346378!4d106.5196183!16s%2Fg%2F11xkdn37p9!19sChIJKVCQCgAHQi4RJA3jxpnLCoo?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": null,
+      "category": "taman",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.2346378,
+      "longitude": 106.5196183,
+      "google_types": "Taman bermain",
+      "reviews": [],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJMaxjQgD9aS4R37JsYkWaOn8",
+      "name": "titik wong tulus",
+      "address": "QH48+36F, Jl. Raya Curug Parigi, Sukabakti, Kec. Curug, Kabupaten Tangerang, Banten 15810",
+      "maps_url": "https://www.google.com/maps/place/titik+wong+tulus/data=!4m7!3m6!1s0x2e69fd004263ac31:0x7f3a9a45626cb2df!8m2!3d-6.2448125!4d106.5655344!16s%2Fg%2F11lmdp0jgy!19sChIJMaxjQgD9aS4R37JsYkWaOn8?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": null,
+      "category": "taman",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.2448125,
+      "longitude": 106.5655344,
+      "google_types": "Taman bermain",
+      "reviews": [
+        {
+          "author": "Andy Kusmanto",
+          "rating": 5,
+          "text": "Besar",
+          "date": "9 bulan lalu"
+        },
+        {
+          "author": "Andy Kusmanto",
+          "rating": 5,
+          "text": "Besar",
+          "date": "9 bulan lalu"
+        }
+      ],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJZ_v_KpUHQi4R6stPab-yf9k",
+      "name": "Kontrakan mas ganteng",
+      "address": "Jl. Gg. Masjid No.2, Cikupa, Kec. Cikupa, Kabupaten Tangerang, Banten 15710",
+      "maps_url": "https://www.google.com/maps/place/Kontrakan+mas+ganteng/data=!4m7!3m6!1s0x2e4207952afffb67:0xd97fb2bf694fcbea!8m2!3d-6.2407127!4d106.518579!16s%2Fg%2F11p012k08q!19sChIJZ_v_KpUHQi4R6stPab-yf9k?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": null,
+      "category": "taman",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.2407127,
+      "longitude": 106.518579,
+      "google_types": "Taman bermain",
+      "reviews": [],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJlQcnWAAHQi4RqrNnnD6aL3Y",
+      "name": "POS RENDI",
+      "address": "QF5V+426, Budi Mulya, Kec. Cikupa, Kabupaten Tangerang, Banten",
+      "maps_url": "https://www.google.com/maps/place/POS+RENDI/data=!4m7!3m6!1s0x2e42070058270795:0x762f9a3e9c67b3aa!8m2!3d-6.2422067!4d106.4925129!16s%2Fg%2F11x21ksq31!19sChIJlQcnWAAHQi4RqrNnnD6aL3Y?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": null,
+      "category": "taman",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.2422067,
+      "longitude": 106.4925129,
+      "google_types": "Taman bermain",
+      "reviews": [],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJ6ZtAupwBQi4RoG_cJ4drlo8",
+      "name": "Gudang Mainan",
+      "address": "Jl. Raya Kresek No.69, Balaraja, Kec. Balaraja, Kabupaten Tangerang, Banten 15610",
+      "maps_url": "https://www.google.com/maps/place/Gudang+Mainan/data=!4m7!3m6!1s0x2e42019cba409be9:0x8f966b8727dc6fa0!8m2!3d-6.1850179!4d106.454299!16s%2Fg%2F11fx7nfw2z!19sChIJ6ZtAupwBQi4RoG_cJ4drlo8?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": "Tutup · Buka Rab pukul 08.00 ",
+      "category": "taman",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.1850179,
+      "longitude": 106.454299,
+      "google_types": "Pusat Perbelanjaan",
+      "reviews": [
+        {
+          "author": "Farid Ardiansyah",
+          "rating": 5,
+          "text": "KALAU KE SINIH JNGN LUPA BELI MINUM NYA DI WARUNG TEH MAMAH😊😁 …",
+          "date": "3 bulan lalu"
+        },
+        {
+          "author": "Farid Ardiansyah",
+          "rating": 5,
+          "text": "KALAU KE SINIH JNGN LUPA BELI MINUM NYA DI WARUNG TEH MAMAH😊😁 …",
+          "date": "3 bulan lalu"
+        },
+        {
+          "author": "Dian Elvina Arisya",
+          "rating": 5,
+          "text": "Gudang Mainan letaknya di Jatibaru Balaraja, tempatnya sangat ramai setiap harinya.\nBerbagai macam mainan lengkap ada disana, gambar & poster-poster yang …",
+          "date": "5 tahun lalu"
+        },
+        {
+          "author": "Dian Elvina Arisya",
+          "rating": 5,
+          "text": "Gudang Mainan letaknya di Jatibaru Balaraja, tempatnya sangat ramai setiap harinya.\nBerbagai macam mainan lengkap ada disana, gambar & poster-poster yang …",
+          "date": "5 tahun lalu"
+        },
+        {
+          "author": "Mu'ziah Ziah",
+          "rating": 5,
+          "text": "Tempat beli mainan anak murah meriah yuhuuu, letaknya di dalem gang, tanya aja toko mainan (gudang mainan pak Manaf)",
+          "date": "4 tahun lalu"
+        }
+      ],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJwzigLwD9aS4Rn4L5-UdNeJU",
+      "name": "Motornya mogok",
+      "address": "Jl. Raya Curug No.25a, Sukabakti, Kec. Curug, Kabupaten Tangerang, Banten 15810",
+      "maps_url": "https://www.google.com/maps/place/Motornya+mogok/data=!4m7!3m6!1s0x2e69fd002fa038c3:0x95784d47f9f9829f!8m2!3d-6.2445359!4d106.5656206!16s%2Fg%2F11ys1l79sd!19sChIJwzigLwD9aS4Rn4L5-UdNeJU?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": null,
+      "category": "taman",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.2445359,
+      "longitude": 106.5656206,
+      "google_types": "Taman bermain",
+      "reviews": [
+        {
+          "author": "Ciririo Silaper",
+          "rating": 5,
+          "text": "Barusan nih motornya mogok, kagak jalannn",
+          "date": "3 bulan lalu"
+        },
+        {
+          "author": "Ciririo Silaper",
+          "rating": 5,
+          "text": "Barusan nih motornya mogok, kagak jalannn",
+          "date": "3 bulan lalu"
+        }
+      ],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJJQk1ZQABQi4RRYZ3OgqUn80",
+      "name": "pemancingan ciletik",
+      "address": "QFFV+3HH, Bojong, Kec. Cikupa, Kabupaten Tangerang, Banten 15710",
+      "maps_url": "https://www.google.com/maps/place/pemancingan+ciletik/data=!4m7!3m6!1s0x2e42010065350925:0xcd9f940a3a778645!8m2!3d-6.227312!4d106.4939691!16s%2Fg%2F11y545prsy!19sChIJJQk1ZQABQi4RRYZ3OgqUn80?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": null,
+      "category": "taman",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.227312,
+      "longitude": 106.4939691,
+      "google_types": "Taman bermain",
+      "reviews": [],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJo0tW_qUHQi4RkpEie4yZ31s",
+      "name": "Wahana bermain dan edukasi anak \"Nadya Toys\"",
+      "address": "Jl. Perumahan Sudirman Indah blok F 1, Tigaraksa, Kec. Tigaraksa, Kabupaten Tangerang, Banten 15720",
+      "maps_url": "https://www.google.com/maps/place/Wahana+bermain+dan+edukasi+anak+%22Nadya+Toys%22/data=!4m7!3m6!1s0x2e4207a5fe564ba3:0x5bdf998c7b229192!8m2!3d-6.2586725!4d106.4692751!16s%2Fg%2F11sy6tjhh2!19sChIJo0tW_qUHQi4RkpEie4yZ31s?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": "Buka · Tutup pukul 22.00 ",
+      "category": "taman",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.2586725,
+      "longitude": 106.4692751,
+      "google_types": "Wahana Taman Hiburan",
+      "reviews": [],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJga2JeQAHQi4RoJ14tJude8g",
+      "name": "Citraraya",
+      "address": "Citra raya, Jl. Water Point II No.18, Ciakar, Panongan, Tangerang Regency, Banten 15710",
+      "maps_url": "https://www.google.com/maps/place/Citraraya/data=!4m7!3m6!1s0x2e4207007989ad81:0xc87b9d9bb4789da0!8m2!3d-6.2470669!4d106.5295443!16s%2Fg%2F11xnnyvd4z!19sChIJga2JeQAHQi4RoJ14tJude8g?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": null,
+      "category": "taman",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.2470669,
+      "longitude": 106.5295443,
+      "google_types": "Taman bermain",
+      "reviews": [],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJo-PEZfcHQi4R3YnE_Z1eZo4",
+      "name": "Taman Bermain Citra Raya",
+      "address": "PGVG+4V2, Mekar Bakti, Kec. Panongan, Kabupaten Tangerang, Banten 15710",
+      "maps_url": "https://www.google.com/maps/place/Taman+Bermain+Citra+Raya/data=!4m7!3m6!1s0x2e4207f765c4e3a3:0x8e665e9dfdc489dd!8m2!3d-6.257244!4d106.527155!16s%2Fg%2F11gydk4xjz!19sChIJo-PEZfcHQi4R3YnE_Z1eZo4?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": null,
+      "category": "taman",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.257244,
+      "longitude": 106.527155,
+      "google_types": "Taman",
+      "reviews": [],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJPX-STTQBQi4RjTdyJ5oLWyE",
+      "name": "Playground and Gym Cluster Enchanta",
+      "address": "RG43+FCH, Cluster Enchanta - Lavon Swan City, Wanakerta, Sindang Jaya, Tangerang Regency, Banten 15560",
+      "maps_url": "https://www.google.com/maps/place/Playground+and+Gym+Cluster+Enchanta/data=!4m7!3m6!1s0x2e4201344d927f3d:0x215b0b9a2772378d!8m2!3d-6.1938162!4d106.503621!16s%2Fg%2F11j91_srvm!19sChIJPX-STTQBQi4RjTdyJ5oLWyE?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": "Buka 24 jam ",
+      "category": "taman",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.1938162,
+      "longitude": 106.503621,
+      "google_types": "Taman",
+      "reviews": [
+        {
+          "author": "Muhamad Sapei",
+          "rating": 5,
+          "text": "Cluster Echanta Hunian yang menawarkan kenyamanan untuk penghuninya\nHunian yang ramah lingkungan",
+          "date": "5 tahun lalu"
+        },
+        {
+          "author": "Muhamad Sapei",
+          "rating": 5,
+          "text": "Cluster Echanta Hunian yang menawarkan kenyamanan untuk penghuninya\nHunian yang ramah lingkungan",
+          "date": "5 tahun lalu"
+        },
+        {
+          "author": "Robby Effendy",
+          "rating": 5,
+          "text": "Hidup enak, investasi bagus..",
+          "date": "setahun lalu"
+        },
+        {
+          "author": "Robby Effendy",
+          "rating": 5,
+          "text": "Hidup enak, investasi bagus..",
+          "date": "setahun lalu"
+        }
+      ],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJwxm0dAD9aS4RngSknLevg18",
+      "name": "bangku bawah pohon mangga",
+      "address": "PGVR+QV8, Jl. Teras Citra, Cukanggalih, Kec. Curug, Kabupaten Tangerang, Banten 15810",
+      "maps_url": "https://www.google.com/maps/place/bangku+bawah+pohon+mangga/data=!4m7!3m6!1s0x2e69fd0074b419c3:0x5f83afb79ca4049e!8m2!3d-6.2555892!4d106.5422009!16s%2Fg%2F11xytjwm_4!19sChIJwxm0dAD9aS4RngSknLevg18?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": null,
+      "category": "taman",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.2555892,
+      "longitude": 106.5422009,
+      "google_types": "Taman bermain",
+      "reviews": [
+        {
+          "author": "arya wibowo",
+          "rating": 5,
+          "text": "gaskan sini maen",
+          "date": "4 bulan lalu"
+        },
+        {
+          "author": "arya wibowo",
+          "rating": 5,
+          "text": "gaskan sini maen",
+          "date": "4 bulan lalu"
+        },
+        {
+          "author": "Lilis Cocom",
+          "rating": 5,
+          "text": "Sama-sama 🙌 …",
+          "date": "6 bulan lalu"
+        },
+        {
+          "author": "Lilis Cocom",
+          "rating": 5,
+          "text": "Sama-sama 🙌 …",
+          "date": "6 bulan lalu"
+        }
+      ],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJqXLtdVEBQi4RSmIAMej9WLI",
+      "name": "Rental ps 3 cikupa",
+      "address": "Jl. Raya Otonom Cikupa No.32, Talagasari, Kec. Cikupa, Kabupaten Tangerang, Banten 15710",
+      "maps_url": "https://www.google.com/maps/place/Rental+ps+3+cikupa/data=!4m7!3m6!1s0x2e42015175ed72a9:0xb258fde83100624a!8m2!3d-6.227049!4d106.5195798!16s%2Fg%2F11tss3d20x!19sChIJqXLtdVEBQi4RSmIAMej9WLI?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": null,
+      "category": "taman",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.227049,
+      "longitude": 106.5195798,
+      "google_types": "Taman bermain",
+      "reviews": [
+        {
+          "author": "Ahmad Dandi Cahyono",
+          "rating": 5,
+          "text": "Info nomer wa pak , mau ngobrol sewa lahan depan kalau boleh buat usaha jualan es",
+          "date": "sebulan lalu"
+        },
+        {
+          "author": "Ahmad Dandi Cahyono",
+          "rating": 5,
+          "text": "Info nomer wa pak , mau ngobrol sewa lahan depan kalau boleh buat usaha jualan es",
+          "date": "sebulan lalu"
+        },
+        {
+          "author": "Yogi Suzuki",
+          "rating": 5,
+          "text": "Pelayanan yang baik",
+          "date": "9 bulan lalu"
+        },
+        {
+          "author": "Yogi Suzuki",
+          "rating": 5,
+          "text": "Pelayanan yang baik",
+          "date": "9 bulan lalu"
+        }
+      ],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJ7TZQ_UoBQi4RsVpf6lnaVQU",
+      "name": "Kontrakan rintik",
+      "address": "Jl. Raya Kresek No.69, Balaraja, Kec. Balaraja, Kabupaten Tangerang, Banten 15610",
+      "maps_url": "https://www.google.com/maps/place/Kontrakan+rintik/data=!4m7!3m6!1s0x2e42014afd5036ed:0x555da59ea5f5ab1!8m2!3d-6.1882044!4d106.4547579!16s%2Fg%2F11ptqphqgh!19sChIJ7TZQ_UoBQi4RsVpf6lnaVQU?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": null,
+      "category": "taman",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.1882044,
+      "longitude": 106.4547579,
+      "google_types": "Taman bermain",
+      "reviews": [],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJU5wyegABQi4RQ7n2J70nvxI",
+      "name": "Rumah Nenghayati",
+      "address": "QFFW+PWC, Bojong, Kec. Cikupa, Kabupaten Tangerang, Banten 15710",
+      "maps_url": "https://www.google.com/maps/place/Rumah+Nenghayati/data=!4m7!3m6!1s0x2e4201007a329c53:0x12bf27bd27f6b943!8m2!3d-6.2256758!4d106.4972568!16s%2Fg%2F11lnpl0td5!19sChIJU5wyegABQi4RQ7n2J70nvxI?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": null,
+      "category": "taman",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.2256758,
+      "longitude": 106.4972568,
+      "google_types": "Taman bermain",
+      "reviews": [],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJYxlJFAAHQi4RcZ401K-IST8",
+      "name": "studio musik 8",
+      "address": "Graha, Jl. Segovia Raya Jl. Segovia 8 No.27, Blok S8Ciakar, Kec. Panongan, Kabupaten Tangerang, Banten 15710",
+      "maps_url": "https://www.google.com/maps/place/studio+musik+8/data=!4m7!3m6!1s0x2e42070014491963:0x3f4988afd4349e71!8m2!3d-6.2622675!4d106.5273158!16s%2Fg%2F11lnzhd7xy!19sChIJYxlJFAAHQi4RcZ401K-IST8?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": null,
+      "category": "taman",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.2622675,
+      "longitude": 106.5273158,
+      "google_types": "Taman bermain",
+      "reviews": [],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJu806cQD9aS4RlxVOH5Edck4",
+      "name": "Keren Playground",
+      "address": "Binong, Kec. Curug, Kabupaten Tangerang, Banten 15810",
+      "maps_url": "https://www.google.com/maps/place/Keren+Playground/data=!4m7!3m6!1s0x2e69fd00713acdbb:0x4e721d911f4e1597!8m2!3d-6.2420511!4d106.5805633!16s%2Fg%2F11vr6q7569!19sChIJu806cQD9aS4RlxVOH5Edck4?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": "Segera tutup · 21.30 · Buka Rab pukul 09.00 ",
+      "category": "taman",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.2420511,
+      "longitude": 106.5805633,
+      "google_types": "Kelompok Bermain",
+      "reviews": [
+        {
+          "author": "A eLDe",
+          "rating": 5,
+          "text": "Playground indoor pertama di sekitar rumah.\nDari lokasi cukup strategis karena berada di dekat gerbang binong. Namun, memang kalau sengaja lewat mungkin tidak terlalu terlihat. Padahal lokasinya …",
+          "date": "setahun lalu"
+        },
+        {
+          "author": "A eLDe",
+          "rating": 5,
+          "text": "Playground indoor pertama di sekitar rumah.\nDari lokasi cukup strategis karena berada di dekat gerbang binong. Namun, memang kalau sengaja lewat mungkin tidak terlalu terlihat. Padahal lokasinya …",
+          "date": "setahun lalu"
+        },
+        {
+          "author": "Farida Chandrawati Syachnaz",
+          "rating": 5,
+          "text": "Super worth it harga 20rb & kumpulkan 10 stamp FREE main 1x 😍😍😍\n\nTempatnya ga pengap, bersih & adem ... ada mushola & kamar mandi juga 😍😍😍 …",
+          "date": "setahun lalu"
+        },
+        {
+          "author": "Farida Chandrawati Syachnaz",
+          "rating": 5,
+          "text": "Super worth it harga 20rb & kumpulkan 10 stamp FREE main 1x 😍😍😍\n\nTempatnya ga pengap, bersih & adem ... ada mushola & kamar mandi juga 😍😍😍 …",
+          "date": "setahun lalu"
+        },
+        {
+          "author": "Stephani Eka",
+          "rating": 5,
+          "text": "Indoor playground dekat komplek rumah, murah meriah 20K / anak. Anak happy",
+          "date": "setahun lalu"
+        }
+      ],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJ2wJjWMz9aS4R85UOjk2zdL4",
+      "name": "Lapak Merpati Kolong Colosseum",
+      "address": "QH78+5XW, Kadu, Kec. Curug, Kabupaten Tangerang, Banten 15810",
+      "maps_url": "https://www.google.com/maps/place/Lapak+Merpati+Kolong+Colosseum/data=!4m7!3m6!1s0x2e69fdcc586302db:0xbe74b34d8e0e95f3!8m2!3d-6.2370105!4d106.5674442!16s%2Fg%2F11pgwv6j_d!19sChIJ2wJjWMz9aS4R85UOjk2zdL4?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": "Tutup · Buka Rab pukul 07.00 ",
+      "category": "taman",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.2370105,
+      "longitude": 106.5674442,
+      "google_types": "Taman bermain",
+      "reviews": [],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJja7KUwAHQi4RXS0Wn2CqAUs",
+      "name": "Fasum Cluster Jade Bizhome RT 048",
+      "address": "Bizhome, Cluster Jade, Blok L No.05A/01, Sukamulya, Kec. Cikupa, Kabupaten Tangerang, Banten 15710",
+      "maps_url": "https://www.google.com/maps/place/Fasum+Cluster+Jade+Bizhome+RT+048/data=!4m7!3m6!1s0x2e42070053caae8d:0x4b01aa609f162d5d!8m2!3d-6.2435987!4d106.5039288!16s%2Fg%2F11wnmmbr6z!19sChIJja7KUwAHQi4RXS0Wn2CqAUs?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": null,
+      "category": "taman",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.2435987,
+      "longitude": 106.5039288,
+      "google_types": "Taman bermain",
+      "reviews": [],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJY5kAnQ4HQi4R4st6N2b7eNY",
+      "name": "Drof off",
+      "address": "PGXC+GWR, Mekar Bakti, Kec. Panongan, Kabupaten Tangerang, Banten 15710",
+      "maps_url": "https://www.google.com/maps/place/Drof+off/data=!4m7!3m6!1s0x2e42070e9d009963:0xd678fb66377acbe2!8m2!3d-6.251126!4d106.5222546!16s%2Fg%2F11ksbdlztp!19sChIJY5kAnQ4HQi4R4st6N2b7eNY?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": null,
+      "category": "taman",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.251126,
+      "longitude": 106.5222546,
+      "google_types": "Taman bermain",
+      "reviews": [],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJI-d2ruH9aS4RyQCtT-LTuc0",
+      "name": "Kandang reptil",
+      "address": "PGWQ+C55, Jl. Unggul Raya, Ciakar, Kec. Panongan, Kabupaten Tangerang, Banten",
+      "maps_url": "https://www.google.com/maps/place/Kandang+reptil/data=!4m7!3m6!1s0x2e69fde1ae76e723:0xcdb9d3e24fad00c9!8m2!3d-6.2539758!4d106.5379848!16s%2Fg%2F11vdb53f03!19sChIJI-d2ruH9aS4RyQCtT-LTuc0?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": null,
+      "category": "taman",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.2539758,
+      "longitude": 106.5379848,
+      "google_types": "Taman bermain",
+      "reviews": [],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJPbhgBQD9aS4Rk4GzwwOSWZo",
+      "name": "Empang Gacor",
+      "address": "QH62+M5M, Kp. Cisereh, RT.02/RW.06, Kadu Jaya, Kec. Curug, Kabupaten Tangerang, Banten",
+      "maps_url": "https://www.google.com/maps/place/Empang+Gacor/data=!4m7!3m6!1s0x2e69fd000560b83d:0x9a599203c3b38193!8m2!3d-6.2382907!4d106.5504373!16s%2Fg%2F11n3cz_1cq!19sChIJPbhgBQD9aS4Rk4GzwwOSWZo?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": null,
+      "category": "taman",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.2382907,
+      "longitude": 106.5504373,
+      "google_types": "Taman bermain",
+      "reviews": [],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJnwKVYgABQi4RmZi9RfjcXgU",
+      "name": "Mushola al faidah",
+      "address": "QGQF+VR6, Pasir Gadung, Kec. Cikupa, Kabupaten Tangerang, Banten",
+      "maps_url": "https://www.google.com/maps/place/Mushola+al+faidah/data=!4m7!3m6!1s0x2e4201006295029f:0x55edcf845bd9899!8m2!3d-6.2103325!4d106.5245271!16s%2Fg%2F11yrp_1gvp!19sChIJnwKVYgABQi4RmZi9RfjcXgU?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": null,
+      "category": "taman",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.2103325,
+      "longitude": 106.5245271,
+      "google_types": "Taman bermain",
+      "reviews": [],
+      "category_conflict": false
+    }
+  ]
+}

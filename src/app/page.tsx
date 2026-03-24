@@ -118,8 +118,8 @@ export default async function Home() {
             </h1>
 
             <p className="animate-fade-up mt-8 text-lg sm:text-xl text-neutral-500 max-w-xl leading-relaxed" style={{ animationDelay: '0.2s' }}>
-              Etalaso menyajikan profil bisnis lokal dalam halaman yang cantik
-              — lengkap dengan produk, review, dan tombol WhatsApp.
+              Dari warung makan sampai bengkel motor — setiap usaha berhak punya
+              halaman online yang profesional. Gratis.
             </p>
 
             <div className="animate-fade-up mt-10 flex flex-col sm:flex-row gap-4" style={{ animationDelay: '0.3s' }}>
@@ -284,6 +284,71 @@ export default async function Home() {
         </div>
       </section>
 
+      {/* Untuk Siapa */}
+      <section className="py-24 px-6 bg-white/60">
+        <div className="max-w-6xl mx-auto">
+          <div className="text-center mb-14">
+            <span className="text-xs font-semibold tracking-widest uppercase text-terracotta">Untuk Siapa Etalaso?</span>
+            <h2 className="font-[family-name:var(--font-display)] text-3xl sm:text-4xl text-charcoal mt-4">
+              Bisnis kecil pun bisa tampil <span className="text-amber">profesional</span>.
+            </h2>
+            <p className="mt-3 text-neutral-500 max-w-xl mx-auto">
+              Tidak perlu website mahal atau aplikasi rumit. Etalaso memberi setiap usaha halaman profil yang siap pakai.
+            </p>
+          </div>
+          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+            {[
+              {
+                icon: '🍗',
+                title: 'Warung Pecel Lele',
+                benefit: 'Pelanggan baru bisa pesan via WhatsApp sebelum datang.',
+                detail: 'Menu dan harga tampil online — tidak perlu spanduk besar.',
+              },
+              {
+                icon: '🔧',
+                title: 'Bengkel Motor',
+                benefit: 'Tidak perlu pasang spanduk mahal, cukup share link Etalaso.',
+                detail: 'Pelanggan langsung tahu lokasi, jam buka, dan layanan tersedia.',
+              },
+              {
+                icon: '💇',
+                title: 'Salon Rumahan',
+                benefit: 'Jadwal booking via WhatsApp, tanpa aplikasi tambahan.',
+                detail: 'Review pelanggan lain jadi bukti kualitas layanan Anda.',
+              },
+              {
+                icon: '🛒',
+                title: 'Toko Kelontong',
+                benefit: 'Pelanggan sekitar bisa cek stok dan harga dari rumah.',
+                detail: 'Jangkauan lebih luas dari mulut ke mulut.',
+              },
+              {
+                icon: '🧵',
+                title: 'Penjahit & Laundry',
+                benefit: 'Terima orderan lewat WhatsApp tanpa pelanggan harus datang.',
+                detail: 'Tampilkan daftar harga dan estimasi waktu di profil.',
+              },
+              {
+                icon: '🍰',
+                title: 'Usaha Kue & Catering',
+                benefit: 'Katalog menu online — pelanggan tinggal pilih dan pesan.',
+                detail: 'Foto produk dan testimoni langsung tampil di halaman.',
+              },
+            ].map((item) => (
+              <div
+                key={item.title}
+                className="group bg-white rounded-2xl border border-neutral-100 p-6 hover:border-amber/40 hover:shadow-lg hover:shadow-amber/5 transition-all"
+              >
+                <div className="text-3xl mb-4 group-hover:scale-110 transition-transform inline-block">{item.icon}</div>
+                <h3 className="font-semibold text-charcoal text-lg">{item.title}</h3>
+                <p className="mt-2 text-amber font-medium text-sm">{item.benefit}</p>
+                <p className="mt-1 text-neutral-500 text-sm">{item.detail}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
       {/* How it works */}
       <section id="cara-kerja" className="py-24 px-6 bg-charcoal text-white">
         <div className="max-w-6xl mx-auto">
@@ -323,16 +388,62 @@ export default async function Home() {
         </div>
       </section>
 
+      {/* Testimoni */}
+      <section className="py-24 px-6">
+        <div className="max-w-6xl mx-auto">
+          <div className="text-center mb-14">
+            <span className="text-xs font-semibold tracking-widest uppercase text-amber">Cerita Mereka</span>
+            <h2 className="font-[family-name:var(--font-display)] text-3xl sm:text-4xl text-charcoal mt-4">
+              Pemilik usaha yang sudah merasakan manfaatnya.
+            </h2>
+          </div>
+          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+            {[
+              {
+                quote: 'Sejak ada halaman di Etalaso, pesanan via WhatsApp naik. Padahal saya cuma jualan pecel lele.',
+                name: 'Pak Joko',
+                biz: 'Pecel Lele Mas Joko, Ciputat',
+                icon: '🍗',
+              },
+              {
+                quote: 'Dulu pelanggan cuma dari sekitar sini. Sekarang ada yang datang dari kecamatan sebelah gara-gara lihat profil Etalaso.',
+                name: 'Bu Ratna',
+                biz: 'Salon Ratna, Pamulang',
+                icon: '💇',
+              },
+              {
+                quote: 'Saya nggak ngerti bikin website. Tapi sekarang bengkel saya punya halaman online sendiri. Tinggal share link-nya.',
+                name: 'Mas Dedi',
+                biz: 'Bengkel Dedi Motor, Serpong',
+                icon: '🔧',
+              },
+            ].map((t) => (
+              <div
+                key={t.name}
+                className="bg-white rounded-2xl border border-neutral-100 p-6 hover:shadow-lg hover:shadow-amber/5 transition-all"
+              >
+                <div className="text-3xl mb-4">{t.icon}</div>
+                <p className="text-neutral-600 leading-relaxed italic">&ldquo;{t.quote}&rdquo;</p>
+                <div className="mt-4 pt-4 border-t border-neutral-100">
+                  <div className="font-semibold text-charcoal text-sm">{t.name}</div>
+                  <div className="text-xs text-neutral-400">{t.biz}</div>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
       {/* CTA */}
       <section id="daftar" className="py-28 px-6 relative overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-br from-amber/5 via-transparent to-terracotta/5" />
         <div className="max-w-2xl mx-auto text-center relative">
           <h2 className="font-[family-name:var(--font-display)] text-3xl sm:text-5xl text-charcoal leading-tight">
-            Punya bisnis lokal?
+            Punya warung, bengkel, atau toko?
           </h2>
           <p className="mt-6 text-neutral-500 text-lg leading-relaxed">
-            Klaim halaman bisnis Anda di Etalaso dan mulai terima pelanggan baru
-            langsung via WhatsApp. Gratis untuk memulai.
+            Halaman bisnis Anda sudah siap — tinggal klaim.
+            Mulai terima pelanggan baru langsung via WhatsApp. Gratis, tanpa ribet.
           </p>
           <div className="mt-10 flex flex-col sm:flex-row gap-4 justify-center">
             <Link

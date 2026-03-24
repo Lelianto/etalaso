@@ -7,10 +7,12 @@ import { motion } from 'framer-motion'
 import { MessageCircle, MapPin, Clock, Star, ArrowRight, Phone } from 'lucide-react'
 import { ThemeConfig } from '../DesignSystem'
 import { BusinessData, getOpeningHours, getWhatsAppLink, getMapsLink, getReviews } from '../types'
+import OrderableProductCard from '../../ordering/OrderableProductCard'
 
 interface LayoutProps {
   business: BusinessData
   theme: ThemeConfig
+  orderingActive?: boolean
 }
 
 /** Etalaso badge for unclaimed/free businesses — shown in header area */
@@ -95,7 +97,7 @@ const ReviewsSection: React.FC<{ business: BusinessData; theme: ThemeConfig; cla
 }
 
 /** 1. Standard Centralized Layout */
-export const StandardLayout: React.FC<LayoutProps> = ({ business, theme }) => {
+export const StandardLayout: React.FC<LayoutProps> = ({ business, theme, orderingActive = false }) => {
   const hours = getOpeningHours(business)
   const gallery = business.galleryImages || []
 
@@ -169,30 +171,31 @@ export const StandardLayout: React.FC<LayoutProps> = ({ business, theme }) => {
           <h2 className="text-3xl font-bold mb-12 text-center" style={{ fontFamily: theme.typography.fontDisplay }}>Produk & Layanan</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {business.products.map((p) => (
-              <div
-                key={p.id}
-                className="overflow-hidden"
-                style={{
-                  borderRadius: theme.styles.borderRadius,
-                  backgroundColor: theme.colors.surface,
-                  boxShadow: theme.styles.shadow,
-                  border: `${theme.styles.borderWidth} solid ${theme.colors.border}`,
-                }}
-              >
-                {p.imageUrl && (
-                  <Image src={p.imageUrl} alt={p.name} width={400} height={192} className="w-full h-48 object-cover" />
-                )}
-                <div className="p-6">
-                  <h3 className="font-bold text-xl mb-2">{p.name}</h3>
-                  <p className="text-sm opacity-70 mb-4 h-12 overflow-hidden">{p.description}</p>
-                  <div className="flex justify-between items-center">
-                    <span className="font-bold text-lg" style={{ color: theme.colors.accent }}>{p.price || 'Hubungi Kami'}</span>
-                    <a href={getWhatsAppLink(business)} className="text-sm font-semibold flex items-center gap-1 hover:underline">
-                      Pesan <ArrowRight size={14} />
-                    </a>
+              <OrderableProductCard key={p.id} product={p} theme={theme} orderingActive={orderingActive}>
+                <div
+                  className="overflow-hidden"
+                  style={{
+                    borderRadius: theme.styles.borderRadius,
+                    backgroundColor: theme.colors.surface,
+                    boxShadow: theme.styles.shadow,
+                    border: `${theme.styles.borderWidth} solid ${theme.colors.border}`,
+                  }}
+                >
+                  {p.imageUrl && (
+                    <Image src={p.imageUrl} alt={p.name} width={400} height={192} className="w-full h-48 object-cover" />
+                  )}
+                  <div className="p-6">
+                    <h3 className="font-bold text-xl mb-2">{p.name}</h3>
+                    <p className="text-sm opacity-70 mb-4 h-12 overflow-hidden">{p.description}</p>
+                    <div className="flex justify-between items-center">
+                      <span className="font-bold text-lg" style={{ color: theme.colors.accent }}>{p.price || 'Hubungi Kami'}</span>
+                      <a href={getWhatsAppLink(business)} className="text-sm font-semibold flex items-center gap-1 hover:underline">
+                        Pesan <ArrowRight size={14} />
+                      </a>
+                    </div>
                   </div>
                 </div>
-              </div>
+              </OrderableProductCard>
             ))}
           </div>
         </section>
@@ -245,7 +248,7 @@ export const StandardLayout: React.FC<LayoutProps> = ({ business, theme }) => {
 }
 
 /** 2. Modern Split Layout */
-export const SplitLayout: React.FC<LayoutProps> = ({ business, theme }) => {
+export const SplitLayout: React.FC<LayoutProps> = ({ business, theme, orderingActive = false }) => {
   const hours = getOpeningHours(business)
   const reviews = getReviews(business)
   const gallery = business.galleryImages || []
@@ -310,13 +313,15 @@ export const SplitLayout: React.FC<LayoutProps> = ({ business, theme }) => {
         <section className="py-20 px-12 max-w-7xl mx-auto w-full">
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
             {business.products.map(p => (
-              <div key={p.id} className="p-6 border-b md:border-b-0 md:border-r" style={{ borderColor: theme.colors.border }}>
-                <h4 className="font-bold text-lg mb-2">{p.name}</h4>
-                <p className="text-sm opacity-60 mb-4">{p.price || 'Pesan Sekarang'}</p>
-                <a href={getWhatsAppLink(business)} className="text-xs uppercase font-black tracking-widest flex items-center gap-2" style={{ color: theme.colors.accent }}>
-                  Order <ArrowRight size={14} />
-                </a>
-              </div>
+              <OrderableProductCard key={p.id} product={p} theme={theme} orderingActive={orderingActive}>
+                <div className="p-6 border-b md:border-b-0 md:border-r" style={{ borderColor: theme.colors.border }}>
+                  <h4 className="font-bold text-lg mb-2">{p.name}</h4>
+                  <p className="text-sm opacity-60 mb-4">{p.price || 'Pesan Sekarang'}</p>
+                  <a href={getWhatsAppLink(business)} className="text-xs uppercase font-black tracking-widest flex items-center gap-2" style={{ color: theme.colors.accent }}>
+                    Order <ArrowRight size={14} />
+                  </a>
+                </div>
+              </OrderableProductCard>
             ))}
           </div>
         </section>
@@ -362,7 +367,7 @@ export const SplitLayout: React.FC<LayoutProps> = ({ business, theme }) => {
 }
 
 /** 3. App-Style Layout */
-export const AppLayout: React.FC<LayoutProps> = ({ business, theme }) => {
+export const AppLayout: React.FC<LayoutProps> = ({ business, theme, orderingActive = false }) => {
   const reviews = getReviews(business)
   const gallery = business.galleryImages || []
 
@@ -424,14 +429,16 @@ export const AppLayout: React.FC<LayoutProps> = ({ business, theme }) => {
           <div className="space-y-4">
             <h3 className="font-bold text-lg">Menu & Produk</h3>
             {business.products.map(p => (
-              <div key={p.id} className="flex items-center gap-4 p-4 rounded-2xl border" style={{ borderColor: theme.colors.border, backgroundColor: theme.colors.surface }}>
-                {p.imageUrl && <Image src={p.imageUrl} alt={p.name} width={64} height={64} className="w-16 h-16 rounded-xl object-cover" />}
-                <div className="flex-grow">
-                  <h4 className="font-bold text-sm">{p.name}</h4>
-                  <p className="text-xs opacity-60">{p.price}</p>
+              <OrderableProductCard key={p.id} product={p} theme={theme} orderingActive={orderingActive}>
+                <div className="flex items-center gap-4 p-4 rounded-2xl border" style={{ borderColor: theme.colors.border, backgroundColor: theme.colors.surface }}>
+                  {p.imageUrl && <Image src={p.imageUrl} alt={p.name} width={64} height={64} className="w-16 h-16 rounded-xl object-cover" />}
+                  <div className="flex-grow">
+                    <h4 className="font-bold text-sm">{p.name}</h4>
+                    <p className="text-xs opacity-60">{p.price}</p>
+                  </div>
+                  <a href={getWhatsAppLink(business)} className="p-2 rounded-lg" style={{ backgroundColor: theme.colors.background }}><ArrowRight size={16} /></a>
                 </div>
-                <a href={getWhatsAppLink(business)} className="p-2 rounded-lg" style={{ backgroundColor: theme.colors.background }}><ArrowRight size={16} /></a>
-              </div>
+              </OrderableProductCard>
             ))}
           </div>
         )}
@@ -476,7 +483,7 @@ export const AppLayout: React.FC<LayoutProps> = ({ business, theme }) => {
 }
 
 /** 4. Gallery Layout */
-export const GalleryLayout: React.FC<LayoutProps> = ({ business, theme }) => {
+export const GalleryLayout: React.FC<LayoutProps> = ({ business, theme, orderingActive = false }) => {
   const reviews = getReviews(business)
   const gallery = business.galleryImages || []
 
@@ -514,17 +521,19 @@ export const GalleryLayout: React.FC<LayoutProps> = ({ business, theme }) => {
         {business.products.length > 0 && (
           <div className="grid grid-cols-2 md:grid-cols-4 gap-2 max-w-6xl mx-auto" style={{ minHeight: business.products.some(p => p.imageUrl) ? '400px' : 'auto' }}>
             {business.products.slice(0, 4).map((p, i) => (
-              <div key={p.id} className={`relative overflow-hidden group rounded-lg ${i === 0 ? 'md:col-span-2 md:row-span-2' : ''}`} style={{ backgroundColor: theme.colors.surface, minHeight: '120px' }}>
-                {p.imageUrl ? (
-                  <Image src={p.imageUrl} alt={p.name} fill className="object-cover transition-transform group-hover:scale-110" />
-                ) : (
-                  <div className="w-full h-full flex items-center justify-center opacity-40 text-sm">{p.name}</div>
-                )}
-                <div className="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity flex flex-col justify-end p-6 text-left">
-                  <h4 className="text-white font-bold">{p.name}</h4>
-                  <p className="text-white text-xs">{p.price}</p>
+              <OrderableProductCard key={p.id} product={p} theme={theme} orderingActive={orderingActive}>
+                <div className={`relative overflow-hidden group rounded-lg ${i === 0 ? 'md:col-span-2 md:row-span-2' : ''}`} style={{ backgroundColor: theme.colors.surface, minHeight: '120px' }}>
+                  {p.imageUrl ? (
+                    <Image src={p.imageUrl} alt={p.name} fill className="object-cover transition-transform group-hover:scale-110" />
+                  ) : (
+                    <div className="w-full h-full flex items-center justify-center opacity-40 text-sm">{p.name}</div>
+                  )}
+                  <div className="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity flex flex-col justify-end p-6 text-left">
+                    <h4 className="text-white font-bold">{p.name}</h4>
+                    <p className="text-white text-xs">{p.price}</p>
+                  </div>
                 </div>
-              </div>
+              </OrderableProductCard>
             ))}
           </div>
         )}
@@ -564,7 +573,7 @@ export const GalleryLayout: React.FC<LayoutProps> = ({ business, theme }) => {
 }
 
 /** 5. Floating Cards Layout */
-export const CardsLayout: React.FC<LayoutProps> = ({ business, theme }) => {
+export const CardsLayout: React.FC<LayoutProps> = ({ business, theme, orderingActive = false }) => {
   const reviews = getReviews(business)
   const gallery = business.galleryImages || []
 
@@ -630,10 +639,12 @@ export const CardsLayout: React.FC<LayoutProps> = ({ business, theme }) => {
           <div className="space-y-4">
             <h3 className="font-bold text-lg">Produk & Layanan</h3>
             {business.products.map(p => (
-              <div key={p.id} className="p-5 rounded-[1.5rem] flex items-center justify-between" style={{ backgroundColor: theme.colors.surface, border: `1px solid ${theme.colors.border}`, boxShadow: theme.styles.shadow }}>
-                <h4 className="font-bold text-sm">{p.name}</h4>
-                <span className="px-3 py-1 rounded-full text-[10px] font-black" style={{ backgroundColor: theme.colors.accent + '15', color: theme.colors.accent }}>{p.price || '-'}</span>
-              </div>
+              <OrderableProductCard key={p.id} product={p} theme={theme} orderingActive={orderingActive}>
+                <div className="p-5 rounded-[1.5rem] flex items-center justify-between" style={{ backgroundColor: theme.colors.surface, border: `1px solid ${theme.colors.border}`, boxShadow: theme.styles.shadow }}>
+                  <h4 className="font-bold text-sm">{p.name}</h4>
+                  <span className="px-3 py-1 rounded-full text-[10px] font-black" style={{ backgroundColor: theme.colors.accent + '15', color: theme.colors.accent }}>{p.price || '-'}</span>
+                </div>
+              </OrderableProductCard>
             ))}
           </div>
         )}
@@ -669,7 +680,7 @@ export const CardsLayout: React.FC<LayoutProps> = ({ business, theme }) => {
 }
 
 /** 6. Magazine / Editorial Layout */
-export const MagazineLayout: React.FC<LayoutProps> = ({ business, theme }) => {
+export const MagazineLayout: React.FC<LayoutProps> = ({ business, theme, orderingActive = false }) => {
   const hours = getOpeningHours(business)
   const reviews = getReviews(business)
   const gallery = business.galleryImages || []
@@ -740,20 +751,22 @@ export const MagazineLayout: React.FC<LayoutProps> = ({ business, theme }) => {
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-x-12 gap-y-8">
             {business.products.map(p => (
-              <div key={p.id} className="flex gap-5">
-                {p.imageUrl && (
-                  <div className="relative w-24 h-24 rounded-lg overflow-hidden flex-shrink-0">
-                    <Image src={p.imageUrl} alt={p.name} fill className="object-cover" />
+              <OrderableProductCard key={p.id} product={p} theme={theme} orderingActive={orderingActive}>
+                <div className="flex gap-5">
+                  {p.imageUrl && (
+                    <div className="relative w-24 h-24 rounded-lg overflow-hidden flex-shrink-0">
+                      <Image src={p.imageUrl} alt={p.name} fill className="object-cover" />
+                    </div>
+                  )}
+                  <div className="flex-grow">
+                    <div className="flex justify-between items-start mb-1">
+                      <h4 className="font-bold text-lg">{p.name}</h4>
+                      <span className="font-bold" style={{ color: theme.colors.accent }}>{p.price || '-'}</span>
+                    </div>
+                    <p className="text-sm opacity-60">{p.description}</p>
                   </div>
-                )}
-                <div className="flex-grow">
-                  <div className="flex justify-between items-start mb-1">
-                    <h4 className="font-bold text-lg">{p.name}</h4>
-                    <span className="font-bold" style={{ color: theme.colors.accent }}>{p.price || '-'}</span>
-                  </div>
-                  <p className="text-sm opacity-60">{p.description}</p>
                 </div>
-              </div>
+              </OrderableProductCard>
             ))}
           </div>
         </section>
@@ -783,7 +796,7 @@ export const MagazineLayout: React.FC<LayoutProps> = ({ business, theme }) => {
 }
 
 /** 7. Sidebar Layout */
-export const SidebarLayout: React.FC<LayoutProps> = ({ business, theme }) => {
+export const SidebarLayout: React.FC<LayoutProps> = ({ business, theme, orderingActive = false }) => {
   const hours = getOpeningHours(business)
   const reviews = getReviews(business)
   const gallery = business.galleryImages || []
@@ -860,20 +873,22 @@ export const SidebarLayout: React.FC<LayoutProps> = ({ business, theme }) => {
             <h2 className="text-2xl font-bold mb-6" style={{ fontFamily: theme.typography.fontDisplay }}>Produk & Layanan</h2>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
               {business.products.map(p => (
-                <div key={p.id} className="rounded-xl overflow-hidden border" style={{ borderColor: theme.colors.border, backgroundColor: theme.colors.surface }}>
-                  {p.imageUrl && (
-                    <div className="relative h-36">
-                      <Image src={p.imageUrl} alt={p.name} fill className="object-cover" />
+                <OrderableProductCard key={p.id} product={p} theme={theme} orderingActive={orderingActive}>
+                  <div className="rounded-xl overflow-hidden border" style={{ borderColor: theme.colors.border, backgroundColor: theme.colors.surface }}>
+                    {p.imageUrl && (
+                      <div className="relative h-36">
+                        <Image src={p.imageUrl} alt={p.name} fill className="object-cover" />
+                      </div>
+                    )}
+                    <div className="p-4">
+                      <div className="flex justify-between items-center">
+                        <h4 className="font-bold">{p.name}</h4>
+                        <span className="text-sm font-bold" style={{ color: theme.colors.accent }}>{p.price || '-'}</span>
+                      </div>
+                      {p.description && <p className="text-xs opacity-60 mt-1">{p.description}</p>}
                     </div>
-                  )}
-                  <div className="p-4">
-                    <div className="flex justify-between items-center">
-                      <h4 className="font-bold">{p.name}</h4>
-                      <span className="text-sm font-bold" style={{ color: theme.colors.accent }}>{p.price || '-'}</span>
-                    </div>
-                    {p.description && <p className="text-xs opacity-60 mt-1">{p.description}</p>}
                   </div>
-                </div>
+                </OrderableProductCard>
               ))}
             </div>
           </section>
@@ -905,7 +920,7 @@ export const SidebarLayout: React.FC<LayoutProps> = ({ business, theme }) => {
 }
 
 /** 8. Stack / Full-Section Layout */
-export const StackLayout: React.FC<LayoutProps> = ({ business, theme }) => {
+export const StackLayout: React.FC<LayoutProps> = ({ business, theme, orderingActive = false }) => {
   const hours = getOpeningHours(business)
   const reviews = getReviews(business)
   const gallery = business.galleryImages || []
@@ -987,18 +1002,20 @@ export const StackLayout: React.FC<LayoutProps> = ({ business, theme }) => {
             <h2 className="text-4xl font-bold text-center mb-16" style={{ fontFamily: theme.typography.fontDisplay }}>Produk & Layanan</h2>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
               {business.products.map(p => (
-                <div key={p.id} className="group overflow-hidden" style={{ borderRadius: theme.styles.borderRadius, border: `1px solid ${theme.colors.border}`, backgroundColor: theme.colors.surface }}>
-                  {p.imageUrl && (
-                    <div className="relative h-48 overflow-hidden">
-                      <Image src={p.imageUrl} alt={p.name} fill className="object-cover group-hover:scale-105 transition-transform duration-500" />
+                <OrderableProductCard key={p.id} product={p} theme={theme} orderingActive={orderingActive}>
+                  <div className="group overflow-hidden" style={{ borderRadius: theme.styles.borderRadius, border: `1px solid ${theme.colors.border}`, backgroundColor: theme.colors.surface }}>
+                    {p.imageUrl && (
+                      <div className="relative h-48 overflow-hidden">
+                        <Image src={p.imageUrl} alt={p.name} fill className="object-cover group-hover:scale-105 transition-transform duration-500" />
+                      </div>
+                    )}
+                    <div className="p-6">
+                      <h4 className="font-bold text-lg mb-1">{p.name}</h4>
+                      <p className="text-sm opacity-60 mb-3">{p.description}</p>
+                      <span className="font-bold" style={{ color: theme.colors.accent }}>{p.price || 'Hubungi Kami'}</span>
                     </div>
-                  )}
-                  <div className="p-6">
-                    <h4 className="font-bold text-lg mb-1">{p.name}</h4>
-                    <p className="text-sm opacity-60 mb-3">{p.description}</p>
-                    <span className="font-bold" style={{ color: theme.colors.accent }}>{p.price || 'Hubungi Kami'}</span>
                   </div>
-                </div>
+                </OrderableProductCard>
               ))}
             </div>
           </div>
@@ -1028,7 +1045,7 @@ export const StackLayout: React.FC<LayoutProps> = ({ business, theme }) => {
 }
 
 /** 9. Compact Layout — dense, mobile-optimized */
-export const CompactLayout: React.FC<LayoutProps> = ({ business, theme }) => {
+export const CompactLayout: React.FC<LayoutProps> = ({ business, theme, orderingActive = false }) => {
   const hours = getOpeningHours(business)
   const reviews = getReviews(business)
   const gallery = business.galleryImages || []
@@ -1096,18 +1113,20 @@ export const CompactLayout: React.FC<LayoutProps> = ({ business, theme }) => {
             <h3 className="font-bold text-sm mb-3 uppercase tracking-wide opacity-50">Menu & Produk</h3>
             <div className="divide-y" style={{ borderColor: theme.colors.border }}>
               {business.products.map(p => (
-                <div key={p.id} className="flex items-center gap-3 py-3" style={{ borderColor: theme.colors.border }}>
-                  {p.imageUrl && (
-                    <div className="relative w-14 h-14 rounded-lg overflow-hidden flex-shrink-0">
-                      <Image src={p.imageUrl} alt={p.name} fill className="object-cover" />
+                <OrderableProductCard key={p.id} product={p} theme={theme} orderingActive={orderingActive}>
+                  <div className="flex items-center gap-3 py-3" style={{ borderColor: theme.colors.border }}>
+                    {p.imageUrl && (
+                      <div className="relative w-14 h-14 rounded-lg overflow-hidden flex-shrink-0">
+                        <Image src={p.imageUrl} alt={p.name} fill className="object-cover" />
+                      </div>
+                    )}
+                    <div className="flex-grow min-w-0">
+                      <h4 className="font-bold text-sm truncate">{p.name}</h4>
+                      {p.description && <p className="text-xs opacity-50 truncate">{p.description}</p>}
                     </div>
-                  )}
-                  <div className="flex-grow min-w-0">
-                    <h4 className="font-bold text-sm truncate">{p.name}</h4>
-                    {p.description && <p className="text-xs opacity-50 truncate">{p.description}</p>}
+                    <span className="text-sm font-bold flex-shrink-0" style={{ color: theme.colors.accent }}>{p.price}</span>
                   </div>
-                  <span className="text-sm font-bold flex-shrink-0" style={{ color: theme.colors.accent }}>{p.price}</span>
-                </div>
+                </OrderableProductCard>
               ))}
             </div>
           </div>
@@ -1155,7 +1174,7 @@ export const CompactLayout: React.FC<LayoutProps> = ({ business, theme }) => {
 }
 
 /** 10. Showcase Layout — product spotlight */
-export const ShowcaseLayout: React.FC<LayoutProps> = ({ business, theme }) => {
+export const ShowcaseLayout: React.FC<LayoutProps> = ({ business, theme, orderingActive = false }) => {
   const hours = getOpeningHours(business)
   const reviews = getReviews(business)
   const gallery = business.galleryImages || []
@@ -1226,27 +1245,29 @@ export const ShowcaseLayout: React.FC<LayoutProps> = ({ business, theme }) => {
             <h2 className="text-3xl font-bold mb-10" style={{ fontFamily: theme.typography.fontDisplay }}>Produk Unggulan</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
               {business.products.map(p => (
-                <div key={p.id} className="group rounded-2xl overflow-hidden" style={{ backgroundColor: theme.colors.surface, border: `1px solid ${theme.colors.border}` }}>
-                  {p.imageUrl ? (
-                    <div className="relative h-56 overflow-hidden">
-                      <Image src={p.imageUrl} alt={p.name} fill className="object-cover group-hover:scale-110 transition-transform duration-700" />
-                      <div className="absolute top-4 right-4 px-3 py-1.5 rounded-full text-xs font-bold backdrop-blur-md" style={{ backgroundColor: 'rgba(0,0,0,0.5)', color: '#fff' }}>
-                        {p.price || 'Hubungi'}
+                <OrderableProductCard key={p.id} product={p} theme={theme} orderingActive={orderingActive}>
+                  <div className="group rounded-2xl overflow-hidden" style={{ backgroundColor: theme.colors.surface, border: `1px solid ${theme.colors.border}` }}>
+                    {p.imageUrl ? (
+                      <div className="relative h-56 overflow-hidden">
+                        <Image src={p.imageUrl} alt={p.name} fill className="object-cover group-hover:scale-110 transition-transform duration-700" />
+                        <div className="absolute top-4 right-4 px-3 py-1.5 rounded-full text-xs font-bold backdrop-blur-md" style={{ backgroundColor: 'rgba(0,0,0,0.5)', color: '#fff' }}>
+                          {p.price || 'Hubungi'}
+                        </div>
                       </div>
+                    ) : (
+                      <div className="h-32 flex items-center justify-center" style={{ backgroundColor: theme.colors.border + '40' }}>
+                        <span className="text-sm opacity-40">{p.name}</span>
+                      </div>
+                    )}
+                    <div className="p-5">
+                      <h4 className="font-bold text-lg mb-1">{p.name}</h4>
+                      <p className="text-sm opacity-60 mb-4">{p.description}</p>
+                      <a href={getWhatsAppLink(business)} className="inline-flex items-center gap-1 text-sm font-bold" style={{ color: theme.colors.accent }}>
+                        Pesan <ArrowRight size={14} />
+                      </a>
                     </div>
-                  ) : (
-                    <div className="h-32 flex items-center justify-center" style={{ backgroundColor: theme.colors.border + '40' }}>
-                      <span className="text-sm opacity-40">{p.name}</span>
-                    </div>
-                  )}
-                  <div className="p-5">
-                    <h4 className="font-bold text-lg mb-1">{p.name}</h4>
-                    <p className="text-sm opacity-60 mb-4">{p.description}</p>
-                    <a href={getWhatsAppLink(business)} className="inline-flex items-center gap-1 text-sm font-bold" style={{ color: theme.colors.accent }}>
-                      Pesan <ArrowRight size={14} />
-                    </a>
                   </div>
-                </div>
+                </OrderableProductCard>
               ))}
             </div>
           </section>

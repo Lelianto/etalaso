@@ -2,8 +2,9 @@
 
 import Link from 'next/link'
 import { usePathname } from 'next/navigation'
+import { useMemo } from 'react'
 
-const NAV_ITEMS = [
+const BASE_NAV_ITEMS = [
   { href: '/dashboard', label: 'Profil Bisnis', icon: '🏪' },
   { href: '/dashboard/products', label: 'Produk', icon: '📦' },
   { href: '/dashboard/template', label: 'Template', icon: '🎨' },
@@ -11,13 +12,25 @@ const NAV_ITEMS = [
   { href: '/dashboard/payments', label: 'Pembayaran', icon: '💳' },
 ]
 
-// eslint-disable-next-line @typescript-eslint/no-unused-vars
-export default function DashboardNav(_props: { businessId: string; planId: string }) {
+export default function DashboardNav({ planId }: { businessId: string; planId: string }) {
   const pathname = usePathname()
+
+  const navItems = useMemo(() => {
+    const items = [...BASE_NAV_ITEMS]
+    // UMKM + Business: QR Meja
+    if (planId === 'umkm' || planId === 'business') {
+      items.splice(3, 0, { href: '/dashboard/qr-code', label: 'QR Meja', icon: '📱' })
+    }
+    // Business only: Info Pembayaran
+    if (planId === 'business') {
+      items.splice(4, 0, { href: '/dashboard/payment-config', label: 'Info Pembayaran', icon: '🏦' })
+    }
+    return items
+  }, [planId])
 
   return (
     <nav className="flex gap-1 overflow-x-auto pb-4 mb-2 scrollbar-none">
-      {NAV_ITEMS.map((item) => {
+      {navItems.map((item) => {
         const isActive = pathname === item.href
         return (
           <Link

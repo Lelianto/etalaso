@@ -36,6 +36,23 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
       })
     }
 
+    // Add category per city pages
+    const cityCategories = new Set<string>()
+    for (const biz of businesses) {
+      if (biz.kecamatan && biz.category) {
+        const key = `${toSlug(biz.kecamatan)}/${toSlug(biz.category)}`
+        cityCategories.add(key)
+      }
+    }
+    for (const key of cityCategories) {
+      entries.push({
+        url: `${BASE_URL}/p/${key}`,
+        lastModified: new Date(),
+        changeFrequency: 'weekly',
+        priority: 0.8,
+      })
+    }
+
     // Add individual business pages
     for (const biz of businesses) {
       const city = toSlug(biz.kecamatan || 'indonesia')
