@@ -1,11 +1,11 @@
 {
   "_meta": {
-    "scraped_at": "2026-03-24T07:54:29.318Z",
-    "total_places": 840,
+    "scraped_at": "2026-03-24T08:00:23.082Z",
+    "total_places": 869,
     "by_category": {
       "kuliner": 376,
       "jasa": 351,
-      "otomotif": 113
+      "otomotif": 142
     },
     "potential_duplicates": []
   },
@@ -29500,6 +29500,996 @@
           "rating": 5,
           "text": "Tempat service mantap rekomend👍👍 …",
           "date": "setahun lalu"
+        }
+      ],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJg5fXZwABQi4RQq83fTPJKMw",
+      "name": "Bengkel Mobil",
+      "address": "RF25+9JM, Talagasari, Kec. Balaraja, Kabupaten Tangerang, Banten 15610",
+      "maps_url": "https://www.google.com/maps/place/Bengkel+Mobil/data=!4m7!3m6!1s0x2e42010067d79783:0xcc28c9337d37af42!8m2!3d-6.1990973!4d106.4590865!16s%2Fg%2F11wfl3jr_b!19sChIJg5fXZwABQi4RQq83fTPJKMw?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": "Buka · Tutup Rab pukul 06.00 ",
+      "category": "otomotif",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.1990973,
+      "longitude": 106.4590865,
+      "google_types": "Bengkel Mobil",
+      "reviews": [],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJOQDtMYsBQi4RKiE41-6c1KA",
+      "name": "Bengkel mobil Munir Nagreg K.U.D",
+      "address": "Jl. KUD Nagreg, Sentul, Kec. Balaraja, Kabupaten Tangerang, Banten 15610",
+      "maps_url": "https://www.google.com/maps/place/Bengkel+mobil+Munir+Nagreg+K.U.D/data=!4m7!3m6!1s0x2e42018b31ed0039:0xa0d49ceed738212a!8m2!3d-6.2094423!4d106.449921!16s%2Fg%2F11rqscbxcl!19sChIJOQDtMYsBQi4RKiE41-6c1KA?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": "Buka · Tutup pukul 21.00 ",
+      "category": "otomotif",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.2094423,
+      "longitude": 106.449921,
+      "google_types": "Bengkel Mobil",
+      "reviews": [
+        {
+          "author": "Lutfi",
+          "rating": 5,
+          "text": "Montirnya ramah, handal. Balik kesini lagi sih klo \"amit amit ada apa apa\" lagi. …",
+          "date": "2 bulan lalu"
+        },
+        {
+          "author": "Lutfi",
+          "rating": 5,
+          "text": "Montirnya ramah, handal. Balik kesini lagi sih klo \"amit amit ada apa apa\" lagi. …",
+          "date": "2 bulan lalu"
+        },
+        {
+          "author": "redo ayi",
+          "rating": 5,
+          "text": "Bengkel yang terpercaya, pengerjaan rapih dan terbuka. Alhamdulillah mobil belum pernah di pegang orang lain selain om munir",
+          "date": "setahun lalu"
+        },
+        {
+          "author": "redo ayi",
+          "rating": 5,
+          "text": "Bengkel yang terpercaya, pengerjaan rapih dan terbuka. Alhamdulillah mobil belum pernah di pegang orang lain selain om munir",
+          "date": "setahun lalu"
+        },
+        {
+          "author": "Asep Indra Andriyana",
+          "rating": 5,
+          "text": "Bengkelnya ok . Pengerjaannya rapih. Memuaskan . Harga terjangkau. Bisa di panggil juga",
+          "date": "4 tahun lalu"
+        }
+      ],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJFYVIwSIBQi4RmnsN6uM8_0Q",
+      "name": "BENGKEL MOBIL TUNGGAL JAYA",
+      "address": "Jl.baru pasar sentiong tobal kecamatan sukamulya, Kec. Balaraja, Kabupaten Tangerang, Banten 15612",
+      "maps_url": "https://www.google.com/maps/place/BENGKEL+MOBIL+TUNGGAL+JAYA/data=!4m7!3m6!1s0x2e420122c1488515:0x44ff3ce3ea0d7b9a!8m2!3d-6.1809981!4d106.4481356!16s%2Fg%2F11wtm5h59j!19sChIJFYVIwSIBQi4RmnsN6uM8_0Q?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": "Buka · Tutup pukul 19.00 ",
+      "category": "otomotif",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.1809981,
+      "longitude": 106.4481356,
+      "google_types": "Bengkel Mobil",
+      "reviews": [
+        {
+          "author": "azzam agiel91",
+          "rating": 5,
+          "text": "Montir nya om gendut yg sangat profesional & ramah.⭐⭐⭐⭐⭐",
+          "date": "4 bulan lalu"
+        },
+        {
+          "author": "azzam agiel91",
+          "rating": 5,
+          "text": "Montir nya om gendut yg sangat profesional & ramah.⭐⭐⭐⭐⭐",
+          "date": "4 bulan lalu"
+        },
+        {
+          "author": "Adi Di",
+          "rating": 5,
+          "text": "Jika",
+          "date": "10 bulan lalu"
+        },
+        {
+          "author": "Adi Di",
+          "rating": 5,
+          "text": "Jika",
+          "date": "10 bulan lalu"
+        }
+      ],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJVx8YOwABQi4RaaHS2YSJvRw",
+      "name": "BENGKEL MOBIL DAN AC MOBIL",
+      "address": "RF74+39P, Jl. Raya Kresek, Balaraja, Kec. Balaraja, Kabupaten Tangerang, Banten 15610",
+      "maps_url": "https://www.google.com/maps/place/BENGKEL+MOBIL+DAN+AC+MOBIL/data=!4m7!3m6!1s0x2e4201003b181f57:0x1cbd8984d9d2a169!8m2!3d-6.1873051!4d106.4560014!16s%2Fg%2F11vzfnfvs3!19sChIJVx8YOwABQi4RaaHS2YSJvRw?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": null,
+      "category": "otomotif",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.1873051,
+      "longitude": 106.4560014,
+      "google_types": "Bengkel Mobil",
+      "reviews": [],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJV-v_dQABQi4RocL6c2tI3qg",
+      "name": "Bengkel mobil rian REZEKI SUBUR",
+      "address": "QCVR+784, Kp.tobat, Sentul Jaya, Kec. Balaraja, Kabupaten Tangerang, Banten 15610",
+      "maps_url": "https://www.google.com/maps/place/Bengkel+mobil+rian+REZEKI+SUBUR/data=!4m7!3m6!1s0x2e42010075ffeb57:0xa8de486b73fac2a1!8m2!3d-6.2068661!4d106.4408405!16s%2Fg%2F11ycjp9z1s!19sChIJV-v_dQABQi4RocL6c2tI3qg?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": "Buka 24 jam ",
+      "category": "otomotif",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.2068661,
+      "longitude": 106.4408405,
+      "google_types": "Bengkel Mobil",
+      "reviews": [
+        {
+          "author": "Dian Dian",
+          "rating": 5,
+          "text": "Pokoknya the best lh",
+          "date": "sebulan lalu"
+        },
+        {
+          "author": "Dian Dian",
+          "rating": 5,
+          "text": "Pokoknya the best lh",
+          "date": "sebulan lalu"
+        }
+      ],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJCa2qsMwBQi4R_y1JJ5whO3I",
+      "name": "Bengkel Mobil Kaya Bersama",
+      "address": "QFW2+87C, Sentul Jaya, Kec. Balaraja, Kabupaten Tangerang, Banten 15610",
+      "maps_url": "https://www.google.com/maps/place/Bengkel+Mobil+Kaya+Bersama/data=!4m7!3m6!1s0x2e4201ccb0aaad09:0x723b219c27492dff!8m2!3d-6.2041905!4d106.4506407!16s%2Fg%2F11lm914vz1!19sChIJCa2qsMwBQi4R_y1JJ5whO3I?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": "Buka · Tutup Rab pukul 05.00 ",
+      "category": "otomotif",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.2041905,
+      "longitude": 106.4506407,
+      "google_types": "Bengkel Mobil",
+      "reviews": [],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJwTbVBZ0BQi4R1w6T9td-yls",
+      "name": "Tunas Variasi Mobil",
+      "address": "RF74+G2J, Jl. Raya Kresek, Saga, Kec. Balaraja, Kabupaten Tangerang, Banten 15610",
+      "maps_url": "https://www.google.com/maps/place/Tunas+Variasi+Mobil/data=!4m7!3m6!1s0x2e42019d05d536c1:0x5bca7ed7f6930ed7!8m2!3d-6.1861551!4d106.4550153!16s%2Fg%2F11b6dn_7_6!19sChIJwTbVBZ0BQi4R1w6T9td-yls?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": "Buka · Tutup pukul 18.00 ",
+      "category": "otomotif",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.1861551,
+      "longitude": 106.4550153,
+      "google_types": "Toko Suku Cadang Mobil",
+      "reviews": [
+        {
+          "author": "Hasbiun Nurdiansyah",
+          "rating": 5,
+          "text": "Tunas Variasi Balaraja, selain bisa bikin mobil kamu cakep dengan Variasi nya bisa juga bikin Mesin mobil kamu lebih maksimal dengan ganti oli shell helix yang asli tersedia di Tunas Variasi Balaraja ... hayo gassken gengs",
+          "date": "4 bulan lalu"
+        },
+        {
+          "author": "Hasbiun Nurdiansyah",
+          "rating": 5,
+          "text": "Tunas Variasi Balaraja, selain bisa bikin mobil kamu cakep dengan Variasi nya bisa juga bikin Mesin mobil kamu lebih maksimal dengan ganti oli shell helix yang asli tersedia di Tunas Variasi Balaraja ... hayo gassken gengs",
+          "date": "4 bulan lalu"
+        },
+        {
+          "author": "Agus Hendarsyah",
+          "rating": 5,
+          "text": "Toko variasi terlengkap di Balaraja,tapi stock body list Rush lama tidak tersedia tuh",
+          "date": "sebulan lalu"
+        },
+        {
+          "author": "Agus Hendarsyah",
+          "rating": 5,
+          "text": "Toko variasi terlengkap di Balaraja,tapi stock body list Rush lama tidak tersedia tuh",
+          "date": "sebulan lalu"
+        },
+        {
+          "author": "andy setyawan",
+          "rating": 5,
+          "text": "Banyak pilihan variasi mobil,  harga bersahabat, pengerjaan cepat dan rapih. #recommended",
+          "date": "Diedit 4 tahun lalu"
+        }
+      ],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJNWpxb-8BQi4RNEQ8Jz3P5dk",
+      "name": "Bengkel mobil",
+      "address": "Kp.Ilat No.RT 02/04, Balaraja, Kec. Balaraja, Kabupaten Tangerang, Banten 15610",
+      "maps_url": "https://www.google.com/maps/place/Bengkel+mobil/data=!4m7!3m6!1s0x2e4201ef6f716a35:0xd9e5cf3d273c4434!8m2!3d-6.1881893!4d106.4589931!16s%2Fg%2F11ypr5z_fr!19sChIJNWpxb-8BQi4RNEQ8Jz3P5dk?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": null,
+      "category": "otomotif",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.1881893,
+      "longitude": 106.4589931,
+      "google_types": "Bengkel Mobil",
+      "reviews": [],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJZ4-iNwABQi4RdE8QohK52fk",
+      "name": "Bengkel mobil arjo",
+      "address": "RF72+P6G, Jl. KH. Junawi, Tobat, Kec. Balaraja, Kabupaten Tangerang, Banten 15610",
+      "maps_url": "https://www.google.com/maps/place/Bengkel+mobil+arjo/data=!4m7!3m6!1s0x2e42010037a28f67:0xf9d9b912a2104f74!8m2!3d-6.1856875!4d106.450575!16s%2Fg%2F11mcxjtw_4!19sChIJZ4-iNwABQi4RdE8QohK52fk?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": "Buka 24 jam ",
+      "category": "otomotif",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.1856875,
+      "longitude": 106.450575,
+      "google_types": "Bengkel Mobil",
+      "reviews": [
+        {
+          "author": "Euis Ismawati",
+          "rating": 5,
+          "text": "Pelayanannya memuaskan. Top dah🤩\nThanks …",
+          "date": "10 bulan lalu"
+        },
+        {
+          "author": "Euis Ismawati",
+          "rating": 5,
+          "text": "Pelayanannya memuaskan. Top dah🤩\nThanks …",
+          "date": "10 bulan lalu"
+        }
+      ],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJSXpVZdQBQi4RF9F5tOzmMNU",
+      "name": "Bengkel Auris 21",
+      "address": "Perum Jl. Perumahan Griya Sutera Balaraja No.21, Talagasari, Kec. Balaraja, Kabupaten Tangerang, Banten 15610",
+      "maps_url": "https://www.google.com/maps/place/Bengkel+Auris+21/data=!4m7!3m6!1s0x2e4201d465557a49:0xd530e6ecb479d117!8m2!3d-6.1816536!4d106.465661!16s%2Fg%2F11yn9yvtvp!19sChIJSXpVZdQBQi4RF9F5tOzmMNU?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": "Buka 24 jam ",
+      "category": "otomotif",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.1816536,
+      "longitude": 106.465661,
+      "google_types": "Bengkel Mobil",
+      "reviews": [
+        {
+          "author": "Dani Chiko",
+          "rating": 5,
+          "text": "Respon cepat",
+          "date": "4 bulan lalu"
+        },
+        {
+          "author": "Dani Chiko",
+          "rating": 5,
+          "text": "Respon cepat",
+          "date": "4 bulan lalu"
+        }
+      ],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJq48qjiEBQi4RQ7xcWirQOFA",
+      "name": "Vkei bengkel mobil & variasi mobil",
+      "address": "Jl. Raya Serang No.Km. 24, Balaraja, Kec. Balaraja, Kabupaten Tangerang, Banten 15610",
+      "maps_url": "https://www.google.com/maps/place/Vkei+bengkel+mobil+%26+variasi+mobil/data=!4m7!3m6!1s0x2e4201218e2a8fab:0x5038d02a5a5cbc43!8m2!3d-6.1975184!4d106.4573165!16s%2Fg%2F11sw2cglg8!19sChIJq48qjiEBQi4RQ7xcWirQOFA?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": "Buka · Tutup pukul 19.00 ",
+      "category": "otomotif",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.1975184,
+      "longitude": 106.4573165,
+      "google_types": "Toko Suku Cadang Mobil",
+      "reviews": [
+        {
+          "author": "Gie Luckyardi",
+          "rating": 5,
+          "text": "Harga nya ramah di kantong banget ini mah plus masih bisa di nego pemasangan nya juga rapih",
+          "date": "4 bulan lalu"
+        },
+        {
+          "author": "Gie Luckyardi",
+          "rating": 5,
+          "text": "Harga nya ramah di kantong banget ini mah plus masih bisa di nego pemasangan nya juga rapih",
+          "date": "4 bulan lalu"
+        },
+        {
+          "author": "fatur rohman",
+          "rating": 5,
+          "text": "Untuk pemasangan tv mobil dan speaker berapa disini?",
+          "date": "8 bulan lalu"
+        },
+        {
+          "author": "fatur rohman",
+          "rating": 5,
+          "text": "Untuk pemasangan tv mobil dan speaker berapa disini?",
+          "date": "8 bulan lalu"
+        },
+        {
+          "author": "Heri Priyanto",
+          "rating": 5,
+          "text": "Bagus",
+          "date": "9 bulan lalu"
+        }
+      ],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJpSBCawABQi4RyammqNIlvTA",
+      "name": "Bengkel Jaya Teknik. Truk & bus dll",
+      "address": "Gerbang Tol Balaraja Tim., Kawidaran Akses, Cibadak, Kec. Cikupa, Kabupaten Tangerang, Banten 15710",
+      "maps_url": "https://www.google.com/maps/place/Bengkel+Jaya+Teknik.+Truk+%26+bus+dll/data=!4m7!3m6!1s0x2e4201006b4220a5:0x30bd25d2a8a6a9c9!8m2!3d-6.2022257!4d106.4798201!16s%2Fg%2F11xt76vq3y!19sChIJpSBCawABQi4RyammqNIlvTA?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": "Buka 24 jam ",
+      "category": "otomotif",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.2022257,
+      "longitude": 106.4798201,
+      "google_types": "Bengkel Mobil",
+      "reviews": [
+        {
+          "author": "ADITIA ADITIA",
+          "rating": 5,
+          "text": "pelayanan bagus. mau kapan pun di samperin 25jam poke jos sukses selalu",
+          "date": "6 bulan lalu"
+        },
+        {
+          "author": "ADITIA ADITIA",
+          "rating": 5,
+          "text": "pelayanan bagus. mau kapan pun di samperin 25jam poke jos sukses selalu",
+          "date": "6 bulan lalu"
+        },
+        {
+          "author": "Papuy Papuy123",
+          "rating": 5,
+          "text": "efisien cepat dan tepat. sudah langganan klu ke bengkel sini",
+          "date": "2 bulan lalu"
+        },
+        {
+          "author": "Papuy Papuy123",
+          "rating": 5,
+          "text": "efisien cepat dan tepat. sudah langganan klu ke bengkel sini",
+          "date": "2 bulan lalu"
+        },
+        {
+          "author": "Sutte Sut",
+          "rating": 5,
+          "text": "Rekomen untuk yg mau stooring terutama tol tangerang merak .spesialis truk & bus pengerjaan cepat mekanik handal semua joss tetimakasih mamas jenong.",
+          "date": "seminggu lalu"
+        }
+      ],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJG6PPZJ0BQi4RUXkc1I13WlY",
+      "name": "Bengkel Mobil Asyifa Sport",
+      "address": "Kp Jaha No.rt01, Sentul Jaya, Kec. Balaraja, Kabupaten Tangerang, Banten 15610",
+      "maps_url": "https://www.google.com/maps/place/Bengkel+Mobil+Asyifa+Sport/data=!4m7!3m6!1s0x2e42019d64cfa31b:0x565a778dd41c7951!8m2!3d-6.2040514!4d106.4513161!16s%2Fg%2F11vbhb5psk!19sChIJG6PPZJ0BQi4RUXkc1I13WlY?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": "Buka 24 jam ",
+      "category": "otomotif",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.2040514,
+      "longitude": 106.4513161,
+      "google_types": "Bengkel Mobil",
+      "reviews": [],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJ-dnkgW4DQi4Rwm6rknGbrtg",
+      "name": "Bengkel Mobil Munir",
+      "address": "QCJH+VMW, Unnamed Road, Cangkudu, Kec. Balaraja, Kabupaten Tangerang, Banten 15610",
+      "maps_url": "https://www.google.com/maps/place/Bengkel+Mobil+Munir/data=!4m7!3m6!1s0x2e42036e81e4d9f9:0xd8ae9b7192ab6ec2!8m2!3d-6.2177636!4d106.4291991!16s%2Fg%2F11hz0s5dpp!19sChIJ-dnkgW4DQi4Rwm6rknGbrtg?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": "Buka · Tutup pukul 17.00 ",
+      "category": "otomotif",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.2177636,
+      "longitude": 106.4291991,
+      "google_types": "Bengkel Mobil",
+      "reviews": [
+        {
+          "author": "Journey Dhevan",
+          "rating": 5,
+          "text": "Bengkel rumahan yg kerja nya rapih",
+          "date": "6 tahun lalu"
+        },
+        {
+          "author": "Journey Dhevan",
+          "rating": 5,
+          "text": "Bengkel rumahan yg kerja nya rapih",
+          "date": "6 tahun lalu"
+        }
+      ],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJ67ycrHEBQi4RpjxTzxadu00",
+      "name": "Sumber Tekhnik Bengkel",
+      "address": "JL Raya Serang No.Km. 25, RT.004/RW.02, Balaraja, Kec. Balaraja, Kabupaten Tangerang, Banten 15610",
+      "maps_url": "https://www.google.com/maps/place/Sumber+Tekhnik+Bengkel/data=!4m7!3m6!1s0x2e420171ac9cbceb:0x4dbb9d16cf533ca6!8m2!3d-6.196304!4d106.4554531!16s%2Fg%2F11bc7pmyvc!19sChIJ67ycrHEBQi4RpjxTzxadu00?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": null,
+      "category": "otomotif",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.196304,
+      "longitude": 106.4554531,
+      "google_types": "Bengkel Mobil",
+      "reviews": [
+        {
+          "author": "winata surya",
+          "rating": 5,
+          "text": "Oke, pelayanannya baik.",
+          "date": "2 tahun lalu"
+        },
+        {
+          "author": "winata surya",
+          "rating": 5,
+          "text": "Oke, pelayanannya baik.",
+          "date": "2 tahun lalu"
+        },
+        {
+          "author": "Senopati Seno",
+          "rating": 5,
+          "text": "Siiip",
+          "date": "3 tahun lalu"
+        },
+        {
+          "author": "Senopati Seno",
+          "rating": 5,
+          "text": "Siiip",
+          "date": "3 tahun lalu"
+        }
+      ],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJmYGYOwABQi4RNyBpP_5pHD0",
+      "name": "Bengkel mobil arsy",
+      "address": "RFF2+GHQ, Jl. Irigasi Saga, Saga, Kec. Balaraja, Kabupaten Tangerang, Banten 15610",
+      "maps_url": "https://www.google.com/maps/place/Bengkel+mobil+arsy/data=!4m7!3m6!1s0x2e4201003b988199:0x3d1c69fe3f692037!8m2!3d-6.1761603!4d106.4514968!16s%2Fg%2F11ygv2kxkn!19sChIJmYGYOwABQi4RNyBpP_5pHD0?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": "Buka 24 jam ",
+      "category": "otomotif",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.1761603,
+      "longitude": 106.4514968,
+      "google_types": "Bengkel Mobil",
+      "reviews": [
+        {
+          "author": "AC PETARUNG BEBAS",
+          "rating": 5,
+          "text": "Harga nya terjangkau pengerjaan nya cepet\nRekomen deh",
+          "date": "6 bulan lalu"
+        },
+        {
+          "author": "AC PETARUNG BEBAS",
+          "rating": 5,
+          "text": "Harga nya terjangkau pengerjaan nya cepet\nRekomen deh",
+          "date": "6 bulan lalu"
+        }
+      ],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJQ890g10BQi4R8xAHf37SwP8",
+      "name": "Beken Auto Variasi & Cutting Sticker",
+      "address": "Jl. Raya Serang No.km26, Sentul, Kec. Balaraja, Kabupaten Tangerang, Banten 15610",
+      "maps_url": "https://www.google.com/maps/place/Beken+Auto+Variasi+%26+Cutting+Sticker/data=!4m7!3m6!1s0x2e42015d8374cf43:0xffc0d27e7f0710f3!8m2!3d-6.209293!4d106.4488903!16s%2Fg%2F11bztdpm30!19sChIJQ890g10BQi4R8xAHf37SwP8?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": "Buka · Tutup pukul 18.55 ",
+      "category": "otomotif",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.209293,
+      "longitude": 106.4488903,
+      "google_types": "Toko Audio Mobil",
+      "reviews": [
+        {
+          "author": "versi kita TV",
+          "rating": 5,
+          "text": "Variasi dengan kwalitas bintang 5 harga kaki 5",
+          "date": "8 tahun lalu"
+        },
+        {
+          "author": "versi kita TV",
+          "rating": 5,
+          "text": "Variasi dengan kwalitas bintang 5 harga kaki 5",
+          "date": "8 tahun lalu"
+        },
+        {
+          "author": "Heri capung Beken Variasi",
+          "rating": 5,
+          "text": "Solusi untuk menjadikan mobil anda lebih afdol",
+          "date": "4 tahun lalu"
+        },
+        {
+          "author": "Heri capung Beken Variasi",
+          "rating": 5,
+          "text": "Solusi untuk menjadikan mobil anda lebih afdol",
+          "date": "4 tahun lalu"
+        },
+        {
+          "author": "Hendra Ayang",
+          "rating": 5,
+          "text": "Pasang/ngustom audio dan cutting stiker di mari tempatnya",
+          "date": "8 tahun lalu"
+        }
+      ],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJXbw45TIDQi4R2QoFCO3BILM",
+      "name": "Rj service Bengkel umum truk,bus,citycar,&alat berat",
+      "address": "Gerbang Tol Balaraja Tim., Gerbang tol baltim, lama, Kabupaten Tangerang, Banten 15710",
+      "maps_url": "https://www.google.com/maps/place/Rj+service+Bengkel+umum+truk,bus,citycar,%26alat+berat/data=!4m7!3m6!1s0x2e420332e538bc5d:0xb320c1ed08050ad9!8m2!3d-6.2021985!4d106.4863182!16s%2Fg%2F11nxr67p3l!19sChIJXbw45TIDQi4R2QoFCO3BILM?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": "Buka · Tutup pukul 17.30 ",
+      "category": "otomotif",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.2021985,
+      "longitude": 106.4863182,
+      "google_types": "Bengkel Mobil",
+      "reviews": [
+        {
+          "author": "Mochammad Zulfikar",
+          "rating": 5,
+          "text": "Rekomen untuk perbaikan mobil truk spesialis truk & bus mekanik team nya joss bisa stooring 24 jam kerusakan tol tangerang merak",
+          "date": "2 tahun lalu"
+        },
+        {
+          "author": "Mochammad Zulfikar",
+          "rating": 5,
+          "text": "Rekomen untuk perbaikan mobil truk spesialis truk & bus mekanik team nya joss bisa stooring 24 jam kerusakan tol tangerang merak",
+          "date": "2 tahun lalu"
+        },
+        {
+          "author": "agung widjaya chanel",
+          "rating": 5,
+          "text": "Bengkelnya bnr\" super joozzzz pelayanan jg joozzz...klu ada krusakaan mrnding k bengkrl ini..",
+          "date": "3 tahun lalu"
+        },
+        {
+          "author": "agung widjaya chanel",
+          "rating": 5,
+          "text": "Bengkelnya bnr\" super joozzzz pelayanan jg joozzz...klu ada krusakaan mrnding k bengkrl ini..",
+          "date": "3 tahun lalu"
+        },
+        {
+          "author": "Ercin Tan Cin",
+          "rating": 5,
+          "text": "Pengerjaannya rapi dan montirnta bagus",
+          "date": "setahun lalu"
+        }
+      ],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJ0bgAYN8DQi4RUvox1KvVec4",
+      "name": "GABE JAYA MOTOR",
+      "address": "QCVR+V68, Jl. Raya Tobat, Tobat, Kec. Balaraja, Kabupaten Tangerang, Banten 15610",
+      "maps_url": "https://www.google.com/maps/place/GABE+JAYA+MOTOR/data=!4m7!3m6!1s0x2e4203df6000b8d1:0xce79d5abd431fa52!8m2!3d-6.2053339!4d106.4405684!16s%2Fg%2F11vhqf01sf!19sChIJ0bgAYN8DQi4RUvox1KvVec4?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": null,
+      "category": "otomotif",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.2053339,
+      "longitude": 106.4405684,
+      "google_types": "Bengkel Mobil",
+      "reviews": [
+        {
+          "author": "Pernando Siregar17",
+          "rating": 5,
+          "text": "Saya sangat suka",
+          "date": "setahun lalu"
+        },
+        {
+          "author": "Pernando Siregar17",
+          "rating": 5,
+          "text": "Saya sangat suka",
+          "date": "setahun lalu"
+        }
+      ],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJmSDoyQIBQi4RfA6hYDvAiDc",
+      "name": "CA'ENG MOTOR",
+      "address": "Jl Irigasi desa tobat, kp hauan Tegal, RT.03/RW.05, Tobat, Kec. Balaraja, Kabupaten Tangerang, Banten 15610",
+      "maps_url": "https://www.google.com/maps/place/CA%27ENG+MOTOR/data=!4m7!3m6!1s0x2e420102c9e82099:0x3788c03b60a10e7c!8m2!3d-6.1994752!4d106.4470394!16s%2Fg%2F11hz_x279m!19sChIJmSDoyQIBQi4RfA6hYDvAiDc?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": "Buka · Tutup pukul 17.00 ",
+      "category": "otomotif",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.1994752,
+      "longitude": 106.4470394,
+      "google_types": "Bengkel Mobil",
+      "reviews": [],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJM0oJkV0BQi4RT6AvtK18_bI",
+      "name": "Bengkel Per Mobil MUTU UTAMA PER",
+      "address": "Jl. Raya Serang No.km.26, Sentul, Kec. Balaraja, Kabupaten Tangerang, Banten 15610",
+      "maps_url": "https://www.google.com/maps/place/Bengkel+Per+Mobil+MUTU+UTAMA+PER/data=!4m7!3m6!1s0x2e42015d91094a33:0xb2fd7cadb42fa04f!8m2!3d-6.2097921!4d106.448424!16s%2Fg%2F11hctl3kw9!19sChIJM0oJkV0BQi4RT6AvtK18_bI?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": "Buka · Tutup pukul 17.00 ",
+      "category": "otomotif",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.2097921,
+      "longitude": 106.448424,
+      "google_types": "Bengkel Per Mobil",
+      "reviews": [
+        {
+          "author": "Gugun Hdm",
+          "rating": 5,
+          "text": "Mantap pelayanan baik pengerjaan cepat",
+          "date": "setahun lalu"
+        },
+        {
+          "author": "Gugun Hdm",
+          "rating": 5,
+          "text": "Mantap pelayanan baik pengerjaan cepat",
+          "date": "setahun lalu"
+        },
+        {
+          "author": "erick 'choeryll'",
+          "rating": 5,
+          "text": "Pelayanan nya profesional dan memuaskan..",
+          "date": "Diedit 7 tahun lalu"
+        },
+        {
+          "author": "erick 'choeryll'",
+          "rating": 5,
+          "text": "Pelayanan nya profesional dan memuaskan..",
+          "date": "Diedit 7 tahun lalu"
+        },
+        {
+          "author": "Iin Sumarni",
+          "rating": 5,
+          "text": "Pelayanan ramah",
+          "date": "setahun lalu"
+        }
+      ],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJseZT12UBQi4RGHW5vpTsL_8",
+      "name": "Duta Sarana Motor",
+      "address": "Jl. Raya Serang No.Km. 24, Sentul, Kec. Balaraja, Kabupaten Tangerang, Banten 15610",
+      "maps_url": "https://www.google.com/maps/place/Duta+Sarana+Motor/data=!4m7!3m6!1s0x2e420165d753e6b1:0xff2fec94beb97518!8m2!3d-6.2029453!4d106.4535964!16s%2Fg%2F1hm1zkyt6!19sChIJseZT12UBQi4RGHW5vpTsL_8?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": null,
+      "category": "otomotif",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.2029453,
+      "longitude": 106.4535964,
+      "google_types": "Bengkel Mobil",
+      "reviews": [
+        {
+          "author": "Theodorus Mirko",
+          "rating": 5,
+          "text": "pelayanan oke banget ramah",
+          "date": "2 tahun lalu"
+        },
+        {
+          "author": "Theodorus Mirko",
+          "rating": 5,
+          "text": "pelayanan oke banget ramah",
+          "date": "2 tahun lalu"
+        },
+        {
+          "author": "Budi Gihay",
+          "rating": 5,
+          "text": "Pelayanan ok dan harga bersahabat joss",
+          "date": "5 tahun lalu"
+        },
+        {
+          "author": "Budi Gihay",
+          "rating": 5,
+          "text": "Pelayanan ok dan harga bersahabat joss",
+          "date": "5 tahun lalu"
+        },
+        {
+          "author": "Zhafira Ainun",
+          "rating": 5,
+          "text": "Harga bersahabat 👍🏻 …",
+          "date": "2 tahun lalu"
+        }
+      ],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJjRQjHVQBQi4RY6FEQdtG0Go",
+      "name": "Untung Bengkel Mobil",
+      "address": "Gg. Rajawali 7 Jl. Perum Villa Balaraja blok L17, Saga, Balaraja, Tangerang Regency, Banten 15610",
+      "maps_url": "https://www.google.com/maps/place/Untung+Bengkel+Mobil/data=!4m7!3m6!1s0x2e4201541d23148d:0x6ad046db4144a163!8m2!3d-6.168268!4d106.4510795!16s%2Fg%2F11h7m57_fk!19sChIJjRQjHVQBQi4RY6FEQdtG0Go?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": "Buka · Tutup pukul 17.00 ",
+      "category": "otomotif",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.168268,
+      "longitude": 106.4510795,
+      "google_types": "Bengkel Mobil",
+      "reviews": [],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJ-5hzJgwBQi4RhFmKaWnrXLQ",
+      "name": "Toko Kaca Mobil Sumber Rejeki Glass",
+      "address": "Jalan Raya Serang Km 22.5 No. 7s, Kawidaran, Cikupa, Talagasari, Balaraja, Talagasari, Kec. Balaraja, Kab. Tangerang, Banten 15610",
+      "maps_url": "https://www.google.com/maps/place/Toko+Kaca+Mobil+Sumber+Rejeki+Glass/data=!4m7!3m6!1s0x2e42010c267398fb:0xb45ceb69698a5984!8m2!3d-6.1940154!4d106.4691199!16s%2Fg%2F11cnc8gpk0!19sChIJ-5hzJgwBQi4RhFmKaWnrXLQ?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": "Buka · Tutup pukul 16.00 ",
+      "category": "otomotif",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.1940154,
+      "longitude": 106.4691199,
+      "google_types": "Toko Kaca Mobil",
+      "reviews": [
+        {
+          "author": "Jasmidi Ermanto",
+          "rating": 5,
+          "text": "Sangat memuaskan, produk ok...\nPemasangan sangat profesional sekali....\nPelayan jg sngt bagus....\nMudh awet aamiin",
+          "date": "5 bulan lalu"
+        },
+        {
+          "author": "Jasmidi Ermanto",
+          "rating": 5,
+          "text": "Sangat memuaskan, produk ok...\nPemasangan sangat profesional sekali....\nPelayan jg sngt bagus....\nMudh awet aamiin",
+          "date": "5 bulan lalu"
+        },
+        {
+          "author": "mn cendrawasih",
+          "rating": 5,
+          "text": "Kalau boleh berucap sumpah ini toko kaca mobil ter amanah, ter rapih, dan tercepat proses pengerjaanya. Semua orang mulai dari pemilik dan pekerja nya jujur dan ramah. Pekerjaanya pun sangat amat rapihh dan terutama murah banget. Sehat selalu pemilik toko dan para pekerja nya aamiin yra 🤲 …",
+          "date": "9 bulan lalu"
+        },
+        {
+          "author": "mn cendrawasih",
+          "rating": 5,
+          "text": "Kalau boleh berucap sumpah ini toko kaca mobil ter amanah, ter rapih, dan tercepat proses pengerjaanya. Semua orang mulai dari pemilik dan pekerja nya jujur dan ramah. Pekerjaanya pun sangat amat rapihh dan terutama murah banget. Sehat selalu pemilik toko dan para pekerja nya aamiin yra 🤲 …",
+          "date": "9 bulan lalu"
+        },
+        {
+          "author": "Sandy Alfriyan Zhuhri",
+          "rating": 5,
+          "text": "Pengerjaan cepat, ramah, barang murah, rokemended",
+          "date": "setahun lalu"
+        }
+      ],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJhQ9lvg_5QS4RiviHKpDtJLg",
+      "name": "SALON Motor/mobil autodetailing",
+      "address": "Jl. Permata Balaraja, Saga, Kec. Balaraja, Kabupaten Tangerang, Banten 15610",
+      "maps_url": "https://www.google.com/maps/place/SALON+Motor%2Fmobil+autodetailing/data=!4m7!3m6!1s0x2e41f90fbe650f85:0xb824ed902a87f88a!8m2!3d-6.1804915!4d106.4634765!16s%2Fg%2F11fmwpls3f!19sChIJhQ9lvg_5QS4RiviHKpDtJLg?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": "Buka · Tutup pukul 19.00 ",
+      "category": "otomotif",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.1804915,
+      "longitude": 106.4634765,
+      "google_types": "Bengkel Mobil",
+      "reviews": [
+        {
+          "author": "Fikri Ramdani09",
+          "rating": 5,
+          "text": "Tempat strategis ..cocok banget buat tempat ngopi dan santai\"",
+          "date": "6 tahun lalu"
+        },
+        {
+          "author": "Fikri Ramdani09",
+          "rating": 5,
+          "text": "Tempat strategis ..cocok banget buat tempat ngopi dan santai\"",
+          "date": "6 tahun lalu"
+        },
+        {
+          "author": "Alfin Nugoreng",
+          "rating": 5,
+          "text": "Perkampungan yg indah",
+          "date": "3 tahun lalu"
+        },
+        {
+          "author": "Alfin Nugoreng",
+          "rating": 5,
+          "text": "Perkampungan yg indah",
+          "date": "3 tahun lalu"
+        },
+        {
+          "author": "jaya Ahmad",
+          "rating": 5,
+          "text": "sudah dilakukan",
+          "date": "2 tahun lalu"
+        }
+      ],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJw7Px-CoBQi4RS37-o0mXoQQ",
+      "name": "bengkel mobil artha kencana motor",
+      "address": "RF26+47W, Jl. Talaga Sari Desa, RT.02/RW.02, Talagasari, Kec. Balaraja, Kabupaten Tangerang, Banten 15610",
+      "maps_url": "https://www.google.com/maps/place/bengkel+mobil+artha+kencana+motor/data=!4m7!3m6!1s0x2e42012af8f1b3c3:0x4a19749a3fe7e4b!8m2!3d-6.199626!4d106.4606938!16s%2Fg%2F11h05nyn6m!19sChIJw7Px-CoBQi4RS37-o0mXoQQ?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": "Tutup · Buka Jum pukul 08.00 ",
+      "category": "otomotif",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.199626,
+      "longitude": 106.4606938,
+      "google_types": "Bengkel Mobil",
+      "reviews": [
+        {
+          "author": "Kartika Sajalah",
+          "rating": 5,
+          "text": "Seneng pelayannya puas",
+          "date": "2 tahun lalu"
+        },
+        {
+          "author": "Kartika Sajalah",
+          "rating": 5,
+          "text": "Seneng pelayannya puas",
+          "date": "2 tahun lalu"
+        }
+      ],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJP4mnYqkBQi4R58PGmwM1ihM",
+      "name": "Alba ban 2",
+      "address": "Jl. Raya Kresek No.69, Balaraja, Kec. Balaraja, Kabupaten Tangerang, Banten 15610",
+      "maps_url": "https://www.google.com/maps/place/Alba+ban+2/data=!4m7!3m6!1s0x2e4201a962a7893f:0x138a35039bc6c3e7!8m2!3d-6.1842589!4d106.4539927!16s%2Fg%2F11j8vs4v5z!19sChIJP4mnYqkBQi4R58PGmwM1ihM?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": "Buka · Tutup pukul 22.30 ",
+      "category": "otomotif",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.1842589,
+      "longitude": 106.4539927,
+      "google_types": "Toko Ban",
+      "reviews": [
+        {
+          "author": "Ilham Khairu",
+          "rating": 5,
+          "text": "👍 …",
+          "date": "5 bulan lalu"
+        },
+        {
+          "author": "Ilham Khairu",
+          "rating": 5,
+          "text": "👍 …",
+          "date": "5 bulan lalu"
+        },
+        {
+          "author": "Memet Anderson",
+          "rating": 5,
+          "text": "sat set banget",
+          "date": "5 bulan lalu"
+        },
+        {
+          "author": "Memet Anderson",
+          "rating": 5,
+          "text": "sat set banget",
+          "date": "5 bulan lalu"
+        },
+        {
+          "author": "Naryo Ayo",
+          "rating": 5,
+          "text": "Saya suka tambah angin dan tambal ban tip top di tempat ini",
+          "date": "3 tahun lalu"
+        }
+      ],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJNWZ89ewBQi4R28UzFfIVsLs",
+      "name": "ANUGRAH RADIATOR",
+      "address": "Jl. Raya Kresek Kp. Tegal Kalibaru No.Rt. 005/004 Km. 1, Balaraja, Kec. Balaraja, Kabupaten Tangerang, Banten 15610",
+      "maps_url": "https://www.google.com/maps/place/ANUGRAH+RADIATOR/data=!4m7!3m6!1s0x2e4201ecf57c6635:0xbbb015f21533c5db!8m2!3d-6.1878239!4d106.456523!16s%2Fg%2F11rt_k0hqp!19sChIJNWZ89ewBQi4R28UzFfIVsLs?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": "Buka · Tutup pukul 20.00 ",
+      "category": "otomotif",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.1878239,
+      "longitude": 106.456523,
+      "google_types": "Bengkel Radiator Mobil",
+      "reviews": [
+        {
+          "author": "Cecep Triana",
+          "rating": 5,
+          "text": "Termikasih banyak bang,pengerjaan nya cepat,rapih,penjelasan nya juga mudah di pahami,,ramah.\nTerbaik mantap",
+          "date": "2 bulan lalu"
+        },
+        {
+          "author": "Cecep Triana",
+          "rating": 5,
+          "text": "Termikasih banyak bang,pengerjaan nya cepat,rapih,penjelasan nya juga mudah di pahami,,ramah.\nTerbaik mantap",
+          "date": "2 bulan lalu"
+        },
+        {
+          "author": "Aghni Novitamara",
+          "rating": 5,
+          "text": "Bapaknya ramah banget. Pelayanan cepat tanggap, baik hati. Harga di sini terbaik, coba saja. Terimakasih pak, sukses selalu",
+          "date": "2 tahun lalu"
+        },
+        {
+          "author": "Aghni Novitamara",
+          "rating": 5,
+          "text": "Bapaknya ramah banget. Pelayanan cepat tanggap, baik hati. Harga di sini terbaik, coba saja. Terimakasih pak, sukses selalu",
+          "date": "2 tahun lalu"
+        },
+        {
+          "author": "Didit obod",
+          "rating": 5,
+          "text": "Service nya bagus,rapih dan teliti...",
+          "date": "10 bulan lalu"
+        }
+      ],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJ8V2laEEBQi4RRGZdaY5zcJ4",
+      "name": "JAYA.PERSEN VARIASI",
+      "address": "RF92+MHQ, Jl. Raya Kresek, Saga, Kec. Balaraja, Kabupaten Tangerang, Banten 15610",
+      "maps_url": "https://www.google.com/maps/place/JAYA.PERSEN+VARIASI/data=!4m7!3m6!1s0x2e42014168a55df1:0x9e70738e695d6644!8m2!3d-6.1807948!4d106.4514926!16s%2Fg%2F11jp07lf57!19sChIJ8V2laEEBQi4RRGZdaY5zcJ4?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": "Buka 24 jam ",
+      "category": "otomotif",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.1807948,
+      "longitude": 106.4514926,
+      "google_types": "Bengkel Mobil",
+      "reviews": [
+        {
+          "author": "Suaman Nama NURLiNAH",
+          "rating": 5,
+          "text": "Belajar dari 0",
+          "date": "5 tahun lalu"
+        },
+        {
+          "author": "Suaman Nama NURLiNAH",
+          "rating": 5,
+          "text": "Belajar dari 0",
+          "date": "5 tahun lalu"
         }
       ],
       "category_conflict": false
