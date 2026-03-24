@@ -6,5 +6,5 @@ export function toSlug(name: string): string {
     .replace(/[^a-z0-9\s-]/g, '')
     .replace(/\s+/g, '-')
     .replace(/-+/g, '-')
-    .trim()
+    .replace(/^-+|-+$/g, '')
 }

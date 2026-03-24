@@ -10,9 +10,8 @@ type Props = { params: Promise<{ city: string; category: string; slug: string }>
 async function getBusinessData(slug: string) {
   // Sanitize slug — remove PostgREST metacharacters to prevent filter injection
   const sanitized = slug.replace(/[,()]/g, '')
-  const searchName = sanitized.split('-').join(' ')
 
-  // Try exact placeId match first, then fall back to name search
+  // Try exact placeId match first
   const { data: byPlaceId } = await supabase
     .from('Business')
     .select('*, products:Product(*), reviews:Review(*)')
@@ -22,12 +21,18 @@ async function getBusinessData(slug: string) {
 
   if (byPlaceId) return byPlaceId
 
-  const { data: byName } = await supabase
+  // Build search words from slug, filtering out empty strings
+  const words = sanitized.split('-').filter(w => w.length > 1)
+  if (words.length === 0) return null
+
+  // Search using all significant words with ilike for fuzzy matching
+  let query = supabase
     .from('Business')
     .select('*, products:Product(*), reviews:Review(*)')
-    .ilike('name', `%${searchName}%`)
-    .limit(1)
-    .single()
+  for (const word of words) {
+    query = query.ilike('name', `%${word}%`)
+  }
+  const { data: byName } = await query.limit(1).single()
 
   return byName
 }

@@ -1,7 +1,7 @@
 {
   "_meta": {
-    "scraped_at": "2026-03-24T13:20:34.582Z",
-    "total_places": 1151,
+    "scraped_at": "2026-03-24T13:29:10.405Z",
+    "total_places": 1173,
     "kecamatan": "Balaraja",
     "region": "Kabupaten Tangerang",
     "by_category": {
@@ -9,7 +9,7 @@
       "jasa": 351,
       "otomotif": 238,
       "kecantikan": 90,
-      "klinik": 96
+      "klinik": 118
     },
     "potential_duplicates": [
       {
@@ -181,6 +181,11 @@
         "a": "ChIJE2Bv5E0HQi4R_zeqZL5IirM",
         "b": "ChIJU06B_V4GQi4R0rtcdYGdtHM",
         "distance_m": 78
+      },
+      {
+        "a": "ChIJSZJ_3FIHQi4R8QjBXsG_8ck",
+        "b": "ChIJaxjy9AcBQi4RaBZShQcmElI",
+        "distance_m": 28
       }
     ]
   },
@@ -40795,6 +40800,1009 @@
           "rating": 5,
           "text": "penanganan nya cepet bgt, pelayanan nya dari dokter, staff staff nya juga ramah dan penjelasan dokter juga sangat jelas",
           "date": "7 bulan lalu"
+        }
+      ],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJyVFxoK0HQi4RXBQQlg-DTUk",
+      "name": "Klinik Utama dr. Effie",
+      "address": "Jl. Nusa Indah Raya No.19 Blok AI-1 Kav. E, Marga Sari, Kec. Tigaraksa, Kabupaten Tangerang, Banten 15720",
+      "maps_url": "https://www.google.com/maps/place/Klinik+Utama+dr.+Effie/data=!4m7!3m6!1s0x2e4207ada07151c9:0x494d830f9610145c!8m2!3d-6.2778656!4d106.4908114!16s%2Fg%2F11b6t7h1gp!19sChIJyVFxoK0HQi4RXBQQlg-DTUk?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": "Segera tutup · 21.00 · Buka Rab pukul 17.00 ",
+      "category": "klinik",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.2778656,
+      "longitude": 106.4908114,
+      "google_types": "Klinik Medis",
+      "reviews": [
+        {
+          "author": "Supri Yanto",
+          "rating": 5,
+          "text": "Ka mau nanya kalok mau prekso anak yg BBnya Susah naik bisa nggk pakai bpjs",
+          "date": "4 bulan lalu"
+        },
+        {
+          "author": "Supri Yanto",
+          "rating": 5,
+          "text": "Ka mau nanya kalok mau prekso anak yg BBnya Susah naik bisa nggk pakai bpjs",
+          "date": "4 bulan lalu"
+        },
+        {
+          "author": "salsa alipia",
+          "rating": 5,
+          "text": "Dr gigi jadwalnya jam berapa dok?",
+          "date": "sebulan lalu"
+        },
+        {
+          "author": "salsa alipia",
+          "rating": 5,
+          "text": "Dr gigi jadwalnya jam berapa dok?",
+          "date": "sebulan lalu"
+        },
+        {
+          "author": "Alvi Ana",
+          "rating": 5,
+          "text": "Mau tanya untuk jadwal2 dokternya jam berapa saja ya?",
+          "date": "5 bulan lalu"
+        }
+      ],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJQZAi3FIHQi4R-748B10YaLM",
+      "name": "RSIA Tiara Cikupa",
+      "address": "Jl. Raya Serang No.KM 14.5, RT.001/RW.001, Pasir Gadung, Kec. Cikupa, Kabupaten Tangerang, Banten 15710",
+      "maps_url": "https://www.google.com/maps/place/RSIA+Tiara+Cikupa/data=!4m7!3m6!1s0x2e420752dc229041:0xb368185d073cbefb!8m2!3d-6.2278156!4d106.5255199!16s%2Fg%2F1pzs6728m!19sChIJQZAi3FIHQi4R-748B10YaLM?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": "Buka 24 jam ",
+      "category": "klinik",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.2278156,
+      "longitude": 106.5255199,
+      "google_types": "Rumah Sakit",
+      "reviews": [
+        {
+          "author": "Herlan Belasandi",
+          "rating": 5,
+          "text": "Pelayananya sangat bagus dokter sama bidan sama perawat nya baik-baik, security nya baik-baik, pokonya RSIA TIARA Cikupa bagus pelayananya😊😊😘🥰😍 Terimakasihhh RSIA TIARA🙏🙏🤝🤝 …",
+          "date": "2 bulan lalu"
+        },
+        {
+          "author": "Herlan Belasandi",
+          "rating": 5,
+          "text": "Pelayananya sangat bagus dokter sama bidan sama perawat nya baik-baik, security nya baik-baik, pokonya RSIA TIARA Cikupa bagus pelayananya😊😊😘🥰😍 Terimakasihhh RSIA TIARA🙏🙏🤝🤝 …",
+          "date": "2 bulan lalu"
+        },
+        {
+          "author": "Driyanah Driyanah",
+          "rating": 5,
+          "text": "Alhamdulillah untuk semua pelayanannya buat seluruhnya dan juga buat bapak security yg setia membantu kami.sekali lagi trimakasih banyak pelayanan sangat sangat baik dan ramah.",
+          "date": "3 bulan lalu"
+        },
+        {
+          "author": "Driyanah Driyanah",
+          "rating": 5,
+          "text": "Alhamdulillah untuk semua pelayanannya buat seluruhnya dan juga buat bapak security yg setia membantu kami.sekali lagi trimakasih banyak pelayanan sangat sangat baik dan ramah.",
+          "date": "3 bulan lalu"
+        },
+        {
+          "author": "aang aeee",
+          "rating": 5,
+          "text": "pokonya jos gx salah bubidan bawa ke rs ini pelayanan nya pokonya langsung di tanganin dan pak satpam nya pun enak seru buat kalian yg blm cba yuk di coba dateng ke rs tiara cikupa insyallah aman sentosa",
+          "date": "2 bulan lalu"
+        }
+      ],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJEzxdznP_aS4RaefoSzen0RQ",
+      "name": "Dokter Spesialis Anak (dr. Krisye Yulanda, M.Sc, Sp.A) - Suvarna Sutera",
+      "address": "Ruko Terrace 9, Jl Jati Suvarna Sari Utama No.D003, Wanakerta, Kec. Sindang Jaya, Kabupaten Tangerang, Banten 15540",
+      "maps_url": "https://www.google.com/maps/place/Dokter+Spesialis+Anak+%28dr.+Krisye+Yulanda,+M.Sc,+Sp.A%29+-+Suvarna+Sutera/data=!4m7!3m6!1s0x2e69ff73ce5d3c13:0x14d1a7374be8e769!8m2!3d-6.1741523!4d106.4979374!16s%2Fg%2F11f8m9wgp0!19sChIJEzxdznP_aS4RaefoSzen0RQ?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": "Tutup · Buka Rab pukul 09.30 ",
+      "category": "klinik",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.1741523,
+      "longitude": 106.4979374,
+      "google_types": "Dokter Anak",
+      "reviews": [
+        {
+          "author": "Widha Wisesa",
+          "rating": 5,
+          "text": "Sehat selalu dok,,, konsul smpe 30 menit di jelas in secara detail, dokter nya baik bgt bgt,,\nAkhirnya nemu dsa yg bner bner care sma kesehatan anak,, 🙏😇 …",
+          "date": "6 bulan lalu"
+        },
+        {
+          "author": "Widha Wisesa",
+          "rating": 5,
+          "text": "Sehat selalu dok,,, konsul smpe 30 menit di jelas in secara detail, dokter nya baik bgt bgt,,\nAkhirnya nemu dsa yg bner bner care sma kesehatan anak,, 🙏😇 …",
+          "date": "6 bulan lalu"
+        },
+        {
+          "author": "Winata Leo",
+          "rating": 5,
+          "text": "So akhirnya saya mau menulis review untuk Dr Krisye. Sulit sekali rasanya kami menemukan Dr. anak yg cocok dengan anak kami saat itu sekitar kurang lebih 4 thn yg lalu saya cari review2 di google dan kami menemukan Dr anak yg menurut kami …",
+          "date": "4 bulan lalu"
+        },
+        {
+          "author": "Winata Leo",
+          "rating": 5,
+          "text": "So akhirnya saya mau menulis review untuk Dr Krisye. Sulit sekali rasanya kami menemukan Dr. anak yg cocok dengan anak kami saat itu sekitar kurang lebih 4 thn yg lalu saya cari review2 di google dan kami menemukan Dr anak yg menurut kami …",
+          "date": "4 bulan lalu"
+        },
+        {
+          "author": "agustini pratiwi",
+          "rating": 5,
+          "text": "Baik berobat maupun imunisasi selalu kesini, selain dekat dari rumah alasannya lainnya adalah Dokternya ramah, baik banget, sangat informatif menjelaskan dengan sangat detail, kliniknya bersih dan nyaman. Terima kasih dokter Kris🙏🙂 …",
+          "date": "setahun lalu"
+        }
+      ],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJUbdpUAABQi4Roj7pKv_1wfg",
+      "name": "RUMAH SUNAT HAQIQI",
+      "address": "Taman Balaraja, Blk. A2 No.17, Parahu, Kec. Balaraja, Kabupaten Tangerang, Banten 15610",
+      "maps_url": "https://www.google.com/maps/place/RUMAH+SUNAT+HAQIQI/data=!4m7!3m6!1s0x2e4201005069b751:0xf8c1f5ff2ae93ea2!8m2!3d-6.1753804!4d106.4420043!16s%2Fg%2F11xn49q_b7!19sChIJUbdpUAABQi4Roj7pKv_1wfg?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": "Segera tutup · 21.00 · Buka Rab pukul 05.00 ",
+      "category": "klinik",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.1753804,
+      "longitude": 106.4420043,
+      "google_types": "Klinik Kesehatan",
+      "reviews": [
+        {
+          "author": "Nimeh Suaress",
+          "rating": 5,
+          "text": "Rekomendasi, tempat nya nyaman, buat kalian yg belum sunat kesini aja, kalo sunat kesini pasti gak akan nyesel, pelayanan nya gercep banget,.. terbaik",
+          "date": "5 bulan lalu"
+        },
+        {
+          "author": "Nimeh Suaress",
+          "rating": 5,
+          "text": "Rekomendasi, tempat nya nyaman, buat kalian yg belum sunat kesini aja, kalo sunat kesini pasti gak akan nyesel, pelayanan nya gercep banget,.. terbaik",
+          "date": "5 bulan lalu"
+        },
+        {
+          "author": "Raisa Rani",
+          "rating": 5,
+          "text": "Tempat sunat ter baik, dokternya pun ramah, anak saya sampe gak nangis. Terima kasih pak dokter.. sukses terus klinik haqiqi",
+          "date": "5 bulan lalu"
+        },
+        {
+          "author": "Raisa Rani",
+          "rating": 5,
+          "text": "Tempat sunat ter baik, dokternya pun ramah, anak saya sampe gak nangis. Terima kasih pak dokter.. sukses terus klinik haqiqi",
+          "date": "5 bulan lalu"
+        },
+        {
+          "author": "Dadang Suparman",
+          "rating": 5,
+          "text": "Pelayanan ramah, profesional, tempat rapih dan beraih",
+          "date": "5 bulan lalu"
+        }
+      ],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJP8VUCAABQi4RKb9jtcrKXFU",
+      "name": "Posyandu Melati II (2)",
+      "address": "Kp. Bunut, RT.04/Rw02/RW.no. 38, Pasir Jaya, Kec. Cikupa, Kabupaten Tangerang, Banten 15710",
+      "maps_url": "https://www.google.com/maps/place/Posyandu+Melati+II+%282%29/data=!4m7!3m6!1s0x2e4201000854c53f:0x555ccacab563bf29!8m2!3d-6.2128355!4d106.5281899!16s%2Fg%2F11ykwy2890!19sChIJP8VUCAABQi4RKb9jtcrKXFU?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": null,
+      "category": "klinik",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.2128355,
+      "longitude": 106.5281899,
+      "google_types": "Dokter Anak",
+      "reviews": [],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJxzMcX7UAQi4RHwok9Tu4QSY",
+      "name": "Praktek dr.Makeri",
+      "address": "Sukamulya, Kec. Cikupa, Kabupaten Tangerang, Banten 15710",
+      "maps_url": "https://www.google.com/maps/place/Praktek+dr.Makeri/data=!4m7!3m6!1s0x2e4200b55f1c33c7:0x2641b83bf5240a1f!8m2!3d-6.2267344!4d106.5116195!16s%2Fg%2F11fzf9htt1!19sChIJxzMcX7UAQi4RHwok9Tu4QSY?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": null,
+      "category": "klinik",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.2267344,
+      "longitude": 106.5116195,
+      "google_types": "Klinik Medis",
+      "reviews": [
+        {
+          "author": "Benny Al azzam",
+          "rating": 5,
+          "text": "Buat dokter ny smoga slalu sehat,konsultasi ny ramah bnget.buat obat nyh the best, trmaksh dokter makeri",
+          "date": "sebulan lalu"
+        },
+        {
+          "author": "Benny Al azzam",
+          "rating": 5,
+          "text": "Buat dokter ny smoga slalu sehat,konsultasi ny ramah bnget.buat obat nyh the best, trmaksh dokter makeri",
+          "date": "sebulan lalu"
+        },
+        {
+          "author": "Saeful Fadilah",
+          "rating": 5,
+          "text": "Check-up tgl 22 mei malam jam stngah 10. Suster nya gak worthit bikin badmood. Beda sama suster yg biasa ketemu yg orang talaga sari, ramah. Bintang 2 buat suster yg jaga malam ini. Kalo buat dokternya bintang 10.",
+          "date": "setahun lalu"
+        },
+        {
+          "author": "Saeful Fadilah",
+          "rating": 5,
+          "text": "Check-up tgl 22 mei malam jam stngah 10. Suster nya gak worthit bikin badmood. Beda sama suster yg biasa ketemu yg orang talaga sari, ramah. Bintang 2 buat suster yg jaga malam ini. Kalo buat dokternya bintang 10.",
+          "date": "setahun lalu"
+        },
+        {
+          "author": "Terry Aytirzz",
+          "rating": 5,
+          "text": "Dokternya sangat ramah untuk konsultasi,,obat juga top,,jadi pasien hampir 7 bln.alhamdulilah sehat kembali.pelayanan suster juga ramah",
+          "date": "setahun lalu"
+        }
+      ],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJAwrh75YHQi4R6tJ5OTxWuKs",
+      "name": "Kyonest Medical Spa & Daycare Cabang Citra Raya",
+      "address": "Graha Raflesia, Cluster Seberang Ciputra mall, Bunderan 5 Perumahan Citra Raya Blok D16/7, Ciakar, Kec. Panongan, Kabupaten Tangerang, Banten 15711",
+      "maps_url": "https://www.google.com/maps/place/Kyonest+Medical+Spa+%26+Daycare+Cabang+Citra+Raya/data=!4m7!3m6!1s0x2e420796efe10a03:0xabb8563c3979d2ea!8m2!3d-6.2635777!4d106.5232414!16s%2Fg%2F11gph545rw!19sChIJAwrh75YHQi4R6tJ5OTxWuKs?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": "Tutup · Buka Rab pukul 08.00 ",
+      "category": "klinik",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.2635777,
+      "longitude": 106.5232414,
+      "google_types": "Spa Medis",
+      "reviews": [
+        {
+          "author": "Sisillia Tri Cahyani",
+          "rating": 5,
+          "text": "Sangat rekomended daycarenya. 1 anak dihandle 1-2 bidan profesional, ada free baby spa tiap minggu untuk murid daycare nya.\nNitipin anak di Kyonest bener2 tidak khawatir karena ada cctv yg bisa dipantau …",
+          "date": "4 bulan lalu"
+        },
+        {
+          "author": "Sisillia Tri Cahyani",
+          "rating": 5,
+          "text": "Sangat rekomended daycarenya. 1 anak dihandle 1-2 bidan profesional, ada free baby spa tiap minggu untuk murid daycare nya.\nNitipin anak di Kyonest bener2 tidak khawatir karena ada cctv yg bisa dipantau …",
+          "date": "4 bulan lalu"
+        },
+        {
+          "author": "Diny Fitria",
+          "rating": 5,
+          "text": "The best daycare ever... Anak saya masuk kyonest daycare sejak usia 3 bulan sampai sekarang usia 9 bulan.. …",
+          "date": "4 bulan lalu"
+        },
+        {
+          "author": "Diny Fitria",
+          "rating": 5,
+          "text": "The best daycare ever... Anak saya masuk kyonest daycare sejak usia 3 bulan sampai sekarang usia 9 bulan.. …",
+          "date": "4 bulan lalu"
+        },
+        {
+          "author": "nael ganteng",
+          "rating": 5,
+          "text": "bidan nya ramah ramah bangett, tadi anak saya juga ikut spa disini after nya langsung enak badan nya. rekomended buat ayah bunda yg kebingunan cari tempat utk kesehatan anaknya. nagih banget pokoknyaa",
+          "date": "3 bulan lalu"
+        }
+      ],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJTYWF2EkHQi4REOeEXD55G0s",
+      "name": "Praktik dr. Teguh Kurniawan, Sp.OG",
+      "address": "Kawasan Ruko The Avenue Blok Z06 No.76, Kabupaten Tangerang, Banten 15710",
+      "maps_url": "https://www.google.com/maps/place/Praktik+dr.+Teguh+Kurniawan,+Sp.OG/data=!4m7!3m6!1s0x2e420749d885854d:0x4b1b793e5c84e710!8m2!3d-6.2311832!4d106.5132263!16s%2Fg%2F11vpwmn24x!19sChIJTYWF2EkHQi4REOeEXD55G0s?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": "Segera tutup · 21.00 · Buka Rab pukul 17.00 ",
+      "category": "klinik",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.2311832,
+      "longitude": 106.5132263,
+      "google_types": "Dokter Kandungan",
+      "reviews": [
+        {
+          "author": "Fina nihayatul Azizah",
+          "rating": 5,
+          "text": "dokternya detail bgtt,bahkan sampe bingung mau nanya apalagi krna semua uda dijelasin,ga salah pilih dokter Teguh buat usg dan kontrol tiap bulan,tarif ramah dikantong,usg jam tengah 12 malem, dokternya masih on point, rekomendedd❤️",
+          "date": "4 bulan lalu"
+        },
+        {
+          "author": "Fina nihayatul Azizah",
+          "rating": 5,
+          "text": "dokternya detail bgtt,bahkan sampe bingung mau nanya apalagi krna semua uda dijelasin,ga salah pilih dokter Teguh buat usg dan kontrol tiap bulan,tarif ramah dikantong,usg jam tengah 12 malem, dokternya masih on point, rekomendedd❤️",
+          "date": "4 bulan lalu"
+        },
+        {
+          "author": "Leo",
+          "rating": 5,
+          "text": "pelayanannya oke semua dari dokter sama perawatnya,cuma harus sabar ngantri nya aja😁 …",
+          "date": "4 bulan lalu"
+        },
+        {
+          "author": "Leo",
+          "rating": 5,
+          "text": "pelayanannya oke semua dari dokter sama perawatnya,cuma harus sabar ngantri nya aja😁 …",
+          "date": "4 bulan lalu"
+        },
+        {
+          "author": "TIKA WINDAR",
+          "rating": 5,
+          "text": "Dokter dan perawatnya semua ramah ramah, menjelaskan dengan detail dan puas\nHarga ramah dikantong😍😍🤗 …",
+          "date": "3 bulan lalu"
+        }
+      ],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJc-WybwIHQi4RLe2sXAVHTAA",
+      "name": "Rumah Vaksinasi Cikupa",
+      "address": "Jalan Melia Utama Utara Blok X01/71, Mekar Bakti, Kec. Panongan, Kabupaten Tangerang, Banten 15710",
+      "maps_url": "https://www.google.com/maps/place/Rumah+Vaksinasi+Cikupa/data=!4m7!3m6!1s0x2e4207026fb2e573:0x4c47055caced2d!8m2!3d-6.2550221!4d106.5200765!16s%2Fg%2F11qqnx2xn8!19sChIJc-WybwIHQi4RLe2sXAVHTAA?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": "Segera tutup · 21.00 · Buka Rab pukul 09.00 ",
+      "category": "klinik",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.2550221,
+      "longitude": 106.5200765,
+      "google_types": "Klinik Medis",
+      "reviews": [
+        {
+          "author": "Grace Nathanael",
+          "rating": 5,
+          "text": "Masuk perumahan, mudah di temukan, pelayanannya baik, tempatnya bersih, adem karena ada ac nya, banyak mainan, anak2 jadi nyaman, di suntiknya ga sakit. 🤭 Thank you Bu Dokter Ruly 🙏 …",
+          "date": "2 tahun lalu"
+        },
+        {
+          "author": "Grace Nathanael",
+          "rating": 5,
+          "text": "Masuk perumahan, mudah di temukan, pelayanannya baik, tempatnya bersih, adem karena ada ac nya, banyak mainan, anak2 jadi nyaman, di suntiknya ga sakit. 🤭 Thank you Bu Dokter Ruly 🙏 …",
+          "date": "2 tahun lalu"
+        },
+        {
+          "author": "Mega Silvianingsih",
+          "rating": 5,
+          "text": "Alhamdulillah, ramah sekali pelayanannya, tepat waktu. Karena pertama kali vaksin disini, dan blm tau tentang vaksin HPV, dokter menjelaskan dengan baik dan mudah dimengerti. Terimakasih",
+          "date": "11 bulan lalu"
+        },
+        {
+          "author": "Mega Silvianingsih",
+          "rating": 5,
+          "text": "Alhamdulillah, ramah sekali pelayanannya, tepat waktu. Karena pertama kali vaksin disini, dan blm tau tentang vaksin HPV, dokter menjelaskan dengan baik dan mudah dimengerti. Terimakasih",
+          "date": "11 bulan lalu"
+        },
+        {
+          "author": "dede suharto",
+          "rating": 5,
+          "text": "Tempat nyaman, antrian sesuai prosedur dan booking. Utk penanganan bagus, harga relatif terjangkau.",
+          "date": "2 tahun lalu"
+        }
+      ],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJRxKwhW0BQi4RvgHRRWSmDfs",
+      "name": "Bidan Ervina",
+      "address": "RF26+96M, Talagasari, Kec. Balaraja, Kabupaten Tangerang, Banten 15610",
+      "maps_url": "https://www.google.com/maps/place/Bidan+Ervina/data=!4m7!3m6!1s0x2e42016d85b01247:0xfb0da66445d101be!8m2!3d-6.1990481!4d106.4605319!16s%2Fg%2F11f042z1v3!19sChIJRxKwhW0BQi4RvgHRRWSmDfs?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": "Buka 24 jam ",
+      "category": "klinik",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.1990481,
+      "longitude": 106.4605319,
+      "google_types": "Rumah Sakit",
+      "reviews": [
+        {
+          "author": "Kiki patmala",
+          "rating": 5,
+          "text": "Klinik bidan Ervina ini Terbaik pokonya, pelayanannya bagus bidanya ramah baik  dan sabar gk bikin trauma lahiran normal disini  bikin kita enjoy tar klo hamil lgi pengen lahiran diklinik bidan Ervina ♥️ terima kasih bidan Ervina , bidan asih , sama bidan futi yg sudah bantu persalinan saya♥️♥️♥️♥️♥️",
+          "date": "sebulan lalu"
+        },
+        {
+          "author": "Kiki patmala",
+          "rating": 5,
+          "text": "Klinik bidan Ervina ini Terbaik pokonya, pelayanannya bagus bidanya ramah baik  dan sabar gk bikin trauma lahiran normal disini  bikin kita enjoy tar klo hamil lgi pengen lahiran diklinik bidan Ervina ♥️ terima kasih bidan Ervina , bidan asih , sama bidan futi yg sudah bantu persalinan saya♥️♥️♥️♥️♥️",
+          "date": "sebulan lalu"
+        },
+        {
+          "author": "Arif Prayogo",
+          "rating": 5,
+          "text": "Pasar kemis- Balaraja final hari ini jam 3 pagi Masya Allah bidannya sabar\" bgt semoga menjadi ladang pahala dan investasi pahala amiin ya robbal alamiin.. …",
+          "date": "8 bulan lalu"
+        },
+        {
+          "author": "Arif Prayogo",
+          "rating": 5,
+          "text": "Pasar kemis- Balaraja final hari ini jam 3 pagi Masya Allah bidannya sabar\" bgt semoga menjadi ladang pahala dan investasi pahala amiin ya robbal alamiin.. …",
+          "date": "8 bulan lalu"
+        },
+        {
+          "author": "LESTARI DEVI",
+          "rating": 5,
+          "text": "Alhamdulillah. Masyaallah tabarakallah. Allahumma baarik. Klinik yg recommended banget❤️\nPengalaman pertama, dr mulai kontrol rutin kehamilan dn akhirnya melahirkan …",
+          "date": "setahun lalu"
+        }
+      ],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJNWFz12AHQi4RdC3wzFEkJTE",
+      "name": "Apotek Syahida & Dokter Spesialis Anak",
+      "address": "Rukan The Avenue Blok Z 03, RW.15, Cikupa, Kabupaten Tangerang, Banten 15710",
+      "maps_url": "https://www.google.com/maps/place/Apotek+Syahida+%26+Dokter+Spesialis+Anak/data=!4m7!3m6!1s0x2e420760d7736135:0x31252451ccf02d74!8m2!3d-6.2319631!4d106.5133303!16s%2Fg%2F11svcwc3td!19sChIJNWFz12AHQi4RdC3wzFEkJTE?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": "Buka · Tutup pukul 22.00 ",
+      "category": "klinik",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.2319631,
+      "longitude": 106.5133303,
+      "google_types": "Apotek",
+      "reviews": [
+        {
+          "author": "Adam Maulana",
+          "rating": 5,
+          "text": "Sangat ramah, harga terjangkau dan berkualitas",
+          "date": "sebulan lalu"
+        },
+        {
+          "author": "Adam Maulana",
+          "rating": 5,
+          "text": "Sangat ramah, harga terjangkau dan berkualitas",
+          "date": "sebulan lalu"
+        },
+        {
+          "author": "Purnamah 88",
+          "rating": 5,
+          "text": "Alhamdulillah...\nSemoga berkah dan bermanfaat untuk semuanya🙏\nSukses untuk Apotek Syahida 🥰 …",
+          "date": "2 tahun lalu"
+        },
+        {
+          "author": "Purnamah 88",
+          "rating": 5,
+          "text": "Alhamdulillah...\nSemoga berkah dan bermanfaat untuk semuanya🙏\nSukses untuk Apotek Syahida 🥰 …",
+          "date": "2 tahun lalu"
+        },
+        {
+          "author": "akhmad gozali",
+          "rating": 5,
+          "text": "Semoga Apotik Syahida tambah berkah dan selalu bermanfaat untuk umat.",
+          "date": "2 tahun lalu"
+        }
+      ],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJeXWKKTMBQi4RsOh67cc_Snw",
+      "name": "Klinik Naufal Diana",
+      "address": "Jl. Aria Jaya Santika No.15, Pasir Nangka, Kec. Tigaraksa, Kabupaten Tangerang, Banten 15720",
+      "maps_url": "https://www.google.com/maps/place/Klinik+Naufal+Diana/data=!4m7!3m6!1s0x2e420133298a7579:0x7c4a3fc7ed7ae8b0!8m2!3d-6.2284259!4d106.4727796!16s%2Fg%2F11bztc8y5c!19sChIJeXWKKTMBQi4RsOh67cc_Snw?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": "Segera tutup · 21.00 · Buka Rab pukul 08.00 ",
+      "category": "klinik",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.2284259,
+      "longitude": 106.4727796,
+      "google_types": "Rumah Sakit",
+      "reviews": [
+        {
+          "author": "Aan Wijanarko",
+          "rating": 5,
+          "text": "Hari ini saya berobat, datang jam 7.45wib sudah langsung dilayani dengan baik, Dokter yang memeriksa pun dengan detail menjelaskan sakit yang saya rasakan, Terima kasih Naufal Diana atas pelayanan nya, kebersihan, kerapian sangat bagus",
+          "date": "2 bulan lalu"
+        },
+        {
+          "author": "Aan Wijanarko",
+          "rating": 5,
+          "text": "Hari ini saya berobat, datang jam 7.45wib sudah langsung dilayani dengan baik, Dokter yang memeriksa pun dengan detail menjelaskan sakit yang saya rasakan, Terima kasih Naufal Diana atas pelayanan nya, kebersihan, kerapian sangat bagus",
+          "date": "2 bulan lalu"
+        },
+        {
+          "author": "Ranran Maharani",
+          "rating": 5,
+          "text": "Kaget pas liat ulasannya, tp yg saya rasain selama di klinik ini baik2 aja, semua pelayanan baik, apalagi klo penanganan untuk orang tua, sigap bgt, sejauh ini klinik disini bagus kok pelayanannya",
+          "date": "2 tahun lalu"
+        },
+        {
+          "author": "Ranran Maharani",
+          "rating": 5,
+          "text": "Kaget pas liat ulasannya, tp yg saya rasain selama di klinik ini baik2 aja, semua pelayanan baik, apalagi klo penanganan untuk orang tua, sigap bgt, sejauh ini klinik disini bagus kok pelayanannya",
+          "date": "2 tahun lalu"
+        },
+        {
+          "author": "Musyarrofah",
+          "rating": 5,
+          "text": "Tidak pernah kecewa dgn pelayanan disini, dokternya pun ramah baik, pokoknya puas. 👍👍👍 …",
+          "date": "setahun lalu"
+        }
+      ],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJ8eSgqTwBQi4RCd6C3AoTItI",
+      "name": "klinik CMC",
+      "address": "Jalan Raya Serang Km.20,5, RT.02/RW.01, Cibadak, Kec. Cikupa, Kabupaten Tangerang, Banten 15710",
+      "maps_url": "https://www.google.com/maps/place/klinik+CMC/data=!4m7!3m6!1s0x2e42013ca9a0e4f1:0xd222130adc82de09!8m2!3d-6.2072851!4d106.4817727!16s%2Fg%2F11f9xy4yp_!19sChIJ8eSgqTwBQi4RCd6C3AoTItI?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": "Buka 24 jam ",
+      "category": "klinik",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.2072851,
+      "longitude": 106.4817727,
+      "google_types": "Dokter",
+      "reviews": [
+        {
+          "author": "Nunik Fitri",
+          "rating": 5,
+          "text": "Saya bawa anak berobat udah 3 hari demam . Dan alhamdulillah minum obat dari sini anak saya sehat dan kembali ceria. Terimakasih pak dokter",
+          "date": "3 bulan lalu"
+        },
+        {
+          "author": "Nunik Fitri",
+          "rating": 5,
+          "text": "Saya bawa anak berobat udah 3 hari demam . Dan alhamdulillah minum obat dari sini anak saya sehat dan kembali ceria. Terimakasih pak dokter",
+          "date": "3 bulan lalu"
+        },
+        {
+          "author": "Didik Jayusmono",
+          "rating": 5,
+          "text": "Alhamdulillah tadi berobat pelayanannya bagus dan ramah.\nTerima kasih dan semoga cepat diberikan kesembuhan setelah berobat di CMC.\n👍👍👍👍 …",
+          "date": "5 bulan lalu"
+        },
+        {
+          "author": "Didik Jayusmono",
+          "rating": 5,
+          "text": "Alhamdulillah tadi berobat pelayanannya bagus dan ramah.\nTerima kasih dan semoga cepat diberikan kesembuhan setelah berobat di CMC.\n👍👍👍👍 …",
+          "date": "5 bulan lalu"
+        },
+        {
+          "author": "Herni Efendi",
+          "rating": 5,
+          "text": "Saya baru operasi payudara di rs metro hospital dan kontrol pertama ganti perban di faskes pertama yaitu Klinik CMC per 3 hari sekali.\nLangsung cepat ditangani sm susternya, dan pelayanannya juga baik serta ramah. Terimakasih dan sukses trs kedepannya",
+          "date": "setahun lalu"
+        }
+      ],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJi_CzJZsAQi4RewmJE2vaEQs",
+      "name": "Ardhifa Medika",
+      "address": "Jalan Raya Jl. Ps. Kemis - Cikupa No.37, RT.03/RW.01, Suka Harja, Kec. Sindang Jaya, Kabupaten Tangerang, Banten 15710",
+      "maps_url": "https://www.google.com/maps/place/Ardhifa+Medika/data=!4m7!3m6!1s0x2e42009b25b3f08b:0xb11da6b1389097b!8m2!3d-6.1962427!4d106.5269941!16s%2Fg%2F11cjhtbd_b!19sChIJi_CzJZsAQi4RewmJE2vaEQs?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": null,
+      "category": "klinik",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.1962427,
+      "longitude": 106.5269941,
+      "google_types": "Klinik Medis",
+      "reviews": [
+        {
+          "author": "Amsor Raffy",
+          "rating": 5,
+          "text": "Kliniknya rapih bagus bersih dingin, pelayanannya cepat. Perawat bidan dan dokter ramah semua, membuat rujukan sangat mudah, obatnya pun bagus walaupun pakai baju sangat memuaskan.",
+          "date": "4 bulan lalu"
+        },
+        {
+          "author": "Amsor Raffy",
+          "rating": 5,
+          "text": "Kliniknya rapih bagus bersih dingin, pelayanannya cepat. Perawat bidan dan dokter ramah semua, membuat rujukan sangat mudah, obatnya pun bagus walaupun pakai baju sangat memuaskan.",
+          "date": "4 bulan lalu"
+        },
+        {
+          "author": "Endang Laswati",
+          "rating": 5,
+          "text": "Pengalaman saya berobat di ardhifa untuk Pelayanan ramah, sangat memuaskan, di depan pun di sambut dengan ramah senyum oleh petugas, berobat pakai bpjs juga sangat mudah, obat nya juga bagus. Bidan dokter petugasnya juga sangat membantu dalam berobat. Terimakasih klinik ardhifa",
+          "date": "4 bulan lalu"
+        },
+        {
+          "author": "Endang Laswati",
+          "rating": 5,
+          "text": "Pengalaman saya berobat di ardhifa untuk Pelayanan ramah, sangat memuaskan, di depan pun di sambut dengan ramah senyum oleh petugas, berobat pakai bpjs juga sangat mudah, obat nya juga bagus. Bidan dokter petugasnya juga sangat membantu dalam berobat. Terimakasih klinik ardhifa",
+          "date": "4 bulan lalu"
+        },
+        {
+          "author": "Heri Herajaya",
+          "rating": 5,
+          "text": "Alhmdulillah berobat disini selalu cocok . Langsung sembuh. Petugas nya juga ramah semua . Pakai BPJS juga pelayananan nya bagus . Petugas ramah semua . Good bnget",
+          "date": "sebulan lalu"
+        }
+      ],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJ_Uw6-r4HQi4RhckB0G_-8-k",
+      "name": "Klinik dan Bidan Desi Nurlaela",
+      "address": "Kadu Agung, Kec. Tigaraksa, Kabupaten Tangerang, Banten 15720",
+      "maps_url": "https://www.google.com/maps/place/Klinik+dan+Bidan+Desi+Nurlaela/data=!4m7!3m6!1s0x2e4207befa3a4cfd:0xe9f3fe6fd001c985!8m2!3d-6.2638206!4d106.4880861!16s%2Fg%2F11j92yjt2r!19sChIJ_Uw6-r4HQi4RhckB0G_-8-k?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": "Segera tutup · 21.00 · Buka Rab pukul 07.00 ",
+      "category": "klinik",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.2638206,
+      "longitude": 106.4880861,
+      "google_types": "Klinik Kesehatan",
+      "reviews": [
+        {
+          "author": "Indri Chintia Dewi",
+          "rating": 5,
+          "text": "Dari pas hamil setiap kontrol kandungan sampai udah punya anak lagi tetep kalo apa apa baik itu imunisasi maupun berobat anak pasti datangnya ke klinik bidan desi nurlaela💗 sampai KB pun tetep di ibuu ga pernah ganti bidan, karna apa? Karna …",
+          "date": "7 bulan lalu"
+        },
+        {
+          "author": "Indri Chintia Dewi",
+          "rating": 5,
+          "text": "Dari pas hamil setiap kontrol kandungan sampai udah punya anak lagi tetep kalo apa apa baik itu imunisasi maupun berobat anak pasti datangnya ke klinik bidan desi nurlaela💗 sampai KB pun tetep di ibuu ga pernah ganti bidan, karna apa? Karna …",
+          "date": "7 bulan lalu"
+        },
+        {
+          "author": "Isti Nurhalimah",
+          "rating": 5,
+          "text": "Pelayanan di klinik ini sangat memuaskan bgt, Bidan desinya juga ramah, sabar, dan sangat membantu. Tempatnya juga bersih dan nyaman. Sangat direkomendasikan untuk pemeriksaan kehamilan dan persalinan",
+          "date": "10 bulan lalu"
+        },
+        {
+          "author": "Isti Nurhalimah",
+          "rating": 5,
+          "text": "Pelayanan di klinik ini sangat memuaskan bgt, Bidan desinya juga ramah, sabar, dan sangat membantu. Tempatnya juga bersih dan nyaman. Sangat direkomendasikan untuk pemeriksaan kehamilan dan persalinan",
+          "date": "10 bulan lalu"
+        },
+        {
+          "author": "Sri26 Sri",
+          "rating": 5,
+          "text": "Saya dari awal periksa tau hamil selalu periksa/kontrol rutin sampe lahiran pun di bidan Desi karna pelayananya yg baik dan ramah welcome kepada pasien",
+          "date": "10 bulan lalu"
+        }
+      ],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJbxYYCLwHQi4RHFahMsvmJwQ",
+      "name": "Pusat Sunat Modern Estetik AL HAMIZ Tigaraksa",
+      "address": "Jln. Kaduagung No.Blok.4, Marga Sari, Kec. Tigaraksa, Kabupaten Tangerang, Banten 15721",
+      "maps_url": "https://www.google.com/maps/place/Pusat+Sunat+Modern+Estetik+AL+HAMIZ+Tigaraksa/data=!4m7!3m6!1s0x2e4207bc0818166f:0x427e6cb32a1561c!8m2!3d-6.2777809!4d106.5031024!16s%2Fg%2F11qqwzy99p!19sChIJbxYYCLwHQi4RHFahMsvmJwQ?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": "Buka 24 jam ",
+      "category": "klinik",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.2777809,
+      "longitude": 106.5031024,
+      "google_types": "Klinik Medis",
+      "reviews": [
+        {
+          "author": "Hasbi Halomoan",
+          "rating": 5,
+          "text": "Tempat sunatnya sangat memuaskan,tempatnya bersih, dokternya ramah dan sabar bangat bikin anak happy plus hadiahnya banyak",
+          "date": "sebulan lalu"
+        },
+        {
+          "author": "Hasbi Halomoan",
+          "rating": 5,
+          "text": "Tempat sunatnya sangat memuaskan,tempatnya bersih, dokternya ramah dan sabar bangat bikin anak happy plus hadiahnya banyak",
+          "date": "sebulan lalu"
+        },
+        {
+          "author": "Sherin Rahma Adelia",
+          "rating": 5,
+          "text": "Alhamdulillah, adek sudah di khitan..\nTerimakasih ya pak dokter, dokternya ramah & komunikatif.\nCepat kering&hasil bagus.",
+          "date": "9 bulan lalu"
+        },
+        {
+          "author": "Sherin Rahma Adelia",
+          "rating": 5,
+          "text": "Alhamdulillah, adek sudah di khitan..\nTerimakasih ya pak dokter, dokternya ramah & komunikatif.\nCepat kering&hasil bagus.",
+          "date": "9 bulan lalu"
+        },
+        {
+          "author": "Firdaus Ari Sila",
+          "rating": 5,
+          "text": "Terimakasih pak dokter dan Bu bidan, anak kami sudah selesai disunat dengan metode Gold Sealer Premium. Hasil sunatannya estetik dan juga sangat minim darah dan sakitnya. Anak kami jg langsung bisa beraktivitas ringan. Dokter dan Bu …",
+          "date": "setahun lalu"
+        }
+      ],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJhfBunPAHQi4RJMuoqACzE_0",
+      "name": "EZ - Praktik Dokter Kandungan dr. Frida Adhani, SpOG",
+      "address": "Ruko Fiorenza, Citra Raya No.81 Blok O.06, Ciakar, Kec. Panongan, Kabupaten Tangerang, Banten 15710",
+      "maps_url": "https://www.google.com/maps/place/EZ+-+Praktik+Dokter+Kandungan+dr.+Frida+Adhani,+SpOG/data=!4m7!3m6!1s0x2e4207f09c6ef085:0xfd13b300a8a8cb24!8m2!3d-6.2604381!4d106.5303497!16s%2Fg%2F11xh5nfsnz!19sChIJhfBunPAHQi4RJMuoqACzE_0?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": "Tutup · Buka Rab pukul 16.00 ",
+      "category": "klinik",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.2604381,
+      "longitude": 106.5303497,
+      "google_types": "Dokter Kandungan",
+      "reviews": [
+        {
+          "author": "Dian Veronika",
+          "rating": 5,
+          "text": "Kliniknya bersih, ada kids zonenya, ada tempat sholat\nStaffnya ramah, dari receptionist n nurse yg bantu juga\nAdmin WA juga Fast Respon (di jam kerja) …",
+          "date": "4 bulan lalu"
+        },
+        {
+          "author": "Dian Veronika",
+          "rating": 5,
+          "text": "Kliniknya bersih, ada kids zonenya, ada tempat sholat\nStaffnya ramah, dari receptionist n nurse yg bantu juga\nAdmin WA juga Fast Respon (di jam kerja) …",
+          "date": "4 bulan lalu"
+        },
+        {
+          "author": "Windy Novita",
+          "rating": 5,
+          "text": "Pelayanan nya sangat memuaskan dokternya baik dan ramah penjelasan nya juga detail semua pertanyaan dijawab dengan jelas. Terbaikkkkk",
+          "date": "4 bulan lalu"
+        },
+        {
+          "author": "Windy Novita",
+          "rating": 5,
+          "text": "Pelayanan nya sangat memuaskan dokternya baik dan ramah penjelasan nya juga detail semua pertanyaan dijawab dengan jelas. Terbaikkkkk",
+          "date": "4 bulan lalu"
+        },
+        {
+          "author": "iema uTSd",
+          "rating": 5,
+          "text": "Pelayanannya cepat, responnya sangat baik & ramah. Dokternya juga menjelaskan dgn sangat detail. Sukses selalu Bu Dokter Frida...",
+          "date": "2 minggu lalu"
+        }
+      ],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJTbFU9eIGQi4R1zWXAIdl-sk",
+      "name": "dr. Teguh Kurniawan, SpOG @ RSIA Harapan Mulia",
+      "address": "Mata Gara, Kec. Tigaraksa, Kabupaten Tangerang, Banten 15720",
+      "maps_url": "https://www.google.com/maps/place/dr.+Teguh+Kurniawan,+SpOG+@+RSIA+Harapan+Mulia/data=!4m7!3m6!1s0x2e4206e2f554b14d:0xc9fa6587009735d7!8m2!3d-6.2563391!4d106.4861899!16s%2Fg%2F11h9y2xccp!19sChIJTbFU9eIGQi4R1zWXAIdl-sk?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": "Tutup · Buka Rab pukul 09.15 ",
+      "category": "klinik",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.2563391,
+      "longitude": 106.4861899,
+      "google_types": "Dokter Kandungan",
+      "reviews": [
+        {
+          "author": "vonny Trisnavia",
+          "rating": 5,
+          "text": "Masya Allah Alhamdulillah bisa ketemu utun. USG di sini nyaman banget tempatnya, dokter priksanya baik, perawatnya juga ramah 1000% cocok ❤️❤️❤️",
+          "date": "setahun lalu"
+        },
+        {
+          "author": "vonny Trisnavia",
+          "rating": 5,
+          "text": "Masya Allah Alhamdulillah bisa ketemu utun. USG di sini nyaman banget tempatnya, dokter priksanya baik, perawatnya juga ramah 1000% cocok ❤️❤️❤️",
+          "date": "setahun lalu"
+        },
+        {
+          "author": "Yuli Itnayidrah",
+          "rating": 5,
+          "text": "Terimakasih pak dokter 😇 saya mendapatkan penjelasan dgn detail,dokternya juga sangat ramah, semua pertanyaan saya dijawab dengan sabar dan menenangkan hati bumil yg suka ovt kaya saya 🤭 Gambar USG sangat jelas, mulai dr 2G - 4G nya.\nPuas saya checkup kehamilan dengan dokter. Sekali lg terimakasih 😊😊😇 …",
+          "date": "setahun lalu"
+        },
+        {
+          "author": "Yuli Itnayidrah",
+          "rating": 5,
+          "text": "Terimakasih pak dokter 😇 saya mendapatkan penjelasan dgn detail,dokternya juga sangat ramah, semua pertanyaan saya dijawab dengan sabar dan menenangkan hati bumil yg suka ovt kaya saya 🤭 Gambar USG sangat jelas, mulai dr 2G - 4G nya.\nPuas saya checkup kehamilan dengan dokter. Sekali lg terimakasih 😊😊😇 …",
+          "date": "setahun lalu"
+        },
+        {
+          "author": "Titin Kiyani",
+          "rating": 5,
+          "text": "USG di dr.teguh bener bener nyaman sekali MasyaAllah Tabarakallah 🥰 dr. Nya ramah baik penjelasan nya sangat baik bikin kita nya tenang hihi …",
+          "date": "setahun lalu"
+        }
+      ],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJcWxtjiMHQi4RMHcxp8_z1VE",
+      "name": "Rumah Sunat Modern Langit",
+      "address": "Ruko Garden Boulevard S02/172, Ciakar, Kec. Panongan, Kabupaten Tangerang, Banten 15710",
+      "maps_url": "https://www.google.com/maps/place/Rumah+Sunat+Modern+Langit/data=!4m7!3m6!1s0x2e4207238e6d6c71:0x51d5f3cfa7317730!8m2!3d-6.272455!4d106.5291679!16s%2Fg%2F11rqzc1n10!19sChIJcWxtjiMHQi4RMHcxp8_z1VE?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": "Tutup · Buka Rab pukul 06.00 ",
+      "category": "klinik",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.272455,
+      "longitude": 106.5291679,
+      "google_types": "Klinik Medis",
+      "reviews": [
+        {
+          "author": "syamsul huda",
+          "rating": 5,
+          "text": "Tempat sunat yg rekomen bngt,,dokter ramah ,,sabar,,tenang dan tidak terburu.\nTempat nya nyaman dan bersih,,dikasih arahan penjelasan dengan detail dan jelas. …",
+          "date": "3 bulan lalu"
+        },
+        {
+          "author": "syamsul huda",
+          "rating": 5,
+          "text": "Tempat sunat yg rekomen bngt,,dokter ramah ,,sabar,,tenang dan tidak terburu.\nTempat nya nyaman dan bersih,,dikasih arahan penjelasan dengan detail dan jelas. …",
+          "date": "3 bulan lalu"
+        },
+        {
+          "author": "Saidul Hudri",
+          "rating": 5,
+          "text": "31 oktober 2025 pagi  anak saya sunat d sini pelayanan nya bagus dokternya juga baik banget ngasih saran dan penjelasan yg sangat jelas ..ga merasa sakit sma sekali..untuk saat ini munkin obat biusnya blom abis jdi blom nangis hhe",
+          "date": "4 bulan lalu"
+        },
+        {
+          "author": "Saidul Hudri",
+          "rating": 5,
+          "text": "31 oktober 2025 pagi  anak saya sunat d sini pelayanan nya bagus dokternya juga baik banget ngasih saran dan penjelasan yg sangat jelas ..ga merasa sakit sma sekali..untuk saat ini munkin obat biusnya blom abis jdi blom nangis hhe",
+          "date": "4 bulan lalu"
+        },
+        {
+          "author": "nova indriati",
+          "rating": 5,
+          "text": "Dari awal datang untuk Khitan, rasyid Sudah happy karena banyak mainan.. Tempat Sunat Nyaman dan Bersih.. Penjelasan Dokter juga sangat jelas.. Dan setelah Sunat di Pantau,, CHAT di Respon dgn Gercep.. Terimakasih Dokter Irma, Dapet salam dari Rasyid... Makasih sudah dikasih mainan katanya.. hehe",
+          "date": "2 tahun lalu"
+        }
+      ],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJaxjy9AcBQi4RaBZShQcmElI",
+      "name": "Klinik BEC Spesialis Mata Bustami",
+      "address": "QGG3+6X8, Bojong, Kec. Cikupa, Kabupaten Tangerang, Banten 15710",
+      "maps_url": "https://www.google.com/maps/place/Klinik+BEC+Spesialis+Mata+Bustami/data=!4m7!3m6!1s0x2e420107f4f2186b:0x5212260785521668!8m2!3d-6.2244703!4d106.5049541!16s%2Fg%2F11f60xzvwl!19sChIJaxjy9AcBQi4RaBZShQcmElI?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": "Tutup · Buka Rab pukul 13.00 ",
+      "category": "klinik",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.2244703,
+      "longitude": 106.5049541,
+      "google_types": "Pusat Perawatan Mata",
+      "reviews": [
+        {
+          "author": "Giran Aza",
+          "rating": 5,
+          "text": "Berobat tanggal 20/11/2023... Alhamdulillah 2 hari sembuh... mantap pokoknya..soal harga jangan pikirkan... karena sehat itu perlu harga",
+          "date": "2 tahun lalu"
+        },
+        {
+          "author": "Giran Aza",
+          "rating": 5,
+          "text": "Berobat tanggal 20/11/2023... Alhamdulillah 2 hari sembuh... mantap pokoknya..soal harga jangan pikirkan... karena sehat itu perlu harga",
+          "date": "2 tahun lalu"
+        },
+        {
+          "author": "septyan prasetyo",
+          "rating": 5,
+          "text": "Bagi yang belum tahu jam buka ya dan apabila hendak hubungi dokter ya sudah tertera dipapan sekian terimakasih 🙏 …",
+          "date": "2 tahun lalu"
+        },
+        {
+          "author": "septyan prasetyo",
+          "rating": 5,
+          "text": "Bagi yang belum tahu jam buka ya dan apabila hendak hubungi dokter ya sudah tertera dipapan sekian terimakasih 🙏 …",
+          "date": "2 tahun lalu"
+        },
+        {
+          "author": "Sumadi",
+          "rating": 5,
+          "text": "Ini klinik specialis mata ya?\nBisa laser mata jg kah?",
+          "date": "setahun lalu"
+        }
+      ],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJ_68ydQAHQi4R0klCcT-FOCA",
+      "name": "LGS WOMEN & CHILDREN CLINIC",
+      "address": "Blk. U1A, Jl. Citra Raya Boulevard No.385, Ciakar, Kec. Panongan, Kabupaten Tangerang, Banten 15710",
+      "maps_url": "https://www.google.com/maps/place/LGS+WOMEN+%26+CHILDREN+CLINIC/data=!4m7!3m6!1s0x2e4207007532afff:0x2038853f714249d2!8m2!3d-6.2706259!4d106.5251534!16s%2Fg%2F11xzpfmpcm!19sChIJ_68ydQAHQi4R0klCcT-FOCA?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": "Tutup · Buka Rab pukul 08.00 ",
+      "category": "klinik",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.2706259,
+      "longitude": 106.5251534,
+      "google_types": "Dokter Kandungan",
+      "reviews": [
+        {
+          "author": "Setia Wati",
+          "rating": 5,
+          "text": "pelayanan dokter nya sangat ramah, penjelasannya benar benar detail banget, tempatnya juga nyaman & bersih ✨",
+          "date": "2 minggu lalu"
+        },
+        {
+          "author": "Setia Wati",
+          "rating": 5,
+          "text": "pelayanan dokter nya sangat ramah, penjelasannya benar benar detail banget, tempatnya juga nyaman & bersih ✨",
+          "date": "2 minggu lalu"
+        },
+        {
+          "author": "yuni nick",
+          "rating": 5,
+          "text": "Kliniknya bagus dan bersih. Ada dokter perempuannya jadi nyaman untuk USG. Selalu USG di klinik ini juga karena terjangkau. Penjelasan dokternya mudah dipahami apalagi buat bumil newbie seperti saya. Kadang belum tanya aja udah dijelasin detail. Recomended sekali.",
+          "date": "3 minggu lalu"
+        },
+        {
+          "author": "yuni nick",
+          "rating": 5,
+          "text": "Kliniknya bagus dan bersih. Ada dokter perempuannya jadi nyaman untuk USG. Selalu USG di klinik ini juga karena terjangkau. Penjelasan dokternya mudah dipahami apalagi buat bumil newbie seperti saya. Kadang belum tanya aja udah dijelasin detail. Recomended sekali.",
+          "date": "3 minggu lalu"
+        },
+        {
+          "author": "mfajar dwirizki",
+          "rating": 5,
+          "text": "No.1 buat pemeriksaan kehamilan, pelayanannya ramah dan penjelasan dri setiap pertanyaan yg kita berikan di jawab dengan baik sehingga mudah dipahami. Pokoknya nya paling recomended 😌😉😎 …",
+          "date": "2 minggu lalu"
+        }
+      ],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJKRzZ8h0HQi4RRk4UGWOZO9E",
+      "name": "BIDAN ROGAYAH.SKeb.bdn",
+      "address": "Cikupa, Kec. Cikupa, Kabupaten Tangerang, Banten 15710",
+      "maps_url": "https://www.google.com/maps/place/BIDAN+ROGAYAH.SKeb.bdn/data=!4m7!3m6!1s0x2e42071df2d91c29:0xd13b996319144e46!8m2!3d-6.243847!4d106.5180964!16s%2Fg%2F11f6sd66ps!19sChIJKRzZ8h0HQi4RRk4UGWOZO9E?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": "Buka · Tutup pukul 21.30 ",
+      "category": "klinik",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.243847,
+      "longitude": 106.5180964,
+      "google_types": "Rumah Sakit",
+      "reviews": [
+        {
+          "author": "Yoci Yano",
+          "rating": 5,
+          "text": "Alhmdulillah ketmu bubid di usia khmilan 7bulan, masyaallah bgt bner2 ramah, baik, ga pelit pnjlasan, pelayanan ny bagus bget.. dri subuh smpe jam 11 mlm kontraksi ny pngen nyerah tpi bubid sllu ksih afirmasi positif di pijet sma bidan nuy …",
+          "date": "2 bulan lalu"
+        },
+        {
+          "author": "Yoci Yano",
+          "rating": 5,
+          "text": "Alhmdulillah ketmu bubid di usia khmilan 7bulan, masyaallah bgt bner2 ramah, baik, ga pelit pnjlasan, pelayanan ny bagus bget.. dri subuh smpe jam 11 mlm kontraksi ny pngen nyerah tpi bubid sllu ksih afirmasi positif di pijet sma bidan nuy …",
+          "date": "2 bulan lalu"
+        },
+        {
+          "author": "Anis Khairunisa",
+          "rating": 5,
+          "text": "Bidannya keluarga aku ini mah\nDua kali melahirkan di bidan rogayah, pokoknya ga bakal nyesel, sabar banget. temen-temen ku juga banyak yang jadi pasiennya bidan rogayah dan puas sama pelayanannya.",
+          "date": "4 bulan lalu"
+        },
+        {
+          "author": "Anis Khairunisa",
+          "rating": 5,
+          "text": "Bidannya keluarga aku ini mah\nDua kali melahirkan di bidan rogayah, pokoknya ga bakal nyesel, sabar banget. temen-temen ku juga banyak yang jadi pasiennya bidan rogayah dan puas sama pelayanannya.",
+          "date": "4 bulan lalu"
+        },
+        {
+          "author": "Dessy Arum Sari",
+          "rating": 5,
+          "text": "Bidan Favoritku\nRecomend kk ipar..\nPengalaman melahirkan buah hatiku dengan tenang dan nyaman. …",
+          "date": "setahun lalu"
         }
       ],
       "category_conflict": false
