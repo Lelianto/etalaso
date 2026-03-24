@@ -1,10 +1,11 @@
 {
   "_meta": {
-    "scraped_at": "2026-03-24T07:08:29.551Z",
-    "total_places": 639,
+    "scraped_at": "2026-03-24T07:29:12.870Z",
+    "total_places": 728,
     "by_category": {
       "kuliner": 376,
-      "jasa": 263
+      "jasa": 351,
+      "otomotif": 1
     },
     "potential_duplicates": []
   },
@@ -22553,6 +22554,2954 @@
           "rating": 5,
           "text": "Mantaf",
           "date": "setahun lalu"
+        }
+      ],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJDRYx5k4BQi4RdU140B69xj4",
+      "name": "Reparasi sol sepatu Sheryl",
+      "address": "Perum grand harmoni 2, Kec. Balaraja",
+      "maps_url": "https://www.google.com/maps/place/Reparasi+sol+sepatu+Sheryl/data=!4m7!3m6!1s0x2e42014ee631160d:0x3ec6bd1ed0784d75!8m2!3d-6.1644496!4d106.456741!16s%2Fg%2F11s7wnpz1w!19sChIJDRYx5k4BQi4RdU140B69xj4?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": "Buka · Tutup pukul 20.00 ",
+      "category": "jasa",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.1644496,
+      "longitude": 106.456741,
+      "google_types": "Penjahit",
+      "reviews": [
+        {
+          "author": "Khairunnisa Nisaa",
+          "rating": 5,
+          "text": "Halloo mau nanya kebetulan rumah saya di saga ini alamat soal sepatunya apa",
+          "date": "11 bulan lalu"
+        },
+        {
+          "author": "Khairunnisa Nisaa",
+          "rating": 5,
+          "text": "Halloo mau nanya kebetulan rumah saya di saga ini alamat soal sepatunya apa",
+          "date": "11 bulan lalu"
+        }
+      ],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJNTo1HOAHQi4R7ycpWY2osNU",
+      "name": "Sol sepatu garut(phaus sol)",
+      "address": "PFM9+88F, Tigaraksa, Kec. Tigaraksa, Kabupaten Tangerang, Banten 15720",
+      "maps_url": "https://www.google.com/maps/place/Sol+sepatu+garut%28phaus+sol%29/data=!4m7!3m6!1s0x2e4207e01c353a35:0xd5b0a88d592927ef!8m2!3d-6.2666906!4d106.468305!16s%2Fg%2F11st745n_4!19sChIJNTo1HOAHQi4R7ycpWY2osNU?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": "Buka · Tutup pukul 19.00 ",
+      "category": "jasa",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.2666906,
+      "longitude": 106.468305,
+      "google_types": "Penjahit",
+      "reviews": [
+        {
+          "author": "Ratih cholistia Afni Afni",
+          "rating": 5,
+          "text": "servisan memuaskan\npenyelesaian cepat,rapi🥰\nenak orang y asik d ajak ngobrol🥰🥰mksih bang …",
+          "date": "setahun lalu"
+        },
+        {
+          "author": "Ratih cholistia Afni Afni",
+          "rating": 5,
+          "text": "servisan memuaskan\npenyelesaian cepat,rapi🥰\nenak orang y asik d ajak ngobrol🥰🥰mksih bang …",
+          "date": "setahun lalu"
+        },
+        {
+          "author": "MILA FADILAH",
+          "rating": 5,
+          "text": "Pelayanan service sangat cepat dan Rapih...orangnya Ramah...pokonya Top markotop deeeh",
+          "date": "2 tahun lalu"
+        },
+        {
+          "author": "MILA FADILAH",
+          "rating": 5,
+          "text": "Pelayanan service sangat cepat dan Rapih...orangnya Ramah...pokonya Top markotop deeeh",
+          "date": "2 tahun lalu"
+        },
+        {
+          "author": "Zaenal Abidien",
+          "rating": 5,
+          "text": "Depan toko istri, nih..",
+          "date": "5 bulan lalu"
+        }
+      ],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJLUXr3CABQi4RPzhgI7hkuAE",
+      "name": "Toko Sepatu Safety Stand Horse adakah sepatu safety boot yg secondan",
+      "address": "Jalan Raya Serang Km 20 Bojong Cikupa, Sukanagara, Kec. Balaraja, Kabupaten Tangerang, Banten 15710",
+      "maps_url": "https://www.google.com/maps/place/Toko+Sepatu+Safety+Stand+Horse+adakah+sepatu+safety+boot+yg+secondan/data=!4m7!3m6!1s0x2e420120dceb452d:0x1b864b82360383f!8m2!3d-6.2117811!4d106.485257!16s%2Fg%2F11bc7rr0w1!19sChIJLUXr3CABQi4RPzhgI7hkuAE?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": "Buka · Tutup pukul 22.00 ",
+      "category": "jasa",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.2117811,
+      "longitude": 106.485257,
+      "google_types": "Toko Sepatu",
+      "reviews": [
+        {
+          "author": "Martin Almuqtadir",
+          "rating": 5,
+          "text": "Tokonya masih buka ga",
+          "date": "6 bulan lalu"
+        },
+        {
+          "author": "Martin Almuqtadir",
+          "rating": 5,
+          "text": "Tokonya masih buka ga",
+          "date": "6 bulan lalu"
+        },
+        {
+          "author": "BahteraJasa Inspectindo",
+          "rating": 5,
+          "text": "Gan sepatu Cheetah 7110 H harga / Pcs berapa, kalo harga Cocok saya mau ambil lumayan agak banyak",
+          "date": "6 tahun lalu"
+        },
+        {
+          "author": "BahteraJasa Inspectindo",
+          "rating": 5,
+          "text": "Gan sepatu Cheetah 7110 H harga / Pcs berapa, kalo harga Cocok saya mau ambil lumayan agak banyak",
+          "date": "6 tahun lalu"
+        },
+        {
+          "author": "Suhendra Suhendra",
+          "rating": 5,
+          "text": "Jika google bisa membantu chat kami dengan pelanggan via WhatsApp mungkin ini lebih menarik dan bisa closing",
+          "date": "3 tahun lalu"
+        }
+      ],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJhyELN_oBQi4RZStAQW2gW4s",
+      "name": "HOME INDUSTRI PRODUSEN PENGRAJIN : SEPATU, SANDAL",
+      "address": "Bojong, Kec. Cikupa, Kabupaten Tangerang, Banten 15710",
+      "maps_url": "https://www.google.com/maps/place/HOME+INDUSTRI+PRODUSEN+PENGRAJIN+:+SEPATU,+SANDAL/data=!4m7!3m6!1s0x2e4201fa370b2187:0x8b5ba06d41402b65!8m2!3d-6.2263922!4d106.4970321!16s%2Fg%2F11dxqcnt2t!19sChIJhyELN_oBQi4RZStAQW2gW4s?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": "Buka 24 jam ",
+      "category": "jasa",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.2263922,
+      "longitude": 106.4970321,
+      "google_types": "Pabrik sepatu",
+      "reviews": [
+        {
+          "author": "PREFIX DIL",
+          "rating": 5,
+          "text": "Kalau Bikin sepatu bola pakai disen sendiri apa bisa om? Dan minimal order berapa?",
+          "date": "sebulan lalu"
+        },
+        {
+          "author": "PREFIX DIL",
+          "rating": 5,
+          "text": "Kalau Bikin sepatu bola pakai disen sendiri apa bisa om? Dan minimal order berapa?",
+          "date": "sebulan lalu"
+        },
+        {
+          "author": "MANGWEN 76",
+          "rating": 5,
+          "text": "Adakah loker di home industry ini ?",
+          "date": "sebulan lalu"
+        },
+        {
+          "author": "MANGWEN 76",
+          "rating": 5,
+          "text": "Adakah loker di home industry ini ?",
+          "date": "sebulan lalu"
+        },
+        {
+          "author": "ghina gf renjun",
+          "rating": 5,
+          "text": "- Setelah dipikir awalnya kayak kok susah ordernya ternyata dari rumah aja udah bisa order barang dan sebagus ini\n- dan waktu sampe barangnya sesuai di foto satu lagi ,gak nyesel deh beli barang …",
+          "date": "setahun lalu"
+        }
+      ],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJU1xDhnQBQi4RMtIAHLwVAtY",
+      "name": "TOKO ANEKA SHOES BALARAJA",
+      "address": "Jl. Raya Serang No.KM. 24 No. 8, Talagasari, Kec. Balaraja, Kabupaten Tangerang, Banten 15610",
+      "maps_url": "https://www.google.com/maps/place/TOKO+ANEKA+SHOES+BALARAJA/data=!4m7!3m6!1s0x2e42017486435c53:0xd60215bc1c00d232!8m2!3d-6.1974149!4d106.4577644!16s%2Fg%2F11cnbsb0gx!19sChIJU1xDhnQBQi4RMtIAHLwVAtY?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": "Buka · Tutup pukul 18.00 ",
+      "category": "jasa",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.1974149,
+      "longitude": 106.4577644,
+      "google_types": "Toko Sepatu",
+      "reviews": [
+        {
+          "author": "Erdo Haryanto",
+          "rating": 5,
+          "text": "TerLengkap dan termurah seantero tangerang. Tersedia sandal phylon dan sepatu sekolah. Anak anak dan dewasa. Penjualnya ramah, pelayanan yg terbaik.",
+          "date": "7 bulan lalu"
+        },
+        {
+          "author": "Erdo Haryanto",
+          "rating": 5,
+          "text": "TerLengkap dan termurah seantero tangerang. Tersedia sandal phylon dan sepatu sekolah. Anak anak dan dewasa. Penjualnya ramah, pelayanan yg terbaik.",
+          "date": "7 bulan lalu"
+        },
+        {
+          "author": "Ahmad Haqiqi",
+          "rating": 5,
+          "text": "Dari Arah serang berada 300 meter sebelum Pintu Tol Belaraja Barat",
+          "date": "3 tahun lalu"
+        },
+        {
+          "author": "Ahmad Haqiqi",
+          "rating": 5,
+          "text": "Dari Arah serang berada 300 meter sebelum Pintu Tol Belaraja Barat",
+          "date": "3 tahun lalu"
+        },
+        {
+          "author": "heru mib2",
+          "rating": 5,
+          "text": "Tempat belanja sepatu & sendal yang lengkap..\nDan juga pelayanan nya ramah banget🤩🥰🥰 …",
+          "date": "Diedit setahun lalu"
+        }
+      ],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJlW9abAADQi4RZao5tLM6z_w",
+      "name": "Sol sepatu dan permak lepis",
+      "address": "QCM8+CX9, Gembong, Kec. Balaraja, Kabupaten Tangerang, Banten 15610",
+      "maps_url": "https://www.google.com/maps/place/Sol+sepatu+dan+permak+lepis/data=!4m7!3m6!1s0x2e4203006c5a6f95:0xfccf3ab3b439aa65!8m2!3d-6.216469!4d106.417479!16s%2Fg%2F11mksy5zj4!19sChIJlW9abAADQi4RZao5tLM6z_w?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": null,
+      "category": "jasa",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.216469,
+      "longitude": 106.417479,
+      "google_types": "Penjahit",
+      "reviews": [],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJBUMt4uEGQi4RG_sebSN7G08",
+      "name": "HOME INDUSTRI SEPATU ALAS SHOE",
+      "address": "QF2P+F57, Jl. H.Mansyur, Mata Gara, Kec. Tigaraksa, Kabupaten Tangerang, Banten 15720",
+      "maps_url": "https://www.google.com/maps/place/HOME+INDUSTRI+SEPATU+ALAS+SHOE/data=!4m7!3m6!1s0x2e4206e1e22d4305:0x4f1b7b236d1efb1b!8m2!3d-6.2488271!4d106.4854172!16s%2Fg%2F11dzdbk58m!19sChIJBUMt4uEGQi4RG_sebSN7G08?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": "Buka 24 jam ",
+      "category": "jasa",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.2488271,
+      "longitude": 106.4854172,
+      "google_types": "Toko Sepatu",
+      "reviews": [
+        {
+          "author": "Hariyanto mbelink",
+          "rating": 5,
+          "text": "Mantappp dekat ini",
+          "date": "7 tahun lalu"
+        },
+        {
+          "author": "Hariyanto mbelink",
+          "rating": 5,
+          "text": "Mantappp dekat ini",
+          "date": "7 tahun lalu"
+        },
+        {
+          "author": "Stasiun Maos",
+          "rating": 5,
+          "text": "bagus",
+          "date": "7 tahun lalu"
+        },
+        {
+          "author": "Stasiun Maos",
+          "rating": 5,
+          "text": "bagus",
+          "date": "7 tahun lalu"
+        }
+      ],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJoaCmRAABQi4RxWKJobW-nOI",
+      "name": "Pabrik ausol sepatu",
+      "address": "QFVM+WW2, Cibadak, Kec. Cikupa, Kabupaten Tangerang, Banten",
+      "maps_url": "https://www.google.com/maps/place/Pabrik+ausol+sepatu/data=!4m7!3m6!1s0x2e42010044a6a0a1:0xe29cbeb5a18962c5!8m2!3d-6.2052303!4d106.4847606!16s%2Fg%2F11ldgylx28!19sChIJoaCmRAABQi4RxWKJobW-nOI?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": null,
+      "category": "jasa",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.2052303,
+      "longitude": 106.4847606,
+      "google_types": "Produsen",
+      "reviews": [],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJPfHR1UYBQi4RYEmooRmX6yM",
+      "name": "PT. Freetrend",
+      "address": "QFQ6+C66, Kawasan Industri Cidurian Jalan Unggul Pasir Bolang, Sentul, Kec. Balaraja, Kabupaten Tangerang, Banten 15720",
+      "maps_url": "https://www.google.com/maps/place/PT.+Freetrend/data=!4m7!3m6!1s0x2e420146d5d1f13d:0x23eb9719a1a84960!8m2!3d-6.2114711!4d106.4605162!16s%2Fg%2F11cjjhfj8v!19sChIJPfHR1UYBQi4RYEmooRmX6yM?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": "Buka · Tutup pukul 17.00 ",
+      "category": "jasa",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.2114711,
+      "longitude": 106.4605162,
+      "google_types": "Pabrik sepatu",
+      "reviews": [
+        {
+          "author": "Suryadi Exodus",
+          "rating": 5,
+          "text": "Apakah ada nomor wa ny? Terima kasih🙏🏻 …",
+          "date": "2 bulan lalu"
+        },
+        {
+          "author": "Suryadi Exodus",
+          "rating": 5,
+          "text": "Apakah ada nomor wa ny? Terima kasih🙏🏻 …",
+          "date": "2 bulan lalu"
+        },
+        {
+          "author": "Kusnadi",
+          "rating": 5,
+          "text": "Bagaimana cara untuk pesen sendal nya pak",
+          "date": "4 bulan lalu"
+        },
+        {
+          "author": "Kusnadi",
+          "rating": 5,
+          "text": "Bagaimana cara untuk pesen sendal nya pak",
+          "date": "4 bulan lalu"
+        },
+        {
+          "author": "Allan P. Pramana (Prama)",
+          "rating": 5,
+          "text": "Pabrik Sepatu Sport Brand \"NB\", pabrik yang luas dengan jumlah karyawan mencapai ribuan orang. Memiliki peraturan yang ketat dalam keamanan dan memiliki culture kerja dan pekerja yang sangat baik.",
+          "date": "7 tahun lalu"
+        }
+      ],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJqRI5nhcHQi4RfJq3a8lZn3E",
+      "name": "Sol Sepatu Asgar",
+      "address": "Jl. Raya Peusar No.94, Cikupa, Tangerang, Kabupaten Tangerang, Banten 15710",
+      "maps_url": "https://www.google.com/maps/place/Sol+Sepatu+Asgar/data=!4m7!3m6!1s0x2e4207179e3912a9:0x719f59c96bb79a7c!8m2!3d-6.2341982!4d106.5172489!16s%2Fg%2F11pw68k6v8!19sChIJqRI5nhcHQi4RfJq3a8lZn3E?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": null,
+      "category": "jasa",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.2341982,
+      "longitude": 106.5172489,
+      "google_types": "Penjahit",
+      "reviews": [],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJsfPe12j9aS4RdeqQZ4gpmO4",
+      "name": "Sol sepatu FIKSAL",
+      "address": "Jl. Padat Karya, Curug Kulon, Kec. Curug, Kabupaten Tangerang, Banten 15810",
+      "maps_url": "https://www.google.com/maps/place/Sol+sepatu+FIKSAL/data=!4m7!3m6!1s0x2e69fd68d7def3b1:0xee9829886790ea75!8m2!3d-6.2608493!4d106.5443182!16s%2Fg%2F11kl3cn7rv!19sChIJsfPe12j9aS4RdeqQZ4gpmO4?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": "Buka · Tutup pukul 20.00 ",
+      "category": "jasa",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.2608493,
+      "longitude": 106.5443182,
+      "google_types": "Toko Sepatu",
+      "reviews": [
+        {
+          "author": "Supri yadi",
+          "rating": 5,
+          "text": "Ramah dan sabar, hasil memuaskan",
+          "date": "3 tahun lalu"
+        },
+        {
+          "author": "Supri yadi",
+          "rating": 5,
+          "text": "Ramah dan sabar, hasil memuaskan",
+          "date": "3 tahun lalu"
+        },
+        {
+          "author": "Ayah Kalila",
+          "rating": 5,
+          "text": "Yg pastinya org y ramah.. terus sol bagus dan murah tergantung sepatunya atau sendalnya yg mau di sol....di jamin gk kecewa lah....",
+          "date": "4 tahun lalu"
+        },
+        {
+          "author": "Ayah Kalila",
+          "rating": 5,
+          "text": "Yg pastinya org y ramah.. terus sol bagus dan murah tergantung sepatunya atau sendalnya yg mau di sol....di jamin gk kecewa lah....",
+          "date": "4 tahun lalu"
+        },
+        {
+          "author": "Muh Masbukhin",
+          "rating": 5,
+          "text": "Ramah dan cukup murah",
+          "date": "4 tahun lalu"
+        }
+      ],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJF9K2UIcBQi4RtUXqVL8k5XA",
+      "name": "KIOS SOL SEPATU (kodel)",
+      "address": "QGMH+FP5, Pasir Gadung, Kec. Cikupa, Kabupaten Tangerang, Banten 15710",
+      "maps_url": "https://www.google.com/maps/place/KIOS+SOL+SEPATU+%28kodel%29/data=!4m7!3m6!1s0x2e42018750b6d217:0x70e524bf54ea45b5!8m2!3d-6.2163618!4d106.5293706!16s%2Fg%2F11fn04q72_!19sChIJF9K2UIcBQi4RtUXqVL8k5XA?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": "Buka · Tutup pukul 21.00 ",
+      "category": "jasa",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.2163618,
+      "longitude": 106.5293706,
+      "google_types": "Toko Sepatu",
+      "reviews": [
+        {
+          "author": "Narti ajach",
+          "rating": 5,
+          "text": "Abang nya ramah bgt, pengerjaannya rapi, sepatu gw yg tadinya bukux jadi kinclong bgt hehehe😊 …",
+          "date": "sebulan lalu"
+        },
+        {
+          "author": "Narti ajach",
+          "rating": 5,
+          "text": "Abang nya ramah bgt, pengerjaannya rapi, sepatu gw yg tadinya bukux jadi kinclong bgt hehehe😊 …",
+          "date": "sebulan lalu"
+        },
+        {
+          "author": "diyen nurmah atikah",
+          "rating": 5,
+          "text": "Gak pernah gagal sol sepatu di tempat ini🤩,jaitannya sol nya rapih....pelayananya juga ramah …",
+          "date": "setahun lalu"
+        },
+        {
+          "author": "diyen nurmah atikah",
+          "rating": 5,
+          "text": "Gak pernah gagal sol sepatu di tempat ini🤩,jaitannya sol nya rapih....pelayananya juga ramah …",
+          "date": "setahun lalu"
+        }
+      ],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJqRbveMK3vkQRvEuzI-8ab7U",
+      "name": "Tata Laksana Sakti",
+      "address": "Jl. Jawaringan No.mer 2, RT.02/RW.03, Mekar Bakti, Kec. Panongan, Kabupaten Tangerang, Banten 15711",
+      "maps_url": "https://www.google.com/maps/place/Tata+Laksana+Sakti/data=!4m7!3m6!1s0x44beb7c278ef16a9:0xb56f1aef23b34bbc!8m2!3d-6.2562368!4d106.5125805!16s%2Fg%2F11vdb66xj2!19sChIJqRbveMK3vkQRvEuzI-8ab7U?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": "Buka · Tutup pukul 17.00 ",
+      "category": "jasa",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.2562368,
+      "longitude": 106.5125805,
+      "google_types": "Pabrik sepatu",
+      "reviews": [
+        {
+          "author": "Doel Sakat",
+          "rating": 5,
+          "text": "MasyaAllah Owner nya sangat Ramah dan Baik Hati.....semoga panjang umur sehat selalu Lancar Berkah Rejekinya  Bossque.....Aamiin",
+          "date": "4 bulan lalu"
+        },
+        {
+          "author": "Doel Sakat",
+          "rating": 5,
+          "text": "MasyaAllah Owner nya sangat Ramah dan Baik Hati.....semoga panjang umur sehat selalu Lancar Berkah Rejekinya  Bossque.....Aamiin",
+          "date": "4 bulan lalu"
+        },
+        {
+          "author": "Ema Sagalaa",
+          "rating": 5,
+          "text": "Owner nya sangat ramahhh.. sukses teruss",
+          "date": "2 minggu lalu"
+        },
+        {
+          "author": "Ema Sagalaa",
+          "rating": 5,
+          "text": "Owner nya sangat ramahhh.. sukses teruss",
+          "date": "2 minggu lalu"
+        },
+        {
+          "author": "Arib Daffa",
+          "rating": 5,
+          "text": "Permisi pak/bu,disini apa bisa menerima anak pkl?",
+          "date": "5 bulan lalu"
+        }
+      ],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJay7IYo3_aS4Rxivm3iG0IHE",
+      "name": "PT.WASA KHARISMA INDONESIA",
+      "address": "Jl. Raya Serang No.Km 11, Bunder, Kec. Cikupa, Kabupaten Tangerang, Banten 15710",
+      "maps_url": "https://www.google.com/maps/place/PT.WASA+KHARISMA+INDONESIA/data=!4m7!3m6!1s0x2e69ff8d62c82e6b:0x7120b421dee62bc6!8m2!3d-6.2245948!4d106.5521463!16s%2Fg%2F11h0lkkqhv!19sChIJay7IYo3_aS4Rxivm3iG0IHE?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": null,
+      "category": "jasa",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.2245948,
+      "longitude": 106.5521463,
+      "google_types": "Kantor Perusahaan",
+      "reviews": [
+        {
+          "author": "Juhaeriyah Riyah",
+          "rating": 5,
+          "text": "Permisi min untuk mengetahui pembukaan rekrutmen bisa diakses dimana yah",
+          "date": "3 bulan lalu"
+        },
+        {
+          "author": "Juhaeriyah Riyah",
+          "rating": 5,
+          "text": "Permisi min untuk mengetahui pembukaan rekrutmen bisa diakses dimana yah",
+          "date": "3 bulan lalu"
+        },
+        {
+          "author": "Duwi Vijiyatmoko",
+          "rating": 5,
+          "text": "Maaf mau nanya dsini produksi karet foxing sepatu gak yah\nKalo mau nanya harga karet foxing ksiapa ya",
+          "date": "6 bulan lalu"
+        },
+        {
+          "author": "Duwi Vijiyatmoko",
+          "rating": 5,
+          "text": "Maaf mau nanya dsini produksi karet foxing sepatu gak yah\nKalo mau nanya harga karet foxing ksiapa ya",
+          "date": "6 bulan lalu"
+        },
+        {
+          "author": "Dian Puspita",
+          "rating": 5,
+          "text": "Ada loker gak 🙏 …",
+          "date": "7 bulan lalu"
+        }
+      ],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJ5bcxzWcHQi4RRP6lbUqBErY",
+      "name": "Sol & Reparasi Sepatu Sandal",
+      "address": "Jl. Belimbing 2 No.14, Marga Sari, Kec. Tigaraksa, Kabupaten Tangerang, Banten 15720",
+      "maps_url": "https://www.google.com/maps/place/Sol+%26+Reparasi+Sepatu+Sandal/data=!4m7!3m6!1s0x2e420767cd31b7e5:0xb612814a6da5fe44!8m2!3d-6.2796853!4d106.4916988!16s%2Fg%2F11llhy2724!19sChIJ5bcxzWcHQi4RRP6lbUqBErY?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": "Buka · Tutup pukul 18.00 ",
+      "category": "jasa",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.2796853,
+      "longitude": 106.4916988,
+      "google_types": "Toko Reparasi Sepatu",
+      "reviews": [
+        {
+          "author": "Sariyanto Yanto",
+          "rating": 5,
+          "text": "Sangat membantu sesama yg membutuhkan",
+          "date": "8 bulan lalu"
+        },
+        {
+          "author": "Sariyanto Yanto",
+          "rating": 5,
+          "text": "Sangat membantu sesama yg membutuhkan",
+          "date": "8 bulan lalu"
+        },
+        {
+          "author": "Aruf Unyu",
+          "rating": 5,
+          "text": "Bagus",
+          "date": "4 tahun lalu"
+        },
+        {
+          "author": "Aruf Unyu",
+          "rating": 5,
+          "text": "Bagus",
+          "date": "4 tahun lalu"
+        }
+      ],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJS1NrPgAFQi4RM44VVdVI4DI",
+      "name": "SOL SEPATU SERGIO",
+      "address": "Griya harmoni, Cibugel, Kec. Cisoka, Kabupaten Tangerang, Banten 15730",
+      "maps_url": "https://www.google.com/maps/place/SOL+SEPATU+SERGIO/data=!4m7!3m6!1s0x2e4205003e6b534b:0x32e048d555158e33!8m2!3d-6.2494574!4d106.4169099!16s%2Fg%2F11md13d_kf!19sChIJS1NrPgAFQi4RM44VVdVI4DI?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": "Buka 24 jam ",
+      "category": "jasa",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.2494574,
+      "longitude": 106.4169099,
+      "google_types": "Toko Reparasi Sepatu",
+      "reviews": [],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJD93pljwHQi4R6S22DYF_BLY",
+      "name": "Produsen sepatu /pabrik sepatu / Vendor sepatu / Produsen Sandal",
+      "address": "Workshop, :Jl.padat karya, Kp samprok, Sukamulya, Kec. Cikupa, Kabupaten Tangerang, Banten 15710",
+      "maps_url": "https://www.google.com/maps/place/Produsen+sepatu+%2Fpabrik+sepatu+%2F+Vendor+sepatu+%2F+Produsen+Sandal/data=!4m7!3m6!1s0x2e42073c96e9dd0f:0xb6047f810db62de9!8m2!3d-6.2359533!4d106.5051171!16s%2Fg%2F11h7rzmrt1!19sChIJD93pljwHQi4R6S22DYF_BLY?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": "Buka · Tutup pukul 17.00 ",
+      "category": "jasa",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.2359533,
+      "longitude": 106.5051171,
+      "google_types": "Produsen",
+      "reviews": [
+        {
+          "author": "Eka Muhammad",
+          "rating": 5,
+          "text": "Ada kontak yng bisa dihubungi?",
+          "date": "2 bulan lalu"
+        },
+        {
+          "author": "Eka Muhammad",
+          "rating": 5,
+          "text": "Ada kontak yng bisa dihubungi?",
+          "date": "2 bulan lalu"
+        },
+        {
+          "author": "Bo Bo",
+          "rating": 5,
+          "text": "apa bisa menghubungi admin?",
+          "date": "3 bulan lalu"
+        },
+        {
+          "author": "Bo Bo",
+          "rating": 5,
+          "text": "apa bisa menghubungi admin?",
+          "date": "3 bulan lalu"
+        },
+        {
+          "author": "Adika Yudistira",
+          "rating": 5,
+          "text": "alhamdulillah modal kepercayaan aja ternyata vendornya jujur, barangnya rapih sesuai order",
+          "date": "setahun lalu"
+        }
+      ],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJE6fuVMQGQi4RWMyQ17bNDKI",
+      "name": "Sol Sepatu Asgar",
+      "address": "QF5F+93X, Jl. Aria Jaya Santika, Pasir Nangka, Kec. Tigaraksa, Kabupaten Tangerang, Banten 15720",
+      "maps_url": "https://www.google.com/maps/place/Sol+Sepatu+Asgar/data=!4m7!3m6!1s0x2e4206c454eea713:0xa20ccdb6d790cc58!8m2!3d-6.2415123!4d106.4727284!16s%2Fg%2F11spp0bkw8!19sChIJE6fuVMQGQi4RWMyQ17bNDKI?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": null,
+      "category": "jasa",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.2415123,
+      "longitude": 106.4727284,
+      "google_types": "Toko Sepatu",
+      "reviews": [
+        {
+          "author": "Apid Tea",
+          "rating": 5,
+          "text": "Cukup baik dan aman\nSemoga kdepan nya lbih baik",
+          "date": "setahun lalu"
+        },
+        {
+          "author": "Apid Tea",
+          "rating": 5,
+          "text": "Cukup baik dan aman\nSemoga kdepan nya lbih baik",
+          "date": "setahun lalu"
+        },
+        {
+          "author": "Akun tumbal",
+          "rating": 5,
+          "text": "jahitan rapih.\npas didepan perum mustika, kadang suka ketutupan angkot harus lebih teliti liat lapaknya.",
+          "date": "2 minggu lalu"
+        },
+        {
+          "author": "Akun tumbal",
+          "rating": 5,
+          "text": "jahitan rapih.\npas didepan perum mustika, kadang suka ketutupan angkot harus lebih teliti liat lapaknya.",
+          "date": "2 minggu lalu"
+        }
+      ],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJCWizSAD9aS4RWJ9xbkklFjM",
+      "name": "SOL SEPATU NUSAMI",
+      "address": "Jl. Raya Binong No.7, Binong, Kec. Curug, Kabupaten Tangerang, Banten 15810",
+      "maps_url": "https://www.google.com/maps/place/SOL+SEPATU+NUSAMI/data=!4m7!3m6!1s0x2e69fd0048b36809:0x331625496e719f58!8m2!3d-6.2296956!4d106.5907873!16s%2Fg%2F11mz1m8ddz!19sChIJCWizSAD9aS4RWJ9xbkklFjM?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": "Buka · Tutup pukul 21.30 Diperbarui oleh pengguna lain 10 minggu yang lalu",
+      "category": "jasa",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.2296956,
+      "longitude": 106.5907873,
+      "google_types": "Penjahit",
+      "reviews": [
+        {
+          "author": "Nono Saputra (Mang Nono sol)",
+          "rating": 5,
+          "text": "Sudah ke mana2 jakarta merak Batam Tanggerang balik papan",
+          "date": "sebulan lalu"
+        },
+        {
+          "author": "Nono Saputra (Mang Nono sol)",
+          "rating": 5,
+          "text": "Sudah ke mana2 jakarta merak Batam Tanggerang balik papan",
+          "date": "sebulan lalu"
+        },
+        {
+          "author": "Rizki Ramdani",
+          "rating": 5,
+          "text": "👍👍 …",
+          "date": "sebulan lalu"
+        },
+        {
+          "author": "Rizki Ramdani",
+          "rating": 5,
+          "text": "👍👍 …",
+          "date": "sebulan lalu"
+        },
+        {
+          "author": "Mang Osih79 (Mang Osih)",
+          "rating": 5,
+          "text": "👍👍 …",
+          "date": "sebulan lalu"
+        }
+      ],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJg-AK1CYHQi4RJQhCJVv_e7I",
+      "name": "Kios BAJU IMPOR. SOL SEPATU. (MATO)",
+      "address": "QG69+PRP, Jl. KH Abdul Rahman, Cikupa, Kec. Cikupa, Kabupaten Tangerang, Banten 15710",
+      "maps_url": "https://www.google.com/maps/place/Kios+BAJU+IMPOR.+SOL+SEPATU.+%28MATO%29/data=!4m7!3m6!1s0x2e420726d40ae083:0xb27bff5b25420825!8m2!3d-6.2381676!4d106.5195889!16s%2Fg%2F11nn4yn1ld!19sChIJg-AK1CYHQi4RJQhCJVv_e7I?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": "Buka · Tutup pukul 21.00 ",
+      "category": "jasa",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.2381676,
+      "longitude": 106.5195889,
+      "google_types": "Toko Pakaian",
+      "reviews": [
+        {
+          "author": "Imat Riswanto",
+          "rating": 5,
+          "text": "Aman dan nyaman",
+          "date": "4 tahun lalu"
+        },
+        {
+          "author": "Imat Riswanto",
+          "rating": 5,
+          "text": "Aman dan nyaman",
+          "date": "4 tahun lalu"
+        }
+      ],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJcTkhegAHQi4R8bnEsCk68Ac",
+      "name": "Sol sepatu,sandal dll (kodel)2",
+      "address": "Jl. Cibarengkok No.01, RT.03, Peusar, Kec. Panongan, Kabupaten Tangerang, Banten 15710",
+      "maps_url": "https://www.google.com/maps/place/Sol+sepatu,sandal+dll+%28kodel%292/data=!4m7!3m6!1s0x2e4207007a213971:0x7f03a29b0c4b9f1!8m2!3d-6.2492472!4d106.5058548!16s%2Fg%2F11y4krl79p!19sChIJcTkhegAHQi4R8bnEsCk68Ac?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": null,
+      "category": "jasa",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.2492472,
+      "longitude": 106.5058548,
+      "google_types": "Toko Sepatu",
+      "reviews": [],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJmYKzEU4HQi4R_8xNebtW14g",
+      "name": "ISTANA SEPATU CITRA RAYA",
+      "address": "Ruko Taman Puspa Jl. Citra Raya Boulevard No.20R, Cikupa, Kec. Cikupa, Kabupaten Tangerang, Banten 15710",
+      "maps_url": "https://www.google.com/maps/place/ISTANA+SEPATU+CITRA+RAYA/data=!4m7!3m6!1s0x2e42074e11b38299:0x88d756bb794dccff!8m2!3d-6.2333367!4d106.5219931!16s%2Fg%2F11cnkzqf2l!19sChIJmYKzEU4HQi4R_8xNebtW14g?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": "Buka · Tutup pukul 22.00 ",
+      "category": "jasa",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.2333367,
+      "longitude": 106.5219931,
+      "google_types": "Toko Sepatu",
+      "reviews": [
+        {
+          "author": "Angga Arshavin",
+          "rating": 5,
+          "text": "Tempat cari Sepatu, Sandal dan Tas di Citra Raya.\nMulai dari Sepatu anak2 ataupun dewasa, selatu sekolah, sepatu kerja, sepatu olah raga, dan sepatu2 yang lain. …",
+          "date": "3 tahun lalu"
+        },
+        {
+          "author": "Angga Arshavin",
+          "rating": 5,
+          "text": "Tempat cari Sepatu, Sandal dan Tas di Citra Raya.\nMulai dari Sepatu anak2 ataupun dewasa, selatu sekolah, sepatu kerja, sepatu olah raga, dan sepatu2 yang lain. …",
+          "date": "3 tahun lalu"
+        },
+        {
+          "author": "Rusdi",
+          "rating": 5,
+          "text": "Mantap sepatu dan sendalnya pada bagus\"harga terjangkau",
+          "date": "sebulan lalu"
+        },
+        {
+          "author": "Rusdi",
+          "rating": 5,
+          "text": "Mantap sepatu dan sendalnya pada bagus\"harga terjangkau",
+          "date": "sebulan lalu"
+        },
+        {
+          "author": "Nangs31 Chanel",
+          "rating": 5,
+          "text": "Banyak model sepatu dan sendal dari berbagai merek gasskeun",
+          "date": "7 bulan lalu"
+        }
+      ],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJCes7tur9aS4RQTMHTz-EEa4",
+      "name": "SOL SANDAL & SEPATU MANG IIP",
+      "address": "QH73+895, Kadu Jaya, Kec. Curug, Kabupaten Tangerang, Banten 15810",
+      "maps_url": "https://www.google.com/maps/place/SOL+SANDAL+%26+SEPATU+MANG+IIP/data=!4m7!3m6!1s0x2e69fdeab63beb09:0xae11843f4f073341!8m2!3d-6.2367512!4d106.5534963!16s%2Fg%2F11ry9dzxp9!19sChIJCes7tur9aS4RQTMHTz-EEa4?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": "Buka · Tutup pukul 21.00 ",
+      "category": "jasa",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.2367512,
+      "longitude": 106.5534963,
+      "google_types": "Penjahit",
+      "reviews": [
+        {
+          "author": "Satrio Gayu Sasongko",
+          "rating": 5,
+          "text": "Hasil rapih, pengerjaan cepet dan bisa ditunggu. (Lokasi geser 10 meter dari map)",
+          "date": "11 bulan lalu"
+        },
+        {
+          "author": "Satrio Gayu Sasongko",
+          "rating": 5,
+          "text": "Hasil rapih, pengerjaan cepet dan bisa ditunggu. (Lokasi geser 10 meter dari map)",
+          "date": "11 bulan lalu"
+        },
+        {
+          "author": "Dika Aropah",
+          "rating": 5,
+          "text": "Pengerjaan sol nya rapih\nGanti bwhn harga terjangkau\nGarut asli bukn kwe kwe\nAyo sol di kios sol mang iip",
+          "date": "4 tahun lalu"
+        },
+        {
+          "author": "Dika Aropah",
+          "rating": 5,
+          "text": "Pengerjaan sol nya rapih\nGanti bwhn harga terjangkau\nGarut asli bukn kwe kwe\nAyo sol di kios sol mang iip",
+          "date": "4 tahun lalu"
+        },
+        {
+          "author": "Gusti Agung",
+          "rating": 5,
+          "text": "Kamu baik-baik saja, ayah..",
+          "date": "4 tahun lalu"
+        }
+      ],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJg-ePWgD9aS4Ric2f1W5aI3s",
+      "name": "SOL SEPATU SULE",
+      "address": "PHQ5+JC9, Jl. Raya PLP Curug, Curug Wetan, Kec. Curug, Kabupaten Tangerang, Banten 15810",
+      "maps_url": "https://www.google.com/maps/place/SOL+SEPATU+SULE/data=!4m7!3m6!1s0x2e69fd005a8fe783:0x7b235a6ed59fcd89!8m2!3d-6.2609383!4d106.5587072!16s%2Fg%2F11z0ztg2hx!19sChIJg-ePWgD9aS4Ric2f1W5aI3s?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": "Buka · Tutup pukul 18.00 ",
+      "category": "jasa",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.2609383,
+      "longitude": 106.5587072,
+      "google_types": "Jasa Semir Sepatu",
+      "reviews": [],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJlxPEQiQBQi4RG1-T7umNsvc",
+      "name": "TOKO BAHAN OUTSOLE SANDAL & SEPATU",
+      "address": "Ruko Avenue Blok.Z08 No.186, CikupaKec, Kec. Cikupa, Kabupaten Tangerang, Banten 15710",
+      "maps_url": "https://www.google.com/maps/place/TOKO+BAHAN+OUTSOLE+SANDAL+%26+SEPATU/data=!4m7!3m6!1s0x2e42012442c41397:0xf7b28de9ee935f1b!8m2!3d-6.2194256!4d106.5201084!16s%2Fg%2F11vbcdt39q!19sChIJlxPEQiQBQi4RG1-T7umNsvc?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": null,
+      "category": "jasa",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.2194256,
+      "longitude": 106.5201084,
+      "google_types": "Toko",
+      "reviews": [
+        {
+          "author": "achmad fauzan",
+          "rating": 5,
+          "text": "yg jual ramah",
+          "date": "2 tahun lalu"
+        },
+        {
+          "author": "achmad fauzan",
+          "rating": 5,
+          "text": "yg jual ramah",
+          "date": "2 tahun lalu"
+        }
+      ],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJ80uQhEIHQi4RySy19HdKPnQ",
+      "name": "Home industri sepatu aa ical",
+      "address": "Cikupa, Kec. Cikupa, Kabupaten Tangerang, Banten 15710",
+      "maps_url": "https://www.google.com/maps/place/Home+industri+sepatu+aa+ical/data=!4m7!3m6!1s0x2e42074284904bf3:0x743e4a77f4b52cc9!8m2!3d-6.2347753!4d106.5201084!16s%2Fg%2F11kz8dvsdz!19sChIJ80uQhEIHQi4RySy19HdKPnQ?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": "Buka · Tutup pukul 17.00·Lihat jam lainnya",
+      "category": "jasa",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.2347753,
+      "longitude": 106.5201084,
+      "google_types": "Toko Reparasi Sepatu",
+      "reviews": [],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJr2GTQvn_QS4R334tBwbN7Nk",
+      "name": "Toko Sol Sepatu",
+      "address": "VG5H+P38, Jl. Raya Ps. Kemis, Sindangsari, Kec. Ps. Kemis, Kabupaten Tangerang, Banten 15540",
+      "maps_url": "https://www.google.com/maps/place/Toko+Sol+Sepatu/data=!4m7!3m6!1s0x2e41fff9429361af:0xd9eccd06072d7edf!8m2!3d-6.1407111!4d106.5276958!16s%2Fg%2F11fn7_7_vd!19sChIJr2GTQvn_QS4R334tBwbN7Nk?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": "Buka · Tutup pukul 21.00 ",
+      "category": "jasa",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.1407111,
+      "longitude": 106.5276958,
+      "google_types": "Toko Sepatu",
+      "reviews": [
+        {
+          "author": "Dodi Apriyadi",
+          "rating": 5,
+          "text": "Tempat tukang sol berkualitas, sangat recomended, sangat bagus pekerjaan nya, owner nya juga ramah",
+          "date": "3 tahun lalu"
+        },
+        {
+          "author": "Dodi Apriyadi",
+          "rating": 5,
+          "text": "Tempat tukang sol berkualitas, sangat recomended, sangat bagus pekerjaan nya, owner nya juga ramah",
+          "date": "3 tahun lalu"
+        },
+        {
+          "author": "nadiana",
+          "rating": 5,
+          "text": "Hasil solnya bagus, pekerjaannya rapi, awet dan telaten. Makasih ya.",
+          "date": "setahun lalu"
+        },
+        {
+          "author": "nadiana",
+          "rating": 5,
+          "text": "Hasil solnya bagus, pekerjaannya rapi, awet dan telaten. Makasih ya.",
+          "date": "setahun lalu"
+        },
+        {
+          "author": "Karyono Karyono k",
+          "rating": 5,
+          "text": "Mantap sepatu nya awet\" terimakasi mang sol",
+          "date": "4 tahun lalu"
+        }
+      ],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJ5z16jdkAQi4R6ypz-z9JlDQ",
+      "name": "PT. Horn Ming Indonesia",
+      "address": "Jl. Raya Serang No.Km 18.8, Sukanagara, Kec. Cikupa, Kabupaten Tangerang, Banten 15710",
+      "maps_url": "https://www.google.com/maps/place/PT.+Horn+Ming+Indonesia/data=!4m7!3m6!1s0x2e4200d98d7a3de7:0x3494493ffb732aeb!8m2!3d-6.2163277!4d106.4930117!16s%2Fg%2F11xmdml3l!19sChIJ5z16jdkAQi4R6ypz-z9JlDQ?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": null,
+      "category": "jasa",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.2163277,
+      "longitude": 106.4930117,
+      "google_types": "Kantor Perusahaan",
+      "reviews": [
+        {
+          "author": "Donny Djie",
+          "rating": 5,
+          "text": "Kenangan....± Tahun 1989, Masih di jl. Industri IV, saat Mr Fang, Miss Lie, Agus Tan, Semoga semakin jaya",
+          "date": "sebulan lalu"
+        },
+        {
+          "author": "Donny Djie",
+          "rating": 5,
+          "text": "Kenangan....± Tahun 1989, Masih di jl. Industri IV, saat Mr Fang, Miss Lie, Agus Tan, Semoga semakin jaya",
+          "date": "sebulan lalu"
+        },
+        {
+          "author": "Fatma sevtiyani Sevty",
+          "rating": 5,
+          "text": "Assalammualaiku,\nMohon maaf apa masih ada lowongan kerja🙏 …",
+          "date": "3 bulan lalu"
+        },
+        {
+          "author": "Fatma sevtiyani Sevty",
+          "rating": 5,
+          "text": "Assalammualaiku,\nMohon maaf apa masih ada lowongan kerja🙏 …",
+          "date": "3 bulan lalu"
+        },
+        {
+          "author": "Suhaelina Wati",
+          "rating": 5,
+          "text": "Permisi pak/ibu apakah ada loker untuk lulusan SMA dan non pengalamn🙏🏻 …",
+          "date": "6 bulan lalu"
+        }
+      ],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJGVBNPPv_QS4RE7wZ3knWqxk",
+      "name": "Toko Sol Sepatu",
+      "address": "VGCG+36H, JL Raya Rajeg Sindang Sari Pasarkemis, Sindang Jaya, Pasar Kemis, Sukatani, Kec. Rajeg, Kabupaten Tangerang, Banten 15540",
+      "maps_url": "https://www.google.com/maps/place/Toko+Sol+Sepatu/data=!4m7!3m6!1s0x2e41fffb3c4d5019:0x19abd649de19bc13!8m2!3d-6.1298017!4d106.5256222!16s%2Fg%2F11b6d7g4pv!19sChIJGVBNPPv_QS4RE7wZ3knWqxk?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": "Buka · Tutup pukul 18.00 ",
+      "category": "jasa",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.1298017,
+      "longitude": 106.5256222,
+      "google_types": "Toko Sepatu",
+      "reviews": [
+        {
+          "author": "Dirmanorfc Siputra",
+          "rating": 5,
+          "text": "sy udah muter2 cari jual sol sepatu",
+          "date": "8 tahun lalu"
+        },
+        {
+          "author": "Dirmanorfc Siputra",
+          "rating": 5,
+          "text": "sy udah muter2 cari jual sol sepatu",
+          "date": "8 tahun lalu"
+        },
+        {
+          "author": "Dicky permana Tunggal",
+          "rating": 5,
+          "text": "Mantap",
+          "date": "5 tahun lalu"
+        },
+        {
+          "author": "Dicky permana Tunggal",
+          "rating": 5,
+          "text": "Mantap",
+          "date": "5 tahun lalu"
+        },
+        {
+          "author": "Diki Permana",
+          "rating": 5,
+          "text": "Oke",
+          "date": "setahun lalu"
+        }
+      ],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJBVrKvdgHQi4Rys1bcA6icXM",
+      "name": "Sepatu Bedol",
+      "address": "PG4J+G78, Ranca Kalapa, Kec. Panongan, Kabupaten Tangerang, Banten 15710",
+      "maps_url": "https://www.google.com/maps/place/Sepatu+Bedol/data=!4m7!3m6!1s0x2e4207d8bdca5a05:0x7371a20e705bcdca!8m2!3d-6.2937045!4d106.5307146!16s%2Fg%2F11rk022cql!19sChIJBVrKvdgHQi4Rys1bcA6icXM?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": "Buka 24 jam ",
+      "category": "jasa",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.2937045,
+      "longitude": 106.5307146,
+      "google_types": "Toko Sepatu",
+      "reviews": [
+        {
+          "author": "bebyshop eva",
+          "rating": 5,
+          "text": "Bersih,Rapih,Wangi",
+          "date": "3 tahun lalu"
+        },
+        {
+          "author": "bebyshop eva",
+          "rating": 5,
+          "text": "Bersih,Rapih,Wangi",
+          "date": "3 tahun lalu"
+        },
+        {
+          "author": "Wirakaryati Mirzal",
+          "rating": 5,
+          "text": "Murah murah sepatunya..",
+          "date": "4 tahun lalu"
+        },
+        {
+          "author": "Wirakaryati Mirzal",
+          "rating": 5,
+          "text": "Murah murah sepatunya..",
+          "date": "4 tahun lalu"
+        }
+      ],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJqR2Jq2cBQi4ROv_zkgmm3go",
+      "name": "Kotek Indah. PT",
+      "address": "JL Raya Serang, Km 16 Desa Talaga Rt 06/ 01, Talaga, Kec. Cikupa, Kabupaten Tangerang, Banten 15610",
+      "maps_url": "https://www.google.com/maps/place/Kotek+Indah.+PT/data=!4m7!3m6!1s0x2e420167ab891da9:0xadea60992f3ff3a!8m2!3d-6.2221105!4d106.5144213!16s%2Fg%2F1hc4ctqs_!19sChIJqR2Jq2cBQi4ROv_zkgmm3go?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": "Buka · Tutup pukul 16.00 ",
+      "category": "jasa",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.2221105,
+      "longitude": 106.5144213,
+      "google_types": "Toko",
+      "reviews": [
+        {
+          "author": "h3rNi",
+          "rating": 5,
+          "text": "Industri rajutan benang untuk webbing tape,elastic band dan talikur",
+          "date": "setahun lalu"
+        },
+        {
+          "author": "h3rNi",
+          "rating": 5,
+          "text": "Industri rajutan benang untuk webbing tape,elastic band dan talikur",
+          "date": "setahun lalu"
+        },
+        {
+          "author": "Lisda Bungs.07",
+          "rating": 5,
+          "text": "memproduksi webbing dan elastik dengan kualitas yang baik",
+          "date": "5 tahun lalu"
+        },
+        {
+          "author": "Lisda Bungs.07",
+          "rating": 5,
+          "text": "memproduksi webbing dan elastik dengan kualitas yang baik",
+          "date": "5 tahun lalu"
+        }
+      ],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJnzbSDsL7aS4RsrEGsjcTno0",
+      "name": "Om Ndut/Didi sol sepatu sandal & repair koper,tas dll...",
+      "address": "Jl. Ki Hajar Dewantara No.1, Pakulonan Barat, Kecamatan Kelapa Dua, Kabupaten Tangerang, Banten 15810",
+      "maps_url": "https://www.google.com/maps/place/Om+Ndut%2FDidi+sol+sepatu+sandal+%26+repair+koper,tas+dll.../data=!4m7!3m6!1s0x2e69fbc20ed2369f:0x8d9e1337b206b1b2!8m2!3d-6.2394155!4d106.6354612!16s%2Fg%2F11fnb1c3ht!19sChIJnzbSDsL7aS4RsrEGsjcTno0?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": "Buka · Tutup pukul 17.30 ",
+      "category": "jasa",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.2394155,
+      "longitude": 106.6354612,
+      "google_types": "Layanan reparasi",
+      "reviews": [
+        {
+          "author": "EXPLORE YOUR LIMITS",
+          "rating": 5,
+          "text": "Ramah dan asik, gak muka duitan, hasil jahitannya top walau tempatnya sederhana, harga worth, gak pake drama kyk yg lain merasa sdh paling spesialis urusan repair sepatu. Bang Didi toplah. Bye² yg merasa shoes and care harga mehong hasil biasa.",
+          "date": "8 bulan lalu"
+        },
+        {
+          "author": "EXPLORE YOUR LIMITS",
+          "rating": 5,
+          "text": "Ramah dan asik, gak muka duitan, hasil jahitannya top walau tempatnya sederhana, harga worth, gak pake drama kyk yg lain merasa sdh paling spesialis urusan repair sepatu. Bang Didi toplah. Bye² yg merasa shoes and care harga mehong hasil biasa.",
+          "date": "8 bulan lalu"
+        },
+        {
+          "author": "Teddy Kurnia",
+          "rating": 5,
+          "text": "Service sepatu hasilnya rapih, bisa wa dlu untuk tanya2 harga, pelayanan juga ramah.",
+          "date": "4 bulan lalu"
+        },
+        {
+          "author": "Teddy Kurnia",
+          "rating": 5,
+          "text": "Service sepatu hasilnya rapih, bisa wa dlu untuk tanya2 harga, pelayanan juga ramah.",
+          "date": "4 bulan lalu"
+        },
+        {
+          "author": "Vanya Stephani",
+          "rating": 5,
+          "text": "Cari2 tempat reparasi resleting tas yang patah, nemu lah ini di google. Lokasinya ga jauh dari Pahoa. Bs parkir di ruko sebelahnya. Lokasinya di gang, pas di deketnya ada gate masuk ke ruko. Jadi bs parkir ga jauh dr situ. Surprisingly …",
+          "date": "setahun lalu"
+        }
+      ],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJbS_nzFUHQi4Rdn13lQ3WphI",
+      "name": "Nara shoes and care",
+      "address": "PFW9+WXH, Jl. Aria Jaya Santika, Pasir Nangka, Kec. Tigaraksa, Kabupaten Tangerang, Banten 15721",
+      "maps_url": "https://www.google.com/maps/place/Nara+shoes+and+care/data=!4m7!3m6!1s0x2e420755cce72f6d:0x12a6d60d95777d76!8m2!3d-6.2526881!4d106.4699893!16s%2Fg%2F11r7q1pn6k!19sChIJbS_nzFUHQi4Rdn13lQ3WphI?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": "Buka · Tutup pukul 16.30 ",
+      "category": "jasa",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.2526881,
+      "longitude": 106.4699893,
+      "google_types": "Toko Reparasi Sepatu",
+      "reviews": [
+        {
+          "author": "Ricky Een Sukamto",
+          "rating": 5,
+          "text": "Bisa pasang vibram gak ?",
+          "date": "3 tahun lalu"
+        },
+        {
+          "author": "Ricky Een Sukamto",
+          "rating": 5,
+          "text": "Bisa pasang vibram gak ?",
+          "date": "3 tahun lalu"
+        }
+      ],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJ5fjImej9aS4RPGkrrUTzcVg",
+      "name": "BARROS SHOESCLEANING",
+      "address": "BLOK. BB5 NO.12A, Jl. Binong Permai, Sukabakti, Kec. Curug, Kabupaten Tangerang, Banten 15810",
+      "maps_url": "https://www.google.com/maps/place/BARROS+SHOESCLEANING/data=!4m7!3m6!1s0x2e69fde899c8f8e5:0x5871f344ad2b693c!8m2!3d-6.2470369!4d106.5773062!16s%2Fg%2F11vzy9njfb!19sChIJ5fjImej9aS4RPGkrrUTzcVg?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": null,
+      "category": "jasa",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.2470369,
+      "longitude": 106.5773062,
+      "google_types": "Toko Reparasi Sepatu",
+      "reviews": [
+        {
+          "author": "Alfiza Putra Nusantara",
+          "rating": 5,
+          "text": "shoes cleaning tercepat + bersihh",
+          "date": "setahun lalu"
+        },
+        {
+          "author": "Alfiza Putra Nusantara",
+          "rating": 5,
+          "text": "shoes cleaning tercepat + bersihh",
+          "date": "setahun lalu"
+        }
+      ],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJnWFObQAHQi4RZ7ckIBADqWA",
+      "name": "Toko Sol Pandawa",
+      "address": "Jl. Graha Raya No.3, Ciakar, Kec. Panongan, Kabupaten Tangerang, Banten 15710",
+      "maps_url": "https://www.google.com/maps/place/Toko+Sol+Pandawa/data=!4m7!3m6!1s0x2e4207006d4e619d:0x60a903102024b767!8m2!3d-6.2619698!4d106.5282262!16s%2Fg%2F11xm4cx5py!19sChIJnWFObQAHQi4RZ7ckIBADqWA?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": "Buka · Tutup pukul 16.00 ",
+      "category": "jasa",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.2619698,
+      "longitude": 106.5282262,
+      "google_types": "Toko Sepatu",
+      "reviews": [],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJy7957Vj9aS4RPmlsN7YaIIw",
+      "name": "Sol sepatu Opik Shoes servis senter",
+      "address": "Jl. Klp. Gading Sel AK1 No.47, RT.1/RW.12, Pakulonan Barat, Kecamatan Kelapa Dua, Kabupaten Tangerang, Banten 15810",
+      "maps_url": "https://www.google.com/maps/place/Sol+sepatu+Opik+Shoes+servis+senter/data=!4m7!3m6!1s0x2e69fd58ed79bfcb:0x8c201ab6376c693e!8m2!3d-6.2364146!4d106.6259572!16s%2Fg%2F11h4_py41r!19sChIJy7957Vj9aS4RPmlsN7YaIIw?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": "Buka · Tutup pukul 22.00 ",
+      "category": "jasa",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.2364146,
+      "longitude": 106.6259572,
+      "google_types": "Toko Sepatu Boot",
+      "reviews": [
+        {
+          "author": "Sugeng Setiawan",
+          "rating": 5,
+          "text": "Sangat puas servis di sini! Sol sepatu safety saya yang rontok diganti full jadi sol karet. Pengerjaan rapi, kuat, dan orangnya ramah. Harganya juga sangat terjangkau. Recommended banget buat yang mau benerin sepatu!🤍 …",
+          "date": "sebulan lalu"
+        },
+        {
+          "author": "Sugeng Setiawan",
+          "rating": 5,
+          "text": "Sangat puas servis di sini! Sol sepatu safety saya yang rontok diganti full jadi sol karet. Pengerjaan rapi, kuat, dan orangnya ramah. Harganya juga sangat terjangkau. Recommended banget buat yang mau benerin sepatu!🤍 …",
+          "date": "sebulan lalu"
+        },
+        {
+          "author": "LINA GOZALI",
+          "rating": 5,
+          "text": "Tempatnya gampang dicari. Dipinggir jalan. Bukanya siang jam 2 sampe malam, ato telpon dulu sblm datang. Abangnya ramah banget. Rapi menurut sy hasilnya. …",
+          "date": "3 tahun lalu"
+        },
+        {
+          "author": "LINA GOZALI",
+          "rating": 5,
+          "text": "Tempatnya gampang dicari. Dipinggir jalan. Bukanya siang jam 2 sampe malam, ato telpon dulu sblm datang. Abangnya ramah banget. Rapi menurut sy hasilnya. …",
+          "date": "3 tahun lalu"
+        },
+        {
+          "author": "Chryz",
+          "rating": 5,
+          "text": "sol sepatu dan reparasi koper yg cepat dan rapi kerjasnnya.\n-----------\nsdh bbrp kali pemgerjakan perbaikan roda  koper dan sepatu/sendal dan pengwrjaan …",
+          "date": "Diedit setahun lalu"
+        }
+      ],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJt4xIm4n9aS4RRooqfIk4Pdk",
+      "name": "Mang Nono Sol sepatu",
+      "address": "Jl. Nusa Indah 2 No.8 blok i10, Sukabakti, Kec. Curug, Kabupaten Tangerang, Banten 15810",
+      "maps_url": "https://www.google.com/maps/place/Mang+Nono+Sol+sepatu/data=!4m7!3m6!1s0x2e69fd899b488cb7:0xd93d38897c2a8a46!8m2!3d-6.2522777!4d106.5776761!16s%2Fg%2F11sck8hz2v!19sChIJt4xIm4n9aS4RRooqfIk4Pdk?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": null,
+      "category": "jasa",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.2522777,
+      "longitude": 106.5776761,
+      "google_types": "Jasa Tukang",
+      "reviews": [],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJKadt0bcJQi4RUnLE_xXzINA",
+      "name": "Sol Sepatu Mang Eli",
+      "address": "MGM2+827, jl pasar, Ranca Buaya, Kec. Jambe, Kabupaten Tangerang, Banten 15720",
+      "maps_url": "https://www.google.com/maps/place/Sol+Sepatu+Mang+Eli/data=!4m7!3m6!1s0x2e4209b7d16da729:0xd020f315ffc47252!8m2!3d-6.3167002!4d106.500052!16s%2Fg%2F11rcyd0gnc!19sChIJKadt0bcJQi4RUnLE_xXzINA?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": "Buka · Tutup pukul 16.55 ",
+      "category": "jasa",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.3167002,
+      "longitude": 106.500052,
+      "google_types": "Penjahit",
+      "reviews": [
+        {
+          "author": "Tt Hh",
+          "rating": 5,
+          "text": "Enak",
+          "date": "3 tahun lalu"
+        },
+        {
+          "author": "Tt Hh",
+          "rating": 5,
+          "text": "Enak",
+          "date": "3 tahun lalu"
+        }
+      ],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJy22CVp7_QS4Rhjow8cEYuFU",
+      "name": "Servis Sol Sepatu",
+      "address": "VFCR+G5P, Jl. Daon Pangarengan, Pangarengan, Kec. Rajeg, Kabupaten Tangerang, Banten 15540",
+      "maps_url": "https://www.google.com/maps/place/Servis+Sol+Sepatu/data=!4m7!3m6!1s0x2e41ff9e56826dcb:0x55b818c1f1303a86!8m2!3d-6.1286586!4d106.490463!16s%2Fg%2F11f3cj038v!19sChIJy22CVp7_QS4Rhjow8cEYuFU?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": "Buka · Tutup pukul 20.00 ",
+      "category": "jasa",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.1286586,
+      "longitude": 106.490463,
+      "google_types": "Toko Sepatu",
+      "reviews": [],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJNxaFFPT_QS4R7Tyc1XXaP0k",
+      "name": "Salwa solsepatu",
+      "address": "Kongsi baru, Kabupaten Tangerang, Banten 15531",
+      "maps_url": "https://www.google.com/maps/place/Salwa+solsepatu/data=!4m7!3m6!1s0x2e41fff414851637:0x493fda75d59c3ced!8m2!3d-6.134052!4d106.5348248!16s%2Fg%2F11t5qfx18k!19sChIJNxaFFPT_QS4R7Tyc1XXaP0k?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": "Buka · Tutup pukul 20.00 ",
+      "category": "jasa",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.134052,
+      "longitude": 106.5348248,
+      "google_types": "Toko Sepatu",
+      "reviews": [
+        {
+          "author": "Andri",
+          "rating": 5,
+          "text": "Bagus hasilnya. 👍 Murah meriah & cepat.\nSol sepatu deket grand batavia. …",
+          "date": "3 tahun lalu"
+        },
+        {
+          "author": "Andri",
+          "rating": 5,
+          "text": "Bagus hasilnya. 👍 Murah meriah & cepat.\nSol sepatu deket grand batavia. …",
+          "date": "3 tahun lalu"
+        },
+        {
+          "author": "Adhi Sultom",
+          "rating": 5,
+          "text": "Murah, hasilnya bagus dan awet, cepet bisa ditunggu",
+          "date": "10 bulan lalu"
+        },
+        {
+          "author": "Adhi Sultom",
+          "rating": 5,
+          "text": "Murah, hasilnya bagus dan awet, cepet bisa ditunggu",
+          "date": "10 bulan lalu"
+        },
+        {
+          "author": "Leonardo Ari Dwi Kusnanda",
+          "rating": 5,
+          "text": "Bapaknya ramah dan harganya murah 👍 …",
+          "date": "2 tahun lalu"
+        }
+      ],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJaw2syx7_aS4RwXsoSLkSC2s",
+      "name": "Tukang Jahit sol sepatu perkodi pake mesin",
+      "address": "RHV8+5J4, Kutabumi, Kec. Ps. Kemis, Kabupaten Tangerang, Banten 15560",
+      "maps_url": "https://www.google.com/maps/place/Tukang+Jahit+sol+sepatu+perkodi+pake+mesin/data=!4m7!3m6!1s0x2e69ff1ecbac0d6b:0x6b0b12b948287bc1!8m2!3d-6.1571202!4d106.5665798!16s%2Fg%2F11v1bq_9ys!19sChIJaw2syx7_aS4RwXsoSLkSC2s?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": "Buka 24 jam ",
+      "category": "jasa",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.1571202,
+      "longitude": 106.5665798,
+      "google_types": "Grosir",
+      "reviews": [
+        {
+          "author": "Dery Ramdani",
+          "rating": 5,
+          "text": "Jahitan nya rapi dan bagus 👍 …",
+          "date": "Diedit 2 tahun lalu"
+        },
+        {
+          "author": "Dery Ramdani",
+          "rating": 5,
+          "text": "Jahitan nya rapi dan bagus 👍 …",
+          "date": "Diedit 2 tahun lalu"
+        },
+        {
+          "author": "Indasaputra Inda",
+          "rating": 5,
+          "text": "Buat yang mau ngejahit sepatu rekomend disini jahitan rapi mantappp👍 …",
+          "date": "2 tahun lalu"
+        },
+        {
+          "author": "Indasaputra Inda",
+          "rating": 5,
+          "text": "Buat yang mau ngejahit sepatu rekomend disini jahitan rapi mantappp👍 …",
+          "date": "2 tahun lalu"
+        },
+        {
+          "author": "Fahmi Saepul",
+          "rating": 5,
+          "text": "Mantap👍🏻 recomendasi untuk menjahit sol sepatu …",
+          "date": "2 tahun lalu"
+        }
+      ],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJFa34FwD9aS4RcO73UBs6F18",
+      "name": "Sol sepatu dd Gilang dan reparasi koper",
+      "address": "Jl. Anggrek Raya No.1 Blok B1, Binong, Kec. Curug, Kabupaten Tangerang, Banten 15810",
+      "maps_url": "https://www.google.com/maps/place/Sol+sepatu+dd+Gilang+dan+reparasi+koper/data=!4m7!3m6!1s0x2e69fd0017f8ad15:0x5f173a1b50f7ee70!8m2!3d-6.2351345!4d106.5874825!16s%2Fg%2F11xl82b75y!19sChIJFa34FwD9aS4RcO73UBs6F18?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": "Buka · Tutup pukul 21.00 ",
+      "category": "jasa",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.2351345,
+      "longitude": 106.5874825,
+      "google_types": "Reparasi Koper",
+      "reviews": [
+        {
+          "author": "Zulfi Eri Agi",
+          "rating": 5,
+          "text": "Ramah, teliti, mantapppp om sukses terus😇🤲👍 …",
+          "date": "6 bulan lalu"
+        },
+        {
+          "author": "Zulfi Eri Agi",
+          "rating": 5,
+          "text": "Ramah, teliti, mantapppp om sukses terus😇🤲👍 …",
+          "date": "6 bulan lalu"
+        },
+        {
+          "author": "junk",
+          "rating": 5,
+          "text": "rapih banger harga pas di kantong",
+          "date": "8 bulan lalu"
+        },
+        {
+          "author": "junk",
+          "rating": 5,
+          "text": "rapih banger harga pas di kantong",
+          "date": "8 bulan lalu"
+        },
+        {
+          "author": "Nono Saputra (Mang Nono sol)",
+          "rating": 5,
+          "text": "Buktikan sendiri",
+          "date": "8 bulan lalu"
+        }
+      ],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJsci5aOf_aS4RxwTsKFdK0XQ",
+      "name": "Sol Sepatu",
+      "address": "RGPV+72C, Jl. Puri Jaya, Sukamantri, Kec. Ps. Kemis, Kabupaten Tangerang, Banten 15560",
+      "maps_url": "https://www.google.com/maps/place/Sol+Sepatu/data=!4m7!3m6!1s0x2e69ffe768b9c8b1:0x74d14a5728ec04c7!8m2!3d-6.1643162!4d106.5425207!16s%2Fg%2F11kk6yxfw1!19sChIJsci5aOf_aS4RxwTsKFdK0XQ?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": null,
+      "category": "jasa",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.1643162,
+      "longitude": 106.5425207,
+      "google_types": "Toko Sepatu",
+      "reviews": [
+        {
+          "author": "Karno Sukarno",
+          "rating": 5,
+          "text": "Assalamualaikum 🙏 maaf …",
+          "date": "9 bulan lalu"
+        },
+        {
+          "author": "Karno Sukarno",
+          "rating": 5,
+          "text": "Assalamualaikum 🙏 maaf …",
+          "date": "9 bulan lalu"
+        }
+      ],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJcRCkCUYHQi4ROAU1a1ozfmQ",
+      "name": "Toko I.S.M",
+      "address": "QG68+MRJ, Jl. Ureta, Cikupa, Kec. Cikupa, Kabupaten Tangerang, Banten 15710",
+      "maps_url": "https://www.google.com/maps/place/Toko+I.S.M/data=!4m7!3m6!1s0x2e42074609a41071:0x647e335a6b350538!8m2!3d-6.2382901!4d106.5170045!16s%2Fg%2F11fpfxbqq0!19sChIJcRCkCUYHQi4ROAU1a1ozfmQ?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": "Buka · Tutup pukul 18.00 ",
+      "category": "jasa",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.2382901,
+      "longitude": 106.5170045,
+      "google_types": "Toko",
+      "reviews": [
+        {
+          "author": "Muhammad Fajar",
+          "rating": 5,
+          "text": "Sol sepatu dan lem nya kumplit banget, pegawainya ramah pegawainya pokoknya rekomended banget buat yang mau bikin brand sendiri tapi minim pengetahuan soal teksnisnya boleh banget kesini nanti di jelasin👍👍👍 …",
+          "date": "2 bulan lalu"
+        },
+        {
+          "author": "Muhammad Fajar",
+          "rating": 5,
+          "text": "Sol sepatu dan lem nya kumplit banget, pegawainya ramah pegawainya pokoknya rekomended banget buat yang mau bikin brand sendiri tapi minim pengetahuan soal teksnisnya boleh banget kesini nanti di jelasin👍👍👍 …",
+          "date": "2 bulan lalu"
+        },
+        {
+          "author": "Irwan Herliawan",
+          "rating": 5,
+          "text": "Mantapppp. Tokonya kumplit, sol sepatu bola bervariatif banyak banget warnanya.  Dari a-z soal sepatu ini kumplit banget. …",
+          "date": "setahun lalu"
+        },
+        {
+          "author": "Irwan Herliawan",
+          "rating": 5,
+          "text": "Mantapppp. Tokonya kumplit, sol sepatu bola bervariatif banyak banget warnanya.  Dari a-z soal sepatu ini kumplit banget. …",
+          "date": "setahun lalu"
+        },
+        {
+          "author": "Mohamad Yunus",
+          "rating": 5,
+          "text": "Yang punya tokonya baik ramah  pelayanannya luar biasa,sayaMemilih lem kuat yang sesuai dengan penggunaan merupakan hal penting Dalam hal ini, pokoknya rekomendasi bngt lem ini tuh, harganya jga bersahabat\nSekali lagi terima kasih banyak",
+          "date": "setahun lalu"
+        }
+      ],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJIZ-KNkwBQi4Rbdk_GeiE6Bc",
+      "name": "Pangkas rambut dan sol sepatu asgar",
+      "address": "Jl. Raya Kresek No.km 2, Saga, Kec. Balaraja, Kabupaten Tangerang, Banten 15610",
+      "maps_url": "https://www.google.com/maps/place/Pangkas+rambut+dan+sol+sepatu+asgar/data=!4m7!3m6!1s0x2e42014c368a9f21:0x17e884e8193fd96d!8m2!3d-6.1818214!4d106.4528774!16s%2Fg%2F11vc8dfgj8!19sChIJIZ-KNkwBQi4Rbdk_GeiE6Bc?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": "Buka · Tutup pukul 21.00 ",
+      "category": "jasa",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.1818214,
+      "longitude": 106.4528774,
+      "google_types": "Tempat Cukur Rambut",
+      "reviews": [],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJkUnut6D9aS4RJH37ZTlCIqA",
+      "name": "Shoescare",
+      "address": "ruko sari bumi indah, Blk. A1 No.2, Curug Wetan, Kec. Curug, Kabupaten Tangerang, Banten 15810",
+      "maps_url": "https://www.google.com/maps/place/Shoescare/data=!4m7!3m6!1s0x2e69fda0b7ee4991:0xa022423965fb7d24!8m2!3d-6.2624773!4d106.5613748!16s%2Fg%2F11vk14gjc5!19sChIJkUnut6D9aS4RJH37ZTlCIqA?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": "Buka · Tutup pukul 20.00 ",
+      "category": "jasa",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.2624773,
+      "longitude": 106.5613748,
+      "google_types": "Toko Reparasi Sepatu",
+      "reviews": [
+        {
+          "author": "Hary Ramadhansyah",
+          "rating": 5,
+          "text": "Tempat cuci sepatu rekomendasi banget murah bersih dan wangi kerenn",
+          "date": "2 tahun lalu"
+        },
+        {
+          "author": "Hary Ramadhansyah",
+          "rating": 5,
+          "text": "Tempat cuci sepatu rekomendasi banget murah bersih dan wangi kerenn",
+          "date": "2 tahun lalu"
+        }
+      ],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJc18buWH8aS4RPNjCF6Hf9j0",
+      "name": "Sol Sepatu Ridho",
+      "address": "JL Legok Karawaci, RT 01 RW 01, Pagedangan, Medang, Tangerang, Kabupaten Tangerang, Banten 15334",
+      "maps_url": "https://www.google.com/maps/place/Sol+Sepatu+Ridho/data=!4m7!3m6!1s0x2e69fc61b91b5f73:0x3df6dfa117c2d83c!8m2!3d-6.2636839!4d106.6094818!16s%2Fg%2F11bc7s1_v0!19sChIJc18buWH8aS4RPNjCF6Hf9j0?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": "Buka · Tutup pukul 19.30 ",
+      "category": "jasa",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.2636839,
+      "longitude": 106.6094818,
+      "google_types": "Toko Sepatu",
+      "reviews": [],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJ1QY4Jbb5aS4Rw_dB0AKSwPk",
+      "name": "Sol Sepatu Reparasi",
+      "address": "Jl. HR. Rasuna Said No.57, RT.003/RW.001, Pakojan, Kec. Pinang, Kota Tangerang, Banten 15142",
+      "maps_url": "https://www.google.com/maps/place/Sol+Sepatu+Reparasi/data=!4m7!3m6!1s0x2e69f9b6253806d5:0xf9c09202d041f7c3!8m2!3d-6.2109683!4d106.6483!16s%2Fg%2F11jv8x5wp8!19sChIJ1QY4Jbb5aS4Rw_dB0AKSwPk?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": "Buka · Tutup pukul 20.00 ",
+      "category": "jasa",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.2109683,
+      "longitude": 106.6483,
+      "google_types": "Penjahit Pesanan Khusus",
+      "reviews": [
+        {
+          "author": "ka-na-eだよ",
+          "rating": 5,
+          "text": "Hasil memuaskan dari ganti insole yang lepas dan jahit badan sepatu. Kondisi sepatu yang berdebu juga telah dilap. Sudah kedua kalinya menggunakan jasa di sini. Terima kasih ya 🙏 …",
+          "date": "11 bulan lalu"
+        },
+        {
+          "author": "ka-na-eだよ",
+          "rating": 5,
+          "text": "Hasil memuaskan dari ganti insole yang lepas dan jahit badan sepatu. Kondisi sepatu yang berdebu juga telah dilap. Sudah kedua kalinya menggunakan jasa di sini. Terima kasih ya 🙏 …",
+          "date": "11 bulan lalu"
+        },
+        {
+          "author": "Indra Indra",
+          "rating": 5,
+          "text": "Recommended buat yg mau ganti outsole, harga relatif masih terjngkau hasilnya juga ok ga keliatan kalau sepatu rekondisi...",
+          "date": "setahun lalu"
+        },
+        {
+          "author": "Indra Indra",
+          "rating": 5,
+          "text": "Recommended buat yg mau ganti outsole, harga relatif masih terjngkau hasilnya juga ok ga keliatan kalau sepatu rekondisi...",
+          "date": "setahun lalu"
+        },
+        {
+          "author": "Victorius T",
+          "rating": 5,
+          "text": "Yg punya ramah dan komunikatif.\nHarga murah dan kualitas lem dan jahitan rapih, sesuai harapan.\nDukung terus UMKM",
+          "date": "2 tahun lalu"
+        }
+      ],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJx6Zz-UD_aS4RpICw-hd7MNE",
+      "name": "Multitama Jaya Abadi. PT",
+      "address": "Jl. Karet Jaya 1 No.8, Karet, Kec. Sepatan, Kabupaten Tangerang, Banten 15520",
+      "maps_url": "https://www.google.com/maps/place/Multitama+Jaya+Abadi.+PT/data=!4m7!3m6!1s0x2e69ff40f973a6c7:0xd1307b17fab080a4!8m2!3d-6.1467987!4d106.5846232!16s%2Fg%2F1pztd4fks!19sChIJx6Zz-UD_aS4RpICw-hd7MNE?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": "Buka · Tutup pukul 17.00 ",
+      "category": "jasa",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.1467987,
+      "longitude": 106.5846232,
+      "google_types": "Produsen",
+      "reviews": [],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJp1EVYoCtbSERzDA73_pB6tE",
+      "name": "Reparasi Sol Sepatu Sandal Dan Tas Pewarnaan Ulang Jovindo",
+      "address": "",
+      "maps_url": "https://www.google.com/maps/place/Reparasi+Sol+Sepatu+Sandal+Dan+Tas+Pewarnaan+Ulang+Jovindo/data=!4m7!3m6!1s0x216dad80621551a7:0xd1ea41fadf3b30cc!8m2!3d-6.1818846!4d106.5439455!16s%2Fg%2F11l5qpxt2j!19sChIJp1EVYoCtbSERzDA73_pB6tE?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": "Buka · Tutup pukul 17.00 ",
+      "category": "jasa",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.1818846,
+      "longitude": 106.5439455,
+      "google_types": "Toko Reparasi Sepatu",
+      "reviews": [
+        {
+          "author": "Kenji Sutanto",
+          "rating": 5,
+          "text": "Cepat dan rapi. Hebatnya lagi bisa bikin warna sepatu jadi seperti baru lagi. Super sekali",
+          "date": "2 tahun lalu"
+        },
+        {
+          "author": "Kenji Sutanto",
+          "rating": 5,
+          "text": "Cepat dan rapi. Hebatnya lagi bisa bikin warna sepatu jadi seperti baru lagi. Super sekali",
+          "date": "2 tahun lalu"
+        },
+        {
+          "author": "FnD Sjn",
+          "rating": 5,
+          "text": "Service sangat baik, hasil istimewa, jahitan rapi. Kualitas tinggi. harga pun miring. Terima kasih",
+          "date": "2 tahun lalu"
+        },
+        {
+          "author": "FnD Sjn",
+          "rating": 5,
+          "text": "Service sangat baik, hasil istimewa, jahitan rapi. Kualitas tinggi. harga pun miring. Terima kasih",
+          "date": "2 tahun lalu"
+        },
+        {
+          "author": "Weiss Fee",
+          "rating": 5,
+          "text": "Kerjaan rapi dan cepat sekali. Ini sih kalau ada yang rusak bakalan balik kesini lagi terus terusan. Hebatt",
+          "date": "2 tahun lalu"
+        }
+      ],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJ0VxyAaL9aS4RlTpVtLYiXnw",
+      "name": "PT. Manuel Mitrasol Mandiri ( Grosir Sol Sepatu dan Sandal )",
+      "address": "Jl. Angelonia III No.A1 E25, Medang, Kec. Pagedangan, Kabupaten Tangerang, Banten 15334",
+      "maps_url": "https://www.google.com/maps/place/PT.+Manuel+Mitrasol+Mandiri+%28+Grosir+Sol+Sepatu+dan+Sandal+%29/data=!4m7!3m6!1s0x2e69fda201725cd1:0x7c5e22b6b4553a95!8m2!3d-6.2532366!4d106.6129439!16s%2Fg%2F11t46wp9f5!19sChIJ0VxyAaL9aS4RlTpVtLYiXnw?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": "Buka · Tutup pukul 17.00 ",
+      "category": "jasa",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.2532366,
+      "longitude": 106.6129439,
+      "google_types": "Grosir",
+      "reviews": [],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJ59EpYAr9aS4RV3aLOa32ZVU",
+      "name": "SOL SEPATU DAN PANGKAS RAMBUT GARUT",
+      "address": "Jl. Nn No.8 Blok I10, RT.4/RW.4, Sukabakti, Kec. Curug, Kabupaten Tangerang, Banten 15810",
+      "maps_url": "https://www.google.com/maps/place/SOL+SEPATU+DAN+PANGKAS+RAMBUT+GARUT/data=!4m7!3m6!1s0x2e69fd0a6029d1e7:0x5565f6ad398b7657!8m2!3d-6.2523196!4d106.5777388!16s%2Fg%2F11rv5dltxk!19sChIJ59EpYAr9aS4RV3aLOa32ZVU?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": "Buka · Tutup pukul 21.00 ",
+      "category": "jasa",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.2523196,
+      "longitude": 106.5777388,
+      "google_types": "Tempat Cukur Rambut",
+      "reviews": [
+        {
+          "author": "Samsul Arifin",
+          "rating": 5,
+          "text": "Hasilnya lumayan rapi dan harganya gak mahal dan juga gk murah standar saja, jahit+lem sepatu Rp 20.000",
+          "date": "setahun lalu"
+        },
+        {
+          "author": "Samsul Arifin",
+          "rating": 5,
+          "text": "Hasilnya lumayan rapi dan harganya gak mahal dan juga gk murah standar saja, jahit+lem sepatu Rp 20.000",
+          "date": "setahun lalu"
+        },
+        {
+          "author": "Salsa Dewi",
+          "rating": 5,
+          "text": "Bagus",
+          "date": "setahun lalu"
+        },
+        {
+          "author": "Salsa Dewi",
+          "rating": 5,
+          "text": "Bagus",
+          "date": "setahun lalu"
+        }
+      ],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJfwQa8qH9aS4RTwvbDh0znRI",
+      "name": "Sol sepatu mang Ade",
+      "address": "Jl. Dasana Indah No.RI, Bojong Nangka, Kelapa Dua, Tangerang Regency, Banten 15810",
+      "maps_url": "https://www.google.com/maps/place/Sol+sepatu+mang+Ade/data=!4m7!3m6!1s0x2e69fda1f21a047f:0x129d331d0edb0b4f!8m2!3d-6.2523149!4d106.5968816!16s%2Fg%2F11rpq5mym0!19sChIJfwQa8qH9aS4RTwvbDh0znRI?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": "Buka · Tutup pukul 18.00 ",
+      "category": "jasa",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.2523149,
+      "longitude": 106.5968816,
+      "google_types": "Layanan reparasi",
+      "reviews": [
+        {
+          "author": "Agus Supriadi",
+          "rating": 5,
+          "text": "Rapi , apik, lokasi strategis,depan ruko ada cukur rambut .. hehehe",
+          "date": "3 tahun lalu"
+        },
+        {
+          "author": "Agus Supriadi",
+          "rating": 5,
+          "text": "Rapi , apik, lokasi strategis,depan ruko ada cukur rambut .. hehehe",
+          "date": "3 tahun lalu"
+        },
+        {
+          "author": "Nur Yajid",
+          "rating": 5,
+          "text": "The best rapih",
+          "date": "setahun lalu"
+        },
+        {
+          "author": "Nur Yajid",
+          "rating": 5,
+          "text": "The best rapih",
+          "date": "setahun lalu"
+        }
+      ],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJ5RH9_nzkaS4R4t0j65Vds8w",
+      "name": "Sol Sepatu",
+      "address": "Jl. Raya Cisauk - Legok No.106, Suradita, Kec. Cisauk, Kabupaten Tangerang, Banten 15343",
+      "maps_url": "https://www.google.com/maps/place/Sol+Sepatu/data=!4m7!3m6!1s0x2e69e47cfefd11e5:0xccb35d95eb23dde2!8m2!3d-6.3487997!4d106.6380557!16s%2Fg%2F11fz4sn9c7!19sChIJ5RH9_nzkaS4R4t0j65Vds8w?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": "Buka · Tutup pukul 20.00 ",
+      "category": "jasa",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.3487997,
+      "longitude": 106.6380557,
+      "google_types": "Kantor Perusahaan",
+      "reviews": [
+        {
+          "author": "Haris Sianturi",
+          "rating": 5,
+          "text": "per may 2025 masih beroperasi.",
+          "date": "10 bulan lalu"
+        },
+        {
+          "author": "Haris Sianturi",
+          "rating": 5,
+          "text": "per may 2025 masih beroperasi.",
+          "date": "10 bulan lalu"
+        },
+        {
+          "author": "A Basit",
+          "rating": 5,
+          "text": "Pekerjaan Rapih, rekomended lah",
+          "date": "2 tahun lalu"
+        },
+        {
+          "author": "A Basit",
+          "rating": 5,
+          "text": "Pekerjaan Rapih, rekomended lah",
+          "date": "2 tahun lalu"
+        },
+        {
+          "author": "bagusan bagus",
+          "rating": 5,
+          "text": "sekarang ucusol di sebrang jalannyaya",
+          "date": "5 tahun lalu"
+        }
+      ],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJF0HahTQEQi4RiUak0HUUXrU",
+      "name": "Obral Sepatu & Sendal Jenal",
+      "address": "Jalan Raya Cisoka - Adiyasa RT 003 RW 005, Sukatani, Kec. Cisoka, Kabupaten Tangerang, Banten 15730",
+      "maps_url": "https://www.google.com/maps/place/Obral+Sepatu+%26+Sendal+Jenal/data=!4m7!3m6!1s0x2e42043485da4117:0xb55e1475d0a44689!8m2!3d-6.2692402!4d106.4222832!16s%2Fg%2F11c1q8xbr_!19sChIJF0HahTQEQi4RiUak0HUUXrU?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": "Buka · Tutup pukul 21.00 ",
+      "category": "jasa",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.2692402,
+      "longitude": 106.4222832,
+      "google_types": "Toko Sepatu",
+      "reviews": [],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJPUoMFQD_QS4R82MbALGSNC8",
+      "name": "Karya muda sol sepatu/sendal",
+      "address": "VGCG+55Q, Jl. Raya Cadas - Kukun, Sukatani, Kec. Rajeg, Kabupaten Tangerang, Banten",
+      "maps_url": "https://www.google.com/maps/place/Karya+muda+sol+sepatu%2Fsendal/data=!4m7!3m6!1s0x2e41ff00150c4a3d:0x2f3492b1001b63f3!8m2!3d-6.129533!4d106.525476!16s%2Fg%2F11lyxjlq_7!19sChIJPUoMFQD_QS4R82MbALGSNC8?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": "Buka · Tutup pukul 00.01 ",
+      "category": "jasa",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.129533,
+      "longitude": 106.525476,
+      "google_types": "Toko Reparasi Sepatu",
+      "reviews": [],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJbwyIuKD9aS4RD0x2ExoaFT8",
+      "name": "Sol Sepatu Ragil",
+      "address": "Jl. Kelapa Dua Raya No.43, RT.08/RW.014, Klp. Dua, Kecamatan Kelapa Dua, Kabupaten Tangerang, Banten 15810",
+      "maps_url": "https://www.google.com/maps/place/Sol+Sepatu+Ragil/data=!4m7!3m6!1s0x2e69fda0b8880c6f:0x3f151a1a13764c0f!8m2!3d-6.2419881!4d106.610687!16s%2Fg%2F11l6bf3kgb!19sChIJbwyIuKD9aS4RD0x2ExoaFT8?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": "Buka · Tutup pukul 21.00 ",
+      "category": "jasa",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.2419881,
+      "longitude": 106.610687,
+      "google_types": "Toko Reparasi Sepatu",
+      "reviews": [
+        {
+          "author": "SOL SEPATU NUSAMI",
+          "rating": 5,
+          "text": "Pantas di kunjungi",
+          "date": "2 tahun lalu"
+        },
+        {
+          "author": "SOL SEPATU NUSAMI",
+          "rating": 5,
+          "text": "Pantas di kunjungi",
+          "date": "2 tahun lalu"
+        }
+      ],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJ_b2lP2n_aS4RJUkFtWlNc2w",
+      "name": "Garage outsole sepatu",
+      "address": "Jl. Prabu Siliwangi, RT.002/RW.005, Pasir Jaya, Kec. Jatiuwung, Kota Tangerang, Banten 15135",
+      "maps_url": "https://www.google.com/maps/place/Garage+outsole+sepatu/data=!4m7!3m6!1s0x2e69ff693fa5bdfd:0x6c734d69b5054925!8m2!3d-6.1819869!4d106.5685167!16s%2Fg%2F11ptv11wxb!19sChIJ_b2lP2n_aS4RJUkFtWlNc2w?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": null,
+      "category": "jasa",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.1819869,
+      "longitude": 106.5685167,
+      "google_types": "Toko Sepatu",
+      "reviews": [],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJ25C2wEH5aS4RdmAAz6He3v4",
+      "name": "Sol sepatu AWAN ASGAR",
+      "address": "RT.005/RW.002, Cipondoh, Kec. Cipondoh, Kota Tangerang, Banten 15148",
+      "maps_url": "https://www.google.com/maps/place/Sol+sepatu+AWAN+ASGAR/data=!4m7!3m6!1s0x2e69f941c0b690db:0xfededea1cf006076!8m2!3d-6.1941942!4d106.6759064!16s%2Fg%2F11fpj9dstw!19sChIJ25C2wEH5aS4RdmAAz6He3v4?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": "Buka · Tutup pukul 22.00 ",
+      "category": "jasa",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.1941942,
+      "longitude": 106.6759064,
+      "google_types": "Toko Reparasi Sepatu",
+      "reviews": [
+        {
+          "author": "Ricky Gunawan",
+          "rating": 5,
+          "text": "Ke sini untuk tambal sepatu sekolah anak yg berlubang. Hasilnya bagus dan rapih pengerjaan nya, harga terjangkau, orangnya jg ramah.",
+          "date": "setahun lalu"
+        },
+        {
+          "author": "Ricky Gunawan",
+          "rating": 5,
+          "text": "Ke sini untuk tambal sepatu sekolah anak yg berlubang. Hasilnya bagus dan rapih pengerjaan nya, harga terjangkau, orangnya jg ramah.",
+          "date": "setahun lalu"
+        },
+        {
+          "author": "boedi 'oekay' santoso",
+          "rating": 5,
+          "text": "Pengerjaan cepat dan rapi..rekomended..",
+          "date": "3 bulan lalu"
+        },
+        {
+          "author": "boedi 'oekay' santoso",
+          "rating": 5,
+          "text": "Pengerjaan cepat dan rapi..rekomended..",
+          "date": "3 bulan lalu"
+        },
+        {
+          "author": "Rosa Damayanti",
+          "rating": 5,
+          "text": "Harga 25k. Beli alas sepatu 15k. Bapaknya gaul",
+          "date": "setahun lalu"
+        }
+      ],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJLda-8iMDai4RTGKG_0AzAIA",
+      "name": "Esa Sumber Abadi. PT",
+      "address": "JL. Perancis, No. 35, Kali Baru, Kosambi, Dadap, Tangerang, Kabupaten Tangerang, Banten 15211",
+      "maps_url": "https://www.google.com/maps/place/Esa+Sumber+Abadi.+PT/data=!4m7!3m6!1s0x2e6a0323f2bed62d:0x80003340ff86624c!8m2!3d-6.0922811!4d106.7051167!16s%2Fg%2F1pzq5r83_!19sChIJLda-8iMDai4RTGKG_0AzAIA?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": "Buka · Tutup pukul 16.00 ",
+      "category": "jasa",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.0922811,
+      "longitude": 106.7051167,
+      "google_types": "Pabrik sepatu",
+      "reviews": [],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJ1fgOArX4aS4Rx9L9g0OjqWE",
+      "name": "Sol Sepatu Doa Ibu Asgar",
+      "address": "RJRJ+4MM, Jl. DR. Sitanala, RT.001/RW.001, Karang Sari, Kec. Neglasari, Kota Tangerang, Banten 15129",
+      "maps_url": "https://www.google.com/maps/place/Sol+Sepatu+Doa+Ibu+Asgar/data=!4m7!3m6!1s0x2e69f8b5020ef8d5:0x61a9a34383fdd2c7!8m2!3d-6.1596601!4d106.6316809!16s%2Fg%2F11c53dhfx6!19sChIJ1fgOArX4aS4Rx9L9g0OjqWE?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": "Buka · Tutup pukul 20.00 ",
+      "category": "jasa",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.1596601,
+      "longitude": 106.6316809,
+      "google_types": "Toko Reparasi Sepatu",
+      "reviews": [
+        {
+          "author": "Rahmat Apipi",
+          "rating": 5,
+          "text": "Rapih, Ramah..\n\nUdah jarang sekarang cari tukang sol sepatu. …",
+          "date": "2 bulan lalu"
+        },
+        {
+          "author": "Rahmat Apipi",
+          "rating": 5,
+          "text": "Rapih, Ramah..\n\nUdah jarang sekarang cari tukang sol sepatu. …",
+          "date": "2 bulan lalu"
+        },
+        {
+          "author": "Mas Bro",
+          "rating": 5,
+          "text": "Sangat rekomen buat yang tinggal sekitar bandara. Bisa di tunggu, ramah dan rapi",
+          "date": "3 tahun lalu"
+        },
+        {
+          "author": "Mas Bro",
+          "rating": 5,
+          "text": "Sangat rekomen buat yang tinggal sekitar bandara. Bisa di tunggu, ramah dan rapi",
+          "date": "3 tahun lalu"
+        },
+        {
+          "author": "Maryadie Arman",
+          "rating": 5,
+          "text": "😅 abangnya pendiem,mungkin itu yg bikin pengerjaannya cepet selesai dan rapih.\nSoal harga ngesol lumayan sih 25k buat ngesol sepatu futsal sy. …",
+          "date": "4 tahun lalu"
+        }
+      ],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJ99W2EJz9aS4RHSSUKFUBSI8",
+      "name": "Sol Sepatu ASSALAM Jl Dayung Raya No.24",
+      "address": "",
+      "maps_url": "https://www.google.com/maps/place/Sol+Sepatu+ASSALAM+Jl+Dayung+Raya+No.24/data=!4m7!3m6!1s0x2e69fd9c10b6d5f7:0x8f4801552894241d!8m2!3d-2.44565!4d117.8888!16s%2Fg%2F11fm5ybrsw!19sChIJ99W2EJz9aS4RHSSUKFUBSI8?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": "Buka · Tutup pukul 21.00 ",
+      "category": "jasa",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -2.44565,
+      "longitude": 117.8888,
+      "google_types": "Toko Reparasi Sepatu",
+      "reviews": [
+        {
+          "author": "Nazkabi Burger Buzz",
+          "rating": 5,
+          "text": "Abangnya Ramah, Koleksi sepatu nya juga banyak, sol nya rapi euy",
+          "date": "4 bulan lalu"
+        },
+        {
+          "author": "Nazkabi Burger Buzz",
+          "rating": 5,
+          "text": "Abangnya Ramah, Koleksi sepatu nya juga banyak, sol nya rapi euy",
+          "date": "4 bulan lalu"
+        },
+        {
+          "author": "Nazkabi Nayra Miranda",
+          "rating": 5,
+          "text": "Sesuai pesanan, Hasilnya memuaskan, harganya ramah di kantong",
+          "date": "4 bulan lalu"
+        },
+        {
+          "author": "Nazkabi Nayra Miranda",
+          "rating": 5,
+          "text": "Sesuai pesanan, Hasilnya memuaskan, harganya ramah di kantong",
+          "date": "4 bulan lalu"
+        },
+        {
+          "author": "Ahmad Rafi",
+          "rating": 5,
+          "text": "Buka terus yah senin  sampai jumat ngesolnya juga bagus tidak kecewa hasil solnya mantap",
+          "date": "3 tahun lalu"
+        }
+      ],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJNQfjfEr9aS4RI-5q6adR0zY",
+      "name": "Sol Sepatu Ragil",
+      "address": "Jl. Kelapa Dua Raya No.92, Klp. Dua, Kecamatan Kelapa Dua, Kabupaten Tangerang, Banten 15810",
+      "maps_url": "https://www.google.com/maps/place/Sol+Sepatu+Ragil/data=!4m7!3m6!1s0x2e69fd4a7ce30735:0x36d351a7e96aee23!8m2!3d-6.2336481!4d106.6179021!16s%2Fg%2F11vhtf2r7m!19sChIJNQfjfEr9aS4RI-5q6adR0zY?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": "Buka · Tutup pukul 21.00 ",
+      "category": "jasa",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.2336481,
+      "longitude": 106.6179021,
+      "google_types": "Toko Reparasi Sepatu",
+      "reviews": [
+        {
+          "author": "sri rahayu",
+          "rating": 5,
+          "text": "Mantap hasil sol dan reparasinya, sepatu jadi kinclong dan kuat lagi. harganya masih terjangkau dan untuk kualitas yang bagus. Langsung dibawa naik gunung setelah di sol.",
+          "date": "2 tahun lalu"
+        },
+        {
+          "author": "sri rahayu",
+          "rating": 5,
+          "text": "Mantap hasil sol dan reparasinya, sepatu jadi kinclong dan kuat lagi. harganya masih terjangkau dan untuk kualitas yang bagus. Langsung dibawa naik gunung setelah di sol.",
+          "date": "2 tahun lalu"
+        },
+        {
+          "author": "Nono Saputra (Mang Nono sol)",
+          "rating": 5,
+          "text": "Mantap",
+          "date": "8 bulan lalu"
+        },
+        {
+          "author": "Nono Saputra (Mang Nono sol)",
+          "rating": 5,
+          "text": "Mantap",
+          "date": "8 bulan lalu"
+        },
+        {
+          "author": "junk",
+          "rating": 5,
+          "text": "atas",
+          "date": "8 bulan lalu"
+        }
+      ],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJX1Yi5AQHQi4REyBKKaNpKlw",
+      "name": "Pabrik Sole Sepatu bahan Poly Urethane (PU)",
+      "address": "PFQF+29V, Jl. Ki Mas Laeng Jl. Syeh Mubarok, Pasir Nangka, Kec. Tigaraksa, Kabupaten Tangerang, Banten 15720",
+      "maps_url": "https://www.google.com/maps/place/Pabrik+Sole+Sepatu+bahan+Poly+Urethane+%28PU%29/data=!4m7!3m6!1s0x2e420704e422565f:0x5c2a69a3294a2013!8m2!3d-6.2623978!4d106.4734261!16s%2Fg%2F11jq1_x1jm!19sChIJX1Yi5AQHQi4REyBKKaNpKlw?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": "Tutup sementara ",
+      "category": "jasa",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.2623978,
+      "longitude": 106.4734261,
+      "google_types": "Toko Sepatu",
+      "reviews": [],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJq_YxMwD9aS4R467HaZlU3iw",
+      "name": "Sol sepatu na",
+      "address": "Jl. Dasana Indah No.24 Blok RI 10 No, Bojong Nangka, Kecamatan Kelapa Dua, Kabupaten Tangerang, Banten 15810",
+      "maps_url": "https://www.google.com/maps/place/Sol+sepatu+na/data=!4m7!3m6!1s0x2e69fd003331f6ab:0x2cde549969c7aee3!8m2!3d-6.25229!4d106.597009!16s%2Fg%2F11y_ych7b_!19sChIJq_YxMwD9aS4R467HaZlU3iw?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": null,
+      "category": "jasa",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.25229,
+      "longitude": 106.597009,
+      "google_types": "Penjahit",
+      "reviews": [],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJrWCSlvwHQi4RaqKo6fr7Djw",
+      "name": "Sol Sepatu Sepatu",
+      "address": "Ranca Iyuh, Kec. Panongan, Kabupaten Tangerang, Banten",
+      "maps_url": "https://www.google.com/maps/place/Sol+Sepatu+Sepatu/data=!4m7!3m6!1s0x2e4207fc969260ad:0x3c0efbfae9a8a26a!8m2!3d-6.3046388!4d106.5247629!16s%2Fg%2F11y6bbmjf1!19sChIJrWCSlvwHQi4RaqKo6fr7Djw?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": "Buka · Tutup pukul 17.00 ",
+      "category": "jasa",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.3046388,
+      "longitude": 106.5247629,
+      "google_types": "Toko",
+      "reviews": [
+        {
+          "author": "latief_ doanx",
+          "rating": 5,
+          "text": "sol nya rapih dan puas lengkap juga",
+          "date": "5 bulan lalu"
+        },
+        {
+          "author": "latief_ doanx",
+          "rating": 5,
+          "text": "sol nya rapih dan puas lengkap juga",
+          "date": "5 bulan lalu"
+        }
+      ],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJXz6wGiEBQi4R-OnRco1YmE8",
+      "name": "Koryo Nics Industri. PT",
+      "address": "Jl. Raya Serang No.C5 Km 19, 3 Blok, Sukanagara, Kec. Cikupa, Kabupaten Tangerang, Banten 15710",
+      "maps_url": "https://www.google.com/maps/place/Koryo+Nics+Industri.+PT/data=!4m7!3m6!1s0x2e4201211ab03e5f:0x4f98588d72d1e9f8!8m2!3d-6.2110165!4d106.4840763!16s%2Fg%2F1pzpv8npb!19sChIJXz6wGiEBQi4R-OnRco1YmE8?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": "Buka · Tutup pukul 18.00 ",
+      "category": "jasa",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.2110165,
+      "longitude": 106.4840763,
+      "google_types": "Toko Sepatu",
+      "reviews": [],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJ5XzSO4H_aS4RJVyjpDMf9_Y",
+      "name": "Toko Sepatu Babunsi",
+      "address": "Jl. Gatot Subroto No.52, RT.002/RW.004, Jatake, Kec. Jatiuwung, Kota Tangerang, Banten 15136",
+      "maps_url": "https://www.google.com/maps/place/Toko+Sepatu+Babunsi/data=!4m7!3m6!1s0x2e69ff813bd27ce5:0xf6f71f33a4a35c25!8m2!3d-6.2023984!4d106.5731576!16s%2Fg%2F11h5qd75__!19sChIJ5XzSO4H_aS4RJVyjpDMf9_Y?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": "Buka · Tutup pukul 20.00 ",
+      "category": "jasa",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.2023984,
+      "longitude": 106.5731576,
+      "google_types": "Toko Sepatu",
+      "reviews": [
+        {
+          "author": "Yatno Kebumen",
+          "rating": 5,
+          "text": "Bukan kaleng kaleng sepatu produksi home industri ini,berani kasih garansi seumur hidup untuk lemnya bila ngelupas, langganan dari zaman masih buka dibelakang pombensin Jatake,sampai sekarang pindah disebelah Pom bensin,good quality",
+          "date": "sebulan lalu"
+        },
+        {
+          "author": "Yatno Kebumen",
+          "rating": 5,
+          "text": "Bukan kaleng kaleng sepatu produksi home industri ini,berani kasih garansi seumur hidup untuk lemnya bila ngelupas, langganan dari zaman masih buka dibelakang pombensin Jatake,sampai sekarang pindah disebelah Pom bensin,good quality",
+          "date": "sebulan lalu"
+        },
+        {
+          "author": "Amri Zal",
+          "rating": 5,
+          "text": "Tersedia sepatu kulit kualitas mantap",
+          "date": "7 tahun lalu"
+        },
+        {
+          "author": "Amri Zal",
+          "rating": 5,
+          "text": "Tersedia sepatu kulit kualitas mantap",
+          "date": "7 tahun lalu"
+        },
+        {
+          "author": "Jhon11 Jon",
+          "rating": 5,
+          "text": "Toko nya masih bukak ga bos",
+          "date": "setahun lalu"
+        }
+      ],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJh1Y9Jpb_aS4RaackJkVFuRc",
+      "name": "TukangSol",
+      "address": "Jl. Rasamala Raya No. 14 , Karawaci, Gelam Jaya, Kec. Ps. Kemis, Kabupaten Tangerang, Banten 15811",
+      "maps_url": "https://www.google.com/maps/place/TukangSol/data=!4m7!3m6!1s0x2e69ff96263d5687:0x17b945452624a769!8m2!3d-6.1640071!4d106.5664885!16s%2Fg%2F11hbkfc0gx!19sChIJh1Y9Jpb_aS4RaackJkVFuRc?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": null,
+      "category": "jasa",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.1640071,
+      "longitude": 106.5664885,
+      "google_types": "Toko Reparasi Sepatu",
+      "reviews": [
+        {
+          "author": "Dicky News",
+          "rating": 5,
+          "text": "Sol sepatu disini sangat bagus",
+          "date": "3 tahun lalu"
+        },
+        {
+          "author": "Dicky News",
+          "rating": 5,
+          "text": "Sol sepatu disini sangat bagus",
+          "date": "3 tahun lalu"
+        }
+      ],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJk0QnPAr-aS4RpgKPNELiPOg",
+      "name": "Jaya Abadi. PT",
+      "address": "JL. Raya Serang, Km 10, No. 5 RT. 02 RW. 01, Kampung kadu, Tangerang, 15710",
+      "maps_url": "https://www.google.com/maps/place/Jaya+Abadi.+PT/data=!4m7!3m6!1s0x2e69fe0a3c274493:0xe83ce242348f02a6!8m2!3d-6.2248756!4d106.5529542!16s%2Fg%2F11b6dnr1fk!19sChIJk0QnPAr-aS4RpgKPNELiPOg?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": "Tutup sementara ",
+      "category": "jasa",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.2248756,
+      "longitude": 106.5529542,
+      "google_types": "Toko Sepatu",
+      "reviews": [
+        {
+          "author": "Neng Citra Imut",
+          "rating": 5,
+          "text": "Sangat bahagia dan bangga bisa mengenal tempat baru ini",
+          "date": "8 tahun lalu"
+        },
+        {
+          "author": "Neng Citra Imut",
+          "rating": 5,
+          "text": "Sangat bahagia dan bangga bisa mengenal tempat baru ini",
+          "date": "8 tahun lalu"
+        }
+      ],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJ71MJUwD7aS4RHeoKzuUWS7U",
+      "name": "Sol sepatu bang Abil",
+      "address": "Lengkong Kulon, Kec. Pagedangan, Kabupaten Tangerang, Banten",
+      "maps_url": "https://www.google.com/maps/place/Sol+sepatu+bang+Abil/data=!4m7!3m6!1s0x2e69fb00530953ef:0xb54b16e5ce0aea1d!8m2!3d-6.281479!4d106.6345045!16s%2Fg%2F11vxvxrs45!19sChIJ71MJUwD7aS4RHeoKzuUWS7U?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": "Buka · Tutup pukul 00.00 ",
+      "category": "jasa",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.281479,
+      "longitude": 106.6345045,
+      "google_types": "Toko Sepatu",
+      "reviews": [],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJzxB7fAD9aS4RRghNshFxK2o",
+      "name": "SOL SEPATU AA REZA.12",
+      "address": "PJX2+249, Jl. Mawar Raya, Bojong Nangka, Kecamatan Kelapa Dua, Kabupaten Tangerang, Banten 15810",
+      "maps_url": "https://www.google.com/maps/place/SOL+SEPATU+AA+REZA.12/data=!4m7!3m6!1s0x2e69fd007c7b10cf:0x6a2b7111b24d0846!8m2!3d-6.2524549!4d106.6003651!16s%2Fg%2F11xp4flm9r!19sChIJzxB7fAD9aS4RRghNshFxK2o?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": "Buka · Tutup pukul 18.00 ",
+      "category": "jasa",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.2524549,
+      "longitude": 106.6003651,
+      "google_types": "Penjahit",
+      "reviews": [],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJbdFkAAD9aS4RB7u2PMlTMIQ",
+      "name": "Sol sepatu dan sendal garut",
+      "address": "Jl. Hippel No.62, RT.6/RW.2, Legok, Kec. Legok, Kabupaten Tangerang, Banten 15820",
+      "maps_url": "https://www.google.com/maps/place/Sol+sepatu+dan+sendal+garut/data=!4m7!3m6!1s0x2e69fd000064d16d:0x843053c93cb6bb07!8m2!3d-6.283219!4d106.5903311!16s%2Fg%2F11xwb8d856!19sChIJbdFkAAD9aS4RB7u2PMlTMIQ?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": null,
+      "category": "jasa",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.283219,
+      "longitude": 106.5903311,
+      "google_types": "Layanan Binatu",
+      "reviews": [],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJP--PnvcBQi4ReXyuEY14nWs",
+      "name": "Industri sepatu",
+      "address": "Unnamed Road, Pasir Nangka, Kec. Tigaraksa, Kabupaten Tangerang, Banten 15720",
+      "maps_url": "https://www.google.com/maps/place/Industri+sepatu/data=!4m7!3m6!1s0x2e4201f79e8fef3f:0x6b9d788d11ae7c79!8m2!3d-6.225281!4d106.4743195!16s%2Fg%2F11jj6xx8g4!19sChIJP--PnvcBQi4ReXyuEY14nWs?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": "Buka · Tutup pukul 17.00 ",
+      "category": "jasa",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.225281,
+      "longitude": 106.4743195,
+      "google_types": "Kantor Perusahaan",
+      "reviews": [],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJr0LEbwABai4RWT0UuovKVok",
+      "name": "Sol sepatu PDL /sendal",
+      "address": "VH8Q+G85, Jl. Raya Mauk, Sepatan, Kec. Sepatan, Kabupaten Tangerang, Banten 15520",
+      "maps_url": "https://www.google.com/maps/place/Sol+sepatu+PDL+%2Fsendal/data=!4m7!3m6!1s0x2e6a01006fc442af:0x8956ca8bba143d59!8m2!3d-6.133927!4d106.5882236!16s%2Fg%2F11mm0h7lns!19sChIJr0LEbwABai4RWT0UuovKVok?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": null,
+      "category": "jasa",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.133927,
+      "longitude": 106.5882236,
+      "google_types": "Toko Sepatu",
+      "reviews": [],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJWcRqo-T5aS4RORezzxcu0fA",
+      "name": "Sol sepatu nn asgar poris plawad",
+      "address": "Jl. Benteng Betawi, RT.003/RW.003, Poris Plawad, Kec. Cipondoh, Kota Tangerang, Banten 15141",
+      "maps_url": "https://www.google.com/maps/place/Sol+sepatu+nn+asgar+poris+plawad/data=!4m7!3m6!1s0x2e69f9e4a36ac459:0xf0d12e17cfb31739!8m2!3d-6.1725062!4d106.6664615!16s%2Fg%2F11j5grk7zx!19sChIJWcRqo-T5aS4RORezzxcu0fA?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": "Buka · Tutup pukul 20.00 ",
+      "category": "jasa",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.1725062,
+      "longitude": 106.6664615,
+      "google_types": "Pusat Perbelanjaan",
+      "reviews": [
+        {
+          "author": "Azril Ilham",
+          "rating": 5,
+          "text": "Mengerjakan berbagai jenis. Sepatu. 👞👡👢. Dn 👛🎒👜 dll.harga di sesuai dengan pekerjaan …",
+          "date": "2 tahun lalu"
+        },
+        {
+          "author": "Azril Ilham",
+          "rating": 5,
+          "text": "Mengerjakan berbagai jenis. Sepatu. 👞👡👢. Dn 👛🎒👜 dll.harga di sesuai dengan pekerjaan …",
+          "date": "2 tahun lalu"
+        }
+      ],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJV5_GuNb9aS4RXQ92CqyKFaU",
+      "name": "Cikuray Sol",
+      "address": "PJP5+GR9, Medang, Kec. Pagedangan, Kabupaten Tangerang, Banten 15334",
+      "maps_url": "https://www.google.com/maps/place/Cikuray+Sol/data=!4m7!3m6!1s0x2e69fdd6b8c69f57:0xa5158aac0a760f5d!8m2!3d-6.2637137!4d106.6096174!16s%2Fg%2F11t0bv502j!19sChIJV5_GuNb9aS4RXQ92CqyKFaU?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": null,
+      "category": "jasa",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.2637137,
+      "longitude": 106.6096174,
+      "google_types": "Toko Reparasi Sepatu",
+      "reviews": [
+        {
+          "author": "David Alfa Sunarna",
+          "rating": 5,
+          "text": "Keren banget",
+          "date": "3 tahun lalu"
+        },
+        {
+          "author": "David Alfa Sunarna",
+          "rating": 5,
+          "text": "Keren banget",
+          "date": "3 tahun lalu"
+        }
+      ],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJhaElx8n7QS4RwD6kwYBjt4c",
+      "name": "SOL SANDAL DAN SEPATU OUTSOL BAHAN SANDAL DAN SEPATU",
+      "address": "Jenggot, Kec. Mekar Baru, Kabupaten Tangerang, Banten 15550",
+      "maps_url": "https://www.google.com/maps/place/SOL+SANDAL+DAN+SEPATU+OUTSOL+BAHAN+SANDAL+DAN+SEPATU/data=!4m7!3m6!1s0x2e41fbc9c725a185:0x87b76380c1a43ec0!8m2!3d-6.0421845!4d106.3875898!16s%2Fg%2F11sgqt_qsn!19sChIJhaElx8n7QS4RwD6kwYBjt4c?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": "Buka 24 jam ",
+      "category": "jasa",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.0421845,
+      "longitude": 106.3875898,
+      "google_types": "Toko Sepatu",
+      "reviews": [
+        {
+          "author": "Sinta Purnama",
+          "rating": 5,
+          "text": "Lengkap",
+          "date": "4 tahun lalu"
+        },
+        {
+          "author": "Sinta Purnama",
+          "rating": 5,
+          "text": "Lengkap",
+          "date": "4 tahun lalu"
+        }
+      ],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJmY9ne37_QS4Rw6FiNbo8kNs",
+      "name": "Jasa sol sepatu",
+      "address": "Jl. Raya Cadas - Kukun, Sukatani, Kec. Rajeg, Kabupaten Tangerang, Banten 15540",
+      "maps_url": "https://www.google.com/maps/place/Jasa+sol+sepatu/data=!4m7!3m6!1s0x2e41ff7e7b678f99:0xdb903cba3562a1c3!8m2!3d-6.1312761!4d106.5300437!16s%2Fg%2F11wnj3d7qp!19sChIJmY9ne37_QS4Rw6FiNbo8kNs?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": null,
+      "category": "jasa",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.1312761,
+      "longitude": 106.5300437,
+      "google_types": "Toko Reparasi Sepatu",
+      "reviews": [],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJI60HuEABai4Rf90UivsavNI",
+      "name": "Kevin shoes Sol sepatu",
+      "address": "Jln Gatot Subroto tanah merah, Jati Mulya, Kabupaten Tangerang, Banten 15520",
+      "maps_url": "https://www.google.com/maps/place/Kevin+shoes+Sol+sepatu/data=!4m7!3m6!1s0x2e6a0140b807ad23:0xd2bc1afb8a14dd7f!8m2!3d-6.1213724!4d106.5968344!16s%2Fg%2F11vl3wmj63!19sChIJI60HuEABai4Rf90UivsavNI?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": "Buka · Tutup pukul 21.00 ",
+      "category": "jasa",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.1213724,
+      "longitude": 106.5968344,
+      "google_types": "Toko Sepatu",
+      "reviews": [
+        {
+          "author": "Derifan Ifan",
+          "rating": 5,
+          "text": "Salut.. akang nya masih muda sopan ramah karna org GARUT. Perbaikan sepatu Sagat rapih.sepatu second nya original² kulit asli... Se tangerang harus nyobain si nyerpis di kang Kevin .ank muda tapi banyak skil",
+          "date": "seminggu lalu"
+        },
+        {
+          "author": "Derifan Ifan",
+          "rating": 5,
+          "text": "Salut.. akang nya masih muda sopan ramah karna org GARUT. Perbaikan sepatu Sagat rapih.sepatu second nya original² kulit asli... Se tangerang harus nyobain si nyerpis di kang Kevin .ank muda tapi banyak skil",
+          "date": "seminggu lalu"
+        },
+        {
+          "author": "Puja Permatasari",
+          "rating": 5,
+          "text": "Mantap gak di ragukan lagi,barang yang di jual kualitas nya okeee bgtt orang nya juga ramah bangettt.\nJangan ragu kalo mau beli sepatu disini🤩🤩🤩 …",
+          "date": "7 bulan lalu"
+        },
+        {
+          "author": "Puja Permatasari",
+          "rating": 5,
+          "text": "Mantap gak di ragukan lagi,barang yang di jual kualitas nya okeee bgtt orang nya juga ramah bangettt.\nJangan ragu kalo mau beli sepatu disini🤩🤩🤩 …",
+          "date": "7 bulan lalu"
+        },
+        {
+          "author": "Fadly J",
+          "rating": 5,
+          "text": "Ganti outsole full jahit. harga ga masalah yang penting murah😂 alias cukup terjangkau.\nKualitas rapih dan kuat. bisa liat before afternya. 👍 …",
+          "date": "6 bulan lalu"
+        }
+      ],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJDVuyBkb5aS4Rnkg5veleIrQ",
+      "name": "Sol Sepatu Asgar portal pasar anyar",
+      "address": "Jl. AR. Hakim No.23, RT.002/RW.002, Sukasari, Kec. Tangerang, Kota Tangerang, Banten 15118",
+      "maps_url": "https://www.google.com/maps/place/Sol+Sepatu+Asgar+portal+pasar+anyar/data=!4m7!3m6!1s0x2e69f94606b25b0d:0xb4225ee9bd39489e!8m2!3d-6.177738!4d106.6374892!16s%2Fg%2F11ptq87r1p!19sChIJDVuyBkb5aS4Rnkg5veleIrQ?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": "Buka · Tutup pukul 18.00 ",
+      "category": "jasa",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.177738,
+      "longitude": 106.6374892,
+      "google_types": "Toko Sepatu",
+      "reviews": [
+        {
+          "author": "Wakuka57",
+          "rating": 5,
+          "text": "Pelayanan bagus jenis tali sepatu dan tali sol bermacam warna harga terjangkau ,",
+          "date": "setahun lalu"
+        },
+        {
+          "author": "Wakuka57",
+          "rating": 5,
+          "text": "Pelayanan bagus jenis tali sepatu dan tali sol bermacam warna harga terjangkau ,",
+          "date": "setahun lalu"
+        },
+        {
+          "author": "Achie Oktania",
+          "rating": 5,
+          "text": "Hasil jahitannya bagus dan rapih harga nya murah sangat recommended 👍🏻 …",
+          "date": "setahun lalu"
+        },
+        {
+          "author": "Achie Oktania",
+          "rating": 5,
+          "text": "Hasil jahitannya bagus dan rapih harga nya murah sangat recommended 👍🏻 …",
+          "date": "setahun lalu"
+        },
+        {
+          "author": "Kukuh Briliyandhi",
+          "rating": 5,
+          "text": "Rapih jahitannya, ramah orangnya, termasuk murah dari segi harga..",
+          "date": "9 bulan lalu"
+        }
+      ],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJT4DszBv5aS4RDPL2DrOLElM",
+      "name": "Sol Sepatu dan Reparasi Tas Sipon",
+      "address": "Jalan Maulana Hasanudin No.3, RT.1/RW.3, Cipondoh Makmur, Cipondoh, RT.001, RT.001/RW.003, Cipondoh Makmur, Kec. Cipondoh, Kota Tangerang, Banten 15148",
+      "maps_url": "https://www.google.com/maps/place/Sol+Sepatu+dan+Reparasi+Tas+Sipon/data=!4m7!3m6!1s0x2e69f91bccec804f:0x53128bb30ef6f20c!8m2!3d-6.1851757!4d106.6766043!16s%2Fg%2F11f7nlxdyl!19sChIJT4DszBv5aS4RDPL2DrOLElM?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": "Buka · Tutup pukul 18.15 ",
+      "category": "jasa",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.1851757,
+      "longitude": 106.6766043,
+      "google_types": "Toko Reparasi Sepatu",
+      "reviews": [],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJC4zyKgD_aS4RQMiOIW8JL74",
+      "name": "SOL SEPATU BPK DANI",
+      "address": "VH39+4WM, Jl. Raya Cadas - Kukun, Karet, Kec. Sepatan, Kabupaten Tangerang, Banten 15520",
+      "maps_url": "https://www.google.com/maps/place/SOL+SEPATU+BPK+DANI/data=!4m7!3m6!1s0x2e69ff002af28c0b:0xbe2f096f218ec840!8m2!3d-6.1471183!4d106.5698052!16s%2Fg%2F11wn1z95hf!19sChIJC4zyKgD_aS4RQMiOIW8JL74?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": "Buka · Tutup pukul 20.00 ",
+      "category": "jasa",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.1471183,
+      "longitude": 106.5698052,
+      "google_types": "Toko Reparasi Sepatu",
+      "reviews": [
+        {
+          "author": "Toni Lim",
+          "rating": 5,
+          "text": "Tokoh sol mantap\nOrang ramah harga bagus gas Ken",
+          "date": "3 minggu lalu"
+        },
+        {
+          "author": "Toni Lim",
+          "rating": 5,
+          "text": "Tokoh sol mantap\nOrang ramah harga bagus gas Ken",
+          "date": "3 minggu lalu"
+        },
+        {
+          "author": "Wahyu W",
+          "rating": 5,
+          "text": "Si mas nya baik, nge sol nya rapih 👍 …",
+          "date": "4 bulan lalu"
+        },
+        {
+          "author": "Wahyu W",
+          "rating": 5,
+          "text": "Si mas nya baik, nge sol nya rapih 👍 …",
+          "date": "4 bulan lalu"
+        },
+        {
+          "author": "Ruben Kurniawan",
+          "rating": 5,
+          "text": "Bagus dan terpercaya. Harga murah.",
+          "date": "11 bulan lalu"
+        }
+      ],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJ5Zljpyf9aS4RUFRVRPtSKMo",
+      "name": "Sol sepatu bang iyan servis center",
+      "address": "Jl. Raya Pagedangan No.68, Cicalengka, Kec. Pagedangan, Kabupaten Tangerang, Banten 15850",
+      "maps_url": "https://www.google.com/maps/place/Sol+sepatu+bang+iyan+servis+center/data=!4m7!3m6!1s0x2e69fd27a76399e5:0xca2852fb44555450!8m2!3d-6.2994783!4d106.6116925!16s%2Fg%2F11smdldj1z!19sChIJ5Zljpyf9aS4RUFRVRPtSKMo?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": null,
+      "category": "jasa",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.2994783,
+      "longitude": 106.6116925,
+      "google_types": "Penjahit",
+      "reviews": [],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJBXzeh-D_aS4Ru2Ql2ucGlmA",
+      "name": "PT SEPATU ANAK BANGSA",
+      "address": "Jl. Industri VIII No.8, RT.002/RW.003, Pasir Jaya, Kec. Jatiuwung, Kota Tangerang, Banten 15135",
+      "maps_url": "https://www.google.com/maps/place/PT+SEPATU+ANAK+BANGSA/data=!4m7!3m6!1s0x2e69ffe087de7c05:0x609606e7da2564bb!8m2!3d-6.1884373!4d106.5552315!16s%2Fg%2F11qrpfzfn4!19sChIJBXzeh-D_aS4Ru2Ql2ucGlmA?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": null,
+      "category": "jasa",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.1884373,
+      "longitude": 106.5552315,
+      "google_types": "Produsen",
+      "reviews": [
+        {
+          "author": "Suryadi Exodus",
+          "rating": 5,
+          "text": "Saya dari Pt Zin Indah lestari ingin menawarkan produk Lem kuning jika blh minta nomor WA nya?",
+          "date": "2 bulan lalu"
+        },
+        {
+          "author": "Suryadi Exodus",
+          "rating": 5,
+          "text": "Saya dari Pt Zin Indah lestari ingin menawarkan produk Lem kuning jika blh minta nomor WA nya?",
+          "date": "2 bulan lalu"
+        },
+        {
+          "author": "Hari Susanto",
+          "rating": 5,
+          "text": "Saya penyamak kulit dari Magetan. Cv. Ehsan Rizky Persada. Saya ingin menawarkan kulit untuk bahan baku sepatu PDH TNI Polri. Atau bahan baku sepatu safety. Apakah bisa ya. ?",
+          "date": "2 tahun lalu"
+        },
+        {
+          "author": "Hari Susanto",
+          "rating": 5,
+          "text": "Saya penyamak kulit dari Magetan. Cv. Ehsan Rizky Persada. Saya ingin menawarkan kulit untuk bahan baku sepatu PDH TNI Polri. Atau bahan baku sepatu safety. Apakah bisa ya. ?",
+          "date": "2 tahun lalu"
+        },
+        {
+          "author": "Sangjae Lee",
+          "rating": 5,
+          "text": "Pabrik yang bersih dan tertata rapi",
+          "date": "3 tahun lalu"
+        }
+      ],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJZfPrDuH7aS4R1Qn6Cob9zTo",
+      "name": "SOL SEPATU KANG AWAN",
+      "address": "Jl. Pondok Jagung Timur, Pd. Jagung Tim., Kec. Serpong Utara, Kota Tangerang Selatan, Banten 15326",
+      "maps_url": "https://www.google.com/maps/place/SOL+SEPATU+KANG+AWAN/data=!4m7!3m6!1s0x2e69fbe10eebf365:0x3acdfd860afa09d5!8m2!3d-6.246082!4d106.6697913!16s%2Fg%2F11s0x0lvrb!19sChIJZfPrDuH7aS4R1Qn6Cob9zTo?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": "Buka · Tutup pukul 20.00 ",
+      "category": "jasa",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.246082,
+      "longitude": 106.6697913,
+      "google_types": "Tukang Jahit",
+      "reviews": [
+        {
+          "author": "Maulana Alzura Estu",
+          "rating": 5,
+          "text": "Mantap, murah, rapih, abangnya ramah 👍 …",
+          "date": "setahun lalu"
+        },
+        {
+          "author": "Maulana Alzura Estu",
+          "rating": 5,
+          "text": "Mantap, murah, rapih, abangnya ramah 👍 …",
+          "date": "setahun lalu"
+        },
+        {
+          "author": "Kiswanto Bae",
+          "rating": 5,
+          "text": "Orangnya supel, enak diajak ngobrol sambil nunggu jahitan selesai.\nHasil nya juga rapi, 💯👍 …",
+          "date": "4 tahun lalu"
+        },
+        {
+          "author": "Kiswanto Bae",
+          "rating": 5,
+          "text": "Orangnya supel, enak diajak ngobrol sambil nunggu jahitan selesai.\nHasil nya juga rapi, 💯👍 …",
+          "date": "4 tahun lalu"
+        },
+        {
+          "author": "Galih Satria Permadi",
+          "rating": 5,
+          "text": "Hasil jahitannya bagus & rapi, tarifnya juga murah 👏🏻👍🏻👟 …",
+          "date": "4 tahun lalu"
+        }
+      ],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJD4Vpsi77aS4RUXxz2Yf1GNE",
+      "name": "Sol sepatu Graha",
+      "address": "Jl. Boulevard Graha Raya Bougenville loka No.51, RT.03/RW.05, Pd. Jagung, Kec. Serpong Utara, Kota Tangerang Selatan, Banten 15326",
+      "maps_url": "https://www.google.com/maps/place/Sol+sepatu+Graha/data=!4m7!3m6!1s0x2e69fb2eb269850f:0xd118f587d9737c51!8m2!3d-6.2472435!4d106.6738565!16s%2Fg%2F11t0ppq2g1!19sChIJD4Vpsi77aS4RUXxz2Yf1GNE?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": "Buka · Tutup pukul 17.00 ",
+      "category": "jasa",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.2472435,
+      "longitude": 106.6738565,
+      "google_types": "Penjahit",
+      "reviews": [
+        {
+          "author": "Galih Kusuma Aji",
+          "rating": 5,
+          "text": "Tempatnya kecil jadi kurang keliatan, bapaknya ramah, jam 4 udah tutup",
+          "date": "2 tahun lalu"
+        },
+        {
+          "author": "Galih Kusuma Aji",
+          "rating": 5,
+          "text": "Tempatnya kecil jadi kurang keliatan, bapaknya ramah, jam 4 udah tutup",
+          "date": "2 tahun lalu"
+        }
+      ],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJ58ZahsgAQi4Rr9niUalj0SM",
+      "name": "Pt. Boosan Sarang",
+      "address": "Jl. Cihideung No.9, Talaga, Kec. Cikupa, Kabupaten Tangerang, Banten 15710",
+      "maps_url": "https://www.google.com/maps/place/Pt.+Boosan+Sarang/data=!4m7!3m6!1s0x2e4200c8865ac6e7:0x23d163a951e2d9af!8m2!3d-6.2177789!4d106.5084533!16s%2Fg%2F11c5_8vg22!19sChIJ58ZahsgAQi4Rr9niUalj0SM?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": "Buka 24 jam ",
+      "category": "jasa",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.2177789,
+      "longitude": 106.5084533,
+      "google_types": "Kantor Perusahaan",
+      "reviews": [
+        {
+          "author": "Juni Robestha",
+          "rating": 5,
+          "text": "Masjidnya sangat bersih & terawat serta jamaahnya ramai. Rajin & aktip.",
+          "date": "sebulan lalu"
+        },
+        {
+          "author": "Juni Robestha",
+          "rating": 5,
+          "text": "Masjidnya sangat bersih & terawat serta jamaahnya ramai. Rajin & aktip.",
+          "date": "sebulan lalu"
+        },
+        {
+          "author": "SITI AISAH",
+          "rating": 5,
+          "text": "Apakah butuh driver untuk direksi? Saya siap. Sudah berpengalaman 🙏🏼 …",
+          "date": "6 bulan lalu"
+        },
+        {
+          "author": "SITI AISAH",
+          "rating": 5,
+          "text": "Apakah butuh driver untuk direksi? Saya siap. Sudah berpengalaman 🙏🏼 …",
+          "date": "6 bulan lalu"
+        },
+        {
+          "author": "Bayu Permana",
+          "rating": 5,
+          "text": "Untuk batas max umur pelamar berapa ya.?🙏 …",
+          "date": "9 bulan lalu"
+        }
+      ],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJcXzWpsQBQi4RhbJrjXuqbX0",
+      "name": "Central motor balaraja",
+      "address": "Jl. Raya Kresek, Balaraja, Kec. Balaraja, Kabupaten Tangerang, Banten",
+      "maps_url": "https://www.google.com/maps/place/Central+motor+balaraja/data=!4m7!3m6!1s0x2e4201c4a6d67c71:0x7d6daa7b8d6bb285!8m2!3d-6.1822005!4d106.453117!16s%2Fg%2F11y69z5gw_!19sChIJcXzWpsQBQi4RhbJrjXuqbX0?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": "Buka · Tutup pukul 20.00 Dikonfirmasi oleh bisnis ini 12 minggu yang lalu",
+      "category": "otomotif",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.1822005,
+      "longitude": 106.453117,
+      "google_types": "Bengkel Sepeda Motor",
+      "reviews": [
+        {
+          "author": "Irene Patricia Putri",
+          "rating": 5,
+          "text": "Pelayanannya baik, gaketok harga juga bosnya\nIm just a girl yg gangerti apa apa😂, tapi Semuanya dijelasin dan dibantuin …",
+          "date": "sebulan lalu"
+        },
+        {
+          "author": "Irene Patricia Putri",
+          "rating": 5,
+          "text": "Pelayanannya baik, gaketok harga juga bosnya\nIm just a girl yg gangerti apa apa😂, tapi Semuanya dijelasin dan dibantuin …",
+          "date": "sebulan lalu"
+        },
+        {
+          "author": "Erizha Rahman",
+          "rating": 5,
+          "text": "Pelayanan nya mantap, owner bengkel nya ramah juga ngejelasin nya , mekanik nya juga",
+          "date": "sebulan lalu"
+        },
+        {
+          "author": "Erizha Rahman",
+          "rating": 5,
+          "text": "Pelayanan nya mantap, owner bengkel nya ramah juga ngejelasin nya , mekanik nya juga",
+          "date": "sebulan lalu"
+        },
+        {
+          "author": "Miftach Megantoro",
+          "rating": 5,
+          "text": "Mantap servis injektor selesai cepat",
+          "date": "4 bulan lalu"
         }
       ],
       "category_conflict": false

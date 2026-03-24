@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
     inputs:
       region:
-        description: 'Region to scrape (kosongkan untuk semua)'
+        description: 'Region to scrape'
         required: false
         type: choice
         options:
@@ -12,15 +12,36 @@ on:
           - tangsel
           - kota_tangerang
           - kab_tangerang
+      batch:
+        description: 'Batch kecamatan (kab_tangerang only)'
+        required: false
+        type: choice
+        options:
+          - all
+          - batch1_balaraja-cikupa-cisauk-cisoka-curug
+          - batch2_gunung_kaler-jambe-jayanti-kelapa_dua-kemiri
+          - batch3_kosambi-kresek-kronjo-legok-mauk
+          - batch4_mekar_baru-pagedangan-pakuhaji-panongan-pasar_kemis
+          - batch5_rajeg-sepatan-sepatan_timur-sindang_jaya-solear
+          - batch6_sukadiri-sukamulya-teluknaga-tigaraksa
       category:
         description: 'Category filter (kosongkan untuk semua)'
         required: false
         type: string
 
+# Map batch names to kecamatan list
+env:
+  BATCH_batch1_balaraja-cikupa-cisauk-cisoka-curug: "balaraja,cikupa,cisauk,cisoka,curug"
+  BATCH_batch2_gunung_kaler-jambe-jayanti-kelapa_dua-kemiri: "gunung kaler,jambe,jayanti,kelapa dua,kemiri"
+  BATCH_batch3_kosambi-kresek-kronjo-legok-mauk: "kosambi,kresek,kronjo,legok,mauk"
+  BATCH_batch4_mekar_baru-pagedangan-pakuhaji-panongan-pasar_kemis: "mekar baru,pagedangan,pakuhaji,panongan,pasar kemis"
+  BATCH_batch5_rajeg-sepatan-sepatan_timur-sindang_jaya-solear: "rajeg,sepatan,sepatan timur,sindang jaya,solear"
+  BATCH_batch6_sukadiri-sukamulya-teluknaga-tigaraksa: "sukadiri,sukamulya,teluknaga,tigaraksa"
+
 jobs:
   scrape:
     runs-on: ubuntu-latest
-    timeout-minutes: 330 # 5.5 jam max
+    timeout-minutes: 330
     steps:
       - uses: actions/checkout@v4
 
@@ -37,19 +58,35 @@ jobs:
       - name: Run scraper
         run: |
           ARGS=""
+
+          # Region filter
           if [ "${{ inputs.region }}" != "all" ] && [ -n "${{ inputs.region }}" ]; then
             ARGS="--region=${{ inputs.region }}"
           fi
+
+          # Batch → kecamatan filter
+          BATCH="${{ inputs.batch }}"
+          if [ "$BATCH" != "all" ] && [ -n "$BATCH" ]; then
+            VARNAME="BATCH_${BATCH}"
+            KECAMATAN="${!VARNAME}"
+            if [ -n "$KECAMATAN" ]; then
+              ARGS="$ARGS --kecamatan=$KECAMATAN"
+            fi
+          fi
+
+          # Category filter
           if [ -n "${{ inputs.category }}" ]; then
             ARGS="$ARGS --category=${{ inputs.category }}"
           fi
+
+          echo "🚀 Running: npx tsx tools/scraper/scrape-places.ts $ARGS"
           npx tsx tools/scraper/scrape-places.ts $ARGS 2>&1 | tee scraper.log
 
       - name: Upload results
         if: always()
         uses: actions/upload-artifact@v4
         with:
-          name: scraper-results-${{ github.run_number }}
+          name: scraper-${{ inputs.region || 'all' }}-${{ inputs.batch || 'all' }}-${{ github.run_number }}
           path: |
             tools/scraper/seed-data/
             scraper.log
