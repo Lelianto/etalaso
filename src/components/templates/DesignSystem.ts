@@ -1,6 +1,6 @@
 /** 
  * DesignSystem.ts
- * Defines the style tokens and themes for the 100-template factory.
+ * Defines the style tokens and themes for the 150-template factory.
  */
 
 export type ThemeType = 
@@ -9,8 +9,9 @@ export type ThemeType =
   | 'cyberpunk' | 'nordic' | 'playful' | 'business' | 'creative'
   | 'nordic_dark' | 'elegant_dark';
 
-export type LayoutType = 
-  | 'standard' | 'split' | 'app' | 'gallery' | 'cards';
+export type LayoutType =
+  | 'standard' | 'split' | 'app' | 'gallery' | 'cards'
+  | 'magazine' | 'sidebar' | 'stack' | 'compact' | 'showcase';
 
 export interface ThemeConfig {
   id: ThemeType;
@@ -123,14 +124,14 @@ export const THEMES: Record<ThemeType, ThemeConfig> = {
     id: 'glass',
     name: 'Aero Glass',
     colors: {
-      primary: '#ffffff',
+      primary: '#0ea5e9',
       secondary: '#e2e8f0',
       accent: '#0ea5e9',
-      background: '#f8fafc',
+      background: '#f0f9ff',
       surface: 'rgba(255, 255, 255, 0.7)',
       text: '#1e293b',
       muted: '#64748b',
-      border: 'rgba(255, 255, 255, 0.5)',
+      border: 'rgba(148, 163, 184, 0.3)',
     },
     typography: {
       fontSans: 'Inter, sans-serif',

@@ -1,10 +1,6 @@
 import supabase from '@/lib/db/supabase'
 import { notFound } from 'next/navigation'
-import { 
-  MinimalistTemplate, WarungTemplate, ElegantTemplate, 
-  BoldTemplate, CardTemplate, GlassTemplate,
-  TemplateFactory
-} from '@/components/templates'
+import { TemplateFactory } from '@/components/templates'
 import type { Metadata } from 'next'
 
 export const revalidate = 86400 // 1 day
@@ -12,16 +8,28 @@ export const revalidate = 86400 // 1 day
 type Props = { params: Promise<{ city: string; category: string; slug: string }> }
 
 async function getBusinessData(slug: string) {
-  const searchName = slug.split('-').join(' ')
+  // Sanitize slug — remove PostgREST metacharacters to prevent filter injection
+  const sanitized = slug.replace(/[,()]/g, '')
+  const searchName = sanitized.split('-').join(' ')
 
-  const { data: business } = await supabase
+  // Try exact placeId match first, then fall back to name search
+  const { data: byPlaceId } = await supabase
     .from('Business')
     .select('*, products:Product(*), reviews:Review(*)')
-    .or(`name.ilike.%${searchName}%,placeId.eq.${slug}`)
+    .eq('placeId', sanitized)
     .limit(1)
     .single()
 
-  return business
+  if (byPlaceId) return byPlaceId
+
+  const { data: byName } = await supabase
+    .from('Business')
+    .select('*, products:Product(*), reviews:Review(*)')
+    .ilike('name', `%${searchName}%`)
+    .limit(1)
+    .single()
+
+  return byName
 }
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
@@ -56,6 +64,6 @@ export default async function BusinessPage({ params }: Props) {
   }
 
   const templateKey = (business.template || 'minimal')
-  
+
   return <TemplateFactory templateId={templateKey} business={business} />
 }

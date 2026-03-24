@@ -1,9 +1,12 @@
-import { requireAdmin } from '@/lib/auth/helpers'
+import { getUserProfile } from '@/lib/auth/helpers'
 import { supabaseAdmin } from '@/lib/supabase/admin'
 import { NextResponse } from 'next/server'
 
 export async function POST(request: Request) {
-  await requireAdmin()
+  const profile = await getUserProfile()
+  if (!profile || profile.role !== 'admin') {
+    return NextResponse.json({ error: 'Forbidden' }, { status: 403 })
+  }
 
   const { claimId, businessId, userId, action, note } = await request.json()
 
@@ -14,10 +17,10 @@ export async function POST(request: Request) {
       .update({ status: 'approved', updatedAt: new Date().toISOString() })
       .eq('id', claimId)
 
-    // Set business owner
+    // Set business owner + isClaimed flag
     await supabaseAdmin
       .from('Business')
-      .update({ ownerId: userId, updatedAt: new Date().toISOString() })
+      .update({ ownerId: userId, isClaimed: true, updatedAt: new Date().toISOString() })
       .eq('id', businessId)
 
     // Reject other pending claims for the same business

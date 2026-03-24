@@ -9,7 +9,9 @@ export interface BusinessData {
   mapsUrl: string | null
   latitude: number | null
   longitude: number | null
-  subscriptionType: 'business' | 'umkm'
+  imageUrl?: string | null
+  galleryImages?: string[]
+  subscriptionType?: 'business' | 'umkm' | 'free'
   products: Array<{
     id: string
     name: string

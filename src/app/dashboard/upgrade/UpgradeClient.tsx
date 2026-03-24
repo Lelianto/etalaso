@@ -45,8 +45,16 @@ export default function UpgradeClient({ plans, currentPlanId }: { plans: Plan[];
 
     const plan = plans.find(p => p.id === selectedPlan)
 
+    // Get current user ID for the payment record
+    const { data: { user } } = await supabase.auth.getUser()
+    if (!user) {
+      setUploading(false)
+      return
+    }
+
     // Create payment record
     await supabase.from('Payment').insert({
+      userId: user.id,
       planId: selectedPlan,
       amount: plan?.price || 0,
       proof_url: publicUrl,

@@ -1,9 +1,12 @@
-import { requireAdmin, getUser } from '@/lib/auth/helpers'
+import { getUserProfile, getUser } from '@/lib/auth/helpers'
 import { supabaseAdmin } from '@/lib/supabase/admin'
 import { NextResponse } from 'next/server'
 
 export async function POST(request: Request) {
-  await requireAdmin()
+  const profile = await getUserProfile()
+  if (!profile || profile.role !== 'admin') {
+    return NextResponse.json({ error: 'Forbidden' }, { status: 403 })
+  }
   const admin = await getUser()
 
   const { paymentId, userId, planId, action, note } = await request.json()
