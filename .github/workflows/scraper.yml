@@ -1,0 +1,56 @@
+name: Google Maps Scraper
+
+on:
+  workflow_dispatch:
+    inputs:
+      region:
+        description: 'Region to scrape (kosongkan untuk semua)'
+        required: false
+        type: choice
+        options:
+          - all
+          - tangsel
+          - kota_tangerang
+          - kab_tangerang
+      category:
+        description: 'Category filter (kosongkan untuk semua)'
+        required: false
+        type: string
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    timeout-minutes: 330 # 5.5 jam max
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: 'npm'
+
+      - run: npm ci
+
+      - name: Install Playwright browsers
+        run: npx playwright install chromium --with-deps
+
+      - name: Run scraper
+        run: |
+          ARGS=""
+          if [ "${{ inputs.region }}" != "all" ] && [ -n "${{ inputs.region }}" ]; then
+            ARGS="--region=${{ inputs.region }}"
+          fi
+          if [ -n "${{ inputs.category }}" ]; then
+            ARGS="$ARGS --category=${{ inputs.category }}"
+          fi
+          npx tsx tools/scraper/scrape-places.ts $ARGS 2>&1 | tee scraper.log
+
+      - name: Upload results
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: scraper-results-${{ github.run_number }}
+          path: |
+            tools/scraper/seed-data/
+            scraper.log
+          retention-days: 30
