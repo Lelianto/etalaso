@@ -1,6 +1,7 @@
 import React from 'react'
 import Link from 'next/link'
-import { BusinessData, getWhatsAppLink, getMapsLink, getReviews, getOpeningHours } from '../types'
+import { BusinessData, getWhatsAppLink, getMapsLink, getReviews, getOpeningHours, shouldShowBadge } from '../types'
+import EtalasoBadge from '../EtalasoBadge'
 
 /**
  * Template "Warung" — warm, friendly, food-focused
@@ -17,6 +18,11 @@ export default function WarungTemplate({ business }: { business: BusinessData })
       {/* Banner */}
       <div className="bg-gradient-to-br from-orange-600 via-amber-600 to-yellow-500 text-white">
         <div className="max-w-3xl mx-auto px-6 py-14 text-center">
+          {shouldShowBadge(business) && (
+            <div className="mb-6">
+              <EtalasoBadge variant="dark" />
+            </div>
+          )}
           <h1 className="text-4xl md:text-5xl font-black mb-3 drop-shadow-sm">
             {business.name}
           </h1>
@@ -104,9 +110,11 @@ export default function WarungTemplate({ business }: { business: BusinessData })
 
       <footer className="border-t border-amber-200 py-10 px-6 text-center bg-white">
         <p className="text-stone-400 text-sm">&copy; {new Date().getFullYear()} {business.name}</p>
-        <p className="text-xs text-stone-400 mt-2">
-          Ini bisnis Anda? <Link href="/claim" className="text-orange-600 font-semibold hover:underline">Klaim sekarang</Link>
-        </p>
+        {shouldShowBadge(business) && (
+          <Link href="/claim" className="inline-flex items-center gap-2 mt-4 px-6 py-3 bg-orange-600 text-white rounded-full text-xs font-bold hover:bg-orange-700 transition-colors">
+            Ini bisnis Anda? Klaim sekarang →
+          </Link>
+        )}
       </footer>
     </div>
   )

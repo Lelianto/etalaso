@@ -1,6 +1,7 @@
 import React from 'react'
 import Link from 'next/link'
-import { BusinessData, getWhatsAppLink, getMapsLink, getReviews, getOpeningHours } from '../types'
+import { BusinessData, getWhatsAppLink, getMapsLink, getReviews, getOpeningHours, shouldShowBadge } from '../types'
+import EtalasoBadge from '../EtalasoBadge'
 
 /**
  * Template "Glass" — glassmorphism, gradient backgrounds
@@ -24,6 +25,11 @@ export default function GlassTemplate({ business }: { business: BusinessData }) 
       <div className="relative max-w-3xl mx-auto px-6 py-16 space-y-8">
         {/* Header */}
         <header className="text-center py-10">
+          {shouldShowBadge(business) && (
+            <div className="mb-6">
+              <EtalasoBadge variant="dark" />
+            </div>
+          )}
           <div className="inline-flex items-center gap-2 bg-white/10 backdrop-blur-md border border-white/20 rounded-full px-4 py-1.5 text-xs font-semibold mb-6">
             <span className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse" />
             {hours || 'Buka'}
@@ -114,9 +120,11 @@ export default function GlassTemplate({ business }: { business: BusinessData }) 
         {/* Footer */}
         <footer className="text-center pt-8 pb-4">
           <p className="text-purple-400/60 text-xs">&copy; {new Date().getFullYear()} {business.name}</p>
-          <Link href="/claim" className="text-xs text-purple-300 font-semibold hover:text-white transition-colors">
-            Klaim bisnis ini
-          </Link>
+          {shouldShowBadge(business) && (
+            <Link href="/claim" className="inline-flex items-center gap-2 mt-4 px-6 py-3 bg-white/15 backdrop-blur-md border border-white/20 text-white rounded-2xl text-xs font-bold hover:bg-white/25 transition-all">
+              Ini bisnis Anda? Klaim sekarang →
+            </Link>
+          )}
         </footer>
       </div>
     </div>

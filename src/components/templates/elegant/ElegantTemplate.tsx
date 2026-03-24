@@ -1,6 +1,7 @@
 import React from 'react'
 import Link from 'next/link'
-import { BusinessData, getWhatsAppLink, getMapsLink, getReviews, getOpeningHours } from '../types'
+import { BusinessData, getWhatsAppLink, getMapsLink, getReviews, getOpeningHours, shouldShowBadge } from '../types'
+import EtalasoBadge from '../EtalasoBadge'
 
 /**
  * Template "Elegant" — classy, premium feel
@@ -17,6 +18,11 @@ export default function ElegantTemplate({ business }: { business: BusinessData }
       {/* Header */}
       <header className="bg-slate-900 text-white">
         <div className="max-w-4xl mx-auto px-6 py-20 text-center">
+          {shouldShowBadge(business) && (
+            <div className="mb-6">
+              <EtalasoBadge variant="dark" />
+            </div>
+          )}
           <div className="w-16 h-[2px] bg-amber-400 mx-auto mb-6" />
           <h1 className="text-4xl md:text-6xl font-light tracking-tight mb-4">
             {business.name}
@@ -106,9 +112,11 @@ export default function ElegantTemplate({ business }: { business: BusinessData }
 
       <footer className="border-t border-stone-200 py-12 px-6 text-center font-sans">
         <p className="text-stone-400 text-xs uppercase tracking-widest">&copy; {new Date().getFullYear()} {business.name}</p>
-        <p className="text-xs text-stone-400 mt-3">
-          Ini bisnis Anda? <Link href="/claim" className="text-amber-700 font-semibold hover:underline">Klaim halaman ini</Link>
-        </p>
+        {shouldShowBadge(business) && (
+          <Link href="/claim" className="inline-flex items-center gap-2 mt-4 px-6 py-3 bg-amber-500 text-slate-900 text-xs font-bold uppercase tracking-wider hover:bg-amber-400 transition-colors">
+            Ini bisnis Anda? Klaim sekarang →
+          </Link>
+        )}
       </footer>
     </div>
   )

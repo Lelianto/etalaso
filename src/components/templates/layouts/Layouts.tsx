@@ -13,13 +13,46 @@ interface LayoutProps {
   theme: ThemeConfig
 }
 
+/** Etalaso badge for unclaimed/free businesses — shown in header area */
+const EtalasoBadge: React.FC<{ theme: ThemeConfig; variant?: 'light' | 'dark' | 'auto' }> = ({ theme, variant = 'auto' }) => {
+  const isDark = variant === 'dark' || (variant === 'auto' && theme.colors.background.toLowerCase() < '#888888')
+  return (
+    <Link
+      href="/"
+      className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full text-[11px] font-semibold transition-opacity hover:opacity-80"
+      style={{
+        backgroundColor: isDark ? 'rgba(255,255,255,0.12)' : 'rgba(0,0,0,0.06)',
+        color: isDark ? 'rgba(255,255,255,0.7)' : 'rgba(0,0,0,0.5)',
+        backdropFilter: 'blur(8px)',
+      }}
+    >
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+        <path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z" />
+        <polyline points="9 22 9 12 15 12 15 22" />
+      </svg>
+      Etalaso
+    </Link>
+  )
+}
+
+/** Check if business should show the Etalaso badge (unclaimed / free tier) */
+function shouldShowBadge(business: BusinessData): boolean {
+  return !business.subscriptionType || business.subscriptionType === 'free'
+}
+
 /** Shared footer across all layouts */
 const LayoutFooter: React.FC<{ business: BusinessData; theme: ThemeConfig }> = ({ business, theme }) => (
-  <footer className="py-10 text-center border-t text-sm opacity-50" style={{ borderColor: theme.colors.border }}>
-    <p>© {new Date().getFullYear()} {business.name}. Dikelola oleh Etalaso.</p>
-    <Link href={`/claim/${(business as unknown as Record<string, string>).id || ''}`} className="inline-block mt-2 hover:underline">
-      Klaim bisnis ini →
-    </Link>
+  <footer className="py-10 text-center border-t text-sm" style={{ borderColor: theme.colors.border }}>
+    <p className="opacity-50">© {new Date().getFullYear()} {business.name}. Dikelola oleh Etalaso.</p>
+    {shouldShowBadge(business) && (
+      <Link
+        href="/claim"
+        className="inline-flex items-center gap-2 mt-4 px-5 py-2.5 rounded-full text-xs font-bold transition-colors hover:opacity-90"
+        style={{ backgroundColor: theme.colors.accent, color: '#fff' }}
+      >
+        Ini bisnis Anda? Klaim sekarang →
+      </Link>
+    )}
   </footer>
 )
 
@@ -66,6 +99,13 @@ export const StandardLayout: React.FC<LayoutProps> = ({ business, theme }) => {
       className="min-h-screen"
       style={{ backgroundColor: theme.colors.background, color: theme.colors.text, fontFamily: theme.typography.fontSans }}
     >
+      {/* Etalaso Badge */}
+      {shouldShowBadge(business) && (
+        <div className="absolute top-4 left-4 z-30">
+          <EtalasoBadge theme={theme} variant={business.imageUrl ? 'dark' : 'auto'} />
+        </div>
+      )}
+
       {/* Hero */}
       <section className="relative overflow-hidden">
         {business.imageUrl && (
@@ -210,6 +250,11 @@ export const SplitLayout: React.FC<LayoutProps> = ({ business, theme }) => {
       <div className="flex-grow flex flex-col md:flex-row">
         {/* Left: Content */}
         <div className="w-full md:w-1/2 p-12 md:p-24 flex flex-col justify-center">
+          {shouldShowBadge(business) && (
+            <div className="mb-6">
+              <EtalasoBadge theme={theme} />
+            </div>
+          )}
           <motion.div initial={{ opacity: 0, x: -30 }} animate={{ opacity: 1, x: 0 }}>
             <h1 className="text-5xl md:text-7xl font-bold mb-8" style={{ fontFamily: theme.typography.fontDisplay }}>{business.name}</h1>
             <p className="text-xl opacity-80 mb-12">{business.description || 'Solusi terbaik untuk Anda.'}</p>
@@ -296,9 +341,13 @@ export const SplitLayout: React.FC<LayoutProps> = ({ business, theme }) => {
           <div><h5 className="font-bold mb-2">Alamat</h5><p>{business.address}</p></div>
           <div><h5 className="font-bold mb-2">Jam Buka</h5><p>{hours || 'Hubungi Kami'}</p></div>
         </div>
-        <div className="text-right text-xs opacity-50">
-          <p>© {new Date().getFullYear()} {business.name}. Powered by Etalaso.</p>
-          <Link href={`/claim/${(business as unknown as Record<string, string>).id || ''}`} className="hover:underline">Klaim bisnis ini →</Link>
+        <div className="text-right flex flex-col items-end gap-3">
+          <p className="text-xs opacity-50">© {new Date().getFullYear()} {business.name}. Powered by Etalaso.</p>
+          {shouldShowBadge(business) && (
+            <Link href="/claim" className="inline-flex items-center gap-2 px-5 py-2.5 rounded-full text-xs font-bold transition-colors hover:opacity-90" style={{ backgroundColor: theme.colors.accent, color: '#fff' }}>
+              Ini bisnis Anda? Klaim sekarang →
+            </Link>
+          )}
         </div>
       </section>
 
@@ -316,7 +365,10 @@ export const AppLayout: React.FC<LayoutProps> = ({ business, theme }) => {
     <div className="min-h-screen pb-24" style={{ backgroundColor: theme.colors.background, color: theme.colors.text, fontFamily: theme.typography.fontSans }}>
       {/* Header */}
       <header className="sticky top-0 z-40 p-6 flex justify-between items-center border-b backdrop-blur-md" style={{ borderColor: theme.colors.border, backgroundColor: theme.colors.surface + 'cc' }}>
-        <h1 className="font-black text-xl">{business.name}</h1>
+        <div className="flex items-center gap-3">
+          {shouldShowBadge(business) && <EtalasoBadge theme={theme} />}
+          <h1 className="font-black text-xl">{business.name}</h1>
+        </div>
         <a href={getWhatsAppLink(business)} className="p-2 rounded-full" style={{ backgroundColor: theme.colors.accent }}><MessageCircle size={20} color="white" /></a>
       </header>
 
@@ -394,9 +446,13 @@ export const AppLayout: React.FC<LayoutProps> = ({ business, theme }) => {
         </div>
 
         {/* Footer */}
-        <div className="pt-4 text-center text-xs opacity-40">
-          <p>© {new Date().getFullYear()} {business.name}</p>
-          <Link href={`/claim/${(business as unknown as Record<string, string>).id || ''}`} className="hover:underline">Klaim bisnis ini →</Link>
+        <div className="pt-4 text-center">
+          <p className="text-xs opacity-40">© {new Date().getFullYear()} {business.name}</p>
+          {shouldShowBadge(business) && (
+            <Link href="/claim" className="inline-flex items-center gap-2 mt-3 px-5 py-2.5 rounded-full text-xs font-bold transition-colors hover:opacity-90" style={{ backgroundColor: theme.colors.accent, color: '#fff' }}>
+              Ini bisnis Anda? Klaim sekarang →
+            </Link>
+          )}
         </div>
       </div>
 
@@ -430,6 +486,11 @@ export const GalleryLayout: React.FC<LayoutProps> = ({ business, theme }) => {
       )}
 
       <header className={`px-6 text-center ${business.imageUrl ? 'relative -mt-24 z-10' : 'pt-20'} pb-12`}>
+        {shouldShowBadge(business) && (
+          <div className="mb-6">
+            <EtalasoBadge theme={theme} variant={business.imageUrl ? 'dark' : 'auto'} />
+          </div>
+        )}
         <h1 className="text-5xl md:text-6xl font-black mb-4 uppercase tracking-tighter" style={{ fontFamily: theme.typography.fontDisplay }}>{business.name}</h1>
         <p className="max-w-xl mx-auto opacity-70 mb-12">{business.description}</p>
 
@@ -505,6 +566,13 @@ export const CardsLayout: React.FC<LayoutProps> = ({ business, theme }) => {
   return (
     <div className="min-h-screen py-20 px-6" style={{ backgroundColor: theme.colors.background, color: theme.colors.text, fontFamily: theme.typography.fontSans }}>
       <div className="max-w-xl mx-auto space-y-6">
+        {/* Etalaso Badge */}
+        {shouldShowBadge(business) && (
+          <div className="text-center">
+            <EtalasoBadge theme={theme} />
+          </div>
+        )}
+
         {/* Hero Image Card */}
         {business.imageUrl && (
           <div className="relative h-56 rounded-[2.5rem] overflow-hidden shadow-2xl">
@@ -580,11 +648,13 @@ export const CardsLayout: React.FC<LayoutProps> = ({ business, theme }) => {
         </div>
 
         {/* Footer */}
-        <div className="pt-8 text-center text-[10px] font-bold tracking-[0.2em] opacity-30 uppercase">
-          <p>Powered by Etalaso</p>
-          <Link href={`/claim/${(business as unknown as Record<string, string>).id || ''}`} className="hover:underline normal-case tracking-normal">
-            Klaim bisnis ini →
-          </Link>
+        <div className="pt-8 text-center">
+          <p className="text-[10px] font-bold tracking-[0.2em] opacity-30 uppercase">Powered by Etalaso</p>
+          {shouldShowBadge(business) && (
+            <Link href="/claim" className="inline-flex items-center gap-2 mt-3 px-5 py-2.5 rounded-[1.5rem] text-xs font-bold transition-colors hover:opacity-90" style={{ backgroundColor: theme.colors.accent, color: '#fff' }}>
+              Ini bisnis Anda? Klaim sekarang →
+            </Link>
+          )}
         </div>
       </div>
 
@@ -602,7 +672,8 @@ export const MagazineLayout: React.FC<LayoutProps> = ({ business, theme }) => {
   return (
     <div className="min-h-screen" style={{ backgroundColor: theme.colors.background, color: theme.colors.text, fontFamily: theme.typography.fontSans }}>
       {/* Masthead */}
-      <header className="border-b py-4 px-6 text-center" style={{ borderColor: theme.colors.border }}>
+      <header className="border-b py-4 px-6 flex items-center justify-center gap-4" style={{ borderColor: theme.colors.border }}>
+        {shouldShowBadge(business) && <EtalasoBadge theme={theme} />}
         <span className="text-xs font-bold uppercase tracking-[0.3em] opacity-50">Etalaso Presents</span>
       </header>
 
@@ -716,6 +787,11 @@ export const SidebarLayout: React.FC<LayoutProps> = ({ business, theme }) => {
     <div className="min-h-screen flex flex-col md:flex-row" style={{ backgroundColor: theme.colors.background, color: theme.colors.text, fontFamily: theme.typography.fontSans }}>
       {/* Sidebar */}
       <aside className="w-full md:w-80 md:min-h-screen md:sticky md:top-0 p-8 flex flex-col" style={{ backgroundColor: theme.colors.surface, borderRight: `1px solid ${theme.colors.border}` }}>
+        {shouldShowBadge(business) && (
+          <div className="mb-4">
+            <EtalasoBadge theme={theme} />
+          </div>
+        )}
         {business.imageUrl && (
           <div className="relative w-full h-40 rounded-2xl overflow-hidden mb-6">
             <Image src={business.imageUrl} alt={business.name} fill className="object-cover" priority />
@@ -750,9 +826,13 @@ export const SidebarLayout: React.FC<LayoutProps> = ({ business, theme }) => {
           <MapPin size={16} /> Buka Maps
         </a>
 
-        <div className="mt-auto pt-8 text-[10px] opacity-30">
-          <p>© {new Date().getFullYear()} {business.name}</p>
-          <Link href={`/claim/${(business as unknown as Record<string, string>).id || ''}`} className="hover:underline">Klaim bisnis ini →</Link>
+        <div className="mt-auto pt-8">
+          <p className="text-[10px] opacity-30">© {new Date().getFullYear()} {business.name}</p>
+          {shouldShowBadge(business) && (
+            <Link href="/claim" className="inline-flex items-center gap-2 mt-3 w-full justify-center py-2.5 rounded-xl text-xs font-bold transition-colors hover:opacity-90" style={{ backgroundColor: theme.colors.accent, color: '#fff' }}>
+              Klaim bisnis ini →
+            </Link>
+          )}
         </div>
       </aside>
 
@@ -827,6 +907,13 @@ export const StackLayout: React.FC<LayoutProps> = ({ business, theme }) => {
 
   return (
     <div className="min-h-screen" style={{ backgroundColor: theme.colors.background, color: theme.colors.text, fontFamily: theme.typography.fontSans }}>
+      {/* Etalaso Badge */}
+      {shouldShowBadge(business) && (
+        <div className="absolute top-4 left-4 z-30">
+          <EtalasoBadge theme={theme} variant="dark" />
+        </div>
+      )}
+
       {/* Section 1: Hero — fullscreen */}
       <section className="relative min-h-screen flex items-center justify-center px-6">
         {business.imageUrl && (
@@ -945,6 +1032,11 @@ export const CompactLayout: React.FC<LayoutProps> = ({ business, theme }) => {
     <div className="min-h-screen" style={{ backgroundColor: theme.colors.background, color: theme.colors.text, fontFamily: theme.typography.fontSans }}>
       {/* Compact header with image */}
       <header className="relative">
+        {shouldShowBadge(business) && (
+          <div className="absolute top-3 left-3 z-20">
+            <EtalasoBadge theme={theme} variant={business.imageUrl ? 'dark' : 'auto'} />
+          </div>
+        )}
         {business.imageUrl ? (
           <div className="relative h-44">
             <Image src={business.imageUrl} alt={business.name} fill className="object-cover" priority />
@@ -1044,9 +1136,13 @@ export const CompactLayout: React.FC<LayoutProps> = ({ business, theme }) => {
         </a>
 
         {/* Footer */}
-        <div className="pt-4 pb-8 text-center text-[10px] opacity-30">
-          <p>© {new Date().getFullYear()} {business.name}. Powered by Etalaso.</p>
-          <Link href={`/claim/${(business as unknown as Record<string, string>).id || ''}`} className="hover:underline">Klaim bisnis ini →</Link>
+        <div className="pt-4 pb-8 text-center">
+          <p className="text-[10px] opacity-30">© {new Date().getFullYear()} {business.name}. Powered by Etalaso.</p>
+          {shouldShowBadge(business) && (
+            <Link href="/claim" className="inline-flex items-center gap-2 mt-3 px-5 py-2.5 rounded-xl text-xs font-bold transition-colors hover:opacity-90" style={{ backgroundColor: theme.colors.accent, color: '#fff' }}>
+              Ini bisnis Anda? Klaim sekarang →
+            </Link>
+          )}
         </div>
       </div>
     </div>
@@ -1063,7 +1159,10 @@ export const ShowcaseLayout: React.FC<LayoutProps> = ({ business, theme }) => {
     <div className="min-h-screen" style={{ backgroundColor: theme.colors.background, color: theme.colors.text, fontFamily: theme.typography.fontSans }}>
       {/* Floating nav */}
       <nav className="sticky top-0 z-40 flex items-center justify-between px-6 py-4 backdrop-blur-md" style={{ backgroundColor: theme.colors.background + 'ee', borderBottom: `1px solid ${theme.colors.border}` }}>
-        <h1 className="font-bold text-lg" style={{ fontFamily: theme.typography.fontDisplay }}>{business.name}</h1>
+        <div className="flex items-center gap-3">
+          {shouldShowBadge(business) && <EtalasoBadge theme={theme} />}
+          <h1 className="font-bold text-lg" style={{ fontFamily: theme.typography.fontDisplay }}>{business.name}</h1>
+        </div>
         <div className="flex gap-2">
           <a href={getMapsLink(business)} className="p-2 rounded-lg border" style={{ borderColor: theme.colors.border }}><MapPin size={16} /></a>
           <a href={getWhatsAppLink(business)} className="p-2 rounded-lg" style={{ backgroundColor: theme.colors.accent, color: '#fff' }}><MessageCircle size={16} /></a>

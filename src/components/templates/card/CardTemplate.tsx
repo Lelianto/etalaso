@@ -1,6 +1,7 @@
 import React from 'react'
 import Link from 'next/link'
-import { BusinessData, getWhatsAppLink, getMapsLink, getReviews, getOpeningHours } from '../types'
+import { BusinessData, getWhatsAppLink, getMapsLink, getReviews, getOpeningHours, shouldShowBadge } from '../types'
+import EtalasoBadge from '../EtalasoBadge'
 
 /**
  * Template "Card" — compact, single-page card layout
@@ -18,6 +19,11 @@ export default function CardTemplate({ business }: { business: BusinessData }) {
         {/* Profile Card */}
         <div className="bg-white rounded-3xl shadow-lg shadow-indigo-100/50 overflow-hidden">
           <div className="bg-gradient-to-r from-indigo-600 to-blue-500 px-6 pt-10 pb-14 text-center text-white">
+            {shouldShowBadge(business) && (
+              <div className="mb-4">
+                <EtalasoBadge variant="dark" />
+              </div>
+            )}
             <div className="w-20 h-20 rounded-2xl bg-white/20 backdrop-blur-sm flex items-center justify-center mx-auto mb-4 text-3xl font-black">
               {business.name.charAt(0)}
             </div>
@@ -113,7 +119,11 @@ export default function CardTemplate({ business }: { business: BusinessData }) {
         {/* Footer */}
         <div className="text-center pt-4 pb-8">
           <p className="text-slate-400 text-xs">&copy; {new Date().getFullYear()} {business.name}</p>
-          <Link href="/claim" className="text-xs text-indigo-500 font-semibold hover:underline">Klaim bisnis ini</Link>
+          {shouldShowBadge(business) && (
+            <Link href="/claim" className="inline-flex items-center gap-2 mt-4 px-6 py-3 bg-indigo-600 text-white rounded-full text-xs font-bold hover:bg-indigo-700 transition-colors">
+              Ini bisnis Anda? Klaim sekarang →
+            </Link>
+          )}
         </div>
       </div>
     </div>

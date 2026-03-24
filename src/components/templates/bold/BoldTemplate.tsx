@@ -1,6 +1,7 @@
 import React from 'react'
 import Link from 'next/link'
-import { BusinessData, getWhatsAppLink, getMapsLink, getReviews, getOpeningHours } from '../types'
+import { BusinessData, getWhatsAppLink, getMapsLink, getReviews, getOpeningHours, shouldShowBadge } from '../types'
+import EtalasoBadge from '../EtalasoBadge'
 
 /**
  * Template "Bold" — energetic, modern, high-contrast
@@ -18,6 +19,11 @@ export default function BoldTemplate({ business }: { business: BusinessData }) {
       <header className="relative overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-b from-emerald-500/10 to-transparent" />
         <div className="relative max-w-5xl mx-auto px-6 pt-16 pb-20">
+          {shouldShowBadge(business) && (
+            <div className="mb-8">
+              <EtalasoBadge variant="dark" />
+            </div>
+          )}
           <div className="flex flex-col md:flex-row md:items-end md:justify-between gap-8">
             <div className="flex-1">
               <h1 className="text-5xl md:text-7xl font-black leading-[0.9] tracking-tight mb-4">
@@ -114,7 +120,11 @@ export default function BoldTemplate({ business }: { business: BusinessData }) {
       <footer className="border-t border-zinc-800 py-10 px-6">
         <div className="max-w-5xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-4">
           <p className="text-zinc-600 text-xs">&copy; {new Date().getFullYear()} {business.name}</p>
-          <Link href="/claim" className="text-xs text-emerald-500 font-bold hover:underline">Klaim bisnis ini</Link>
+          {shouldShowBadge(business) && (
+            <Link href="/claim" className="inline-flex items-center gap-2 px-6 py-3 bg-emerald-500 text-black text-xs font-black uppercase tracking-wider hover:bg-emerald-400 transition-colors">
+              Klaim bisnis ini →
+            </Link>
+          )}
         </div>
       </footer>
     </div>

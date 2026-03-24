@@ -1,6 +1,7 @@
 import React from 'react'
 import Link from 'next/link'
-import { BusinessData, getWhatsAppLink, getReviews, getOpeningHours } from '../types'
+import { BusinessData, getWhatsAppLink, getReviews, getOpeningHours, shouldShowBadge } from '../types'
+import EtalasoBadge from '../EtalasoBadge'
 
 export default function MinimalistTemplate({ business }: { business: BusinessData }) {
   const waLink = getWhatsAppLink(business)
@@ -9,6 +10,11 @@ export default function MinimalistTemplate({ business }: { business: BusinessDat
   return (
     <div className="min-h-screen bg-slate-50 font-sans text-slate-900">
       <header className="bg-white border-b border-slate-200 py-16 px-6 text-center">
+        {shouldShowBadge(business) && (
+          <div className="mb-6">
+            <EtalasoBadge />
+          </div>
+        )}
         <h1 className="text-4xl md:text-5xl font-extrabold tracking-tight text-slate-900 mb-6">
           {business.name}
         </h1>
@@ -77,11 +83,11 @@ export default function MinimalistTemplate({ business }: { business: BusinessDat
 
       <footer className="py-12 px-6 text-center text-slate-400 text-sm border-t border-slate-200 mt-24">
         <p>&copy; {new Date().getFullYear()} {business.name}</p>
-        <div className="mt-4 p-4 bg-slate-100 rounded-xl inline-block max-w-xs">
-          <p className="text-xs text-slate-500 leading-tight">
-            Ingin klaim halaman ini? <Link href="/claim" className="text-blue-600 font-bold hover:underline">Klik di sini</Link>
-          </p>
-        </div>
+        {shouldShowBadge(business) && (
+          <Link href="/claim" className="inline-flex items-center gap-2 mt-4 px-6 py-3 bg-blue-600 text-white rounded-full text-xs font-bold hover:bg-blue-700 transition-colors">
+            Ini bisnis Anda? Klaim sekarang →
+          </Link>
+        )}
       </footer>
     </div>
   )
