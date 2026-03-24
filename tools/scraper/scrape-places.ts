@@ -301,9 +301,10 @@ function filterKecamatan(args: ReturnType<typeof parseArgs>): Kecamatan[] {
 
   if (args.kecamatanFilter) {
     result = result.filter(k =>
-      args.kecamatanFilter!.some(f =>
-        slugify(k.name).includes(f) || k.name.toLowerCase().includes(f)
-      )
+      args.kecamatanFilter!.some(f => {
+        const sf = slugify(f)
+        return slugify(k.name).includes(sf) || slugify(k.name) === sf || k.name.toLowerCase().includes(f)
+      })
     )
   }
 

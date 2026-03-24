@@ -1,11 +1,11 @@
 {
   "_meta": {
-    "scraped_at": "2026-03-24T07:29:12.870Z",
-    "total_places": 728,
+    "scraped_at": "2026-03-24T07:33:46.311Z",
+    "total_places": 749,
     "by_category": {
       "kuliner": 376,
       "jasa": 351,
-      "otomotif": 1
+      "otomotif": 22
     },
     "potential_duplicates": []
   },
@@ -25502,6 +25502,827 @@
           "rating": 5,
           "text": "Mantap servis injektor selesai cepat",
           "date": "4 bulan lalu"
+        }
+      ],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJYwv2k5wBQi4RSR_asLrFA28",
+      "name": "Bengkel Bintang kejora motor",
+      "address": "Jl. Raya Kresek No.40, Balaraja, Kec. Balaraja, Kabupaten Tangerang, Banten 15610",
+      "maps_url": "https://www.google.com/maps/place/Bengkel+Bintang+kejora+motor/data=!4m7!3m6!1s0x2e42019c93f60b63:0x6f03c5bab0da1f49!8m2!3d-6.1840873!4d106.454171!16s%2Fg%2F11c75gzyk6!19sChIJYwv2k5wBQi4RSR_asLrFA28?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": "Buka · Tutup pukul 18.30 ",
+      "category": "otomotif",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.1840873,
+      "longitude": 106.454171,
+      "google_types": "Bengkel Bongkar Pasang Mesin",
+      "reviews": [
+        {
+          "author": "Nedi Sulyadi",
+          "rating": 5,
+          "text": "Sperpat sangat lengkap bisa konsultasi dulu sebelum diservise boss sangat rama mekani sangat agresif pengerjaan sangat puas .m recomen bgt bengkel dan toko ny",
+          "date": "4 bulan lalu"
+        },
+        {
+          "author": "Nedi Sulyadi",
+          "rating": 5,
+          "text": "Sperpat sangat lengkap bisa konsultasi dulu sebelum diservise boss sangat rama mekani sangat agresif pengerjaan sangat puas .m recomen bgt bengkel dan toko ny",
+          "date": "4 bulan lalu"
+        },
+        {
+          "author": "Agus Bagaskara",
+          "rating": 5,
+          "text": "Hay.. guys .. scarlet lovers.  Yang dekat yang jauh bisa merapat di bintang kejora motor. .. di samping layanan servis .. toko ini juga menyediakan berbagai variasi ..     pruduk variasi SCARLET juga tersedia .. …",
+          "date": "6 tahun lalu"
+        },
+        {
+          "author": "Agus Bagaskara",
+          "rating": 5,
+          "text": "Hay.. guys .. scarlet lovers.  Yang dekat yang jauh bisa merapat di bintang kejora motor. .. di samping layanan servis .. toko ini juga menyediakan berbagai variasi ..     pruduk variasi SCARLET juga tersedia .. …",
+          "date": "6 tahun lalu"
+        },
+        {
+          "author": "ima sitipatimah",
+          "rating": 5,
+          "text": "Bengkelnya bersih ,pelayanan ramah, kàryawan baik , serrvice mantap, harga relatif murah baru pertama kali dtng kita nanya direspon ama ko2nya ga salah dah milih bengkel disini bakal jadi langganan . Top markotopp",
+          "date": "setahun lalu"
+        }
+      ],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJs1tGeQABQi4R_v697APS4wU",
+      "name": "Deardo Jaya Motor",
+      "address": "Jl. Raya Tobat No.72, Sentul Jaya, 15610, Jaya, Kec. Balaraja, Kabupaten Tangerang, Banten 15610",
+      "maps_url": "https://www.google.com/maps/place/Deardo+Jaya+Motor/data=!4m7!3m6!1s0x2e42010079465bb3:0x5e3d203ecbdfefe!8m2!3d-6.2121836!4d106.4419027!16s%2Fg%2F11v_888rr5!19sChIJs1tGeQABQi4R_v697APS4wU?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": "Buka · Tutup pukul 21.00 ",
+      "category": "otomotif",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.2121836,
+      "longitude": 106.4419027,
+      "google_types": "Bengkel Sepeda Motor",
+      "reviews": [
+        {
+          "author": "Papaps Muda",
+          "rating": 5,
+          "text": "Bengkel komplit ada komputer buat diagnosa kerusakan motor, bisa riset ecu dan remap ecu, pokonya bengkel rekomendasi dan harga murah",
+          "date": "5 bulan lalu"
+        },
+        {
+          "author": "Papaps Muda",
+          "rating": 5,
+          "text": "Bengkel komplit ada komputer buat diagnosa kerusakan motor, bisa riset ecu dan remap ecu, pokonya bengkel rekomendasi dan harga murah",
+          "date": "5 bulan lalu"
+        },
+        {
+          "author": "Sain_ikaa",
+          "rating": 5,
+          "text": "Pelayanannya ramah dan harganya lebih murah dari bengkel lain, servicenya juga bagus. Highly recommended 👍 …",
+          "date": "setahun lalu"
+        },
+        {
+          "author": "Sain_ikaa",
+          "rating": 5,
+          "text": "Pelayanannya ramah dan harganya lebih murah dari bengkel lain, servicenya juga bagus. Highly recommended 👍 …",
+          "date": "setahun lalu"
+        },
+        {
+          "author": "Joni Julianto",
+          "rating": 5,
+          "text": "Joos bengkel rekomendit mekanik baik bengkel bisa di percaya,, pengerjaan cepat dan bagus",
+          "date": "3 bulan lalu"
+        }
+      ],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJc-byJ90DQi4RTka_jyOcXdc",
+      "name": "BENGKEL MOTOR BSO",
+      "address": "RC3Q+F7G, Jl. Raya Tobat, Tobat, Kec. Balaraja, Kabupaten Tangerang, Banten 15610",
+      "maps_url": "https://www.google.com/maps/place/BENGKEL+MOTOR+BSO/data=!4m7!3m6!1s0x2e4203dd27f2e673:0xd75d9c238fbf464e!8m2!3d-6.1963075!4d106.4382019!16s%2Fg%2F11mvnzy_9w!19sChIJc-byJ90DQi4RTka_jyOcXdc?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": "Buka · Tutup pukul 19.00 ",
+      "category": "otomotif",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.1963075,
+      "longitude": 106.4382019,
+      "google_types": "Bengkel Sepeda Motor",
+      "reviews": [
+        {
+          "author": "Elisah Eli",
+          "rating": 5,
+          "text": "Tempat ramai di samping jalan raya sebelum rs ud tobat\nKec balaraja ds tobat kab tangerang banten",
+          "date": "5 tahun lalu"
+        },
+        {
+          "author": "Elisah Eli",
+          "rating": 5,
+          "text": "Tempat ramai di samping jalan raya sebelum rs ud tobat\nKec balaraja ds tobat kab tangerang banten",
+          "date": "5 tahun lalu"
+        },
+        {
+          "author": "Haerudin Heri",
+          "rating": 5,
+          "text": "Lokasi depan jalan utama dekaet RSUD Balaraja",
+          "date": "Diedit 3 tahun lalu"
+        },
+        {
+          "author": "Haerudin Heri",
+          "rating": 5,
+          "text": "Lokasi depan jalan utama dekaet RSUD Balaraja",
+          "date": "Diedit 3 tahun lalu"
+        },
+        {
+          "author": "Ruchiyat Prihatin",
+          "rating": 5,
+          "text": "👍 …",
+          "date": "2 tahun lalu"
+        }
+      ],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJMSIMxusBQi4RvoknQm8Uems",
+      "name": "TOKO AMAJHON MOTOR BALARAJA",
+      "address": "Jl. Raya Serang, Balaraja, Kec. Balaraja, Kabupaten Tangerang, Banten 15610",
+      "maps_url": "https://www.google.com/maps/place/TOKO+AMAJHON+MOTOR+BALARAJA/data=!4m7!3m6!1s0x2e4201ebc60c2231:0x6b7a146f422789be!8m2!3d-6.1981566!4d106.4567927!16s%2Fg%2F11rgcxm3k5!19sChIJMSIMxusBQi4RvoknQm8Uems?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": "Buka · Tutup pukul 19.01 ",
+      "category": "otomotif",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.1981566,
+      "longitude": 106.4567927,
+      "google_types": "Toko Suku Cadang Motor",
+      "reviews": [
+        {
+          "author": "Apip Pudin",
+          "rating": 5,
+          "text": "Ada mika hadlamp pcx gen 2 gk ya",
+          "date": "3 minggu lalu"
+        },
+        {
+          "author": "Apip Pudin",
+          "rating": 5,
+          "text": "Ada mika hadlamp pcx gen 2 gk ya",
+          "date": "3 minggu lalu"
+        },
+        {
+          "author": "Toni Setiadi",
+          "rating": 5,
+          "text": "Grosir harga harga lumayan oke sesuai kualitas tidak sembarangan",
+          "date": "sebulan lalu"
+        },
+        {
+          "author": "Toni Setiadi",
+          "rating": 5,
+          "text": "Grosir harga harga lumayan oke sesuai kualitas tidak sembarangan",
+          "date": "sebulan lalu"
+        },
+        {
+          "author": "Wahyudi Kurniawan",
+          "rating": 5,
+          "text": "Ada velg vnd vspeed v2 untuk vario 150 new, kira² harganya brpa ?",
+          "date": "9 bulan lalu"
+        }
+      ],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJLfoky7MBQi4RNxL1pkCf0bk",
+      "name": "KING'S MOTOR",
+      "address": "Jl. Raya Kresek No.23, Balaraja, Kec. Balaraja, Kabupaten Tangerang, Banten 15610",
+      "maps_url": "https://www.google.com/maps/place/KING%27S+MOTOR/data=!4m7!3m6!1s0x2e4201b3cb24fa2d:0xb9d19f40a6f51237!8m2!3d-6.190163!4d106.4599452!16s%2Fg%2F11vhcz80n9!19sChIJLfoky7MBQi4RNxL1pkCf0bk?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": "Buka · Tutup pukul 22.00 ",
+      "category": "otomotif",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.190163,
+      "longitude": 106.4599452,
+      "google_types": "Bengkel Sepeda Motor",
+      "reviews": [
+        {
+          "author": "Danang Hadi",
+          "rating": 5,
+          "text": "mekanik nya selain mahir jugaa gesitt cepat kompak tapi hasil tetapp👍 ganteng dan berbakat pertahankan Kings mekaniknya ,.... hasill sesuai expect …",
+          "date": "9 bulan lalu"
+        },
+        {
+          "author": "Danang Hadi",
+          "rating": 5,
+          "text": "mekanik nya selain mahir jugaa gesitt cepat kompak tapi hasil tetapp👍 ganteng dan berbakat pertahankan Kings mekaniknya ,.... hasill sesuai expect …",
+          "date": "9 bulan lalu"
+        },
+        {
+          "author": "Mahpud Pud",
+          "rating": 5,
+          "text": "Ok mantappp mekanik ngerti otomotif pahammm bgtt",
+          "date": "6 bulan lalu"
+        },
+        {
+          "author": "Mahpud Pud",
+          "rating": 5,
+          "text": "Ok mantappp mekanik ngerti otomotif pahammm bgtt",
+          "date": "6 bulan lalu"
+        },
+        {
+          "author": "Kybun 21",
+          "rating": 5,
+          "text": "Pelayanan nya 3S Senyum , Salam ,Sapa , mekanik nya ahli dalam bidang nya harga juga terjangkau murah 😎😎😎 auto jadi langganan …",
+          "date": "2 tahun lalu"
+        }
+      ],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJ5b8xutcDQi4RVyOrSxj1r0M",
+      "name": "Bengkel motor adi samblawi",
+      "address": "RC3Q+4C9, Peuteuy, Kec. Balaraja, Kabupaten Tangerang, Banten 15610",
+      "maps_url": "https://www.google.com/maps/place/Bengkel+motor+adi+samblawi/data=!4m7!3m6!1s0x2e4203d7ba31bfe5:0x43aff5184bab2357!8m2!3d-6.1972193!4d106.438621!16s%2Fg%2F11f5jsj_z8!19sChIJ5b8xutcDQi4RVyOrSxj1r0M?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": "Buka · Tutup Rab pukul 05.00 ",
+      "category": "otomotif",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.1972193,
+      "longitude": 106.438621,
+      "google_types": "Bengkel Sepeda Motor",
+      "reviews": [
+        {
+          "author": "Dabo Hc",
+          "rating": 5,
+          "text": "Apa masih ber operasi bengkel nya bang?",
+          "date": "setahun lalu"
+        },
+        {
+          "author": "Dabo Hc",
+          "rating": 5,
+          "text": "Apa masih ber operasi bengkel nya bang?",
+          "date": "setahun lalu"
+        }
+      ],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJN6VD3AwBQi4RMxRDYt0OnaE",
+      "name": "Mitra Motor Balaraja",
+      "address": "Jl. Raya Serang No.km.24, Balaraja, barat, Kabupaten Tangerang, Banten 15610",
+      "maps_url": "https://www.google.com/maps/place/Mitra+Motor+Balaraja/data=!4m7!3m6!1s0x2e42010cdc43a537:0xa19d0edd62431433!8m2!3d-6.1976726!4d106.4570845!16s%2Fg%2F11ldrf8n9_!19sChIJN6VD3AwBQi4RMxRDYt0OnaE?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": "Buka · Tutup pukul 17.00 ",
+      "category": "otomotif",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.1976726,
+      "longitude": 106.4570845,
+      "google_types": "Bengkel Mobil",
+      "reviews": [],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJnRGu3XEBQi4R9Vxd1qwxo_k",
+      "name": "TOKO JAYA MOTOR",
+      "address": "KM. 24, No, Jl. Raya Serang 31A-B, Balaraja, Kec. Balaraja, Kabupaten Tangerang, Banten 15610",
+      "maps_url": "https://www.google.com/maps/place/TOKO+JAYA+MOTOR/data=!4m7!3m6!1s0x2e420171ddae119d:0xf9a331acd65d5cf5!8m2!3d-6.19821!4d106.4567652!16s%2Fg%2F1hm1wcq7r!19sChIJnRGu3XEBQi4R9Vxd1qwxo_k?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": "Buka · Tutup pukul 18.00 ",
+      "category": "otomotif",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.19821,
+      "longitude": 106.4567652,
+      "google_types": "Toko Suku Cadang Motor",
+      "reviews": [
+        {
+          "author": "Raden Antaro",
+          "rating": 5,
+          "text": "Servis bulanan terpercaya, mekaniknya jujur dan amanah 👍 …",
+          "date": "2 minggu lalu"
+        },
+        {
+          "author": "Raden Antaro",
+          "rating": 5,
+          "text": "Servis bulanan terpercaya, mekaniknya jujur dan amanah 👍 …",
+          "date": "2 minggu lalu"
+        },
+        {
+          "author": "MUKHLISIN",
+          "rating": 5,
+          "text": "Pilihan toko yg pas buat para modifikator mesin bore up, disini jual part asli thailand Dri piston merk LHK, conrod LHK, pin stroke LHK bearing LHK, pokoknya jossss..👍👍👍👍👍 …",
+          "date": "Diedit 2 tahun lalu"
+        },
+        {
+          "author": "MUKHLISIN",
+          "rating": 5,
+          "text": "Pilihan toko yg pas buat para modifikator mesin bore up, disini jual part asli thailand Dri piston merk LHK, conrod LHK, pin stroke LHK bearing LHK, pokoknya jossss..👍👍👍👍👍 …",
+          "date": "Diedit 2 tahun lalu"
+        },
+        {
+          "author": "Tigor Pandapotan",
+          "rating": 5,
+          "text": "Pernah belanja di mari sich, yach nggak jauh beda lach dgn toko aksesoris lainya sich",
+          "date": "2 tahun lalu"
+        }
+      ],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJvwLc1nIBQi4RD9mGwW3ObN8",
+      "name": "Mandiri jaya motor",
+      "address": "Balaraja, Kec. Balaraja, Kabupaten Tangerang, Banten 15610",
+      "maps_url": "https://www.google.com/maps/place/Mandiri+jaya+motor/data=!4m7!3m6!1s0x2e420172d6dc02bf:0xdf6cce6dc186d90f!8m2!3d-6.1873887!4d106.4556457!16s%2Fg%2F11r7dqys0g!19sChIJvwLc1nIBQi4RD9mGwW3ObN8?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": "Buka · Tutup pukul 17.00 ",
+      "category": "otomotif",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.1873887,
+      "longitude": 106.4556457,
+      "google_types": "Bengkel Sepeda Motor",
+      "reviews": [
+        {
+          "author": "Sis Mar",
+          "rating": 5,
+          "text": "Pelayannya bagus dan rapi dan langsung di kerjakan",
+          "date": "3 tahun lalu"
+        },
+        {
+          "author": "Sis Mar",
+          "rating": 5,
+          "text": "Pelayannya bagus dan rapi dan langsung di kerjakan",
+          "date": "3 tahun lalu"
+        }
+      ],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJw5mvRAABQi4RKh19xfbdViE",
+      "name": "VIAR SSU BALARAJA",
+      "address": "Jl. Raya Serang No.Km. 24, KP. Kosambi, Kec. Balaraja, Kabupaten Tangerang, Banten 15610",
+      "maps_url": "https://www.google.com/maps/place/VIAR+SSU+BALARAJA/data=!4m7!3m6!1s0x2e42010044af99c3:0x2156ddf6c57d1d2a!8m2!3d-6.1995939!4d106.4505715!16s%2Fg%2F11m5jgc7hn!19sChIJw5mvRAABQi4RKh19xfbdViE?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": "Buka · Tutup pukul 16.30 ",
+      "category": "otomotif",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.1995939,
+      "longitude": 106.4505715,
+      "google_types": "Bengkel Sepeda Motor",
+      "reviews": [
+        {
+          "author": "Fani Kartika Sari",
+          "rating": 5,
+          "text": "Pelayanan nya bagus banget, karyawan nya juga ramah² cekatan.\napa² juga dijelasin dengan jelas, tempat nya bersih nyaman adem.\nunit nya lengkap trus suka ada diskon😁👍 …",
+          "date": "5 bulan lalu"
+        },
+        {
+          "author": "Fani Kartika Sari",
+          "rating": 5,
+          "text": "Pelayanan nya bagus banget, karyawan nya juga ramah² cekatan.\napa² juga dijelasin dengan jelas, tempat nya bersih nyaman adem.\nunit nya lengkap trus suka ada diskon😁👍 …",
+          "date": "5 bulan lalu"
+        },
+        {
+          "author": "Keisha Zahra",
+          "rating": 5,
+          "text": "Pelayanan di sini sangat ramah dan cepat sekali.Prosesnya juga cepat dan tidak ribet. Sangat puas , sangat direkomendasikan pokoknya!\".",
+          "date": "5 bulan lalu"
+        },
+        {
+          "author": "Keisha Zahra",
+          "rating": 5,
+          "text": "Pelayanan di sini sangat ramah dan cepat sekali.Prosesnya juga cepat dan tidak ribet. Sangat puas , sangat direkomendasikan pokoknya!\".",
+          "date": "5 bulan lalu"
+        },
+        {
+          "author": "Tigo Wibowo Bowo",
+          "rating": 5,
+          "text": "Harga nyaman di kantong, kualitas nomer Wahid ☝️\nRecommended pokoknya",
+          "date": "5 bulan lalu"
+        }
+      ],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJ-1qmRWIBQi4RIL3zObKLCZg",
+      "name": "bengkel motor rizki utama",
+      "address": "kp.hauan tegal rt 001/003 ds, Tobat, Kec. Balaraja, Kabupaten Tangerang, Banten 15610",
+      "maps_url": "https://www.google.com/maps/place/bengkel+motor+rizki+utama/data=!4m7!3m6!1s0x2e42016245a65afb:0x98098bb239f3bd20!8m2!3d-6.1979153!4d106.4477969!16s%2Fg%2F11f6z6vjgj!19sChIJ-1qmRWIBQi4RIL3zObKLCZg?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": "Buka · Tutup pukul 18.00 ",
+      "category": "otomotif",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.1979153,
+      "longitude": 106.4477969,
+      "google_types": "Bengkel Mesin",
+      "reviews": [
+        {
+          "author": "Alfian Wahyu",
+          "rating": 5,
+          "text": "Bengkel nya jos,pelayanan nya mantap👍 …",
+          "date": "5 tahun lalu"
+        },
+        {
+          "author": "Alfian Wahyu",
+          "rating": 5,
+          "text": "Bengkel nya jos,pelayanan nya mantap👍 …",
+          "date": "5 tahun lalu"
+        },
+        {
+          "author": "Dede Ceria",
+          "rating": 5,
+          "text": "Bengkell jos gx ngecewain konsumen",
+          "date": "5 tahun lalu"
+        },
+        {
+          "author": "Dede Ceria",
+          "rating": 5,
+          "text": "Bengkell jos gx ngecewain konsumen",
+          "date": "5 tahun lalu"
+        },
+        {
+          "author": "Dwi Rosmawati",
+          "rating": 5,
+          "text": "Sangat memuaskan",
+          "date": "4 tahun lalu"
+        }
+      ],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJM1GjPAcBQi4R07SAw8NiwHQ",
+      "name": "Bengkel motor usup jaya",
+      "address": "RF65+HQM, Jl. Raya Alternatif, Balaraja, Kec. Balaraja, Kabupaten Tangerang, Banten 15610",
+      "maps_url": "https://www.google.com/maps/place/Bengkel+motor+usup+jaya/data=!4m7!3m6!1s0x2e4201073ca35133:0x74c062c3c380b4d3!8m2!3d-6.1885338!4d106.4594095!16s%2Fg%2F11qnlmx8fg!19sChIJM1GjPAcBQi4R07SAw8NiwHQ?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": "Buka · Tutup Rab pukul 08.00 ",
+      "category": "otomotif",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.1885338,
+      "longitude": 106.4594095,
+      "google_types": "Bengkel Sepeda Motor",
+      "reviews": [],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJf4U1BgsDQi4Ru0OkQuv64Fg",
+      "name": "bengkel motor",
+      "address": "QCHQ+CFQ, Sukamurni, Kec. Balaraja, Kabupaten Tangerang, Banten 15610",
+      "maps_url": "https://www.google.com/maps/place/bengkel+motor/data=!4m7!3m6!1s0x2e42030b0635857f:0x58e0faeb42a443bb!8m2!3d-6.2214093!4d106.4387194!16s%2Fg%2F11ghnnsq6g!19sChIJf4U1BgsDQi4Ru0OkQuv64Fg?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": "Buka · Tutup pukul 17.00 ",
+      "category": "otomotif",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.2214093,
+      "longitude": 106.4387194,
+      "google_types": "Bengkel Mobil",
+      "reviews": [],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJF-peJ_wDQi4RqkcGsI8M6T8",
+      "name": "Pai Motor",
+      "address": "Jl. Raya Serang No.204, Cangkudu, Kec. Balaraja, Kabupaten Tangerang, Banten 15610",
+      "maps_url": "https://www.google.com/maps/place/Pai+Motor/data=!4m7!3m6!1s0x2e4203fc275eea17:0x3fe90c8fb00647aa!8m2!3d-6.2246215!4d106.4366592!16s%2Fg%2F11c2mktdj8!19sChIJF-peJ_wDQi4RqkcGsI8M6T8?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": "Buka · Tutup pukul 18.00 ",
+      "category": "otomotif",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.2246215,
+      "longitude": 106.4366592,
+      "google_types": "Bengkel Sepeda Motor",
+      "reviews": [
+        {
+          "author": "Dimas wahyu Business",
+          "rating": 5,
+          "text": "Sudah langganan bertahun\"sama bengkel ini, kualitas mekanik sangat kompeten dan jujur setelah keluar bengkel motor berasa nyaman dan awet ga gampang kembali rusak, terimakasih.",
+          "date": "4 tahun lalu"
+        },
+        {
+          "author": "Dimas wahyu Business",
+          "rating": 5,
+          "text": "Sudah langganan bertahun\"sama bengkel ini, kualitas mekanik sangat kompeten dan jujur setelah keluar bengkel motor berasa nyaman dan awet ga gampang kembali rusak, terimakasih.",
+          "date": "4 tahun lalu"
+        },
+        {
+          "author": "Alan Canceries",
+          "rating": 5,
+          "text": "Ok, tempat strategis....memudahkan akses mencapainya",
+          "date": "6 tahun lalu"
+        },
+        {
+          "author": "Alan Canceries",
+          "rating": 5,
+          "text": "Ok, tempat strategis....memudahkan akses mencapainya",
+          "date": "6 tahun lalu"
+        },
+        {
+          "author": "listriyaone",
+          "rating": 5,
+          "text": "Cukup memuaskan bisa mnerima transfer antar bank, bayar listrik.",
+          "date": "Diedit 3 tahun lalu"
+        }
+      ],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJ57eC75wBQi4RJR1CNoz4TjE",
+      "name": "Bengkel Honda Ahass SAGA Balaraja",
+      "address": "Jl. Raya Kresek No.69, Saga, Kec. Balaraja, Kabupaten Tangerang, Banten 15610",
+      "maps_url": "https://www.google.com/maps/place/Bengkel+Honda+Ahass+SAGA+Balaraja/data=!4m7!3m6!1s0x2e42019cef82b7e7:0x314ef88c36421d25!8m2!3d-6.1849624!4d106.4543737!16s%2Fg%2F11cp74sn5q!19sChIJ57eC75wBQi4RJR1CNoz4TjE?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": "Tutup · Buka Kam pukul 08.00 ",
+      "category": "otomotif",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.1849624,
+      "longitude": 106.4543737,
+      "google_types": "Bengkel Sepeda Motor",
+      "reviews": [
+        {
+          "author": "Yoga Prasetyo",
+          "rating": 5,
+          "text": "Baru Nemu bengkel resmi asli, dari sekian banyak bengkel ngatasi penyakit delay yang enggak kunjung sembuh, disini bisa sembuh, harus di jaga kepuasan konsumen. Ahhas saga Balaraja",
+          "date": "4 bulan lalu"
+        },
+        {
+          "author": "Yoga Prasetyo",
+          "rating": 5,
+          "text": "Baru Nemu bengkel resmi asli, dari sekian banyak bengkel ngatasi penyakit delay yang enggak kunjung sembuh, disini bisa sembuh, harus di jaga kepuasan konsumen. Ahhas saga Balaraja",
+          "date": "4 bulan lalu"
+        },
+        {
+          "author": "Muhamad Pahri",
+          "rating": 5,
+          "text": "Mekanik nya bagus, tapi ngeliat nya kasian jadi sasaran terus padahal kerja juga ngikutin sop pt ahm bukan anak magang,",
+          "date": "5 bulan lalu"
+        },
+        {
+          "author": "Muhamad Pahri",
+          "rating": 5,
+          "text": "Mekanik nya bagus, tapi ngeliat nya kasian jadi sasaran terus padahal kerja juga ngikutin sop pt ahm bukan anak magang,",
+          "date": "5 bulan lalu"
+        },
+        {
+          "author": "Danu Ex200",
+          "rating": 5,
+          "text": "Yang tengah mekanik universal, analisa nya bagus, denger denger mekanik alat berat IT Semper timur,",
+          "date": "5 bulan lalu"
+        }
+      ],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJaR7lRZsBQi4RWKiZ3MHEtmk",
+      "name": "Change",
+      "address": "Jl. Raya Kresek, Balaraja, Kec. Balaraja, Kabupaten Tangerang, Banten",
+      "maps_url": "https://www.google.com/maps/place/Change/data=!4m7!3m6!1s0x2e42019b45e51e69:0x69b6c4c1dc99a858!8m2!3d-6.1822005!4d106.453117!16s%2Fg%2F11f088z2gb!19sChIJaR7lRZsBQi4RWKiZ3MHEtmk?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": "Buka · Tutup pukul 20.00 ",
+      "category": "otomotif",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.1822005,
+      "longitude": 106.453117,
+      "google_types": "Toko Suku Cadang Motor",
+      "reviews": [
+        {
+          "author": "Juand Carlos",
+          "rating": 5,
+          "text": "asli bengkel nya bagus pelayanannya juga boleh lah. buat service ganti oli dll juga oke lah. jujur pula baru nemu bengkel sejujur ini. semoga makin jaya terus ini bengkel.",
+          "date": "setahun lalu"
+        },
+        {
+          "author": "Juand Carlos",
+          "rating": 5,
+          "text": "asli bengkel nya bagus pelayanannya juga boleh lah. buat service ganti oli dll juga oke lah. jujur pula baru nemu bengkel sejujur ini. semoga makin jaya terus ini bengkel.",
+          "date": "setahun lalu"
+        },
+        {
+          "author": "Juan Erwin Liandu",
+          "rating": 5,
+          "text": "Niat ganti oli doang karna ragu, pass mampir di kasih pelayanan terbaik karna setelan mekaniknya adem banget dan jadi langganan balik kesini terus deh.",
+          "date": "setahun lalu"
+        },
+        {
+          "author": "Juan Erwin Liandu",
+          "rating": 5,
+          "text": "Niat ganti oli doang karna ragu, pass mampir di kasih pelayanan terbaik karna setelan mekaniknya adem banget dan jadi langganan balik kesini terus deh.",
+          "date": "setahun lalu"
+        },
+        {
+          "author": "KeLz Dun",
+          "rating": 5,
+          "text": "uda langganan lama disini, awal nya cvt nya ada yang bocor bunyi jga di ganti udh aman pertahan kan pelayanan jga makin lama di tingktin trus 👍 …",
+          "date": "setahun lalu"
+        }
+      ],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJKVeWzFkBQi4RdRNdN2gvQqo",
+      "name": "Syamil motor",
+      "address": "Unnamed Road, Balaraja, Kec. Balaraja, Kabupaten Tangerang, Banten 15610",
+      "maps_url": "https://www.google.com/maps/place/Syamil+motor/data=!4m7!3m6!1s0x2e420159cc965729:0xaa422f68375d1375!8m2!3d-6.1844934!4d106.4599503!16s%2Fg%2F11h7kvfbhj!19sChIJKVeWzFkBQi4RdRNdN2gvQqo?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": "Buka · Tutup pukul 17.00 ",
+      "category": "otomotif",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.1844934,
+      "longitude": 106.4599503,
+      "google_types": "Bengkel Motor Skuter",
+      "reviews": [
+        {
+          "author": "Siti Hadijah",
+          "rating": 5,
+          "text": "Menerima Vapor Blasting",
+          "date": "sebulan lalu"
+        },
+        {
+          "author": "Siti Hadijah",
+          "rating": 5,
+          "text": "Menerima Vapor Blasting",
+          "date": "sebulan lalu"
+        },
+        {
+          "author": "Irvan Neng ravanka",
+          "rating": 5,
+          "text": "Mantapp mekaniknya segala jenis motor ahli",
+          "date": "5 tahun lalu"
+        },
+        {
+          "author": "Irvan Neng ravanka",
+          "rating": 5,
+          "text": "Mantapp mekaniknya segala jenis motor ahli",
+          "date": "5 tahun lalu"
+        },
+        {
+          "author": "Proleevo Channel",
+          "rating": 5,
+          "text": "Mekanik andalan",
+          "date": "5 tahun lalu"
+        }
+      ],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJqYouwyYHQi4RMeTvov4Jy30",
+      "name": "Ahass Bes Motor Cikupa",
+      "address": "Sukamulya, Kec. Cikupa, Kabupaten Tangerang, Banten 15710",
+      "maps_url": "https://www.google.com/maps/place/Ahass+Bes+Motor+Cikupa/data=!4m7!3m6!1s0x2e420726c32e8aa9:0x7dcb09fea2efe431!8m2!3d-6.2367762!4d106.5079833!16s%2Fg%2F11rrrdvjs4!19sChIJqYouwyYHQi4RMeTvov4Jy30?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": "Buka · Tutup pukul 17.00 ",
+      "category": "otomotif",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.2367762,
+      "longitude": 106.5079833,
+      "google_types": "Bengkel Sepeda Motor",
+      "reviews": [
+        {
+          "author": "Anis Tandean",
+          "rating": 5,
+          "text": "The best pelayanannya  setelah servis utama ada pengecekan lgi,trakhir dicuci motornya sebelum dibawa,gratis semua...",
+          "date": "5 bulan lalu"
+        },
+        {
+          "author": "Anis Tandean",
+          "rating": 5,
+          "text": "The best pelayanannya  setelah servis utama ada pengecekan lgi,trakhir dicuci motornya sebelum dibawa,gratis semua...",
+          "date": "5 bulan lalu"
+        },
+        {
+          "author": "Irwan",
+          "rating": 5,
+          "text": "Best deal, best staff…\nTerima kasih staff..",
+          "date": "4 bulan lalu"
+        },
+        {
+          "author": "Irwan",
+          "rating": 5,
+          "text": "Best deal, best staff…\nTerima kasih staff..",
+          "date": "4 bulan lalu"
+        },
+        {
+          "author": "Muhamad Jaenudin",
+          "rating": 5,
+          "text": "Keluh kesah terobati karna dapat pelayanan dan solusi yg baik di ahass bes motor ini,,, terima kasih atas pelayanannya sukses selalu",
+          "date": "7 bulan lalu"
+        }
+      ],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJp5mFlY8BQi4Rc5wu7RGa6FI",
+      "name": "Bengkel Izar Motor",
+      "address": "Jl. Irigasi Saga Kelurahan No.Desa, RT.003 Rw003, Saga, Kec. Balaraja, Kabupaten Tangerang, Banten 15610",
+      "maps_url": "https://www.google.com/maps/place/Bengkel+Izar+Motor/data=!4m7!3m6!1s0x2e42018f958599a7:0x52e89a11ed2e9c73!8m2!3d-6.1769043!4d106.4506685!16s%2Fg%2F11f400gp_m!19sChIJp5mFlY8BQi4Rc5wu7RGa6FI?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": "Buka · Tutup pukul 17.00 ",
+      "category": "otomotif",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.1769043,
+      "longitude": 106.4506685,
+      "google_types": "Bengkel Sepeda Motor",
+      "reviews": [
+        {
+          "author": "VIXI GAMING",
+          "rating": 5,
+          "text": "bengkel langganan",
+          "date": "4 tahun lalu"
+        },
+        {
+          "author": "VIXI GAMING",
+          "rating": 5,
+          "text": "bengkel langganan",
+          "date": "4 tahun lalu"
+        },
+        {
+          "author": "Muhamad Fahruroji (Heruhellooo)",
+          "rating": 5,
+          "text": "Mekanik akoh",
+          "date": "8 tahun lalu"
+        },
+        {
+          "author": "Muhamad Fahruroji (Heruhellooo)",
+          "rating": 5,
+          "text": "Mekanik akoh",
+          "date": "8 tahun lalu"
+        }
+      ],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJWZuybVgBQi4RJzrKo_xMd0c",
+      "name": "Syfa Motor Balaraja",
+      "address": "Jl. Raya Serang No.105, Sentul, Kec. Balaraja, Kabupaten Tangerang, Banten 15610",
+      "maps_url": "https://www.google.com/maps/place/Syfa+Motor+Balaraja/data=!4m7!3m6!1s0x2e4201586db29b59:0x47774cfca3ca3a27!8m2!3d-6.2190178!4d106.4410008!16s%2Fg%2F11c2mkvfzz!19sChIJWZuybVgBQi4RJzrKo_xMd0c?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": "Buka · Tutup pukul 18.00 ",
+      "category": "otomotif",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.2190178,
+      "longitude": 106.4410008,
+      "google_types": "Toko Elektronik",
+      "reviews": [],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJpV-HmkYBQi4RSkZfVTFJjmQ",
+      "name": "Bengkel Mesin dan Shock Breaker",
+      "address": "Tobat, Kec. Balaraja, Kabupaten Tangerang, Banten 15610",
+      "maps_url": "https://www.google.com/maps/place/Bengkel+Mesin+dan+Shock+Breaker/data=!4m7!3m6!1s0x2e4201469a875fa5:0x648e4931555f464a!8m2!3d-6.1857748!4d106.4483948!16s%2Fg%2F11j0bgy81c!19sChIJpV-HmkYBQi4RSkZfVTFJjmQ?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": "Buka · Tutup pukul 20.00 ",
+      "category": "otomotif",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.1857748,
+      "longitude": 106.4483948,
+      "google_types": "Bengkel Sepeda Motor",
+      "reviews": [
+        {
+          "author": "susanto yohanes",
+          "rating": 5,
+          "text": "Sempet service shock nmax bocor, hasilnya oke uda 3bulan lebih ga ada masalah. Diganti seal, as sama oli. 👍🏻 …",
+          "date": "2 bulan lalu"
+        },
+        {
+          "author": "susanto yohanes",
+          "rating": 5,
+          "text": "Sempet service shock nmax bocor, hasilnya oke uda 3bulan lebih ga ada masalah. Diganti seal, as sama oli. 👍🏻 …",
+          "date": "2 bulan lalu"
+        },
+        {
+          "author": "Rifa Pirdaus",
+          "rating": 5,
+          "text": "Halo om, ada no wa ngga? Jual shock depan vario siap pakai gak? Second gak papa asal sudah di service dan siap pakai",
+          "date": "4 bulan lalu"
+        },
+        {
+          "author": "Rifa Pirdaus",
+          "rating": 5,
+          "text": "Halo om, ada no wa ngga? Jual shock depan vario siap pakai gak? Second gak papa asal sudah di service dan siap pakai",
+          "date": "4 bulan lalu"
+        },
+        {
+          "author": "Agus Ariyanto",
+          "rating": 5,
+          "text": "Ijin tanya kalau service shock depan mobil kisaran berapa🙏 …",
+          "date": "2 minggu lalu"
         }
       ],
       "category_conflict": false

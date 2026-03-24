@@ -18,25 +18,16 @@ on:
         type: choice
         options:
           - all
-          - batch1_balaraja-cikupa-cisauk-cisoka-curug
-          - batch2_gunung_kaler-jambe-jayanti-kelapa_dua-kemiri
-          - batch3_kosambi-kresek-kronjo-legok-mauk
-          - batch4_mekar_baru-pagedangan-pakuhaji-panongan-pasar_kemis
-          - batch5_rajeg-sepatan-sepatan_timur-sindang_jaya-solear
-          - batch6_sukadiri-sukamulya-teluknaga-tigaraksa
+          - batch1
+          - batch2
+          - batch3
+          - batch4
+          - batch5
+          - batch6
       category:
         description: 'Category filter (kosongkan untuk semua)'
         required: false
         type: string
-
-# Map batch names to kecamatan list
-env:
-  BATCH_batch1_balaraja-cikupa-cisauk-cisoka-curug: "balaraja,cikupa,cisauk,cisoka,curug"
-  BATCH_batch2_gunung_kaler-jambe-jayanti-kelapa_dua-kemiri: "gunung kaler,jambe,jayanti,kelapa dua,kemiri"
-  BATCH_batch3_kosambi-kresek-kronjo-legok-mauk: "kosambi,kresek,kronjo,legok,mauk"
-  BATCH_batch4_mekar_baru-pagedangan-pakuhaji-panongan-pasar_kemis: "mekar baru,pagedangan,pakuhaji,panongan,pasar kemis"
-  BATCH_batch5_rajeg-sepatan-sepatan_timur-sindang_jaya-solear: "rajeg,sepatan,sepatan timur,sindang jaya,solear"
-  BATCH_batch6_sukadiri-sukamulya-teluknaga-tigaraksa: "sukadiri,sukamulya,teluknaga,tigaraksa"
 
 jobs:
   scrape:
@@ -64,22 +55,22 @@ jobs:
             ARGS="--region=${{ inputs.region }}"
           fi
 
-          # Batch → kecamatan filter
-          BATCH="${{ inputs.batch }}"
-          if [ "$BATCH" != "all" ] && [ -n "$BATCH" ]; then
-            VARNAME="BATCH_${BATCH}"
-            KECAMATAN="${!VARNAME}"
-            if [ -n "$KECAMATAN" ]; then
-              ARGS="$ARGS --kecamatan=$KECAMATAN"
-            fi
-          fi
+          # Batch → kecamatan filter (kab_tangerang: 29 kecamatan / 6 batch)
+          case "${{ inputs.batch }}" in
+            batch1) ARGS="$ARGS --kecamatan=balaraja,cikupa,cisauk,cisoka,curug" ;;
+            batch2) ARGS="$ARGS --kecamatan=gunung_kaler,jambe,jayanti,kelapa_dua,kemiri" ;;
+            batch3) ARGS="$ARGS --kecamatan=kosambi,kresek,kronjo,legok,mauk" ;;
+            batch4) ARGS="$ARGS --kecamatan=mekar_baru,pagedangan,pakuhaji,panongan,pasar_kemis" ;;
+            batch5) ARGS="$ARGS --kecamatan=rajeg,sepatan,sepatan_timur,sindang_jaya,solear" ;;
+            batch6) ARGS="$ARGS --kecamatan=sukadiri,sukamulya,teluknaga,tigaraksa" ;;
+          esac
 
           # Category filter
           if [ -n "${{ inputs.category }}" ]; then
             ARGS="$ARGS --category=${{ inputs.category }}"
           fi
 
-          echo "🚀 Running: npx tsx tools/scraper/scrape-places.ts $ARGS"
+          echo "Running: npx tsx tools/scraper/scrape-places.ts $ARGS"
           npx tsx tools/scraper/scrape-places.ts $ARGS 2>&1 | tee scraper.log
 
       - name: Upload results
