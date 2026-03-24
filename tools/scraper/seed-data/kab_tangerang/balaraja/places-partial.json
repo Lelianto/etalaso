@@ -1,12 +1,13 @@
 {
   "_meta": {
-    "scraped_at": "2026-03-24T08:39:28.635Z",
-    "total_places": 1044,
+    "scraped_at": "2026-03-24T13:10:53.524Z",
+    "total_places": 1109,
     "by_category": {
       "kuliner": 376,
       "jasa": 351,
       "otomotif": 238,
-      "kecantikan": 79
+      "kecantikan": 90,
+      "klinik": 54
     },
     "potential_duplicates": []
   },
@@ -36654,6 +36655,2370 @@
           "date": "6 tahun lalu"
         }
       ],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJzdx-bfsBQi4RX0MYQlMjBCI",
+      "name": "KURNIA SALON BUKIT TIARA",
+      "address": "Perumahan, Jl. Perum Bukit Tiara Blk. H1 No.10 - Rt.023/005, Pasir Jaya, Kec. Cikupa, Kabupaten Tangerang, Banten 15710",
+      "maps_url": "https://www.google.com/maps/place/KURNIA+SALON+BUKIT+TIARA/data=!4m7!3m6!1s0x2e4201fb6d7edccd:0x220423534218435f!8m2!3d-6.1998259!4d106.53121!16s%2Fg%2F11hg4x9zhw!19sChIJzdx-bfsBQi4RX0MYQlMjBCI?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": "Buka · Tutup pukul 20.00 ",
+      "category": "kecantikan",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.1998259,
+      "longitude": 106.53121,
+      "google_types": "Salon Kecantikan",
+      "reviews": [
+        {
+          "author": "S Ih",
+          "rating": 5,
+          "text": "Sy sangat menyukai Kurnia salon",
+          "date": "5 tahun lalu"
+        },
+        {
+          "author": "S Ih",
+          "rating": 5,
+          "text": "Sy sangat menyukai Kurnia salon",
+          "date": "5 tahun lalu"
+        }
+      ],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJOZ-61bz9aS4RwThGPX2U2pQ",
+      "name": "Sonia Salon",
+      "address": "PHV6+FJ2, Sukabakti, Kec. Curug, Kabupaten Tangerang, Banten 15810",
+      "maps_url": "https://www.google.com/maps/place/Sonia+Salon/data=!4m7!3m6!1s0x2e69fdbcd5ba9f39:0x94da947d3d4638c1!8m2!3d-6.2563588!4d106.5615231!16s%2Fg%2F11gdkk582y!19sChIJOZ-61bz9aS4RwThGPX2U2pQ?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": "Buka 24 jam ",
+      "category": "kecantikan",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.2563588,
+      "longitude": 106.5615231,
+      "google_types": "Salon Kecantikan",
+      "reviews": [
+        {
+          "author": "Ju Ju",
+          "rating": 5,
+          "text": "Pindah kmna ya skrng..",
+          "date": "setahun lalu"
+        },
+        {
+          "author": "Ju Ju",
+          "rating": 5,
+          "text": "Pindah kmna ya skrng..",
+          "date": "setahun lalu"
+        },
+        {
+          "author": "SopianJulJul Cahya burama",
+          "rating": 5,
+          "text": "TEMPAT NYA BERSIH AMAN DAN NYAMAN",
+          "date": "3 tahun lalu"
+        },
+        {
+          "author": "SopianJulJul Cahya burama",
+          "rating": 5,
+          "text": "TEMPAT NYA BERSIH AMAN DAN NYAMAN",
+          "date": "3 tahun lalu"
+        },
+        {
+          "author": "Ardi Aprian",
+          "rating": 5,
+          "text": "Memuaskan",
+          "date": "4 tahun lalu"
+        }
+      ],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJJ8cqxMr9aS4RpV66fcLXN88",
+      "name": "Syla Salon",
+      "address": "Jl. Binong Permai No.6 blok b4, Binong, Kec. Curug, Kabupaten Tangerang, Banten 15810",
+      "maps_url": "https://www.google.com/maps/place/Syla+Salon/data=!4m7!3m6!1s0x2e69fdcac42ac727:0xcf37d7c27dba5ea5!8m2!3d-6.243859!4d106.5810516!16s%2Fg%2F11b5wj8ptn!19sChIJJ8cqxMr9aS4RpV66fcLXN88?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": "Buka · Tutup pukul 21.00 ",
+      "category": "kecantikan",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.243859,
+      "longitude": 106.5810516,
+      "google_types": "Salon Kecantikan",
+      "reviews": [
+        {
+          "author": "nur hasanah",
+          "rating": 5,
+          "text": "Oke banget, dari owner yang baik hingga mba mbanya baik semua, harga sangat bersahabat, pelayanannya oke banget, bener bener profesional , sukses terus syla salon👍👍👍 …",
+          "date": "2 minggu lalu"
+        },
+        {
+          "author": "nur hasanah",
+          "rating": 5,
+          "text": "Oke banget, dari owner yang baik hingga mba mbanya baik semua, harga sangat bersahabat, pelayanannya oke banget, bener bener profesional , sukses terus syla salon👍👍👍 …",
+          "date": "2 minggu lalu"
+        },
+        {
+          "author": "PT. Graha Mandiri Electrical",
+          "rating": 5,
+          "text": "Syla Salon yang beralamatkan di Jl. Perum Binong Permai Blok B4 No.6, Binong, Curug, Binong, Curug, Tangerang, Banten 15810. Buka setiap hari dari jam 09.00 s/d 21.00 WIB. Pelayanannya sangat Ramah dan harga terjangkau dan fasilitas buat yg menunggupun tersedia.",
+          "date": "7 tahun lalu"
+        },
+        {
+          "author": "PT. Graha Mandiri Electrical",
+          "rating": 5,
+          "text": "Syla Salon yang beralamatkan di Jl. Perum Binong Permai Blok B4 No.6, Binong, Curug, Binong, Curug, Tangerang, Banten 15810. Buka setiap hari dari jam 09.00 s/d 21.00 WIB. Pelayanannya sangat Ramah dan harga terjangkau dan fasilitas buat yg menunggupun tersedia.",
+          "date": "7 tahun lalu"
+        },
+        {
+          "author": "Fitriana Pramitasari",
+          "rating": 5,
+          "text": "Ruangan salon nya cukup besar. Pelayanannya ramah, stafnya sabar, telaten, sangat memperhatikan keinginan pelanggan dan tidak terburu-buru dalam melayani pelanggan sehingga hasilnya memuaskan. Memang kalo kesini harus menunggu antri tapi hasilnya sebanding.",
+          "date": "6 tahun lalu"
+        }
+      ],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJtd1ookgHQi4RYlti-cuoI4A",
+      "name": "SALON Herlina Rias Pengantin",
+      "address": "JL Raya-Peusar, No. 139, Cikupa, Sukamulya, Tangerang, Kabupaten Tangerang, Banten 15710",
+      "maps_url": "https://www.google.com/maps/place/SALON+Herlina+Rias+Pengantin/data=!4m7!3m6!1s0x2e420748a268ddb5:0x8023a8cbf9625b62!8m2!3d-6.2371817!4d106.5157581!16s%2Fg%2F11btmb4jkl!19sChIJtd1ookgHQi4RYlti-cuoI4A?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": "Buka 24 jam ",
+      "category": "kecantikan",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.2371817,
+      "longitude": 106.5157581,
+      "google_types": "Salon Kecantikan",
+      "reviews": [
+        {
+          "author": "uus kusnadi",
+          "rating": 5,
+          "text": "Riasannya bagus👍🏼👍🏼 …",
+          "date": "5 tahun lalu"
+        },
+        {
+          "author": "uus kusnadi",
+          "rating": 5,
+          "text": "Riasannya bagus👍🏼👍🏼 …",
+          "date": "5 tahun lalu"
+        }
+      ],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJ9bSE8E0HQi4Ri8IJdcMH6SQ",
+      "name": "Rossa Salon",
+      "address": "Ruko Citra Raya 2 Blok B05J No.07, Cikupa, Kec. Cikupa, Kabupaten Tangerang, Banten 15710",
+      "maps_url": "https://www.google.com/maps/place/Rossa+Salon/data=!4m7!3m6!1s0x2e42074df084b4f5:0x24e907c37509c28b!8m2!3d-6.2312334!4d106.5225316!16s%2Fg%2F11bc7tbfxf!19sChIJ9bSE8E0HQi4Ri8IJdcMH6SQ?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": null,
+      "category": "kecantikan",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.2312334,
+      "longitude": 106.5225316,
+      "google_types": "Salon Kecantikan",
+      "reviews": [],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJRS7LEZ4HQi4RcmPcHrCzO54",
+      "name": "Nadia salon",
+      "address": "QG24+7WV, Peusar, Kec. Panongan, Kabupaten Tangerang, Banten 15710",
+      "maps_url": "https://www.google.com/maps/place/Nadia+salon/data=!4m7!3m6!1s0x2e42079e11cb2e45:0x9e3bb3b01edc6372!8m2!3d-6.2492569!4d106.5072985!16s%2Fg%2F11tj2fsrjw!19sChIJRS7LEZ4HQi4RcmPcHrCzO54?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": "Tutup · Buka Rab pukul 08.30 ",
+      "category": "kecantikan",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.2492569,
+      "longitude": 106.5072985,
+      "google_types": "Salon Kecantikan",
+      "reviews": [],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJZ6_313MHQi4RfUHse60hl9A",
+      "name": "Google Maps tidak dapat terhubung ke Internet",
+      "address": "",
+      "maps_url": "https://www.google.com/maps/place/Callysta+salon/data=!4m7!3m6!1s0x2e420773d7f7af67:0xd09721ad7bec417d!8m2!3d-6.236578!4d106.5124921!16s%2Fg%2F11stprf0sk!19sChIJZ6_313MHQi4RfUHse60hl9A?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": null,
+      "category": "kecantikan",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.236578,
+      "longitude": 106.5124921,
+      "google_types": "",
+      "reviews": [],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJIXkRvMr9aS4RT2-XSotPtO8",
+      "name": "Google Maps tidak dapat terhubung ke Internet",
+      "address": "",
+      "maps_url": "https://www.google.com/maps/place/Sf+Salon+binong/data=!4m7!3m6!1s0x2e69fdcabc117921:0xefb44f8b4a976f4f!8m2!3d-6.2447484!4d106.5808988!16s%2Fg%2F11b5rch9qw!19sChIJIXkRvMr9aS4RT2-XSotPtO8?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": null,
+      "category": "kecantikan",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.2447484,
+      "longitude": 106.5808988,
+      "google_types": "",
+      "reviews": [],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJc-wYpssHQi4RxTZwzIrB6E4",
+      "name": "Google Maps tidak dapat terhubung ke Internet",
+      "address": "",
+      "maps_url": "https://www.google.com/maps/place/Nisa+salon+dan+galery+wedding/data=!4m7!3m6!1s0x2e4207cba618ec73:0x4ee8c18acc7036c5!8m2!3d-6.2279849!4d106.5282564!16s%2Fg%2F11p_0l1x6p!19sChIJc-wYpssHQi4RxTZwzIrB6E4?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": null,
+      "category": "kecantikan",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.2279849,
+      "longitude": 106.5282564,
+      "google_types": "",
+      "reviews": [],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJv9odz779aS4R2j11OJi-a8w",
+      "name": "Google Maps tidak dapat terhubung ke Internet",
+      "address": "",
+      "maps_url": "https://www.google.com/maps/place/Johan+curug/data=!4m7!3m6!1s0x2e69fdbecf1ddabf:0xcc6bbe9838753dda!8m2!3d-6.2693522!4d106.5568997!16s%2Fg%2F11bc7s9trd!19sChIJv9odz779aS4R2j11OJi-a8w?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": null,
+      "category": "kecantikan",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.2693522,
+      "longitude": 106.5568997,
+      "google_types": "",
+      "reviews": [],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJi6EcvX8HQi4RBKTsYPbxzg4",
+      "name": "Google Maps tidak dapat terhubung ke Internet",
+      "address": "",
+      "maps_url": "https://www.google.com/maps/place/Salon+Cantik/data=!4m7!3m6!1s0x2e42077fbd1ca18b:0xecef1f660eca404!8m2!3d-6.2315264!4d106.5225239!16s%2Fg%2F11gjnb74f6!19sChIJi6EcvX8HQi4RBKTsYPbxzg4?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": null,
+      "category": "kecantikan",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.2315264,
+      "longitude": 106.5225239,
+      "google_types": "",
+      "reviews": [],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJ_6fAcdgDQi4RqBdD-B5SctY",
+      "name": "Klinik Clamay Medika",
+      "address": "QCXQ+QX8, Tobat, Kec. Balaraja, Kabupaten Tangerang, Banten 15610",
+      "maps_url": "https://www.google.com/maps/place/Klinik+Clamay+Medika/data=!4m7!3m6!1s0x2e4203d871c0a7ff:0xd672521ef84317a8!8m2!3d-6.200587!4d106.4399548!16s%2Fg%2F11dftp2v24!19sChIJ_6fAcdgDQi4RqBdD-B5SctY?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": "Buka 24 jam ",
+      "category": "klinik",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.200587,
+      "longitude": 106.4399548,
+      "google_types": "Klinik Medis",
+      "reviews": [],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJX62V5FgBQi4RsjLgN9KuV80",
+      "name": "Klinik Tirta Santoso",
+      "address": "Jl. Raya Serang No.Km. 27, Sentul Jaya, Kec. Balaraja, Kabupaten Tangerang, Banten 15610",
+      "maps_url": "https://www.google.com/maps/place/Klinik+Tirta+Santoso/data=!4m7!3m6!1s0x2e420158e495ad5f:0xcd57aed237e032b2!8m2!3d-6.2151302!4d106.4440036!16s%2Fg%2F11b6dpf0q6!19sChIJX62V5FgBQi4RsjLgN9KuV80?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": "Buka 24 jam ",
+      "category": "klinik",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.2151302,
+      "longitude": 106.4440036,
+      "google_types": "Klinik Tanpa Perjanjian",
+      "reviews": [
+        {
+          "author": "Dewi Purnama Sari",
+          "rating": 5,
+          "text": "‎Pelayanan di Klinik Tirta Santoso Balaraja sangat baik. Saya pasien BPJS, tetapi dilayani dengan ramah dan profesional seperti pasien mandiri.\n‎Tepatnya tadi malam (Senin, 17 Nov 2025) sy ditangani /diperiksa dr. Dian …",
+          "date": "4 bulan lalu"
+        },
+        {
+          "author": "Dewi Purnama Sari",
+          "rating": 5,
+          "text": "‎Pelayanan di Klinik Tirta Santoso Balaraja sangat baik. Saya pasien BPJS, tetapi dilayani dengan ramah dan profesional seperti pasien mandiri.\n‎Tepatnya tadi malam (Senin, 17 Nov 2025) sy ditangani /diperiksa dr. Dian …",
+          "date": "4 bulan lalu"
+        },
+        {
+          "author": "Diana Ratna sari",
+          "rating": 5,
+          "text": "Menurut aku klinik yg paling baguss Bange,, pelayanan nya dan dokter 2 nya ,,apa lagi dokter giginya baik banget🥰 …",
+          "date": "2 bulan lalu"
+        },
+        {
+          "author": "Diana Ratna sari",
+          "rating": 5,
+          "text": "Menurut aku klinik yg paling baguss Bange,, pelayanan nya dan dokter 2 nya ,,apa lagi dokter giginya baik banget🥰 …",
+          "date": "2 bulan lalu"
+        },
+        {
+          "author": "Neni Naeni",
+          "rating": 5,
+          "text": "Maaf mau tanya layanan kebidanan/poli KIA jadwalnya hari apa aja ya ? Bisa pakai bpjs tidak ???",
+          "date": "sebulan lalu"
+        }
+      ],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJMbQw4UoHQi4RSD_CVMCvrkY",
+      "name": "Klinik Pratama Monhal Persada dan Apotek Monhal",
+      "address": "RF73+QW6 KM 23 NO 10, Jl. Raya Serang, Talagasari, Kec. Balaraja, Kabupaten Tangerang, Banten 15610",
+      "maps_url": "https://www.google.com/maps/place/Klinik+Pratama+Monhal+Persada+dan+Apotek+Monhal/data=!4m7!3m6!1s0x2e42074ae130b431:0x46aeafc054c23f48!8m2!3d-6.1911579!4d106.464394!16s%2Fg%2F1hc90f8jk!19sChIJMbQw4UoHQi4RSD_CVMCvrkY?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": "Buka · Tutup pukul 22.00 ",
+      "category": "klinik",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.1911579,
+      "longitude": 106.464394,
+      "google_types": "Klinik Medis",
+      "reviews": [
+        {
+          "author": "Mr Ghicon",
+          "rating": 5,
+          "text": "Berobat ke monhal kalau ketemunya Dokter Elva Pokoknya Terbaik Tidak bertele2 langsung ada tindakan, enak di ajak Sharing kalau ada keluhan sakit, Dokter Terbaik di monhal..🫰 …",
+          "date": "4 bulan lalu"
+        },
+        {
+          "author": "Mr Ghicon",
+          "rating": 5,
+          "text": "Berobat ke monhal kalau ketemunya Dokter Elva Pokoknya Terbaik Tidak bertele2 langsung ada tindakan, enak di ajak Sharing kalau ada keluhan sakit, Dokter Terbaik di monhal..🫰 …",
+          "date": "4 bulan lalu"
+        },
+        {
+          "author": "Acip Chino",
+          "rating": 5,
+          "text": "Halo dok . Saya mau bertanya soal harga USG kandungan yg paling bagus brapa biayanya dok🙏 …",
+          "date": "sebulan lalu"
+        },
+        {
+          "author": "Acip Chino",
+          "rating": 5,
+          "text": "Halo dok . Saya mau bertanya soal harga USG kandungan yg paling bagus brapa biayanya dok🙏 …",
+          "date": "sebulan lalu"
+        },
+        {
+          "author": "wuln putri",
+          "rating": 5,
+          "text": "Sore Pak / Ibu, punten mau tanya jadwal praktek dr. Puji di monhal hari apa aja ya? soalnya saya cocok berobat sama beliau.",
+          "date": "4 bulan lalu"
+        }
+      ],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJr29roA0BQi4RXXvIvxNfnDw",
+      "name": "Klinik Senja Medika",
+      "address": "Jl. Raya tobat Kp. Tobat, RT.06/RW.03, Sentul Jaya, Kec. Balaraja, Kabupaten Tangerang, Banten 15610",
+      "maps_url": "https://www.google.com/maps/place/Klinik+Senja+Medika/data=!4m7!3m6!1s0x2e42010da06b6faf:0x3c9c5f13bfc87b5d!8m2!3d-6.2093595!4d106.4411561!16s%2Fg%2F11y1r0qh0h!19sChIJr29roA0BQi4RXXvIvxNfnDw?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": "Buka 24 jam ",
+      "category": "klinik",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.2093595,
+      "longitude": 106.4411561,
+      "google_types": "Klinik Kesehatan",
+      "reviews": [
+        {
+          "author": "Gatot Firmansyah",
+          "rating": 5,
+          "text": "Obat nya bagus,dokter nya ramah,baik dan TDK sombong ,semoga sukses sllu klnik nya guyss",
+          "date": "2 minggu lalu"
+        },
+        {
+          "author": "Gatot Firmansyah",
+          "rating": 5,
+          "text": "Obat nya bagus,dokter nya ramah,baik dan TDK sombong ,semoga sukses sllu klnik nya guyss",
+          "date": "2 minggu lalu"
+        },
+        {
+          "author": "Erik Heryana",
+          "rating": 5,
+          "text": "Jangan ragu untuk berobat disini,,pelayanan sangat baik",
+          "date": "2 minggu lalu"
+        },
+        {
+          "author": "Erik Heryana",
+          "rating": 5,
+          "text": "Jangan ragu untuk berobat disini,,pelayanan sangat baik",
+          "date": "2 minggu lalu"
+        },
+        {
+          "author": "Aini Herliana",
+          "rating": 5,
+          "text": "Top deh klinik nya👍🏻👍🏻👍🏻 …",
+          "date": "2 minggu lalu"
+        }
+      ],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJAePevAwBQi4RRSAwm-jt-S8",
+      "name": "Praktek Dr. Oktarina, Jalan Raya Kresek, RT.003/RW.004, Kampung Kiara, Balaraj",
+      "address": "mandiri, Kp.kiara No.rt.003 RW No.RT.003 Tobat, Balaraja, Kabupaten Tangerang, Banten 15610",
+      "maps_url": "https://www.google.com/maps/place/Praktek+Dr.+Oktarina,+Jalan+Raya+Kresek,+RT.003%2FRW.004,+Kampung+Kiara,+Balaraj/data=!4m7!3m6!1s0x2e42010cbcdee301:0x2ff9ede89b302045!8m2!3d-6.1867178!4d106.4546519!16s%2Fg%2F11t2sc39sp!19sChIJAePevAwBQi4RRSAwm-jt-S8?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": "Buka · Tutup pukul 21.00 ",
+      "category": "klinik",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.1867178,
+      "longitude": 106.4546519,
+      "google_types": "Klinik Medis",
+      "reviews": [
+        {
+          "author": "Andhikakrisna Yudha",
+          "rating": 5,
+          "text": "Dokternya ramah bangettttt kalau ada bintang 10 saya kasih rating 10 bagus banget pelayanannya josss",
+          "date": "sebulan lalu"
+        },
+        {
+          "author": "Andhikakrisna Yudha",
+          "rating": 5,
+          "text": "Dokternya ramah bangettttt kalau ada bintang 10 saya kasih rating 10 bagus banget pelayanannya josss",
+          "date": "sebulan lalu"
+        },
+        {
+          "author": "daliman iman",
+          "rating": 5,
+          "text": "Dokternya Ramah  banget.pelayanan sangat memuaskan",
+          "date": "4 bulan lalu"
+        },
+        {
+          "author": "daliman iman",
+          "rating": 5,
+          "text": "Dokternya Ramah  banget.pelayanan sangat memuaskan",
+          "date": "4 bulan lalu"
+        },
+        {
+          "author": "ARDHANA ADHI",
+          "rating": 5,
+          "text": "Maaf mau tanya. Ini dokter spesialis kulit bukan pak/bu",
+          "date": "2 bulan lalu"
+        }
+      ],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJPVrM70kBQi4Rwtb6h52p07c",
+      "name": "Klinik Indosehat 2003 Balaraja",
+      "address": "jl. kantor kelurahan balaraja rt 05/04 kp. tegal kali baru kel, Balaraja, Kec. Balaraja, Kabupaten Tangerang, Banten 15339",
+      "maps_url": "https://www.google.com/maps/place/Klinik+Indosehat+2003+Balaraja/data=!4m7!3m6!1s0x2e420149efcc5a3d:0xb7d3a99d87fad6c2!8m2!3d-6.188926!4d106.4565901!16s%2Fg%2F11h22vklrb!19sChIJPVrM70kBQi4Rwtb6h52p07c?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": "Buka · Tutup pukul 21.00 ",
+      "category": "klinik",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.188926,
+      "longitude": 106.4565901,
+      "google_types": "Klinik Kesehatan",
+      "reviews": [
+        {
+          "author": "HERA DEWI AGUSTINA",
+          "rating": 5,
+          "text": "Pelayanan sangat cepat, petugasnya ramah dan harga bersahabat 🥰 …",
+          "date": "Diedit 4 bulan lalu"
+        },
+        {
+          "author": "HERA DEWI AGUSTINA",
+          "rating": 5,
+          "text": "Pelayanan sangat cepat, petugasnya ramah dan harga bersahabat 🥰 …",
+          "date": "Diedit 4 bulan lalu"
+        },
+        {
+          "author": "Nurul samsudin Nazari",
+          "rating": 5,
+          "text": "Pelayanan cpet perawat menjelaskan apapun dgn mudah untuk di pahami, ramah jga dan dokter jga baik terus klinik bersih wangi",
+          "date": "8 bulan lalu"
+        },
+        {
+          "author": "Nurul samsudin Nazari",
+          "rating": 5,
+          "text": "Pelayanan cpet perawat menjelaskan apapun dgn mudah untuk di pahami, ramah jga dan dokter jga baik terus klinik bersih wangi",
+          "date": "8 bulan lalu"
+        },
+        {
+          "author": "Rosita Indrayani",
+          "rating": 5,
+          "text": "Pelanannya bagus, petugas ramah, tempat bersih. Tempat yang nyaman untuk berobat,🥰 …",
+          "date": "7 bulan lalu"
+        }
+      ],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJLf0Edi0BQi4RM9ZZAbgNp-s",
+      "name": "Klinik Omega Balaraja",
+      "address": "RCFX+953, Saga, Kec. Balaraja, Kabupaten Tangerang, Banten 15610",
+      "maps_url": "https://www.google.com/maps/place/Klinik+Omega+Balaraja/data=!4m7!3m6!1s0x2e42012d7604fd2d:0xeba70db80159d633!8m2!3d-6.1766094!4d106.447921!16s%2Fg%2F11ghjwglg1!19sChIJLf0Edi0BQi4RM9ZZAbgNp-s?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": "Segera tutup · 21.00 · Buka Rab pukul 09.00 ",
+      "category": "klinik",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.1766094,
+      "longitude": 106.447921,
+      "google_types": "Klinik Medis",
+      "reviews": [
+        {
+          "author": "Tangguh Willia",
+          "rating": 5,
+          "text": "Pelayananya bagus, bidanya ramah\", dokternya menjelaskan secara detail pokoknya puas deh",
+          "date": "Diedit 2 tahun lalu"
+        },
+        {
+          "author": "Tangguh Willia",
+          "rating": 5,
+          "text": "Pelayananya bagus, bidanya ramah\", dokternya menjelaskan secara detail pokoknya puas deh",
+          "date": "Diedit 2 tahun lalu"
+        },
+        {
+          "author": "Andrian Yasashi Firdaus",
+          "rating": 5,
+          "text": "Baik banget dokternya ramah terimakasih buat pelayananya 😊 …",
+          "date": "4 bulan lalu"
+        },
+        {
+          "author": "Andrian Yasashi Firdaus",
+          "rating": 5,
+          "text": "Baik banget dokternya ramah terimakasih buat pelayananya 😊 …",
+          "date": "4 bulan lalu"
+        },
+        {
+          "author": "Happy Owow",
+          "rating": 5,
+          "text": "Pelayanan bagus, dokternya dan mau menjelaskan",
+          "date": "3 bulan lalu"
+        }
+      ],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJp6qqqpEBQi4RhO6ZmTGDRXY",
+      "name": "KLINIK UMUM SAGA MEDIKA",
+      "address": "Jl Raya Kresek KM 2 Rt 02 Rw 03 Kelurahan, Saga, Kec. Balaraja, Kabupaten Tangerang, Banten 15610",
+      "maps_url": "https://www.google.com/maps/place/KLINIK+UMUM+SAGA+MEDIKA/data=!4m7!3m6!1s0x2e420191aaaaaaa7:0x764583319999ee84!8m2!3d-6.181083!4d106.452325!16s%2Fg%2F11cn7x67rd!19sChIJp6qqqpEBQi4RhO6ZmTGDRXY?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": "Buka 24 jam ",
+      "category": "klinik",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.181083,
+      "longitude": 106.452325,
+      "google_types": "Klinik Medis",
+      "reviews": [
+        {
+          "author": "Nuzila Pml",
+          "rating": 5,
+          "text": "Pelayanannya baguss banget bidannya ramah dan komunikatif 🥰 …",
+          "date": "2 bulan lalu"
+        },
+        {
+          "author": "Nuzila Pml",
+          "rating": 5,
+          "text": "Pelayanannya baguss banget bidannya ramah dan komunikatif 🥰 …",
+          "date": "2 bulan lalu"
+        }
+      ],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJDwBg9fgDQi4RHG8FUDr0IO8",
+      "name": "KLINIK ALIYA Cangkudu",
+      "address": "Jl. Raya Serang No.KM 28, RW.5, Cangkudu, Kec. Balaraja, Kabupaten Tangerang, Banten 15610",
+      "maps_url": "https://www.google.com/maps/place/KLINIK+ALIYA+Cangkudu/data=!4m7!3m6!1s0x2e4203f8f560000f:0xef20f43a50056f1c!8m2!3d-6.2283702!4d106.4318511!16s%2Fg%2F11c2n9z_58!19sChIJDwBg9fgDQi4RHG8FUDr0IO8?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": "Buka 24 jam ",
+      "category": "klinik",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.2283702,
+      "longitude": 106.4318511,
+      "google_types": "Klinik Medis",
+      "reviews": [
+        {
+          "author": "uhan suryana",
+          "rating": 5,
+          "text": "Pelayanan bagus & ramah2\nAlhamdulilah selalu berobat kesini dan cocok, penjelasan dari dokternya juga mudah dipahami, sekarang antrian juga bisa melalui m- JKN yg pakai BPJS  jadi lebih enak bisa ambil antrian dari rumah. Terima kasih",
+          "date": "3 bulan lalu"
+        },
+        {
+          "author": "uhan suryana",
+          "rating": 5,
+          "text": "Pelayanan bagus & ramah2\nAlhamdulilah selalu berobat kesini dan cocok, penjelasan dari dokternya juga mudah dipahami, sekarang antrian juga bisa melalui m- JKN yg pakai BPJS  jadi lebih enak bisa ambil antrian dari rumah. Terima kasih",
+          "date": "3 bulan lalu"
+        },
+        {
+          "author": "SRI SARTINI",
+          "rating": 5,
+          "text": "Baru berobat 2 hari lalu, dokter menjelaskan dengan baik, dr made mantapp.....",
+          "date": "4 bulan lalu"
+        },
+        {
+          "author": "SRI SARTINI",
+          "rating": 5,
+          "text": "Baru berobat 2 hari lalu, dokter menjelaskan dengan baik, dr made mantapp.....",
+          "date": "4 bulan lalu"
+        },
+        {
+          "author": "Muhammad Faishal",
+          "rating": 5,
+          "text": "Pelayanan : ☆☆☆☆☆\nPegawai recepcionis ramah, admin ramah, bagian tes tekanan darah ramah\nHarga : ☆☆☆☆☆ …",
+          "date": "3 tahun lalu"
+        }
+      ],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJ425OlWcBQi4RCnxOMwbvwms",
+      "name": "Klinik Prima Sentul",
+      "address": "QFV2+356, Sentul, Kec. Balaraja, Kabupaten Tangerang, Banten 15610",
+      "maps_url": "https://www.google.com/maps/place/Klinik+Prima+Sentul/data=!4m7!3m6!1s0x2e420167954e6ee3:0x6bc2ef06334e7c0a!8m2!3d-6.2075389!4d106.4505037!16s%2Fg%2F11fxztzdl_!19sChIJ425OlWcBQi4RCnxOMwbvwms?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": "Buka · Tutup pukul 22.00 ",
+      "category": "klinik",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.2075389,
+      "longitude": 106.4505037,
+      "google_types": "Rumah Sakit",
+      "reviews": [
+        {
+          "author": "Siti Rofiah22",
+          "rating": 5,
+          "text": "petugasnya ramah dan dokternya saat saya berobat ramah dan menjelaskan dengan baik. semoga lebih ditingkatkan untuk pelayanannya 👍 …",
+          "date": "2 bulan lalu"
+        },
+        {
+          "author": "Siti Rofiah22",
+          "rating": 5,
+          "text": "petugasnya ramah dan dokternya saat saya berobat ramah dan menjelaskan dengan baik. semoga lebih ditingkatkan untuk pelayanannya 👍 …",
+          "date": "2 bulan lalu"
+        },
+        {
+          "author": "Hany Rohmayati putri",
+          "rating": 5,
+          "text": "Klinik prima sentul petugasnya ramah dan dokternya baik dan ramah saya berobat dan dokternya memberikan obat sesuai kondisi dan surat sakitnya di berikan dengan baik",
+          "date": "2 bulan lalu"
+        },
+        {
+          "author": "Hany Rohmayati putri",
+          "rating": 5,
+          "text": "Klinik prima sentul petugasnya ramah dan dokternya baik dan ramah saya berobat dan dokternya memberikan obat sesuai kondisi dan surat sakitnya di berikan dengan baik",
+          "date": "2 bulan lalu"
+        },
+        {
+          "author": "Raffi Udin",
+          "rating": 5,
+          "text": "Alhamdulillah... Pelayanan nya bagus.. Bidan nya ramah\" dokter nya baik.... Mantap poko nya...👍🤗 …",
+          "date": "2 bulan lalu"
+        }
+      ],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJfy01sToBQi4RNVNfjOeMK7o",
+      "name": "Klinik dokter putri",
+      "address": "Kampung Cariu, Tobat, Kec. Balaraja, Kabupaten Tangerang, Banten 15610",
+      "maps_url": "https://www.google.com/maps/place/Klinik+dokter+putri/data=!4m7!3m6!1s0x2e42013ab1352d7f:0xba2b8ce78c5f5335!8m2!3d-6.1919126!4d106.4340081!16s%2Fg%2F11sf7n7_fh!19sChIJfy01sToBQi4RNVNfjOeMK7o?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": "Buka 24 jam ",
+      "category": "klinik",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.1919126,
+      "longitude": 106.4340081,
+      "google_types": "Klinik Medis",
+      "reviews": [
+        {
+          "author": "Armada Bantu",
+          "rating": 5,
+          "text": "Tarif Murah. Pelayanan Bagus Mulai dari Dokter dan Perawat nya sangat ramah. Bagi kalian warga balaraja coba berobat kesini Insya Allah Sembuh.\nDokter nya suami dan Istri sangat sabar dan baik..\nTerimakasih sudah melayani saya dengan baik dan sabar.",
+          "date": "2 tahun lalu"
+        },
+        {
+          "author": "Armada Bantu",
+          "rating": 5,
+          "text": "Tarif Murah. Pelayanan Bagus Mulai dari Dokter dan Perawat nya sangat ramah. Bagi kalian warga balaraja coba berobat kesini Insya Allah Sembuh.\nDokter nya suami dan Istri sangat sabar dan baik..\nTerimakasih sudah melayani saya dengan baik dan sabar.",
+          "date": "2 tahun lalu"
+        },
+        {
+          "author": "Selviana Ningsih",
+          "rating": 5,
+          "text": "Dokter nya ramah dan enak untuk d ajak konsultasi,, pelayanan nya bagus,,tempat nya juga nyaman,, dan harga obat nya sangat terjangkau.",
+          "date": "2 tahun lalu"
+        },
+        {
+          "author": "Selviana Ningsih",
+          "rating": 5,
+          "text": "Dokter nya ramah dan enak untuk d ajak konsultasi,, pelayanan nya bagus,,tempat nya juga nyaman,, dan harga obat nya sangat terjangkau.",
+          "date": "2 tahun lalu"
+        },
+        {
+          "author": "Karya Amal",
+          "rating": 5,
+          "text": "Pelayanan ny bagus obat terjangkau.\nDokternya Ramah",
+          "date": "3 tahun lalu"
+        }
+      ],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJPzi6GU4BQi4RptB3RvGQ0Nk",
+      "name": "Klinik Utama THT Kopmas Balaraja",
+      "address": "Ruko Kawidaran, Jl. Raya Serang No.Km. 22, Cibadak, Kec. Cikupa, Kabupaten Tangerang, Banten 15710",
+      "maps_url": "https://www.google.com/maps/place/Klinik+Utama+THT+Kopmas+Balaraja/data=!4m7!3m6!1s0x2e42014e19ba383f:0xd9d090f14677d0a6!8m2!3d-6.2000238!4d106.474921!16s%2Fg%2F11m5cqjl8x!19sChIJPzi6GU4BQi4RptB3RvGQ0Nk?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": "Tutup · Buka Kam pukul 13.00 ",
+      "category": "klinik",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.2000238,
+      "longitude": 106.474921,
+      "google_types": "Klinik Medis",
+      "reviews": [
+        {
+          "author": "Ramadhan Vidy Asmoro (Rama)",
+          "rating": 5,
+          "text": "Saya daftar melalui WA untuk cek kesehatan telinga disini di tanggal 30 Januari 2026 jam 17.30 dengan dokter Fierda  Ovita Sari, Sp. T.H.T.K.B.L\nPetugasnya sangat Interaktif sekali menanyakan jadi atau tidaknya saya berobat …",
+          "date": "sebulan lalu"
+        },
+        {
+          "author": "Ramadhan Vidy Asmoro (Rama)",
+          "rating": 5,
+          "text": "Saya daftar melalui WA untuk cek kesehatan telinga disini di tanggal 30 Januari 2026 jam 17.30 dengan dokter Fierda  Ovita Sari, Sp. T.H.T.K.B.L\nPetugasnya sangat Interaktif sekali menanyakan jadi atau tidaknya saya berobat …",
+          "date": "sebulan lalu"
+        },
+        {
+          "author": "irfan pangestu",
+          "rating": 5,
+          "text": "Pelayanan nya oke, ramah, informatif dokternya..\nSemoga kedepannya selalu menjaga pelayanan seperti sekarang.\nTerima Kasih",
+          "date": "2 bulan lalu"
+        },
+        {
+          "author": "irfan pangestu",
+          "rating": 5,
+          "text": "Pelayanan nya oke, ramah, informatif dokternya..\nSemoga kedepannya selalu menjaga pelayanan seperti sekarang.\nTerima Kasih",
+          "date": "2 bulan lalu"
+        },
+        {
+          "author": "Alfred Foni",
+          "rating": 5,
+          "text": "Klinik THT paling bersih, dokter dan kk² nya ramah, pelayanan sangat memuaskan penanganan sangat cepat dan mudah anak sy senang sekali diperiksa . Harga juga bersahabat. Pokonya klinik ini harus jadi rekomendasi para keluarga ❤️❤️❤️🥰 …",
+          "date": "2 minggu lalu"
+        }
+      ],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJ68S5wykBQi4ROQu1V6tYPnM",
+      "name": "KLINIK dr ELFA ZUNITA",
+      "address": "Griya Sutera Balaraja Blok B 8, Talagasari, Kabupaten Tangerang, Banten 15610",
+      "maps_url": "https://www.google.com/maps/place/KLINIK+dr+ELFA+ZUNITA/data=!4m7!3m6!1s0x2e420129c3b9c4eb:0x733e58ab57b50b39!8m2!3d-6.1863784!4d106.4657152!16s%2Fg%2F11v15vygsj!19sChIJ68S5wykBQi4ROQu1V6tYPnM?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": "Segera tutup · 21.00 · Buka Rab pukul 16.00 ",
+      "category": "klinik",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.1863784,
+      "longitude": 106.4657152,
+      "google_types": "Klinik Medis",
+      "reviews": [
+        {
+          "author": "sandra riswanda",
+          "rating": 5,
+          "text": "Dokternya baik dan Ramah. ruang Periksa atau praktek bersih dan Nyaman.\nPengalaman kemarin antar keluarga Khitan diklinik dr Elfa .\nTerimakasih Bu Dokter Elfa 😃🙏 …",
+          "date": "2 tahun lalu"
+        },
+        {
+          "author": "sandra riswanda",
+          "rating": 5,
+          "text": "Dokternya baik dan Ramah. ruang Periksa atau praktek bersih dan Nyaman.\nPengalaman kemarin antar keluarga Khitan diklinik dr Elfa .\nTerimakasih Bu Dokter Elfa 😃🙏 …",
+          "date": "2 tahun lalu"
+        },
+        {
+          "author": "Vijay Maricar",
+          "rating": 5,
+          "text": "Dokternya ramah & cpt menangani pasien.",
+          "date": "2 tahun lalu"
+        },
+        {
+          "author": "Vijay Maricar",
+          "rating": 5,
+          "text": "Dokternya ramah & cpt menangani pasien.",
+          "date": "2 tahun lalu"
+        },
+        {
+          "author": "AKHMAD NUR FAUZI",
+          "rating": 5,
+          "text": "Sangat memuaskan,sangat terjangkau",
+          "date": "2 tahun lalu"
+        }
+      ],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJVd4VBTgHQi4RTsT96ap3eg8",
+      "name": "Klinik Pratama Permata Bunda",
+      "address": "Perumahan Mediterania Residence Jl. Cikupa Induk No.99 Kel, Sukamulya, Kec. Cikupa, Kabupaten Tangerang, Banten 15710",
+      "maps_url": "https://www.google.com/maps/place/Klinik+Pratama+Permata+Bunda/data=!4m7!3m6!1s0x2e4207380515de55:0xf7a77aae9fdc44e!8m2!3d-6.2381618!4d106.5107383!16s%2Fg%2F11btm55_rt!19sChIJVd4VBTgHQi4RTsT96ap3eg8?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": "Segera tutup · 21.00 · Buka Rab pukul 08.00 ",
+      "category": "klinik",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.2381618,
+      "longitude": 106.5107383,
+      "google_types": "Klinik Medis",
+      "reviews": [
+        {
+          "author": "susi romadani",
+          "rating": 5,
+          "text": "Untuk first time kesini kesan nya staff nya ramah, dokternya komunikatif penjelasan nya mudah di cerna, dan harga nya murah. Berobat cuma kena 100rb, dan manjur obatnya di aku. Makasih banyak.. Berkah selalu pokonya ya",
+          "date": "3 minggu lalu"
+        },
+        {
+          "author": "susi romadani",
+          "rating": 5,
+          "text": "Untuk first time kesini kesan nya staff nya ramah, dokternya komunikatif penjelasan nya mudah di cerna, dan harga nya murah. Berobat cuma kena 100rb, dan manjur obatnya di aku. Makasih banyak.. Berkah selalu pokonya ya",
+          "date": "3 minggu lalu"
+        },
+        {
+          "author": "Risa Ruliyanti",
+          "rating": 5,
+          "text": "Alhamdulillah pelayanannya sangat baik,smuanya ramah n penjelasan ke kita sbgai pasien mudah dipahami.. …",
+          "date": "3 minggu lalu"
+        },
+        {
+          "author": "Risa Ruliyanti",
+          "rating": 5,
+          "text": "Alhamdulillah pelayanannya sangat baik,smuanya ramah n penjelasan ke kita sbgai pasien mudah dipahami.. …",
+          "date": "3 minggu lalu"
+        },
+        {
+          "author": "Rayyanza fawwaz Ibrahim",
+          "rating": 5,
+          "text": "Pelayanananya ramah, dokternya baik2  dan sangat menjelaskan perihal penyakit kita. Obat bagus bagus dan harga sangat terjangkau sekali",
+          "date": "2 minggu lalu"
+        }
+      ],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJp097K48BQi4RIkjIHdSbJT0",
+      "name": "HARAPAN AYAH BUNDA (BALARAJA)",
+      "address": "RCHR+3QV, Jl. Raya Kresek, Merak, Kec. Sukamulya, Kabupaten Tangerang, Banten 15610",
+      "maps_url": "https://www.google.com/maps/place/HARAPAN+AYAH+BUNDA+%28BALARAJA%29/data=!4m7!3m6!1s0x2e42018f2b7b4fa7:0x3d259bd41dc84822!8m2!3d-6.172454!4d106.442062!16s%2Fg%2F11tsg4rfvt!19sChIJp097K48BQi4RIkjIHdSbJT0?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": "Tutup · Buka Rab pukul 16.00 ",
+      "category": "klinik",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.172454,
+      "longitude": 106.442062,
+      "google_types": "Dokter Kandungan",
+      "reviews": [
+        {
+          "author": "Hayatin Nufus",
+          "rating": 5,
+          "text": "Pelayanan nya ramah baik..\nDokter nya juga oke utk penjelasan nya sangat jelas sekali.",
+          "date": "sebulan lalu"
+        },
+        {
+          "author": "Hayatin Nufus",
+          "rating": 5,
+          "text": "Pelayanan nya ramah baik..\nDokter nya juga oke utk penjelasan nya sangat jelas sekali.",
+          "date": "sebulan lalu"
+        },
+        {
+          "author": "Arisdoank321 doang321",
+          "rating": 5,
+          "text": "Masyallah pelayanannya terbaik\ndr. Dzikri penjelasannya detail dan hasil 4D nya jelas banget\nKaryawannya pun ramah dan baik",
+          "date": "sebulan lalu"
+        },
+        {
+          "author": "Arisdoank321 doang321",
+          "rating": 5,
+          "text": "Masyallah pelayanannya terbaik\ndr. Dzikri penjelasannya detail dan hasil 4D nya jelas banget\nKaryawannya pun ramah dan baik",
+          "date": "sebulan lalu"
+        },
+        {
+          "author": "Cahya Auliyaj",
+          "rating": 5,
+          "text": "Pelayanannya baik & ramah\ndr. Glenn penjelasannya cukup bagus\nTempatnya bersih",
+          "date": "5 bulan lalu"
+        }
+      ],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJ23AlR3IDQi4RMGeDs4hB0ss",
+      "name": "KMB",
+      "address": "Jl raya serang km.31 gembong rt 02 rw 02 no 56, Gembong, Kec. Balaraja, Kabupaten Tangerang, Banten 15610",
+      "maps_url": "https://www.google.com/maps/place/KMB/data=!4m7!3m6!1s0x2e420372472570db:0xcbd24188b3836730!8m2!3d-6.2182529!4d106.4167962!16s%2Fg%2F11fjs7n729!19sChIJ23AlR3IDQi4RMGeDs4hB0ss?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": "Buka 24 jam ",
+      "category": "klinik",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.2182529,
+      "longitude": 106.4167962,
+      "google_types": "Klinik Kesehatan",
+      "reviews": [
+        {
+          "author": "Hikam Aja",
+          "rating": 5,
+          "text": "tempat sangat nyaman bersih, pelayanan sangat baik dan memuaskan, dokter dan semua staff ramah sekali, sangat informatif. melayani peserta BPJS juga. Obat tidak perlu antri lama, sangat fast respon. terima kasih :)",
+          "date": "sebulan lalu"
+        },
+        {
+          "author": "Hikam Aja",
+          "rating": 5,
+          "text": "tempat sangat nyaman bersih, pelayanan sangat baik dan memuaskan, dokter dan semua staff ramah sekali, sangat informatif. melayani peserta BPJS juga. Obat tidak perlu antri lama, sangat fast respon. terima kasih :)",
+          "date": "sebulan lalu"
+        },
+        {
+          "author": "Mario Pratama",
+          "rating": 5,
+          "text": "Terima kasih, Klinik melati bunda. Semakin hari semakin membaik. Tetap menjadi sahabat dikala keluarga saya sakit yaa hehe. …",
+          "date": "2 bulan lalu"
+        },
+        {
+          "author": "Mario Pratama",
+          "rating": 5,
+          "text": "Terima kasih, Klinik melati bunda. Semakin hari semakin membaik. Tetap menjadi sahabat dikala keluarga saya sakit yaa hehe. …",
+          "date": "2 bulan lalu"
+        },
+        {
+          "author": "Mmh Syifa",
+          "rating": 5,
+          "text": "Trimakasih semua untuk dokter dan staffnya. Semoga sll Smngt bekerja dan sll telaten amanah tak pernah bosan jg dgn pasien yh .\nAlhamdulillah selalu bawa anak disini dan cocok. semoga sll berjaya dan Istikomah Sert amanah aamiin",
+          "date": "sebulan lalu"
+        }
+      ],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJmZRXsOoDQi4RjyZzdqpjfUc",
+      "name": "Citra Sehat Gembong",
+      "address": "Jl. Raya Serang No.30, RW.01, Gembong, Kec. Balaraja, Kabupaten Tangerang, Banten 15610",
+      "maps_url": "https://www.google.com/maps/place/Citra+Sehat+Gembong/data=!4m7!3m6!1s0x2e4203eab0579499:0x477d63aa7673268f!8m2!3d-6.2220399!4d106.421113!16s%2Fg%2F11pw1_4ypj!19sChIJmZRXsOoDQi4RjyZzdqpjfUc?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": "Segera tutup · 21.00 · Buka Rab pukul 12.00 ",
+      "category": "klinik",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.2220399,
+      "longitude": 106.421113,
+      "google_types": "Klinik Medis",
+      "reviews": [
+        {
+          "author": "robbek",
+          "rating": 5,
+          "text": "Kliniknya bagus, bersih, perawat dan dokternya  ramah\nTidak terlalu mahal",
+          "date": "setahun lalu"
+        },
+        {
+          "author": "robbek",
+          "rating": 5,
+          "text": "Kliniknya bagus, bersih, perawat dan dokternya  ramah\nTidak terlalu mahal",
+          "date": "setahun lalu"
+        },
+        {
+          "author": "Ali Yudin",
+          "rating": 5,
+          "text": "Di sini bisa scaling gigi gak dok",
+          "date": "3 bulan lalu"
+        },
+        {
+          "author": "Ali Yudin",
+          "rating": 5,
+          "text": "Di sini bisa scaling gigi gak dok",
+          "date": "3 bulan lalu"
+        },
+        {
+          "author": "Agil Tony",
+          "rating": 5,
+          "text": "Terimakasih untuk pelayanan dan obat gratisnya, alhamdulillah nyeri dibadan saya mengurangi padahal baru minum obat sekali. Mantaaaap😊 …",
+          "date": "2 tahun lalu"
+        }
+      ],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJ_YJWv5P7aS4RB_mbiE3rk_k",
+      "name": "Klinik Prima Medika Cikupa",
+      "address": "jl raya serang KM.14.8 Blok B No.16, Talagasari, Kec. Cikupa, Kabupaten Tangerang, Banten 15710",
+      "maps_url": "https://www.google.com/maps/place/Klinik+Prima+Medika+Cikupa/data=!4m7!3m6!1s0x2e69fb93bf5682fd:0xf993eb4d889bf907!8m2!3d-6.2281884!4d106.5240126!16s%2Fg%2F11tshcfdn1!19sChIJ_YJWv5P7aS4RB_mbiE3rk_k?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": "Buka · Tutup pukul 22.00 ",
+      "category": "klinik",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.2281884,
+      "longitude": 106.5240126,
+      "google_types": "Klinik Kesehatan",
+      "reviews": [
+        {
+          "author": "indri anjarini",
+          "rating": 5,
+          "text": "Baru pertama berobat disini pelayanan nya ramah, dokter nya juga baik dikasih surat keterangan sakit juga",
+          "date": "6 bulan lalu"
+        },
+        {
+          "author": "indri anjarini",
+          "rating": 5,
+          "text": "Baru pertama berobat disini pelayanan nya ramah, dokter nya juga baik dikasih surat keterangan sakit juga",
+          "date": "6 bulan lalu"
+        },
+        {
+          "author": "robiatul adawiyah",
+          "rating": 5,
+          "text": "Pengalaman saya berobat disini baik ramah tempatnya bersih tidak terlalu lama menunggu dari pendaftaran sampai pengambilan obat, informasi yang diberikan oleh perawatnya sangat jelas dan di bantu untuk pendaftaran mobile jknya🫰 …",
+          "date": "Diedit 4 bulan lalu"
+        },
+        {
+          "author": "robiatul adawiyah",
+          "rating": 5,
+          "text": "Pengalaman saya berobat disini baik ramah tempatnya bersih tidak terlalu lama menunggu dari pendaftaran sampai pengambilan obat, informasi yang diberikan oleh perawatnya sangat jelas dan di bantu untuk pendaftaran mobile jknya🫰 …",
+          "date": "Diedit 4 bulan lalu"
+        },
+        {
+          "author": "Ika Azhari",
+          "rating": 5,
+          "text": "Pelayanan ny bagus Dokter ny ramah\nSy dan keluarga sudah langganan d klinik prima medika sejak lama.",
+          "date": "setahun lalu"
+        }
+      ],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJE7kzZksHQi4RO3SiJMc6mx8",
+      "name": "Klinik Talaga S Sehat",
+      "address": "Jl. Raya Serang Km.15 No. 25, RT.006/RW.Rt.006, 03, Talagasari, Kec. Cikupa, Kabupaten Tangerang, Banten 15710",
+      "maps_url": "https://www.google.com/maps/place/Klinik+Talaga+S+Sehat/data=!4m7!3m6!1s0x2e42074b6633b913:0x1f9b3ac724a2743b!8m2!3d-6.2286717!4d106.5164979!16s%2Fg%2F11gfm84569!19sChIJE7kzZksHQi4RO3SiJMc6mx8?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": "Buka 24 jam ",
+      "category": "klinik",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.2286717,
+      "longitude": 106.5164979,
+      "google_types": "Klinik Kesehatan",
+      "reviews": [
+        {
+          "author": "Jenny Novrianti",
+          "rating": 5,
+          "text": "Alhamdullilah, biasa berobat disini karna bidannya ramah, baik, sopan, cantik, lancar terus",
+          "date": "2 bulan lalu"
+        },
+        {
+          "author": "Jenny Novrianti",
+          "rating": 5,
+          "text": "Alhamdullilah, biasa berobat disini karna bidannya ramah, baik, sopan, cantik, lancar terus",
+          "date": "2 bulan lalu"
+        },
+        {
+          "author": "abas wahyudi",
+          "rating": 5,
+          "text": "Pelayanannya bagus, bidan nya ramah tempanya nyaman",
+          "date": "setahun lalu"
+        },
+        {
+          "author": "abas wahyudi",
+          "rating": 5,
+          "text": "Pelayanannya bagus, bidan nya ramah tempanya nyaman",
+          "date": "setahun lalu"
+        },
+        {
+          "author": "anisa widiarti",
+          "rating": 5,
+          "text": "Terimakasii bu bidan dan team yg ada di klinik ini. Seneng bgtt krn pelayanan nya sangat baik, ramah, friendly. Nyaman utk konsultasi apapun🥰 …",
+          "date": "setahun lalu"
+        }
+      ],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJE2Bv5E0HQi4R_zeqZL5IirM",
+      "name": "Klinik Keluarga Sehat Medika",
+      "address": "Jalan Citra Raya Boulevard Ruko Blok E 01/16 R, Cikupa, Kec. Cikupa, Kabupaten Tangerang, Banten 15710",
+      "maps_url": "https://www.google.com/maps/place/Klinik+Keluarga+Sehat+Medika/data=!4m7!3m6!1s0x2e42074de46f6013:0xb38a48be64aa37ff!8m2!3d-6.2368629!4d106.5233256!16s%2Fg%2F11b6dp13zw!19sChIJE2Bv5E0HQi4R_zeqZL5IirM?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": "Buka 24 jam ",
+      "category": "klinik",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.2368629,
+      "longitude": 106.5233256,
+      "google_types": "Klinik Medis",
+      "reviews": [
+        {
+          "author": "nateh panerang90",
+          "rating": 5,
+          "text": "2 x berobat dsni Bpjs dan Umum,\n1 Bayi 11bln, krn diare dgn dokter IvOne, pelayanan bagus Ramah sekali, Obatny dpt banyak dan Anku suka, tp untuk puyer smua pait , dosis habis . Ku bantu dgn …",
+          "date": "sebulan lalu"
+        },
+        {
+          "author": "nateh panerang90",
+          "rating": 5,
+          "text": "2 x berobat dsni Bpjs dan Umum,\n1 Bayi 11bln, krn diare dgn dokter IvOne, pelayanan bagus Ramah sekali, Obatny dpt banyak dan Anku suka, tp untuk puyer smua pait , dosis habis . Ku bantu dgn …",
+          "date": "sebulan lalu"
+        },
+        {
+          "author": "Meiliany Jayanti",
+          "rating": 5,
+          "text": "Baru punya bpjs jadi masih ngang ngong kesini. Tp meskipun begitu pelayanannya ramah, to the point dan cukup informatif, tanya ini itu dibantu jawab dengan baik. Kebetulan minta rujukan ke dokternya untuk sakit anak, dokternya jg teliti dan …",
+          "date": "2 minggu lalu"
+        },
+        {
+          "author": "Meiliany Jayanti",
+          "rating": 5,
+          "text": "Baru punya bpjs jadi masih ngang ngong kesini. Tp meskipun begitu pelayanannya ramah, to the point dan cukup informatif, tanya ini itu dibantu jawab dengan baik. Kebetulan minta rujukan ke dokternya untuk sakit anak, dokternya jg teliti dan …",
+          "date": "2 minggu lalu"
+        },
+        {
+          "author": "Alifa Rizky Ramadani",
+          "rating": 5,
+          "text": "Pelayanan di sini sangat baik dan profesional. Dokter serta perawatnya ramah, informatif, dan sigap dalam menangani pasien. Proses administrasi cukup cepat dan tidak berbelit-belit. Fasilitasnya juga bersih, nyaman, dan tertata rapi. Terima kasih atas pelayanan yang sudah diberikan, semoga terus konsisten dan semakin baik.",
+          "date": "sebulan lalu"
+        }
+      ],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJP0UN0loBQi4RNS468Z5uHqY",
+      "name": "KLINIK HARIANJA MEDIKA",
+      "address": "Klinik Harianja Medika, RT.04/RW.03, Talaga, Kec. Cikupa, Kabupaten Tangerang, Banten 15710",
+      "maps_url": "https://www.google.com/maps/place/KLINIK+HARIANJA+MEDIKA/data=!4m7!3m6!1s0x2e42015ad20d453f:0xa61e6e9ef13a2e35!8m2!3d-6.2077297!4d106.5046881!16s%2Fg%2F11t765_k2w!19sChIJP0UN0loBQi4RNS468Z5uHqY?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": null,
+      "category": "klinik",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.2077297,
+      "longitude": 106.5046881,
+      "google_types": "Klinik Kesehatan",
+      "reviews": [
+        {
+          "author": "Eva Rosmawati",
+          "rating": 5,
+          "text": "Pertama kali infus disini karena lemes banget, pelayanan nya mantap, harga murah, perawat dan dokternya juga baik baik banget, ramah sopan dan semua nya dijelasin selama kita diinfus itu, semoga semakin maju klinik nya, dan semoga tetap pertahankan keramahan ke pasien 👍 …",
+          "date": "setahun lalu"
+        },
+        {
+          "author": "Eva Rosmawati",
+          "rating": 5,
+          "text": "Pertama kali infus disini karena lemes banget, pelayanan nya mantap, harga murah, perawat dan dokternya juga baik baik banget, ramah sopan dan semua nya dijelasin selama kita diinfus itu, semoga semakin maju klinik nya, dan semoga tetap pertahankan keramahan ke pasien 👍 …",
+          "date": "setahun lalu"
+        },
+        {
+          "author": "Flora Handayani",
+          "rating": 5,
+          "text": "Kliniknya bagus, obatnya lengkap juga mantap deh pokoknya👍semoga cabangnya makin banyak biar bisa rekrut lebih banyak anak SMK kesehatan😁 …",
+          "date": "3 tahun lalu"
+        },
+        {
+          "author": "Flora Handayani",
+          "rating": 5,
+          "text": "Kliniknya bagus, obatnya lengkap juga mantap deh pokoknya👍semoga cabangnya makin banyak biar bisa rekrut lebih banyak anak SMK kesehatan😁 …",
+          "date": "3 tahun lalu"
+        },
+        {
+          "author": "Renny Pandiangan",
+          "rating": 5,
+          "text": "Pelayanannya baik, harganya sangat terjangkau, pokoknya the best lahh",
+          "date": "3 tahun lalu"
+        }
+      ],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJ8wmCoXMBQi4RWgU4O6OAI7E",
+      "name": "Klinik Gama",
+      "address": "JL Raya Kresek, No. 6 RT 01 RW 01, Kedaung, Balaraja, Talagasari, Kec. Balaraja, Kabupaten Tangerang, Banten 15610",
+      "maps_url": "https://www.google.com/maps/place/Klinik+Gama/data=!4m7!3m6!1s0x2e420173a18209f3:0xb12380a33b38055a!8m2!3d-6.194614!4d106.46086!16s%2Fg%2F11bc7lq490!19sChIJ8wmCoXMBQi4RWgU4O6OAI7E?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": null,
+      "category": "klinik",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.194614,
+      "longitude": 106.46086,
+      "google_types": "Klinik Tanpa Perjanjian",
+      "reviews": [
+        {
+          "author": "Naila Anisa Ramadhani",
+          "rating": 5,
+          "text": "Dokternya sangat ramah dan pelayananya sangat bagus, obat obatnya juga bagus bagus cocok dengan saya",
+          "date": "8 bulan lalu"
+        },
+        {
+          "author": "Naila Anisa Ramadhani",
+          "rating": 5,
+          "text": "Dokternya sangat ramah dan pelayananya sangat bagus, obat obatnya juga bagus bagus cocok dengan saya",
+          "date": "8 bulan lalu"
+        }
+      ],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJl9DKbHAHQi4RbpoaizSJ5zM",
+      "name": "klinik pratama ulina medika",
+      "address": "Cluster The Trees, Perumahan Citra Raya No.70 Blok U.06, Mekar Bakti, Panongan, Tangerang Regency, Banten 15710",
+      "maps_url": "https://www.google.com/maps/place/klinik+pratama+ulina+medika/data=!4m7!3m6!1s0x2e4207706ccad097:0x33e789348b1a9a6e!8m2!3d-6.2509972!4d106.526522!16s%2Fg%2F11twhtw_ml!19sChIJl9DKbHAHQi4RbpoaizSJ5zM?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": "Buka · Tutup pukul 22.00 ",
+      "category": "klinik",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.2509972,
+      "longitude": 106.526522,
+      "google_types": "Klinik Medis",
+      "reviews": [
+        {
+          "author": "J oy",
+          "rating": 5,
+          "text": "Excellent service, 👌, terima kasih drg, Farida Indrawati wisastra untuk\nPerawatan gigi yang ke dua kalinya,,,🙏 …",
+          "date": "2 tahun lalu"
+        },
+        {
+          "author": "J oy",
+          "rating": 5,
+          "text": "Excellent service, 👌, terima kasih drg, Farida Indrawati wisastra untuk\nPerawatan gigi yang ke dua kalinya,,,🙏 …",
+          "date": "2 tahun lalu"
+        },
+        {
+          "author": "yoner handri angga",
+          "rating": 5,
+          "text": "Sdh berobat kemana2 tp gk sembuh,.alhamdulilah baru 1x berobat di klinik ulina langsung ada perbaikan jos",
+          "date": "2 tahun lalu"
+        },
+        {
+          "author": "yoner handri angga",
+          "rating": 5,
+          "text": "Sdh berobat kemana2 tp gk sembuh,.alhamdulilah baru 1x berobat di klinik ulina langsung ada perbaikan jos",
+          "date": "2 tahun lalu"
+        },
+        {
+          "author": "Sandi Citrama",
+          "rating": 5,
+          "text": "Terimakasih klinik ulina...dokter yang super ramah dan pelayanan nya is the best recommended banget",
+          "date": "2 tahun lalu"
+        }
+      ],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJkbyPqIsHQi4RZpXGHw5-14I",
+      "name": "Klinik Milenia Sejahtera",
+      "address": "Kawasan Millenium Blok A.11 No.18-19, Budi Mulya, Kec. Cikupa, Kabupaten Tangerang, Banten 15710",
+      "maps_url": "https://www.google.com/maps/place/Klinik+Milenia+Sejahtera/data=!4m7!3m6!1s0x2e42078ba88fbc91:0x82d77e0e1fc69566!8m2!3d-6.245217!4d106.4906123!16s%2Fg%2F11fk3c_clm!19sChIJkbyPqIsHQi4RZpXGHw5-14I?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": "Segera tutup · 21.00 · Buka Rab pukul 08.00 ",
+      "category": "klinik",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.245217,
+      "longitude": 106.4906123,
+      "google_types": "Klinik Kesehatan",
+      "reviews": [
+        {
+          "author": "ryan dani ramadhan",
+          "rating": 5,
+          "text": "Klinik dsini tuh pelayanannya memuaskan,,,dokternya pun ramah2,,dn saya selama 9 thn bpjs dri klinik ini alhmdllh cocok,,,mnta rujukan ke rmh sakit pun tdk pernh dipersulit selalu dbri solusi jln kluarnya..mksih udh mlayani saya dn kluarga saya selama 9thn ini",
+          "date": "2 tahun lalu"
+        },
+        {
+          "author": "ryan dani ramadhan",
+          "rating": 5,
+          "text": "Klinik dsini tuh pelayanannya memuaskan,,,dokternya pun ramah2,,dn saya selama 9 thn bpjs dri klinik ini alhmdllh cocok,,,mnta rujukan ke rmh sakit pun tdk pernh dipersulit selalu dbri solusi jln kluarnya..mksih udh mlayani saya dn kluarga saya selama 9thn ini",
+          "date": "2 tahun lalu"
+        },
+        {
+          "author": "Yunus Pradika",
+          "rating": 5,
+          "text": "Izin tanya, bisa buat surat keterangan bebas buta warna ga ya pak/buk?",
+          "date": "sebulan lalu"
+        },
+        {
+          "author": "Yunus Pradika",
+          "rating": 5,
+          "text": "Izin tanya, bisa buat surat keterangan bebas buta warna ga ya pak/buk?",
+          "date": "sebulan lalu"
+        },
+        {
+          "author": "Inahinah",
+          "rating": 5,
+          "text": "Kya biasa MCU nya. Tes fisik, cek darah, urin, rotgen,\nMasa gtu doang smpe 550 si bayar nya …",
+          "date": "10 bulan lalu"
+        }
+      ],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJ8SjCTW8BQi4R0TnR0I-h8WA",
+      "name": "Klinik Dr. Karman",
+      "address": "QFW3+H7F, spbu di dekat, KP.PASIR, Sentul, Kec. Balaraja, Kabupaten Tangerang, Banten 15610",
+      "maps_url": "https://www.google.com/maps/place/Klinik+Dr.+Karman/data=!4m7!3m6!1s0x2e42016f4dc228f1:0x60f1a18fd0d139d1!8m2!3d-6.203555!4d106.4531683!16s%2Fg%2F11cn788bc0!19sChIJ8SjCTW8BQi4R0TnR0I-h8WA?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": null,
+      "category": "klinik",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.203555,
+      "longitude": 106.4531683,
+      "google_types": "Klinik Medis",
+      "reviews": [
+        {
+          "author": "edi purwanto",
+          "rating": 5,
+          "text": "Untuk saraf kejepit bisa ga ya, saya pengen banget berobat",
+          "date": "7 bulan lalu"
+        },
+        {
+          "author": "edi purwanto",
+          "rating": 5,
+          "text": "Untuk saraf kejepit bisa ga ya, saya pengen banget berobat",
+          "date": "7 bulan lalu"
+        },
+        {
+          "author": "Erwin Kiwing",
+          "rating": 5,
+          "text": "Maaf mau tanya untuk hr ini buka jam berapa ya dan apakah bs ketemu dokter Karman nya secara langsung ga ya?",
+          "date": "2 tahun lalu"
+        },
+        {
+          "author": "Erwin Kiwing",
+          "rating": 5,
+          "text": "Maaf mau tanya untuk hr ini buka jam berapa ya dan apakah bs ketemu dokter Karman nya secara langsung ga ya?",
+          "date": "2 tahun lalu"
+        },
+        {
+          "author": "teteh ita",
+          "rating": 5,
+          "text": "Terima kasih pak Dokter , Alhamdulillah kolesterol saya sembuh .",
+          "date": "setahun lalu"
+        }
+      ],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJvTWiOi8HQi4Rr-dFntl_ZRo",
+      "name": "Klinik Mulya Medika, Bidan Heni",
+      "address": "Jl. Pemda Tigaraksa No.44, Budi Mulya, Kec. Cikupa, Kabupaten Tangerang, Banten 15710",
+      "maps_url": "https://www.google.com/maps/place/Klinik+Mulya+Medika,+Bidan+Heni/data=!4m7!3m6!1s0x2e42072f3aa235bd:0x1a657fd99e45e7af!8m2!3d-6.2365206!4d106.4939101!16s%2Fg%2F11dxr11c2h!19sChIJvTWiOi8HQi4Rr-dFntl_ZRo?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": "Segera tutup · 21.00 · Buka Rab pukul 09.00 ",
+      "category": "klinik",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.2365206,
+      "longitude": 106.4939101,
+      "google_types": "Klinik Kesehatan",
+      "reviews": [
+        {
+          "author": "mahroni nasution",
+          "rating": 5,
+          "text": "hari ini ketemu ibu bidan heny untuk cek kehamilan, orangnya supel dan humble bangat dijalasin secara detail mengenai kehamilan terus staff dan adminnya juga ramah2 dan baik. rekomendasi buat ibu2 hamil. heheh dikasi minyak goreng gratis 2 liter karna baru pindah faskes.. ❤️",
+          "date": "6 bulan lalu"
+        },
+        {
+          "author": "mahroni nasution",
+          "rating": 5,
+          "text": "hari ini ketemu ibu bidan heny untuk cek kehamilan, orangnya supel dan humble bangat dijalasin secara detail mengenai kehamilan terus staff dan adminnya juga ramah2 dan baik. rekomendasi buat ibu2 hamil. heheh dikasi minyak goreng gratis 2 liter karna baru pindah faskes.. ❤️",
+          "date": "6 bulan lalu"
+        },
+        {
+          "author": "Rudi Ansah",
+          "rating": 5,
+          "text": "Alhamdulillah selalu puas dengan pelayanannya,, 🥰🥰 …",
+          "date": "6 bulan lalu"
+        },
+        {
+          "author": "Rudi Ansah",
+          "rating": 5,
+          "text": "Alhamdulillah selalu puas dengan pelayanannya,, 🥰🥰 …",
+          "date": "6 bulan lalu"
+        },
+        {
+          "author": "semprul02 blachole",
+          "rating": 5,
+          "text": "Klinik Mulya Medika dengan tampilan yang baru, pelayanan ramah dan sopan.....",
+          "date": "Diedit 4 tahun lalu"
+        }
+      ],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJdWP6fb8BQi4RlbAR3I29gbU",
+      "name": "Klinik Mian Medical Center",
+      "address": "Jl. Raya Kresek No.69, Saga, Kec. Balaraja, Kabupaten Tangerang, Banten 15610",
+      "maps_url": "https://www.google.com/maps/place/Klinik+Mian+Medical+Center/data=!4m7!3m6!1s0x2e4201bf7dfa6375:0xb581bd8ddc11b095!8m2!3d-6.1838102!4d106.4541105!16s%2Fg%2F11f6dmp11g!19sChIJdWP6fb8BQi4RlbAR3I29gbU?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": "Buka · Tutup pukul 22.00 ",
+      "category": "klinik",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.1838102,
+      "longitude": 106.4541105,
+      "google_types": "Dokter",
+      "reviews": [],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJ248ceBYHQi4RDbIkupGLklg",
+      "name": "Klinik Dr. Dede Yusniawati",
+      "address": "Jl. Cibarengkok, RT.04/RW.04, Peusar, Kec. Panongan, Kabupaten Tangerang, Banten 15710",
+      "maps_url": "https://www.google.com/maps/place/Klinik+Dr.+Dede+Yusniawati/data=!4m7!3m6!1s0x2e420716781c8fdb:0x58928b91ba24b20d!8m2!3d-6.2501747!4d106.5039177!16s%2Fg%2F11cmcw_spx!19sChIJ248ceBYHQi4RDbIkupGLklg?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": "Buka 24 jam ",
+      "category": "klinik",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.2501747,
+      "longitude": 106.5039177,
+      "google_types": "Dokter",
+      "reviews": [
+        {
+          "author": "Hernayanti Sabiah",
+          "rating": 5,
+          "text": "Pertama berobat kesini rame banget, antrinya lumayan panjang, tapi tetep nyaman, adem, tempatnya juga bagus. Konsultasi sama dokternya lengkap, penjelasan rinci, dokter nya juga baik. Ga expect antrinya panjang tapi GAK LAMA DAN ANTRIAN …",
+          "date": "4 bulan lalu"
+        },
+        {
+          "author": "Hernayanti Sabiah",
+          "rating": 5,
+          "text": "Pertama berobat kesini rame banget, antrinya lumayan panjang, tapi tetep nyaman, adem, tempatnya juga bagus. Konsultasi sama dokternya lengkap, penjelasan rinci, dokter nya juga baik. Ga expect antrinya panjang tapi GAK LAMA DAN ANTRIAN …",
+          "date": "4 bulan lalu"
+        },
+        {
+          "author": "Emilia Hermawan",
+          "rating": 5,
+          "text": "Udah sering berobat kesini. Alhamdulillah anak saya cocok, pelayanan nya bagus. Bidan nya ramah banget ke anak saya. Mungkin ini klinik yang melayaninya dengan sepenuh hati. Sukses selalu klinik dr. Dede🫰 …",
+          "date": "2 bulan lalu"
+        },
+        {
+          "author": "Emilia Hermawan",
+          "rating": 5,
+          "text": "Udah sering berobat kesini. Alhamdulillah anak saya cocok, pelayanan nya bagus. Bidan nya ramah banget ke anak saya. Mungkin ini klinik yang melayaninya dengan sepenuh hati. Sukses selalu klinik dr. Dede🫰 …",
+          "date": "2 bulan lalu"
+        },
+        {
+          "author": "Shandy Raka Kurniawan",
+          "rating": 5,
+          "text": "Coba coba berobat gigi disini. Kayanya baru buka poli gigi tapi cukup lengkap buat ngelayanin masalah2 gigi. Dokternya ok, gercep, asisten perawatnya juga ramah. Next kayanya bakal kesini lagi buat bersihin karang gigi",
+          "date": "2 bulan lalu"
+        }
+      ],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJWT-I-pIBQi4REI0Oyli-0dQ",
+      "name": "Fadhila Medika",
+      "address": "JL Raya Kresek, Blok B2 No. 16 RT 10 RW 02, Saga, Balaraja, Perum Bumi Asri Balaraja, Saga, Kec. Balaraja, Kabupaten Tangerang, Banten 15610",
+      "maps_url": "https://www.google.com/maps/place/Fadhila+Medika/data=!4m7!3m6!1s0x2e420192fa883f59:0xd4d1be58ca0e8d10!8m2!3d-6.169875!4d106.4546278!16s%2Fg%2F11bc7tf4sr!19sChIJWT-I-pIBQi4REI0Oyli-0dQ?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": null,
+      "category": "klinik",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.169875,
+      "longitude": 106.4546278,
+      "google_types": "Klinik Tanpa Perjanjian",
+      "reviews": [],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJ1di8AAABQi4RQRFcPzLLYrs",
+      "name": "Praktek dokter gigi drg Primiastuti Balaraja Tangerang",
+      "address": "Jl. Raya Kresek No.69, mandiri, Kec. Balaraja, Kabupaten Tangerang, Banten 15610",
+      "maps_url": "https://www.google.com/maps/place/Praktek+dokter+gigi+drg+Primiastuti+Balaraja+Tangerang/data=!4m7!3m6!1s0x2e42010000bcd8d5:0xbb62cb323f5c1141!8m2!3d-6.1880654!4d106.4567494!16s%2Fg%2F11ywp216sj!19sChIJ1di8AAABQi4RQRFcPzLLYrs?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": "Tutup · Buka Rab pukul 16.00 Diperbarui oleh bisnis ini 10 minggu yang lalu",
+      "category": "klinik",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.1880654,
+      "longitude": 106.4567494,
+      "google_types": "Klinik Gigi",
+      "reviews": [],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJ5Rh4dMwAQi4RLjs85ee2JNo",
+      "name": "Klinik Karya Sarana Medika",
+      "address": "Jl. Raya Serang, Talaga, Kec. Cikupa, Kabupaten Tangerang, Banten 15710",
+      "maps_url": "https://www.google.com/maps/place/Klinik+Karya+Sarana+Medika/data=!4m7!3m6!1s0x2e4200cc747818e5:0xda24b6e7e53c3b2e!8m2!3d-6.2242445!4d106.5076729!16s%2Fg%2F1tdrnw8m!19sChIJ5Rh4dMwAQi4RLjs85ee2JNo?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": "Buka · Tutup pukul 22.00 ",
+      "category": "klinik",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.2242445,
+      "longitude": 106.5076729,
+      "google_types": "Klinik Medis",
+      "reviews": [],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJ78--3mcHQi4RPOdrlUKsGPc",
+      "name": "Klinik Eco Medika",
+      "address": "Blk. VD 01, Jl. Citra Raya Boulevard No.06, Mekar Bakti, Kec. Panongan, Kabupaten Tangerang, Banten 15710",
+      "maps_url": "https://www.google.com/maps/place/Klinik+Eco+Medika/data=!4m7!3m6!1s0x2e420767debecfef:0xf718ac42956be73c!8m2!3d-6.2494163!4d106.5232942!16s%2Fg%2F11c1r1r0_z!19sChIJ78--3mcHQi4RPOdrlUKsGPc?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": "Buka 24 jam Diperbarui oleh pengguna lain 9 minggu yang lalu",
+      "category": "klinik",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.2494163,
+      "longitude": 106.5232942,
+      "google_types": "Klinik Medis",
+      "reviews": [
+        {
+          "author": "Darma Sakti",
+          "rating": 5,
+          "text": "puji syukur anterin anak berobat tengah malam sangat kebantu dan puji syukur ketemu dokter yang baik, memang kliniknya ramai dan ada jam istirahat (karna operasional 24 jam)",
+          "date": "3 minggu lalu"
+        },
+        {
+          "author": "Darma Sakti",
+          "rating": 5,
+          "text": "puji syukur anterin anak berobat tengah malam sangat kebantu dan puji syukur ketemu dokter yang baik, memang kliniknya ramai dan ada jam istirahat (karna operasional 24 jam)",
+          "date": "3 minggu lalu"
+        },
+        {
+          "author": "Dwi Indrayuni",
+          "rating": 5,
+          "text": "Saya datang di pagi hari jam 9-10 pagi. Nyaman, tidak seramai jika sore. Pemanggilan pendaftaran, dokter dan apotek tidak terlalu antri jadi tidak lama.\nDokter ivana sangat komunikatif dan informatif.",
+          "date": "3 bulan lalu"
+        },
+        {
+          "author": "Dwi Indrayuni",
+          "rating": 5,
+          "text": "Saya datang di pagi hari jam 9-10 pagi. Nyaman, tidak seramai jika sore. Pemanggilan pendaftaran, dokter dan apotek tidak terlalu antri jadi tidak lama.\nDokter ivana sangat komunikatif dan informatif.",
+          "date": "3 bulan lalu"
+        },
+        {
+          "author": "Ajeng utami",
+          "rating": 5,
+          "text": "Saya sekeluarga cocok berobat di klinik eco Medika citra raya. Petugasnya ramah2 dan pelayanannya cepat. Sukses selalu..",
+          "date": "sebulan lalu"
+        }
+      ],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJxwnOi6IBQi4R6oCJwnFjVKg",
+      "name": "Klinik destia medika",
+      "address": "Talaga, Kec. Cikupa, Kabupaten Tangerang, Banten 15710",
+      "maps_url": "https://www.google.com/maps/place/Klinik+destia+medika/data=!4m7!3m6!1s0x2e4201a28bce09c7:0xa8546371c28980ea!8m2!3d-6.2186313!4d106.5136717!16s%2Fg%2F11h126cklx!19sChIJxwnOi6IBQi4R6oCJwnFjVKg?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": "Segera tutup · 21.00 · Buka Rab pukul 08.00 ",
+      "category": "klinik",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.2186313,
+      "longitude": 106.5136717,
+      "google_types": "Klinik Kesehatan",
+      "reviews": [
+        {
+          "author": "Yoni Afrizal",
+          "rating": 5,
+          "text": "bidannya baik,ramah, pelayanan nya juga ok, tempatnya juga bersih",
+          "date": "2 tahun lalu"
+        },
+        {
+          "author": "Yoni Afrizal",
+          "rating": 5,
+          "text": "bidannya baik,ramah, pelayanan nya juga ok, tempatnya juga bersih",
+          "date": "2 tahun lalu"
+        },
+        {
+          "author": "Afif Ahmad",
+          "rating": 5,
+          "text": "pelayanan yg baik",
+          "date": "2 tahun lalu"
+        },
+        {
+          "author": "Afif Ahmad",
+          "rating": 5,
+          "text": "pelayanan yg baik",
+          "date": "2 tahun lalu"
+        }
+      ],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJZ3rjV3kHQi4RPUaqYwPAb0U",
+      "name": "KLINIK CITRA RAYA MEDIKA",
+      "address": "Jalan Graha Raya Ruko Taman Picaso Blok P 03 No 11 Panongan, Ciakar, Kabupaten Tangerang, Banten 15710",
+      "maps_url": "https://www.google.com/maps/place/KLINIK+CITRA+RAYA+MEDIKA/data=!4m7!3m6!1s0x2e42077957e37a67:0x456fc00363aa463d!8m2!3d-6.2626435!4d106.5282992!16s%2Fg%2F11cnq4vzvl!19sChIJZ3rjV3kHQi4RPUaqYwPAb0U?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": "Buka · Tutup pukul 22.00 ",
+      "category": "klinik",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.2626435,
+      "longitude": 106.5282992,
+      "google_types": "Klinik Medis",
+      "reviews": [
+        {
+          "author": "hadi arman90",
+          "rating": 5,
+          "text": "Welcom bgt petugas kliniknya walau maaib pagi buta di hari weekand dan di tambah pakai bpjs\nSukses selalu untk kliniknya",
+          "date": "3 tahun lalu"
+        },
+        {
+          "author": "hadi arman90",
+          "rating": 5,
+          "text": "Welcom bgt petugas kliniknya walau maaib pagi buta di hari weekand dan di tambah pakai bpjs\nSukses selalu untk kliniknya",
+          "date": "3 tahun lalu"
+        },
+        {
+          "author": "Rani Sihite",
+          "rating": 5,
+          "text": "Obat nya cocok di saya.\nDan pelayanan nya cepat 😇 …",
+          "date": "4 bulan lalu"
+        },
+        {
+          "author": "Rani Sihite",
+          "rating": 5,
+          "text": "Obat nya cocok di saya.\nDan pelayanan nya cepat 😇 …",
+          "date": "4 bulan lalu"
+        },
+        {
+          "author": "AKBAR DS",
+          "rating": 5,
+          "text": "Hari ini saya cek kandungan istri pake BPJS, alhamdulilah ibu dokternya ramah, kasih saran dan tipe nya bagus, mudah di mengerti. Dan perhatian bgt. Makasih ibu dokter. Sehat selalu",
+          "date": "setahun lalu"
+        }
+      ],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJxelqKhACQi4R0ZYSLEfspGw",
+      "name": "KLINIK BINA WALUYA",
+      "address": "Jl. Raya Kresek, Tegal Anyar, Sukamulya, Kec. Sukamulya, Kabupaten Tangerang, Banten 15610",
+      "maps_url": "https://www.google.com/maps/place/KLINIK+BINA+WALUYA/data=!4m7!3m6!1s0x2e4202102a6ae9c5:0x6ca4ec472c1296d1!8m2!3d-6.1584402!4d106.4256281!16s%2Fg%2F11bc7rb2pd!19sChIJxelqKhACQi4R0ZYSLEfspGw?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": "Buka 24 jam ",
+      "category": "klinik",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.1584402,
+      "longitude": 106.4256281,
+      "google_types": "Klinik Medis",
+      "reviews": [
+        {
+          "author": "Indri yani",
+          "rating": 5,
+          "text": "Responnya cepat, pelayanannya bagus dan tidak dibedakan pelayanannya wlwpun sy pake bpjs ttep ramah,, terima kasih bina waluya🥰 …",
+          "date": "2 bulan lalu"
+        },
+        {
+          "author": "Indri yani",
+          "rating": 5,
+          "text": "Responnya cepat, pelayanannya bagus dan tidak dibedakan pelayanannya wlwpun sy pake bpjs ttep ramah,, terima kasih bina waluya🥰 …",
+          "date": "2 bulan lalu"
+        },
+        {
+          "author": "Anggun Rosmiati",
+          "rating": 5,
+          "text": "penanganan cepat, dokternya ramah, obatnya bagus, slalu cocok berobat disini.",
+          "date": "sebulan lalu"
+        },
+        {
+          "author": "Anggun Rosmiati",
+          "rating": 5,
+          "text": "penanganan cepat, dokternya ramah, obatnya bagus, slalu cocok berobat disini.",
+          "date": "sebulan lalu"
+        },
+        {
+          "author": "Dita Triana",
+          "rating": 5,
+          "text": "Karena cocok² an setia obat jadi sejauh ini oke² aja",
+          "date": "sebulan lalu"
+        }
+      ],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJfUK8NWQHQi4R6e_laizd570",
+      "name": "Omega Klinik Citra Raya",
+      "address": "Ruko Danau Citra, Jl. Citra Raya Boulevard No.10, Kec. Cikupa, Kabupaten Tangerang, Banten 15131",
+      "maps_url": "https://www.google.com/maps/place/Omega+Klinik+Citra+Raya/data=!4m7!3m6!1s0x2e42076435bc427d:0xbde7dd2c6ae5efe9!8m2!3d-6.2327267!4d106.5212949!16s%2Fg%2F1pzqrskln!19sChIJfUK8NWQHQi4R6e_laizd570?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": "Buka · Tutup pukul 22.00 Diperbarui oleh pengguna lain 11 minggu yang lalu",
+      "category": "klinik",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.2327267,
+      "longitude": 106.5212949,
+      "google_types": "Klinik Tanpa Perjanjian",
+      "reviews": [
+        {
+          "author": "Izcika melnuradi",
+          "rating": 5,
+          "text": "Dr.Sayyid pelayanannya bagus ramah jugaa, pengertian sekalii bintang limaa buat semua semuanya, baik nada bicaranya jugaa bikin enak waktu Konsul sangat sopann. Ganteng lagii hehe btw 08 berapa?",
+          "date": "2 bulan lalu"
+        },
+        {
+          "author": "Izcika melnuradi",
+          "rating": 5,
+          "text": "Dr.Sayyid pelayanannya bagus ramah jugaa, pengertian sekalii bintang limaa buat semua semuanya, baik nada bicaranya jugaa bikin enak waktu Konsul sangat sopann. Ganteng lagii hehe btw 08 berapa?",
+          "date": "2 bulan lalu"
+        },
+        {
+          "author": "Hendri Utama",
+          "rating": 5,
+          "text": "Dulu pas antar ayah kami kontrol jantung ke mayapada bertemu dengan dokter sayid, sekarang di omega bertemu lagi pas antar ibu berobat, ternyata dunia memang sempit, mungkin beliau lupa dengan kami, tapi kami ingat betul karena dia …",
+          "date": "3 bulan lalu"
+        },
+        {
+          "author": "Hendri Utama",
+          "rating": 5,
+          "text": "Dulu pas antar ayah kami kontrol jantung ke mayapada bertemu dengan dokter sayid, sekarang di omega bertemu lagi pas antar ibu berobat, ternyata dunia memang sempit, mungkin beliau lupa dengan kami, tapi kami ingat betul karena dia …",
+          "date": "3 bulan lalu"
+        },
+        {
+          "author": "Putri khlstia",
+          "rating": 5,
+          "text": "Kurang lebih 5 bulan konseling dgn psikolog di klinik iniii dann menurutku worth it bgt. Bintang 5 buat klinik dan psikolognya 😁😁 …",
+          "date": "sebulan lalu"
+        }
+      ],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJtScGt44BQi4RsRQSukYu4Cc",
+      "name": "KLINIK.Dr.Dodo/LOVESKIN AestheticClinic Beautiee&Wellness",
+      "address": "Jl. Perum Villa Balaraja Blok A8 no 5, Saga, Balaraja, Tangerang Regency, Banten 15610",
+      "maps_url": "https://www.google.com/maps/place/KLINIK.Dr.Dodo%2FLOVESKIN+AestheticClinic+Beautiee%26Wellness/data=!4m7!3m6!1s0x2e42018eb70627b5:0x27e02e46ba1214b1!8m2!3d-6.1741884!4d106.4471392!16s%2Fg%2F11dxl8qbcn!19sChIJtScGt44BQi4RsRQSukYu4Cc?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": null,
+      "category": "klinik",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.1741884,
+      "longitude": 106.4471392,
+      "google_types": "Klinik Medis",
+      "reviews": [
+        {
+          "author": "Soto mie Asli bogor",
+          "rating": 5,
+          "text": "Terimakasih dr dodo, klinik rekomendasi, tempat nya nyaman, pelayanan bagus, harga Afordobel, kwalitas pelayanan memuaskan, best of the best klinik lah,   ❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️",
+          "date": "6 bulan lalu"
+        },
+        {
+          "author": "Soto mie Asli bogor",
+          "rating": 5,
+          "text": "Terimakasih dr dodo, klinik rekomendasi, tempat nya nyaman, pelayanan bagus, harga Afordobel, kwalitas pelayanan memuaskan, best of the best klinik lah,   ❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️",
+          "date": "6 bulan lalu"
+        },
+        {
+          "author": "dodo nasroellah",
+          "rating": 5,
+          "text": "Pelayanan bagus. Dokter berpengalaman. Harga sepadan. Pengalaman terbaik.",
+          "date": "Diedit setahun lalu"
+        },
+        {
+          "author": "dodo nasroellah",
+          "rating": 5,
+          "text": "Pelayanan bagus. Dokter berpengalaman. Harga sepadan. Pengalaman terbaik.",
+          "date": "Diedit setahun lalu"
+        },
+        {
+          "author": "Dr. Irma Mela",
+          "rating": 5,
+          "text": "Tempat-tempat yang bagus",
+          "date": "Diedit 5 bulan lalu"
+        }
+      ],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJM8x9eRsHQi4Rno9mGZ2gd8E",
+      "name": "Klinik Berkah",
+      "address": "QG75+7P8, Jl. Padat Karya, Sukamulya, Kec. Cikupa, Kabupaten Tangerang, Banten 15710",
+      "maps_url": "https://www.google.com/maps/place/Klinik+Berkah/data=!4m7!3m6!1s0x2e42071b797dcc33:0xc177a09d19668f9e!8m2!3d-6.2368455!4d106.509322!16s%2Fg%2F11h6t_0ynd!19sChIJM8x9eRsHQi4Rno9mGZ2gd8E?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": "Buka · Tutup pukul 21.30 ",
+      "category": "klinik",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.2368455,
+      "longitude": 106.509322,
+      "google_types": "Klinik Medis",
+      "reviews": [
+        {
+          "author": "Novita Rani",
+          "rating": 5,
+          "text": "Dokter obat pdhl baguss apalagi klo jadwalnya dokter Ade, dokter juli kurang suka.\nPelayanan dua²nya sangat mengecewakan byr bukan gratis pdahal, mndingan yg dulu cwo dia mah ramah,, mending ganti itu dri pda bikin klinik sepi yg brobat PD kecewa",
+          "date": "sebulan lalu"
+        },
+        {
+          "author": "Novita Rani",
+          "rating": 5,
+          "text": "Dokter obat pdhl baguss apalagi klo jadwalnya dokter Ade, dokter juli kurang suka.\nPelayanan dua²nya sangat mengecewakan byr bukan gratis pdahal, mndingan yg dulu cwo dia mah ramah,, mending ganti itu dri pda bikin klinik sepi yg brobat PD kecewa",
+          "date": "sebulan lalu"
+        },
+        {
+          "author": "Frans gaming",
+          "rating": 5,
+          "text": "Bagus rapi obatnya paten tapi knp habis disuntik badan langsung demam yah dok sampai skrng demamnya blm trn",
+          "date": "2 tahun lalu"
+        },
+        {
+          "author": "Frans gaming",
+          "rating": 5,
+          "text": "Bagus rapi obatnya paten tapi knp habis disuntik badan langsung demam yah dok sampai skrng demamnya blm trn",
+          "date": "2 tahun lalu"
+        },
+        {
+          "author": "Listyana Zakaria",
+          "rating": 5,
+          "text": "Obatnya manjur.",
+          "date": "sebulan lalu"
+        }
+      ],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJx9xmP9oAQi4RpwbDcaNOF30",
+      "name": "F & H Clinic Cikupamas",
+      "address": "Jl. Raya Serang No.186, Sukanagara, Kec. Cikupa, Kabupaten Tangerang, Banten 15710",
+      "maps_url": "https://www.google.com/maps/place/F+%26+H+Clinic+Cikupamas/data=!4m7!3m6!1s0x2e4200da3f66dcc7:0x7d174ea371c306a7!8m2!3d-6.2169767!4d106.4935811!16s%2Fg%2F1hm22vnt3!19sChIJx9xmP9oAQi4RpwbDcaNOF30?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": "Tutup · Buka Rab pukul 08.00 ",
+      "category": "klinik",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.2169767,
+      "longitude": 106.4935811,
+      "google_types": "Klinik Medis",
+      "reviews": [
+        {
+          "author": "puput witriah",
+          "rating": 5,
+          "text": "Antrian biasa saja, dokter ramah apalagi yg jaga malam, obat cocok padahal pakai bpjs. Sayangnya scalling gigi blm bisa dicover bpjs, baru cabut giginya saja.\nSaran saja adakan handsanitizer di dalam ruang tunggu. Overall ok.",
+          "date": "3 tahun lalu"
+        },
+        {
+          "author": "puput witriah",
+          "rating": 5,
+          "text": "Antrian biasa saja, dokter ramah apalagi yg jaga malam, obat cocok padahal pakai bpjs. Sayangnya scalling gigi blm bisa dicover bpjs, baru cabut giginya saja.\nSaran saja adakan handsanitizer di dalam ruang tunggu. Overall ok.",
+          "date": "3 tahun lalu"
+        },
+        {
+          "author": "Dandi Saputra",
+          "rating": 5,
+          "text": "Clinic f&h , paling the best, pelayanan bagus bgt, dokter nya baik,dan tidak pelit masalah skd\nSmga makin maju",
+          "date": "setahun lalu"
+        },
+        {
+          "author": "Dandi Saputra",
+          "rating": 5,
+          "text": "Clinic f&h , paling the best, pelayanan bagus bgt, dokter nya baik,dan tidak pelit masalah skd\nSmga makin maju",
+          "date": "setahun lalu"
+        },
+        {
+          "author": "J Dut",
+          "rating": 5,
+          "text": "Maaf mau tanya apakah ada layanan dokter giginya yah",
+          "date": "5 bulan lalu"
+        }
+      ],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJce6kpf0DQi4RqTngFbRq6oM",
+      "name": "Klinik Dokter Surono",
+      "address": "JL. Raya Serang, Km. 10.5, Bitung Curug, 15810, Cangkudu, Kec. Balaraja, Kabupaten Tangerang, Banten 15610",
+      "maps_url": "https://www.google.com/maps/place/Klinik+Dokter+Surono/data=!4m7!3m6!1s0x2e4203fda5a4ee71:0x83ea6ab415e039a9!8m2!3d-6.2224318!4d106.4384338!16s%2Fg%2F1pzr33rdp!19sChIJce6kpf0DQi4RqTngFbRq6oM?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": null,
+      "category": "klinik",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.2224318,
+      "longitude": 106.4384338,
+      "google_types": "Klinik Tanpa Perjanjian",
+      "reviews": [],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJg-LuEXYBQi4R24XtezQ6BQI",
+      "name": "Klinik Dr. H. Djasarito",
+      "address": "RF64+9XG, Jl. Raya Kresek, Balaraja, Kec. Balaraja, Kabupaten Tangerang, Banten 15610",
+      "maps_url": "https://www.google.com/maps/place/Klinik+Dr.+H.+Djasarito/data=!4m7!3m6!1s0x2e42017611eee283:0x2053a347bed85db!8m2!3d-6.1890745!4d106.4574621!16s%2Fg%2F11gfk13kvd!19sChIJg-LuEXYBQi4R24XtezQ6BQI?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": null,
+      "category": "klinik",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.1890745,
+      "longitude": 106.4574621,
+      "google_types": "Dokter",
+      "reviews": [],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJOzHGsXUBQi4R6goZHgl7LiA",
+      "name": "Klinik Lili Suryadi",
+      "address": "Km. 0, Jl. Raya Kresek No.2, Balaraja, Kec. Balaraja, Kabupaten Tangerang, Banten 15610",
+      "maps_url": "https://www.google.com/maps/place/Klinik+Lili+Suryadi/data=!4m7!3m6!1s0x2e420175b1c6313b:0x202e7b091e190aea!8m2!3d-6.1901371!4d106.4608057!16s%2Fg%2F11b6d218zk!19sChIJOzHGsXUBQi4R6goZHgl7LiA?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": null,
+      "category": "klinik",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.1901371,
+      "longitude": 106.4608057,
+      "google_types": "Klinik Tanpa Perjanjian",
+      "reviews": [],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJVY68hO0BQi4R8Gpfct-JJYg",
+      "name": "Klinik Karunia Sehat",
+      "address": "Jl. Raya Serang No.8 No.KM14, Pasir Gadung, Kec. Cikupa, Kabupaten Tangerang, Banten 15710",
+      "maps_url": "https://www.google.com/maps/place/Klinik+Karunia+Sehat/data=!4m7!3m6!1s0x2e4201ed84bc8e55:0x882589df725f6af0!8m2!3d-6.2281534!4d106.5241902!16s%2Fg%2F11rcn72f62!19sChIJVY68hO0BQi4R8Gpfct-JJYg?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": "Tutup · Buka Rab pukul 07.00 ",
+      "category": "klinik",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.2281534,
+      "longitude": 106.5241902,
+      "google_types": "Klinik Medis",
+      "reviews": [
+        {
+          "author": "Fitria sardi",
+          "rating": 5,
+          "text": "Beberapa kali berobat kesini pelayananya cukup baik dan cepat, staff dan dokternya juga baik2 bnget informatif bgt pas konsul mengenai keluhan dan penyakit pasien, tempatnya bersih rapih, suka deh pkoknya👍🏻 …",
+          "date": "10 bulan lalu"
+        },
+        {
+          "author": "Fitria sardi",
+          "rating": 5,
+          "text": "Beberapa kali berobat kesini pelayananya cukup baik dan cepat, staff dan dokternya juga baik2 bnget informatif bgt pas konsul mengenai keluhan dan penyakit pasien, tempatnya bersih rapih, suka deh pkoknya👍🏻 …",
+          "date": "10 bulan lalu"
+        },
+        {
+          "author": "Ahmad Fadli",
+          "rating": 5,
+          "text": "Beh bagus pelayanan nya, sangat ramah sekali, sudah dibantu untuk masuk ke mobile jkn ,trs org nya cantik cantik lagi",
+          "date": "sebulan lalu"
+        },
+        {
+          "author": "Ahmad Fadli",
+          "rating": 5,
+          "text": "Beh bagus pelayanan nya, sangat ramah sekali, sudah dibantu untuk masuk ke mobile jkn ,trs org nya cantik cantik lagi",
+          "date": "sebulan lalu"
+        },
+        {
+          "author": "Andi Maolana",
+          "rating": 5,
+          "text": "Pelayanan nya sangat baik,  dokter nya baik,\nmemberikan edukasi yg baik buat saya, agar hidup lebih baik lagi dalam menjaga kesehatan.",
+          "date": "8 bulan lalu"
+        }
+      ],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJCRgFLG4BQi4RO341kKrBTns",
+      "name": "Klinik Budi Bakti",
+      "address": "Jl. Raya Serang No.Km. 24, Balaraja, Kec. Balaraja, Kabupaten Tangerang, Banten 15610",
+      "maps_url": "https://www.google.com/maps/place/Klinik+Budi+Bakti/data=!4m7!3m6!1s0x2e42016e2c051809:0x7b4ec1aa90357e3b!8m2!3d-6.1968758!4d106.4577872!16s%2Fg%2F11b6dpk8rp!19sChIJCRgFLG4BQi4RO341kKrBTns?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": null,
+      "category": "klinik",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.1968758,
+      "longitude": 106.4577872,
+      "google_types": "Klinik Tanpa Perjanjian",
+      "reviews": [],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJ1Q-J820BQi4RA7JUOZfq1QQ",
+      "name": "Klinik Rontgen Budi Mulia",
+      "address": "JL Raya Kresek, Km. 24, Balaraja, Villa Balaraja, Talagasari, Kec. Balaraja, Kabupaten Tangerang, Banten 15610",
+      "maps_url": "https://www.google.com/maps/place/Klinik+Rontgen+Budi+Mulia/data=!4m7!3m6!1s0x2e42016df3890fd5:0x4d5ea973954b203!8m2!3d-6.1986667!4d106.4594833!16s%2Fg%2F11b6dhsb39!19sChIJ1Q-J820BQi4RA7JUOZfq1QQ?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": null,
+      "category": "klinik",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.1986667,
+      "longitude": 106.4594833,
+      "google_types": "Klinik Tanpa Perjanjian",
+      "reviews": [
+        {
+          "author": "Abu Bakar Masyhuri",
+          "rating": 5,
+          "text": "Oke",
+          "date": "3 tahun lalu"
+        },
+        {
+          "author": "Abu Bakar Masyhuri",
+          "rating": 5,
+          "text": "Oke",
+          "date": "3 tahun lalu"
+        }
+      ],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJU06B_V4GQi4R0rtcdYGdtHM",
+      "name": "Klinik & Apotek Citra Sehat",
+      "address": "Ruko Citra Sehat, Jl. Citra Raya Boulevard No.17R, Cikupa, Kec. Cikupa, Kabupaten Tangerang, Banten 15710",
+      "maps_url": "https://www.google.com/maps/place/Klinik+%26+Apotek+Citra+Sehat/data=!4m7!3m6!1s0x2e42065efd814e53:0x73b49d81755cbbd2!8m2!3d-6.2370329!4d106.5240078!16s%2Fg%2F11b6d0lty6!19sChIJU06B_V4GQi4R0rtcdYGdtHM?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": "Buka · Tutup pukul 23.00 ",
+      "category": "klinik",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.2370329,
+      "longitude": 106.5240078,
+      "google_types": "Klinik Spesialis",
+      "reviews": [
+        {
+          "author": "Arnilara",
+          "rating": 5,
+          "text": "Aku dan ibu kemarin berobat di sini, ibu ke poli umum dan aku ke poli kandungan karena masalah terkait haid. Semua pelayanan yang kami terima sangat baik dan membantu banget, ibu sempat disuruh infus dulu dan perawatnya benar² telaten …",
+          "date": "3 minggu lalu"
+        },
+        {
+          "author": "Arnilara",
+          "rating": 5,
+          "text": "Aku dan ibu kemarin berobat di sini, ibu ke poli umum dan aku ke poli kandungan karena masalah terkait haid. Semua pelayanan yang kami terima sangat baik dan membantu banget, ibu sempat disuruh infus dulu dan perawatnya benar² telaten …",
+          "date": "3 minggu lalu"
+        },
+        {
+          "author": "istan",
+          "rating": 5,
+          "text": "Sudah bbrp kali berobat kesini\nPelayanannya selalu memuaskan\nKasir dan dokter2 nya menjelaskan dgn teliti semua …",
+          "date": "3 bulan lalu"
+        },
+        {
+          "author": "istan",
+          "rating": 5,
+          "text": "Sudah bbrp kali berobat kesini\nPelayanannya selalu memuaskan\nKasir dan dokter2 nya menjelaskan dgn teliti semua …",
+          "date": "3 bulan lalu"
+        },
+        {
+          "author": "Refan Gerrard",
+          "rating": 5,
+          "text": "Sudah bbrp kali kesini. Pelayanannya selalu memuaskan\nPenjelasannya memuaskan\nDokter dan para staf ramah2\nTerbaik untuk klinik sekitarnya.",
+          "date": "3 bulan lalu"
+        }
+      ],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJwX_1RcoAQi4RjlShWSq4Ui8",
+      "name": "Klinik Dr. Asmani MARS",
+      "address": "QGG5+CJ6, Jl. Cihideung, RT.01/RW.01, Talaga, Kec. Cikupa, Kabupaten Tangerang, Banten 15710",
+      "maps_url": "https://www.google.com/maps/place/Klinik+Dr.+Asmani+MARS/data=!4m7!3m6!1s0x2e4200ca45f57fc1:0x2f52b82a59a1548e!8m2!3d-6.223968!4d106.5090261!16s%2Fg%2F11hbnl0s34!19sChIJwX_1RcoAQi4RjlShWSq4Ui8?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": "Buka · Tutup pukul 22.30 ",
+      "category": "klinik",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.223968,
+      "longitude": 106.5090261,
+      "google_types": "Rumah Sakit",
+      "reviews": [
+        {
+          "author": "ratuu zkia",
+          "rating": 5,
+          "text": "Pelayanan nya sangat bagus. Dokternya hanya memberikan surat sakit jika pasiennya benar benar sakit... Pemberian obatnya rasional... Alhamdulillah. Tmks dok",
+          "date": "sebulan lalu"
+        },
+        {
+          "author": "ratuu zkia",
+          "rating": 5,
+          "text": "Pelayanan nya sangat bagus. Dokternya hanya memberikan surat sakit jika pasiennya benar benar sakit... Pemberian obatnya rasional... Alhamdulillah. Tmks dok",
+          "date": "sebulan lalu"
+        },
+        {
+          "author": "yanto wibowo",
+          "rating": 5,
+          "text": "pelayanan berobat ramah dan murah seyum",
+          "date": "6 bulan lalu"
+        },
+        {
+          "author": "yanto wibowo",
+          "rating": 5,
+          "text": "pelayanan berobat ramah dan murah seyum",
+          "date": "6 bulan lalu"
+        },
+        {
+          "author": "Intan Permatasari",
+          "rating": 5,
+          "text": "pelayanan di klinik ini bagus, dokternya menjelaskan secara detail, staff karyawan nya baik dan ramah, tempatnya bersih👍 …",
+          "date": "9 bulan lalu"
+        }
+      ],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJobGFGSEBQi4Rc5aHidhcMs8",
+      "name": "Klinik Raudhoh Medika",
+      "address": "Jl. Raya Serang No.Km. 13.8, Bitung Jaya, Kec. Cikupa, Kabupaten Tangerang, Banten 15710",
+      "maps_url": "https://www.google.com/maps/place/Klinik+Raudhoh+Medika/data=!4m7!3m6!1s0x2e4201211985b1a1:0xcf325cd889879673!8m2!3d-6.2207337!4d106.5344243!16s%2Fg%2F11jn6230g_!19sChIJobGFGSEBQi4Rc5aHidhcMs8?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": "Buka · Tutup pukul 21.30 ",
+      "category": "klinik",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.2207337,
+      "longitude": 106.5344243,
+      "google_types": "Klinik Medis",
+      "reviews": [
+        {
+          "author": "Watsituya Jalal",
+          "rating": 5,
+          "text": "Sering berobat disini hampir semua keluarga,pelayanannya bagus,dr serta obatnya juga oke",
+          "date": "setahun lalu"
+        },
+        {
+          "author": "Watsituya Jalal",
+          "rating": 5,
+          "text": "Sering berobat disini hampir semua keluarga,pelayanannya bagus,dr serta obatnya juga oke",
+          "date": "setahun lalu"
+        },
+        {
+          "author": "Yansu",
+          "rating": 5,
+          "text": "Pelayanannya bagus, Dokter juga ngejelasin detail. Terima kasih.",
+          "date": "2 tahun lalu"
+        },
+        {
+          "author": "Yansu",
+          "rating": 5,
+          "text": "Pelayanannya bagus, Dokter juga ngejelasin detail. Terima kasih.",
+          "date": "2 tahun lalu"
+        },
+        {
+          "author": "Abdil Muhasib",
+          "rating": 5,
+          "text": "👍👍👍 …",
+          "date": "Diedit 4 tahun lalu"
+        }
+      ],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJRWLMPY0DQi4RwF5NntSct9g",
+      "name": "Klinik Sehat",
+      "address": "QCHP+WJ8, Sentul Jaya, Kec. Balaraja, Kabupaten Tangerang, Banten 15610",
+      "maps_url": "https://www.google.com/maps/place/Klinik+Sehat/data=!4m7!3m6!1s0x2e42038d3dcc6245:0xd8b79cd49e4d5ec0!8m2!3d-6.2202187!4d106.4365701!16s%2Fg%2F11h05c2s8g!19sChIJRWLMPY0DQi4RwF5NntSct9g?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": "Buka · Tutup Rab pukul 08.00 ",
+      "category": "klinik",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.2202187,
+      "longitude": 106.4365701,
+      "google_types": "Dokter Umum",
+      "reviews": [],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJZy_COqUAQi4Rj4xD0j7E41w",
+      "name": "klinik Al - Falah",
+      "address": "QGMF+RGM, Talagasari, Kec. Cikupa, Kabupaten Tangerang, Banten 15710",
+      "maps_url": "https://www.google.com/maps/place/klinik+Al+-+Falah/data=!4m7!3m6!1s0x2e4200a53ac22f67:0x5ce3c43ed2438c8f!8m2!3d-6.2154111!4d106.5237845!16s%2Fg%2F11g66zb1jv!19sChIJZy_COqUAQi4Rj4xD0j7E41w?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": "Buka · Tutup pukul 22.00 ",
+      "category": "klinik",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.2154111,
+      "longitude": 106.5237845,
+      "google_types": "Klinik Medis",
+      "reviews": [
+        {
+          "author": "ertin respati",
+          "rating": 5,
+          "text": "Pelayanan sangat memuaskan, dokternya ramah",
+          "date": "setahun lalu"
+        },
+        {
+          "author": "ertin respati",
+          "rating": 5,
+          "text": "Pelayanan sangat memuaskan, dokternya ramah",
+          "date": "setahun lalu"
+        },
+        {
+          "author": "Jerry Gama yuda",
+          "rating": 5,
+          "text": "Ramah dan nyaman 👍🏻 …",
+          "date": "10 bulan lalu"
+        },
+        {
+          "author": "Jerry Gama yuda",
+          "rating": 5,
+          "text": "Ramah dan nyaman 👍🏻 …",
+          "date": "10 bulan lalu"
+        }
+      ],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJc0x6kloHQi4RFbt8wbhfuBk",
+      "name": "Klinik Keluargaku Citra",
+      "address": "Jl. Verdi Timur Perum Citra Raya No.25 Blok K5, Dukuh, Kec. Cikupa, Kabupaten Tangerang, Banten 15710",
+      "maps_url": "https://www.google.com/maps/place/Klinik+Keluargaku+Citra/data=!4m7!3m6!1s0x2e42075a927a4c73:0x19b85fb8c17cbb15!8m2!3d-6.23832!4d106.5252337!16s%2Fg%2F11btm9p6sp!19sChIJc0x6kloHQi4RFbt8wbhfuBk?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": "Buka 24 jam ",
+      "category": "klinik",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.23832,
+      "longitude": 106.5252337,
+      "google_types": "Klinik Tanpa Perjanjian",
+      "reviews": [
+        {
+          "author": "inna “Ina make up” channel",
+          "rating": 5,
+          "text": "Saya promil ke klinik ini dari tahun 2021. Alhamdulillah setelah penantian 5 tahun akhirnya berhasil hamil juga. Kontrol rutin di klinik ini pelayanannya bagus. Dokter ramah bidannya juga ramah. Soal antrian itu sudah biasa. Cepat lambatnya masih wajar. Rekomended buat yg mau berobat kesini.",
+          "date": "3 tahun lalu"
+        },
+        {
+          "author": "inna “Ina make up” channel",
+          "rating": 5,
+          "text": "Saya promil ke klinik ini dari tahun 2021. Alhamdulillah setelah penantian 5 tahun akhirnya berhasil hamil juga. Kontrol rutin di klinik ini pelayanannya bagus. Dokter ramah bidannya juga ramah. Soal antrian itu sudah biasa. Cepat lambatnya masih wajar. Rekomended buat yg mau berobat kesini.",
+          "date": "3 tahun lalu"
+        },
+        {
+          "author": "Orang Biasa",
+          "rating": 5,
+          "text": "Untuk USG bisa ga.. biayanya berapa ya usg",
+          "date": "2 bulan lalu"
+        },
+        {
+          "author": "Orang Biasa",
+          "rating": 5,
+          "text": "Untuk USG bisa ga.. biayanya berapa ya usg",
+          "date": "2 bulan lalu"
+        },
+        {
+          "author": "Mar Iyah",
+          "rating": 5,
+          "text": "Info nyh donk kilinik keluargaku masih buka ga yah,,\nTrus harga USG nyh skrang brpa yah,,",
+          "date": "4 bulan lalu"
+        }
+      ],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJYzjXS0sHQi4RkX8uL2EvLmk",
+      "name": "Klinik Chingluh",
+      "address": "QGC8+X9M, Talagasari, Kec. Cikupa, Kabupaten Tangerang, Banten 15710",
+      "maps_url": "https://www.google.com/maps/place/Klinik+Chingluh/data=!4m7!3m6!1s0x2e42074b4bd73863:0x692e2f612f2e7f91!8m2!3d-6.227537!4d106.5159139!16s%2Fg%2F11dxr25twj!19sChIJYzjXS0sHQi4RkX8uL2EvLmk?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": "Buka 24 jam ",
+      "category": "klinik",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.227537,
+      "longitude": 106.5159139,
+      "google_types": "Klinik Gratis",
+      "reviews": [
+        {
+          "author": "Ziazetaziaulhak ziaulhak",
+          "rating": 5,
+          "text": "Sangat rapih dan baik sekali",
+          "date": "9 bulan lalu"
+        },
+        {
+          "author": "Ziazetaziaulhak ziaulhak",
+          "rating": 5,
+          "text": "Sangat rapih dan baik sekali",
+          "date": "9 bulan lalu"
+        },
+        {
+          "author": "Imen Fauzi",
+          "rating": 5,
+          "text": "Pelayanan nya baik",
+          "date": "9 bulan lalu"
+        },
+        {
+          "author": "Imen Fauzi",
+          "rating": 5,
+          "text": "Pelayanan nya baik",
+          "date": "9 bulan lalu"
+        },
+        {
+          "author": "Mama Vyen",
+          "rating": 5,
+          "text": "Memuaskan",
+          "date": "8 bulan lalu"
+        }
+      ],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJNXvg54wBQi4RWcHtoFKRVx8",
+      "name": "Klinik Cut Aira",
+      "address": "QFX4+Q3W, Balaraja, Kec. Balaraja, Kabupaten Tangerang, Banten 15610",
+      "maps_url": "https://www.google.com/maps/place/Klinik+Cut+Aira/data=!4m7!3m6!1s0x2e42018ce7e07b35:0x1f579152a0edc159!8m2!3d-6.2005229!4d106.4552185!16s%2Fg%2F11f7dv5b5d!19sChIJNXvg54wBQi4RWcHtoFKRVx8?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": null,
+      "category": "klinik",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.2005229,
+      "longitude": 106.4552185,
+      "google_types": "Dokter",
+      "reviews": [],
+      "category_conflict": false
+    },
+    {
+      "place_id": "ChIJ0X28unoBQi4RAvb0lPf9TMk",
+      "name": "Klinik Bdn Edoh",
+      "address": "RF22+RJV, Jl. Raya Serang, Balaraja, Kec. Balaraja, Kabupaten Tangerang, Banten 15610",
+      "maps_url": "https://www.google.com/maps/place/Klinik+Bdn+Edoh/data=!4m7!3m6!1s0x2e42017ababc7dd1:0xc94cfdf794f4f602!8m2!3d-6.1978959!4d106.4515594!16s%2Fg%2F11bt_mgcfb!19sChIJ0X28unoBQi4RAvb0lPf9TMk?authuser=0&hl=id&rclk=1",
+      "website": null,
+      "opening_hours": null,
+      "category": "klinik",
+      "kecamatan": "Balaraja",
+      "region": "kab_tangerang",
+      "latitude": -6.1978959,
+      "longitude": 106.4515594,
+      "google_types": "Klinik Medis",
+      "reviews": [],
       "category_conflict": false
     }
   ]

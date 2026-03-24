@@ -12,18 +12,64 @@ on:
           - tangsel
           - kota_tangerang
           - kab_tangerang
-      batch:
-        description: 'Batch kecamatan (kab_tangerang only)'
+      kecamatan:
+        description: 'Kecamatan spesifik (1 per run)'
         required: false
         type: choice
         options:
           - all
-          - batch1
-          - batch2
-          - batch3
-          - batch4
-          - batch5
-          - batch6
+          # Tangsel (7 kecamatan)
+          - ciputat
+          - ciputat_timur
+          - pamulang
+          - pondok_aren
+          - serpong
+          - serpong_utara
+          - setu
+          # Kota Tangerang (13 kecamatan)
+          - batuceper
+          - benda
+          - cibodas
+          - ciledug
+          - cipondoh
+          - jatiuwung
+          - karang_tengah
+          - karawaci
+          - larangan
+          - neglasari
+          - periuk
+          - pinang
+          - tangerang
+          # Kab Tangerang (29 kecamatan)
+          - balaraja
+          - cikupa
+          - cisauk
+          - cisoka
+          - curug
+          - gunung_kaler
+          - jambe
+          - jayanti
+          - kelapa_dua
+          - kemiri
+          - kosambi
+          - kresek
+          - kronjo
+          - legok
+          - mauk
+          - mekar_baru
+          - pagedangan
+          - pakuhaji
+          - panongan
+          - pasar_kemis
+          - rajeg
+          - sepatan
+          - sepatan_timur
+          - sindang_jaya
+          - solear
+          - sukadiri
+          - sukamulya
+          - teluknaga
+          - tigaraksa
       category:
         description: 'Category filter (kosongkan untuk semua)'
         required: false
@@ -55,15 +101,10 @@ jobs:
             ARGS="--region=${{ inputs.region }}"
           fi
 
-          # Batch → kecamatan filter (kab_tangerang: 29 kecamatan / 6 batch)
-          case "${{ inputs.batch }}" in
-            batch1) ARGS="$ARGS --kecamatan=balaraja,cikupa,cisauk,cisoka,curug" ;;
-            batch2) ARGS="$ARGS --kecamatan=gunung_kaler,jambe,jayanti,kelapa_dua,kemiri" ;;
-            batch3) ARGS="$ARGS --kecamatan=kosambi,kresek,kronjo,legok,mauk" ;;
-            batch4) ARGS="$ARGS --kecamatan=mekar_baru,pagedangan,pakuhaji,panongan,pasar_kemis" ;;
-            batch5) ARGS="$ARGS --kecamatan=rajeg,sepatan,sepatan_timur,sindang_jaya,solear" ;;
-            batch6) ARGS="$ARGS --kecamatan=sukadiri,sukamulya,teluknaga,tigaraksa" ;;
-          esac
+          # Kecamatan filter
+          if [ "${{ inputs.kecamatan }}" != "all" ] && [ -n "${{ inputs.kecamatan }}" ]; then
+            ARGS="$ARGS --kecamatan=${{ inputs.kecamatan }}"
+          fi
 
           # Category filter
           if [ -n "${{ inputs.category }}" ]; then
@@ -77,7 +118,7 @@ jobs:
         if: always()
         uses: actions/upload-artifact@v4
         with:
-          name: scraper-${{ inputs.region || 'all' }}-${{ inputs.batch || 'all' }}-${{ github.run_number }}
+          name: scraper-${{ inputs.region || 'all' }}-${{ inputs.kecamatan || 'all' }}-${{ github.run_number }}
           path: |
             tools/scraper/seed-data/
             scraper.log

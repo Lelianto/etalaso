@@ -10,7 +10,18 @@ async function main() {
   const { count: totalBusiness } = await s.from('Business').select('*', { count: 'exact', head: true })
   const { count: totalReview } = await s.from('Review').select('*', { count: 'exact', head: true })
 
-  const { data: byKec } = await s.from('Business').select('kecamatan, category')
+  // Fetch all rows (default limit is 1000)
+  let allRows: { kecamatan: string; category: string }[] = []
+  let from = 0
+  const pageSize = 1000
+  while (true) {
+    const { data } = await s.from('Business').select('kecamatan, category').range(from, from + pageSize - 1)
+    if (!data || data.length === 0) break
+    allRows = allRows.concat(data)
+    if (data.length < pageSize) break
+    from += pageSize
+  }
+  const byKec = allRows
   const kecCounts: Record<string, number> = {}
   const catCounts: Record<string, number> = {}
   byKec?.forEach(b => {
