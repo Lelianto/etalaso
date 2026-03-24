@@ -1,6 +1,6 @@
 import React from 'react'
 import Link from 'next/link'
-import { BusinessData, getWhatsAppLink, getMapsLink, getReviews, getOpeningHours, shouldShowBadge } from '../types'
+import { BusinessData, getWhatsAppLink, getMapsLink, getReviews, getOpeningHours, shouldShowBadge, getClaimUrl } from '../types'
 import EtalasoBadge from '../EtalasoBadge'
 
 /**
@@ -120,7 +120,7 @@ export default function CardTemplate({ business }: { business: BusinessData }) {
         <div className="text-center pt-4 pb-8">
           <p className="text-slate-400 text-xs">&copy; {new Date().getFullYear()} {business.name}</p>
           {shouldShowBadge(business) && (
-            <Link href="/claim" className="inline-flex items-center gap-2 mt-4 px-6 py-3 bg-indigo-600 text-white rounded-full text-xs font-bold hover:bg-indigo-700 transition-colors">
+            <Link href={getClaimUrl(business)} className="inline-flex items-center gap-2 mt-4 px-6 py-3 bg-indigo-600 text-white rounded-full text-xs font-bold hover:bg-indigo-700 transition-colors">
               Ini bisnis Anda? Klaim sekarang →
             </Link>
           )}

@@ -1,6 +1,6 @@
 import React from 'react'
 import Link from 'next/link'
-import { BusinessData, getWhatsAppLink, getMapsLink, getReviews, getOpeningHours, shouldShowBadge } from '../types'
+import { BusinessData, getWhatsAppLink, getMapsLink, getReviews, getOpeningHours, shouldShowBadge, getClaimUrl } from '../types'
 import EtalasoBadge from '../EtalasoBadge'
 
 /**
@@ -111,7 +111,7 @@ export default function WarungTemplate({ business }: { business: BusinessData })
       <footer className="border-t border-amber-200 py-10 px-6 text-center bg-white">
         <p className="text-stone-400 text-sm">&copy; {new Date().getFullYear()} {business.name}</p>
         {shouldShowBadge(business) && (
-          <Link href="/claim" className="inline-flex items-center gap-2 mt-4 px-6 py-3 bg-orange-600 text-white rounded-full text-xs font-bold hover:bg-orange-700 transition-colors">
+          <Link href={getClaimUrl(business)} className="inline-flex items-center gap-2 mt-4 px-6 py-3 bg-orange-600 text-white rounded-full text-xs font-bold hover:bg-orange-700 transition-colors">
             Ini bisnis Anda? Klaim sekarang →
           </Link>
         )}

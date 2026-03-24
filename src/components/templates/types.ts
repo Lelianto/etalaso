@@ -82,6 +82,12 @@ export function shouldShowBadge(business: BusinessData): boolean {
   return !business.subscriptionType || business.subscriptionType === 'free'
 }
 
+/** Get business ID for claim links (ID exists on DB object but not in BusinessData type) */
+export function getClaimUrl(business: BusinessData): string {
+  const id = (business as unknown as Record<string, string>).id || ''
+  return `/claim/${id}`
+}
+
 const DEFAULT_REVIEWS = [
   { id: 'default-1', author: 'Pelanggan Setia', rating: 5, text: 'Pelayanan sangat memuaskan, tempatnya nyaman dan bersih. Pasti akan kembali lagi!', date: 'Baru-baru ini' },
   { id: 'default-2', author: 'Pengunjung Baru', rating: 5, text: 'Pertama kali kesini dan langsung suka. Recommended banget untuk dicoba.', date: 'Baru-baru ini' },

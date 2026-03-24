@@ -1,6 +1,6 @@
 import React from 'react'
 import Link from 'next/link'
-import { BusinessData, getWhatsAppLink, getMapsLink, getReviews, getOpeningHours, shouldShowBadge } from '../types'
+import { BusinessData, getWhatsAppLink, getMapsLink, getReviews, getOpeningHours, shouldShowBadge, getClaimUrl } from '../types'
 import EtalasoBadge from '../EtalasoBadge'
 
 /**
@@ -121,7 +121,7 @@ export default function BoldTemplate({ business }: { business: BusinessData }) {
         <div className="max-w-5xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-4">
           <p className="text-zinc-600 text-xs">&copy; {new Date().getFullYear()} {business.name}</p>
           {shouldShowBadge(business) && (
-            <Link href="/claim" className="inline-flex items-center gap-2 px-6 py-3 bg-emerald-500 text-black text-xs font-black uppercase tracking-wider hover:bg-emerald-400 transition-colors">
+            <Link href={getClaimUrl(business)} className="inline-flex items-center gap-2 px-6 py-3 bg-emerald-500 text-black text-xs font-black uppercase tracking-wider hover:bg-emerald-400 transition-colors">
               Klaim bisnis ini →
             </Link>
           )}

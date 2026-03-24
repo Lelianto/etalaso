@@ -1,6 +1,6 @@
 import { createClient } from '@/lib/supabase/server'
 import { redirect } from 'next/navigation'
-import ClaimForm from './ClaimForm'
+import ClaimWizard from './ClaimWizard'
 
 export default async function ClaimPage({ params }: { params: Promise<{ businessId: string }> }) {
   const { businessId } = await params
@@ -61,5 +61,17 @@ export default async function ClaimPage({ params }: { params: Promise<{ business
     )
   }
 
-  return <ClaimForm business={business} userId={user.id} />
+  // Fetch available plans
+  const { data: plans } = await supabase
+    .from('Plan')
+    .select('*')
+    .order('price', { ascending: true })
+
+  return (
+    <ClaimWizard
+      business={business}
+      userId={user.id}
+      plans={plans || []}
+    />
+  )
 }

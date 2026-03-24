@@ -1,6 +1,6 @@
 import React from 'react'
 import Link from 'next/link'
-import { BusinessData, getWhatsAppLink, getMapsLink, getReviews, getOpeningHours, shouldShowBadge } from '../types'
+import { BusinessData, getWhatsAppLink, getMapsLink, getReviews, getOpeningHours, shouldShowBadge, getClaimUrl } from '../types'
 import EtalasoBadge from '../EtalasoBadge'
 
 /**
@@ -113,7 +113,7 @@ export default function ElegantTemplate({ business }: { business: BusinessData }
       <footer className="border-t border-stone-200 py-12 px-6 text-center font-sans">
         <p className="text-stone-400 text-xs uppercase tracking-widest">&copy; {new Date().getFullYear()} {business.name}</p>
         {shouldShowBadge(business) && (
-          <Link href="/claim" className="inline-flex items-center gap-2 mt-4 px-6 py-3 bg-amber-500 text-slate-900 text-xs font-bold uppercase tracking-wider hover:bg-amber-400 transition-colors">
+          <Link href={getClaimUrl(business)} className="inline-flex items-center gap-2 mt-4 px-6 py-3 bg-amber-500 text-slate-900 text-xs font-bold uppercase tracking-wider hover:bg-amber-400 transition-colors">
             Ini bisnis Anda? Klaim sekarang →
           </Link>
         )}

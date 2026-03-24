@@ -1,6 +1,6 @@
 import React from 'react'
 import Link from 'next/link'
-import { BusinessData, getWhatsAppLink, getMapsLink, getReviews, getOpeningHours, shouldShowBadge } from '../types'
+import { BusinessData, getWhatsAppLink, getMapsLink, getReviews, getOpeningHours, shouldShowBadge, getClaimUrl } from '../types'
 import EtalasoBadge from '../EtalasoBadge'
 
 /**
@@ -121,7 +121,7 @@ export default function GlassTemplate({ business }: { business: BusinessData }) 
         <footer className="text-center pt-8 pb-4">
           <p className="text-purple-400/60 text-xs">&copy; {new Date().getFullYear()} {business.name}</p>
           {shouldShowBadge(business) && (
-            <Link href="/claim" className="inline-flex items-center gap-2 mt-4 px-6 py-3 bg-white/15 backdrop-blur-md border border-white/20 text-white rounded-2xl text-xs font-bold hover:bg-white/25 transition-all">
+            <Link href={getClaimUrl(business)} className="inline-flex items-center gap-2 mt-4 px-6 py-3 bg-white/15 backdrop-blur-md border border-white/20 text-white rounded-2xl text-xs font-bold hover:bg-white/25 transition-all">
               Ini bisnis Anda? Klaim sekarang →
             </Link>
           )}
