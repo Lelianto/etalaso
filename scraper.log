@@ -3900,3 +3900,130 @@ Call log:
 
 🔍 [Cikupa / kuliner] "bakso Cikupa, Kabupaten Tangerang"
    URL: https://www.google.com/maps/search/bakso%20Cikupa%2C%20Kabupaten%20Tangerang/@-6.255,106.508,14z
+   ❌ Error with query "bakso Cikupa, Kabupaten Tangerang": page.evaluate: Target page, context or browser has been closed
+
+🔍 [Cikupa / kuliner] "kafe di Cikupa, Kabupaten Tangerang"
+   URL: https://www.google.com/maps/search/kafe%20di%20Cikupa%2C%20Kabupaten%20Tangerang/@-6.255,106.508,14z
+   ❌ Error with query "kafe di Cikupa, Kabupaten Tangerang": page.goto: Target page, context or browser has been closed
+
+🔍 [Cikupa / kuliner] "cafe Cikupa, Kabupaten Tangerang"
+   URL: https://www.google.com/maps/search/cafe%20Cikupa%2C%20Kabupaten%20Tangerang/@-6.255,106.508,14z
+   ❌ Error with query "cafe Cikupa, Kabupaten Tangerang": page.goto: Target page, context or browser has been closed
+
+🔍 [Cikupa / kuliner] "restoran di Cikupa, Kabupaten Tangerang"
+   URL: https://www.google.com/maps/search/restoran%20di%20Cikupa%2C%20Kabupaten%20Tangerang/@-6.255,106.508,14z
+   ❌ Error with query "restoran di Cikupa, Kabupaten Tangerang": page.goto: Target page, context or browser has been closed
+
+🔍 [Cikupa / jasa] "laundry di Cikupa, Kabupaten Tangerang"
+   URL: https://www.google.com/maps/search/laundry%20di%20Cikupa%2C%20Kabupaten%20Tangerang/@-6.255,106.508,14z
+   ❌ Error with query "laundry di Cikupa, Kabupaten Tangerang": page.goto: Target page, context or browser has been closed
+
+🔍 [Cikupa / jasa] "penjahit Cikupa, Kabupaten Tangerang"
+   URL: https://www.google.com/maps/search/penjahit%20Cikupa%2C%20Kabupaten%20Tangerang/@-6.255,106.508,14z
+   ❌ Error with query "penjahit Cikupa, Kabupaten Tangerang": page.goto: Target page, context or browser has been closed
+
+🔍 [Cikupa / jasa] "fotokopi Cikupa, Kabupaten Tangerang"
+   URL: https://www.google.com/maps/search/fotokopi%20Cikupa%2C%20Kabupaten%20Tangerang/@-6.255,106.508,14z
+   ❌ Error with query "fotokopi Cikupa, Kabupaten Tangerang": page.goto: Target page, context or browser has been closed
+
+🔍 [Cikupa / jasa] "sol sepatu Cikupa, Kabupaten Tangerang"
+   URL: https://www.google.com/maps/search/sol%20sepatu%20Cikupa%2C%20Kabupaten%20Tangerang/@-6.255,106.508,14z
+   ❌ Error with query "sol sepatu Cikupa, Kabupaten Tangerang": page.goto: Target page, context or browser has been closed
+
+🔍 [Cikupa / otomotif] "bengkel motor di Cikupa, Kabupaten Tangerang"
+   URL: https://www.google.com/maps/search/bengkel%20motor%20di%20Cikupa%2C%20Kabupaten%20Tangerang/@-6.255,106.508,14z
+   ❌ Error with query "bengkel motor di Cikupa, Kabupaten Tangerang": page.goto: Target page, context or browser has been closed
+
+🔍 [Cikupa / otomotif] "bengkel mobil Cikupa, Kabupaten Tangerang"
+   URL: https://www.google.com/maps/search/bengkel%20mobil%20Cikupa%2C%20Kabupaten%20Tangerang/@-6.255,106.508,14z
+   ❌ Error with query "bengkel mobil Cikupa, Kabupaten Tangerang": page.goto: Target page, context or browser has been closed
+
+🔍 [Cikupa / otomotif] "cuci motor Cikupa, Kabupaten Tangerang"
+   URL: https://www.google.com/maps/search/cuci%20motor%20Cikupa%2C%20Kabupaten%20Tangerang/@-6.255,106.508,14z
+   ❌ Error with query "cuci motor Cikupa, Kabupaten Tangerang": page.goto: Target page, context or browser has been closed
+
+🔍 [Cikupa / kecantikan] "salon di Cikupa, Kabupaten Tangerang"
+   URL: https://www.google.com/maps/search/salon%20di%20Cikupa%2C%20Kabupaten%20Tangerang/@-6.255,106.508,14z
+   ❌ Error with query "salon di Cikupa, Kabupaten Tangerang": page.goto: Target page, context or browser has been closed
+
+🔍 [Cikupa / kecantikan] "barbershop Cikupa, Kabupaten Tangerang"
+   URL: https://www.google.com/maps/search/barbershop%20Cikupa%2C%20Kabupaten%20Tangerang/@-6.255,106.508,14z
+   ❌ Error with query "barbershop Cikupa, Kabupaten Tangerang": page.goto: Target page, context or browser has been closed
+
+🔍 [Cikupa / kecantikan] "pangkas rambut Cikupa, Kabupaten Tangerang"
+   URL: https://www.google.com/maps/search/pangkas%20rambut%20Cikupa%2C%20Kabupaten%20Tangerang/@-6.255,106.508,14z
+   ❌ Error with query "pangkas rambut Cikupa, Kabupaten Tangerang": page.goto: Target page, context or browser has been closed
+
+🔍 [Cikupa / retail] "toko kelontong di Cikupa, Kabupaten Tangerang"
+   URL: https://www.google.com/maps/search/toko%20kelontong%20di%20Cikupa%2C%20Kabupaten%20Tangerang/@-6.255,106.508,14z
+   ❌ Error with query "toko kelontong di Cikupa, Kabupaten Tangerang": page.goto: Target page, context or browser has been closed
+
+🔍 [Cikupa / retail] "kios Cikupa, Kabupaten Tangerang"
+   URL: https://www.google.com/maps/search/kios%20Cikupa%2C%20Kabupaten%20Tangerang/@-6.255,106.508,14z
+   ❌ Error with query "kios Cikupa, Kabupaten Tangerang": page.goto: Target page, context or browser has been closed
+
+🔍 [Cikupa / retail] "butik Cikupa, Kabupaten Tangerang"
+   URL: https://www.google.com/maps/search/butik%20Cikupa%2C%20Kabupaten%20Tangerang/@-6.255,106.508,14z
+   ❌ Error with query "butik Cikupa, Kabupaten Tangerang": page.goto: Target page, context or browser has been closed
+
+🔍 [Cikupa / kesehatan] "apotek di Cikupa, Kabupaten Tangerang"
+   URL: https://www.google.com/maps/search/apotek%20di%20Cikupa%2C%20Kabupaten%20Tangerang/@-6.255,106.508,14z
+   ❌ Error with query "apotek di Cikupa, Kabupaten Tangerang": page.goto: Target page, context or browser has been closed
+
+🔍 [Cikupa / kesehatan] "klinik umum Cikupa, Kabupaten Tangerang"
+   URL: https://www.google.com/maps/search/klinik%20umum%20Cikupa%2C%20Kabupaten%20Tangerang/@-6.255,106.508,14z
+   ❌ Error with query "klinik umum Cikupa, Kabupaten Tangerang": page.goto: Target page, context or browser has been closed
+
+🔍 [Cikupa / rumah_sakit] "rumah sakit di Cikupa, Kabupaten Tangerang"
+   URL: https://www.google.com/maps/search/rumah%20sakit%20di%20Cikupa%2C%20Kabupaten%20Tangerang/@-6.255,106.508,14z
+   ❌ Error with query "rumah sakit di Cikupa, Kabupaten Tangerang": page.goto: Target page, context or browser has been closed
+
+🔍 [Cikupa / mall] "mall di Cikupa, Kabupaten Tangerang"
+   URL: https://www.google.com/maps/search/mall%20di%20Cikupa%2C%20Kabupaten%20Tangerang/@-6.255,106.508,14z
+   ❌ Error with query "mall di Cikupa, Kabupaten Tangerang": page.goto: Target page, context or browser has been closed
+
+🔍 [Cikupa / mall] "pusat perbelanjaan Cikupa, Kabupaten Tangerang"
+   URL: https://www.google.com/maps/search/pusat%20perbelanjaan%20Cikupa%2C%20Kabupaten%20Tangerang/@-6.255,106.508,14z
+   ❌ Error with query "pusat perbelanjaan Cikupa, Kabupaten Tangerang": page.goto: Target page, context or browser has been closed
+
+🔍 [Cikupa / klinik] "klinik di Cikupa, Kabupaten Tangerang"
+   URL: https://www.google.com/maps/search/klinik%20di%20Cikupa%2C%20Kabupaten%20Tangerang/@-6.255,106.508,14z
+   ❌ Error with query "klinik di Cikupa, Kabupaten Tangerang": page.goto: Target page, context or browser has been closed
+
+🔍 [Cikupa / klinik] "klinik anak Cikupa, Kabupaten Tangerang"
+   URL: https://www.google.com/maps/search/klinik%20anak%20Cikupa%2C%20Kabupaten%20Tangerang/@-6.255,106.508,14z
+   ❌ Error with query "klinik anak Cikupa, Kabupaten Tangerang": page.goto: Target page, context or browser has been closed
+
+🔍 [Cikupa / taman] "taman di Cikupa, Kabupaten Tangerang"
+   URL: https://www.google.com/maps/search/taman%20di%20Cikupa%2C%20Kabupaten%20Tangerang/@-6.255,106.508,14z
+   ❌ Error with query "taman di Cikupa, Kabupaten Tangerang": page.goto: Target page, context or browser has been closed
+
+🔍 [Cikupa / taman] "playground Cikupa, Kabupaten Tangerang"
+   URL: https://www.google.com/maps/search/playground%20Cikupa%2C%20Kabupaten%20Tangerang/@-6.255,106.508,14z
+   ❌ Error with query "playground Cikupa, Kabupaten Tangerang": page.goto: Target page, context or browser has been closed
+
+🔍 [Cikupa / tempat_ibadah] "masjid di Cikupa, Kabupaten Tangerang"
+   URL: https://www.google.com/maps/search/masjid%20di%20Cikupa%2C%20Kabupaten%20Tangerang/@-6.255,106.508,14z
+   ❌ Error with query "masjid di Cikupa, Kabupaten Tangerang": page.goto: Target page, context or browser has been closed
+
+🔍 [Cikupa / tempat_ibadah] "gereja Cikupa, Kabupaten Tangerang"
+   URL: https://www.google.com/maps/search/gereja%20Cikupa%2C%20Kabupaten%20Tangerang/@-6.255,106.508,14z
+   ❌ Error with query "gereja Cikupa, Kabupaten Tangerang": page.goto: Target page, context or browser has been closed
+
+🔍 [Cikupa / lainnya] "toko pakan ternak Cikupa, Kabupaten Tangerang"
+   URL: https://www.google.com/maps/search/toko%20pakan%20ternak%20Cikupa%2C%20Kabupaten%20Tangerang/@-6.255,106.508,14z
+   ❌ Error with query "toko pakan ternak Cikupa, Kabupaten Tangerang": page.goto: Target page, context or browser has been closed
+
+🔍 [Cikupa / lainnya] "toko bangunan Cikupa, Kabupaten Tangerang"
+   URL: https://www.google.com/maps/search/toko%20bangunan%20Cikupa%2C%20Kabupaten%20Tangerang/@-6.255,106.508,14z
+   ❌ Error with query "toko bangunan Cikupa, Kabupaten Tangerang": page.goto: Target page, context or browser has been closed
+   ⚠️  22 potential duplicates in Cikupa
+
+⏳ Waiting before next kecamatan...
+
+════════════════════════════════════════════════════════════
+📍 Kecamatan: Cisauk — Kabupaten Tangerang
+   Center: -6.335, 106.63
+════════════════════════════════════════════════════════════
+Fatal error: browser.newContext: Target page, context or browser has been closed
+    at async main (/Users/leliantopradana/Documents/Learn/Compress/mapscrapper/tools/scraper/scrape-places.ts:776:21)

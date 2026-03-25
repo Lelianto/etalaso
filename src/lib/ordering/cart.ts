@@ -159,7 +159,16 @@ export function CartProvider({
 
 export function useCart() {
   const ctx = useContext(CartContext)
-  if (!ctx) throw new Error('useCart must be used within CartProvider')
+  if (!ctx) {
+    // Return a safe no-op context when outside CartProvider
+    return {
+      state: { items: [], orderMode: null, tableNumber: '', customerName: '', arrivalTime: '', proofImageUrl: '' } as CartState,
+      dispatch: (() => {}) as React.Dispatch<CartAction>,
+      itemCount: 0,
+      total: 0,
+      totalFormatted: '',
+    }
+  }
   return ctx
 }
 

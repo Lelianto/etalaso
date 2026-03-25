@@ -9,7 +9,6 @@ on:
         type: choice
         options:
           - all
-          - tangsel
           - kota_tangerang
           - kab_tangerang
       kecamatan:
@@ -18,55 +17,35 @@ on:
         type: choice
         options:
           - all
-          # Tangsel (7 kecamatan)
-          - ciputat
-          - ciputat_timur
-          - pamulang
-          - pondok_aren
-          - serpong
-          - serpong_utara
-          - setu
-          # Kota Tangerang (13 kecamatan)
-          - batuceper
+          # Kota Tangerang (9 remaining)
           - benda
           - cibodas
           - ciledug
-          - cipondoh
           - jatiuwung
-          - karang_tengah
-          - karawaci
           - larangan
           - neglasari
           - periuk
           - pinang
           - tangerang
-          # Kab Tangerang (29 kecamatan)
-          - balaraja
-          - cikupa
+          # Kab Tangerang (21 remaining)
           - cisauk
           - cisoka
           - curug
-          - gunung_kaler
           - jambe
           - jayanti
           - kelapa_dua
           - kemiri
-          - kosambi
           - kresek
           - kronjo
-          - legok
           - mauk
-          - mekar_baru
           - pagedangan
           - pakuhaji
           - panongan
           - pasar_kemis
-          - rajeg
           - sepatan
           - sepatan_timur
           - sindang_jaya
           - solear
-          - sukadiri
           - sukamulya
           - teluknaga
           - tigaraksa
