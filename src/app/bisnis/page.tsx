@@ -11,11 +11,6 @@ export const metadata: Metadata = {
 }
 
 export default async function BisnisPage() {
-  // Fetch total count
-  const { count: totalCount } = await supabase
-    .from('Business')
-    .select('*', { count: 'exact', head: true })
-
   // Fetch lightweight columns for filter metadata (category + kecamatan + region)
   // Supabase default limit is 1000, so we need to paginate to get all
   const allMeta: Array<{ category: string | null; kecamatan: string | null; region: string | null }> = []
@@ -35,6 +30,9 @@ export default async function BisnisPage() {
     if (data.length < batchSize) break
     from += batchSize
   }
+
+  // Single source of truth: totalCount comes from the same filtered data
+  const totalCount = allMeta.length
 
   // Build category counts
   const categoryCounts: Record<string, number> = {}
