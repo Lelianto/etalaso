@@ -44,6 +44,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 }
 
 interface Business {
+  placeId: string
   name: string
   address: string | null
   category: string | null
@@ -57,7 +58,7 @@ export default async function CityPage({ params }: Props) {
 
   const { data: businesses } = await supabase
     .from('Business')
-    .select('name, address, category, kecamatan, whatsappNumber')
+    .select('placeId, name, address, category, kecamatan, whatsappNumber')
     .ilike('kecamatan', `%${cityName}%`)
     .order('name')
 
@@ -152,7 +153,7 @@ export default async function CityPage({ params }: Props) {
                     const slug = toSlug(biz.name)
                     return (
                       <Link
-                        key={biz.name}
+                        key={biz.placeId}
                         href={`/p/${city}/${catSlug}/${slug}`}
                         className="block bg-white rounded-xl border border-neutral-100 p-5 hover:border-amber/40 hover:shadow-md transition-all group"
                       >

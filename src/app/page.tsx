@@ -87,11 +87,11 @@ export default async function Home() {
             Etalaso<span className="text-amber">.</span>
           </Link>
           <div className="flex items-center gap-6">
-            <Link href="/demo" className="text-sm text-neutral-500 hover:text-charcoal transition-colors">
-              Demo
+            <Link href="/bisnis" className="text-sm text-neutral-500 hover:text-charcoal transition-colors">
+              Jelajahi Bisnis
             </Link>
             <Link
-              href="#daftar"
+              href="/daftar"
               className="text-sm bg-charcoal text-white px-5 py-2 rounded-full hover:bg-neutral-700 transition-colors"
             >
               Daftarkan Bisnis
@@ -124,10 +124,10 @@ export default async function Home() {
 
             <div className="animate-fade-up mt-10 flex flex-col sm:flex-row gap-4" style={{ animationDelay: '0.3s' }}>
               <Link
-                href="/demo"
+                href="/bisnis"
                 className="inline-flex items-center justify-center gap-2 bg-charcoal text-white px-8 py-4 rounded-full text-base font-medium hover:bg-neutral-700 transition-all hover:scale-[1.02] active:scale-[0.98]"
               >
-                Lihat Demo
+                Jelajahi Bisnis
                 <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                   <path strokeLinecap="round" strokeLinejoin="round" d="M17 8l4 4m0 0l-4 4m4-4H3" />
                 </svg>
@@ -442,18 +442,24 @@ export default async function Home() {
             Punya warung, bengkel, atau toko?
           </h2>
           <p className="mt-6 text-neutral-500 text-lg leading-relaxed">
-            Halaman bisnis Anda sudah siap — tinggal klaim.
-            Mulai terima pelanggan baru langsung via WhatsApp. Gratis, tanpa ribet.
+            Dapatkan halaman bisnis online otomatis, template dasar profesional,
+            dan tombol WhatsApp untuk pelanggan — semuanya gratis.
           </p>
           <div className="mt-10 flex flex-col sm:flex-row gap-4 justify-center">
             <Link
-              href="/demo"
+              href="/daftar"
               className="inline-flex items-center justify-center gap-2 bg-amber text-white px-8 py-4 rounded-full text-base font-semibold hover:bg-amber-light transition-all hover:scale-[1.02] active:scale-[0.98] shadow-lg shadow-amber/20"
             >
-              Lihat Demo Template
+              Klaim Bisnis Anda — Gratis
               <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                 <path strokeLinecap="round" strokeLinejoin="round" d="M17 8l4 4m0 0l-4 4m4-4H3" />
               </svg>
+            </Link>
+            <Link
+              href="/bisnis"
+              className="inline-flex items-center justify-center gap-2 border border-neutral-300 text-charcoal px-8 py-4 rounded-full text-base font-medium hover:border-neutral-400 hover:bg-white transition-all"
+            >
+              Jelajahi Bisnis
             </Link>
           </div>
         </div>
@@ -467,7 +473,7 @@ export default async function Home() {
           </div>
           <div className="flex items-center gap-6 text-sm text-neutral-400">
             <Link href="/bisnis" className="hover:text-charcoal transition-colors">Daftar Bisnis</Link>
-            <Link href="/demo" className="hover:text-charcoal transition-colors">Demo</Link>
+            <Link href="/demo" className="hover:text-charcoal transition-colors">Lihat Template</Link>
             <span>&copy; {new Date().getFullYear()} Etalaso</span>
           </div>
         </div>

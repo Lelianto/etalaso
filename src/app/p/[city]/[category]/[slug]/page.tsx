@@ -1,6 +1,7 @@
 import supabase from '@/lib/db/supabase'
 import { notFound } from 'next/navigation'
-import { TemplateFactory, getTemplateTheme } from '@/components/templates'
+import { TemplateFactory } from '@/components/templates'
+import { getTemplateTheme } from '@/components/templates/registry'
 import type { Metadata } from 'next'
 import { BASE_URL, canonicalUrl, fromSlug } from '@/lib/seo/utils'
 import { generateBusinessJsonLd, generateBreadcrumbJsonLd } from '@/lib/seo/structured-data'

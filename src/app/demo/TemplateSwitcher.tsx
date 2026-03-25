@@ -4,8 +4,8 @@ import React, { useState, useMemo } from 'react'
 import { TemplateFactory, TEMPLATE_REGISTRY } from '@/components/templates/TemplateFactory'
 import type { BusinessData } from '@/components/templates/types'
 
-/** All template entries: 6 legacy + 144 premium */
-const ALL_TEMPLATES = [
+/** All template entries: 6 legacy + premium, limited to 2 per layout type */
+const RAW_TEMPLATES = [
   { id: 'minimal',  name: 'Minimalist', layout: 'legacy', category: 'Dasar' },
   { id: 'warung',   name: 'Warung',     layout: 'legacy', category: 'Dasar' },
   { id: 'elegant',  name: 'Elegant',    layout: 'legacy', category: 'Dasar' },
@@ -19,6 +19,17 @@ const ALL_TEMPLATES = [
     category: t.category,
   })),
 ]
+
+// Limit to max 2 templates per layout type
+function limitPerLayout(templates: typeof RAW_TEMPLATES, max = 2) {
+  const counts: Record<string, number> = {}
+  return templates.filter(t => {
+    counts[t.layout] = (counts[t.layout] || 0) + 1
+    return counts[t.layout] <= max
+  })
+}
+
+const ALL_TEMPLATES = limitPerLayout(RAW_TEMPLATES)
 
 const LAYOUTS = ['Semua', 'legacy', 'standard', 'split', 'app', 'gallery', 'cards', 'magazine', 'sidebar', 'stack', 'compact', 'showcase']
 const LAYOUT_LABELS: Record<string, string> = {
