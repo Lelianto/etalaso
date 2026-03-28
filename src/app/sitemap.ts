@@ -16,15 +16,31 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
       changeFrequency: 'daily',
       priority: 0.9,
     },
+    {
+      url: `${BASE_URL}/daftar`,
+      lastModified: new Date(),
+      changeFrequency: 'monthly',
+      priority: 0.7,
+    },
   ]
 
-  // Fetch all businesses for individual pages
-  const { data: businesses } = await supabase
-    .from('Business')
-    .select('name, kecamatan, category, updatedAt')
-    .order('updatedAt', { ascending: false })
+  // Fetch all businesses with pagination (Supabase limits 1000 per query)
+  const businesses: Array<{ name: string; kecamatan: string | null; category: string | null; updatedAt: string | null }> = []
+  let from = 0
+  const batchSize = 1000
+  while (true) {
+    const { data } = await supabase
+      .from('Business')
+      .select('name, kecamatan, category, updatedAt')
+      .order('updatedAt', { ascending: false })
+      .range(from, from + batchSize - 1)
+    if (!data || data.length === 0) break
+    businesses.push(...data)
+    if (data.length < batchSize) break
+    from += batchSize
+  }
 
-  if (businesses) {
+  if (businesses.length > 0) {
     // Add city listing pages
     const cities = [...new Set(businesses.map(b => b.kecamatan).filter(Boolean))]
     for (const city of cities) {

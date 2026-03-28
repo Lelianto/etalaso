@@ -14,9 +14,11 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const catName = fromSlug(category)
   const pageUrl = canonicalUrl(`/p/${city}/${category}`)
 
+  const description = `Temukan ${catName.toLowerCase()} terbaik di ${cityName}. Lihat profil, review, dan hubungi langsung via WhatsApp di Etalaso.`
+
   return {
-    title: `Daftar ${catName} di ${cityName} — Etalaso`,
-    description: `Temukan ${catName.toLowerCase()} terbaik di ${cityName}. Lihat profil, review, dan hubungi langsung via WhatsApp di Etalaso.`,
+    title: `Daftar ${catName} di ${cityName}`,
+    description,
     alternates: {
       canonical: pageUrl,
     },
@@ -27,6 +29,11 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       url: pageUrl,
       locale: 'id_ID',
       siteName: 'Etalaso',
+    },
+    twitter: {
+      card: 'summary',
+      title: `${catName} di ${cityName} — Etalaso`,
+      description,
     },
   }
 }

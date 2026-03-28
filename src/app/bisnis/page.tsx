@@ -6,8 +6,16 @@ import BusinessList from './BusinessList'
 export const revalidate = 86400
 
 export const metadata: Metadata = {
-  title: 'Daftar Bisnis Lokal — Etalaso',
-  description: 'Jelajahi ribuan bisnis lokal Indonesia berdasarkan kota dan kategori. Temukan dan hubungi langsung via WhatsApp.',
+  title: 'Daftar Bisnis Lokal',
+  description: 'Jelajahi ribuan bisnis lokal Indonesia berdasarkan kota dan kategori. Temukan warung, bengkel, salon, toko, dan lainnya. Hubungi langsung via WhatsApp.',
+  alternates: {
+    canonical: '/bisnis',
+  },
+  openGraph: {
+    title: 'Daftar Bisnis Lokal — Etalaso',
+    description: 'Jelajahi ribuan bisnis lokal Indonesia berdasarkan kota dan kategori. Hubungi langsung via WhatsApp.',
+    url: '/bisnis',
+  },
 }
 
 export default async function BisnisPage() {

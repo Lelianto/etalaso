@@ -27,7 +27,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     : `Temukan bisnis lokal di ${cityName}. Lihat profil lengkap dan hubungi langsung via WhatsApp.`
 
   return {
-    title: `Bisnis di ${cityName} — Etalaso`,
+    title: `Bisnis di ${cityName}`,
     description,
     alternates: {
       canonical: pageUrl,
@@ -39,6 +39,11 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       url: pageUrl,
       locale: 'id_ID',
       siteName: 'Etalaso',
+    },
+    twitter: {
+      card: 'summary',
+      title: `Bisnis di ${cityName} — Etalaso`,
+      description,
     },
   }
 }
