@@ -1,6 +1,7 @@
 import Link from 'next/link'
 import type { Metadata } from 'next'
 import supabase from '@/lib/db/supabase'
+import { BASE_URL } from '@/lib/seo/utils'
 export const metadata: Metadata = {
   title: 'Etalaso — Temukan Bisnis Lokal, Hubungi Langsung via WhatsApp',
   description: 'Platform direktori bisnis lokal Indonesia. Temukan warung, bengkel, salon, toko, dan ribuan UMKM lainnya. Hubungi langsung via WhatsApp — gratis.',
@@ -105,11 +106,11 @@ export default async function Home() {
     '@context': 'https://schema.org',
     '@type': 'WebSite',
     name: 'Etalaso',
-    url: 'https://etalaso.id',
+    url: BASE_URL,
     description: 'Platform direktori bisnis lokal Indonesia. Temukan dan hubungi bisnis via WhatsApp.',
     potentialAction: {
       '@type': 'SearchAction',
-      target: 'https://etalaso.id/bisnis?q={search_term_string}',
+      target: `${BASE_URL}/bisnis?q={search_term_string}`,
       'query-input': 'required name=search_term_string',
     },
   }
@@ -118,7 +119,7 @@ export default async function Home() {
     '@context': 'https://schema.org',
     '@type': 'Organization',
     name: 'Etalaso',
-    url: 'https://etalaso.id',
+    url: BASE_URL,
     description: 'Platform bisnis lokal Indonesia — hubungkan pelanggan dengan UMKM via WhatsApp.',
   }
 
