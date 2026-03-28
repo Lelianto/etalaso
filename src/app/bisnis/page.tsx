@@ -15,7 +15,7 @@ export default async function BisnisPage() {
   // Supabase default limit is 1000, so we need to paginate to get all
   const allMeta: Array<{ category: string | null; kecamatan: string | null; region: string | null }> = []
   let from = 0
-  const batchSize = 5000
+  const batchSize = 1000
   while (true) {
     const { data } = await supabase
       .from('Business')

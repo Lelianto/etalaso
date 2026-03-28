@@ -40,18 +40,28 @@ const TEMPLATES = [
 export const revalidate = 3600 // refresh stats every hour
 
 export default async function Home() {
-  const [
-    { count: businessCount },
-    { data: regions },
-    { data: categories },
-  ] = await Promise.all([
-    supabase.from('Business').select('*', { count: 'exact', head: true }),
-    supabase.from('Business').select('region').not('region', 'is', null),
-    supabase.from('Business').select('category').not('category', 'is', null),
-  ])
+  // Fetch total count (head-only, no row limit issue)
+  const { count: businessCount } = await supabase
+    .from('Business')
+    .select('*', { count: 'exact', head: true })
 
-  const uniqueRegions = new Set((regions || []).map((r: { region: string }) => r.region))
-  const uniqueCategories = new Set((categories || []).map((c: { category: string }) => c.category))
+  // Paginate to get all category + region data (Supabase limits 1000 per query)
+  const allRows: Array<{ category: string | null; region: string | null }> = []
+  let from = 0
+  const batchSize = 1000
+  while (true) {
+    const { data } = await supabase
+      .from('Business')
+      .select('category, region')
+      .range(from, from + batchSize - 1)
+    if (!data || data.length === 0) break
+    allRows.push(...data)
+    if (data.length < batchSize) break
+    from += batchSize
+  }
+
+  const uniqueRegions = new Set(allRows.filter(r => r.region).map(r => r.region!))
+  const uniqueCategories = new Set(allRows.filter(c => c.category).map(c => c.category!))
 
   const totalBisnis = businessCount || 0
   const bisnisLabel = totalBisnis >= 1000
@@ -67,9 +77,9 @@ export default async function Home() {
 
   // Build category counts from DB
   const catCounts: Record<string, number> = {}
-  ;(categories || []).forEach((c: { category: string }) => {
-    catCounts[c.category] = (catCounts[c.category] || 0) + 1
-  })
+  for (const c of allRows) {
+    if (c.category) catCounts[c.category] = (catCounts[c.category] || 0) + 1
+  }
 
   const dynamicCategories = Object.entries(CATEGORY_META)
     .map(([key, meta]) => ({
