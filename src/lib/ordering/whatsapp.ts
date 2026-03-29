@@ -1,3 +1,5 @@
+import type { CategoryConfig } from './category-config'
+
 export interface CartItem {
   id: string
   name: string
@@ -34,24 +36,75 @@ function calculateTotal(items: CartItem[]): string {
   return `Rp ${total.toLocaleString('id-ID')}`
 }
 
+interface OrderMessageParams {
+  config: CategoryConfig
+  storeName: string
+  items: CartItem[]
+  customerName?: string
+  tableNumber?: string
+  preferredDate?: string
+  notes?: string
+  proofUrl?: string
+}
+
+export function generateOrderMessage({
+  config,
+  storeName,
+  items,
+  customerName,
+  tableNumber,
+  preferredDate,
+  notes,
+  proofUrl,
+}: OrderMessageParams): string {
+  const lines: string[] = []
+
+  // Header
+  if (tableNumber) {
+    lines.push(`${config.messageEmoji} *${config.messageTitle} MEJA #${tableNumber}*`)
+  } else {
+    lines.push(`${config.messageEmoji} *${config.messageTitle}*`)
+  }
+  lines.push(`📍 ${storeName}`)
+
+  // Customer info
+  if (customerName) {
+    lines.push('', `👤 Nama: ${customerName}`)
+  }
+  if (preferredDate) {
+    lines.push(`📅 Kapan: ${preferredDate}`)
+  }
+  if (notes) {
+    lines.push(`📝 Catatan: ${notes}`)
+  }
+
+  // Items
+  lines.push('', '---', formatItemLines(items), '---')
+
+  // Total
+  lines.push('', `💰 *Total: ${calculateTotal(items)}*`)
+
+  // Proof
+  if (proofUrl) {
+    lines.push('', `🧾 Bukti transfer: ${proofUrl}`)
+  }
+
+  lines.push('', '_Dikirim via Etalaso_')
+  return lines.join('\n')
+}
+
+// Keep legacy exports for backward compatibility during migration
 export function generateDineInMessage(
   storeName: string,
   tableNumber: string,
   items: CartItem[]
 ): string {
-  const lines = [
-    `🍽️ *PESANAN MEJA #${tableNumber}*`,
-    `📍 ${storeName}`,
-    '',
-    '---',
-    formatItemLines(items),
-    '---',
-    '',
-    `💰 *Total: ${calculateTotal(items)}*`,
-    '',
-    '_Dikirim via Etalaso_',
-  ]
-  return lines.join('\n')
+  return generateOrderMessage({
+    config: { messageEmoji: '🍽️', messageTitle: 'PESANAN' } as CategoryConfig,
+    storeName,
+    items,
+    tableNumber,
+  })
 }
 
 export function generatePreOrderMessage(
@@ -61,24 +114,14 @@ export function generatePreOrderMessage(
   items: CartItem[],
   proofUrl: string
 ): string {
-  const lines = [
-    `📦 *PRE-ORDER*`,
-    `📍 ${storeName}`,
-    '',
-    `👤 Nama: ${customerName}`,
-    `🕐 Waktu ambil: ${arrivalTime}`,
-    '',
-    '---',
-    formatItemLines(items),
-    '---',
-    '',
-    `💰 *Total: ${calculateTotal(items)}*`,
-    '',
-    `🧾 Bukti transfer: ${proofUrl}`,
-    '',
-    '_Dikirim via Etalaso_',
-  ]
-  return lines.join('\n')
+  return generateOrderMessage({
+    config: { messageEmoji: '📦', messageTitle: 'PRE-ORDER' } as CategoryConfig,
+    storeName,
+    items,
+    customerName,
+    preferredDate: arrivalTime ? `Waktu ambil: ${arrivalTime}` : undefined,
+    proofUrl: proofUrl || undefined,
+  })
 }
 
 export function openWhatsApp(phoneNumber: string, message: string): void {

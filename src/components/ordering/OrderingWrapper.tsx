@@ -3,7 +3,8 @@
 import { useState, useEffect } from 'react'
 import { useSearchParams } from 'next/navigation'
 import { CartProvider, useCart, useCartActions } from '@/lib/ordering/cart'
-import { canDineIn, canPreOrder } from '@/lib/ordering/tier'
+import { canOrder, canPreOrder } from '@/lib/ordering/tier'
+
 import { BusinessData } from '../templates/types'
 import CartFAB from './CartFAB'
 import CartDrawer from './CartDrawer'
@@ -14,10 +15,11 @@ import ClaimBanner from './ClaimBanner'
 interface OrderingWrapperProps {
   business: BusinessData & { id?: string }
   accentColor: string
+  category: string
   children: React.ReactNode
 }
 
-function OrderingInner({ business, accentColor, children }: OrderingWrapperProps) {
+function OrderingInner({ business, accentColor, category, children }: OrderingWrapperProps) {
   const [drawerOpen, setDrawerOpen] = useState(false)
   const [checkoutOpen, setCheckoutOpen] = useState(false)
   const { state, itemCount } = useCart()
@@ -27,26 +29,37 @@ function OrderingInner({ business, accentColor, children }: OrderingWrapperProps
   const tier = business.subscriptionType || 'free'
   const businessId = (business as unknown as Record<string, string>).id || ''
   const isFree = !business.subscriptionType || business.subscriptionType === 'free'
-  const showDineIn = canDineIn(tier)
+  const isKuliner = category === 'kuliner'
+
+  const canOrderTier = canOrder(tier)
   const showPreOrder = canPreOrder(tier)
 
-  // Read ?table=N from URL on mount
+  // Read ?table=N from URL on mount (kuliner only)
   useEffect(() => {
+    if (!isKuliner) return
     const tableParam = searchParams.get('table')
-    if (tableParam && showDineIn) {
+    if (tableParam && canOrderTier) {
       setTable(tableParam)
-      // Auto-activate dine-in mode for UMKM tier (no mode selector)
+      // Auto-activate langsung mode for UMKM tier (no mode selector)
       if (!showPreOrder) {
-        setOrderMode('dine-in')
+        setOrderMode('langsung')
       }
     }
-  }, [searchParams, showDineIn, showPreOrder, setTable, setOrderMode])
+  }, [searchParams, isKuliner, canOrderTier, showPreOrder, setTable, setOrderMode])
+
+  // Non-kuliner: auto-activate ordering on mount (no mode selector needed)
+  useEffect(() => {
+    if (!isKuliner && canOrderTier) {
+      setOrderMode('pesan-dulu')
+    }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [])
 
   // For free tier: show claim banner + render children as-is
   if (isFree) {
     return (
       <div>
-        {businessId && <ClaimBanner businessId={businessId} />}
+        {businessId && <ClaimBanner businessId={businessId} category={category} />}
         <div className={businessId ? 'pt-10' : ''}>
           {children}
         </div>
@@ -59,15 +72,40 @@ function OrderingInner({ business, accentColor, children }: OrderingWrapperProps
 
   return (
     <div>
-      {/* Order mode selector — only for Business tier when table is set */}
-      {showPreOrder && state.tableNumber && (
+      {/* Order mode selector — only for kuliner with Business tier when table is set */}
+      {isKuliner && showPreOrder && state.tableNumber && (
         <OrderModeSelector accentColor={accentColor} />
+      )}
+
+      {/* Pre-order floating button — for kuliner Business tier when NO table */}
+      {isKuliner && showPreOrder && !state.tableNumber && (
+        state.orderMode === 'pesan-dulu' ? (
+          itemCount === 0 && (
+            <div className="fixed bottom-6 left-6 z-50 flex items-center gap-2 px-4 py-2.5 rounded-full text-white text-sm font-semibold shadow-xl" style={{ backgroundColor: accentColor }}>
+              <span>📦 Mode Pesan Dulu</span>
+              <button
+                onClick={() => setOrderMode(null)}
+                className="ml-1 w-5 h-5 rounded-full bg-white/20 flex items-center justify-center text-xs hover:bg-white/40"
+              >
+                ✕
+              </button>
+            </div>
+          )
+        ) : (
+          <button
+            onClick={() => setOrderMode('pesan-dulu')}
+            className="fixed bottom-6 left-6 z-50 flex items-center gap-2 px-5 py-3 rounded-full text-white font-bold text-sm shadow-xl hover:scale-105 transition-transform active:scale-95"
+            style={{ backgroundColor: accentColor }}
+          >
+            📦 Pesan Dulu
+          </button>
+        )
       )}
 
       {/* Render template children, passing ordering state via CSS class */}
       <div
         className={hideDefaultWA ? 'ordering-active' : ''}
-        style={showPreOrder && state.tableNumber ? { paddingTop: '52px' } : undefined}
+        style={isKuliner && showPreOrder && state.tableNumber ? { paddingTop: '52px' } : undefined}
       >
         {children}
       </div>
@@ -93,6 +131,7 @@ function OrderingInner({ business, accentColor, children }: OrderingWrapperProps
         business={business}
         businessId={businessId}
         accentColor={accentColor}
+        category={category}
       />
 
       {/* Hide StickyWA when cart has items */}

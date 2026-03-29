@@ -11,8 +11,8 @@ export default function OrderModeSelector({ accentColor }: OrderModeSelectorProp
   const { setOrderMode } = useCartActions()
 
   const modes: { value: OrderMode; label: string; icon: string }[] = [
-    { value: 'dine-in', label: 'Makan di Sini', icon: '🍽️' },
-    { value: 'pre-order', label: 'Pesan untuk Nanti', icon: '📦' },
+    { value: 'langsung', label: 'Pesan di Tempat', icon: '🍽️' },
+    { value: 'pesan-dulu', label: 'Pesan Dulu', icon: '📦' },
   ]
 
   return (

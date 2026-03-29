@@ -33,6 +33,15 @@ export async function POST(request: Request) {
         planExpiresAt: expiresAt.toISOString(),
       })
       .eq('id', userId)
+
+    // Sync subscriptionType on Business table
+    await supabaseAdmin
+      .from('Business')
+      .update({
+        subscriptionType: planId,
+        updatedAt: new Date().toISOString(),
+      })
+      .eq('ownerId', userId)
   } else if (action === 'reject') {
     await supabaseAdmin
       .from('Payment')

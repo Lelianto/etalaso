@@ -12,21 +12,25 @@ const BASE_NAV_ITEMS = [
   { href: '/dashboard/payments', label: 'Pembayaran', icon: '💳' },
 ]
 
-export default function DashboardNav({ planId }: { businessId: string; planId: string }) {
+export default function DashboardNav({ planId, isKuliner }: { businessId: string; planId: string; isKuliner: boolean }) {
   const pathname = usePathname()
 
   const navItems = useMemo(() => {
     const items = [...BASE_NAV_ITEMS]
-    // UMKM + Business: QR Meja
+    // UMKM + Business: QR code
     if (planId === 'umkm' || planId === 'business') {
-      items.splice(3, 0, { href: '/dashboard/qr-code', label: 'QR Meja', icon: '📱' })
+      items.splice(3, 0, {
+        href: '/dashboard/qr-code',
+        label: isKuliner ? 'QR Meja' : 'QR Bisnis',
+        icon: '📱',
+      })
     }
     // Business only: Info Pembayaran
     if (planId === 'business') {
       items.splice(4, 0, { href: '/dashboard/payment-config', label: 'Info Pembayaran', icon: '🏦' })
     }
     return items
-  }, [planId])
+  }, [planId, isKuliner])
 
   return (
     <nav className="flex gap-1 overflow-x-auto pb-4 mb-2 scrollbar-none">

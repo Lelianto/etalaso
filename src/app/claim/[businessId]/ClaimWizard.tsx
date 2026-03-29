@@ -4,6 +4,7 @@ import { createClient } from '@/lib/supabase/browser'
 import { useRouter } from 'next/navigation'
 import { useState } from 'react'
 import Image from 'next/image'
+import { getCategoryConfig } from '@/lib/ordering/category-config'
 
 interface Plan {
   id: string
@@ -299,54 +300,61 @@ export default function ClaimWizard({ business, userId, plans }: Props) {
             )}
           </div>
 
-          {/* Kuliner-specific features highlight */}
-          {business.category?.toLowerCase() === 'kuliner' && (
-            <div className="bg-gradient-to-br from-amber-50 to-orange-50 border border-amber-200 rounded-xl p-4 mb-6">
-              <div className="flex items-center gap-2 mb-3">
-                <span className="text-lg">🍽️</span>
-                <h3 className="font-bold text-amber-900 text-sm">Fitur Khusus Kuliner</h3>
-              </div>
-              <p className="text-amber-800 text-xs mb-3">
-                Bisnis kuliner mendapat akses fitur ordering digital:
-              </p>
-              <div className="space-y-2.5">
-                {/* QR Code Meja */}
-                <div className="flex items-start gap-3 bg-white/70 rounded-lg p-3">
-                  <div className="w-8 h-8 rounded-lg bg-indigo-100 flex items-center justify-center shrink-0">
-                    <svg className="w-4 h-4 text-indigo-600" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
-                      <path strokeLinecap="round" strokeLinejoin="round" d="M12 4v1m6 11h2m-6 0h-2v4m0-11v3m0 0h.01M12 12h4.01M16 20h4M4 12h4m12 0h.01M5 8h2a1 1 0 001-1V5a1 1 0 00-1-1H5a1 1 0 00-1 1v2a1 1 0 001 1zm12 0h2a1 1 0 001-1V5a1 1 0 00-1-1h-2a1 1 0 00-1 1v2a1 1 0 001 1zM5 20h2a1 1 0 001-1v-2a1 1 0 00-1-1H5a1 1 0 00-1 1v2a1 1 0 001 1z" />
-                    </svg>
+          {/* Category-specific features highlight */}
+          {(() => {
+            const cat = business.category?.toLowerCase() || ''
+            const catConfig = getCategoryConfig(cat)
+            const isKuliner = cat === 'kuliner'
+            return (
+              <div className="bg-gradient-to-br from-amber-50 to-orange-50 border border-amber-200 rounded-xl p-4 mb-6">
+                <div className="flex items-center gap-2 mb-3">
+                  <span className="text-lg">{catConfig.messageEmoji}</span>
+                  <h3 className="font-bold text-amber-900 text-sm">Fitur Pemesanan via WhatsApp</h3>
+                </div>
+                <p className="text-amber-800 text-xs mb-3">
+                  {catConfig.claimFeatureText}
+                </p>
+                <div className="space-y-2.5">
+                  {/* QR Code */}
+                  <div className="flex items-start gap-3 bg-white/70 rounded-lg p-3">
+                    <div className="w-8 h-8 rounded-lg bg-indigo-100 flex items-center justify-center shrink-0">
+                      <svg className="w-4 h-4 text-indigo-600" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                        <path strokeLinecap="round" strokeLinejoin="round" d="M12 4v1m6 11h2m-6 0h-2v4m0-11v3m0 0h.01M12 12h4.01M16 20h4M4 12h4m12 0h.01M5 8h2a1 1 0 001-1V5a1 1 0 00-1-1H5a1 1 0 00-1 1v2a1 1 0 001 1zm12 0h2a1 1 0 001-1V5a1 1 0 00-1-1h-2a1 1 0 00-1 1v2a1 1 0 001 1zM5 20h2a1 1 0 001-1v-2a1 1 0 00-1-1H5a1 1 0 00-1 1v2a1 1 0 001 1z" />
+                      </svg>
+                    </div>
+                    <div>
+                      <p className="font-semibold text-slate-800 text-sm">{isKuliner ? 'QR Code Meja' : 'QR Code Bisnis'}</p>
+                      <p className="text-slate-500 text-xs mt-0.5">
+                        {isKuliner
+                          ? 'Generate QR code untuk setiap meja. Pelanggan scan & langsung pesan dari HP — tanpa antre.'
+                          : 'QR code untuk kartu nama, brosur, atau stiker. Pelanggan scan & langsung lihat produk/jasa Anda.'}
+                      </p>
+                      <span className="inline-block mt-1.5 px-2 py-0.5 bg-indigo-50 text-indigo-600 text-[10px] font-bold rounded-full">
+                        Paket UMKM &amp; Business
+                      </span>
+                    </div>
                   </div>
-                  <div>
-                    <p className="font-semibold text-slate-800 text-sm">QR Code Meja</p>
-                    <p className="text-slate-500 text-xs mt-0.5">
-                      Generate QR code untuk setiap meja. Pelanggan scan &amp; langsung pesan dari HP — tanpa antre.
-                    </p>
-                    <span className="inline-block mt-1.5 px-2 py-0.5 bg-indigo-50 text-indigo-600 text-[10px] font-bold rounded-full">
-                      Paket UMKM &amp; Business
-                    </span>
+                  {/* WhatsApp ordering */}
+                  <div className="flex items-start gap-3 bg-white/70 rounded-lg p-3">
+                    <div className="w-8 h-8 rounded-lg bg-emerald-100 flex items-center justify-center shrink-0">
+                      <svg className="w-4 h-4 text-emerald-600" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                        <path strokeLinecap="round" strokeLinejoin="round" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+                      </svg>
+                    </div>
+                    <div>
+                      <p className="font-semibold text-slate-800 text-sm">Pemesanan via WhatsApp</p>
+                      <p className="text-slate-500 text-xs mt-0.5">
+                        Pelanggan pilih {catConfig.itemLabel.toLowerCase()} langsung dari HP, lalu kirim pesanan via WhatsApp.
+                      </p>
+                      <span className="inline-block mt-1.5 px-2 py-0.5 bg-emerald-50 text-emerald-600 text-[10px] font-bold rounded-full">
+                        Paket UMKM &amp; Business
+                      </span>
+                    </div>
                   </div>
                 </div>
-                {/* Pre-order */}
-                <div className="flex items-start gap-3 bg-white/70 rounded-lg p-3">
-                  <div className="w-8 h-8 rounded-lg bg-emerald-100 flex items-center justify-center shrink-0">
-                    <svg className="w-4 h-4 text-emerald-600" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
-                      <path strokeLinecap="round" strokeLinejoin="round" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
-                    </svg>
-                  </div>
-                  <div>
-                    <p className="font-semibold text-slate-800 text-sm">Sistem Pre-order</p>
-                    <p className="text-slate-500 text-xs mt-0.5">
-                      Pelanggan bisa pesan &amp; bayar di muka sebelum datang. Lengkap dengan konfirmasi via WhatsApp.
-                    </p>
-                    <span className="inline-block mt-1.5 px-2 py-0.5 bg-emerald-50 text-emerald-600 text-[10px] font-bold rounded-full">
-                      Paket Business
-                    </span>
-                  </div>
-                </div>
               </div>
-            </div>
-          )}
+            )
+          })()}
 
           {/* Plan cards */}
           <div className="space-y-3 mb-6">
@@ -395,17 +403,11 @@ export default function ClaimWizard({ business, userId, plans }: Props) {
                         {f}
                       </li>
                     ))}
-                    {/* Kuliner-specific features on plan cards */}
-                    {business.category?.toLowerCase() === 'kuliner' && (p.id === 'umkm' || p.id === 'business') && (
+                    {/* Ordering features on plan cards */}
+                    {(p.id === 'umkm' || p.id === 'business') && (
                       <li className="flex items-start gap-2 text-xs text-indigo-600 font-medium">
-                        <span className="shrink-0 mt-0.5">🍽️</span>
-                        QR Code Meja &amp; Dine-in
-                      </li>
-                    )}
-                    {business.category?.toLowerCase() === 'kuliner' && p.id === 'business' && (
-                      <li className="flex items-start gap-2 text-xs text-emerald-600 font-medium">
-                        <span className="shrink-0 mt-0.5">📦</span>
-                        Sistem Pre-order
+                        <span className="shrink-0 mt-0.5">{getCategoryConfig(business.category?.toLowerCase() || '').messageEmoji}</span>
+                        Pemesanan via WhatsApp
                       </li>
                     )}
                   </ul>

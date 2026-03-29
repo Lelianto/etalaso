@@ -1,6 +1,8 @@
 import { requireAuth, getUserBusiness, getUserProfile } from '@/lib/auth/helpers'
+import { canOrder, canPreOrder } from '@/lib/ordering/tier'
 import EditProfileForm from './EditProfileForm'
 import UpgradeNudge from '@/components/ordering/UpgradeNudge'
+import Link from 'next/link'
 
 export default async function DashboardPage() {
   await requireAuth()
@@ -15,15 +17,54 @@ export default async function DashboardPage() {
     )
   }
 
-  const canEdit = profile?.planId !== 'free'
+  const planId = profile?.planId || 'free'
+  const canEdit = planId !== 'free'
+
+  // Setup completeness check for all businesses with paid plans
+  const setupIssues: { label: string; href: string; icon: string }[] = []
+  if (canOrder(planId)) {
+    if (!business.whatsappNumber) {
+      setupIssues.push({ label: 'Nomor WhatsApp belum diisi — pesanan tidak bisa dikirim', href: '/dashboard', icon: '📱' })
+    }
+    if (!business.products || business.products.length === 0) {
+      setupIssues.push({ label: 'Belum ada produk/layanan — pelanggan tidak bisa memesan', href: '/dashboard/products', icon: '📦' })
+    }
+    if (!business.openingHours) {
+      setupIssues.push({ label: 'Jam operasional belum diisi', href: '/dashboard', icon: '🕐' })
+    }
+    if (canPreOrder(planId) && !business.bankName && !business.qrisImageUrl) {
+      setupIssues.push({ label: 'Info pembayaran belum diisi — pelanggan tidak bisa transfer', href: '/dashboard/payment-config', icon: '🏦' })
+    }
+  }
 
   return (
     <div className="space-y-6">
+      {/* Setup completeness warning */}
+      {setupIssues.length > 0 && (
+        <div className="bg-amber-50 border border-amber-200 rounded-2xl p-5">
+          <h3 className="font-bold text-amber-900 text-sm mb-3">
+            Lengkapi data berikut agar pemesanan via WhatsApp aktif:
+          </h3>
+          <div className="space-y-2">
+            {setupIssues.map((issue, i) => (
+              <Link
+                key={i}
+                href={issue.href}
+                className="flex items-start gap-2.5 text-sm text-amber-800 hover:text-amber-950 transition-colors"
+              >
+                <span>{issue.icon}</span>
+                <span>{issue.label}</span>
+              </Link>
+            ))}
+          </div>
+        </div>
+      )}
+
       <div className="bg-white rounded-2xl shadow-sm border border-slate-200 p-6">
         <div className="flex items-center justify-between mb-4">
           <h2 className="text-lg font-bold text-slate-800">Profil Bisnis</h2>
           <span className="text-xs font-semibold bg-indigo-50 text-indigo-600 px-3 py-1 rounded-full uppercase">
-            {profile?.planId || 'free'}
+            {planId}
           </span>
         </div>
 
@@ -53,7 +94,7 @@ export default async function DashboardPage() {
       </div>
 
       {/* Upgrade nudge for UMKM tier */}
-      {profile?.planId === 'umkm' && <UpgradeNudge />}
+      {planId === 'umkm' && <UpgradeNudge />}
 
       {/* Quick Stats */}
       <div className="bg-white rounded-2xl shadow-sm border border-slate-200 p-6">

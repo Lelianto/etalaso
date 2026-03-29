@@ -10,7 +10,7 @@ export interface CartItem {
   imageUrl?: string | null
 }
 
-export type OrderMode = 'dine-in' | 'pre-order'
+export type OrderMode = 'langsung' | 'pesan-dulu'
 
 export interface CartState {
   items: CartItem[]
@@ -19,6 +19,8 @@ export interface CartState {
   customerName: string
   arrivalTime: string
   proofImageUrl: string
+  notes: string
+  preferredDate: string
 }
 
 type CartAction =
@@ -30,6 +32,8 @@ type CartAction =
   | { type: 'SET_CUSTOMER_NAME'; name: string }
   | { type: 'SET_ARRIVAL_TIME'; time: string }
   | { type: 'SET_PROOF_URL'; url: string }
+  | { type: 'SET_NOTES'; notes: string }
+  | { type: 'SET_PREFERRED_DATE'; date: string }
   | { type: 'CLEAR_CART' }
   | { type: 'HYDRATE'; state: CartState }
 
@@ -40,6 +44,8 @@ const initialState: CartState = {
   customerName: '',
   arrivalTime: '',
   proofImageUrl: '',
+  notes: '',
+  preferredDate: '',
 }
 
 function cartReducer(state: CartState, action: CartAction): CartState {
@@ -79,10 +85,17 @@ function cartReducer(state: CartState, action: CartAction): CartState {
       return { ...state, arrivalTime: action.time }
     case 'SET_PROOF_URL':
       return { ...state, proofImageUrl: action.url }
+    case 'SET_NOTES':
+      return { ...state, notes: action.notes }
+    case 'SET_PREFERRED_DATE':
+      return { ...state, preferredDate: action.date }
     case 'CLEAR_CART':
       return { ...initialState, orderMode: state.orderMode, tableNumber: state.tableNumber }
-    case 'HYDRATE':
-      return action.state
+    case 'HYDRATE': {
+      const validModes: (OrderMode | null)[] = ['langsung', 'pesan-dulu', null]
+      const mode = validModes.includes(action.state.orderMode) ? action.state.orderMode : null
+      return { ...action.state, orderMode: mode, notes: action.state.notes || '', preferredDate: action.state.preferredDate || '' }
+    }
     default:
       return state
   }
@@ -162,7 +175,7 @@ export function useCart() {
   if (!ctx) {
     // Return a safe no-op context when outside CartProvider
     return {
-      state: { items: [], orderMode: null, tableNumber: '', customerName: '', arrivalTime: '', proofImageUrl: '' } as CartState,
+      state: { items: [], orderMode: null, tableNumber: '', customerName: '', arrivalTime: '', proofImageUrl: '', notes: '', preferredDate: '' } as CartState,
       dispatch: (() => {}) as React.Dispatch<CartAction>,
       itemCount: 0,
       total: 0,
@@ -193,6 +206,10 @@ export function useCartActions() {
       dispatch({ type: 'SET_ARRIVAL_TIME', time }), [dispatch]),
     setProofUrl: useCallback((url: string) =>
       dispatch({ type: 'SET_PROOF_URL', url }), [dispatch]),
+    setNotes: useCallback((notes: string) =>
+      dispatch({ type: 'SET_NOTES', notes }), [dispatch]),
+    setPreferredDate: useCallback((date: string) =>
+      dispatch({ type: 'SET_PREFERRED_DATE', date }), [dispatch]),
     clearCart: useCallback(() =>
       dispatch({ type: 'CLEAR_CART' }), [dispatch]),
   }

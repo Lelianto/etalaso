@@ -17,10 +17,22 @@ export async function POST(request: Request) {
       .update({ status: 'approved', updatedAt: new Date().toISOString() })
       .eq('id', claimId)
 
-    // Set business owner + isClaimed flag
+    // Get user's current plan to sync subscriptionType
+    const { data: userProfile } = await supabaseAdmin
+      .from('UserProfile')
+      .select('planId')
+      .eq('id', userId)
+      .single()
+
+    // Set business owner + isClaimed flag + sync subscriptionType
     await supabaseAdmin
       .from('Business')
-      .update({ ownerId: userId, isClaimed: true, updatedAt: new Date().toISOString() })
+      .update({
+        ownerId: userId,
+        isClaimed: true,
+        subscriptionType: userProfile?.planId || 'free',
+        updatedAt: new Date().toISOString(),
+      })
       .eq('id', businessId)
 
     // Reject other pending claims for the same business

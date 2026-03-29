@@ -1,4 +1,5 @@
 import { requireAuth } from '@/lib/auth/helpers'
+import { checkAndDowngradeIfExpired } from '@/lib/auth/check-subscription'
 import { createClient } from '@/lib/supabase/server'
 import type { Metadata } from 'next'
 import Image from 'next/image'
@@ -59,6 +60,9 @@ export default async function DashboardLayout({ children }: { children: React.Re
   const user = await requireAuth()
   const supabase = await createClient()
 
+  // Check & auto-downgrade if subscription expired
+  const effectivePlan = await checkAndDowngradeIfExpired(user.id)
+
   const { data: profile } = await supabase
     .from('UserProfile')
     .select('name, avatar_url, planId, role')
@@ -67,7 +71,7 @@ export default async function DashboardLayout({ children }: { children: React.Re
 
   const { data: business } = await supabase
     .from('Business')
-    .select('id, name')
+    .select('id, name, category')
     .eq('ownerId', user.id)
     .limit(1)
     .single()
@@ -102,7 +106,7 @@ export default async function DashboardLayout({ children }: { children: React.Re
         {!business ? (
           <PendingOrNoClaim userId={user.id} />
         ) : (
-          <DashboardNav businessId={business.id} planId={profile?.planId || 'free'} />
+          <DashboardNav businessId={business.id} planId={effectivePlan} isKuliner={business.category?.toLowerCase() === 'kuliner'} />
         )}
         {children}
       </div>

@@ -1,20 +1,21 @@
 'use client'
 
-import { useState, useEffect, useRef } from 'react'
+import { useState } from 'react'
 import QRCode from 'qrcode'
 
 interface QRGeneratorProps {
   baseUrl: string
   businessName: string
+  isKuliner: boolean
 }
 
-export default function QRGenerator({ baseUrl, businessName }: QRGeneratorProps) {
+export default function QRGenerator({ baseUrl, businessName, isKuliner }: QRGeneratorProps) {
   const [tableCount, setTableCount] = useState(5)
   const [qrCodes, setQrCodes] = useState<{ table: number; dataUrl: string }[]>([])
+  const [businessQr, setBusinessQr] = useState<string | null>(null)
   const [generating, setGenerating] = useState(false)
-  const printRef = useRef<HTMLDivElement>(null)
 
-  const handleGenerate = async () => {
+  const handleGenerateTables = async () => {
     setGenerating(true)
     const codes: { table: number; dataUrl: string }[] = []
     for (let i = 1; i <= tableCount; i++) {
@@ -26,8 +27,14 @@ export default function QRGenerator({ baseUrl, businessName }: QRGeneratorProps)
     setGenerating(false)
   }
 
-  const handlePrint = () => {
-    if (!printRef.current) return
+  const handleGenerateBusiness = async () => {
+    setGenerating(true)
+    const dataUrl = await QRCode.toDataURL(baseUrl, { width: 256, margin: 2 })
+    setBusinessQr(dataUrl)
+    setGenerating(false)
+  }
+
+  const handlePrintTables = () => {
     const printWindow = window.open('', '_blank')
     if (!printWindow) return
 
@@ -68,6 +75,72 @@ export default function QRGenerator({ baseUrl, businessName }: QRGeneratorProps)
     printWindow.print()
   }
 
+  const handlePrintBusiness = () => {
+    if (!businessQr) return
+    const printWindow = window.open('', '_blank')
+    if (!printWindow) return
+
+    printWindow.document.write(`
+      <!DOCTYPE html>
+      <html>
+      <head>
+        <title>QR Bisnis - ${businessName}</title>
+        <style>
+          body { font-family: system-ui, sans-serif; margin: 0; padding: 40px; text-align: center; }
+          img { width: 300px; height: 300px; }
+          h1 { margin-bottom: 8px; }
+          p { color: #64748b; font-size: 14px; }
+        </style>
+      </head>
+      <body>
+        <h1>${businessName}</h1>
+        <p>Scan untuk lihat produk & pesan via WhatsApp</p>
+        <img src="${businessQr}" alt="QR ${businessName}" />
+        <p style="margin-top: 16px; font-size: 12px; color: #94a3b8;">etalaso.com</p>
+      </body>
+      </html>
+    `)
+    printWindow.document.close()
+    printWindow.print()
+  }
+
+  // Non-kuliner: single business QR
+  if (!isKuliner) {
+    return (
+      <div className="space-y-6">
+        <div className="bg-white rounded-2xl shadow-sm border border-slate-200 p-6">
+          <h2 className="text-lg font-bold text-slate-800 mb-4">QR Code Bisnis</h2>
+          <p className="text-sm text-slate-500 mb-6">
+            QR code ini bisa ditaruh di kartu nama, brosur, atau stiker. Pelanggan scan untuk langsung melihat produk/layanan Anda.
+          </p>
+
+          {!businessQr ? (
+            <button
+              onClick={handleGenerateBusiness}
+              disabled={generating}
+              className="bg-indigo-600 hover:bg-indigo-700 disabled:bg-indigo-300 text-white font-bold px-6 py-3 rounded-xl text-sm"
+            >
+              {generating ? 'Generating...' : 'Generate QR'}
+            </button>
+          ) : (
+            <div className="text-center space-y-4">
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img src={businessQr} alt={`QR ${businessName}`} className="w-64 h-64 mx-auto" />
+              <p className="text-sm font-semibold text-slate-700">{businessName}</p>
+              <button
+                onClick={handlePrintBusiness}
+                className="text-sm font-semibold text-indigo-600 hover:underline"
+              >
+                Cetak QR
+              </button>
+            </div>
+          )}
+        </div>
+      </div>
+    )
+  }
+
+  // Kuliner: table QR codes
   return (
     <div className="space-y-6">
       <div className="bg-white rounded-2xl shadow-sm border border-slate-200 p-6">
@@ -88,7 +161,7 @@ export default function QRGenerator({ baseUrl, businessName }: QRGeneratorProps)
             />
           </div>
           <button
-            onClick={handleGenerate}
+            onClick={handleGenerateTables}
             disabled={generating}
             className="bg-indigo-600 hover:bg-indigo-700 disabled:bg-indigo-300 text-white font-bold px-6 py-3 rounded-xl text-sm"
           >
@@ -100,14 +173,14 @@ export default function QRGenerator({ baseUrl, businessName }: QRGeneratorProps)
           <>
             <div className="flex justify-end mb-4">
               <button
-                onClick={handlePrint}
+                onClick={handlePrintTables}
                 className="text-sm font-semibold text-indigo-600 hover:underline"
               >
                 Cetak Semua QR
               </button>
             </div>
 
-            <div ref={printRef} className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4">
+            <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4">
               {qrCodes.map(qr => (
                 <div
                   key={qr.table}

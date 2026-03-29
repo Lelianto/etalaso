@@ -6,7 +6,7 @@ import type { Metadata } from 'next'
 import { BASE_URL, canonicalUrl, fromSlug } from '@/lib/seo/utils'
 import { generateBusinessJsonLd, generateBreadcrumbJsonLd } from '@/lib/seo/structured-data'
 import OrderingWrapper from '@/components/ordering/OrderingWrapper'
-import { canDineIn } from '@/lib/ordering/tier'
+import { canOrder } from '@/lib/ordering/tier'
 
 export const revalidate = 86400 // 1 day
 
@@ -100,10 +100,8 @@ export default async function BusinessPage({ params }: Props) {
     { name: business.name },
   ])
 
-  // Ordering is only enabled for kuliner category with paid tiers
-  const isKuliner = category === 'kuliner'
   const tier = business.subscriptionType || 'free'
-  const orderingEnabled = isKuliner && canDineIn(tier)
+  const orderingEnabled = canOrder(tier)
   const theme = getTemplateTheme(templateKey)
 
   return (
@@ -116,17 +114,9 @@ export default async function BusinessPage({ params }: Props) {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }}
       />
-      {orderingEnabled ? (
-        <OrderingWrapper business={business} accentColor={theme.colors.accent}>
-          <TemplateFactory templateId={templateKey} business={business} orderingActive />
-        </OrderingWrapper>
-      ) : isKuliner ? (
-        <OrderingWrapper business={business} accentColor={theme.colors.accent}>
-          <TemplateFactory templateId={templateKey} business={business} />
-        </OrderingWrapper>
-      ) : (
-        <TemplateFactory templateId={templateKey} business={business} />
-      )}
+      <OrderingWrapper business={business} accentColor={theme.colors.accent} category={category}>
+        <TemplateFactory templateId={templateKey} business={business} orderingActive={orderingEnabled} />
+      </OrderingWrapper>
     </>
   )
 }
