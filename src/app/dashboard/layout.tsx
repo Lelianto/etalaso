@@ -10,6 +10,51 @@ export const metadata: Metadata = {
   robots: { index: false, follow: false },
 }
 
+async function PendingOrNoClaim({ userId }: { userId: string }) {
+  const supabase = await createClient()
+
+  // Check if user has a pending claim
+  const { data: pendingClaim } = await supabase
+    .from('Claim')
+    .select('id, status, businessId, Business:businessId(name)')
+    .eq('userId', userId)
+    .eq('status', 'pending')
+    .limit(1)
+    .single()
+
+  if (pendingClaim) {
+    const biz = pendingClaim.Business as unknown as { name: string } | null
+    const businessName = biz?.name
+    return (
+      <div className="bg-blue-50 border border-blue-200 rounded-xl p-4 mb-6">
+        <div className="flex items-start gap-3">
+          <span className="text-xl">⏳</span>
+          <div>
+            <p className="text-blue-800 text-sm font-semibold">
+              Klaim Anda sedang ditinjau admin
+            </p>
+            <p className="text-blue-700 text-xs mt-1">
+              {businessName
+                ? <>Klaim untuk <strong>{businessName}</strong> sedang diproses. </>
+                : <>Klaim bisnis Anda sedang diproses. </>
+              }
+              Anda akan mendapat akses dashboard setelah admin menyetujui klaim dan pembayaran Anda.
+            </p>
+          </div>
+        </div>
+      </div>
+    )
+  }
+
+  return (
+    <div className="bg-amber-50 border border-amber-200 rounded-xl p-4 mb-6">
+      <p className="text-amber-800 text-sm font-medium">
+        Anda belum mengklaim bisnis. Cari bisnis Anda di halaman utama dan klik &quot;Klaim bisnis ini&quot;.
+      </p>
+    </div>
+  )
+}
+
 export default async function DashboardLayout({ children }: { children: React.ReactNode }) {
   const user = await requireAuth()
   const supabase = await createClient()
@@ -55,11 +100,7 @@ export default async function DashboardLayout({ children }: { children: React.Re
 
       <div className="max-w-5xl mx-auto px-4 py-6">
         {!business ? (
-          <div className="bg-amber-50 border border-amber-200 rounded-xl p-4 mb-6">
-            <p className="text-amber-800 text-sm font-medium">
-              Anda belum mengklaim bisnis. Cari bisnis Anda di halaman utama dan klik &quot;Klaim bisnis ini&quot;.
-            </p>
-          </div>
+          <PendingOrNoClaim userId={user.id} />
         ) : (
           <DashboardNav businessId={business.id} planId={profile?.planId || 'free'} />
         )}
