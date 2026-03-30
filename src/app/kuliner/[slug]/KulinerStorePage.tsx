@@ -1,7 +1,8 @@
 'use client'
 
 import Image from 'next/image'
-import { MapPin, Clock, Phone, Truck } from 'lucide-react'
+import Link from 'next/link'
+import { MapPin, Clock, Phone, Truck, ArrowLeft } from 'lucide-react'
 import { useCart, useCartActions } from '@/lib/ordering/cart'
 import { KULINER_SUBCATEGORIES, DELIVERY_METHODS, OPERATING_DAYS } from '@/lib/kuliner/constants'
 import type { BusinessData } from '@/components/templates/types'
@@ -45,7 +46,14 @@ export default function KulinerStorePage({ store }: KulinerStorePageProps) {
     <div className="min-h-screen bg-[var(--background)]">
       {/* Header */}
       <div className="bg-white border-b border-neutral-100">
-        <div className="max-w-2xl mx-auto px-4 pt-6 pb-5">
+        <div className="max-w-2xl mx-auto px-4 pt-4 pb-5">
+          <Link
+            href="/kuliner"
+            className="flex items-center gap-1.5 text-sm text-neutral-500 hover:text-neutral-700 transition-colors mb-3"
+          >
+            <ArrowLeft size={16} />
+            <span>Kembali</span>
+          </Link>
           {/* Store image */}
           {store.imageUrl && (
             <div className="w-full h-48 rounded-2xl overflow-hidden mb-4 relative">

@@ -34,7 +34,15 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       url: pageUrl,
       locale: 'id_ID',
       siteName: 'Etalaso',
-      images: store.imageUrl ? [{ url: store.imageUrl }] : undefined,
+      images: store.imageUrl
+        ? [{ url: store.imageUrl, width: 1200, height: 630, alt: store.name }]
+        : undefined,
+    },
+    twitter: {
+      card: store.imageUrl ? 'summary_large_image' : 'summary',
+      title: `${store.name} — Kuliner Rumahan`,
+      description,
+      images: store.imageUrl ? [store.imageUrl] : undefined,
     },
   }
 }
@@ -77,7 +85,7 @@ export default async function KulinerStoreRoute({ params }: Props) {
         </OrderingWrapper>
       </WaClickTracker>
       <div className="fixed bottom-20 left-4 z-40 flex flex-col gap-2">
-        <ShareButtons url={pageUrl} title={store.name} />
+        <ShareButtons url={pageUrl} title={store.name} description={store.tagline || store.description || undefined} />
       </div>
     </>
   )

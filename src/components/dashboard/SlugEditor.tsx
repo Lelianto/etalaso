@@ -2,6 +2,7 @@
 
 import { useState } from 'react'
 import { useRouter } from 'next/navigation'
+import Link from 'next/link'
 
 interface SlugEditorProps {
   currentSlug: string | null
@@ -65,9 +66,9 @@ export default function SlugEditor({ currentSlug, planId }: SlugEditorProps) {
             <p className="text-sm font-semibold text-slate-700">Link Toko Kustom</p>
             <p className="text-xs text-slate-400 mt-0.5">Upgrade ke UMKM untuk custom URL</p>
           </div>
-          <a href="/dashboard/upgrade" className="text-xs font-semibold text-indigo-600 hover:underline">
+          <Link href="/dashboard/upgrade" className="text-xs font-semibold text-indigo-600 hover:underline">
             Upgrade →
-          </a>
+          </Link>
         </div>
       </div>
     )

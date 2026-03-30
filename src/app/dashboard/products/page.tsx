@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import { requireAuth } from '@/lib/auth/helpers'
 import { createClient } from '@/lib/supabase/server'
 import ProductManager from './ProductManager'
@@ -42,9 +43,9 @@ export default async function ProductsPage() {
         <div className="bg-white rounded-2xl border border-slate-200 p-8 text-center">
           <p className="text-slate-500 font-semibold mb-2">Fitur Produk Terkunci</p>
           <p className="text-slate-400 text-sm mb-4">Upgrade ke paket UMKM atau Business untuk menambahkan produk.</p>
-          <a href="/dashboard/upgrade" className="text-indigo-600 font-semibold text-sm hover:underline">
+          <Link href="/dashboard/upgrade" className="text-indigo-600 font-semibold text-sm hover:underline">
             Lihat Paket →
-          </a>
+          </Link>
         </div>
 
         {/* Show locked PDF CTA even on free tier */}

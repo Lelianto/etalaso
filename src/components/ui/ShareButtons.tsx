@@ -4,14 +4,14 @@ import { useState } from 'react'
 
 const BASE_URL = 'https://etalaso.com'
 
-export default function ShareButtons({ url, title }: { url: string; title: string }) {
+export default function ShareButtons({ url, title, description }: { url: string; title: string; description?: string }) {
   const [copied, setCopied] = useState(false)
   const fullUrl = `${BASE_URL}${url}`
 
   const handleShare = async () => {
     if (navigator.share) {
       try {
-        await navigator.share({ title, url: fullUrl })
+        await navigator.share({ title, text: description || title, url: fullUrl })
         return
       } catch {
         // User cancelled or not supported, fall through
@@ -27,7 +27,8 @@ export default function ShareButtons({ url, title }: { url: string; title: strin
     setTimeout(() => setCopied(false), 2000)
   }
 
-  const waShareUrl = `https://wa.me/?text=${encodeURIComponent(`${title} — ${fullUrl}`)}`
+  const waText = `🍽️ *${title}*\n${description ? `${description}\n` : ''}\nCek menu & pesan langsung di sini 👇\n${fullUrl}`
+  const waShareUrl = `https://wa.me/?text=${encodeURIComponent(waText)}`
   const fbShareUrl = `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(fullUrl)}`
 
   return (
