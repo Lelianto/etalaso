@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   alternates: { canonical: '/kuliner' },
 }
 
-export const revalidate = 1800
+export const dynamic = 'force-dynamic'
 
 export default async function KulinerListingPage() {
   const stores = await getKulinerStores(50)
