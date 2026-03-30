@@ -134,8 +134,12 @@ export default async function BusinessPage({ params }: Props) {
           <TemplateFactory templateId={templateKey} business={business} orderingActive={orderingEnabled} />
         </OrderingWrapper>
       </WaClickTracker>
-      {isFree && <ProductShowcase claimUrl={claimUrl} businessUrl={pageUrl} />}
-      {isUnclaimed && <ClaimBanner claimUrl={claimUrl} bannerText={getCategoryConfig(category).claimBannerText} />}
+      {isUnclaimed && (
+        <>
+          <ProductShowcase claimUrl={claimUrl} businessUrl={pageUrl} />
+          <ClaimBanner claimUrl={claimUrl} bannerText={getCategoryConfig(category).claimBannerText} />
+        </>
+      )}
       {isNewlyClaimed && (
         <div className="fixed top-0 left-0 right-0 z-50 bg-amber-50 border-b border-amber-200 px-4 py-2 text-center text-xs text-amber-800">
           Halaman ini baru diklaim. Jika Anda pemilik asli bisnis ini, <a href="mailto:support@etalaso.com" className="underline font-semibold">hubungi kami</a>.
