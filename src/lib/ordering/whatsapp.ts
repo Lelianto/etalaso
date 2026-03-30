@@ -45,6 +45,7 @@ interface OrderMessageParams {
   preferredDate?: string
   notes?: string
   proofUrl?: string
+  deliveryMethod?: string
 }
 
 export function generateOrderMessage({
@@ -56,6 +57,7 @@ export function generateOrderMessage({
   preferredDate,
   notes,
   proofUrl,
+  deliveryMethod,
 }: OrderMessageParams): string {
   const lines: string[] = []
 
@@ -73,6 +75,12 @@ export function generateOrderMessage({
   }
   if (preferredDate) {
     lines.push(`📅 Kapan: ${preferredDate}`)
+  }
+  if (deliveryMethod) {
+    const label = deliveryMethod === 'pickup' ? 'Ambil Sendiri'
+      : deliveryMethod === 'delivery' ? 'Diantar ke Pembeli'
+      : 'Kirim via Gojek/Grab (driver dipesan pembeli)'
+    lines.push(`🚚 Pengiriman: ${label}`)
   }
   if (notes) {
     lines.push(`📝 Catatan: ${notes}`)

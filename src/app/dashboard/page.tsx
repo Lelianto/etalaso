@@ -1,3 +1,5 @@
+export const dynamic = 'force-dynamic'
+
 import { requireAuth, getUserBusiness, getUserProfile } from '@/lib/auth/helpers'
 import { canOrder, canPreOrder } from '@/lib/ordering/tier'
 import EditProfileForm from './EditProfileForm'
@@ -41,7 +43,10 @@ export default async function DashboardPage() {
   }
 
   const planExpiresAt = profile?.planExpiresAt || null
-  const businessUrl = `/p/${(business.region || 'tangsel').toLowerCase().replace(/\s+/g, '-')}/${business.category || 'kuliner'}/${business.placeId}`
+  const isKulinerRumahan = business.businessType === 'kuliner_rumahan' || business.category === 'kuliner_rumahan'
+  const businessUrl = isKulinerRumahan
+    ? `/kuliner/${business.placeId}`
+    : `/p/${(business.region || 'tangsel').toLowerCase().replace(/\s+/g, '-')}/${business.category || 'kuliner'}/${business.placeId}`
 
   return (
     <div className="space-y-6">

@@ -1,6 +1,7 @@
 'use client'
 
 import { createClient } from '@/lib/supabase/browser'
+import { compressImage } from '@/lib/utils/compress-image'
 import { useRouter } from 'next/navigation'
 import { useState } from 'react'
 import Image from 'next/image'
@@ -63,10 +64,11 @@ export default function ClaimWizard({ business, userId, plans }: Props) {
     setError('')
 
     const supabase = createClient()
-    const fileName = `${userId}-${Date.now()}-${file.name}`
+    const compressed = await compressImage(file)
+    const fileName = `${userId}-${Date.now()}-${compressed.name}`
     const { data: upload, error: uploadErr } = await supabase.storage
       .from('payment-proofs')
-      .upload(fileName, file)
+      .upload(fileName, compressed, { contentType: compressed.type })
 
     if (uploadErr || !upload) {
       setError('Gagal upload bukti. Silakan coba lagi.')

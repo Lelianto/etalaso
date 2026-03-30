@@ -3,6 +3,8 @@ import { createClient } from '@/lib/supabase/server'
 import ProductManager from './ProductManager'
 import MenuPDFDownload from '@/components/dashboard/MenuPDFDownload'
 
+export const dynamic = 'force-dynamic'
+
 export default async function ProductsPage() {
   const user = await requireAuth()
   const supabase = await createClient()
@@ -15,7 +17,7 @@ export default async function ProductsPage() {
 
   const { data: business } = await supabase
     .from('Business')
-    .select('id, name, whatsappNumber')
+    .select('id, name, whatsappNumber, category, businessType')
     .eq('ownerId', user.id)
     .limit(1)
     .single()
@@ -30,7 +32,9 @@ export default async function ProductsPage() {
 
   const planId = profile?.planId || 'free'
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
-  const maxProducts = (profile?.plan as any)?.max_products || 0
+  const maxFromPlan = (profile?.plan as any)?.max_products ?? null
+  // Fallback if Plan join fails: business=50, umkm=20, free=3
+  const maxProducts = maxFromPlan ?? (planId === 'business' ? 50 : planId === 'umkm' ? 20 : 3)
 
   if (maxProducts === 0) {
     return (
@@ -58,7 +62,6 @@ export default async function ProductsPage() {
     .from('Product')
     .select('*')
     .eq('businessId', business.id)
-    .order('createdAt', { ascending: false })
 
   return (
     <div className="space-y-4">
@@ -71,6 +74,7 @@ export default async function ProductsPage() {
         businessId={business.id}
         products={products || []}
         maxProducts={maxProducts}
+        isKulinerRumahan={business.businessType === 'kuliner_rumahan' || business.category === 'kuliner_rumahan'}
       />
 
       {/* PDF download CTA — below the product list */}

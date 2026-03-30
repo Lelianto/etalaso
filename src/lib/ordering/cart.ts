@@ -21,6 +21,7 @@ export interface CartState {
   proofImageUrl: string
   notes: string
   preferredDate: string
+  deliveryMethod: string
 }
 
 type CartAction =
@@ -34,6 +35,7 @@ type CartAction =
   | { type: 'SET_PROOF_URL'; url: string }
   | { type: 'SET_NOTES'; notes: string }
   | { type: 'SET_PREFERRED_DATE'; date: string }
+  | { type: 'SET_DELIVERY_METHOD'; method: string }
   | { type: 'CLEAR_CART' }
   | { type: 'HYDRATE'; state: CartState }
 
@@ -46,6 +48,7 @@ const initialState: CartState = {
   proofImageUrl: '',
   notes: '',
   preferredDate: '',
+  deliveryMethod: '',
 }
 
 function cartReducer(state: CartState, action: CartAction): CartState {
@@ -89,12 +92,14 @@ function cartReducer(state: CartState, action: CartAction): CartState {
       return { ...state, notes: action.notes }
     case 'SET_PREFERRED_DATE':
       return { ...state, preferredDate: action.date }
+    case 'SET_DELIVERY_METHOD':
+      return { ...state, deliveryMethod: action.method }
     case 'CLEAR_CART':
       return { ...initialState, orderMode: state.orderMode, tableNumber: state.tableNumber }
     case 'HYDRATE': {
       const validModes: (OrderMode | null)[] = ['langsung', 'pesan-dulu', null]
       const mode = validModes.includes(action.state.orderMode) ? action.state.orderMode : null
-      return { ...action.state, orderMode: mode, notes: action.state.notes || '', preferredDate: action.state.preferredDate || '' }
+      return { ...action.state, orderMode: mode, notes: action.state.notes || '', preferredDate: action.state.preferredDate || '', deliveryMethod: action.state.deliveryMethod || '' }
     }
     default:
       return state
@@ -175,7 +180,7 @@ export function useCart() {
   if (!ctx) {
     // Return a safe no-op context when outside CartProvider
     return {
-      state: { items: [], orderMode: null, tableNumber: '', customerName: '', arrivalTime: '', proofImageUrl: '', notes: '', preferredDate: '' } as CartState,
+      state: { items: [], orderMode: null, tableNumber: '', customerName: '', arrivalTime: '', proofImageUrl: '', notes: '', preferredDate: '', deliveryMethod: '' } as CartState,
       dispatch: (() => {}) as React.Dispatch<CartAction>,
       itemCount: 0,
       total: 0,
@@ -210,6 +215,8 @@ export function useCartActions() {
       dispatch({ type: 'SET_NOTES', notes }), [dispatch]),
     setPreferredDate: useCallback((date: string) =>
       dispatch({ type: 'SET_PREFERRED_DATE', date }), [dispatch]),
+    setDeliveryMethod: useCallback((method: string) =>
+      dispatch({ type: 'SET_DELIVERY_METHOD', method }), [dispatch]),
     clearCart: useCallback(() =>
       dispatch({ type: 'CLEAR_CART' }), [dispatch]),
   }

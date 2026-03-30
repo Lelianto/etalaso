@@ -227,6 +227,51 @@ export default async function Home() {
         </div>
       </section>
 
+      {/* Kuliner Rumahan Banner */}
+      <section className="py-16 px-6 bg-gradient-to-r from-amber/5 via-orange-50 to-amber/5">
+        <div className="max-w-6xl mx-auto">
+          <div className="bg-white rounded-3xl border border-amber/20 p-8 sm:p-10 flex flex-col sm:flex-row items-center gap-8">
+            <div className="flex-1">
+              <div className="inline-flex items-center gap-2 text-sm font-semibold text-amber bg-amber/10 px-4 py-1.5 rounded-full mb-4">
+                <span className="text-lg">🍳</span> Baru! Kuliner Rumahan
+              </div>
+              <h2 className="font-[family-name:var(--font-display)] text-2xl sm:text-3xl text-charcoal leading-tight">
+                Jualan makanan dari rumah?<br />
+                <span className="text-amber">Terima pesanan via WhatsApp.</span>
+              </h2>
+              <p className="mt-3 text-neutral-500 text-sm leading-relaxed">
+                Katalog makanan online + keranjang belanja + pesan otomatis ke WhatsApp.
+                Gratis untuk semua usaha kuliner rumahan.
+              </p>
+              <div className="mt-6 flex flex-col sm:flex-row gap-3">
+                <Link
+                  href="/kuliner/daftar"
+                  className="inline-flex items-center justify-center gap-2 bg-amber text-white px-6 py-3 rounded-full text-sm font-semibold hover:bg-amber-light transition-all"
+                >
+                  Daftar Gratis
+                  <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                  </svg>
+                </Link>
+                <Link
+                  href="/kuliner"
+                  className="inline-flex items-center justify-center gap-2 border border-neutral-300 text-charcoal px-6 py-3 rounded-full text-sm font-medium hover:border-neutral-400 transition-all"
+                >
+                  Lihat Katalog
+                </Link>
+              </div>
+            </div>
+            <div className="hidden sm:grid grid-cols-2 gap-2 shrink-0 w-48">
+              {['🍛', '🍿', '🥤', '🍰'].map((icon, i) => (
+                <div key={i} className="bg-amber/5 rounded-xl p-4 text-center">
+                  <div className="text-2xl">{icon}</div>
+                </div>
+              ))}
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Categories */}
       <section className="py-20 px-6 bg-white/60">
         <div className="max-w-6xl mx-auto">

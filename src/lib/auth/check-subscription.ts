@@ -25,7 +25,7 @@ export async function checkAndDowngradeIfExpired(userId: string): Promise<string
   // Expired — downgrade
   await supabaseAdmin
     .from('UserProfile')
-    .update({ planId: 'free' })
+    .update({ planId: 'free', planExpiresAt: null })
     .eq('id', userId)
 
   await supabaseAdmin

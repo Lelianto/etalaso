@@ -1,6 +1,7 @@
 'use client'
 
 import { createClient } from '@/lib/supabase/browser'
+import { compressImage } from '@/lib/utils/compress-image'
 import { useRouter } from 'next/navigation'
 import { useState } from 'react'
 
@@ -29,11 +30,12 @@ export default function UpgradeClient({ plans, currentPlanId }: { plans: Plan[];
     setUploading(true)
     const supabase = createClient()
 
-    // Upload proof to Supabase Storage
-    const fileName = `${Date.now()}-${file.name}`
+    // Compress & upload proof to Supabase Storage
+    const compressed = await compressImage(file)
+    const fileName = `${Date.now()}-${compressed.name}`
     const { data: upload } = await supabase.storage
       .from('payment-proofs')
-      .upload(fileName, file)
+      .upload(fileName, compressed, { contentType: compressed.type })
 
     if (!upload) {
       setUploading(false)
@@ -54,7 +56,7 @@ export default function UpgradeClient({ plans, currentPlanId }: { plans: Plan[];
     }
 
     // Create payment record
-    await supabase.from('Payment').insert({
+    const { error: paymentError } = await supabase.from('Payment').insert({
       userId: user.id,
       planId: selectedPlan,
       amount: plan?.discountPrice ?? plan?.price ?? 0,
@@ -62,6 +64,10 @@ export default function UpgradeClient({ plans, currentPlanId }: { plans: Plan[];
     })
 
     setUploading(false)
+    if (paymentError) {
+      alert('Gagal mengirim bukti pembayaran. Silakan coba lagi.')
+      return
+    }
     setSubmitted(true)
   }
 

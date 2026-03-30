@@ -16,6 +16,7 @@ const navItems = [
   { href: '/admin/users', label: 'Pengguna' },
   { href: '/admin/outreach', label: 'Outreach' },
   { href: '/admin/pricing', label: 'Harga' },
+  { href: '/admin/subcategory-requests', label: 'Subkategori' },
 ]
 
 export default async function AdminLayout({ children }: { children: React.ReactNode }) {

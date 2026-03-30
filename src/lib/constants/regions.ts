@@ -1,5 +1,6 @@
 export const CATEGORIES = [
   { value: 'kuliner', label: 'Kuliner' },
+  { value: 'kuliner_rumahan', label: 'Kuliner Rumahan' },
   { value: 'otomotif', label: 'Bengkel & Otomotif' },
   { value: 'kecantikan', label: 'Salon & Kecantikan' },
   { value: 'jasa', label: 'Jasa' },

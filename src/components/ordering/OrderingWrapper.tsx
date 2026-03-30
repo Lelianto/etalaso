@@ -30,6 +30,7 @@ function OrderingInner({ business, accentColor, category, children }: OrderingWr
   const businessId = (business as unknown as Record<string, string>).id || ''
   const isFree = !business.subscriptionType || business.subscriptionType === 'free'
   const isKuliner = category === 'kuliner'
+  const isKulinerRumahan = category === 'kuliner_rumahan'
 
   const canOrderTier = canOrder(tier)
   const showPreOrder = canPreOrder(tier)
@@ -47,9 +48,9 @@ function OrderingInner({ business, accentColor, category, children }: OrderingWr
     }
   }, [searchParams, isKuliner, canOrderTier, showPreOrder, setTable, setOrderMode])
 
-  // Non-kuliner: auto-activate ordering on mount (no mode selector needed)
+  // Non-kuliner + kuliner_rumahan: auto-activate pesan-dulu on mount
   useEffect(() => {
-    if (!isKuliner && canOrderTier) {
+    if ((!isKuliner || isKulinerRumahan) && canOrderTier) {
       setOrderMode('pesan-dulu')
     }
     // eslint-disable-next-line react-hooks/exhaustive-deps

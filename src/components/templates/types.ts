@@ -16,12 +16,19 @@ export interface BusinessData {
   bankAccountNumber?: string | null
   bankAccountName?: string | null
   qrisImageUrl?: string | null
+  businessType?: string | null
+  tagline?: string | null
+  areaNote?: string | null
+  deliveryMethods?: string[]
+  operatingDays?: string[]
   products: Array<{
     id: string
     name: string
     price: string | null
     description: string | null
     imageUrl: string | null
+    subcategory?: string | null
+    availabilityNote?: string | null
   }>
   reviews: Array<{
     id: string

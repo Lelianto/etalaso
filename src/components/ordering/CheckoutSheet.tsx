@@ -8,6 +8,7 @@ import { generateOrderMessage, openWhatsApp } from '@/lib/ordering/whatsapp'
 import { getCategoryConfig } from '@/lib/ordering/category-config'
 import { isWithinOperatingHours } from '@/lib/ordering/time-validation'
 import { createClient } from '@/lib/supabase/browser'
+import { compressImage } from '@/lib/utils/compress-image'
 import Image from 'next/image'
 
 interface CheckoutSheetProps {
@@ -36,7 +37,7 @@ export default function CheckoutSheet({
   category,
 }: CheckoutSheetProps) {
   const { state, totalFormatted } = useCart()
-  const { setCustomerName, setArrivalTime, setProofUrl, setNotes, setPreferredDate, clearCart } = useCartActions()
+  const { setCustomerName, setArrivalTime, setProofUrl, setNotes, setPreferredDate, setDeliveryMethod, clearCart } = useCartActions()
   const [uploading, setUploading] = useState(false)
   const [timeWarning, setTimeWarning] = useState<string | undefined>()
 
@@ -50,21 +51,29 @@ export default function CheckoutSheet({
     setTimeWarning(result.warning)
   }
 
+  const [uploadError, setUploadError] = useState('')
+
   const handleUploadProof = async (file: File) => {
     setUploading(true)
+    setUploadError('')
     try {
       const supabase = createClient()
-      const fileName = `${businessId}/${Date.now()}-${file.name}`
+      const compressed = await compressImage(file)
+      const fileName = `${businessId}/${Date.now()}-${compressed.name}`
       const { data: upload } = await supabase.storage
         .from('payment-proofs')
-        .upload(fileName, file)
+        .upload(fileName, compressed, { contentType: compressed.type })
 
       if (upload) {
         const { data: { publicUrl } } = supabase.storage
           .from('payment-proofs')
           .getPublicUrl(fileName)
         setProofUrl(publicUrl)
+      } else {
+        setUploadError('Gagal upload bukti. Coba lagi.')
       }
+    } catch {
+      setUploadError('Gagal upload bukti. Coba lagi.')
     } finally {
       setUploading(false)
     }
@@ -92,6 +101,7 @@ export default function CheckoutSheet({
       ),
       notes: config.showNotes && state.notes ? state.notes : undefined,
       proofUrl: state.proofImageUrl || undefined,
+      deliveryMethod: state.deliveryMethod || undefined,
     })
 
     openWhatsApp(business.whatsappNumber, message)
@@ -101,7 +111,7 @@ export default function CheckoutSheet({
 
   // Validation
   const hasItems = state.items.length > 0
-  const proofRequired = category === 'kuliner' && hasPaymentInfo && !isLangsung
+  const proofRequired = (category === 'kuliner' || category === 'kuliner_rumahan') && hasPaymentInfo && !isLangsung
   const canSend = hasItems && (
     isLangsung
       ? !!state.tableNumber
@@ -195,6 +205,42 @@ export default function CheckoutSheet({
                         placeholder="Masukkan nama"
                         className="w-full px-4 py-3 rounded-xl border border-slate-200 text-sm focus:outline-none focus:ring-2 focus:ring-indigo-500"
                       />
+                    </div>
+                  )}
+
+                  {/* Delivery method — for kuliner_rumahan only */}
+                  {category === 'kuliner_rumahan' && !isLangsung && (
+                    <div>
+                      <label className="text-xs font-semibold text-slate-500 uppercase mb-2 block">
+                        Metode Pengiriman
+                      </label>
+                      <div className="grid grid-cols-3 gap-2">
+                        {[
+                          { value: 'pickup', label: 'Ambil Sendiri', icon: '🏃' },
+                          { value: 'delivery', label: 'Diantar', icon: '📦' },
+                          { value: 'gojek_grab', label: 'Gojek/Grab', icon: '🛵' },
+                        ].map(method => (
+                          <button
+                            key={method.value}
+                            type="button"
+                            onClick={() => setDeliveryMethod(method.value)}
+                            className={`p-3 rounded-xl border-2 text-center transition-all ${
+                              state.deliveryMethod === method.value
+                                ? 'border-indigo-500 bg-indigo-50'
+                                : 'border-slate-200 hover:border-slate-300'
+                            }`}
+                          >
+                            <div className="text-lg">{method.icon}</div>
+                            <div className="text-xs font-semibold mt-1">{method.label}</div>
+                          </button>
+                        ))}
+                      </div>
+                      {state.deliveryMethod === 'gojek_grab' && (
+                        <p className="text-xs text-slate-400 mt-1.5">Driver dipesan oleh pembeli setelah konfirmasi pesanan</p>
+                      )}
+                      {state.deliveryMethod === 'delivery' && (
+                        <p className="text-xs text-slate-400 mt-1.5">Penjual mengantar langsung ke lokasi Anda</p>
+                      )}
                     </div>
                   )}
 
@@ -306,6 +352,7 @@ export default function CheckoutSheet({
                         />
                       </label>
                     )}
+                    {uploadError && <p className="text-xs text-red-500 mt-1">{uploadError}</p>}
                   </div>}
 
                   {/* No payment info notice */}

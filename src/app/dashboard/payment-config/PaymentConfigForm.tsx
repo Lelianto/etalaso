@@ -1,6 +1,7 @@
 'use client'
 
 import { createClient } from '@/lib/supabase/browser'
+import { compressImage } from '@/lib/utils/compress-image'
 import Image from 'next/image'
 import { useRouter } from 'next/navigation'
 import { useState } from 'react'
@@ -33,14 +34,15 @@ export default function PaymentConfigForm({ businessId, initial }: PaymentConfig
   const handleQrisUpload = async (file: File) => {
     setUploading(true)
     const supabase = createClient()
-    const fileName = `qris/${businessId}/${Date.now()}-${file.name}`
+    const compressed = await compressImage(file)
+    const fileName = `qris/${businessId}/${Date.now()}-${compressed.name}`
     const { data: upload } = await supabase.storage
-      .from('product-images')
-      .upload(fileName, file)
+      .from('payment-proofs')
+      .upload(fileName, compressed, { contentType: compressed.type })
 
     if (upload) {
       const { data: { publicUrl } } = supabase.storage
-        .from('product-images')
+        .from('payment-proofs')
         .getPublicUrl(fileName)
       setQrisImageUrl(publicUrl)
     }
@@ -76,7 +78,7 @@ export default function PaymentConfigForm({ businessId, initial }: PaymentConfig
           <select
             value={bankName}
             onChange={(e) => setBankName(e.target.value)}
-            className="w-full border border-slate-200 rounded-xl p-3 text-sm focus:outline-none focus:ring-2 focus:ring-indigo-500"
+            className="w-full border border-slate-200 rounded-xl p-3 pr-10 text-sm focus:outline-none focus:ring-2 focus:ring-indigo-500 bg-white"
           >
             <option value="">Pilih Bank</option>
             {BANK_OPTIONS.map(b => <option key={b} value={b}>{b}</option>)}
