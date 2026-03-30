@@ -84,16 +84,14 @@ export default function TemplateSwitcher({ business }: { business: BusinessData 
       {/* ─── Top bar ─── */}
       <div className="fixed top-0 left-0 right-0 z-50 bg-black/90 backdrop-blur-xl border-b border-white/10">
         <div className="flex items-center gap-2 px-3 py-2">
-          {/* Back to business */}
-          {fromUrl && (
-            <Link
-              href={fromUrl}
-              className="text-white/70 hover:text-white p-1.5 rounded-lg hover:bg-white/10 shrink-0"
-              title="Kembali ke halaman bisnis"
-            >
-              <svg className="w-4 h-4" fill="none" stroke="currentColor" strokeWidth={2.5} viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" d="M10 19l-7-7m0 0l7-7m-7 7h18" /></svg>
-            </Link>
-          )}
+          {/* Back button — to referring page or homepage */}
+          <Link
+            href={fromUrl || '/'}
+            className="text-white/70 hover:text-white p-1.5 rounded-lg hover:bg-white/10 shrink-0"
+            title={fromUrl ? 'Kembali ke halaman bisnis' : 'Kembali ke homepage'}
+          >
+            <svg className="w-4 h-4" fill="none" stroke="currentColor" strokeWidth={2.5} viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" d="M10 19l-7-7m0 0l7-7m-7 7h18" /></svg>
+          </Link>
           {/* Prev/Next */}
           <button onClick={goPrev} className="text-white/70 hover:text-white p-1.5 rounded-lg hover:bg-white/10">
             <svg className="w-4 h-4" fill="none" stroke="currentColor" strokeWidth={2.5} viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" d="M15 19l-7-7 7-7" /></svg>
