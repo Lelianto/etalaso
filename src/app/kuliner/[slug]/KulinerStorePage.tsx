@@ -103,11 +103,13 @@ export default function KulinerStorePage({ store }: KulinerStorePageProps) {
             <div className="mt-3 flex flex-wrap gap-2">
               {store.deliveryMethods.map(dm => {
                 const method = DELIVERY_METHODS.find(m => m.value === dm)
-                return method ? (
+                if (!method) return null
+                const note = dm === 'gojek_grab' ? ' (dipesan pembeli)' : ''
+                return (
                   <span key={dm} className="inline-flex items-center gap-1 text-xs text-amber bg-amber/10 px-2.5 py-1 rounded-full font-medium">
-                    <Truck size={12} /> {method.label}
+                    <Truck size={12} /> {method.label}{note}
                   </span>
-                ) : null
+                )
               })}
             </div>
           )}

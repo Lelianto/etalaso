@@ -7,6 +7,7 @@ import UpgradeNudge from '@/components/ordering/UpgradeNudge'
 import VisitorStats from '@/components/dashboard/VisitorStats'
 import TrialCountdown from '@/components/dashboard/TrialCountdown'
 import ShareButtons from '@/components/ui/ShareButtons'
+import SlugEditor from '@/components/dashboard/SlugEditor'
 import Link from 'next/link'
 
 export default async function DashboardPage() {
@@ -23,7 +24,8 @@ export default async function DashboardPage() {
   }
 
   const planId = profile?.planId || 'free'
-  const canEdit = planId !== 'free'
+  const isKulinerRumahan = business.businessType === 'kuliner_rumahan' || business.category === 'kuliner_rumahan'
+  const canEdit = true
 
   // Setup completeness check for all businesses with paid plans
   const setupIssues: { label: string; href: string; icon: string }[] = []
@@ -43,9 +45,8 @@ export default async function DashboardPage() {
   }
 
   const planExpiresAt = profile?.planExpiresAt || null
-  const isKulinerRumahan = business.businessType === 'kuliner_rumahan' || business.category === 'kuliner_rumahan'
   const businessUrl = isKulinerRumahan
-    ? `/kuliner/${business.placeId}`
+    ? `/kuliner/${business.customSlug || business.placeId}`
     : `/p/${(business.region || 'tangsel').toLowerCase().replace(/\s+/g, '-')}/${business.category || 'kuliner'}/${business.placeId}`
 
   return (
@@ -116,8 +117,8 @@ export default async function DashboardPage() {
       {planId === 'umkm' && <UpgradeNudge />}
 
       {/* Business page link + share */}
-      <div className="bg-white rounded-2xl shadow-sm border border-slate-200 p-6">
-        <h2 className="text-lg font-bold text-slate-800 mb-4">Halaman Bisnis Anda</h2>
+      <div className="bg-white rounded-2xl shadow-sm border border-slate-200 p-6 space-y-4">
+        <h2 className="text-lg font-bold text-slate-800">Halaman Bisnis Anda</h2>
         <div className="flex items-center gap-3">
           <a
             href={businessUrl}
@@ -130,6 +131,10 @@ export default async function DashboardPage() {
             <ShareButtons url={businessUrl} title={business.name} />
           </div>
         </div>
+
+        {isKulinerRumahan && (
+          <SlugEditor currentSlug={business.customSlug || null} planId={planId} />
+        )}
       </div>
     </div>
   )

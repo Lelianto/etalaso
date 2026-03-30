@@ -80,7 +80,7 @@ export default async function KulinerListingPage() {
               {stores.map(store => (
                   <Link
                     key={store.id}
-                    href={`/kuliner/${store.placeId}`}
+                    href={`/kuliner/${store.customSlug || store.placeId}`}
                     className="group bg-white rounded-2xl border border-neutral-100 p-5 hover:border-amber/40 hover:shadow-lg hover:shadow-amber/5 transition-all"
                   >
                     <div className="flex items-start justify-between gap-2">
@@ -130,6 +130,20 @@ export default async function KulinerListingPage() {
           </h2>
           <p className="mt-3 text-neutral-400 text-sm">
             Daftarkan gratis dan terima pesanan via WhatsApp. Tanpa biaya, tanpa komisi.
+          </p>
+          <div className="mt-5 flex flex-wrap justify-center gap-3 text-sm">
+            <span className="inline-flex items-center gap-1.5 text-neutral-300 bg-white/10 px-3 py-1.5 rounded-full">
+              🍽️ Katalog online
+            </span>
+            <span className="inline-flex items-center gap-1.5 text-neutral-300 bg-white/10 px-3 py-1.5 rounded-full">
+              💬 Pesan via WA
+            </span>
+            <span className="inline-flex items-center gap-1.5 text-amber bg-amber/10 px-3 py-1.5 rounded-full font-medium">
+              🔗 Link kustom
+            </span>
+          </div>
+          <p className="mt-3 text-neutral-500 text-xs">
+            Dapatkan link seperti <span className="font-mono text-amber">etalaso.id/kuliner/nama-toko</span>
           </p>
           <Link
             href="/kuliner/daftar"

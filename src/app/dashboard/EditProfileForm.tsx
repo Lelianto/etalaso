@@ -18,11 +18,12 @@ interface Props {
     deliveryMethods?: string[]
     operatingDays?: string[]
     businessType?: string | null
+    category?: string | null
   }
 }
 
 export default function EditProfileForm({ business }: Props) {
-  const isKulinerRumahan = business.businessType === 'kuliner_rumahan'
+  const isKulinerRumahan = business.businessType === 'kuliner_rumahan' || business.category === 'kuliner_rumahan'
   const [form, setForm] = useState({
     description: business.description || '',
     whatsappNumber: business.whatsappNumber || '',

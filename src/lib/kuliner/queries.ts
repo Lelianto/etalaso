@@ -3,7 +3,18 @@ import supabase from '@/lib/db/supabase'
 export async function getKulinerStore(slug: string) {
   const sanitized = slug.replace(/[,()]/g, '')
 
-  // Try placeId first
+  // Try customSlug first (pretty URL)
+  const { data: bySlug } = await supabase
+    .from('Business')
+    .select('*, products:Product(*)')
+    .eq('customSlug', sanitized)
+    .eq('businessType', 'kuliner_rumahan')
+    .limit(1)
+    .single()
+
+  if (bySlug) return bySlug
+
+  // Try placeId
   const { data: byPlaceId } = await supabase
     .from('Business')
     .select('*, products:Product(*)')
@@ -29,7 +40,7 @@ export async function getKulinerStore(slug: string) {
 export async function getKulinerStores(limit = 20) {
   const { data } = await supabase
     .from('Business')
-    .select('id, placeId, name, tagline, areaNote, imageUrl, operatingDays, deliveryMethods, category, kecamatan, region')
+    .select('id, placeId, customSlug, name, tagline, areaNote, imageUrl, operatingDays, deliveryMethods, category, kecamatan, region')
     .eq('businessType', 'kuliner_rumahan')
     .eq('isClaimed', true)
     .order('createdAt', { ascending: false })

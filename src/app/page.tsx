@@ -243,6 +243,9 @@ export default async function Home() {
                 Katalog makanan online + keranjang belanja + pesan otomatis ke WhatsApp.
                 Gratis untuk semua usaha kuliner rumahan.
               </p>
+              <p className="mt-2 text-xs text-amber font-medium">
+                🔗 Dapatkan link kustom: <span className="font-mono">etalaso.id/kuliner/nama-toko</span>
+              </p>
               <div className="mt-6 flex flex-col sm:flex-row gap-3">
                 <Link
                   href="/kuliner/daftar"
