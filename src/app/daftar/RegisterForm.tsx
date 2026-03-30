@@ -256,9 +256,6 @@ export default function RegisterForm() {
             {loading ? 'Mendaftarkan...' : 'Daftarkan Bisnis — Gratis'}
           </button>
 
-          <p className="text-xs text-neutral-400 text-center">
-            Setelah mendaftar, Anda bisa upgrade ke paket UMKM atau Business untuk fitur premium.
-          </p>
         </form>
       </main>
     </div>
