@@ -2,6 +2,9 @@ import { requireAuth, getUserBusiness, getUserProfile } from '@/lib/auth/helpers
 import { canOrder, canPreOrder } from '@/lib/ordering/tier'
 import EditProfileForm from './EditProfileForm'
 import UpgradeNudge from '@/components/ordering/UpgradeNudge'
+import VisitorStats from '@/components/dashboard/VisitorStats'
+import TrialCountdown from '@/components/dashboard/TrialCountdown'
+import ShareButtons from '@/components/ui/ShareButtons'
 import Link from 'next/link'
 
 export default async function DashboardPage() {
@@ -37,8 +40,19 @@ export default async function DashboardPage() {
     }
   }
 
+  const planExpiresAt = profile?.planExpiresAt || null
+  const businessUrl = `/p/${(business.region || 'tangsel').toLowerCase().replace(/\s+/g, '-')}/${business.category || 'kuliner'}/${business.placeId}`
+
   return (
     <div className="space-y-6">
+      {/* Trial countdown */}
+      {planExpiresAt && planId !== 'free' && (
+        <TrialCountdown expiresAt={planExpiresAt} planId={planId} />
+      )}
+
+      {/* Visitor stats */}
+      <VisitorStats planId={planId} />
+
       {/* Setup completeness warning */}
       {setupIssues.length > 0 && (
         <div className="bg-amber-50 border border-amber-200 rounded-2xl p-5">
@@ -96,16 +110,21 @@ export default async function DashboardPage() {
       {/* Upgrade nudge for UMKM tier */}
       {planId === 'umkm' && <UpgradeNudge />}
 
-      {/* Quick Stats */}
+      {/* Business page link + share */}
       <div className="bg-white rounded-2xl shadow-sm border border-slate-200 p-6">
         <h2 className="text-lg font-bold text-slate-800 mb-4">Halaman Bisnis Anda</h2>
-        <a
-          href={`/p/${(business.region || 'tangsel').toLowerCase().replace(/\s+/g, '-')}/${business.category || 'kuliner'}/${business.placeId}`}
-          target="_blank"
-          className="text-indigo-600 font-semibold text-sm hover:underline"
-        >
-          Lihat halaman bisnis →
-        </a>
+        <div className="flex items-center gap-3">
+          <a
+            href={businessUrl}
+            target="_blank"
+            className="text-indigo-600 font-semibold text-sm hover:underline"
+          >
+            Lihat halaman bisnis →
+          </a>
+          <div className="flex gap-1.5">
+            <ShareButtons url={businessUrl} title={business.name} />
+          </div>
+        </div>
       </div>
     </div>
   )

@@ -1,6 +1,5 @@
 import React from 'react'
-import Link from 'next/link'
-import { BusinessData, getWhatsAppLink, getReviews, getOpeningHours, shouldShowBadge, getClaimUrl } from '../types'
+import { BusinessData, getWhatsAppLink, getReviews, getOpeningHours, shouldShowBadge } from '../types'
 import EtalasoBadge from '../EtalasoBadge'
 
 export default function MinimalistTemplate({ business }: { business: BusinessData }) {
@@ -81,13 +80,8 @@ export default function MinimalistTemplate({ business }: { business: BusinessDat
         </section>
       </main>
 
-      <footer className="py-12 px-6 text-center text-slate-400 text-sm border-t border-slate-200 mt-24">
+      <footer className="py-12 pb-16 px-6 text-center text-slate-400 text-sm border-t border-slate-200 mt-24">
         <p>&copy; {new Date().getFullYear()} {business.name}</p>
-        {shouldShowBadge(business) && (
-          <Link href={getClaimUrl(business)} className="inline-flex items-center gap-2 mt-4 px-6 py-3 bg-blue-600 text-white rounded-full text-xs font-bold hover:bg-blue-700 transition-colors">
-            Ini bisnis Anda? Klaim sekarang →
-          </Link>
-        )}
       </footer>
     </div>
   )

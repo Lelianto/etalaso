@@ -5,6 +5,7 @@ import type { Metadata } from 'next'
 import Image from 'next/image'
 import Link from 'next/link'
 import DashboardNav from './DashboardNav'
+import LogoutButton from '@/components/ui/LogoutButton'
 
 export const metadata: Metadata = {
   title: 'Dashboard | Etalaso',
@@ -97,6 +98,7 @@ export default async function DashboardLayout({ children }: { children: React.Re
               <span className="text-sm font-medium text-slate-700 hidden sm:block">
                 {profile?.name || user.email}
               </span>
+              <LogoutButton />
             </div>
           </div>
         </div>

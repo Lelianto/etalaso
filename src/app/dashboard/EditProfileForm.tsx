@@ -3,6 +3,7 @@
 import { createClient } from '@/lib/supabase/browser'
 import { useRouter } from 'next/navigation'
 import { useState } from 'react'
+import { checkProfanity } from '@/lib/moderation'
 
 interface Props {
   business: {
@@ -22,9 +23,18 @@ export default function EditProfileForm({ business }: Props) {
   })
   const [saving, setSaving] = useState(false)
   const [saved, setSaved] = useState(false)
+  const [error, setError] = useState('')
   const router = useRouter()
 
   const handleSave = async () => {
+    // Check for profanity in editable fields
+    const textToCheck = `${form.description} ${form.openingHours}`
+    const badWord = checkProfanity(textToCheck)
+    if (badWord) {
+      setError('Konten mengandung kata yang tidak diperbolehkan. Silakan ubah dan coba lagi.')
+      return
+    }
+    setError('')
     setSaving(true)
     const supabase = createClient()
     await supabase
@@ -84,6 +94,10 @@ export default function EditProfileForm({ business }: Props) {
           className="w-full border border-slate-200 rounded-xl p-3 text-sm focus:outline-none focus:ring-2 focus:ring-indigo-500"
         />
       </div>
+
+      {error && (
+        <div className="bg-red-50 text-red-700 text-sm rounded-xl p-3">{error}</div>
+      )}
 
       <button
         onClick={handleSave}

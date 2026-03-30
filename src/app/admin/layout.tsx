@@ -1,6 +1,7 @@
 import { requireAdmin } from '@/lib/auth/helpers'
 import type { Metadata } from 'next'
 import Link from 'next/link'
+import LogoutButton from '@/components/ui/LogoutButton'
 
 export const metadata: Metadata = {
   title: 'Admin Panel | Etalaso',
@@ -13,6 +14,7 @@ const navItems = [
   { href: '/admin/payments', label: 'Pembayaran' },
   { href: '/admin/businesses', label: 'Bisnis' },
   { href: '/admin/users', label: 'Pengguna' },
+  { href: '/admin/outreach', label: 'Outreach' },
 ]
 
 export default async function AdminLayout({ children }: { children: React.ReactNode }) {
@@ -43,6 +45,7 @@ export default async function AdminLayout({ children }: { children: React.ReactN
               Dashboard →
             </Link>
             <span className="text-sm text-slate-400">{profile.name || profile.email}</span>
+            <LogoutButton />
           </div>
         </div>
         {/* Mobile nav */}

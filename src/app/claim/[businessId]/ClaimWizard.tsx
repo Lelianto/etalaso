@@ -5,6 +5,7 @@ import { useRouter } from 'next/navigation'
 import { useState } from 'react'
 import Image from 'next/image'
 import { getCategoryConfig } from '@/lib/ordering/category-config'
+import PromoCounter from '@/components/ui/PromoCounter'
 
 interface Plan {
   id: string
@@ -80,41 +81,39 @@ export default function ClaimWizard({ business, userId, plans }: Props) {
     setUploading(false)
   }
 
+  const [autoApproved, setAutoApproved] = useState(false)
+  const [trialEndsAt, setTrialEndsAt] = useState<string | null>(null)
+
   const submitClaim = async () => {
     setStep('submitting')
     setError('')
 
-    const supabase = createClient()
-
-    // 1. Create claim
-    const { error: claimErr } = await supabase.from('Claim').insert({
-      businessId: business.id,
-      userId,
-      message: isPaid ? `Paket: ${plan?.name}` : null,
-    })
-
-    if (claimErr) {
-      setError('Gagal mengirim klaim. Silakan coba lagi.')
-      setStep(isPaid ? 'payment' : 'plan')
-      return
-    }
-
-    // 2. If paid plan, create payment record
-    if (isPaid && proofUrl) {
-      const { error: payErr } = await supabase.from('Payment').insert({
-        userId,
-        planId: selectedPlan,
-        amount: plan?.price || 0,
-        proof_url: proofUrl,
+    try {
+      const res = await fetch('/api/claim', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          businessId: business.id,
+          planId: selectedPlan,
+          proofUrl: isPaid ? proofUrl : undefined,
+        }),
       })
 
-      if (payErr) {
-        // Claim submitted but payment failed — still show success
-        console.error('Payment record failed:', payErr.message)
-      }
-    }
+      const data = await res.json()
 
-    setStep('done')
+      if (!res.ok) {
+        setError(data.error || 'Gagal mengirim klaim. Silakan coba lagi.')
+        setStep(isPaid ? 'payment' : 'plan')
+        return
+      }
+
+      setAutoApproved(data.autoApproved || false)
+      setTrialEndsAt(data.trialEndsAt || null)
+      setStep('done')
+    } catch {
+      setError('Gagal mengirim klaim. Silakan coba lagi.')
+      setStep(isPaid ? 'payment' : 'plan')
+    }
   }
 
   // ─── Step: Done ───
@@ -122,20 +121,38 @@ export default function ClaimWizard({ business, userId, plans }: Props) {
     return (
       <div className="min-h-screen bg-slate-50 flex items-center justify-center px-4">
         <div className="bg-white rounded-2xl shadow-lg p-8 max-w-md text-center">
-          <div className="text-5xl mb-4">🎉</div>
+          <div className="text-5xl mb-4">{autoApproved ? '🎉' : '📨'}</div>
           <h1 className="text-xl font-bold text-slate-800 mb-2">
-            Klaim & {isPaid ? 'Bukti Pembayaran' : 'Pendaftaran'} Terkirim!
+            {autoApproved
+              ? 'Selamat! Bisnis Anda Berhasil Diklaim!'
+              : `Klaim & ${isPaid ? 'Bukti Pembayaran' : 'Pendaftaran'} Terkirim!`
+            }
           </h1>
-          <p className="text-slate-500 text-sm mb-2">
-            Admin kami akan meninjau dalam <strong>1x24 jam</strong>.
-          </p>
-          <p className="text-slate-400 text-xs mb-6">
-            Anda akan mendapat notifikasi via email setelah disetujui.
-          </p>
+          {autoApproved ? (
+            <>
+              <p className="text-slate-500 text-sm mb-2">
+                Anda mendapat <strong>trial UMKM 7 hari gratis</strong> — akses semua fitur premium!
+              </p>
+              {trialEndsAt && (
+                <p className="text-indigo-600 text-xs font-semibold mb-4">
+                  Trial berakhir: {new Date(trialEndsAt).toLocaleDateString('id-ID', { day: 'numeric', month: 'long', year: 'numeric' })}
+                </p>
+              )}
+            </>
+          ) : (
+            <>
+              <p className="text-slate-500 text-sm mb-2">
+                Admin kami akan meninjau dalam <strong>1x24 jam</strong>.
+              </p>
+              <p className="text-slate-400 text-xs mb-4">
+                Anda akan mendapat notifikasi via email setelah disetujui.
+              </p>
+            </>
+          )}
           <div className="bg-indigo-50 rounded-xl p-4 mb-6 text-left text-sm">
             <p className="font-bold text-indigo-800 mb-2">Ringkasan:</p>
             <p className="text-indigo-700">Bisnis: <strong>{business.name}</strong></p>
-            <p className="text-indigo-700">Paket: <strong>{plan?.name}</strong></p>
+            <p className="text-indigo-700">Paket: <strong>{autoApproved ? 'UMKM (Trial 7 Hari)' : plan?.name}</strong></p>
             {isPaid && (
               <p className="text-indigo-700">Pembayaran: <strong>Rp {plan?.price.toLocaleString('id-ID')}</strong></p>
             )}
@@ -351,10 +368,35 @@ export default function ClaimWizard({ business, userId, plans }: Props) {
                       </span>
                     </div>
                   </div>
+                  {/* Cetak Menu PDF */}
+                  <div className="flex items-start gap-3 bg-white/70 rounded-lg p-3">
+                    <div className="w-8 h-8 rounded-lg bg-rose-100 flex items-center justify-center shrink-0">
+                      <svg className="w-4 h-4 text-rose-600" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                        <path strokeLinecap="round" strokeLinejoin="round" d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z" />
+                        <polyline points="14 2 14 8 20 8" />
+                        <line x1="12" y1="18" x2="12" y2="12" />
+                        <line x1="9" y1="15" x2="15" y2="15" />
+                      </svg>
+                    </div>
+                    <div>
+                      <p className="font-semibold text-slate-800 text-sm">Cetak Lembaran Menu (PDF)</p>
+                      <p className="text-slate-500 text-xs mt-0.5">
+                        Download daftar menu siap cetak dengan desain profesional. Tempel di meja, dinding, atau etalase toko.
+                      </p>
+                      <span className="inline-block mt-1.5 px-2 py-0.5 bg-rose-50 text-rose-600 text-[10px] font-bold rounded-full">
+                        Paket UMKM &amp; Business
+                      </span>
+                    </div>
+                  </div>
                 </div>
               </div>
             )
           })()}
+
+          {/* Promo counter */}
+          <div className="mb-4">
+            <PromoCounter variant="inline" />
+          </div>
 
           {/* Plan cards */}
           <div className="space-y-3 mb-6">
@@ -405,10 +447,16 @@ export default function ClaimWizard({ business, userId, plans }: Props) {
                     ))}
                     {/* Ordering features on plan cards */}
                     {(p.id === 'umkm' || p.id === 'business') && (
-                      <li className="flex items-start gap-2 text-xs text-indigo-600 font-medium">
-                        <span className="shrink-0 mt-0.5">{getCategoryConfig(business.category?.toLowerCase() || '').messageEmoji}</span>
-                        Pemesanan via WhatsApp
-                      </li>
+                      <>
+                        <li className="flex items-start gap-2 text-xs text-indigo-600 font-medium">
+                          <span className="shrink-0 mt-0.5">{getCategoryConfig(business.category?.toLowerCase() || '').messageEmoji}</span>
+                          Pemesanan via WhatsApp
+                        </li>
+                        <li className="flex items-start gap-2 text-xs text-rose-600 font-medium">
+                          <span className="shrink-0 mt-0.5">📄</span>
+                          Cetak lembaran menu (PDF)
+                        </li>
+                      </>
                     )}
                   </ul>
                 </button>
@@ -427,10 +475,18 @@ export default function ClaimWizard({ business, userId, plans }: Props) {
             {isPaid ? 'Lanjut ke Pembayaran' : 'Klaim Gratis'}
           </button>
 
-          <p className="text-xs text-slate-400 text-center mt-4">
+          {!isPaid && (
+            <div className="bg-green-50 border border-green-200 rounded-xl p-3 mt-4">
+              <p className="text-green-800 text-xs text-center font-medium">
+                Klaim gratis langsung disetujui + <strong>trial UMKM 7 hari</strong> (edit profil, template, QR code, analytics)
+              </p>
+            </div>
+          )}
+
+          <p className="text-xs text-slate-400 text-center mt-3">
             {isPaid
               ? 'Anda akan diminta upload bukti pembayaran QRIS di langkah selanjutnya'
-              : 'Admin akan meninjau klaim Anda dalam 1x24 jam'}
+              : 'Langsung aktif tanpa menunggu review admin'}
           </p>
         </div>
       </div>

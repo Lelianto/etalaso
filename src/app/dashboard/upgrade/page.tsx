@@ -1,6 +1,7 @@
 import { requireAuth, getUserProfile } from '@/lib/auth/helpers'
 import { createClient } from '@/lib/supabase/server'
 import UpgradeClient from './UpgradeClient'
+import PromoCounter from '@/components/ui/PromoCounter'
 
 export default async function UpgradePage() {
   await requireAuth()
@@ -14,6 +15,8 @@ export default async function UpgradePage() {
 
   return (
     <div className="space-y-6">
+      <PromoCounter />
+
       <div>
         <h2 className="text-xl font-bold text-slate-800">Pilih Paket</h2>
         <p className="text-slate-500 text-sm mt-1">

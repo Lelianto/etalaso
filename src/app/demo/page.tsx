@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { Suspense } from 'react'
 import TemplateSwitcher from './TemplateSwitcher'
 
 // Fictional demo data — all names, numbers, and addresses are fake
@@ -37,5 +37,9 @@ const DEMO_BUSINESS = {
 }
 
 export default function DemoPage() {
-  return <TemplateSwitcher business={DEMO_BUSINESS} />
+  return (
+    <Suspense>
+      <TemplateSwitcher business={DEMO_BUSINESS} />
+    </Suspense>
+  )
 }

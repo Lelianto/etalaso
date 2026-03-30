@@ -1,6 +1,7 @@
 import { requireAuth } from '@/lib/auth/helpers'
 import { createClient } from '@/lib/supabase/server'
 import ProductManager from './ProductManager'
+import MenuPDFDownload from '@/components/dashboard/MenuPDFDownload'
 
 export default async function ProductsPage() {
   const user = await requireAuth()
@@ -14,7 +15,7 @@ export default async function ProductsPage() {
 
   const { data: business } = await supabase
     .from('Business')
-    .select('id')
+    .select('id, name, whatsappNumber')
     .eq('ownerId', user.id)
     .limit(1)
     .single()
@@ -27,17 +28,28 @@ export default async function ProductsPage() {
     )
   }
 
+  const planId = profile?.planId || 'free'
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const maxProducts = (profile?.plan as any)?.max_products || 0
 
   if (maxProducts === 0) {
     return (
-      <div className="bg-white rounded-2xl border border-slate-200 p-8 text-center">
-        <p className="text-slate-500 font-semibold mb-2">Fitur Produk Terkunci</p>
-        <p className="text-slate-400 text-sm mb-4">Upgrade ke paket UMKM atau Business untuk menambahkan produk.</p>
-        <a href="/dashboard/upgrade" className="text-indigo-600 font-semibold text-sm hover:underline">
-          Lihat Paket →
-        </a>
+      <div className="space-y-4">
+        <div className="bg-white rounded-2xl border border-slate-200 p-8 text-center">
+          <p className="text-slate-500 font-semibold mb-2">Fitur Produk Terkunci</p>
+          <p className="text-slate-400 text-sm mb-4">Upgrade ke paket UMKM atau Business untuk menambahkan produk.</p>
+          <a href="/dashboard/upgrade" className="text-indigo-600 font-semibold text-sm hover:underline">
+            Lihat Paket →
+          </a>
+        </div>
+
+        {/* Show locked PDF CTA even on free tier */}
+        <MenuPDFDownload
+          businessName={business.name}
+          whatsappNumber={business.whatsappNumber}
+          products={[]}
+          planId={planId}
+        />
       </div>
     )
   }
@@ -59,6 +71,14 @@ export default async function ProductsPage() {
         businessId={business.id}
         products={products || []}
         maxProducts={maxProducts}
+      />
+
+      {/* PDF download CTA — below the product list */}
+      <MenuPDFDownload
+        businessName={business.name}
+        whatsappNumber={business.whatsappNumber}
+        products={products || []}
+        planId={planId}
       />
     </div>
   )

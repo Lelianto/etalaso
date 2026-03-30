@@ -49,17 +49,8 @@ function getBusinessId(business: BusinessData): string {
 
 /** Shared footer across all layouts */
 const LayoutFooter: React.FC<{ business: BusinessData; theme: ThemeConfig }> = ({ business, theme }) => (
-  <footer className="py-10 text-center border-t text-sm" style={{ borderColor: theme.colors.border }}>
+  <footer className="py-10 pb-16 text-center border-t text-sm" style={{ borderColor: theme.colors.border }}>
     <p className="opacity-50">© {new Date().getFullYear()} {business.name}. Dikelola oleh Etalaso.</p>
-    {shouldShowBadge(business) && (
-      <Link
-        href={`/claim/${getBusinessId(business)}`}
-        className="inline-flex items-center gap-2 mt-4 px-5 py-2.5 rounded-full text-xs font-bold transition-colors hover:opacity-90"
-        style={{ backgroundColor: theme.colors.accent, color: '#fff' }}
-      >
-        Ini bisnis Anda? Klaim sekarang →
-      </Link>
-    )}
   </footer>
 )
 
@@ -346,18 +337,13 @@ export const SplitLayout: React.FC<LayoutProps> = ({ business, theme, orderingAc
       </section>
 
       {/* Footer */}
-      <section className="py-12 px-12 border-t flex flex-col md:flex-row justify-between items-center gap-8" style={{ borderColor: theme.colors.border, backgroundColor: theme.colors.surface }}>
+      <section className="py-12 pb-16 px-12 border-t flex flex-col md:flex-row justify-between items-center gap-8" style={{ borderColor: theme.colors.border, backgroundColor: theme.colors.surface }}>
         <div className="flex flex-wrap gap-12 text-sm opacity-70">
           <div><h5 className="font-bold mb-2">Alamat</h5><p>{business.address}</p></div>
           <div><h5 className="font-bold mb-2">Jam Buka</h5><p>{hours || 'Hubungi Kami'}</p></div>
         </div>
         <div className="text-right flex flex-col items-end gap-3">
           <p className="text-xs opacity-50">© {new Date().getFullYear()} {business.name}. Powered by Etalaso.</p>
-          {shouldShowBadge(business) && (
-            <Link href={`/claim/${getBusinessId(business)}`} className="inline-flex items-center gap-2 px-5 py-2.5 rounded-full text-xs font-bold transition-colors hover:opacity-90" style={{ backgroundColor: theme.colors.accent, color: '#fff' }}>
-              Ini bisnis Anda? Klaim sekarang →
-            </Link>
-          )}
         </div>
       </section>
 
@@ -458,13 +444,8 @@ export const AppLayout: React.FC<LayoutProps> = ({ business, theme, orderingActi
         </div>
 
         {/* Footer */}
-        <div className="pt-4 text-center">
+        <div className="pt-4 pb-16 text-center">
           <p className="text-xs opacity-40">© {new Date().getFullYear()} {business.name}</p>
-          {shouldShowBadge(business) && (
-            <Link href={`/claim/${getBusinessId(business)}`} className="inline-flex items-center gap-2 mt-3 px-5 py-2.5 rounded-full text-xs font-bold transition-colors hover:opacity-90" style={{ backgroundColor: theme.colors.accent, color: '#fff' }}>
-              Ini bisnis Anda? Klaim sekarang →
-            </Link>
-          )}
         </div>
       </div>
 
@@ -664,13 +645,8 @@ export const CardsLayout: React.FC<LayoutProps> = ({ business, theme, orderingAc
         </div>
 
         {/* Footer */}
-        <div className="pt-8 text-center">
+        <div className="pt-8 pb-16 text-center">
           <p className="text-[10px] font-bold tracking-[0.2em] opacity-30 uppercase">Powered by Etalaso</p>
-          {shouldShowBadge(business) && (
-            <Link href={`/claim/${getBusinessId(business)}`} className="inline-flex items-center gap-2 mt-3 px-5 py-2.5 rounded-[1.5rem] text-xs font-bold transition-colors hover:opacity-90" style={{ backgroundColor: theme.colors.accent, color: '#fff' }}>
-              Ini bisnis Anda? Klaim sekarang →
-            </Link>
-          )}
         </div>
       </div>
 
@@ -846,11 +822,6 @@ export const SidebarLayout: React.FC<LayoutProps> = ({ business, theme, ordering
 
         <div className="mt-auto pt-8">
           <p className="text-[10px] opacity-30">© {new Date().getFullYear()} {business.name}</p>
-          {shouldShowBadge(business) && (
-            <Link href={`/claim/${getBusinessId(business)}`} className="inline-flex items-center gap-2 mt-3 w-full justify-center py-2.5 rounded-xl text-xs font-bold transition-colors hover:opacity-90" style={{ backgroundColor: theme.colors.accent, color: '#fff' }}>
-              Klaim bisnis ini →
-            </Link>
-          )}
         </div>
       </aside>
 
@@ -1160,13 +1131,8 @@ export const CompactLayout: React.FC<LayoutProps> = ({ business, theme, ordering
         </a>
 
         {/* Footer */}
-        <div className="pt-4 pb-8 text-center">
+        <div className="pt-4 pb-16 text-center">
           <p className="text-[10px] opacity-30">© {new Date().getFullYear()} {business.name}. Powered by Etalaso.</p>
-          {shouldShowBadge(business) && (
-            <Link href={`/claim/${getBusinessId(business)}`} className="inline-flex items-center gap-2 mt-3 px-5 py-2.5 rounded-xl text-xs font-bold transition-colors hover:opacity-90" style={{ backgroundColor: theme.colors.accent, color: '#fff' }}>
-              Ini bisnis Anda? Klaim sekarang →
-            </Link>
-          )}
         </div>
       </div>
     </div>
@@ -1199,7 +1165,7 @@ export const ShowcaseLayout: React.FC<LayoutProps> = ({ business, theme, orderin
           <Image src={business.imageUrl} alt={business.name} fill className="object-cover" priority />
           <div className="absolute inset-0" style={{ background: `linear-gradient(to top, ${theme.colors.background}, transparent 60%)` }} />
           <div className="absolute bottom-0 left-0 right-0 p-8">
-            <h2 className="text-4xl md:text-5xl font-black" style={{ fontFamily: theme.typography.fontDisplay, color: '#fff' }}>{business.name}</h2>
+            <h2 className="text-4xl md:text-5xl font-black drop-shadow-lg" style={{ fontFamily: theme.typography.fontDisplay, color: theme.colors.text }}>{business.name}</h2>
           </div>
         </section>
       )}

@@ -14,10 +14,10 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const catName = fromSlug(category)
   const pageUrl = canonicalUrl(`/p/${city}/${category}`)
 
-  const description = `Temukan ${catName.toLowerCase()} terbaik di ${cityName}. Lihat profil, review, dan hubungi langsung via WhatsApp di Etalaso.`
+  const description = `Temukan ${catName.toLowerCase()} terbaik di ${cityName}. Lihat profil, menu, review, dan hubungi langsung via WhatsApp di Etalaso.`
 
   return {
-    title: `Daftar ${catName} di ${cityName}`,
+    title: `${catName} di ${cityName}, Tangerang Selatan | Etalaso`,
     description,
     alternates: {
       canonical: pageUrl,
@@ -156,6 +156,21 @@ export default async function CategoryPage({ params }: Props) {
                 </Link>
               )
             })}
+          </div>
+          {/* CTA for business owners */}
+          <div className="mt-12 bg-gradient-to-br from-indigo-50 to-purple-50 border border-indigo-200 rounded-xl p-8 text-center">
+            <h3 className="text-lg font-bold text-indigo-800 mb-2">
+              Bisnis Anda belum ada di sini?
+            </h3>
+            <p className="text-indigo-600 text-sm mb-4 max-w-md mx-auto">
+              Daftarkan bisnis Anda gratis dan mulai terima pelanggan dari internet. Dapatkan halaman bisnis lengkap + pemesanan via WhatsApp.
+            </p>
+            <Link
+              href="/claim"
+              className="inline-block bg-indigo-600 hover:bg-indigo-700 text-white font-bold text-sm px-6 py-3 rounded-xl transition-colors"
+            >
+              Daftarkan Bisnis Gratis
+            </Link>
           </div>
         </main>
       </div>
