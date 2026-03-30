@@ -15,6 +15,7 @@ const navItems = [
   { href: '/admin/businesses', label: 'Bisnis' },
   { href: '/admin/users', label: 'Pengguna' },
   { href: '/admin/outreach', label: 'Outreach' },
+  { href: '/admin/pricing', label: 'Harga' },
 ]
 
 export default async function AdminLayout({ children }: { children: React.ReactNode }) {

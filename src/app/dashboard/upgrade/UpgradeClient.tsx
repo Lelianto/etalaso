@@ -8,6 +8,7 @@ interface Plan {
   id: string
   name: string
   price: number
+  discountPrice: number | null
   features: string[]
   max_products: number
   has_analytics: boolean
@@ -56,7 +57,7 @@ export default function UpgradeClient({ plans, currentPlanId }: { plans: Plan[];
     await supabase.from('Payment').insert({
       userId: user.id,
       planId: selectedPlan,
-      amount: plan?.price || 0,
+      amount: plan?.discountPrice ?? plan?.price ?? 0,
       proof_url: publicUrl,
     })
 
@@ -85,14 +86,26 @@ export default function UpgradeClient({ plans, currentPlanId }: { plans: Plan[];
 
   if (showQRIS && selectedPlan) {
     const plan = plans.find(p => p.id === selectedPlan)
+    const effectivePrice = plan?.discountPrice ?? plan?.price ?? 0
+    const hasDiscount = plan?.discountPrice !== null && plan?.discountPrice !== undefined && plan.discountPrice > 0
     return (
       <div className="bg-white rounded-2xl shadow-sm border border-slate-200 p-6 max-w-md mx-auto">
         <h3 className="text-lg font-bold text-slate-800 text-center mb-1">
           Pembayaran Paket {plan?.name}
         </h3>
-        <p className="text-2xl font-black text-indigo-600 text-center mb-4">
-          Rp {plan?.price.toLocaleString('id-ID')}/bulan
-        </p>
+        <div className="text-center mb-4">
+          {hasDiscount && (
+            <p className="text-sm text-slate-400 line-through">Rp {plan?.price.toLocaleString('id-ID')}/bulan</p>
+          )}
+          <p className="text-2xl font-black text-indigo-600">
+            Rp {effectivePrice.toLocaleString('id-ID')}/bulan
+          </p>
+          {hasDiscount && (
+            <span className="inline-block mt-1 px-2.5 py-0.5 bg-red-100 text-red-700 text-xs font-bold rounded-full">
+              Hemat {Math.round(((plan!.price - effectivePrice) / plan!.price) * 100)}%
+            </span>
+          )}
+        </div>
 
         <div className="bg-slate-50 rounded-xl p-6 text-center mb-4">
           <p className="text-sm text-slate-500 mb-3">Scan QRIS di bawah untuk membayar:</p>
@@ -102,7 +115,7 @@ export default function UpgradeClient({ plans, currentPlanId }: { plans: Plan[];
             className="w-64 mx-auto rounded-xl"
           />
           <p className="text-xs text-slate-400 mt-3">
-            Pastikan nominal sesuai: <strong>Rp {plan?.price.toLocaleString('id-ID')}</strong>
+            Pastikan nominal sesuai: <strong>Rp {effectivePrice.toLocaleString('id-ID')}</strong>
           </p>
         </div>
 
@@ -179,10 +192,24 @@ export default function UpgradeClient({ plans, currentPlanId }: { plans: Plan[];
             )}
 
             <h3 className="text-lg font-bold text-slate-800 mt-2">{plan.name}</h3>
-            <p className="text-3xl font-black text-slate-900 mt-1">
-              {plan.price === 0 ? 'Gratis' : `Rp ${plan.price.toLocaleString('id-ID')}`}
-              {plan.price > 0 && <span className="text-sm font-normal text-slate-400">/bulan</span>}
-            </p>
+            {plan.price === 0 ? (
+              <p className="text-3xl font-black text-slate-900 mt-1">Gratis</p>
+            ) : (
+              <div className="mt-1">
+                {plan.discountPrice !== null && plan.discountPrice > 0 && (
+                  <p className="text-sm text-slate-400 line-through">Rp {plan.price.toLocaleString('id-ID')}</p>
+                )}
+                <p className="text-3xl font-black text-slate-900">
+                  Rp {(plan.discountPrice ?? plan.price).toLocaleString('id-ID')}
+                  <span className="text-sm font-normal text-slate-400">/bulan</span>
+                </p>
+                {plan.discountPrice !== null && plan.discountPrice > 0 && (
+                  <span className="inline-block mt-1 px-2 py-0.5 bg-red-100 text-red-700 text-[11px] font-bold rounded-full">
+                    Hemat {Math.round(((plan.price - plan.discountPrice) / plan.price) * 100)}%
+                  </span>
+                )}
+              </div>
+            )}
 
             <ul className="mt-4 space-y-2">
               {plan.features.map((f: string, i: number) => (

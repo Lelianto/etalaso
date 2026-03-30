@@ -2,11 +2,19 @@
 
 import { useEffect, useState } from 'react'
 
+interface PlanPricing {
+  price: number
+  discountPrice: number | null
+}
+
 interface PromoData {
   total: number
   remaining: number
-  promoPrice: number
   promoActive: boolean
+  plans: {
+    umkm: PlanPricing
+    business: PlanPricing
+  }
 }
 
 export default function PromoCounter({ variant = 'banner' }: { variant?: 'banner' | 'inline' }) {
@@ -21,6 +29,12 @@ export default function PromoCounter({ variant = 'banner' }: { variant?: 'banner
 
   if (!promo || !promo.promoActive) return null
 
+  const umkm = promo.plans.umkm
+  const hasDiscount = umkm.discountPrice !== null && umkm.discountPrice > 0
+  const displayPrice = hasDiscount ? umkm.discountPrice! : umkm.price
+  const discountPercent = hasDiscount ? Math.round(((umkm.price - umkm.discountPrice!) / umkm.price) * 100) : 0
+  const fmt = (n: number) => `Rp ${n.toLocaleString('id-ID')}`
+
   if (variant === 'inline') {
     return (
       <div className="flex items-center gap-2 text-xs">
@@ -28,7 +42,11 @@ export default function PromoCounter({ variant = 'banner' }: { variant?: 'banner
           {promo.remaining}/{promo.total} slot tersisa
         </span>
         <span className="text-slate-500">
-          Harga spesial <strong className="text-red-600">Rp {promo.promoPrice.toLocaleString('id-ID')}</strong>/bulan
+          {hasDiscount ? (
+            <>Harga spesial <strong className="text-red-600">{fmt(displayPrice)}</strong>/bulan <span className="line-through text-slate-400">{fmt(umkm.price)}</span></>
+          ) : (
+            <>Mulai dari <strong className="text-red-600">{fmt(displayPrice)}</strong>/bulan</>
+          )}
         </span>
       </div>
     )
@@ -40,7 +58,11 @@ export default function PromoCounter({ variant = 'banner' }: { variant?: 'banner
         <div>
           <p className="font-bold text-sm">Promo 50 Bisnis Pertama!</p>
           <p className="text-white/80 text-xs mt-0.5">
-            Paket UMKM hanya <strong className="text-white">Rp {promo.promoPrice.toLocaleString('id-ID')}/bulan</strong> (hemat 34%)
+            {hasDiscount ? (
+              <>Paket UMKM hanya <strong className="text-white">{fmt(displayPrice)}/bulan</strong> (hemat {discountPercent}%)</>
+            ) : (
+              <>Paket UMKM mulai <strong className="text-white">{fmt(displayPrice)}/bulan</strong></>
+            )}
           </p>
         </div>
         <div className="text-right">

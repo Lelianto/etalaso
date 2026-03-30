@@ -11,6 +11,7 @@ interface Plan {
   id: string
   name: string
   price: number
+  discountPrice: number | null
   features: string[]
   max_products: number
   has_analytics: boolean
@@ -154,7 +155,7 @@ export default function ClaimWizard({ business, userId, plans }: Props) {
             <p className="text-indigo-700">Bisnis: <strong>{business.name}</strong></p>
             <p className="text-indigo-700">Paket: <strong>{autoApproved ? 'UMKM (Trial 7 Hari)' : plan?.name}</strong></p>
             {isPaid && (
-              <p className="text-indigo-700">Pembayaran: <strong>Rp {plan?.price.toLocaleString('id-ID')}</strong></p>
+              <p className="text-indigo-700">Pembayaran: <strong>Rp {(plan?.discountPrice ?? plan?.price ?? 0).toLocaleString('id-ID')}</strong></p>
             )}
           </div>
           <button
@@ -192,9 +193,19 @@ export default function ClaimWizard({ business, userId, plans }: Props) {
             <h2 className="text-lg font-bold text-slate-800 text-center mb-1">
               Pembayaran Paket {plan?.name}
             </h2>
-            <p className="text-2xl font-black text-indigo-600 text-center mb-6">
-              Rp {plan?.price.toLocaleString('id-ID')}<span className="text-sm font-normal text-slate-400">/bulan</span>
-            </p>
+            <div className="text-center mb-6">
+              {plan?.discountPrice !== null && plan?.discountPrice !== undefined && plan.discountPrice > 0 && (
+                <p className="text-sm text-slate-400 line-through">Rp {plan.price.toLocaleString('id-ID')}/bulan</p>
+              )}
+              <p className="text-2xl font-black text-indigo-600">
+                Rp {(plan?.discountPrice ?? plan?.price ?? 0).toLocaleString('id-ID')}<span className="text-sm font-normal text-slate-400">/bulan</span>
+              </p>
+              {plan?.discountPrice !== null && plan?.discountPrice !== undefined && plan.discountPrice > 0 && (
+                <span className="inline-block mt-1 px-2.5 py-0.5 bg-red-100 text-red-700 text-xs font-bold rounded-full">
+                  Hemat {Math.round(((plan.price - plan.discountPrice) / plan.price) * 100)}%
+                </span>
+              )}
+            </div>
 
             {/* QRIS */}
             <div className="bg-slate-50 rounded-xl p-6 text-center mb-5">
@@ -207,7 +218,7 @@ export default function ClaimWizard({ business, userId, plans }: Props) {
                 className="mx-auto rounded-xl border border-slate-200"
               />
               <p className="text-xs text-slate-400 mt-3">
-                Pastikan nominal sesuai: <strong className="text-slate-600">Rp {plan?.price.toLocaleString('id-ID')}</strong>
+                Pastikan nominal sesuai: <strong className="text-slate-600">Rp {(plan?.discountPrice ?? plan?.price ?? 0).toLocaleString('id-ID')}</strong>
               </p>
             </div>
 
@@ -422,10 +433,24 @@ export default function ClaimWizard({ business, userId, plans }: Props) {
                           </span>
                         )}
                       </div>
-                      <p className="text-lg font-black text-slate-900 mt-0.5">
-                        {p.price === 0 ? 'Gratis' : `Rp ${p.price.toLocaleString('id-ID')}`}
-                        {p.price > 0 && <span className="text-xs font-normal text-slate-400"> /bulan</span>}
-                      </p>
+                      {p.price === 0 ? (
+                        <p className="text-lg font-black text-slate-900 mt-0.5">Gratis</p>
+                      ) : (
+                        <div className="mt-0.5">
+                          {p.discountPrice !== null && p.discountPrice > 0 && (
+                            <p className="text-xs text-slate-400 line-through">Rp {p.price.toLocaleString('id-ID')}</p>
+                          )}
+                          <p className="text-lg font-black text-slate-900">
+                            Rp {(p.discountPrice ?? p.price).toLocaleString('id-ID')}
+                            <span className="text-xs font-normal text-slate-400"> /bulan</span>
+                          </p>
+                          {p.discountPrice !== null && p.discountPrice > 0 && (
+                            <span className="inline-block px-1.5 py-0.5 bg-red-100 text-red-700 text-[10px] font-bold rounded-full">
+                              Hemat {Math.round(((p.price - p.discountPrice) / p.price) * 100)}%
+                            </span>
+                          )}
+                        </div>
+                      )}
                     </div>
                     <div className={`w-5 h-5 rounded-full border-2 flex items-center justify-center flex-shrink-0 mt-1 ${
                       isSelected ? 'border-indigo-500 bg-indigo-500' : 'border-slate-300'
