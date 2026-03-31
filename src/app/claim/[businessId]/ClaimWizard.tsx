@@ -27,6 +27,37 @@ interface Props {
 
 type Step = 'plan' | 'payment' | 'submitting' | 'done'
 
+/** Build the complete feature list for each plan tier based on category */
+function buildPlanFeatures(plan: Plan, category: string) {
+  const cat = category.toLowerCase()
+  const cfg = getCategoryConfig(cat)
+  const isKuliner = cat === 'kuliner' || cat === 'kuliner_rumahan'
+
+  // Base features from the plan itself
+  const base = plan.features.map(f => ({ label: f, included: true }))
+
+  // Bonus features for paid plans (UMKM & Business)
+  if (plan.id === 'umkm' || plan.id === 'business') {
+    base.push(
+      { label: cfg.whatsappFeatureLabel, included: true },
+      { label: isKuliner ? 'QR code per meja (1–50 meja)' : 'QR code bisnis', included: true },
+      { label: isKuliner ? 'Cetak lembaran menu (PDF)' : `Cetak katalog ${cfg.itemLabel.toLowerCase()} (PDF)`, included: true },
+      { label: 'Link kustom (etalaso.id/nama-toko)', included: true },
+    )
+  }
+
+  // Extra features for Business tier
+  if (plan.id === 'business') {
+    base.push(
+      { label: cfg.preOrderLabel, included: true },
+      { label: 'Statistik pengunjung', included: true },
+      { label: 'Subdomain .etalaso.id', included: true },
+    )
+  }
+
+  return base
+}
+
 export default function ClaimWizard({ business, userId, plans }: Props) {
   const [step, setStep] = useState<Step>('plan')
   const [selectedPlan, setSelectedPlan] = useState<string>('free')
@@ -38,6 +69,8 @@ export default function ClaimWizard({ business, userId, plans }: Props) {
 
   const plan = plans.find(p => p.id === selectedPlan)
   const isPaid = (plan?.price ?? 0) > 0
+  const cat = business.category?.toLowerCase() || ''
+  const catConfig = getCategoryConfig(cat)
 
   const handleSelectPlan = (planId: string) => {
     setSelectedPlan(planId)
@@ -310,15 +343,16 @@ export default function ClaimWizard({ business, userId, plans }: Props) {
         {/* Progress */}
         <StepIndicator current={1} />
 
-        {/* Business info */}
         <div className="bg-white rounded-2xl shadow-lg p-6 mt-6">
-          <div className="text-center mb-6">
-            <div className="text-3xl mb-2">🏪</div>
-            <h1 className="text-xl font-bold text-slate-800">Klaim Bisnis Anda</h1>
+          {/* Header */}
+          <div className="text-center mb-5">
+            <span className="text-3xl">{catConfig.messageEmoji}</span>
+            <h1 className="text-xl font-bold text-slate-800 mt-2">Klaim Bisnis Anda</h1>
             <p className="text-slate-500 text-sm mt-1">Pilih paket yang sesuai kebutuhan Anda</p>
           </div>
 
-          <div className="bg-slate-50 rounded-xl p-4 mb-6">
+          {/* Business info */}
+          <div className="bg-slate-50 rounded-xl p-4 mb-5">
             <p className="font-bold text-slate-800">{business.name}</p>
             {business.address && (
               <p className="text-slate-500 text-sm mt-0.5">{business.address}</p>
@@ -330,131 +364,59 @@ export default function ClaimWizard({ business, userId, plans }: Props) {
             )}
           </div>
 
-          {/* Category-specific features highlight */}
-          {(() => {
-            const cat = business.category?.toLowerCase() || ''
-            const catConfig = getCategoryConfig(cat)
-            const isKuliner = cat === 'kuliner'
-            return (
-              <div className="bg-gradient-to-br from-amber-50 to-orange-50 border border-amber-200 rounded-xl p-4 mb-6">
-                <div className="flex items-center gap-2 mb-3">
-                  <span className="text-lg">{catConfig.messageEmoji}</span>
-                  <h3 className="font-bold text-amber-900 text-sm">Fitur Pemesanan via WhatsApp</h3>
-                </div>
-                <p className="text-amber-800 text-xs mb-3">
-                  {catConfig.claimFeatureText}
-                </p>
-                <div className="space-y-2.5">
-                  {/* QR Code */}
-                  <div className="flex items-start gap-3 bg-white/70 rounded-lg p-3">
-                    <div className="w-8 h-8 rounded-lg bg-indigo-100 flex items-center justify-center shrink-0">
-                      <svg className="w-4 h-4 text-indigo-600" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
-                        <path strokeLinecap="round" strokeLinejoin="round" d="M12 4v1m6 11h2m-6 0h-2v4m0-11v3m0 0h.01M12 12h4.01M16 20h4M4 12h4m12 0h.01M5 8h2a1 1 0 001-1V5a1 1 0 00-1-1H5a1 1 0 00-1 1v2a1 1 0 001 1zm12 0h2a1 1 0 001-1V5a1 1 0 00-1-1h-2a1 1 0 00-1 1v2a1 1 0 001 1zM5 20h2a1 1 0 001-1v-2a1 1 0 00-1-1H5a1 1 0 00-1 1v2a1 1 0 001 1z" />
-                      </svg>
-                    </div>
-                    <div>
-                      <p className="font-semibold text-slate-800 text-sm">{isKuliner ? 'QR Code Meja' : 'QR Code Bisnis'}</p>
-                      <p className="text-slate-500 text-xs mt-0.5">
-                        {isKuliner
-                          ? 'Generate QR code untuk setiap meja. Pelanggan scan & langsung pesan dari HP — tanpa antre.'
-                          : 'QR code untuk kartu nama, brosur, atau stiker. Pelanggan scan & langsung lihat produk/jasa Anda.'}
-                      </p>
-                      <span className="inline-block mt-1.5 px-2 py-0.5 bg-indigo-50 text-indigo-600 text-[10px] font-bold rounded-full">
-                        Paket UMKM &amp; Business
-                      </span>
-                    </div>
-                  </div>
-                  {/* WhatsApp ordering */}
-                  <div className="flex items-start gap-3 bg-white/70 rounded-lg p-3">
-                    <div className="w-8 h-8 rounded-lg bg-emerald-100 flex items-center justify-center shrink-0">
-                      <svg className="w-4 h-4 text-emerald-600" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
-                        <path strokeLinecap="round" strokeLinejoin="round" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
-                      </svg>
-                    </div>
-                    <div>
-                      <p className="font-semibold text-slate-800 text-sm">Pemesanan via WhatsApp</p>
-                      <p className="text-slate-500 text-xs mt-0.5">
-                        Pelanggan pilih {catConfig.itemLabel.toLowerCase()} langsung dari HP, lalu kirim pesanan via WhatsApp.
-                      </p>
-                      <span className="inline-block mt-1.5 px-2 py-0.5 bg-emerald-50 text-emerald-600 text-[10px] font-bold rounded-full">
-                        Paket UMKM &amp; Business
-                      </span>
-                    </div>
-                  </div>
-                  {/* Cetak Menu PDF */}
-                  <div className="flex items-start gap-3 bg-white/70 rounded-lg p-3">
-                    <div className="w-8 h-8 rounded-lg bg-rose-100 flex items-center justify-center shrink-0">
-                      <svg className="w-4 h-4 text-rose-600" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
-                        <path strokeLinecap="round" strokeLinejoin="round" d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z" />
-                        <polyline points="14 2 14 8 20 8" />
-                        <line x1="12" y1="18" x2="12" y2="12" />
-                        <line x1="9" y1="15" x2="15" y2="15" />
-                      </svg>
-                    </div>
-                    <div>
-                      <p className="font-semibold text-slate-800 text-sm">Cetak Lembaran Menu (PDF)</p>
-                      <p className="text-slate-500 text-xs mt-0.5">
-                        Download daftar menu siap cetak dengan desain profesional. Tempel di meja, dinding, atau etalase toko.
-                      </p>
-                      <span className="inline-block mt-1.5 px-2 py-0.5 bg-rose-50 text-rose-600 text-[10px] font-bold rounded-full">
-                        Paket UMKM &amp; Business
-                      </span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            )
-          })()}
-
           {/* Promo counter */}
-          <div className="mb-4">
+          <div className="mb-5">
             <PromoCounter variant="inline" />
           </div>
 
           {/* Plan cards */}
-          <div className="space-y-3 mb-6">
+          <div className="space-y-3 mb-5">
             {plans.map((p) => {
               const isSelected = selectedPlan === p.id
+              const features = buildPlanFeatures(p, cat)
+              const isBest = p.id === 'umkm'
+
               return (
                 <button
                   key={p.id}
                   onClick={() => handleSelectPlan(p.id)}
-                  className={`w-full text-left p-4 rounded-xl border-2 transition-all ${
+                  className={`relative w-full text-left p-4 rounded-xl border-2 transition-all ${
                     isSelected
                       ? 'border-indigo-500 bg-indigo-50/50 ring-1 ring-indigo-500'
                       : 'border-slate-200 hover:border-slate-300'
                   }`}
                 >
-                  <div className="flex items-start justify-between">
-                    <div className="flex-1">
-                      <div className="flex items-center gap-2">
-                        <h3 className="font-bold text-slate-800">{p.name}</h3>
-                        {p.id === 'umkm' && (
-                          <span className="px-2 py-0.5 bg-amber-100 text-amber-700 text-[10px] font-bold rounded-full">
-                            POPULER
-                          </span>
-                        )}
-                      </div>
+                  {/* Popular badge */}
+                  {isBest && (
+                    <span className="absolute -top-2.5 left-4 px-2.5 py-0.5 bg-amber-500 text-white text-[10px] font-bold rounded-full">
+                      POPULER
+                    </span>
+                  )}
+
+                  {/* Plan header: name + price + radio */}
+                  <div className="flex items-center justify-between">
+                    <div>
+                      <h3 className="font-bold text-slate-800">{p.name}</h3>
                       {p.price === 0 ? (
-                        <p className="text-lg font-black text-slate-900 mt-0.5">Gratis</p>
+                        <p className="text-lg font-black text-slate-900">Gratis</p>
                       ) : (
-                        <div className="mt-0.5">
+                        <div>
                           {p.discountPrice !== null && p.discountPrice > 0 && (
-                            <p className="text-xs text-slate-400 line-through">Rp {p.price.toLocaleString('id-ID')}</p>
+                            <span className="text-xs text-slate-400 line-through mr-1.5">Rp {p.price.toLocaleString('id-ID')}</span>
                           )}
-                          <p className="text-lg font-black text-slate-900">
+                          <span className="text-lg font-black text-slate-900">
                             Rp {(p.discountPrice ?? p.price).toLocaleString('id-ID')}
-                            <span className="text-xs font-normal text-slate-400"> /bulan</span>
-                          </p>
+                          </span>
+                          <span className="text-xs text-slate-400"> /bulan</span>
                           {p.discountPrice !== null && p.discountPrice > 0 && (
-                            <span className="inline-block px-1.5 py-0.5 bg-red-100 text-red-700 text-[10px] font-bold rounded-full">
-                              Hemat {Math.round(((p.price - p.discountPrice) / p.price) * 100)}%
+                            <span className="ml-1.5 px-1.5 py-0.5 bg-red-100 text-red-700 text-[10px] font-bold rounded-full">
+                              -{Math.round(((p.price - p.discountPrice) / p.price) * 100)}%
                             </span>
                           )}
                         </div>
                       )}
                     </div>
-                    <div className={`w-5 h-5 rounded-full border-2 flex items-center justify-center flex-shrink-0 mt-1 ${
+                    <div className={`w-5 h-5 rounded-full border-2 flex items-center justify-center shrink-0 ${
                       isSelected ? 'border-indigo-500 bg-indigo-500' : 'border-slate-300'
                     }`}>
                       {isSelected && (
@@ -465,26 +427,19 @@ export default function ClaimWizard({ business, userId, plans }: Props) {
                     </div>
                   </div>
 
-                  <ul className="mt-3 space-y-1">
-                    {p.features.map((f: string, i: number) => (
+                  {/* Divider */}
+                  <div className="border-t border-slate-100 my-3" />
+
+                  {/* Feature list */}
+                  <ul className="space-y-1.5">
+                    {features.map((f, i) => (
                       <li key={i} className="flex items-start gap-2 text-xs text-slate-600">
-                        <span className="text-green-500 shrink-0 mt-0.5">✓</span>
-                        {f}
+                        <svg className="w-3.5 h-3.5 text-green-500 shrink-0 mt-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={3}>
+                          <path strokeLinecap="round" strokeLinejoin="round" d="M5 13l4 4L19 7" />
+                        </svg>
+                        {f.label}
                       </li>
                     ))}
-                    {/* Ordering features on plan cards */}
-                    {(p.id === 'umkm' || p.id === 'business') && (
-                      <>
-                        <li className="flex items-start gap-2 text-xs text-indigo-600 font-medium">
-                          <span className="shrink-0 mt-0.5">{getCategoryConfig(business.category?.toLowerCase() || '').messageEmoji}</span>
-                          Pemesanan via WhatsApp
-                        </li>
-                        <li className="flex items-start gap-2 text-xs text-rose-600 font-medium">
-                          <span className="shrink-0 mt-0.5">📄</span>
-                          Cetak lembaran menu (PDF)
-                        </li>
-                      </>
-                    )}
                   </ul>
                 </button>
               )
