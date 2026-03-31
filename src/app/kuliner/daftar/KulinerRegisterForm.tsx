@@ -217,40 +217,36 @@ export default function KulinerRegisterForm() {
           </div>
 
           {/* Kecamatan */}
-          <div className="grid sm:grid-cols-2 gap-4">
-            <div>
-              <label className="block text-sm font-medium text-charcoal mb-1.5">
-                Kecamatan <span className="text-red-500">*</span>
-              </label>
-              <select
-                required
-                value={form.kecamatan}
-                onChange={e => update('kecamatan', e.target.value)}
-                className="w-full rounded-xl border border-neutral-200 px-4 py-3 pr-10 text-sm focus:border-amber focus:ring-1 focus:ring-amber/30 outline-none transition-colors bg-transparent"
-              >
-                <option value="">Pilih kecamatan</option>
-                {kecByRegion.map(group => (
-                  <optgroup key={group.region} label={group.label}>
-                    {group.kecamatans.map(k => (
-                      <option key={k.name} value={k.name}>{k.name}</option>
-                    ))}
-                  </optgroup>
-                ))}
-              </select>
-            </div>
-            <div>
-              <label className="block text-sm font-medium text-charcoal mb-1.5">
-                Region
-              </label>
-              <input
-                type="text"
-                readOnly
-                value={regionLabel}
-                placeholder="Otomatis dari kecamatan"
-                className="w-full rounded-xl border border-neutral-200 px-4 py-3 text-sm bg-neutral-50 text-neutral-500"
-              />
-            </div>
+          <div>
+            <label className="block text-sm font-medium text-charcoal mb-1.5">
+              Kecamatan <span className="text-red-500">*</span>
+            </label>
+            <select
+              required
+              value={form.kecamatan}
+              onChange={e => update('kecamatan', e.target.value)}
+              className="w-full rounded-xl border border-neutral-200 px-4 py-3 pr-10 text-sm focus:border-amber focus:ring-1 focus:ring-amber/30 outline-none transition-colors bg-transparent"
+            >
+              <option value="">Pilih kecamatan</option>
+              {kecByRegion.map(group => (
+                <optgroup key={group.region} label={group.label}>
+                  {group.kecamatans.map(k => (
+                    <option key={k.name} value={k.name}>{k.name}</option>
+                  ))}
+                </optgroup>
+              ))}
+            </select>
           </div>
+
+          {/* Kota/Kabupaten - muncul setelah kecamatan dipilih */}
+          {regionLabel && (
+            <div>
+              <label className="block text-sm font-medium text-charcoal mb-1.5">
+                Kota/Kabupaten
+              </label>
+              <p className="text-sm text-neutral-600">{regionLabel}</p>
+            </div>
+          )}
 
           {/* Alamat */}
           <div>
