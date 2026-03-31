@@ -226,7 +226,7 @@ export default function KulinerRegisterForm() {
                 required
                 value={form.kecamatan}
                 onChange={e => update('kecamatan', e.target.value)}
-                className="w-full rounded-xl border border-neutral-200 px-4 py-3 pr-10 text-sm focus:border-amber focus:ring-1 focus:ring-amber/30 outline-none transition-colors bg-white"
+                className="w-full rounded-xl border border-neutral-200 px-4 py-3 pr-10 text-sm focus:border-amber focus:ring-1 focus:ring-amber/30 outline-none transition-colors bg-transparent"
               >
                 <option value="">Pilih kecamatan</option>
                 {kecByRegion.map(group => (
