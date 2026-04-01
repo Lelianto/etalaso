@@ -597,15 +597,49 @@ export default async function Home() {
       </section>
 
       {/* Footer */}
-      <footer className="py-12 px-6 border-t border-neutral-200">
-        <div className="max-w-6xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-6">
-          <div className="font-[family-name:var(--font-display)] text-xl text-charcoal">
-            Etalaso<span className="text-amber">.</span>
+      <footer className="py-16 px-6 border-t border-neutral-200">
+        <div className="max-w-6xl mx-auto">
+          <div className="grid grid-cols-2 sm:grid-cols-4 gap-8 mb-10">
+            <div>
+              <div className="font-[family-name:var(--font-display)] text-xl text-charcoal mb-4">
+                Etalaso<span className="text-amber">.</span>
+              </div>
+              <p className="text-sm text-neutral-400 leading-relaxed">
+                Platform direktori bisnis lokal Indonesia. Hubungkan pelanggan dengan UMKM via WhatsApp.
+              </p>
+            </div>
+            <div>
+              <h4 className="font-semibold text-charcoal text-sm mb-3">Jelajahi</h4>
+              <div className="flex flex-col gap-2 text-sm text-neutral-400">
+                <Link href="/bisnis" className="hover:text-charcoal transition-colors">Daftar Bisnis</Link>
+                <Link href="/kuliner" className="hover:text-charcoal transition-colors">Kuliner Rumahan</Link>
+                <Link href="/daftar" className="hover:text-charcoal transition-colors">Daftarkan Bisnis</Link>
+                <Link href="/demo" className="hover:text-charcoal transition-colors">Lihat Template</Link>
+              </div>
+            </div>
+            <div>
+              <h4 className="font-semibold text-charcoal text-sm mb-3">Perusahaan</h4>
+              <div className="flex flex-col gap-2 text-sm text-neutral-400">
+                <Link href="/tentang" className="hover:text-charcoal transition-colors">Tentang Kami</Link>
+                <Link href="/kontak" className="hover:text-charcoal transition-colors">Hubungi Kami</Link>
+              </div>
+            </div>
+            <div>
+              <h4 className="font-semibold text-charcoal text-sm mb-3">Legal</h4>
+              <div className="flex flex-col gap-2 text-sm text-neutral-400">
+                <Link href="/kebijakan-privasi" className="hover:text-charcoal transition-colors">Kebijakan Privasi</Link>
+                <Link href="/syarat-ketentuan" className="hover:text-charcoal transition-colors">Syarat & Ketentuan</Link>
+                <Link href="/disclaimer" className="hover:text-charcoal transition-colors">Disclaimer</Link>
+              </div>
+            </div>
           </div>
-          <div className="flex items-center gap-6 text-sm text-neutral-400">
-            <Link href="/bisnis" className="hover:text-charcoal transition-colors">Daftar Bisnis</Link>
-            <Link href="/demo" className="hover:text-charcoal transition-colors">Lihat Template</Link>
-            <span>&copy; {new Date().getFullYear()} Etalaso</span>
+          <div className="pt-8 border-t border-neutral-200 flex flex-col sm:flex-row items-center justify-between gap-4">
+            <span className="text-sm text-neutral-400">&copy; {new Date().getFullYear()} Etalaso. Hak cipta dilindungi.</span>
+            <div className="flex items-center gap-4 text-sm text-neutral-400">
+              <Link href="/kebijakan-privasi" className="hover:text-charcoal transition-colors">Privasi</Link>
+              <Link href="/syarat-ketentuan" className="hover:text-charcoal transition-colors">Syarat</Link>
+              <Link href="/disclaimer" className="hover:text-charcoal transition-colors">Disclaimer</Link>
+            </div>
           </div>
         </div>
       </footer>
