@@ -42,7 +42,7 @@ function buildPlanFeatures(plan: Plan, category: string) {
       { label: cfg.whatsappFeatureLabel, included: true },
       { label: isKuliner ? 'QR code per meja (1–50 meja)' : 'QR code bisnis', included: true },
       { label: isKuliner ? 'Cetak lembaran menu (PDF)' : `Cetak katalog ${cfg.itemLabel.toLowerCase()} (PDF)`, included: true },
-      { label: 'Link kustom (etalaso.id/nama-toko)', included: true },
+      { label: 'Link kustom (etalaso.biz.id/nama-toko)', included: true },
     )
   }
 
@@ -51,7 +51,7 @@ function buildPlanFeatures(plan: Plan, category: string) {
     base.push(
       { label: cfg.preOrderLabel, included: true },
       { label: 'Statistik pengunjung', included: true },
-      { label: 'Subdomain .etalaso.id', included: true },
+      { label: 'Subdomain .etalaso.biz.id', included: true },
     )
   }
 

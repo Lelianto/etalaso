@@ -79,6 +79,7 @@ export default function TemplateSelector({ businessId, currentTemplate, allowedT
   const [saving, setSaving] = useState(false)
   const [selected, setSelected] = useState(currentTemplate)
   const [category, setCategory] = useState('Semua')
+  const [error, setError] = useState('')
   const router = useRouter()
 
   const filtered = category === 'Semua'
@@ -89,12 +90,18 @@ export default function TemplateSelector({ businessId, currentTemplate, allowedT
     if (!allowedTemplates.includes(template)) return
     setSelected(template)
     setSaving(true)
+    setError('')
     const supabase = createClient()
-    await supabase
+    const { error: saveErr } = await supabase
       .from('Business')
       .update({ template, updatedAt: new Date().toISOString() })
       .eq('id', businessId)
     setSaving(false)
+    if (saveErr) {
+      setSelected(currentTemplate)
+      setError('Gagal menyimpan template. Silakan coba lagi.')
+      return
+    }
     router.refresh()
   }
 
@@ -121,6 +128,10 @@ export default function TemplateSelector({ businessId, currentTemplate, allowedT
         {allowedTemplates.length} template tersedia dari paketmu
         {saving && ' • Menyimpan...'}
       </p>
+
+      {error && (
+        <div className="bg-red-50 text-red-700 text-sm rounded-xl p-3">{error}</div>
+      )}
 
       {/* Template grid */}
       <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3">

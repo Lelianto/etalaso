@@ -68,12 +68,16 @@ export default function EditProfileForm({ business }: Props) {
       updateData.operatingDays = form.operatingDays
     }
 
-    await supabase
+    const { error: saveErr } = await supabase
       .from('Business')
       .update(updateData)
       .eq('id', business.id)
 
     setSaving(false)
+    if (saveErr) {
+      setError('Gagal menyimpan perubahan. Silakan coba lagi.')
+      return
+    }
     setSaved(true)
     setTimeout(() => setSaved(false), 2000)
     router.refresh()

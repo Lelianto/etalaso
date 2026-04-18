@@ -1,6 +1,7 @@
+import { cache } from 'react'
 import supabase from '@/lib/db/supabase'
 
-export async function getKulinerStore(slug: string) {
+export const getKulinerStore = cache(async (slug: string) => {
   const sanitized = slug.replace(/[,()]/g, '')
 
   // Try customSlug first (pretty URL)
@@ -35,7 +36,7 @@ export async function getKulinerStore(slug: string) {
     .single()
 
   return byId
-}
+})
 
 export async function getKulinerStores(limit = 20) {
   const { data } = await supabase

@@ -29,6 +29,7 @@ export default function PaymentConfigForm({ businessId, initial }: PaymentConfig
   const [saving, setSaving] = useState(false)
   const [uploading, setUploading] = useState(false)
   const [success, setSuccess] = useState(false)
+  const [error, setError] = useState('')
   const router = useRouter()
 
   const handleQrisUpload = async (file: File) => {
@@ -45,6 +46,9 @@ export default function PaymentConfigForm({ businessId, initial }: PaymentConfig
         .from('payment-proofs')
         .getPublicUrl(fileName)
       setQrisImageUrl(publicUrl)
+      setError('')
+    } else {
+      setError('Gagal mengunggah gambar QRIS. Silakan coba lagi.')
     }
     setUploading(false)
   }
@@ -52,8 +56,9 @@ export default function PaymentConfigForm({ businessId, initial }: PaymentConfig
   const handleSave = async () => {
     setSaving(true)
     setSuccess(false)
+    setError('')
     const supabase = createClient()
-    await supabase
+    const { error: saveErr } = await supabase
       .from('Business')
       .update({
         bankName: bankName || null,
@@ -64,6 +69,10 @@ export default function PaymentConfigForm({ businessId, initial }: PaymentConfig
       .eq('id', businessId)
 
     setSaving(false)
+    if (saveErr) {
+      setError('Gagal menyimpan konfigurasi. Silakan coba lagi.')
+      return
+    }
     setSuccess(true)
     router.refresh()
   }
@@ -144,6 +153,12 @@ export default function PaymentConfigForm({ businessId, initial }: PaymentConfig
       >
         {saving ? 'Menyimpan...' : 'Simpan Konfigurasi'}
       </button>
+
+      {error && (
+        <div className="bg-red-50 border border-red-200 rounded-xl p-3 text-center">
+          <p className="text-red-700 text-sm font-semibold">{error}</p>
+        </div>
+      )}
 
       {success && (
         <div className="bg-green-50 border border-green-200 rounded-xl p-3 text-center">

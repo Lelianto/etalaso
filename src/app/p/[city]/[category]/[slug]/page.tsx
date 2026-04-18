@@ -1,3 +1,4 @@
+import { cache } from 'react'
 import supabase from '@/lib/db/supabase'
 import { notFound } from 'next/navigation'
 import { TemplateFactory } from '@/components/templates'
@@ -14,12 +15,13 @@ import ViewTracker from '@/components/ui/ViewTracker'
 import WaClickTracker from '@/components/ui/WaClickTracker'
 import ReportButton from '@/components/ui/ReportButton'
 import ShareButtons from '@/components/ui/ShareButtons'
+import PageViewCount from '@/components/ui/PageViewCount'
 
 export const revalidate = 86400 // 1 day
 
 type Props = { params: Promise<{ city: string; category: string; slug: string }> }
 
-async function getBusinessData(slug: string) {
+const getBusinessData = cache(async (slug: string) => {
   // Sanitize slug — remove PostgREST metacharacters to prevent filter injection
   const sanitized = slug.replace(/[,()]/g, '')
 
@@ -47,7 +49,7 @@ async function getBusinessData(slug: string) {
   const { data: byName } = await query.limit(1).single()
 
   return byName
-}
+})
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { slug, city, category } = await params
@@ -109,7 +111,6 @@ export default async function BusinessPage({ params }: Props) {
 
   const tier = business.subscriptionType || 'free'
   const orderingEnabled = canOrder(tier)
-  const isFree = !business.subscriptionType || business.subscriptionType === 'free'
   const theme = getTemplateTheme(templateKey)
   const claimUrl = `/claim/${business.id}`
 
@@ -149,6 +150,7 @@ export default async function BusinessPage({ params }: Props) {
         <ShareButtons url={pageUrl} title={business.name} />
         <ReportButton businessId={business.id} />
       </div>
+      <PageViewCount businessId={business.id} />
     </>
   )
 }

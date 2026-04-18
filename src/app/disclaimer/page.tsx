@@ -31,7 +31,7 @@ export default function Disclaimer() {
           <section>
             <h2 className="font-[family-name:var(--font-display)] text-xl text-charcoal mb-3">1. Informasi Umum</h2>
             <p>
-              Informasi yang ditampilkan di platform Etalaso (etalaso.id) disediakan untuk tujuan informasi umum. Meskipun kami berusaha menjaga keakuratan informasi, kami tidak memberikan jaminan, baik tersurat maupun tersirat, mengenai kelengkapan, keakuratan, keandalan, kesesuaian, atau ketersediaan informasi, produk, layanan, atau grafik terkait yang terdapat di platform.
+              Informasi yang ditampilkan di platform Etalaso (etalaso.biz.id) disediakan untuk tujuan informasi umum. Meskipun kami berusaha menjaga keakuratan informasi, kami tidak memberikan jaminan, baik tersurat maupun tersirat, mengenai kelengkapan, keakuratan, keandalan, kesesuaian, atau ketersediaan informasi, produk, layanan, atau grafik terkait yang terdapat di platform.
             </p>
           </section>
 

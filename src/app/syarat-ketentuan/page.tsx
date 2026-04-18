@@ -31,14 +31,14 @@ export default function SyaratKetentuan() {
           <section>
             <h2 className="font-[family-name:var(--font-display)] text-xl text-charcoal mb-3">1. Penerimaan Syarat</h2>
             <p>
-              Dengan mengakses dan menggunakan platform Etalaso (etalaso.id), Anda menyetujui dan terikat oleh Syarat dan Ketentuan ini. Jika Anda tidak menyetujui syarat-syarat ini, mohon untuk tidak menggunakan platform kami.
+              Dengan mengakses dan menggunakan platform Etalaso (etalaso.biz.id), Anda menyetujui dan terikat oleh Syarat dan Ketentuan ini. Jika Anda tidak menyetujui syarat-syarat ini, mohon untuk tidak menggunakan platform kami.
             </p>
           </section>
 
           <section>
             <h2 className="font-[family-name:var(--font-display)] text-xl text-charcoal mb-3">2. Definisi</h2>
             <ul className="list-disc pl-5 space-y-1">
-              <li><strong>&quot;Platform&quot;</strong> merujuk pada situs web etalaso.id dan seluruh layanan yang disediakan oleh Etalaso.</li>
+              <li><strong>&quot;Platform&quot;</strong> merujuk pada situs web etalaso.biz.id dan seluruh layanan yang disediakan oleh Etalaso.</li>
               <li><strong>&quot;Pengguna&quot;</strong> merujuk pada setiap orang yang mengakses atau menggunakan platform.</li>
               <li><strong>&quot;Pemilik Bisnis&quot;</strong> merujuk pada pengguna yang mendaftarkan atau mengklaim bisnis di platform.</li>
               <li><strong>&quot;Pengunjung&quot;</strong> merujuk pada pengguna yang menjelajahi dan melihat profil bisnis.</li>

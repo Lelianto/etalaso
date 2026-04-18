@@ -83,7 +83,7 @@ export default function SlugEditor({ currentSlug, planId }: SlugEditorProps) {
 
       <div className="flex items-center gap-0 border border-slate-200 rounded-xl overflow-hidden focus-within:ring-2 focus-within:ring-indigo-500">
         <span className="bg-slate-50 text-slate-400 text-sm px-3 py-3 border-r border-slate-200 shrink-0">
-          etalaso.id/kuliner/
+          etalaso.biz.id/kuliner/
         </span>
         <input
           value={slug}
@@ -101,7 +101,7 @@ export default function SlugEditor({ currentSlug, planId }: SlugEditorProps) {
 
       {preview && (
         <p className="text-xs text-slate-500">
-          Preview: <span className="font-mono text-indigo-600">etalaso.id/kuliner/{preview}</span>
+          Preview: <span className="font-mono text-indigo-600">etalaso.biz.id/kuliner/{preview}</span>
         </p>
       )}
 

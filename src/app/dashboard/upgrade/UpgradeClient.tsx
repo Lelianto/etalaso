@@ -21,6 +21,7 @@ export default function UpgradeClient({ plans, currentPlanId }: { plans: Plan[];
   const [showQRIS, setShowQRIS] = useState(false)
   const [uploading, setUploading] = useState(false)
   const [submitted, setSubmitted] = useState(false)
+  const [error, setError] = useState('')
   const router = useRouter()
 
   const handleUpload = async (e: React.ChangeEvent<HTMLInputElement>) => {
@@ -39,8 +40,10 @@ export default function UpgradeClient({ plans, currentPlanId }: { plans: Plan[];
 
     if (!upload) {
       setUploading(false)
+      setError('Gagal mengunggah bukti pembayaran. Silakan coba lagi.')
       return
     }
+    setError('')
 
     const { data: { publicUrl } } = supabase.storage
       .from('payment-proofs')
@@ -65,7 +68,7 @@ export default function UpgradeClient({ plans, currentPlanId }: { plans: Plan[];
 
     setUploading(false)
     if (paymentError) {
-      alert('Gagal mengirim bukti pembayaran. Silakan coba lagi.')
+      setError('Gagal mengirim bukti pembayaran. Silakan coba lagi.')
       return
     }
     setSubmitted(true)
@@ -165,6 +168,9 @@ export default function UpgradeClient({ plans, currentPlanId }: { plans: Plan[];
           />
           {uploading && (
             <p className="text-indigo-600 text-sm mt-2">Mengunggah bukti pembayaran...</p>
+          )}
+          {error && (
+            <p className="text-red-600 text-sm mt-2 font-medium">{error}</p>
           )}
         </div>
 

@@ -143,7 +143,7 @@ export default async function KulinerListingPage() {
             </span>
           </div>
           <p className="mt-3 text-neutral-500 text-xs">
-            Dapatkan link seperti <span className="font-mono text-amber">etalaso.id/kuliner/nama-toko</span>
+            Dapatkan link seperti <span className="font-mono text-amber">etalaso.biz.id/kuliner/nama-toko</span>
           </p>
           <Link
             href="/kuliner/daftar"

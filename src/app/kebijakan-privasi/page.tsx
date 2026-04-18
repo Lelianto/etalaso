@@ -31,7 +31,7 @@ export default function KebijakanPrivasi() {
           <section>
             <h2 className="font-[family-name:var(--font-display)] text-xl text-charcoal mb-3">1. Pendahuluan</h2>
             <p>
-              Etalaso (&quot;kami&quot;, &quot;platform&quot;) berkomitmen melindungi privasi pengguna. Kebijakan Privasi ini menjelaskan bagaimana kami mengumpulkan, menggunakan, menyimpan, dan melindungi informasi pribadi Anda saat menggunakan platform Etalaso yang dapat diakses melalui situs web etalaso.id.
+              Etalaso (&quot;kami&quot;, &quot;platform&quot;) berkomitmen melindungi privasi pengguna. Kebijakan Privasi ini menjelaskan bagaimana kami mengumpulkan, menggunakan, menyimpan, dan melindungi informasi pribadi Anda saat menggunakan platform Etalaso yang dapat diakses melalui situs web etalaso.biz.id.
             </p>
           </section>
 

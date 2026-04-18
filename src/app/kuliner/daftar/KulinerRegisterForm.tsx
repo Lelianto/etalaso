@@ -123,7 +123,7 @@ export default function KulinerRegisterForm() {
             </span>
             <span className="flex items-center gap-1.5">
               <span className="w-5 h-5 rounded-full bg-green-100 text-green-600 flex items-center justify-center text-xs">&#10003;</span>
-              Link kustom (etalaso.id/kuliner/nama-toko)
+              Link kustom (etalaso.biz.id/kuliner/nama-toko)
             </span>
             <span className="flex items-center gap-1.5">
               <span className="w-5 h-5 rounded-full bg-green-100 text-green-600 flex items-center justify-center text-xs">&#10003;</span>

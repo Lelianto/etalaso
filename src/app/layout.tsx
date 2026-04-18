@@ -6,7 +6,7 @@ const dmSerif = DM_Serif_Display({ weight: '400', subsets: ['latin'], variable: 
 const jakarta = Plus_Jakarta_Sans({ subsets: ['latin'], variable: '--font-body' })
 
 export const metadata: Metadata = {
-  metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL || 'https://etalaso.id'),
+  metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL || 'https://www.etalaso.biz.id'),
   title: {
     default: 'Etalaso — Platform Bisnis Lokal Indonesia',
     template: '%s | Etalaso',

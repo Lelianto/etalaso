@@ -244,7 +244,7 @@ export default async function Home() {
                 Gratis untuk semua usaha kuliner rumahan.
               </p>
               <p className="mt-2 text-xs text-amber font-medium">
-                🔗 Dapatkan link kustom: <span className="font-mono">etalaso.id/kuliner/nama-toko</span>
+                🔗 Dapatkan link kustom: <span className="font-mono">etalaso.biz.id/kuliner/nama-toko</span>
               </p>
               <div className="mt-6 flex flex-col sm:flex-row gap-3">
                 <Link

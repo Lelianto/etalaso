@@ -1,4 +1,4 @@
-export const BASE_URL = process.env.NEXT_PUBLIC_SITE_URL || 'https://etalaso.id'
+export const BASE_URL = process.env.NEXT_PUBLIC_SITE_URL || 'https://www.etalaso.biz.id'
 
 export function toSlug(name: string): string {
   return name

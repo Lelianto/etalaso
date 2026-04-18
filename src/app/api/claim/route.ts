@@ -89,16 +89,8 @@ export async function POST(request: Request) {
   }
 
   // FREE plan: auto-approve immediately
-  // 1. Create claim as approved
-  await supabaseAdmin.from('Claim').insert({
-    businessId,
-    userId: user.id,
-    message: 'Paket: Gratis (auto-approved)',
-    status: 'approved',
-  })
-
-  // 2. Set business owner + save original data
-  await supabaseAdmin
+  // 1. Atomically claim the business (only if still unclaimed)
+  const { data: claimed, error: claimUpdateErr } = await supabaseAdmin
     .from('Business')
     .update({
       ownerId: user.id,
@@ -109,6 +101,20 @@ export async function POST(request: Request) {
       updatedAt: now,
     })
     .eq('id', businessId)
+    .eq('isClaimed', false) // Atomic guard: only update if still unclaimed
+    .select('id')
+
+  if (claimUpdateErr || !claimed || claimed.length === 0) {
+    return NextResponse.json({ error: 'Business already claimed' }, { status: 409 })
+  }
+
+  // 2. Create claim as approved
+  await supabaseAdmin.from('Claim').insert({
+    businessId,
+    userId: user.id,
+    message: 'Paket: Gratis (auto-approved)',
+    status: 'approved',
+  })
 
   // 3. Set user plan to UMKM with 7-day trial
   const trialEnd = new Date()

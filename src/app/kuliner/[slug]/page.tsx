@@ -6,6 +6,7 @@ import OrderingWrapper from '@/components/ordering/OrderingWrapper'
 import ViewTracker from '@/components/ui/ViewTracker'
 import WaClickTracker from '@/components/ui/WaClickTracker'
 import ShareButtons from '@/components/ui/ShareButtons'
+import PageViewCount from '@/components/ui/PageViewCount'
 import KulinerStorePage from './KulinerStorePage'
 
 export const revalidate = 3600
@@ -87,6 +88,7 @@ export default async function KulinerStoreRoute({ params }: Props) {
       <div className="fixed bottom-20 left-4 z-40 flex flex-col gap-2">
         <ShareButtons url={pageUrl} title={store.name} description={store.tagline || store.description || undefined} />
       </div>
+      <PageViewCount businessId={store.id} />
     </>
   )
 }

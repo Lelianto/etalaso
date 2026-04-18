@@ -52,7 +52,7 @@ export default function Kontak() {
           </a>
 
           <a
-            href="mailto:hello@etalaso.id"
+            href="mailto:hello@etalaso.biz.id"
             className="group bg-white rounded-2xl border border-neutral-100 p-6 hover:border-amber/40 hover:shadow-lg hover:shadow-amber/5 transition-all"
           >
             <div className="w-12 h-12 rounded-xl bg-amber/10 text-amber flex items-center justify-center mb-4 group-hover:scale-110 transition-transform">
@@ -62,7 +62,7 @@ export default function Kontak() {
             </div>
             <h2 className="font-semibold text-charcoal text-lg mb-1">Email</h2>
             <p className="text-sm text-neutral-500 mb-3">Untuk pertanyaan formal atau kerja sama bisnis.</p>
-            <span className="text-sm text-amber font-medium">hello@etalaso.id</span>
+            <span className="text-sm text-amber font-medium">hello@etalaso.biz.id</span>
           </a>
         </div>
 
