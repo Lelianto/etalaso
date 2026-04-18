@@ -96,7 +96,7 @@ export default function QRGenerator({ baseUrl, businessName, isKuliner }: QRGene
         <h1>${businessName}</h1>
         <p>Scan untuk lihat produk & pesan via WhatsApp</p>
         <img src="${businessQr}" alt="QR ${businessName}" />
-        <p style="margin-top: 16px; font-size: 12px; color: #94a3b8;">etalaso.com</p>
+        <p style="margin-top: 16px; font-size: 12px; color: #94a3b8;">etalaso.biz.id</p>
       </body>
       </html>
     `)

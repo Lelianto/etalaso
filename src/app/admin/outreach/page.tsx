@@ -74,7 +74,7 @@ export default async function OutreachPage() {
             </thead>
             <tbody className="divide-y divide-slate-100">
               {ranked.map((b, i) => {
-                const claimLink = `https://etalaso.com/claim/${b.id}`
+                const claimLink = `https://www.etalaso.biz.id/claim/${b.id}`
                 const waMessage = encodeURIComponent(
                   `Halo, saya dari Etalaso.com. Halaman bisnis *${b.name}* di Etalaso sudah dilihat ${b.views} orang minggu ini.\n\nKlaim halaman bisnis Anda gratis di:\n${claimLink}\n\nDengan klaim, Anda bisa edit profil, lihat statistik pengunjung, dan terima pesanan via WhatsApp.`
                 )

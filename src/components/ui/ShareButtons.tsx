@@ -2,7 +2,7 @@
 
 import { useState } from 'react'
 
-const BASE_URL = 'https://etalaso.com'
+const BASE_URL = 'https://www.etalaso.biz.id'
 
 export default function ShareButtons({ url, title, description }: { url: string; title: string; description?: string }) {
   const [copied, setCopied] = useState(false)

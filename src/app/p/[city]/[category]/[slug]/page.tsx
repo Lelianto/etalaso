@@ -143,7 +143,7 @@ export default async function BusinessPage({ params }: Props) {
       )}
       {isNewlyClaimed && (
         <div className="fixed top-0 left-0 right-0 z-50 bg-amber-50 border-b border-amber-200 px-4 py-2 text-center text-xs text-amber-800">
-          Halaman ini baru diklaim. Jika Anda pemilik asli bisnis ini, <a href="mailto:support@etalaso.com" className="underline font-semibold">hubungi kami</a>.
+          Halaman ini baru diklaim. Jika Anda pemilik asli bisnis ini, <a href="mailto:support@etalaso.biz.id" className="underline font-semibold">hubungi kami</a>.
         </div>
       )}
       <div className="fixed bottom-20 left-4 z-40 flex flex-col gap-2">
