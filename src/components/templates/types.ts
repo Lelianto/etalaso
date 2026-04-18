@@ -37,6 +37,8 @@ export interface BusinessData {
     text: string | null
     date: string | null
   }>
+  /** Full page URL path, e.g. /p/city/category/slug */
+  pageUrl?: string
 }
 
 const DAYS = ['Senin', 'Selasa', 'Rabu', 'Kamis', 'Jumat', 'Sabtu', 'Minggu']
@@ -69,7 +71,8 @@ export function getOpeningHours(business: BusinessData): string | null {
 
 export function getWhatsAppLink(business: BusinessData): string {
   if (!business.whatsappNumber) return '#'
-  const defaultMsg = `Halo, saya lihat ${business.name} di Etalaso.com. Hari ini buka?`
+  const pageLink = business.pageUrl ? `https://www.etalaso.biz.id${business.pageUrl}` : 'etalaso.biz.id'
+  const defaultMsg = `Halo, saya mengetahui ${business.name} dari ${pageLink}`
   return `https://wa.me/${business.whatsappNumber}?text=${encodeURIComponent(business.whatsappMessage || defaultMsg)}`
 }
 

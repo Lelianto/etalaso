@@ -118,6 +118,7 @@ export default async function BusinessPage({ params }: Props) {
   const isNewlyClaimed = business.isClaimed && business.claimedAt &&
     (Date.now() - new Date(business.claimedAt).getTime()) < 7 * 24 * 60 * 60 * 1000
   const pageUrl = `/p/${city}/${category}/${slug}`
+  const businessWithUrl = { ...business, pageUrl }
 
   return (
     <>
@@ -131,8 +132,8 @@ export default async function BusinessPage({ params }: Props) {
       />
       <ViewTracker businessId={business.id} path={pageUrl} />
       <WaClickTracker businessId={business.id}>
-        <OrderingWrapper business={business} accentColor={theme.colors.accent} category={category}>
-          <TemplateFactory templateId={templateKey} business={business} orderingActive={orderingEnabled} />
+        <OrderingWrapper business={businessWithUrl} accentColor={theme.colors.accent} category={category}>
+          <TemplateFactory templateId={templateKey} business={businessWithUrl} orderingActive={orderingEnabled} />
         </OrderingWrapper>
       </WaClickTracker>
       {isUnclaimed && (

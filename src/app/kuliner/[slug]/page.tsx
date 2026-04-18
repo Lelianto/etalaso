@@ -55,7 +55,7 @@ export default async function KulinerStoreRoute({ params }: Props) {
   if (!store) notFound()
 
   // Add empty reviews since kuliner stores don't use review system
-  const storeWithReviews = { ...store, reviews: store.reviews || [] }
+  const storeWithReviews = { ...store, reviews: store.reviews || [], pageUrl: `/kuliner/${slug}` }
 
   const pageUrl = `/kuliner/${slug}`
   const accentColor = '#f59e0b' // amber

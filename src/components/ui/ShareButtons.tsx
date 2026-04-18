@@ -27,7 +27,7 @@ export default function ShareButtons({ url, title, description }: { url: string;
     setTimeout(() => setCopied(false), 2000)
   }
 
-  const waText = `🍽️ *${title}*\n${description ? `${description}\n` : ''}\nCek menu & pesan langsung di sini 👇\n${fullUrl}`
+  const waText = `*${title}*\n${description ? `${description}\n` : ''}\nCek info & pesan langsung di sini:\n${fullUrl}`
   const waShareUrl = `https://wa.me/?text=${encodeURIComponent(waText)}`
   const fbShareUrl = `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(fullUrl)}`
 
