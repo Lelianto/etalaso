@@ -44,6 +44,11 @@ const STOREFRONT_VARIANTS: Record<string, { name: string; description: string; c
   'sf-cp-luxury': { name: 'Compact Luxury', description: 'Daftar ringkas emas', category: 'Storefront' },
   'sf-cp-cyberpunk': { name: 'Compact Neon', description: 'Daftar ringkas masa depan', category: 'Storefront' },
   'sf-cp-retro': { name: 'Compact Retro', description: 'Daftar ringkas klasik', category: 'Storefront' },
+
+  // Visual Immersive Series
+  'sf-vi-minimal': { name: 'Boutique Minimalist', description: 'Cinematic layout bersih', category: 'Storefront' },
+  'sf-vi-midnight': { name: 'Boutique Midnight', description: 'Cinematic layout gelap', category: 'Storefront' },
+  'sf-vi-elegant': { name: 'Boutique Elegant', description: 'Cinematic layout mewah', category: 'Storefront' },
 }
 
 const LEGACY_TEMPLATES: Record<string, { name: string; description: string; category: string }> = {
@@ -56,6 +61,7 @@ const LEGACY_TEMPLATES: Record<string, { name: string; description: string; cate
   kuliner: { name: 'Kuliner (Classic)', description: 'Layout khusus kuliner rumahan (Default)', category: 'Storefront' },
   modern: { name: 'Modern Grid', description: 'Tampilan grid 2-kolom modern', category: 'Storefront' },
   compact: { name: 'Compact List', description: 'Tampilan daftar ringkas tanpa gambar besar', category: 'Storefront' },
+  visual_immersive: { name: 'Boutique Visual', description: 'Layout sinematik dengan gambar besar', category: 'Storefront' },
   premium_dark: { name: 'Premium Dark', description: 'Tampilan mewah serba gelap', category: 'Storefront' },
   grid_hero: { name: 'Grid Hero', description: 'Grid dengan menu rekomendasi di atas', category: 'Storefront' },
   ...STOREFRONT_VARIANTS,

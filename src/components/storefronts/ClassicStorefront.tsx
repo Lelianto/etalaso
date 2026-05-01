@@ -60,147 +60,143 @@ export default function ClassicStorefront({ business, theme }: ClassicStorefront
     '--bg': theme.colors.background,
     '--primary': theme.colors.primary,
     '--secondary': theme.colors.secondary,
-    '--font-display': theme.typography.display,
-    '--font-body': theme.typography.body,
+    '--font-display': theme.typography.fontDisplay,
+    '--font-body': theme.typography.fontSans,
   } as React.CSSProperties
 
   return (
-    <div className="min-h-screen" style={{ ...cssVars, backgroundColor: 'var(--bg)', fontFamily: 'var(--font-body)' }}>
+    <div className="min-h-screen pb-10" style={{ ...cssVars, backgroundColor: 'var(--bg)', fontFamily: 'var(--font-body)' }}>
       {selectedImage && (
         <div
-          className="fixed inset-0 z-50 bg-slate-950/90 flex items-center justify-center p-4"
+          className="fixed inset-0 z-[60] bg-slate-950/95 backdrop-blur-sm flex items-center justify-center p-4 transition-all duration-300"
           onClick={() => setSelectedImage(null)}
         >
-          <div className="relative max-w-4xl w-full max-h-full" onClick={(e) => e.stopPropagation()}>
+          <div className="relative max-w-4xl w-full max-h-[90vh]" onClick={(e) => e.stopPropagation()}>
             <button
               onClick={() => setSelectedImage(null)}
-              className="absolute top-3 right-3 z-10 rounded-full bg-slate-900/80 p-2 text-white hover:bg-slate-900"
+              className="absolute -top-12 right-0 z-10 rounded-full bg-white/10 p-3 text-white hover:bg-white/20 transition-all backdrop-blur-md"
             >
-              <X size={20} />
+              <X size={24} />
             </button>
-            <div className="w-full h-full overflow-hidden rounded-3xl shadow-2xl border border-white/10">
+            <div className="w-full h-full overflow-hidden rounded-3xl shadow-2xl ring-1 ring-white/20">
               <img
                 src={selectedImage}
                 alt="Produk"
-                className="w-full h-full object-contain"
+                className="w-full h-full object-contain mx-auto"
               />
             </div>
           </div>
         </div>
       )}
-      {/* Header */}
-      <div className="bg-white border-b border-neutral-100" style={{ backgroundColor: 'white' }}>
-        <div className="max-w-2xl mx-auto px-4 pt-4 pb-5">
+
+      {/* Hero Header */}
+      <div className="relative overflow-hidden bg-white border-b border-neutral-100/50">
+        <div className="absolute inset-0 bg-gradient-to-br from-transparent to-neutral-50/50" />
+        <div className="max-w-2xl mx-auto px-5 pt-5 pb-8 relative z-10">
           <Link
             href="/kuliner"
-            className="flex items-center gap-1.5 text-sm text-neutral-500 hover:text-neutral-700 transition-colors mb-3"
+            className="group inline-flex items-center gap-2 text-sm text-neutral-400 hover:text-neutral-900 transition-all mb-5"
           >
-            <ArrowLeft size={16} />
-            <span>Kembali</span>
-          </Link>
-          {/* Store image */}
-          {business.imageUrl && (
-            <div className="w-full h-48 rounded-2xl overflow-hidden mb-4 relative">
-              <Image
-                src={business.imageUrl}
-                alt={business.name}
-                fill
-                className="object-cover"
-              />
+            <div className="w-8 h-8 rounded-full border border-neutral-100 flex items-center justify-center group-hover:border-neutral-900 transition-colors">
+              <ArrowLeft size={14} />
             </div>
-          )}
+            <span className="font-medium">Kembali</span>
+          </Link>
 
-          <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3">
-            <div className="min-w-0">
-              <h1 className="text-2xl truncate" style={{ fontFamily: 'var(--font-display)', color: 'var(--primary)' }}>
-                {business.name}
-              </h1>
-              {business.tagline && (
-                <p className="text-sm mt-0.5" style={{ color: 'var(--secondary)' }}>{business.tagline}</p>
+          <div className="flex flex-col gap-6">
+            {/* Store image with subtle float effect */}
+            {business.imageUrl && (
+              <div className="w-full h-56 rounded-[2rem] overflow-hidden shadow-2xl shadow-neutral-200/50 relative group">
+                <Image
+                  src={business.imageUrl}
+                  alt={business.name}
+                  fill
+                  className="object-cover group-hover:scale-105 transition-transform duration-700"
+                  priority
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent" />
+              </div>
+            )}
+
+            <div className="flex flex-col gap-4">
+              <div className="flex flex-col gap-1">
+                <div className="flex items-center justify-between gap-4">
+                  <h1 className="text-3xl font-bold tracking-tight text-neutral-900" style={{ fontFamily: 'var(--font-display)', color: 'var(--primary)' }}>
+                    {business.name}
+                  </h1>
+                  <div className={`shrink-0 px-3 py-1 rounded-full text-[10px] font-black uppercase tracking-widest ${
+                    isOpen ? 'bg-green-100 text-green-700' : 'bg-red-100 text-red-700'
+                  }`}>
+                    {isOpen ? 'Open Now' : 'Closed'}
+                  </div>
+                </div>
+                {business.tagline && (
+                  <p className="text-neutral-500 font-medium italic" style={{ color: 'var(--secondary)' }}>{business.tagline}</p>
+                )}
+              </div>
+
+              {/* Enhanced Info Grid */}
+              <div className="flex flex-wrap gap-2">
+                <div className="flex items-center gap-4 py-1">
+                   <PageViewCount businessId={business.id} inline />
+                </div>
+              </div>
+
+              <div className="flex flex-wrap gap-2">
+                {business.areaNote && (
+                  <span className="inline-flex items-center gap-1.5 text-xs font-medium text-neutral-600 bg-neutral-100/80 backdrop-blur-sm px-3 py-1.5 rounded-full border border-neutral-200/50">
+                    <MapPin size={12} className="text-neutral-400" /> {business.areaNote}
+                  </span>
+                )}
+                {business.operatingDays && (
+                  <span className="inline-flex items-center gap-1.5 text-xs font-medium text-neutral-600 bg-neutral-100/80 backdrop-blur-sm px-3 py-1.5 rounded-full border border-neutral-200/50">
+                    <Clock size={12} className="text-neutral-400" /> {business.operatingDays.length === 7 ? 'Everyday' : business.operatingDays.join(', ')}
+                  </span>
+                )}
+                {business.deliveryMethods?.map(dm => {
+                  const method = DELIVERY_METHODS.find(m => m.value === dm)
+                  if (!method) return null
+                  return (
+                    <span key={dm} className="inline-flex items-center gap-1.5 text-xs font-bold px-3 py-1.5 rounded-full border border-current shadow-sm" style={{ color: 'var(--accent)', backgroundColor: 'var(--accent-light)', borderColor: 'var(--accent-light)' }}>
+                      <Truck size={12} /> {method.label}
+                    </span>
+                  )
+                })}
+              </div>
+
+              {business.description && (
+                <p className="text-sm leading-relaxed text-neutral-600 max-w-prose" style={{ color: 'var(--secondary)' }}>{business.description}</p>
               )}
             </div>
-            <div className="flex items-center gap-3">
-              <PageViewCount businessId={business.id} inline />
-              <div className={`shrink-0 px-3 py-1 rounded-full text-xs font-bold ${
-                isOpen ? 'bg-green-100 text-green-700' : 'bg-red-100 text-red-700'
-              }`}>
-                {isOpen ? 'Buka' : 'Tutup'}
-              </div>
-            </div>
           </div>
-
-          {/* Info pills */}
-          <div className="mt-3 flex flex-wrap gap-2">
-            {business.areaNote && (
-              <span className="inline-flex items-center gap-1 text-xs text-neutral-500 bg-neutral-50 px-2.5 py-1 rounded-full">
-                <MapPin size={12} /> {business.areaNote}
-              </span>
-            )}
-            {!business.areaNote && business.kecamatan && (
-              <span className="inline-flex items-center gap-1 text-xs text-neutral-500 bg-neutral-50 px-2.5 py-1 rounded-full">
-                <MapPin size={12} /> {business.kecamatan} & sekitar
-              </span>
-            )}
-            {business.operatingDays && business.operatingDays.length > 0 && business.operatingDays.length < 7 && (
-              <span className="inline-flex items-center gap-1 text-xs text-neutral-500 bg-neutral-50 px-2.5 py-1 rounded-full">
-                <Clock size={12} /> {business.operatingDays.join(', ')}
-              </span>
-            )}
-            {business.operatingDays && business.operatingDays.length === 7 && (
-              <span className="inline-flex items-center gap-1 text-xs text-neutral-500 bg-neutral-50 px-2.5 py-1 rounded-full">
-                <Clock size={12} /> Setiap hari
-              </span>
-            )}
-          </div>
-
-          {/* Delivery methods */}
-          {business.deliveryMethods && business.deliveryMethods.length > 0 && (
-            <div className="mt-3 flex flex-wrap gap-2">
-              {business.deliveryMethods.map(dm => {
-                const method = DELIVERY_METHODS.find(m => m.value === dm)
-                if (!method) return null
-                const note = dm === 'gojek_grab' ? ' (dipesan pembeli)' : ''
-                return (
-                  <span key={dm} className="inline-flex items-center gap-1 text-xs px-2.5 py-1 rounded-full font-medium" style={{ color: 'var(--accent)', backgroundColor: 'var(--accent-light)' }}>
-                    <Truck size={12} /> {method.label}{note}
-                  </span>
-                )
-              })}
-            </div>
-          )}
-
-          {/* Description */}
-          {business.description && (
-            <p className="mt-3 text-sm leading-relaxed" style={{ color: 'var(--secondary)' }}>{business.description}</p>
-          )}
-
-          {/* Address */}
-          {business.address && (
-            <div className="mt-3 flex items-start gap-2 text-xs text-neutral-400">
-              <MapPin size={12} className="shrink-0 mt-0.5" />
-              <span>{business.address}</span>
-            </div>
-          )}
         </div>
       </div>
 
-      {/* Menu */}
-      <div className="max-w-2xl mx-auto px-4 pt-6 pb-40">
+      {/* Menu Section */}
+      <div className="max-w-2xl mx-auto px-5 pt-10 pb-40">
         {products.length === 0 ? (
-          <div className="text-center py-12">
-            <div className="text-4xl mb-3">🍽️</div>
-            <p className="text-sm" style={{ color: 'var(--secondary)' }}>Menu belum tersedia.</p>
-            <p className="text-neutral-400 text-xs mt-1">Pemilik sedang menyiapkan katalog makanan.</p>
+          <div className="text-center py-20 bg-neutral-50/50 rounded-[2.5rem] border border-dashed border-neutral-200">
+            <div className="text-5xl mb-4 grayscale opacity-50">🍱</div>
+            <h3 className="font-bold text-neutral-900">Menu Coming Soon</h3>
+            <p className="text-sm text-neutral-500 mt-1">We are preparing our specialties for you.</p>
           </div>
         ) : (
-          <div className="space-y-8">
+          <div className="space-y-12">
             {Array.from(grouped.entries()).map(([subcategory, items]) => (
-              <div key={subcategory}>
-                <h2 className="flex items-center gap-2 font-semibold mb-3" style={{ color: 'var(--primary)' }}>
-                  <span>{getSubcategoryIcon(subcategory)}</span>
-                  {getSubcategoryLabel(subcategory)}
-                </h2>
-                <div className="space-y-3">
+              <div key={subcategory} className="space-y-6">
+                <div className="flex items-center gap-4">
+                  <div className="w-12 h-12 rounded-2xl bg-white shadow-lg shadow-neutral-100 flex items-center justify-center text-xl border border-neutral-50">
+                    {getSubcategoryIcon(subcategory)}
+                  </div>
+                  <div>
+                    <h2 className="text-xl font-bold text-neutral-900 tracking-tight" style={{ color: 'var(--primary)' }}>
+                      {getSubcategoryLabel(subcategory)}
+                    </h2>
+                    <p className="text-[10px] font-black uppercase tracking-[0.2em] text-neutral-400">{items.length} Items</p>
+                  </div>
+                </div>
+                
+                <div className="grid gap-4">
                   {items.map(product => (
                     <ProductCard key={product.id} product={product} onAdd={addItem} onImageClick={setSelectedImage} accentColor={theme.colors.accent} />
                   ))}
@@ -211,19 +207,18 @@ export default function ClassicStorefront({ business, theme }: ClassicStorefront
         )}
       </div>
 
-      {/* WhatsApp direct CTA */}
+      {/* Sticky WhatsApp Floating Button - Enhanced */}
       {business.whatsappNumber && itemCount === 0 && (
-        <div className="fixed bottom-0 left-0 right-0 bg-white border-t border-neutral-100 p-4 z-40">
-          <div className="max-w-2xl mx-auto">
+        <div className="fixed bottom-8 left-0 right-0 px-5 z-40 pointer-events-none">
+          <div className="max-w-2xl mx-auto pointer-events-auto">
             <a
               href={`https://wa.me/${business.whatsappNumber}?text=${encodeURIComponent(`Halo, saya lihat ${business.name} di Etalaso. Hari ini buka?`)}`}
               target="_blank"
               rel="noopener noreferrer"
-              aria-label="Chat WhatsApp"
-              className="flex items-center justify-center gap-2 w-full text-white py-3.5 rounded-2xl font-bold text-sm hover:opacity-90 transition-opacity"
+              className="flex items-center justify-center gap-3 w-full text-white py-4.5 rounded-[1.5rem] font-bold text-sm shadow-2xl shadow-neutral-900/20 hover:scale-[1.02] active:scale-[0.98] transition-all"
               style={{ backgroundColor: 'var(--accent)' }}
             >
-              <Phone size={16} />
+              <Phone size={18} fill="currentColor" className="text-white/20" />
               Chat via WhatsApp
             </a>
           </div>
@@ -252,36 +247,41 @@ function ProductCard({
   accentColor: string
 }) {
   return (
-    <div className="bg-white rounded-xl border border-neutral-100 p-3 flex gap-3">
+    <div className="group bg-white rounded-[2rem] border border-neutral-100/80 p-4 flex gap-5 hover:border-neutral-200 hover:shadow-xl hover:shadow-neutral-200/40 transition-all duration-300">
       {product.imageUrl && (
         <button
           type="button"
           onClick={() => onImageClick(product.imageUrl!)}
-          className="w-20 h-20 rounded-lg overflow-hidden shrink-0 relative cursor-zoom-in"
+          className="w-24 h-24 rounded-2xl overflow-hidden shrink-0 relative cursor-zoom-in shadow-inner ring-1 ring-neutral-100"
         >
-          <Image src={product.imageUrl} alt={product.name} fill className="object-cover" />
+          <Image src={product.imageUrl} alt={product.name} fill className="object-cover group-hover:scale-110 transition-transform duration-500" />
         </button>
       )}
-      <div className="flex-1 min-w-0">
-        <h3 className="font-semibold text-sm truncate" style={{ color: 'var(--primary)' }}>{product.name}</h3>
-        {product.description && (
-          <p className="text-xs mt-0.5 line-clamp-2" style={{ color: 'var(--secondary)' }}>{product.description}</p>
-        )}
-        {product.availabilityNote && (
-          <span className="inline-block mt-1 text-[10px] font-semibold px-2 py-0.5 rounded-full" style={{ color: accentColor, backgroundColor: `${accentColor}1A` }}>
-            {product.availabilityNote}
-          </span>
-        )}
-        <div className="flex items-center justify-between mt-2">
-          <span className="text-sm font-bold" style={{ color: 'var(--primary)' }}>
+      <div className="flex-1 min-w-0 flex flex-col justify-between py-1">
+        <div>
+          <div className="flex items-start justify-between gap-2">
+            <h3 className="font-bold text-neutral-900 text-base leading-tight truncate" style={{ color: 'var(--primary)' }}>{product.name}</h3>
+            {product.availabilityNote && (
+              <span className="shrink-0 text-[9px] font-black uppercase tracking-wider px-2 py-0.5 rounded-md" style={{ color: accentColor, backgroundColor: `${accentColor}1A` }}>
+                {product.availabilityNote}
+              </span>
+            )}
+          </div>
+          {product.description && (
+            <p className="text-xs text-neutral-500 mt-1 line-clamp-2 leading-relaxed" style={{ color: 'var(--secondary)' }}>{product.description}</p>
+          )}
+        </div>
+        
+        <div className="flex items-center justify-between mt-3">
+          <span className="text-lg font-black tracking-tight text-neutral-900" style={{ color: 'var(--primary)' }}>
             {formatPrice(product.price)}
           </span>
           <button
             onClick={() => onAdd({ id: product.id, name: product.name, price: product.price, imageUrl: product.imageUrl })}
-            className="text-xs font-bold px-3 py-1.5 rounded-lg hover:opacity-80 transition-opacity"
-            style={{ color: accentColor, backgroundColor: `${accentColor}1A` }}
+            className="flex items-center gap-2 text-xs font-black uppercase tracking-widest px-4 py-2.5 rounded-xl hover:opacity-90 active:scale-95 transition-all shadow-sm"
+            style={{ color: 'white', backgroundColor: accentColor }}
           >
-            + Tambah
+            Add +
           </button>
         </div>
       </div>

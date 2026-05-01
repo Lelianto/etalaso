@@ -4,6 +4,7 @@ import React from 'react'
 import ClassicStorefront from './ClassicStorefront'
 import ModernStorefront from './ModernStorefront'
 import CompactStorefront from './CompactStorefront'
+import VisualImmersiveStorefront from './VisualImmersiveStorefront'
 import { BusinessData } from '../templates/types'
 import { getTemplateTheme } from '../templates/registry'
 
@@ -13,6 +14,7 @@ const STOREFRONT_REGISTRY: Record<string, React.FC<{ business: any, theme: any }
   kuliner: ClassicStorefront,
   modern: ModernStorefront,
   compact: CompactStorefront,
+  visual_immersive: VisualImmersiveStorefront,
 }
 
 interface StorefrontFactoryProps {
@@ -35,6 +37,7 @@ export function StorefrontFactory({ variant = 'classic', business }: StorefrontF
       if (type === 'cl') layoutKey = 'classic'
       if (type === 'md') layoutKey = 'modern'
       if (type === 'cp') layoutKey = 'compact'
+      if (type === 'vi') layoutKey = 'visual_immersive'
     }
   }
 

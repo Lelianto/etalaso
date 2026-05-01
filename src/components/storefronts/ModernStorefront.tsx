@@ -56,87 +56,121 @@ export default function ModernStorefront({ business, theme }: StorefrontProps) {
     '--bg': theme.colors.background,
     '--primary': theme.colors.primary,
     '--secondary': theme.colors.secondary,
-    '--font-display': theme.typography.display,
-    '--font-body': theme.typography.body,
+    '--font-display': theme.typography.fontDisplay,
+    '--font-body': theme.typography.fontSans,
   } as React.CSSProperties
 
   return (
-    <div className="min-h-screen" style={{ ...cssVars, fontFamily: 'var(--font-body)', backgroundColor: '#f8fafc' }}>
+    <div className="min-h-screen" style={{ ...cssVars, fontFamily: 'var(--font-body)', backgroundColor: '#fafafa' }}>
       {/* Zoom Modal */}
       {selectedImage && (
-        <div className="fixed inset-0 z-50 bg-black/90 flex items-center justify-center p-4" onClick={() => setSelectedImage(null)}>
-          <div className="relative max-w-4xl w-full" onClick={e => e.stopPropagation()}>
-            <button onClick={() => setSelectedImage(null)} className="absolute -top-12 right-0 text-white"><X size={32} /></button>
-            <img src={selectedImage} alt="Zoom" className="w-full h-auto rounded-xl" />
+        <div className="fixed inset-0 z-[60] bg-black/95 backdrop-blur-md flex items-center justify-center p-4" onClick={() => setSelectedImage(null)}>
+          <div className="relative max-w-4xl w-full group" onClick={e => e.stopPropagation()}>
+            <button onClick={() => setSelectedImage(null)} className="absolute -top-14 right-0 text-white/50 hover:text-white transition-colors"><X size={32} /></button>
+            <img src={selectedImage} alt="Zoom" className="w-full h-auto rounded-[2rem] shadow-2xl ring-1 ring-white/10" />
           </div>
         </div>
       )}
 
-      {/* Modern Banner & Header */}
-      <div className="relative h-64 bg-slate-900">
-        {business.imageUrl && (
-          <Image src={business.imageUrl} alt={business.name} fill className="object-cover opacity-60" />
+      {/* Hero Banner Section */}
+      <div className="relative h-[45vh] min-h-[320px] bg-neutral-900 overflow-hidden">
+        {business.imageUrl ? (
+          <Image src={business.imageUrl} alt={business.name} fill className="object-cover opacity-70 scale-105" priority />
+        ) : (
+          <div className="absolute inset-0 bg-gradient-to-br from-neutral-800 to-neutral-900" />
         )}
-        <div className="absolute inset-0 bg-gradient-to-t from-slate-900 to-transparent" />
-        <div className="absolute bottom-0 left-0 right-0 p-6 max-w-4xl mx-auto">
-          <Link href="/kuliner" className="inline-flex items-center gap-2 text-white/70 text-sm mb-4 hover:text-white transition-colors">
-            <ArrowLeft size={16} /> Kembali
+        <div className="absolute inset-0 bg-gradient-to-t from-neutral-900 via-neutral-900/40 to-transparent" />
+        
+        <div className="absolute inset-0 flex flex-col justify-end p-8 md:p-12 max-w-5xl mx-auto w-full">
+          <Link href="/kuliner" className="inline-flex items-center gap-2 text-white/60 text-xs font-black uppercase tracking-[0.2em] mb-6 hover:text-white transition-colors">
+            <ArrowLeft size={14} /> Back to Discover
           </Link>
-          <div className="flex flex-col md:flex-row md:items-end justify-between gap-4">
-            <div>
-              <h1 className="text-3xl md:text-4xl font-bold text-white mb-2">{business.name}</h1>
-              <p className="text-white/80 max-w-xl text-sm md:text-base">{business.tagline || business.description}</p>
+          
+          <div className="flex flex-col md:flex-row md:items-end justify-between gap-8">
+            <div className="space-y-4">
+              <div className="inline-flex items-center gap-3 bg-white/10 backdrop-blur-md px-3 py-1 rounded-full border border-white/10">
+                <div className={`w-2 h-2 rounded-full ${isOpen ? 'bg-green-400 shadow-[0_0_8px_rgba(74,222,128,0.5)]' : 'bg-red-400'}`} />
+                <span className="text-[10px] font-black text-white uppercase tracking-widest">{isOpen ? 'Open For Business' : 'Taking a Break'}</span>
+              </div>
+              <h1 className="text-5xl md:text-7xl font-black text-white tracking-tighter leading-none" style={{ fontFamily: 'var(--font-display)' }}>
+                {business.name}
+              </h1>
+              <p className="text-white/70 max-w-lg text-sm md:text-base font-medium leading-relaxed italic">{business.tagline || business.description}</p>
             </div>
-            <div className="flex items-center gap-3 bg-white/10 backdrop-blur-md p-2 rounded-2xl border border-white/10">
-              <PageViewCount businessId={business.id} inline />
-              <span className={`px-3 py-1 rounded-full text-[10px] font-bold uppercase tracking-wider ${isOpen ? 'bg-green-500 text-white' : 'bg-red-500 text-white'}`}>
-                {isOpen ? 'Buka' : 'Tutup'}
-              </span>
+            
+            <div className="flex items-center gap-6 pb-2">
+               <div className="bg-white/5 backdrop-blur-xl p-4 rounded-3xl border border-white/10">
+                 <PageViewCount businessId={business.id} inline />
+               </div>
             </div>
           </div>
         </div>
       </div>
 
-      {/* Info Bar */}
-      <div className="bg-white border-b border-slate-200 sticky top-0 z-30 shadow-sm">
-        <div className="max-w-4xl mx-auto px-6 py-4 flex flex-wrap gap-4 text-xs font-medium text-slate-500">
-          <div className="flex items-center gap-1.5"><MapPin size={14} className="text-indigo-500" /> {business.kecamatan || business.areaNote || 'Lokasi Terdaftar'}</div>
-          <div className="flex items-center gap-1.5"><Clock size={14} className="text-indigo-500" /> {business.operatingDays?.join(', ') || 'Setiap Hari'}</div>
-          {business.deliveryMethods?.map(m => (
-            <div key={m} className="flex items-center gap-1.5 bg-slate-100 px-2 py-1 rounded-md"><Truck size={14} /> {m === 'pickup' ? 'Ambil Sendiri' : 'Kurir'}</div>
-          ))}
+      {/* Elegant Sticky Navigation Bar */}
+      <div className="bg-white/80 backdrop-blur-2xl border-b border-neutral-100 sticky top-0 z-40">
+        <div className="max-w-5xl mx-auto px-8 py-5 flex flex-wrap items-center gap-8">
+          <div className="flex items-center gap-2 text-[10px] font-black uppercase tracking-widest text-neutral-400">
+            <MapPin size={14} style={{ color: 'var(--accent)' }} /> 
+            <span className="text-neutral-900">{business.kecamatan || business.areaNote || 'Local Store'}</span>
+          </div>
+          <div className="flex items-center gap-2 text-[10px] font-black uppercase tracking-widest text-neutral-400">
+            <Clock size={14} style={{ color: 'var(--accent)' }} /> 
+            <span className="text-neutral-900">{business.operatingDays?.length === 7 ? 'Open Daily' : 'Scheduled Hours'}</span>
+          </div>
+          <div className="flex flex-wrap gap-2 ml-auto">
+            {business.deliveryMethods?.map(m => (
+              <div key={m} className="px-3 py-1 rounded-full text-[9px] font-black uppercase tracking-tighter bg-neutral-50 border border-neutral-200 text-neutral-500">{m}</div>
+            ))}
+          </div>
         </div>
       </div>
 
-      {/* Product Grid */}
-      <main className="max-w-4xl mx-auto px-6 py-10 pb-40">
+      {/* Grid Menu Content */}
+      <main className="max-w-5xl mx-auto px-8 py-16 pb-40">
         {Array.from(grouped.entries()).map(([sub, items]) => (
-          <section key={sub} className="mb-12">
-            <h2 className="text-xl font-bold text-slate-800 mb-6 flex items-center gap-3">
-              <span className="w-1.5 h-6 rounded-full" style={{ backgroundColor: 'var(--accent)' }} />
-              {getSubcategoryLabel(sub)}
-            </h2>
-            <div className="grid grid-cols-2 md:grid-cols-3 gap-4 md:gap-6">
+          <section key={sub} className="mb-20 last:mb-0">
+            <div className="flex items-baseline gap-4 mb-10 border-b border-neutral-100 pb-4">
+              <h2 className="text-3xl font-black text-neutral-900 tracking-tighter" style={{ color: 'var(--primary)' }}>
+                {getSubcategoryLabel(sub)}
+              </h2>
+              <span className="text-[10px] font-black text-neutral-300 uppercase tracking-widest">{items.length} Options</span>
+            </div>
+            
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
               {items.map(p => (
-                <div key={p.id} className="bg-white rounded-2xl border border-slate-200 overflow-hidden shadow-sm hover:shadow-md transition-shadow flex flex-col">
-                  <div className="relative aspect-square cursor-zoom-in group" onClick={() => p.imageUrl && setSelectedImage(p.imageUrl)}>
+                <div key={p.id} className="group bg-white rounded-[2.5rem] border border-neutral-100 overflow-hidden hover:shadow-2xl hover:shadow-neutral-200/50 transition-all duration-500 flex flex-col ring-1 ring-neutral-50">
+                  <div className="relative aspect-[4/5] cursor-zoom-in overflow-hidden" onClick={() => p.imageUrl && setSelectedImage(p.imageUrl)}>
                     {p.imageUrl ? (
-                      <Image src={p.imageUrl} alt={p.name} fill className="object-cover group-hover:scale-105 transition-transform duration-500" />
+                      <Image 
+                        src={p.imageUrl} 
+                        alt={p.name} 
+                        fill 
+                        className="object-cover group-hover:scale-110 transition-transform duration-700 ease-out" 
+                      />
                     ) : (
-                      <div className="w-full h-full bg-slate-100 flex items-center justify-center text-slate-300">🍽️</div>
+                      <div className="w-full h-full bg-neutral-50 flex items-center justify-center text-4xl grayscale opacity-30">🍽️</div>
                     )}
+                    <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
+                    <div className="absolute bottom-6 left-6 right-6 translate-y-4 group-hover:translate-y-0 opacity-0 group-hover:opacity-100 transition-all duration-500">
+                       <span className="text-white text-[10px] font-black uppercase tracking-widest bg-white/20 backdrop-blur-md px-3 py-1 rounded-full border border-white/20">View Detail</span>
+                    </div>
                   </div>
-                  <div className="p-4 flex-grow flex flex-col">
-                    <h3 className="font-bold text-slate-800 text-sm md:text-base mb-1 line-clamp-1">{p.name}</h3>
-                    <p className="text-slate-500 text-xs line-clamp-2 mb-3 flex-grow">{p.description}</p>
-                    <div className="flex items-center justify-between mt-auto">
-                      <span className="font-bold text-sm" style={{ color: 'var(--accent)' }}>{formatPrice(p.price)}</span>
+                  
+                  <div className="p-6 flex-grow flex flex-col gap-4">
+                    <div className="space-y-1">
+                      <h3 className="font-bold text-neutral-900 text-lg tracking-tight line-clamp-1" style={{ color: 'var(--primary)' }}>{p.name}</h3>
+                      <p className="text-neutral-500 text-xs font-medium line-clamp-2 leading-relaxed h-8">{p.description}</p>
+                    </div>
+                    
+                    <div className="flex items-center justify-between mt-auto pt-4 border-t border-neutral-50">
+                      <span className="text-xl font-black tracking-tighter" style={{ color: 'var(--accent)' }}>{formatPrice(p.price)}</span>
                       <button 
                         onClick={() => addItem({ id: p.id, name: p.name, price: p.price, imageUrl: p.imageUrl })}
-                        className="p-2 rounded-xl hover:opacity-80 transition-opacity"
-                        style={{ color: 'var(--accent)', backgroundColor: 'var(--accent-light)' }}
+                        className="w-12 h-12 flex items-center justify-center rounded-2xl transition-all shadow-lg active:scale-90"
+                        style={{ backgroundColor: 'var(--accent)', color: 'white' }}
                       >
-                        <ShoppingBag size={18} />
+                        <ShoppingBag size={20} />
                       </button>
                     </div>
                   </div>
@@ -147,14 +181,14 @@ export default function ModernStorefront({ business, theme }: StorefrontProps) {
         ))}
       </main>
 
-      {/* Floating Checkout CTA */}
+      {/* Floating CTA */}
       {business.whatsappNumber && itemCount === 0 && (
-        <div className="fixed bottom-6 left-1/2 -translate-x-1/2 w-[calc(100%-3rem)] max-w-md z-40">
+        <div className="fixed bottom-10 left-1/2 -translate-x-1/2 w-full max-w-sm px-6 z-40">
           <a
             href={`https://wa.me/${business.whatsappNumber}?text=${encodeURIComponent(`Halo ${business.name}, saya ingin memesan...`)}`}
-            className="flex items-center justify-center gap-3 w-full bg-slate-900 text-white py-4 rounded-2xl font-bold shadow-2xl hover:bg-black transition-colors"
+            className="flex items-center justify-center gap-3 w-full bg-neutral-900 text-white py-5 rounded-[2rem] font-black text-xs uppercase tracking-widest shadow-2xl hover:bg-black hover:scale-[1.05] active:scale-[0.95] transition-all"
           >
-            <Phone size={20} /> Chat WhatsApp
+            <Phone size={16} fill="currentColor" className="text-white/30" /> Contact Via WhatsApp
           </a>
         </div>
       )}
