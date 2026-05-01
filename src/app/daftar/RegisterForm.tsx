@@ -3,7 +3,7 @@
 import Link from 'next/link'
 import { useState } from 'react'
 import { useRouter } from 'next/navigation'
-import { CATEGORIES, KECAMATAN_LIST, REGION_LABELS } from '@/lib/constants/regions'
+import { CATEGORIES } from '@/lib/constants/regions'
 
 export default function RegisterForm() {
   const router = useRouter()
@@ -13,12 +13,8 @@ export default function RegisterForm() {
   const [form, setForm] = useState({
     name: '',
     category: '',
-    kecamatan: '',
     whatsappNumber: '',
   })
-
-  const selectedKec = KECAMATAN_LIST.find(k => k.name === form.kecamatan)
-  const regionLabel = selectedKec ? REGION_LABELS[selectedKec.region] : ''
 
   const update = (field: string, value: string) => {
     setForm(prev => ({ ...prev, [field]: value }))
@@ -51,12 +47,7 @@ export default function RegisterForm() {
     }
   }
 
-  // Group kecamatan by region for the dropdown
-  const kecByRegion = Object.entries(REGION_LABELS).map(([key, label]) => ({
-    region: key,
-    label,
-    kecamatans: KECAMATAN_LIST.filter(k => k.region === key),
-  }))
+
 
   return (
     <div className="min-h-screen bg-[var(--background)]">
@@ -135,37 +126,6 @@ export default function RegisterForm() {
             </select>
           </div>
 
-          {/* Kecamatan */}
-          <div>
-            <label className="block text-sm font-medium text-charcoal mb-1.5">
-              Kecamatan <span className="text-neutral-400 font-normal">(opsional)</span>
-            </label>
-            <select
-              value={form.kecamatan}
-              onChange={e => update('kecamatan', e.target.value)}
-              className="w-full rounded-xl border border-neutral-200 px-4 py-3 pr-10 text-sm focus:border-amber focus:ring-1 focus:ring-amber/30 outline-none transition-colors bg-transparent"
-            >
-              <option value="">Pilih kecamatan</option>
-              {kecByRegion.map(group => (
-                <optgroup key={group.region} label={group.label}>
-                  {group.kecamatans.map(k => (
-                    <option key={k.name} value={k.name}>{k.name}</option>
-                  ))}
-                </optgroup>
-              ))}
-            </select>
-          </div>
-
-          {/* Kota/Kabupaten - muncul setelah kecamatan dipilih */}
-          {regionLabel && (
-            <div>
-              <label className="block text-sm font-medium text-charcoal mb-1.5">
-                Kota/Kabupaten
-              </label>
-              <p className="text-sm text-neutral-600">{regionLabel}</p>
-            </div>
-          )}
-
           {/* WhatsApp */}
           <div>
             <label className="block text-sm font-medium text-charcoal mb-1.5">
@@ -176,10 +136,10 @@ export default function RegisterForm() {
               required
               value={form.whatsappNumber}
               onChange={e => update('whatsappNumber', e.target.value)}
-              placeholder="628xxxxxxxxxx"
+              placeholder="08xxxxxxxxxx atau 628xxxxxxxxxx"
               className="w-full rounded-xl border border-neutral-200 px-4 py-3 text-sm focus:border-amber focus:ring-1 focus:ring-amber/30 outline-none transition-colors"
             />
-            <p className="mt-1 text-xs text-neutral-400">Format: 628xxx (tanpa + atau spasi)</p>
+            <p className="mt-1 text-xs text-neutral-400">Mulai dari 0 atau 62 (tanpa + atau spasi)</p>
           </div>
 
           <button

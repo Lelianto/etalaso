@@ -1,7 +1,7 @@
 import { NextResponse } from 'next/server'
 import { createClient } from '@/lib/supabase/server'
 import { supabaseAdmin } from '@/lib/supabase/admin'
-import { VALID_CATEGORIES, VALID_KECAMATAN, KECAMATAN_LIST } from '@/lib/constants/regions'
+import { VALID_CATEGORIES } from '@/lib/constants/regions'
 
 export async function POST(request: Request) {
   // Verify auth
@@ -12,7 +12,7 @@ export async function POST(request: Request) {
   }
 
   const body = await request.json()
-  const { name, category, kecamatan, whatsappNumber } = body
+  const { name, category, whatsappNumber } = body
 
   // Validate required fields
   if (!name || typeof name !== 'string' || !name.trim()) {
@@ -21,21 +21,26 @@ export async function POST(request: Request) {
   if (!category || !VALID_CATEGORIES.has(category)) {
     return NextResponse.json({ error: 'Kategori tidak valid' }, { status: 400 })
   }
+  // Validate and normalize WhatsApp number
   if (!whatsappNumber || typeof whatsappNumber !== 'string' || !whatsappNumber.trim()) {
     return NextResponse.json({ error: 'Nomor WhatsApp wajib diisi' }, { status: 400 })
   }
 
-  // Validate kecamatan if provided
-  if (kecamatan && !VALID_KECAMATAN.has(kecamatan)) {
-    return NextResponse.json({ error: 'Kecamatan tidak valid' }, { status: 400 })
+  // Normalize phone number: remove spaces and special characters
+  let normalizedPhone = whatsappNumber.trim().replace(/[^0-9]/g, '')
+
+  // Convert 0 prefix to 62
+  if (normalizedPhone.startsWith('0')) {
+    normalizedPhone = '62' + normalizedPhone.slice(1)
   }
 
-  // Resolve region from kecamatan
-  let region = 'kab_tangerang' // Default region
-  if (kecamatan) {
-    const kecData = KECAMATAN_LIST.find(k => k.name === kecamatan)
-    region = kecData?.region || 'kab_tangerang'
+  // Validate format (should be 62 + 9-12 digits for Indonesia)
+  if (!/^62\d{9,12}$/.test(normalizedPhone)) {
+    return NextResponse.json({ error: 'Nomor WhatsApp tidak valid' }, { status: 400 })
   }
+
+  // Default region
+  const region = 'kab_tangerang'
 
   // Generate unique placeId
   const placeId = `self-${crypto.randomUUID()}`
@@ -48,10 +53,10 @@ export async function POST(request: Request) {
       name: name.trim(),
       category,
       address: null,
-      kecamatan: kecamatan?.trim() || null,
+      kecamatan: null,
       region,
-      googleMapsUrl: null,
-      whatsappNumber: whatsappNumber.trim(),
+      mapsUrl: null,
+      whatsappNumber: normalizedPhone,
       openingHours: null,
       description: null,
       isClaimed: true,
@@ -64,7 +69,11 @@ export async function POST(request: Request) {
 
   if (error) {
     console.error('Business registration error:', error)
-    return NextResponse.json({ error: 'Gagal mendaftarkan bisnis' }, { status: 500 })
+    console.error('Error details:', JSON.stringify(error, null, 2))
+    return NextResponse.json({ 
+      error: 'Gagal mendaftarkan bisnis',
+      details: process.env.NODE_ENV === 'development' ? error.message : undefined
+    }, { status: 500 })
   }
 
   return NextResponse.json({ placeId: business.placeId })
