@@ -27,18 +27,25 @@ export default async function TemplatePage() {
     )
   }
 
+  // Filter based on business type
+  const isKulinerRumahan = business.businessType === 'kuliner_rumahan'
+  
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const allowedTemplates: string[] = [...((profile?.plan as any)?.max_templates || ['minimal'])]
   
-  // Always allow legacy templates for now to avoid locking users out of what they already use
-  const legacyIds = ['minimal', 'warung', 'elegant', 'bold', 'card', 'glass']
-  if (business.businessType === 'kuliner_rumahan') {
-    legacyIds.push('kuliner', 'modern', 'compact')
+  // Legacy templates
+  let legacyIds = ['minimal', 'warung', 'elegant', 'bold', 'card', 'glass']
+  if (isKulinerRumahan) {
+    // For kuliner rumahan, we ONLY want to show storefront templates to avoid confusion
+    legacyIds = ['kuliner', 'modern', 'compact', 'premium_dark', 'grid_hero']
   }
   
   legacyIds.forEach(id => {
     if (!allowedTemplates.includes(id)) allowedTemplates.push(id)
   })
+
+  // Final filter for the actual list displayed in the selector
+  const finalTemplates = isKulinerRumahan ? 'Storefront' : undefined
 
   return (
     <div className="space-y-4">
@@ -47,6 +54,7 @@ export default async function TemplatePage() {
         businessId={business.id}
         currentTemplate={business.template || 'minimal'}
         allowedTemplates={allowedTemplates}
+        forcedCategory={finalTemplates}
       />
     </div>
   )

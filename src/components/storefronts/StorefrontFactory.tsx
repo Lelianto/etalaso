@@ -24,10 +24,23 @@ export function StorefrontFactory({ variant = 'classic', business }: StorefrontF
   // Resolve the theme based on the variant (template ID)
   const theme = getTemplateTheme(variant)
   
-  // Determine which layout to use. 
+  // Determine which layout to use.
+  let layoutKey = variant
+  
+  // Handle dynamic storefront IDs: sf-[cl|md|cp]-[theme]
+  if (variant.startsWith('sf-')) {
+    const parts = variant.split('-')
+    if (parts.length === 3) {
+      const type = parts[1]
+      if (type === 'cl') layoutKey = 'classic'
+      if (type === 'md') layoutKey = 'modern'
+      if (type === 'cp') layoutKey = 'compact'
+    }
+  }
+
   // If it's one of the specialized layouts, use it.
   // Otherwise, default to 'classic' but with the selected theme's colors.
-  const Storefront = STOREFRONT_REGISTRY[variant] || STOREFRONT_REGISTRY.classic
+  const Storefront = STOREFRONT_REGISTRY[layoutKey] || STOREFRONT_REGISTRY.classic
   
   return <Storefront business={business} theme={theme} />
 }

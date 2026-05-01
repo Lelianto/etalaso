@@ -197,5 +197,15 @@ export function getTemplateTheme(templateId: string): typeof THEMES.minimal {
 
   // 2. Handle modern registry-based templates
   const config = TEMPLATE_REGISTRY[templateId] || TEMPLATE_REGISTRY['std-minimal']
+  
+  // 3. Handle dynamic storefront IDs (sf-layout-theme)
+  if (templateId.startsWith('sf-')) {
+    const parts = templateId.split('-')
+    if (parts.length === 3) {
+      const themeKey = parts[2] as ThemeType
+      return THEMES[themeKey] || THEMES.minimal
+    }
+  }
+
   return THEMES[config.theme] || THEMES.minimal
 }

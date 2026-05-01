@@ -185,7 +185,7 @@ export default function ClassicStorefront({ business, theme }: ClassicStorefront
       </div>
 
       {/* Menu */}
-      <div className="max-w-2xl mx-auto px-4 pt-6 pb-24">
+      <div className="max-w-2xl mx-auto px-4 pt-6 pb-40">
         {products.length === 0 ? (
           <div className="text-center py-12">
             <div className="text-4xl mb-3">🍽️</div>

@@ -109,7 +109,7 @@ export default function ModernStorefront({ business, theme }: StorefrontProps) {
       </div>
 
       {/* Product Grid */}
-      <main className="max-w-4xl mx-auto px-6 py-10 pb-32">
+      <main className="max-w-4xl mx-auto px-6 py-10 pb-40">
         {Array.from(grouped.entries()).map(([sub, items]) => (
           <section key={sub} className="mb-12">
             <h2 className="text-xl font-bold text-slate-800 mb-6 flex items-center gap-3">

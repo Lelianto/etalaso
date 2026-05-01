@@ -30,6 +30,10 @@ function formatPrice(price: string | null): string {
   return `Rp ${amount.toLocaleString('id-ID')}`
 }
 
+function getSubcategoryLabel(value: string): string {
+  return KULINER_SUBCATEGORIES.find(s => s.value === value)?.label || value
+}
+
 export default function CompactStorefront({ business, theme }: StorefrontProps) {
   const { addItem } = useCartActions()
   const { itemCount } = useCart()
@@ -77,10 +81,10 @@ export default function CompactStorefront({ business, theme }: StorefrontProps) 
       </div>
 
       {/* Menu List */}
-      <div className="max-w-2xl mx-auto pb-32">
+      <div className="max-w-2xl mx-auto pb-40">
         {Array.from(grouped.entries()).map(([sub, items]) => (
           <div key={sub} className="mt-8">
-            <h2 className="px-6 text-xs font-black uppercase tracking-widest text-slate-400 mb-4">{sub}</h2>
+            <h2 className="px-6 text-xs font-black uppercase tracking-widest text-slate-400 mb-4">{getSubcategoryLabel(sub)}</h2>
             <div className="divide-y divide-slate-50">
               {items.map(p => (
                 <div key={p.id} className="px-6 py-4 flex items-center justify-between gap-4">

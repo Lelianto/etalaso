@@ -7,6 +7,45 @@ import { useRouter } from 'next/navigation'
 import { useState } from 'react'
 
 /** Legacy templates info */
+// Generate 30+ storefront variations
+const STOREFRONT_VARIANTS: Record<string, { name: string; description: string; category: string }> = {
+  // Classic Series
+  'sf-cl-minimal': { name: 'Classic Minimalist', description: 'Bersih dan simpel', category: 'Storefront' },
+  'sf-cl-midnight': { name: 'Classic Midnight', description: 'Gelap dan elegan', category: 'Storefront' },
+  'sf-cl-elegant': { name: 'Classic Elegant', description: 'Mewah dan eksklusif', category: 'Storefront' },
+  'sf-cl-emerald': { name: 'Classic Emerald', description: 'Segar dan bernuansa alam', category: 'Storefront' },
+  'sf-cl-sunset': { name: 'Classic Sunset', description: 'Hangat dan akrab', category: 'Storefront' },
+  'sf-cl-ocean': { name: 'Classic Ocean', description: 'Tenang dan sejuk', category: 'Storefront' },
+  'sf-cl-nordic': { name: 'Classic Nordic', description: 'Skandinavia minimalis', category: 'Storefront' },
+  'sf-cl-luxury': { name: 'Classic Luxury', description: 'Emas dan premium', category: 'Storefront' },
+  'sf-cl-cyberpunk': { name: 'Classic Neon', description: 'Gaya masa depan', category: 'Storefront' },
+  'sf-cl-retro': { name: 'Classic Retro', description: 'Gaya 80-an yang unik', category: 'Storefront' },
+
+  // Modern Series
+  'sf-md-minimal': { name: 'Modern Minimalist', description: 'Grid bersih modern', category: 'Storefront' },
+  'sf-md-midnight': { name: 'Modern Midnight', description: 'Grid gelap futuristik', category: 'Storefront' },
+  'sf-md-elegant': { name: 'Modern Elegant', description: 'Grid mewah profesional', category: 'Storefront' },
+  'sf-md-emerald': { name: 'Modern Emerald', description: 'Grid nuansa hijau', category: 'Storefront' },
+  'sf-md-sunset': { name: 'Modern Sunset', description: 'Grid nuansa hangat', category: 'Storefront' },
+  'sf-md-ocean': { name: 'Modern Ocean', description: 'Grid nuansa biru', category: 'Storefront' },
+  'sf-md-nordic': { name: 'Modern Nordic', description: 'Grid gaya utara', category: 'Storefront' },
+  'sf-md-luxury': { name: 'Modern Luxury', description: 'Grid emas premium', category: 'Storefront' },
+  'sf-md-cyberpunk': { name: 'Modern Neon', description: 'Grid lampu neon', category: 'Storefront' },
+  'sf-md-retro': { name: 'Modern Retro', description: 'Grid klasik unik', category: 'Storefront' },
+
+  // Compact Series
+  'sf-cp-minimal': { name: 'Compact Minimalist', description: 'Daftar ringkas bersih', category: 'Storefront' },
+  'sf-cp-midnight': { name: 'Compact Midnight', description: 'Daftar ringkas gelap', category: 'Storefront' },
+  'sf-cp-elegant': { name: 'Compact Elegant', description: 'Daftar ringkas mewah', category: 'Storefront' },
+  'sf-cp-emerald': { name: 'Compact Emerald', description: 'Daftar ringkas segar', category: 'Storefront' },
+  'sf-cp-sunset': { name: 'Compact Sunset', description: 'Daftar ringkas hangat', category: 'Storefront' },
+  'sf-cp-ocean': { name: 'Compact Ocean', description: 'Daftar ringkas sejuk', category: 'Storefront' },
+  'sf-cp-nordic': { name: 'Compact Nordic', description: 'Daftar ringkas Skandi', category: 'Storefront' },
+  'sf-cp-luxury': { name: 'Compact Luxury', description: 'Daftar ringkas emas', category: 'Storefront' },
+  'sf-cp-cyberpunk': { name: 'Compact Neon', description: 'Daftar ringkas masa depan', category: 'Storefront' },
+  'sf-cp-retro': { name: 'Compact Retro', description: 'Daftar ringkas klasik', category: 'Storefront' },
+}
+
 const LEGACY_TEMPLATES: Record<string, { name: string; description: string; category: string }> = {
   minimal: { name: 'Minimalist', description: 'Bersih dan simpel, cocok untuk semua bisnis', category: 'Dasar' },
   warung: { name: 'Warung', description: 'Hangat dan akrab, cocok untuk F&B', category: 'Dasar' },
@@ -17,6 +56,9 @@ const LEGACY_TEMPLATES: Record<string, { name: string; description: string; cate
   kuliner: { name: 'Kuliner (Classic)', description: 'Layout khusus kuliner rumahan (Default)', category: 'Storefront' },
   modern: { name: 'Modern Grid', description: 'Tampilan grid 2-kolom modern', category: 'Storefront' },
   compact: { name: 'Compact List', description: 'Tampilan daftar ringkas tanpa gambar besar', category: 'Storefront' },
+  premium_dark: { name: 'Premium Dark', description: 'Tampilan mewah serba gelap', category: 'Storefront' },
+  grid_hero: { name: 'Grid Hero', description: 'Grid dengan menu rekomendasi di atas', category: 'Storefront' },
+  ...STOREFRONT_VARIANTS,
 }
 
 /** Build a flat list of all 100 templates with display info */
@@ -68,6 +110,8 @@ function getPreviewGradient(id: string): string {
     kuliner: 'background: linear-gradient(135deg, #f59e0b, #d97706)',
     modern: 'background: linear-gradient(135deg, #4f46e5, #0ea5e9)',
     compact: 'background: linear-gradient(135deg, #f1f5f9, #94a3b8)',
+    premium_dark: 'background: linear-gradient(135deg, #000, #1e293b)',
+    grid_hero: 'background: linear-gradient(135deg, #f59e0b, #4f46e5)',
   }
   return gradients[id] || 'background: linear-gradient(135deg, #e2e8f0, #94a3b8)'
 }
@@ -77,14 +121,15 @@ const ALL_TEMPLATES = getAllTemplates()
 // Collect unique categories in order
 const CATEGORIES = ['Semua', ...Array.from(new Set(ALL_TEMPLATES.map(t => t.category)))]
 
-export default function TemplateSelector({ businessId, currentTemplate, allowedTemplates }: {
+export default function TemplateSelector({ businessId, currentTemplate, allowedTemplates, forcedCategory }: {
   businessId: string
   currentTemplate: string
   allowedTemplates: string[]
+  forcedCategory?: string
 }) {
   const [saving, setSaving] = useState(false)
   const [selected, setSelected] = useState(currentTemplate)
-  const [category, setCategory] = useState('Semua')
+  const [category, setCategory] = useState(forcedCategory || 'Semua')
   const [error, setError] = useState('')
   const router = useRouter()
 
