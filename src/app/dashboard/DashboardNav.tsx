@@ -9,7 +9,7 @@ const BASE_NAV_ITEMS = [
   { href: '/dashboard/products', label: 'Produk', icon: '📦' },
   { href: '/dashboard/template', label: 'Template', icon: '🎨' },
   { href: '/dashboard/upgrade', label: 'Paket', icon: '⭐' },
-  { href: '/dashboard/payments', label: 'Pembayaran', icon: '💳' },
+  { href: '/dashboard/payments', label: 'Riwayat Pembayaran', icon: '💳' },
 ]
 
 export default function DashboardNav({ planId, isKuliner }: { businessId: string; planId: string; isKuliner: boolean }) {

@@ -2,9 +2,11 @@
 
 import Image from 'next/image'
 import Link from 'next/link'
-import { MapPin, Clock, Phone, Truck, ArrowLeft } from 'lucide-react'
+import { MapPin, Clock, Phone, Truck, ArrowLeft, X } from 'lucide-react'
+import { useState } from 'react'
 import { useCart, useCartActions } from '@/lib/ordering/cart'
 import { KULINER_SUBCATEGORIES, DELIVERY_METHODS, OPERATING_DAYS } from '@/lib/kuliner/constants'
+import PageViewCount from '@/components/ui/PageViewCount'
 import type { BusinessData } from '@/components/templates/types'
 
 interface KulinerStorePageProps {
@@ -28,7 +30,17 @@ function getSubcategoryIcon(value: string): string {
   return KULINER_SUBCATEGORIES.find(s => s.value === value)?.icon || '🍽️'
 }
 
+function formatPrice(price: string | null): string {
+  if (!price) return 'Hubungi'
+  const digits = price.replace(/[^0-9]/g, '')
+  if (!digits) return price
+  const amount = Number(digits)
+  if (Number.isNaN(amount) || amount <= 0) return price
+  return `Rp ${amount.toLocaleString('id-ID')}`
+}
+
 export default function KulinerStorePage({ store }: KulinerStorePageProps) {
+  const [selectedImage, setSelectedImage] = useState<string | null>(null)
   const { addItem } = useCartActions()
   const { itemCount } = useCart()
   const isOpen = getTodayOpen(store.operatingDays)
@@ -44,6 +56,28 @@ export default function KulinerStorePage({ store }: KulinerStorePageProps) {
 
   return (
     <div className="min-h-screen bg-[var(--background)]">
+      {selectedImage && (
+        <div
+          className="fixed inset-0 z-50 bg-slate-950/90 flex items-center justify-center p-4"
+          onClick={() => setSelectedImage(null)}
+        >
+          <div className="relative max-w-4xl w-full max-h-full" onClick={(e) => e.stopPropagation()}>
+            <button
+              onClick={() => setSelectedImage(null)}
+              className="absolute top-3 right-3 z-10 rounded-full bg-slate-900/80 p-2 text-white hover:bg-slate-900"
+            >
+              <X size={20} />
+            </button>
+            <div className="w-full h-full overflow-hidden rounded-3xl shadow-2xl border border-white/10">
+              <img
+                src={selectedImage}
+                alt="Produk"
+                className="w-full h-full object-contain"
+              />
+            </div>
+          </div>
+        </div>
+      )}
       {/* Header */}
       <div className="bg-white border-b border-neutral-100">
         <div className="max-w-2xl mx-auto px-4 pt-4 pb-5">
@@ -66,14 +100,19 @@ export default function KulinerStorePage({ store }: KulinerStorePageProps) {
             </div>
           )}
 
-          <div className="flex items-start justify-between gap-3">
-            <div className="min-w-0">
-              <h1 className="font-[family-name:var(--font-display)] text-2xl text-charcoal truncate">
-                {store.name}
-              </h1>
-              {store.tagline && (
-                <p className="text-neutral-500 text-sm mt-0.5">{store.tagline}</p>
-              )}
+          <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3">
+            <div className="min-w-0 flex flex-col sm:flex-row sm:items-center sm:gap-3">
+              <div>
+                <h1 className="font-[family-name:var(--font-display)] text-2xl text-charcoal truncate">
+                  {store.name}
+                </h1>
+                {store.tagline && (
+                  <p className="text-neutral-500 text-sm mt-0.5">{store.tagline}</p>
+                )}
+              </div>
+              <div className="flex items-center gap-3">
+                <PageViewCount businessId={store.id} inline />
+              </div>
             </div>
             <div className={`shrink-0 px-3 py-1 rounded-full text-xs font-bold ${
               isOpen ? 'bg-green-100 text-green-700' : 'bg-red-100 text-red-700'
@@ -149,7 +188,7 @@ export default function KulinerStorePage({ store }: KulinerStorePageProps) {
           // Single category — no headers
           <div className="space-y-3">
             {products.map(product => (
-              <ProductCard key={product.id} product={product} onAdd={addItem} />
+              <ProductCard key={product.id} product={product} onAdd={addItem} onImageClick={setSelectedImage} />
             ))}
           </div>
         ) : (
@@ -163,7 +202,7 @@ export default function KulinerStorePage({ store }: KulinerStorePageProps) {
                 </h2>
                 <div className="space-y-3">
                   {items.map(product => (
-                    <ProductCard key={product.id} product={product} onAdd={addItem} />
+                    <ProductCard key={product.id} product={product} onAdd={addItem} onImageClick={setSelectedImage} />
                   ))}
                 </div>
               </div>
@@ -196,6 +235,7 @@ export default function KulinerStorePage({ store }: KulinerStorePageProps) {
 function ProductCard({
   product,
   onAdd,
+  onImageClick,
 }: {
   product: {
     id: string
@@ -206,13 +246,18 @@ function ProductCard({
     availabilityNote?: string | null
   }
   onAdd: (item: { id: string; name: string; price: string | null; imageUrl?: string | null }) => void
+  onImageClick: (url: string) => void
 }) {
   return (
     <div className="bg-white rounded-xl border border-neutral-100 p-3 flex gap-3">
       {product.imageUrl && (
-        <div className="w-20 h-20 rounded-lg overflow-hidden shrink-0 relative">
+        <button
+          type="button"
+          onClick={() => onImageClick(product.imageUrl!)}
+          className="w-20 h-20 rounded-lg overflow-hidden shrink-0 relative cursor-zoom-in"
+        >
           <Image src={product.imageUrl} alt={product.name} fill className="object-cover" />
-        </div>
+        </button>
       )}
       <div className="flex-1 min-w-0">
         <h3 className="font-semibold text-charcoal text-sm truncate">{product.name}</h3>
@@ -226,7 +271,7 @@ function ProductCard({
         )}
         <div className="flex items-center justify-between mt-2">
           <span className="text-sm font-bold text-charcoal">
-            {product.price || 'Hubungi'}
+            {formatPrice(product.price)}
           </span>
           <button
             onClick={() => onAdd({ id: product.id, name: product.name, price: product.price, imageUrl: product.imageUrl })}

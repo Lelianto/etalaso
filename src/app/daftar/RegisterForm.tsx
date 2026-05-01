@@ -1,13 +1,14 @@
 'use client'
 
 import Link from 'next/link'
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import { useRouter } from 'next/navigation'
 import { CATEGORIES } from '@/lib/constants/regions'
 
 export default function RegisterForm() {
   const router = useRouter()
   const [loading, setLoading] = useState(false)
+  const [checking, setChecking] = useState(true)
   const [error, setError] = useState('')
 
   const [form, setForm] = useState({
@@ -15,6 +16,28 @@ export default function RegisterForm() {
     category: '',
     whatsappNumber: '',
   })
+
+  // Check if user has existing business
+  useEffect(() => {
+    const checkBusiness = async () => {
+      try {
+        const res = await fetch('/api/business/check')
+        const data = await res.json()
+
+        if (data.hasBusinesses) {
+          // Redirect to dashboard since they already have a business
+          router.push('/dashboard')
+          return
+        }
+      } catch (err) {
+        console.error('Error checking business:', err)
+      } finally {
+        setChecking(false)
+      }
+    }
+
+    checkBusiness()
+  }, [router])
 
   const update = (field: string, value: string) => {
     setForm(prev => ({ ...prev, [field]: value }))
@@ -62,7 +85,14 @@ export default function RegisterForm() {
         </div>
       </nav>
 
-      <main className="max-w-2xl mx-auto px-6 py-12">
+      {checking ? (
+        <main className="max-w-2xl mx-auto px-6 py-12 flex items-center justify-center min-h-[calc(100vh-64px)]">
+          <div className="text-center">
+            <p className="text-neutral-500">Memproses...</p>
+          </div>
+        </main>
+      ) : (
+        <main className="max-w-2xl mx-auto px-6 py-12">
         <div className="mb-8">
           <h1 className="font-[family-name:var(--font-display)] text-3xl sm:text-4xl text-charcoal">
             Daftarkan Bisnis Anda
@@ -151,7 +181,8 @@ export default function RegisterForm() {
           </button>
 
         </form>
-      </main>
+        </main>
+      )}
     </div>
   )
 }
