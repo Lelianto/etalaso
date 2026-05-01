@@ -12,7 +12,7 @@ export async function POST(request: Request) {
   }
 
   const body = await request.json()
-  const { name, category, address, kecamatan, googleMapsUrl, whatsappNumber, openingHours, description } = body
+  const { name, category, kecamatan, whatsappNumber } = body
 
   // Validate required fields
   if (!name || typeof name !== 'string' || !name.trim()) {
@@ -21,19 +21,21 @@ export async function POST(request: Request) {
   if (!category || !VALID_CATEGORIES.has(category)) {
     return NextResponse.json({ error: 'Kategori tidak valid' }, { status: 400 })
   }
-  if (!address || typeof address !== 'string' || !address.trim()) {
-    return NextResponse.json({ error: 'Alamat wajib diisi' }, { status: 400 })
-  }
-  if (!kecamatan || !VALID_KECAMATAN.has(kecamatan)) {
-    return NextResponse.json({ error: 'Kecamatan tidak valid' }, { status: 400 })
-  }
   if (!whatsappNumber || typeof whatsappNumber !== 'string' || !whatsappNumber.trim()) {
     return NextResponse.json({ error: 'Nomor WhatsApp wajib diisi' }, { status: 400 })
   }
 
+  // Validate kecamatan if provided
+  if (kecamatan && !VALID_KECAMATAN.has(kecamatan)) {
+    return NextResponse.json({ error: 'Kecamatan tidak valid' }, { status: 400 })
+  }
+
   // Resolve region from kecamatan
-  const kecData = KECAMATAN_LIST.find(k => k.name === kecamatan)
-  const region = kecData?.region || 'kab_tangerang'
+  let region = 'kab_tangerang' // Default region
+  if (kecamatan) {
+    const kecData = KECAMATAN_LIST.find(k => k.name === kecamatan)
+    region = kecData?.region || 'kab_tangerang'
+  }
 
   // Generate unique placeId
   const placeId = `self-${crypto.randomUUID()}`
@@ -45,13 +47,13 @@ export async function POST(request: Request) {
       placeId,
       name: name.trim(),
       category,
-      address: address.trim(),
-      kecamatan,
+      address: null,
+      kecamatan: kecamatan?.trim() || null,
       region,
-      googleMapsUrl: googleMapsUrl?.trim() || null,
+      googleMapsUrl: null,
       whatsappNumber: whatsappNumber.trim(),
-      openingHours: openingHours?.trim() || null,
-      description: description?.trim() || null,
+      openingHours: null,
+      description: null,
       isClaimed: true,
       ownerId: user.id,
       template: 'minimal',

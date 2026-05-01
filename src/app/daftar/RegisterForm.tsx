@@ -13,12 +13,8 @@ export default function RegisterForm() {
   const [form, setForm] = useState({
     name: '',
     category: '',
-    address: '',
     kecamatan: '',
-    googleMapsUrl: '',
     whatsappNumber: '',
-    openingHours: '',
-    description: '',
   })
 
   const selectedKec = KECAMATAN_LIST.find(k => k.name === form.kecamatan)
@@ -139,28 +135,12 @@ export default function RegisterForm() {
             </select>
           </div>
 
-          {/* Alamat */}
-          <div>
-            <label className="block text-sm font-medium text-charcoal mb-1.5">
-              Alamat Lengkap <span className="text-red-500">*</span>
-            </label>
-            <textarea
-              required
-              value={form.address}
-              onChange={e => update('address', e.target.value)}
-              placeholder="Jl. Raya Ciputat No. 123, RT 01/RW 02"
-              rows={2}
-              className="w-full rounded-xl border border-neutral-200 px-4 py-3 text-sm focus:border-amber focus:ring-1 focus:ring-amber/30 outline-none transition-colors resize-none"
-            />
-          </div>
-
           {/* Kecamatan */}
           <div>
             <label className="block text-sm font-medium text-charcoal mb-1.5">
-              Kecamatan <span className="text-red-500">*</span>
+              Kecamatan <span className="text-neutral-400 font-normal">(opsional)</span>
             </label>
             <select
-              required
               value={form.kecamatan}
               onChange={e => update('kecamatan', e.target.value)}
               className="w-full rounded-xl border border-neutral-200 px-4 py-3 pr-10 text-sm focus:border-amber focus:ring-1 focus:ring-amber/30 outline-none transition-colors bg-transparent"
@@ -200,48 +180,6 @@ export default function RegisterForm() {
               className="w-full rounded-xl border border-neutral-200 px-4 py-3 text-sm focus:border-amber focus:ring-1 focus:ring-amber/30 outline-none transition-colors"
             />
             <p className="mt-1 text-xs text-neutral-400">Format: 628xxx (tanpa + atau spasi)</p>
-          </div>
-
-          {/* Google Maps URL */}
-          <div>
-            <label className="block text-sm font-medium text-charcoal mb-1.5">
-              Link Google Maps <span className="text-neutral-400 font-normal">(opsional)</span>
-            </label>
-            <input
-              type="url"
-              value={form.googleMapsUrl}
-              onChange={e => update('googleMapsUrl', e.target.value)}
-              placeholder="https://maps.google.com/..."
-              className="w-full rounded-xl border border-neutral-200 px-4 py-3 text-sm focus:border-amber focus:ring-1 focus:ring-amber/30 outline-none transition-colors"
-            />
-          </div>
-
-          {/* Jam Buka */}
-          <div>
-            <label className="block text-sm font-medium text-charcoal mb-1.5">
-              Jam Buka <span className="text-neutral-400 font-normal">(opsional)</span>
-            </label>
-            <input
-              type="text"
-              value={form.openingHours}
-              onChange={e => update('openingHours', e.target.value)}
-              placeholder="Senin-Sabtu, 08:00-21:00"
-              className="w-full rounded-xl border border-neutral-200 px-4 py-3 text-sm focus:border-amber focus:ring-1 focus:ring-amber/30 outline-none transition-colors"
-            />
-          </div>
-
-          {/* Deskripsi */}
-          <div>
-            <label className="block text-sm font-medium text-charcoal mb-1.5">
-              Deskripsi <span className="text-neutral-400 font-normal">(opsional)</span>
-            </label>
-            <textarea
-              value={form.description}
-              onChange={e => update('description', e.target.value)}
-              placeholder="Deskripsi singkat tentang bisnis Anda"
-              rows={3}
-              className="w-full rounded-xl border border-neutral-200 px-4 py-3 text-sm focus:border-amber focus:ring-1 focus:ring-amber/30 outline-none transition-colors resize-none"
-            />
           </div>
 
           <button
