@@ -12,6 +12,7 @@ import ElegantTemplate from './elegant/ElegantTemplate'
 import BoldTemplate from './bold/BoldTemplate'
 import CardTemplate from './card/CardTemplate'
 import GlassTemplate from './glass/GlassTemplate'
+import KulinerTemplate from '@/app/kuliner/[slug]/KulinerStorePage'
 
 // Re-export for backward compatibility
 export { TEMPLATE_REGISTRY, type TemplateDefinition, getTemplateTheme } from './registry'
@@ -24,6 +25,7 @@ const LEGACY_TEMPLATES: Record<string, React.FC<{ business: BusinessData }>> = {
   bold: BoldTemplate,
   card: CardTemplate,
   glass: GlassTemplate,
+  kuliner: KulinerTemplate as React.FC<{ business: BusinessData }>,
 }
 
 /** Get total template count (legacy + registry) */

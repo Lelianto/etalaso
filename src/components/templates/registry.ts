@@ -180,6 +180,22 @@ export const TEMPLATE_REGISTRY: Record<string, TemplateDefinition> = {
 
 /** Get the theme config for a template ID — server-safe */
 export function getTemplateTheme(templateId: string): typeof THEMES.minimal {
+  // 1. Handle legacy hand-crafted template themes
+  const legacyMap: Record<string, ThemeType> = {
+    minimal: 'minimal',
+    warung: 'sunset',
+    elegant: 'elegant',
+    bold: 'neobrutalist',
+    card: 'minimal',
+    glass: 'glass',
+    kuliner: 'sunset', // Default amber/sunset for kuliner
+  }
+
+  if (templateId in legacyMap) {
+    return THEMES[legacyMap[templateId]] || THEMES.minimal
+  }
+
+  // 2. Handle modern registry-based templates
   const config = TEMPLATE_REGISTRY[templateId] || TEMPLATE_REGISTRY['std-minimal']
   return THEMES[config.theme] || THEMES.minimal
 }

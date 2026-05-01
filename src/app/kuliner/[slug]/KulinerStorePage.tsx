@@ -10,7 +10,7 @@ import PageViewCount from '@/components/ui/PageViewCount'
 import type { BusinessData } from '@/components/templates/types'
 
 interface KulinerStorePageProps {
-  store: BusinessData & {
+  business: BusinessData & {
     id: string
     kecamatan?: string | null
   }
@@ -39,12 +39,12 @@ function formatPrice(price: string | null): string {
   return `Rp ${amount.toLocaleString('id-ID')}`
 }
 
-export default function KulinerStorePage({ store }: KulinerStorePageProps) {
+export default function KulinerStorePage({ business }: KulinerStorePageProps) {
   const [selectedImage, setSelectedImage] = useState<string | null>(null)
   const { addItem } = useCartActions()
   const { itemCount } = useCart()
-  const isOpen = getTodayOpen(store.operatingDays)
-  const products = store.products || []
+  const isOpen = getTodayOpen(business.operatingDays)
+  const products = business.products || []
 
   // Group products by subcategory
   const grouped = new Map<string, typeof products>()
@@ -89,11 +89,11 @@ export default function KulinerStorePage({ store }: KulinerStorePageProps) {
             <span>Kembali</span>
           </Link>
           {/* Store image */}
-          {store.imageUrl && (
+          {business.imageUrl && (
             <div className="w-full h-48 rounded-2xl overflow-hidden mb-4 relative">
               <Image
-                src={store.imageUrl}
-                alt={store.name}
+                src={business.imageUrl}
+                alt={business.name}
                 fill
                 className="object-cover"
               />
@@ -103,14 +103,14 @@ export default function KulinerStorePage({ store }: KulinerStorePageProps) {
           <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3">
             <div className="min-w-0">
               <h1 className="font-[family-name:var(--font-display)] text-2xl text-charcoal truncate">
-                {store.name}
+                {business.name}
               </h1>
-              {store.tagline && (
-                <p className="text-neutral-500 text-sm mt-0.5">{store.tagline}</p>
+              {business.tagline && (
+                <p className="text-neutral-500 text-sm mt-0.5">{business.tagline}</p>
               )}
             </div>
             <div className="flex items-center gap-3">
-              <PageViewCount businessId={store.id} inline />
+              <PageViewCount businessId={business.id} inline />
               <div className={`shrink-0 px-3 py-1 rounded-full text-xs font-bold ${
                 isOpen ? 'bg-green-100 text-green-700' : 'bg-red-100 text-red-700'
               }`}>
@@ -121,22 +121,22 @@ export default function KulinerStorePage({ store }: KulinerStorePageProps) {
 
           {/* Info pills */}
           <div className="mt-3 flex flex-wrap gap-2">
-            {store.areaNote && (
+            {business.areaNote && (
               <span className="inline-flex items-center gap-1 text-xs text-neutral-500 bg-neutral-50 px-2.5 py-1 rounded-full">
-                <MapPin size={12} /> {store.areaNote}
+                <MapPin size={12} /> {business.areaNote}
               </span>
             )}
-            {!store.areaNote && store.kecamatan && (
+            {!business.areaNote && business.kecamatan && (
               <span className="inline-flex items-center gap-1 text-xs text-neutral-500 bg-neutral-50 px-2.5 py-1 rounded-full">
-                <MapPin size={12} /> {store.kecamatan} & sekitar
+                <MapPin size={12} /> {business.kecamatan} & sekitar
               </span>
             )}
-            {store.operatingDays && store.operatingDays.length > 0 && store.operatingDays.length < 7 && (
+            {business.operatingDays && business.operatingDays.length > 0 && business.operatingDays.length < 7 && (
               <span className="inline-flex items-center gap-1 text-xs text-neutral-500 bg-neutral-50 px-2.5 py-1 rounded-full">
-                <Clock size={12} /> {store.operatingDays.join(', ')}
+                <Clock size={12} /> {business.operatingDays.join(', ')}
               </span>
             )}
-            {store.operatingDays && store.operatingDays.length === 7 && (
+            {business.operatingDays && business.operatingDays.length === 7 && (
               <span className="inline-flex items-center gap-1 text-xs text-neutral-500 bg-neutral-50 px-2.5 py-1 rounded-full">
                 <Clock size={12} /> Setiap hari
               </span>
@@ -144,9 +144,9 @@ export default function KulinerStorePage({ store }: KulinerStorePageProps) {
           </div>
 
           {/* Delivery methods */}
-          {store.deliveryMethods && store.deliveryMethods.length > 0 && (
+          {business.deliveryMethods && business.deliveryMethods.length > 0 && (
             <div className="mt-3 flex flex-wrap gap-2">
-              {store.deliveryMethods.map(dm => {
+              {business.deliveryMethods.map(dm => {
                 const method = DELIVERY_METHODS.find(m => m.value === dm)
                 if (!method) return null
                 const note = dm === 'gojek_grab' ? ' (dipesan pembeli)' : ''
@@ -160,15 +160,15 @@ export default function KulinerStorePage({ store }: KulinerStorePageProps) {
           )}
 
           {/* Description */}
-          {store.description && (
-            <p className="mt-3 text-sm text-neutral-600 leading-relaxed">{store.description}</p>
+          {business.description && (
+            <p className="mt-3 text-sm text-neutral-600 leading-relaxed">{business.description}</p>
           )}
 
           {/* Address */}
-          {store.address && (
+          {business.address && (
             <div className="mt-3 flex items-start gap-2 text-xs text-neutral-400">
               <MapPin size={12} className="shrink-0 mt-0.5" />
-              <span>{store.address}</span>
+              <span>{business.address}</span>
             </div>
           )}
         </div>
@@ -210,11 +210,11 @@ export default function KulinerStorePage({ store }: KulinerStorePageProps) {
       </div>
 
       {/* WhatsApp direct CTA — hidden when cart has items (CartFAB takes over) */}
-      {store.whatsappNumber && itemCount === 0 && (
+      {business.whatsappNumber && itemCount === 0 && (
         <div className="fixed bottom-0 left-0 right-0 bg-white border-t border-neutral-100 p-4 z-40">
           <div className="max-w-2xl mx-auto">
             <a
-              href={`https://wa.me/${store.whatsappNumber}?text=${encodeURIComponent(`Halo, saya lihat ${store.name} di Etalaso. Hari ini buka?`)}`}
+              href={`https://wa.me/${business.whatsappNumber}?text=${encodeURIComponent(`Halo, saya lihat ${business.name} di Etalaso. Hari ini buka?`)}`}
               target="_blank"
               rel="noopener noreferrer"
               aria-label="Chat WhatsApp"
