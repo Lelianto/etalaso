@@ -101,23 +101,21 @@ export default function KulinerStorePage({ store }: KulinerStorePageProps) {
           )}
 
           <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3">
-            <div className="min-w-0 flex flex-col sm:flex-row sm:items-center sm:gap-3">
-              <div>
-                <h1 className="font-[family-name:var(--font-display)] text-2xl text-charcoal truncate">
-                  {store.name}
-                </h1>
-                {store.tagline && (
-                  <p className="text-neutral-500 text-sm mt-0.5">{store.tagline}</p>
-                )}
-              </div>
-              <div className="flex items-center gap-3">
-                <PageViewCount businessId={store.id} inline />
-              </div>
+            <div className="min-w-0">
+              <h1 className="font-[family-name:var(--font-display)] text-2xl text-charcoal truncate">
+                {store.name}
+              </h1>
+              {store.tagline && (
+                <p className="text-neutral-500 text-sm mt-0.5">{store.tagline}</p>
+              )}
             </div>
-            <div className={`shrink-0 px-3 py-1 rounded-full text-xs font-bold ${
-              isOpen ? 'bg-green-100 text-green-700' : 'bg-red-100 text-red-700'
-            }`}>
-              {isOpen ? 'Buka' : 'Tutup'}
+            <div className="flex items-center gap-3">
+              <PageViewCount businessId={store.id} inline />
+              <div className={`shrink-0 px-3 py-1 rounded-full text-xs font-bold ${
+                isOpen ? 'bg-green-100 text-green-700' : 'bg-red-100 text-red-700'
+              }`}>
+                {isOpen ? 'Buka' : 'Tutup'}
+              </div>
             </div>
           </div>
 
