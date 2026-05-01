@@ -45,6 +45,13 @@ export async function POST(request: Request) {
   // Generate unique placeId
   const placeId = `self-${crypto.randomUUID()}`
 
+  // Determine businessType and default template
+  // ONLY kuliner_rumahan gets the storefront treatment. 
+  // Regular 'kuliner' uses the standard landing page path.
+  const isKulinerRumahan = category === 'kuliner_rumahan'
+  const businessType = isKulinerRumahan ? 'kuliner_rumahan' : category
+  const defaultTemplate = isKulinerRumahan ? 'kuliner' : 'minimal'
+
   // Insert business
   const { data: business, error } = await supabaseAdmin
     .from('Business')
@@ -52,6 +59,7 @@ export async function POST(request: Request) {
       placeId,
       name: name.trim(),
       category,
+      businessType, // Set the businessType for logic
       address: null,
       kecamatan: null,
       region,
@@ -61,7 +69,7 @@ export async function POST(request: Request) {
       description: null,
       isClaimed: true,
       ownerId: user.id,
-      template: 'minimal',
+      template: defaultTemplate, // Set smart default
       subscriptionType: 'free',
     })
     .select('placeId')

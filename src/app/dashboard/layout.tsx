@@ -108,7 +108,11 @@ export default async function DashboardLayout({ children }: { children: React.Re
         {!business ? (
           <PendingOrNoClaim userId={user.id} />
         ) : (
-          <DashboardNav businessId={business.id} planId={effectivePlan} isKuliner={business.category?.toLowerCase() === 'kuliner' || business.category?.toLowerCase() === 'kuliner_rumahan'} />
+          <DashboardNav 
+            businessId={business.id} 
+            planId={effectivePlan} 
+            isKulinerRumahan={business.category?.toLowerCase() === 'kuliner_rumahan'} 
+          />
         )}
         {children}
       </div>

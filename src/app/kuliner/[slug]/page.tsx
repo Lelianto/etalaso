@@ -7,8 +7,7 @@ import ViewTracker from '@/components/ui/ViewTracker'
 import WaClickTracker from '@/components/ui/WaClickTracker'
 import ShareButtons from '@/components/ui/ShareButtons'
 import PageViewCount from '@/components/ui/PageViewCount'
-import { TemplateFactory } from '@/components/templates'
-import { getTemplateTheme } from '@/components/templates/registry'
+import { StorefrontFactory } from '@/components/storefronts/StorefrontFactory'
 import { canOrder } from '@/lib/ordering/tier'
 
 export const revalidate = 3600
@@ -60,8 +59,7 @@ export default async function KulinerStoreRoute({ params }: Props) {
   const storeWithReviews = { ...store, reviews: store.reviews || [], pageUrl: `/kuliner/${slug}` }
 
   const pageUrl = `/kuliner/${slug}`
-  const templateKey = (store.template || 'kuliner')
-  const theme = getTemplateTheme(templateKey)
+  const storefrontVariant = store.template || 'classic'
   const tier = store.subscriptionType || 'free'
   const orderingEnabled = canOrder(tier)
 
@@ -86,8 +84,8 @@ export default async function KulinerStoreRoute({ params }: Props) {
       />
       <ViewTracker businessId={store.id} path={pageUrl} />
       <WaClickTracker businessId={store.id}>
-        <OrderingWrapper business={storeWithReviews} accentColor={theme.colors.accent} category="kuliner_rumahan">
-          <TemplateFactory templateId={templateKey} business={storeWithReviews} orderingActive={orderingEnabled} />
+        <OrderingWrapper business={storeWithReviews} accentColor="#f59e0b" category="kuliner_rumahan">
+          <StorefrontFactory variant={storefrontVariant} business={storeWithReviews} />
         </OrderingWrapper>
       </WaClickTracker>
       <div className="fixed bottom-20 left-4 z-40 flex flex-col gap-2">

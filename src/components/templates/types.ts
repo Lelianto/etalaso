@@ -21,6 +21,7 @@ export interface BusinessData {
   areaNote?: string | null
   deliveryMethods?: string[]
   operatingDays?: string[]
+  kecamatan?: string | null
   products: Array<{
     id: string
     name: string

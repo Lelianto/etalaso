@@ -12,7 +12,7 @@ const BASE_NAV_ITEMS = [
   { href: '/dashboard/payments', label: 'Riwayat Pembayaran', icon: '💳' },
 ]
 
-export default function DashboardNav({ planId, isKuliner }: { businessId: string; planId: string; isKuliner: boolean }) {
+export default function DashboardNav({ planId, isKulinerRumahan }: { businessId: string; planId: string; isKulinerRumahan: boolean }) {
   const pathname = usePathname()
 
   const navItems = useMemo(() => {
@@ -21,7 +21,7 @@ export default function DashboardNav({ planId, isKuliner }: { businessId: string
     if (planId === 'umkm' || planId === 'business') {
       items.splice(3, 0, {
         href: '/dashboard/qr-code',
-        label: isKuliner ? 'QR Meja' : 'QR Bisnis',
+        label: isKulinerRumahan ? 'QR Meja' : 'QR Bisnis',
         icon: '📱',
       })
     }
@@ -30,7 +30,7 @@ export default function DashboardNav({ planId, isKuliner }: { businessId: string
       items.splice(4, 0, { href: '/dashboard/payment-config', label: 'Info Pembayaran', icon: '🏦' })
     }
     return items
-  }, [planId, isKuliner])
+  }, [planId, isKulinerRumahan])
 
   return (
     <nav className="flex gap-1 overflow-x-auto pb-4 mb-2 scrollbar-none">

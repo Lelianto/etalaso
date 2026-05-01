@@ -32,7 +32,9 @@ export default async function TemplatePage() {
   
   // Always allow legacy templates for now to avoid locking users out of what they already use
   const legacyIds = ['minimal', 'warung', 'elegant', 'bold', 'card', 'glass']
-  if (business.businessType === 'kuliner_rumahan') legacyIds.push('kuliner')
+  if (business.businessType === 'kuliner_rumahan') {
+    legacyIds.push('kuliner', 'modern', 'compact')
+  }
   
   legacyIds.forEach(id => {
     if (!allowedTemplates.includes(id)) allowedTemplates.push(id)

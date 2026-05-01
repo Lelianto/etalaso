@@ -14,7 +14,9 @@ const LEGACY_TEMPLATES: Record<string, { name: string; description: string; cate
   bold: { name: 'Bold', description: 'Kontras tinggi, modern', category: 'Dasar' },
   card: { name: 'Card', description: 'Layout kartu, mobile-friendly', category: 'Dasar' },
   glass: { name: 'Glass', description: 'Glassmorphism modern', category: 'Dasar' },
-  kuliner: { name: 'Kuliner', description: 'Layout khusus kuliner rumahan (Default)', category: 'Kuliner' },
+  kuliner: { name: 'Kuliner (Classic)', description: 'Layout khusus kuliner rumahan (Default)', category: 'Storefront' },
+  modern: { name: 'Modern Grid', description: 'Tampilan grid 2-kolom modern', category: 'Storefront' },
+  compact: { name: 'Compact List', description: 'Tampilan daftar ringkas tanpa gambar besar', category: 'Storefront' },
 }
 
 /** Build a flat list of all 100 templates with display info */
@@ -64,6 +66,8 @@ function getPreviewGradient(id: string): string {
     card: 'background: linear-gradient(135deg, #e0e7ff, #fff)',
     glass: 'background: linear-gradient(135deg, #a78bfa, #4f46e5)',
     kuliner: 'background: linear-gradient(135deg, #f59e0b, #d97706)',
+    modern: 'background: linear-gradient(135deg, #4f46e5, #0ea5e9)',
+    compact: 'background: linear-gradient(135deg, #f1f5f9, #94a3b8)',
   }
   return gradients[id] || 'background: linear-gradient(135deg, #e2e8f0, #94a3b8)'
 }

@@ -1,0 +1,283 @@
+'use client'
+
+import Image from 'next/image'
+import Link from 'next/link'
+import { MapPin, Clock, Phone, Truck, ArrowLeft, X } from 'lucide-react'
+import { useState } from 'react'
+import { useCart, useCartActions } from '@/lib/ordering/cart'
+import { KULINER_SUBCATEGORIES, DELIVERY_METHODS, OPERATING_DAYS } from '@/lib/kuliner/constants'
+import PageViewCount from '@/components/ui/PageViewCount'
+import type { BusinessData } from '@/components/templates/types'
+
+interface ClassicStorefrontProps {
+  business: BusinessData & {
+    id: string
+  }
+}
+
+function getTodayOpen(operatingDays?: string[]): boolean {
+  if (!operatingDays || operatingDays.length === 0) return true
+  const today = OPERATING_DAYS[new Date().getDay() === 0 ? 6 : new Date().getDay() - 1]
+  return operatingDays.includes(today)
+}
+
+function getSubcategoryLabel(value: string): string {
+  return KULINER_SUBCATEGORIES.find(s => s.value === value)?.label || value
+}
+
+function getSubcategoryIcon(value: string): string {
+  return KULINER_SUBCATEGORIES.find(s => s.value === value)?.icon || '🍽️'
+}
+
+function formatPrice(price: string | null): string {
+  if (!price) return 'Hubungi'
+  const digits = price.replace(/[^0-9]/g, '')
+  if (!digits) return price
+  const amount = Number(digits)
+  if (Number.isNaN(amount) || amount <= 0) return price
+  return `Rp ${amount.toLocaleString('id-ID')}`
+}
+
+export default function ClassicStorefront({ business }: ClassicStorefrontProps) {
+  const [selectedImage, setSelectedImage] = useState<string | null>(null)
+  const { addItem } = useCartActions()
+  const { itemCount } = useCart()
+  const isOpen = getTodayOpen(business.operatingDays)
+  const products = business.products || []
+
+  // Group products by subcategory
+  const grouped = new Map<string, typeof products>()
+  for (const p of products) {
+    const key = p.subcategory || 'lainnya'
+    if (!grouped.has(key)) grouped.set(key, [])
+    grouped.get(key)!.push(p)
+  }
+
+  return (
+    <div className="min-h-screen bg-[var(--background)]">
+      {selectedImage && (
+        <div
+          className="fixed inset-0 z-50 bg-slate-950/90 flex items-center justify-center p-4"
+          onClick={() => setSelectedImage(null)}
+        >
+          <div className="relative max-w-4xl w-full max-h-full" onClick={(e) => e.stopPropagation()}>
+            <button
+              onClick={() => setSelectedImage(null)}
+              className="absolute top-3 right-3 z-10 rounded-full bg-slate-900/80 p-2 text-white hover:bg-slate-900"
+            >
+              <X size={20} />
+            </button>
+            <div className="w-full h-full overflow-hidden rounded-3xl shadow-2xl border border-white/10">
+              <img
+                src={selectedImage}
+                alt="Produk"
+                className="w-full h-full object-contain"
+              />
+            </div>
+          </div>
+        </div>
+      )}
+      {/* Header */}
+      <div className="bg-white border-b border-neutral-100">
+        <div className="max-w-2xl mx-auto px-4 pt-4 pb-5">
+          <Link
+            href="/kuliner"
+            className="flex items-center gap-1.5 text-sm text-neutral-500 hover:text-neutral-700 transition-colors mb-3"
+          >
+            <ArrowLeft size={16} />
+            <span>Kembali</span>
+          </Link>
+          {/* Store image */}
+          {business.imageUrl && (
+            <div className="w-full h-48 rounded-2xl overflow-hidden mb-4 relative">
+              <Image
+                src={business.imageUrl}
+                alt={business.name}
+                fill
+                className="object-cover"
+              />
+            </div>
+          )}
+
+          <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3">
+            <div className="min-w-0">
+              <h1 className="font-[family-name:var(--font-display)] text-2xl text-charcoal truncate">
+                {business.name}
+              </h1>
+              {business.tagline && (
+                <p className="text-neutral-500 text-sm mt-0.5">{business.tagline}</p>
+              )}
+            </div>
+            <div className="flex items-center gap-3">
+              <PageViewCount businessId={business.id} inline />
+              <div className={`shrink-0 px-3 py-1 rounded-full text-xs font-bold ${
+                isOpen ? 'bg-green-100 text-green-700' : 'bg-red-100 text-red-700'
+              }`}>
+                {isOpen ? 'Buka' : 'Tutup'}
+              </div>
+            </div>
+          </div>
+
+          {/* Info pills */}
+          <div className="mt-3 flex flex-wrap gap-2">
+            {business.areaNote && (
+              <span className="inline-flex items-center gap-1 text-xs text-neutral-500 bg-neutral-50 px-2.5 py-1 rounded-full">
+                <MapPin size={12} /> {business.areaNote}
+              </span>
+            )}
+            {!business.areaNote && business.kecamatan && (
+              <span className="inline-flex items-center gap-1 text-xs text-neutral-500 bg-neutral-50 px-2.5 py-1 rounded-full">
+                <MapPin size={12} /> {business.kecamatan} & sekitar
+              </span>
+            )}
+            {business.operatingDays && business.operatingDays.length > 0 && business.operatingDays.length < 7 && (
+              <span className="inline-flex items-center gap-1 text-xs text-neutral-500 bg-neutral-50 px-2.5 py-1 rounded-full">
+                <Clock size={12} /> {business.operatingDays.join(', ')}
+              </span>
+            )}
+            {business.operatingDays && business.operatingDays.length === 7 && (
+              <span className="inline-flex items-center gap-1 text-xs text-neutral-500 bg-neutral-50 px-2.5 py-1 rounded-full">
+                <Clock size={12} /> Setiap hari
+              </span>
+            )}
+          </div>
+
+          {/* Delivery methods */}
+          {business.deliveryMethods && business.deliveryMethods.length > 0 && (
+            <div className="mt-3 flex flex-wrap gap-2">
+              {business.deliveryMethods.map(dm => {
+                const method = DELIVERY_METHODS.find(m => m.value === dm)
+                if (!method) return null
+                const note = dm === 'gojek_grab' ? ' (dipesan pembeli)' : ''
+                return (
+                  <span key={dm} className="inline-flex items-center gap-1 text-xs text-amber bg-amber/10 px-2.5 py-1 rounded-full font-medium">
+                    <Truck size={12} /> {method.label}{note}
+                  </span>
+                )
+              })}
+            </div>
+          )}
+
+          {/* Description */}
+          {business.description && (
+            <p className="mt-3 text-sm text-neutral-600 leading-relaxed">{business.description}</p>
+          )}
+
+          {/* Address */}
+          {business.address && (
+            <div className="mt-3 flex items-start gap-2 text-xs text-neutral-400">
+              <MapPin size={12} className="shrink-0 mt-0.5" />
+              <span>{business.address}</span>
+            </div>
+          )}
+        </div>
+      </div>
+
+      {/* Menu */}
+      <div className="max-w-2xl mx-auto px-4 pt-6 pb-24">
+        {products.length === 0 ? (
+          <div className="text-center py-12">
+            <div className="text-4xl mb-3">🍽️</div>
+            <p className="text-neutral-500 text-sm">Menu belum tersedia.</p>
+            <p className="text-neutral-400 text-xs mt-1">Pemilik sedang menyiapkan katalog makanan.</p>
+          </div>
+        ) : grouped.size === 1 && grouped.has('lainnya') ? (
+          // Single category — no headers
+          <div className="space-y-3">
+            {products.map(product => (
+              <ProductCard key={product.id} product={product} onAdd={addItem} onImageClick={setSelectedImage} />
+            ))}
+          </div>
+        ) : (
+          // Multiple categories
+          <div className="space-y-8">
+            {Array.from(grouped.entries()).map(([subcategory, items]) => (
+              <div key={subcategory}>
+                <h2 className="flex items-center gap-2 font-semibold text-charcoal mb-3">
+                  <span>{getSubcategoryIcon(subcategory)}</span>
+                  {getSubcategoryLabel(subcategory)}
+                </h2>
+                <div className="space-y-3">
+                  {items.map(product => (
+                    <ProductCard key={product.id} product={product} onAdd={addItem} onImageClick={setSelectedImage} />
+                  ))}
+                </div>
+              </div>
+            ))}
+          </div>
+        )}
+      </div>
+
+      {/* WhatsApp direct CTA — hidden when cart has items (CartFAB takes over) */}
+      {business.whatsappNumber && itemCount === 0 && (
+        <div className="fixed bottom-0 left-0 right-0 bg-white border-t border-neutral-100 p-4 z-40">
+          <div className="max-w-2xl mx-auto">
+            <a
+              href={`https://wa.me/${business.whatsappNumber}?text=${encodeURIComponent(`Halo, saya lihat ${business.name} di Etalaso. Hari ini buka?`)}`}
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Chat WhatsApp"
+              className="flex items-center justify-center gap-2 w-full bg-green-500 text-white py-3.5 rounded-2xl font-bold text-sm hover:bg-green-600 transition-colors"
+            >
+              <Phone size={16} />
+              Chat via WhatsApp
+            </a>
+          </div>
+        </div>
+      )}
+    </div>
+  )
+}
+
+function ProductCard({
+  product,
+  onAdd,
+  onImageClick,
+}: {
+  product: {
+    id: string
+    name: string
+    price: string | null
+    description: string | null
+    imageUrl: string | null
+    availabilityNote?: string | null
+  }
+  onAdd: (item: { id: string; name: string; price: string | null; imageUrl?: string | null }) => void
+  onImageClick: (url: string) => void
+}) {
+  return (
+    <div className="bg-white rounded-xl border border-neutral-100 p-3 flex gap-3">
+      {product.imageUrl && (
+        <button
+          type="button"
+          onClick={() => onImageClick(product.imageUrl!)}
+          className="w-20 h-20 rounded-lg overflow-hidden shrink-0 relative cursor-zoom-in"
+        >
+          <Image src={product.imageUrl} alt={product.name} fill className="object-cover" />
+        </button>
+      )}
+      <div className="flex-1 min-w-0">
+        <h3 className="font-semibold text-charcoal text-sm truncate">{product.name}</h3>
+        {product.description && (
+          <p className="text-xs text-neutral-400 mt-0.5 line-clamp-2">{product.description}</p>
+        )}
+        {product.availabilityNote && (
+          <span className="inline-block mt-1 text-[10px] font-semibold text-amber bg-amber/10 px-2 py-0.5 rounded-full">
+            {product.availabilityNote}
+          </span>
+        )}
+        <div className="flex items-center justify-between mt-2">
+          <span className="text-sm font-bold text-charcoal">
+            {formatPrice(product.price)}
+          </span>
+          <button
+            onClick={() => onAdd({ id: product.id, name: product.name, price: product.price, imageUrl: product.imageUrl })}
+            className="text-xs font-bold text-amber bg-amber/10 px-3 py-1.5 rounded-lg hover:bg-amber/20 transition-colors"
+          >
+            + Tambah
+          </button>
+        </div>
+      </div>
+    </div>
+  )
+}
