@@ -86,6 +86,15 @@ export default function TemplateSelector({ businessId, currentTemplate, allowedT
     ? ALL_TEMPLATES
     : ALL_TEMPLATES.filter(t => t.category === category)
 
+  // Sort templates: allowed templates first, then locked ones
+  const sortedTemplates = [...filtered].sort((a, b) => {
+    const aAllowed = allowedTemplates.includes(a.id)
+    const bAllowed = allowedTemplates.includes(b.id)
+    if (aAllowed && !bAllowed) return -1
+    if (!aAllowed && bAllowed) return 1
+    return 0 // maintain original order for same group
+  })
+
   const handleSelect = async (template: string) => {
     if (!allowedTemplates.includes(template)) return
     setSelected(template)
@@ -135,7 +144,7 @@ export default function TemplateSelector({ businessId, currentTemplate, allowedT
 
       {/* Template grid */}
       <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3">
-        {filtered.map(t => {
+        {sortedTemplates.map(t => {
           const isAllowed = allowedTemplates.includes(t.id)
           const isActive = selected === t.id
 
