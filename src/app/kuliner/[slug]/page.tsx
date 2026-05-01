@@ -9,6 +9,7 @@ import ShareButtons from '@/components/ui/ShareButtons'
 import PageViewCount from '@/components/ui/PageViewCount'
 import { StorefrontFactory } from '@/components/storefronts/StorefrontFactory'
 import { canOrder } from '@/lib/ordering/tier'
+import { getTemplateTheme } from '@/components/templates/registry'
 
 export const dynamic = 'force-dynamic'
 
@@ -60,6 +61,7 @@ export default async function KulinerStoreRoute({ params }: Props) {
 
   const pageUrl = `/kuliner/${slug}`
   const storefrontVariant = store.template || 'classic'
+  const theme = getTemplateTheme(storefrontVariant)
   const tier = store.subscriptionType || 'free'
   const orderingEnabled = canOrder(tier)
 
@@ -84,7 +86,7 @@ export default async function KulinerStoreRoute({ params }: Props) {
       />
       <ViewTracker businessId={store.id} path={pageUrl} />
       <WaClickTracker businessId={store.id}>
-        <OrderingWrapper business={storeWithReviews} accentColor="#f59e0b" category="kuliner_rumahan">
+        <OrderingWrapper business={storeWithReviews} accentColor={theme.colors.accent} category="kuliner_rumahan">
           <StorefrontFactory variant={storefrontVariant} business={storeWithReviews} />
         </OrderingWrapper>
       </WaClickTracker>

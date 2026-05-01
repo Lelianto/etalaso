@@ -13,6 +13,7 @@ interface StorefrontProps {
   business: BusinessData & {
     id: string
   }
+  theme: any
 }
 
 function getTodayOpen(operatingDays?: string[]): boolean {
@@ -34,7 +35,7 @@ function formatPrice(price: string | null): string {
   return `Rp ${amount.toLocaleString('id-ID')}`
 }
 
-export default function ModernStorefront({ business }: StorefrontProps) {
+export default function ModernStorefront({ business, theme }: StorefrontProps) {
   const [selectedImage, setSelectedImage] = useState<string | null>(null)
   const { addItem } = useCartActions()
   const { itemCount } = useCart()
@@ -49,8 +50,18 @@ export default function ModernStorefront({ business }: StorefrontProps) {
     grouped.get(key)!.push(p)
   }
 
+  const cssVars = {
+    '--accent': theme.colors.accent,
+    '--accent-light': `${theme.colors.accent}1A`,
+    '--bg': theme.colors.background,
+    '--primary': theme.colors.primary,
+    '--secondary': theme.colors.secondary,
+    '--font-display': theme.typography.display,
+    '--font-body': theme.typography.body,
+  } as React.CSSProperties
+
   return (
-    <div className="min-h-screen bg-slate-50">
+    <div className="min-h-screen" style={{ ...cssVars, fontFamily: 'var(--font-body)', backgroundColor: '#f8fafc' }}>
       {/* Zoom Modal */}
       {selectedImage && (
         <div className="fixed inset-0 z-50 bg-black/90 flex items-center justify-center p-4" onClick={() => setSelectedImage(null)}>
@@ -102,7 +113,7 @@ export default function ModernStorefront({ business }: StorefrontProps) {
         {Array.from(grouped.entries()).map(([sub, items]) => (
           <section key={sub} className="mb-12">
             <h2 className="text-xl font-bold text-slate-800 mb-6 flex items-center gap-3">
-              <span className="w-1.5 h-6 bg-indigo-600 rounded-full" />
+              <span className="w-1.5 h-6 rounded-full" style={{ backgroundColor: 'var(--accent)' }} />
               {getSubcategoryLabel(sub)}
             </h2>
             <div className="grid grid-cols-2 md:grid-cols-3 gap-4 md:gap-6">
@@ -119,10 +130,11 @@ export default function ModernStorefront({ business }: StorefrontProps) {
                     <h3 className="font-bold text-slate-800 text-sm md:text-base mb-1 line-clamp-1">{p.name}</h3>
                     <p className="text-slate-500 text-xs line-clamp-2 mb-3 flex-grow">{p.description}</p>
                     <div className="flex items-center justify-between mt-auto">
-                      <span className="font-bold text-indigo-600 text-sm">{formatPrice(p.price)}</span>
+                      <span className="font-bold text-sm" style={{ color: 'var(--accent)' }}>{formatPrice(p.price)}</span>
                       <button 
                         onClick={() => addItem({ id: p.id, name: p.name, price: p.price, imageUrl: p.imageUrl })}
-                        className="p-2 bg-indigo-50 text-indigo-600 rounded-xl hover:bg-indigo-600 hover:text-white transition-colors"
+                        className="p-2 rounded-xl hover:opacity-80 transition-opacity"
+                        style={{ color: 'var(--accent)', backgroundColor: 'var(--accent-light)' }}
                       >
                         <ShoppingBag size={18} />
                       </button>

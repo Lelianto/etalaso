@@ -13,6 +13,7 @@ interface ClassicStorefrontProps {
   business: BusinessData & {
     id: string
   }
+  theme: any
 }
 
 function getTodayOpen(operatingDays?: string[]): boolean {
@@ -38,7 +39,7 @@ function formatPrice(price: string | null): string {
   return `Rp ${amount.toLocaleString('id-ID')}`
 }
 
-export default function ClassicStorefront({ business }: ClassicStorefrontProps) {
+export default function ClassicStorefront({ business, theme }: ClassicStorefrontProps) {
   const [selectedImage, setSelectedImage] = useState<string | null>(null)
   const { addItem } = useCartActions()
   const { itemCount } = useCart()
@@ -53,8 +54,18 @@ export default function ClassicStorefront({ business }: ClassicStorefrontProps) 
     grouped.get(key)!.push(p)
   }
 
+  const cssVars = {
+    '--accent': theme.colors.accent,
+    '--accent-light': `${theme.colors.accent}1A`,
+    '--bg': theme.colors.background,
+    '--primary': theme.colors.primary,
+    '--secondary': theme.colors.secondary,
+    '--font-display': theme.typography.display,
+    '--font-body': theme.typography.body,
+  } as React.CSSProperties
+
   return (
-    <div className="min-h-screen bg-[var(--background)]">
+    <div className="min-h-screen" style={{ ...cssVars, backgroundColor: 'var(--bg)', fontFamily: 'var(--font-body)' }}>
       {selectedImage && (
         <div
           className="fixed inset-0 z-50 bg-slate-950/90 flex items-center justify-center p-4"
@@ -78,7 +89,7 @@ export default function ClassicStorefront({ business }: ClassicStorefrontProps) 
         </div>
       )}
       {/* Header */}
-      <div className="bg-white border-b border-neutral-100">
+      <div className="bg-white border-b border-neutral-100" style={{ backgroundColor: 'white' }}>
         <div className="max-w-2xl mx-auto px-4 pt-4 pb-5">
           <Link
             href="/kuliner"
@@ -101,11 +112,11 @@ export default function ClassicStorefront({ business }: ClassicStorefrontProps) 
 
           <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3">
             <div className="min-w-0">
-              <h1 className="font-[family-name:var(--font-display)] text-2xl text-charcoal truncate">
+              <h1 className="text-2xl truncate" style={{ fontFamily: 'var(--font-display)', color: 'var(--primary)' }}>
                 {business.name}
               </h1>
               {business.tagline && (
-                <p className="text-neutral-500 text-sm mt-0.5">{business.tagline}</p>
+                <p className="text-sm mt-0.5" style={{ color: 'var(--secondary)' }}>{business.tagline}</p>
               )}
             </div>
             <div className="flex items-center gap-3">
@@ -150,7 +161,7 @@ export default function ClassicStorefront({ business }: ClassicStorefrontProps) 
                 if (!method) return null
                 const note = dm === 'gojek_grab' ? ' (dipesan pembeli)' : ''
                 return (
-                  <span key={dm} className="inline-flex items-center gap-1 text-xs text-amber bg-amber/10 px-2.5 py-1 rounded-full font-medium">
+                  <span key={dm} className="inline-flex items-center gap-1 text-xs px-2.5 py-1 rounded-full font-medium" style={{ color: 'var(--accent)', backgroundColor: 'var(--accent-light)' }}>
                     <Truck size={12} /> {method.label}{note}
                   </span>
                 )
@@ -160,7 +171,7 @@ export default function ClassicStorefront({ business }: ClassicStorefrontProps) 
 
           {/* Description */}
           {business.description && (
-            <p className="mt-3 text-sm text-neutral-600 leading-relaxed">{business.description}</p>
+            <p className="mt-3 text-sm leading-relaxed" style={{ color: 'var(--secondary)' }}>{business.description}</p>
           )}
 
           {/* Address */}
@@ -178,28 +189,20 @@ export default function ClassicStorefront({ business }: ClassicStorefrontProps) 
         {products.length === 0 ? (
           <div className="text-center py-12">
             <div className="text-4xl mb-3">🍽️</div>
-            <p className="text-neutral-500 text-sm">Menu belum tersedia.</p>
+            <p className="text-sm" style={{ color: 'var(--secondary)' }}>Menu belum tersedia.</p>
             <p className="text-neutral-400 text-xs mt-1">Pemilik sedang menyiapkan katalog makanan.</p>
           </div>
-        ) : grouped.size === 1 && grouped.has('lainnya') ? (
-          // Single category — no headers
-          <div className="space-y-3">
-            {products.map(product => (
-              <ProductCard key={product.id} product={product} onAdd={addItem} onImageClick={setSelectedImage} />
-            ))}
-          </div>
         ) : (
-          // Multiple categories
           <div className="space-y-8">
             {Array.from(grouped.entries()).map(([subcategory, items]) => (
               <div key={subcategory}>
-                <h2 className="flex items-center gap-2 font-semibold text-charcoal mb-3">
+                <h2 className="flex items-center gap-2 font-semibold mb-3" style={{ color: 'var(--primary)' }}>
                   <span>{getSubcategoryIcon(subcategory)}</span>
                   {getSubcategoryLabel(subcategory)}
                 </h2>
                 <div className="space-y-3">
                   {items.map(product => (
-                    <ProductCard key={product.id} product={product} onAdd={addItem} onImageClick={setSelectedImage} />
+                    <ProductCard key={product.id} product={product} onAdd={addItem} onImageClick={setSelectedImage} accentColor={theme.colors.accent} />
                   ))}
                 </div>
               </div>
@@ -208,7 +211,7 @@ export default function ClassicStorefront({ business }: ClassicStorefrontProps) 
         )}
       </div>
 
-      {/* WhatsApp direct CTA — hidden when cart has items (CartFAB takes over) */}
+      {/* WhatsApp direct CTA */}
       {business.whatsappNumber && itemCount === 0 && (
         <div className="fixed bottom-0 left-0 right-0 bg-white border-t border-neutral-100 p-4 z-40">
           <div className="max-w-2xl mx-auto">
@@ -217,7 +220,8 @@ export default function ClassicStorefront({ business }: ClassicStorefrontProps) 
               target="_blank"
               rel="noopener noreferrer"
               aria-label="Chat WhatsApp"
-              className="flex items-center justify-center gap-2 w-full bg-green-500 text-white py-3.5 rounded-2xl font-bold text-sm hover:bg-green-600 transition-colors"
+              className="flex items-center justify-center gap-2 w-full text-white py-3.5 rounded-2xl font-bold text-sm hover:opacity-90 transition-opacity"
+              style={{ backgroundColor: 'var(--accent)' }}
             >
               <Phone size={16} />
               Chat via WhatsApp
@@ -233,6 +237,7 @@ function ProductCard({
   product,
   onAdd,
   onImageClick,
+  accentColor,
 }: {
   product: {
     id: string
@@ -244,6 +249,7 @@ function ProductCard({
   }
   onAdd: (item: { id: string; name: string; price: string | null; imageUrl?: string | null }) => void
   onImageClick: (url: string) => void
+  accentColor: string
 }) {
   return (
     <div className="bg-white rounded-xl border border-neutral-100 p-3 flex gap-3">
@@ -257,22 +263,23 @@ function ProductCard({
         </button>
       )}
       <div className="flex-1 min-w-0">
-        <h3 className="font-semibold text-charcoal text-sm truncate">{product.name}</h3>
+        <h3 className="font-semibold text-sm truncate" style={{ color: 'var(--primary)' }}>{product.name}</h3>
         {product.description && (
-          <p className="text-xs text-neutral-400 mt-0.5 line-clamp-2">{product.description}</p>
+          <p className="text-xs mt-0.5 line-clamp-2" style={{ color: 'var(--secondary)' }}>{product.description}</p>
         )}
         {product.availabilityNote && (
-          <span className="inline-block mt-1 text-[10px] font-semibold text-amber bg-amber/10 px-2 py-0.5 rounded-full">
+          <span className="inline-block mt-1 text-[10px] font-semibold px-2 py-0.5 rounded-full" style={{ color: accentColor, backgroundColor: `${accentColor}1A` }}>
             {product.availabilityNote}
           </span>
         )}
         <div className="flex items-center justify-between mt-2">
-          <span className="text-sm font-bold text-charcoal">
+          <span className="text-sm font-bold" style={{ color: 'var(--primary)' }}>
             {formatPrice(product.price)}
           </span>
           <button
             onClick={() => onAdd({ id: product.id, name: product.name, price: product.price, imageUrl: product.imageUrl })}
-            className="text-xs font-bold text-amber bg-amber/10 px-3 py-1.5 rounded-lg hover:bg-amber/20 transition-colors"
+            className="text-xs font-bold px-3 py-1.5 rounded-lg hover:opacity-80 transition-opacity"
+            style={{ color: accentColor, backgroundColor: `${accentColor}1A` }}
           >
             + Tambah
           </button>

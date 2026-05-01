@@ -12,6 +12,7 @@ interface StorefrontProps {
   business: BusinessData & {
     id: string
   }
+  theme: any
 }
 
 function getTodayOpen(operatingDays?: string[]): boolean {
@@ -29,7 +30,7 @@ function formatPrice(price: string | null): string {
   return `Rp ${amount.toLocaleString('id-ID')}`
 }
 
-export default function CompactStorefront({ business }: StorefrontProps) {
+export default function CompactStorefront({ business, theme }: StorefrontProps) {
   const { addItem } = useCartActions()
   const { itemCount } = useCart()
   const isOpen = getTodayOpen(business.operatingDays)
@@ -42,8 +43,18 @@ export default function CompactStorefront({ business }: StorefrontProps) {
     grouped.get(key)!.push(p)
   }
 
+  const cssVars = {
+    '--accent': theme.colors.accent,
+    '--accent-light': `${theme.colors.accent}1A`,
+    '--bg': theme.colors.background,
+    '--primary': theme.colors.primary,
+    '--secondary': theme.colors.secondary,
+    '--font-display': theme.typography.display,
+    '--font-body': theme.typography.body,
+  } as React.CSSProperties
+
   return (
-    <div className="min-h-screen bg-white">
+    <div className="min-h-screen" style={{ ...cssVars, fontFamily: 'var(--font-body)', backgroundColor: 'var(--bg)' }}>
       {/* Simple Header */}
       <div className="px-6 py-8 border-b border-slate-100">
         <Link href="/kuliner" className="text-slate-400 mb-6 block"><ArrowLeft size={20} /></Link>
@@ -74,9 +85,9 @@ export default function CompactStorefront({ business }: StorefrontProps) {
               {items.map(p => (
                 <div key={p.id} className="px-6 py-4 flex items-center justify-between gap-4">
                   <div className="flex-grow">
-                    <h3 className="font-bold text-slate-800 text-sm">{p.name}</h3>
-                    <p className="text-slate-500 text-xs line-clamp-1">{p.description}</p>
-                    <span className="text-sm font-medium text-slate-900 block mt-1">{formatPrice(p.price)}</span>
+                    <h3 className="font-bold text-sm" style={{ color: 'var(--primary)' }}>{p.name}</h3>
+                    <p className="text-xs line-clamp-1" style={{ color: 'var(--secondary)' }}>{p.description}</p>
+                    <span className="text-sm font-medium block mt-1" style={{ color: 'var(--primary)' }}>{formatPrice(p.price)}</span>
                   </div>
                   {p.imageUrl && (
                     <div className="w-16 h-16 rounded-lg overflow-hidden bg-slate-50 shrink-0">
@@ -85,7 +96,8 @@ export default function CompactStorefront({ business }: StorefrontProps) {
                   )}
                   <button 
                     onClick={() => addItem({ id: p.id, name: p.name, price: p.price, imageUrl: p.imageUrl })}
-                    className="w-8 h-8 rounded-full border border-slate-200 flex items-center justify-center text-slate-400 hover:border-slate-900 hover:text-slate-900 transition-colors"
+                    className="w-8 h-8 rounded-full border flex items-center justify-center transition-colors"
+                    style={{ borderColor: 'var(--accent)', color: 'var(--accent)' }}
                   >
                     <Plus size={16} />
                   </button>
@@ -101,7 +113,8 @@ export default function CompactStorefront({ business }: StorefrontProps) {
         <div className="fixed bottom-0 left-0 right-0 p-4 bg-white border-t border-slate-100 z-40">
            <a
             href={`https://wa.me/${business.whatsappNumber}`}
-            className="w-full bg-slate-900 text-white py-3 rounded-lg text-center font-bold text-sm block"
+            className="w-full text-white py-3 rounded-lg text-center font-bold text-sm block"
+            style={{ backgroundColor: 'var(--accent)' }}
           >
             Chat Penjual
           </a>

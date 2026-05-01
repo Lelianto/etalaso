@@ -5,11 +5,10 @@ import ClassicStorefront from './ClassicStorefront'
 import ModernStorefront from './ModernStorefront'
 import CompactStorefront from './CompactStorefront'
 import { BusinessData } from '../templates/types'
-import { TemplateFactory } from '../templates/TemplateFactory'
+import { getTemplateTheme } from '../templates/registry'
 
-// For now we'll define a few variants. 
-// In the future, these can be completely different components.
-const STOREFRONT_REGISTRY: Record<string, React.FC<{ business: any }>> = {
+// List of specialized storefront variants
+const STOREFRONT_REGISTRY: Record<string, React.FC<{ business: any, theme: any }>> = {
   classic: ClassicStorefront,
   kuliner: ClassicStorefront,
   modern: ModernStorefront,
@@ -22,11 +21,13 @@ interface StorefrontFactoryProps {
 }
 
 export function StorefrontFactory({ variant = 'classic', business }: StorefrontFactoryProps) {
-  const Storefront = STOREFRONT_REGISTRY[variant]
+  // Resolve the theme based on the variant (template ID)
+  const theme = getTemplateTheme(variant)
   
-  if (Storefront) {
-    return <Storefront business={business} />
-  }
-
-  return <TemplateFactory templateId={variant} business={business} orderingActive={true} />
+  // Determine which layout to use. 
+  // If it's one of the specialized layouts, use it.
+  // Otherwise, default to 'classic' but with the selected theme's colors.
+  const Storefront = STOREFRONT_REGISTRY[variant] || STOREFRONT_REGISTRY.classic
+  
+  return <Storefront business={business} theme={theme} />
 }
