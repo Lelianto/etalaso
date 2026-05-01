@@ -10,7 +10,7 @@ import PageViewCount from '@/components/ui/PageViewCount'
 import { StorefrontFactory } from '@/components/storefronts/StorefrontFactory'
 import { canOrder } from '@/lib/ordering/tier'
 
-export const revalidate = 3600
+export const dynamic = 'force-dynamic'
 
 type Props = { params: Promise<{ slug: string }> }
 
