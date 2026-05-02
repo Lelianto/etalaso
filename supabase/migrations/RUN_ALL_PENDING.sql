@@ -56,7 +56,7 @@ WHERE id = 'free';
 
 UPDATE "Plan" SET
   max_products = 20,
-  max_templates = '{minimal,warung,kuliner,modern,compact,visual_immersive,sf-cl-minimal,sf-cl-sunset,sf-cl-ocean,sf-cl-midnight,sf-md-minimal,sf-md-sunset,sf-cp-minimal,sf-cp-sunset,sf-vi-elegant}',
+  max_templates = '{minimal,std-minimal,split-sunset,app-ocean,gallery-elegant,cards-emerald}',
   features = '["Edit teks profil","Upload foto produk","15 pilihan template","Tombol WhatsApp","20 produk/layanan"]'
 WHERE id = 'umkm';
 

@@ -173,21 +173,36 @@ export default function TemplateSelector({ businessId, currentTemplate, allowedT
     }
   }
 
+  // Merge tier-based IDs into allowed list to ensure they aren't locked
+  const effectiveAllowed = [...allowedTemplates]
+  if (isKulinerRumahan) {
+    if (planId === 'umkm') {
+      UMKM_TIER_IDS.forEach(id => {
+        if (!effectiveAllowed.includes(id)) effectiveAllowed.push(id)
+      })
+    } else if (planId === 'business') {
+      // Business gets everything
+      ALL_TEMPLATES.forEach(t => {
+        if (!effectiveAllowed.includes(t.id)) effectiveAllowed.push(t.id)
+      })
+    }
+  }
+
   const filtered = category === 'Semua'
     ? baseTemplates
     : baseTemplates.filter(t => t.category === category)
 
   // Sort templates: allowed templates first, then locked ones
   const sortedTemplates = [...filtered].sort((a, b) => {
-    const aAllowed = allowedTemplates.includes(a.id)
-    const bAllowed = allowedTemplates.includes(b.id)
+    const aAllowed = effectiveAllowed.includes(a.id)
+    const bAllowed = effectiveAllowed.includes(b.id)
     if (aAllowed && !bAllowed) return -1
     if (!aAllowed && bAllowed) return 1
     return 0 // maintain original order for same group
   })
 
   const handleSelect = async (template: string) => {
-    if (!allowedTemplates.includes(template)) return
+    if (!effectiveAllowed.includes(template)) return
     setSelected(template)
     setSaving(true)
     setError('')
@@ -242,7 +257,7 @@ export default function TemplateSelector({ businessId, currentTemplate, allowedT
       )}
 
       <p className="text-xs text-slate-400">
-        {allowedTemplates.length} template tersedia dari paketmu
+        {effectiveAllowed.length} template tersedia dari paketmu
         {saving && ' • Menyimpan...'}
       </p>
 
@@ -253,7 +268,7 @@ export default function TemplateSelector({ businessId, currentTemplate, allowedT
       {/* Template grid */}
       <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3">
         {sortedTemplates.map(t => {
-          const isAllowed = allowedTemplates.includes(t.id)
+          const isAllowed = effectiveAllowed.includes(t.id)
           const isActive = selected === t.id
 
           return (
