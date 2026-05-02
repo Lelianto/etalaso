@@ -189,6 +189,9 @@ export function getTemplateTheme(templateId: string): typeof THEMES.minimal {
     card: 'minimal',
     glass: 'glass',
     kuliner: 'sunset', // Default amber/sunset for kuliner
+    visual_immersive: 'elegant',
+    bento: 'bento',
+    editorial: 'luxury',
   }
 
   if (templateId in legacyMap) {
