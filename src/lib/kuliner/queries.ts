@@ -10,6 +10,7 @@ export const getKulinerStore = cache(async (slug: string) => {
     .select('*, products:Product(*)')
     .eq('customSlug', sanitized)
     .eq('businessType', 'kuliner_rumahan')
+    .not('isPublic', 'eq', false)
     .limit(1)
     .single()
 
@@ -21,6 +22,7 @@ export const getKulinerStore = cache(async (slug: string) => {
     .select('*, products:Product(*)')
     .eq('placeId', sanitized)
     .eq('businessType', 'kuliner_rumahan')
+    .not('isPublic', 'eq', false)
     .limit(1)
     .single()
 
@@ -32,6 +34,7 @@ export const getKulinerStore = cache(async (slug: string) => {
     .select('*, products:Product(*)')
     .eq('id', sanitized)
     .eq('businessType', 'kuliner_rumahan')
+    .not('isPublic', 'eq', false)
     .limit(1)
     .single()
 
@@ -44,6 +47,7 @@ export async function getKulinerStores(limit = 20) {
     .select('id, placeId, customSlug, name, tagline, areaNote, operatingDays, deliveryMethods, category, kecamatan, region')
     .eq('businessType', 'kuliner_rumahan')
     .eq('isClaimed', true)
+    .not('isPublic', 'eq', false)
     .order('createdAt', { ascending: false })
     .limit(limit)
 

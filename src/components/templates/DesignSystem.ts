@@ -7,7 +7,7 @@ export type ThemeType =
   | 'minimal' | 'glass' | 'elegant' | 'midnight' | 'emerald' | 'sunset' | 'ocean' | 'candy'
   | 'neobrutalist' | 'retro' | 'industrial' | 'organic' | 'luxury'
   | 'cyberpunk' | 'nordic' | 'playful' | 'business' | 'creative'
-  | 'nordic_dark' | 'elegant_dark';
+  | 'nordic_dark' | 'elegant_dark' | 'bento' | 'tech';
 
 export type LayoutType =
   | 'standard' | 'split' | 'app' | 'gallery' | 'cards'
@@ -54,11 +54,91 @@ export const THEMES: Record<ThemeType, ThemeConfig> = {
       border: '#e5e7eb',
     },
     typography: {
-      fontSans: 'Inter, system-ui, sans-serif',
-      fontSerif: 'Georgia, serif',
+      fontSans: 'Inter, sans-serif',
+      fontSerif: 'serif',
       fontDisplay: 'Inter, sans-serif',
     },
     styles: { borderRadius: '0.375rem', shadow: 'none', glass: false, borderWidth: '1px' },
+  },
+  bento: {
+    id: 'bento',
+    name: 'Bento Grid',
+    colors: {
+      primary: '#171717',
+      secondary: '#404040',
+      accent: '#6366f1',
+      background: '#f8fafc',
+      surface: '#ffffff',
+      text: '#0f172a',
+      muted: '#64748b',
+      border: '#e2e8f0',
+    },
+    typography: {
+      fontSans: 'Outfit, sans-serif',
+      fontSerif: 'serif',
+      fontDisplay: 'Outfit, sans-serif',
+    },
+    styles: { borderRadius: '1.5rem', shadow: '0 4px 6px -1px rgb(0 0 0 / 0.1)', glass: true, borderWidth: '1px' },
+  },
+  playful: {
+    id: 'playful',
+    name: 'Playful Fun',
+    colors: {
+      primary: '#f43f5e',
+      secondary: '#fb7185',
+      accent: '#fbbf24',
+      background: '#fff1f2',
+      surface: '#ffffff',
+      text: '#881337',
+      muted: '#fb7185',
+      border: '#fecdd3',
+    },
+    typography: {
+      fontSans: 'Quicksand, sans-serif',
+      fontSerif: 'serif',
+      fontDisplay: 'Quicksand, sans-serif',
+    },
+    styles: { borderRadius: '2rem', shadow: '0 10px 25px -5px rgba(244, 63, 94, 0.2)', glass: false, borderWidth: '2px' },
+  },
+  luxury: {
+    id: 'luxury',
+    name: 'Luxury Boutique',
+    colors: {
+      primary: '#1c1917',
+      secondary: '#44403c',
+      accent: '#d4af37',
+      background: '#fafaf9',
+      surface: '#ffffff',
+      text: '#1c1917',
+      muted: '#78716c',
+      border: '#e7e5e4',
+    },
+    typography: {
+      fontSans: 'Montserrat, sans-serif',
+      fontSerif: 'Playfair Display, serif',
+      fontDisplay: 'Playfair Display, serif',
+    },
+    styles: { borderRadius: '0.5rem', shadow: 'none', glass: false, borderWidth: '1px' },
+  },
+  tech: {
+    id: 'tech',
+    name: 'Tech Futuristic',
+    colors: {
+      primary: '#0ea5e9',
+      secondary: '#334155',
+      accent: '#22d3ee',
+      background: '#020617',
+      surface: '#0f172a',
+      text: '#f8fafc',
+      muted: '#64748b',
+      border: '#1e293b',
+    },
+    typography: {
+      fontSans: 'Inter, sans-serif',
+      fontSerif: 'serif',
+      fontDisplay: 'Space Grotesk, sans-serif',
+    },
+    styles: { borderRadius: '0.25rem', shadow: '0 0 20px rgba(14, 165, 233, 0.15)', glass: true, borderWidth: '1px' },
   },
   midnight: {
     id: 'midnight',
@@ -199,46 +279,6 @@ export const THEMES: Record<ThemeType, ThemeConfig> = {
       fontDisplay: 'Inter, sans-serif',
     },
     styles: { borderRadius: '0px', shadow: 'none', glass: false, borderWidth: '1px' },
-  },
-  luxury: {
-    id: 'luxury',
-    name: 'Luxury Gold',
-    colors: {
-      primary: '#1a1a1a',
-      secondary: '#404040',
-      accent: '#d4af37',
-      background: '#0a0a0a',
-      surface: '#121212',
-      text: '#ffffff',
-      muted: '#a3a3a3',
-      border: '#262626',
-    },
-    typography: {
-      fontSans: 'Playfair Display, serif',
-      fontSerif: 'Playfair Display, serif',
-      fontDisplay: 'Playfair Display, serif',
-    },
-    styles: { borderRadius: '0px', shadow: 'none', glass: false, borderWidth: '1px' },
-  },
-  playful: {
-    id: 'playful',
-    name: 'Candy Playful',
-    colors: {
-      primary: '#ff6b6b',
-      secondary: '#ff9f43',
-      accent: '#48dbfb',
-      background: '#fef7e5',
-      surface: '#ffffff',
-      text: '#2d3436',
-      muted: '#636e72',
-      border: '#fab1a0',
-    },
-    typography: {
-      fontSans: 'Quicksand, sans-serif',
-      fontSerif: 'serif',
-      fontDisplay: 'Quicksand, sans-serif',
-    },
-    styles: { borderRadius: '2rem', shadow: '0 10px 0px #fab1a0', glass: false, borderWidth: '2px' },
   },
   cyberpunk: {
     id: 'cyberpunk',

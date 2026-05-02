@@ -5,6 +5,8 @@ import ClassicStorefront from './ClassicStorefront'
 import ModernStorefront from './ModernStorefront'
 import CompactStorefront from './CompactStorefront'
 import VisualImmersiveStorefront from './VisualImmersiveStorefront'
+import BentoStorefront from './BentoStorefront'
+import EditorialStorefront from './EditorialStorefront'
 import { BusinessData } from '../templates/types'
 import { getTemplateTheme } from '../templates/registry'
 
@@ -15,6 +17,8 @@ const STOREFRONT_REGISTRY: Record<string, React.FC<{ business: any, theme: any }
   modern: ModernStorefront,
   compact: CompactStorefront,
   visual_immersive: VisualImmersiveStorefront,
+  bento: BentoStorefront,
+  editorial: EditorialStorefront,
 }
 
 interface StorefrontFactoryProps {
@@ -38,6 +42,8 @@ export function StorefrontFactory({ variant = 'classic', business }: StorefrontF
       if (type === 'md') layoutKey = 'modern'
       if (type === 'cp') layoutKey = 'compact'
       if (type === 'vi') layoutKey = 'visual_immersive'
+      if (type === 'bt') layoutKey = 'bento'
+      if (type === 'ed') layoutKey = 'editorial'
     }
   }
 

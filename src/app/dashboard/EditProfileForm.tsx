@@ -19,6 +19,7 @@ interface Props {
     operatingDays?: string[]
     businessType?: string | null
     category?: string | null
+    isPublic?: boolean
   }
 }
 
@@ -32,6 +33,7 @@ export default function EditProfileForm({ business }: Props) {
     areaNote: business.areaNote || '',
     deliveryMethods: business.deliveryMethods || [],
     operatingDays: business.operatingDays || [],
+    isPublic: business.isPublic !== false, // Default to true if undefined
   })
   const [saving, setSaving] = useState(false)
   const [saved, setSaved] = useState(false)
@@ -58,6 +60,7 @@ export default function EditProfileForm({ business }: Props) {
       description: form.description || null,
       whatsappNumber: normalizedWa || null,
       openingHours: form.openingHours || null,
+      isPublic: form.isPublic,
       updatedAt: new Date().toISOString(),
     }
 
@@ -84,7 +87,27 @@ export default function EditProfileForm({ business }: Props) {
   }
 
   return (
-    <div className="space-y-4">
+    <div className="space-y-6">
+      <div className="bg-indigo-50 p-4 rounded-2xl border border-indigo-100 flex items-center justify-between">
+        <div>
+          <h4 className="text-sm font-bold text-indigo-900">Visibilitas Toko</h4>
+          <p className="text-xs text-indigo-600">Sembunyikan toko jika sedang tidak menerima pesanan</p>
+        </div>
+        <button
+          onClick={() => setForm({ ...form, isPublic: !form.isPublic })}
+          className={`relative inline-flex h-6 w-11 items-center rounded-full transition-colors focus:outline-none ${
+            form.isPublic ? 'bg-indigo-600' : 'bg-slate-300'
+          }`}
+        >
+          <span
+            className={`inline-block h-4 w-4 transform rounded-full bg-white transition-transform ${
+              form.isPublic ? 'translate-x-6' : 'translate-x-1'
+            }`}
+          />
+        </button>
+      </div>
+
+      <div className="space-y-4">
       <div>
         <label className="block text-sm font-semibold text-slate-700 mb-1">Nama Bisnis</label>
         <input
@@ -210,6 +233,7 @@ export default function EditProfileForm({ business }: Props) {
       >
         {saving ? 'Menyimpan...' : saved ? 'Tersimpan!' : 'Simpan Perubahan'}
       </button>
+    </div>
     </div>
   )
 }

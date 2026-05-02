@@ -46,9 +46,16 @@ const STOREFRONT_VARIANTS: Record<string, { name: string; description: string; c
   'sf-cp-retro': { name: 'Compact Retro', description: 'Daftar ringkas klasik', category: 'Storefront' },
 
   // Visual Immersive Series
-  'sf-vi-minimal': { name: 'Boutique Minimalist', description: 'Cinematic layout bersih', category: 'Storefront' },
-  'sf-vi-midnight': { name: 'Boutique Midnight', description: 'Cinematic layout gelap', category: 'Storefront' },
   'sf-vi-elegant': { name: 'Boutique Elegant', description: 'Cinematic layout mewah', category: 'Storefront' },
+
+  // Bento Series
+  'sf-bt-modern': { name: 'Bento Modern', description: 'Grid kotak-kotak kekinian', category: 'Storefront' },
+  'sf-bt-midnight': { name: 'Bento Midnight', description: 'Grid kotak-kotak gelap', category: 'Storefront' },
+  'sf-bt-playful': { name: 'Bento Playful', description: 'Grid kotak-kotak ceria', category: 'Storefront' },
+
+  // Editorial Series
+  'sf-ed-luxury': { name: 'Editorial Luxury', description: 'Gaya majalah mewah', category: 'Storefront' },
+  'sf-ed-minimal': { name: 'Editorial Minimal', description: 'Gaya majalah bersih', category: 'Storefront' },
 }
 
 const LEGACY_TEMPLATES: Record<string, { name: string; description: string; category: string }> = {
@@ -62,6 +69,8 @@ const LEGACY_TEMPLATES: Record<string, { name: string; description: string; cate
   modern: { name: 'Modern Grid', description: 'Tampilan grid 2-kolom modern', category: 'Storefront' },
   compact: { name: 'Compact List', description: 'Tampilan daftar ringkas tanpa gambar besar', category: 'Storefront' },
   visual_immersive: { name: 'Boutique Visual', description: 'Layout sinematik dengan gambar besar', category: 'Storefront' },
+  bento: { name: 'Bento Modern', description: 'Grid kotak-kotak modern', category: 'Storefront' },
+  editorial: { name: 'Editorial Luxury', description: 'Tampilan majalah mewah', category: 'Storefront' },
   premium_dark: { name: 'Premium Dark', description: 'Tampilan mewah serba gelap', category: 'Storefront' },
   grid_hero: { name: 'Grid Hero', description: 'Grid dengan menu rekomendasi di atas', category: 'Storefront' },
   ...STOREFRONT_VARIANTS,
