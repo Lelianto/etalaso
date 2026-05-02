@@ -90,74 +90,69 @@ export default function ClassicStorefront({ business, theme }: ClassicStorefront
       )}
 
       {/* Hero Header */}
-      <div className="relative overflow-hidden bg-white border-b border-neutral-100/50">
-        <div className="absolute inset-0 bg-gradient-to-br from-transparent to-neutral-50/50" />
-        <div className="max-w-2xl mx-auto px-5 pt-5 pb-8 relative z-10">
+      <div className="relative overflow-hidden bg-white border-b border-neutral-100/80">
+        <div className="absolute inset-0 bg-gradient-to-b from-neutral-50/80 to-white" />
+        <div className="max-w-2xl mx-auto px-6 pt-6 pb-10 relative z-10">
           <Link
             href="/kuliner"
-            className="group inline-flex items-center gap-2 text-sm text-neutral-400 hover:text-neutral-900 transition-all mb-5"
+            className="group inline-flex items-center gap-2 text-xs font-bold uppercase tracking-widest text-neutral-400 hover:text-neutral-900 transition-all mb-6"
           >
-            <div className="w-8 h-8 rounded-full border border-neutral-100 flex items-center justify-center group-hover:border-neutral-900 transition-colors">
+            <div className="w-8 h-8 rounded-full border border-neutral-200 flex items-center justify-center group-hover:border-neutral-900 transition-colors">
               <ArrowLeft size={14} />
             </div>
-            <span className="font-medium">Kembali</span>
+            <span>Kembali</span>
           </Link>
 
-          <div className="flex flex-col gap-6">
+          <div className="flex flex-col gap-8">
             {/* Store image with subtle float effect */}
             {business.imageUrl && (
-              <div className="w-full h-56 rounded-[2rem] overflow-hidden shadow-2xl shadow-neutral-200/50 relative group">
+              <div className="w-full h-64 md:h-80 rounded-[2.5rem] overflow-hidden shadow-2xl shadow-neutral-200/60 relative group ring-1 ring-neutral-100">
                 <Image
                   src={business.imageUrl}
                   alt={business.name}
                   fill
-                  className="object-cover group-hover:scale-105 transition-transform duration-700"
+                  className="object-cover group-hover:scale-105 transition-transform duration-1000 ease-out"
                   priority
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent" />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/40 via-transparent to-transparent opacity-60" />
               </div>
             )}
 
-            <div className="flex flex-col gap-4">
-              <div className="flex flex-col gap-1">
-                <div className="flex items-center justify-between gap-4">
-                  <h1 className="text-3xl font-bold tracking-tight text-neutral-900" style={{ fontFamily: 'var(--font-display)', color: 'var(--primary)' }}>
-                    {business.name}
-                  </h1>
-                  <div className={`shrink-0 px-3 py-1 rounded-full text-[10px] font-black uppercase tracking-widest ${
-                    isOpen ? 'bg-green-100 text-green-700' : 'bg-red-100 text-red-700'
-                  }`}>
-                    {isOpen ? 'Buka Sekarang' : 'Sedang Tutup'}
-                  </div>
+            <div className="flex flex-col gap-5 text-center items-center">
+              <div className="flex flex-col gap-2 items-center">
+                <div className={`px-4 py-1.5 rounded-full text-[10px] font-black uppercase tracking-[0.2em] shadow-sm ${
+                  isOpen ? 'bg-emerald-50 text-emerald-600 ring-1 ring-emerald-200' : 'bg-rose-50 text-rose-600 ring-1 ring-rose-200'
+                }`}>
+                  {isOpen ? 'Buka Sekarang' : 'Sedang Tutup'}
                 </div>
+                <h1 className="text-4xl md:text-5xl font-black tracking-tighter text-neutral-900 mt-2 leading-[1.1]" style={{ fontFamily: 'var(--font-display)', color: 'var(--primary)' }}>
+                  {business.name}
+                </h1>
                 {business.tagline && (
-                  <p className="text-neutral-500 font-medium italic" style={{ color: 'var(--secondary)' }}>{business.tagline}</p>
+                  <p className="text-neutral-500 font-medium italic mt-2 text-sm md:text-base max-w-md" style={{ color: 'var(--secondary)' }}>{business.tagline}</p>
                 )}
               </div>
 
               {/* Enhanced Info Grid */}
-              <div className="flex flex-wrap gap-2">
-                <div className="flex items-center gap-4 py-1">
-                   <PageViewCount businessId={business.id} inline />
-                </div>
-              </div>
-
-              <div className="flex flex-wrap gap-2">
+              <div className="flex flex-wrap justify-center gap-2 mt-2">
                 {business.areaNote && (
-                  <span className="inline-flex items-center gap-1.5 text-xs font-medium text-neutral-600 bg-neutral-100/80 backdrop-blur-sm px-3 py-1.5 rounded-full border border-neutral-200/50">
-                    <MapPin size={12} className="text-neutral-400" /> {business.areaNote}
+                  <span className="inline-flex items-center gap-1.5 text-[11px] font-bold uppercase tracking-widest text-neutral-600 bg-neutral-50 px-4 py-2 rounded-full border border-neutral-200">
+                    <MapPin size={14} className="text-neutral-400" /> {business.areaNote}
                   </span>
                 )}
                 {business.operatingDays && (
-                  <span className="inline-flex items-center gap-1.5 text-xs font-medium text-neutral-600 bg-neutral-100/80 backdrop-blur-sm px-3 py-1.5 rounded-full border border-neutral-200/50">
-                    <Clock size={12} className="text-neutral-400" /> {business.operatingDays.length === 7 ? 'Setiap Hari' : business.operatingDays.join(', ')}
+                  <span className="inline-flex items-center gap-1.5 text-[11px] font-bold uppercase tracking-widest text-neutral-600 bg-neutral-50 px-4 py-2 rounded-full border border-neutral-200">
+                    <Clock size={14} className="text-neutral-400" /> {business.operatingDays.length === 7 ? 'Setiap Hari' : business.operatingDays.join(', ')}
                   </span>
                 )}
+              </div>
+              
+              <div className="flex flex-wrap justify-center gap-2">
                 {business.deliveryMethods?.map(dm => {
                   const method = DELIVERY_METHODS.find(m => m.value === dm)
                   if (!method) return null
                   return (
-                    <span key={dm} className="inline-flex items-center gap-1.5 text-xs font-bold px-3 py-1.5 rounded-full border border-current shadow-sm" style={{ color: 'var(--accent)', backgroundColor: 'var(--accent-light)', borderColor: 'var(--accent-light)' }}>
+                    <span key={dm} className="inline-flex items-center gap-1.5 text-[10px] font-black uppercase tracking-[0.2em] px-3 py-1.5 rounded-full border border-current shadow-sm" style={{ color: 'var(--accent)', backgroundColor: 'var(--accent-light)', borderColor: 'var(--accent-light)' }}>
                       <Truck size={12} /> {method.label}
                     </span>
                   )
@@ -165,7 +160,7 @@ export default function ClassicStorefront({ business, theme }: ClassicStorefront
               </div>
 
               {business.description && (
-                <p className="text-sm leading-relaxed text-neutral-600 max-w-prose" style={{ color: 'var(--secondary)' }}>{business.description}</p>
+                <p className="text-sm leading-relaxed text-neutral-600 max-w-lg mt-2" style={{ color: 'var(--secondary)' }}>{business.description}</p>
               )}
             </div>
           </div>
@@ -247,41 +242,42 @@ function ProductCard({
   accentColor: string
 }) {
   return (
-    <div className="group bg-white rounded-[2rem] border border-neutral-100/80 p-4 flex gap-5 hover:border-neutral-200 hover:shadow-xl hover:shadow-neutral-200/40 transition-all duration-300">
+    <div className="group bg-white rounded-3xl border border-neutral-100 p-3 sm:p-5 flex gap-4 sm:gap-6 hover:border-neutral-200 hover:shadow-xl hover:shadow-neutral-200/50 transition-all duration-500 ring-1 ring-transparent hover:ring-neutral-50 relative overflow-hidden">
+      <div className="absolute top-0 right-0 w-32 h-32 bg-gradient-to-bl from-neutral-50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 rounded-bl-full pointer-events-none" />
       {product.imageUrl && (
         <button
           type="button"
           onClick={() => onImageClick(product.imageUrl!)}
-          className="w-24 h-24 rounded-2xl overflow-hidden shrink-0 relative cursor-zoom-in shadow-inner ring-1 ring-neutral-100"
+          className="w-24 h-24 sm:w-28 sm:h-28 rounded-2xl overflow-hidden shrink-0 relative cursor-zoom-in shadow-inner ring-1 ring-neutral-100 z-10"
         >
-          <Image src={product.imageUrl} alt={product.name} fill className="object-cover group-hover:scale-110 transition-transform duration-500" />
+          <Image src={product.imageUrl} alt={product.name} fill className="object-cover group-hover:scale-110 transition-transform duration-700 ease-out" />
         </button>
       )}
-      <div className="flex-1 min-w-0 flex flex-col justify-between py-1">
+      <div className="flex-1 min-w-0 flex flex-col justify-between py-1 z-10">
         <div>
-          <div className="flex items-start justify-between gap-2">
-            <h3 className="font-bold text-neutral-900 text-base leading-tight truncate" style={{ color: 'var(--primary)' }}>{product.name}</h3>
+          <div className="flex items-start justify-between gap-3">
+            <h3 className="font-bold text-neutral-900 text-base sm:text-lg tracking-tight leading-snug line-clamp-2" style={{ color: 'var(--primary)' }}>{product.name}</h3>
             {product.availabilityNote && (
-              <span className="shrink-0 text-[9px] font-black uppercase tracking-wider px-2 py-0.5 rounded-md" style={{ color: accentColor, backgroundColor: `${accentColor}1A` }}>
+              <span className="shrink-0 text-[9px] font-black uppercase tracking-widest px-2.5 py-1 rounded-md shadow-sm border border-current" style={{ color: accentColor, backgroundColor: `${accentColor}1A`, borderColor: `${accentColor}33` }}>
                 {product.availabilityNote}
               </span>
             )}
           </div>
           {product.description && (
-            <p className="text-xs text-neutral-500 mt-1 line-clamp-2 leading-relaxed" style={{ color: 'var(--secondary)' }}>{product.description}</p>
+            <p className="text-xs sm:text-sm text-neutral-500 mt-1.5 line-clamp-2 leading-relaxed" style={{ color: 'var(--secondary)' }}>{product.description}</p>
           )}
         </div>
         
-        <div className="flex items-center justify-between mt-3">
-          <span className="text-lg font-black tracking-tight text-neutral-900" style={{ color: 'var(--primary)' }}>
+        <div className="flex items-center justify-between mt-4">
+          <span className="text-lg sm:text-xl font-black tracking-tighter text-neutral-900" style={{ color: 'var(--primary)', fontFamily: 'var(--font-display)' }}>
             {formatPrice(product.price)}
           </span>
           <button
             onClick={() => onAdd({ id: product.id, name: product.name, price: product.price, imageUrl: product.imageUrl })}
-            className="flex items-center gap-2 text-xs font-black uppercase tracking-widest px-4 py-2.5 rounded-xl hover:opacity-90 active:scale-95 transition-all shadow-sm"
+            className="flex items-center gap-2 text-[11px] font-black uppercase tracking-widest px-5 py-2.5 rounded-xl hover:opacity-90 active:scale-95 transition-all shadow-md hover:shadow-lg"
             style={{ color: 'white', backgroundColor: accentColor }}
           >
-            Tambah +
+            Pesan
           </button>
         </div>
       </div>

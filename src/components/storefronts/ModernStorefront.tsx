@@ -92,10 +92,10 @@ export default function ModernStorefront({ business, theme }: StorefrontProps) {
                 <div className={`w-2 h-2 rounded-full ${isOpen ? 'bg-green-400 shadow-[0_0_8px_rgba(74,222,128,0.5)]' : 'bg-red-400'}`} />
                 <span className="text-[10px] font-black text-white uppercase tracking-widest">{isOpen ? 'Buka Sekarang' : 'Sedang Tutup'}</span>
               </div>
-              <h1 className="text-5xl md:text-7xl font-black text-white tracking-tighter leading-none" style={{ fontFamily: 'var(--font-display)' }}>
+              <h1 className="text-5xl md:text-8xl font-black text-white tracking-tighter leading-[0.9]" style={{ fontFamily: 'var(--font-display)' }}>
                 {business.name}
               </h1>
-              <p className="text-white/70 max-w-lg text-sm md:text-base font-medium leading-relaxed italic">{business.tagline || business.description}</p>
+              <p className="text-white/80 max-w-lg text-sm md:text-base font-medium leading-relaxed">{business.tagline || business.description}</p>
             </div>
             
             <div className="flex items-center gap-6 pb-2">
@@ -135,11 +135,11 @@ export default function ModernStorefront({ business, theme }: StorefrontProps) {
       <main className="max-w-5xl mx-auto px-8 py-16 pb-40">
         {Array.from(grouped.entries()).map(([sub, items]) => (
           <section key={sub} className="mb-20 last:mb-0">
-            <div className="flex items-baseline gap-4 mb-10 border-b border-neutral-100 pb-4">
-              <h2 className="text-3xl font-black text-neutral-900 tracking-tighter" style={{ color: 'var(--primary)' }}>
+            <div className="flex items-end gap-4 mb-10 border-b border-neutral-100 pb-4">
+              <h2 className="text-4xl md:text-5xl font-black text-neutral-900 tracking-tighter leading-none" style={{ fontFamily: 'var(--font-display)', color: 'var(--primary)' }}>
                 {getSubcategoryLabel(sub)}
               </h2>
-              <span className="text-[10px] font-black text-neutral-300 uppercase tracking-widest">{items.length} Pilihan</span>
+              <span className="text-[10px] font-black text-neutral-400 uppercase tracking-widest mb-1">{items.length} Pilihan</span>
             </div>
             
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -162,20 +162,23 @@ export default function ModernStorefront({ business, theme }: StorefrontProps) {
                     </div>
                   </div>
                   
-                  <div className="p-6 flex-grow flex flex-col gap-4">
-                    <div className="space-y-1">
-                      <h3 className="font-bold text-neutral-900 text-lg tracking-tight line-clamp-1" style={{ color: 'var(--primary)' }}>{p.name}</h3>
-                      <p className="text-neutral-500 text-xs font-medium line-clamp-2 leading-relaxed h-8">{p.description}</p>
+                  <div className="p-6 flex-grow flex flex-col gap-5">
+                    <div className="space-y-2">
+                      <h3 className="font-bold text-neutral-900 text-xl tracking-tight line-clamp-1" style={{ fontFamily: 'var(--font-display)', color: 'var(--primary)' }}>{p.name}</h3>
+                      <p className="text-neutral-500 text-sm font-medium line-clamp-2 leading-relaxed">{p.description}</p>
                     </div>
                     
-                    <div className="flex items-center justify-between mt-auto pt-4 border-t border-neutral-50">
-                      <span className="text-xl font-black tracking-tighter" style={{ color: 'var(--accent)' }}>{formatPrice(p.price)}</span>
+                    <div className="flex items-center justify-between mt-auto pt-4 border-t border-neutral-100/50">
+                      <div className="flex flex-col">
+                        <span className="text-[9px] font-black uppercase tracking-widest text-neutral-400 mb-0.5">Harga</span>
+                        <span className="text-2xl font-black tracking-tighter leading-none" style={{ color: 'var(--accent)' }}>{formatPrice(p.price)}</span>
+                      </div>
                       <button 
                         onClick={() => addItem({ id: p.id, name: p.name, price: p.price, imageUrl: p.imageUrl })}
-                        className="w-12 h-12 flex items-center justify-center rounded-2xl transition-all shadow-lg active:scale-90"
-                        style={{ backgroundColor: 'var(--accent)', color: 'white' }}
+                        className="w-12 h-12 flex items-center justify-center rounded-2xl transition-all shadow-md hover:shadow-xl hover:-translate-y-1 active:scale-95"
+                        style={{ backgroundColor: 'var(--primary)', color: 'white' }}
                       >
-                        <ShoppingBag size={20} />
+                        <ShoppingBag size={18} strokeWidth={2.5} />
                       </button>
                     </div>
                   </div>

@@ -26,6 +26,28 @@ interface StorefrontFactoryProps {
   business: BusinessData
 }
 
+function extractFontName(fontFamily: string) {
+  return fontFamily.split(',')[0].replace(/['"]/g, '').trim()
+}
+
+function FontLoader({ theme }: { theme: any }) {
+  if (!theme?.typography) return null
+  
+  const displayFont = extractFontName(theme.typography.fontDisplay || '')
+  const bodyFont = extractFontName(theme.typography.fontSans || '')
+  
+  const fonts = Array.from(new Set([displayFont, bodyFont]))
+    .filter(f => f && f !== 'sans-serif' && f !== 'serif' && f !== 'system-ui' && f !== 'monospace')
+    .map(f => f.replace(/ /g, '+'))
+    
+  if (fonts.length === 0) return null
+  
+  const familyQuery = fonts.map(f => `family=${f}:wght@300;400;500;600;700;800;900`).join('&')
+  const url = `https://fonts.googleapis.com/css2?${familyQuery}&display=swap`
+  
+  return <style dangerouslySetInnerHTML={{ __html: `@import url('${url}');` }} />
+}
+
 export function StorefrontFactory({ variant = 'classic', business }: StorefrontFactoryProps) {
   // Resolve the theme based on the variant (template ID)
   const theme = getTemplateTheme(variant)
@@ -51,5 +73,10 @@ export function StorefrontFactory({ variant = 'classic', business }: StorefrontF
   // Otherwise, default to 'classic' but with the selected theme's colors.
   const Storefront = STOREFRONT_REGISTRY[layoutKey] || STOREFRONT_REGISTRY.classic
   
-  return <Storefront business={business} theme={theme} />
+  return (
+    <>
+      <FontLoader theme={theme} />
+      <Storefront business={business} theme={theme} />
+    </>
+  )
 }
