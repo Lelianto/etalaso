@@ -55,6 +55,7 @@ export default async function TemplatePage() {
         currentTemplate={business.template || 'minimal'}
         allowedTemplates={allowedTemplates}
         forcedCategory={finalTemplates}
+        planId={profile?.planId || 'free'}
       />
     </div>
   )

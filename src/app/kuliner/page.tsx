@@ -13,7 +13,8 @@ export const metadata: Metadata = {
 export const revalidate = 300
 
 export default async function KulinerListingPage() {
-  const stores = await getKulinerStores(50)
+  const allStores = await getKulinerStores(50)
+  const stores = allStores.filter(s => s.isPublic !== false)
 
   return (
     <div className="min-h-screen bg-[var(--background)]">

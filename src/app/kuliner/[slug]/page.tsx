@@ -53,8 +53,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 export default async function KulinerStoreRoute({ params }: Props) {
   const { slug } = await params
   const store = await getKulinerStore(slug)
-
-  if (!store) notFound()
+  
+  // Handle visibility and not found
+  if (!store || store.isPublic === false) notFound()
 
   // Add empty reviews since kuliner stores don't use review system
   const storeWithReviews = { ...store, reviews: store.reviews || [], pageUrl: `/kuliner/${slug}` }

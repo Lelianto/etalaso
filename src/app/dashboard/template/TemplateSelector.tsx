@@ -136,11 +136,12 @@ const ALL_TEMPLATES = getAllTemplates()
 // Collect unique categories in order
 const CATEGORIES = ['Semua', ...Array.from(new Set(ALL_TEMPLATES.map(t => t.category)))]
 
-export default function TemplateSelector({ businessId, currentTemplate, allowedTemplates, forcedCategory }: {
+export default function TemplateSelector({ businessId, currentTemplate, allowedTemplates, forcedCategory, planId = 'free' }: {
   businessId: string
   currentTemplate: string
   allowedTemplates: string[]
   forcedCategory?: string
+  planId?: string
 }) {
   const [saving, setSaving] = useState(false)
   const [selected, setSelected] = useState(currentTemplate)
@@ -148,9 +149,33 @@ export default function TemplateSelector({ businessId, currentTemplate, allowedT
   const [error, setError] = useState('')
   const router = useRouter()
 
+  // Define tier limits for Kuliner Rumahan
+  const isKulinerRumahan = forcedCategory === 'Storefront'
+  
+  const FREE_TIER_IDS = ['kuliner', 'minimal', 'warung']
+  const UMKM_TIER_IDS = [
+    ...FREE_TIER_IDS,
+    'modern', 'compact', 'visual_immersive',
+    'sf-cl-minimal', 'sf-cl-sunset', 'sf-cl-ocean', 'sf-cl-midnight',
+    'sf-md-minimal', 'sf-md-sunset',
+    'sf-cp-minimal', 'sf-cp-sunset',
+    'sf-vi-elegant'
+  ]
+
+  let baseTemplates = ALL_TEMPLATES
+
+  // Enforce tier limits for Kuliner Rumahan
+  if (isKulinerRumahan) {
+    if (planId === 'free') {
+      baseTemplates = ALL_TEMPLATES.filter(t => FREE_TIER_IDS.includes(t.id))
+    } else if (planId === 'umkm') {
+      baseTemplates = ALL_TEMPLATES.filter(t => UMKM_TIER_IDS.includes(t.id))
+    }
+  }
+
   const filtered = category === 'Semua'
-    ? ALL_TEMPLATES
-    : ALL_TEMPLATES.filter(t => t.category === category)
+    ? baseTemplates
+    : baseTemplates.filter(t => t.category === category)
 
   // Sort templates: allowed templates first, then locked ones
   const sortedTemplates = [...filtered].sort((a, b) => {
@@ -182,6 +207,21 @@ export default function TemplateSelector({ businessId, currentTemplate, allowedT
 
   return (
     <div className="space-y-4">
+      {isKulinerRumahan && planId !== 'business' && (
+        <div className="bg-amber-50 border border-amber-200 rounded-2xl p-4 flex items-center justify-between">
+          <div>
+            <p className="text-amber-800 font-bold text-sm">Buka 150+ Template Eksklusif</p>
+            <p className="text-amber-600 text-xs">Upgrade ke paket Bisnis untuk menggunakan template Bento, Editorial, dan lainnya.</p>
+          </div>
+          <button 
+            onClick={() => router.push('/dashboard/upgrade')}
+            className="bg-amber-500 text-white px-4 py-2 rounded-xl text-xs font-bold hover:bg-amber-600 transition-colors"
+          >
+            Upgrade Sekarang
+          </button>
+        </div>
+      )}
+
       {/* Category filter - Hide if forcedCategory is provided */}
       {!forcedCategory && (
         <div className="flex flex-wrap gap-2">
