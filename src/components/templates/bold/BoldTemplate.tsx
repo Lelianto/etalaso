@@ -14,7 +14,7 @@ export default function BoldTemplate({ business }: { business: BusinessData }) {
   const hours = getOpeningHours(business)
 
   return (
-    <div className="min-h-screen bg-zinc-950 text-white font-sans">
+    <div className="min-h-screen bg-zinc-950 text-white font-[family-name:var(--font-body)]">
       {/* Hero */}
       <header className="relative overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-b from-emerald-500/10 to-transparent" />
@@ -26,7 +26,7 @@ export default function BoldTemplate({ business }: { business: BusinessData }) {
           )}
           <div className="flex flex-col md:flex-row md:items-end md:justify-between gap-8">
             <div className="flex-1">
-              <h1 className="text-5xl md:text-7xl font-black leading-[0.9] tracking-tight mb-4">
+              <h1 className="text-5xl md:text-7xl font-black leading-[0.9] tracking-tight mb-4 font-[family-name:var(--font-display)]">
                 {business.name}
               </h1>
               <p className="text-zinc-400 max-w-md leading-relaxed">

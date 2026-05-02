@@ -13,7 +13,7 @@ export default function CardTemplate({ business }: { business: BusinessData }) {
   const hours = getOpeningHours(business)
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-indigo-50 via-white to-sky-50 font-sans">
+    <div className="min-h-screen bg-gradient-to-br from-indigo-50 via-white to-sky-50 font-[family-name:var(--font-body)]">
       <div className="max-w-lg mx-auto px-4 py-10 space-y-5">
         {/* Profile Card */}
         <div className="bg-white rounded-3xl shadow-lg shadow-indigo-100/50 overflow-hidden">
@@ -26,7 +26,7 @@ export default function CardTemplate({ business }: { business: BusinessData }) {
             <div className="w-20 h-20 rounded-2xl bg-white/20 backdrop-blur-sm flex items-center justify-center mx-auto mb-4 text-3xl font-black">
               {business.name.charAt(0)}
             </div>
-            <h1 className="text-2xl font-bold mb-1">{business.name}</h1>
+            <h1 className="text-2xl font-bold mb-1 font-[family-name:var(--font-display)]">{business.name}</h1>
             {hours && <p className="text-indigo-200 text-sm">{hours}</p>}
           </div>
 

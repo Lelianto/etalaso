@@ -13,7 +13,7 @@ export default function WarungTemplate({ business }: { business: BusinessData })
   const hours = getOpeningHours(business)
 
   return (
-    <div className="min-h-screen bg-amber-50 text-stone-900">
+    <div className="min-h-screen bg-amber-50 text-stone-900 font-[family-name:var(--font-body)]">
       {/* Banner */}
       <div className="bg-gradient-to-br from-orange-600 via-amber-600 to-yellow-500 text-white">
         <div className="max-w-3xl mx-auto px-6 py-14 text-center">
@@ -22,7 +22,7 @@ export default function WarungTemplate({ business }: { business: BusinessData })
               <EtalasoBadge variant="dark" />
             </div>
           )}
-          <h1 className="text-4xl md:text-5xl font-black mb-3 drop-shadow-sm">
+          <h1 className="text-4xl md:text-5xl font-black mb-3 drop-shadow-sm font-[family-name:var(--font-display)]">
             {business.name}
           </h1>
           {business.address && (
@@ -47,7 +47,7 @@ export default function WarungTemplate({ business }: { business: BusinessData })
         {/* About */}
         {business.description && (
           <section className="bg-white rounded-2xl p-8 shadow-sm border border-amber-100">
-            <h2 className="text-xl font-bold text-orange-700 mb-3">Tentang Kami</h2>
+            <h2 className="text-xl font-bold text-orange-700 mb-3 font-[family-name:var(--font-display)]">Tentang Kami</h2>
             <p className="text-stone-600 leading-relaxed">{business.description}</p>
           </section>
         )}
@@ -55,7 +55,7 @@ export default function WarungTemplate({ business }: { business: BusinessData })
         {/* Opening Hours */}
         {hours && (
           <section className="bg-white rounded-2xl p-8 shadow-sm border border-amber-100">
-            <h2 className="text-xl font-bold text-orange-700 mb-3">Jam Buka</h2>
+            <h2 className="text-xl font-bold text-orange-700 mb-3 font-[family-name:var(--font-display)]">Jam Buka</h2>
             <p className="text-stone-700 font-medium">{hours}</p>
           </section>
         )}
@@ -63,7 +63,7 @@ export default function WarungTemplate({ business }: { business: BusinessData })
         {/* Menu / Products */}
         {business.products.length > 0 && (
           <section>
-            <h2 className="text-2xl font-bold text-stone-800 mb-6">Menu</h2>
+            <h2 className="text-2xl font-bold text-stone-800 mb-6 font-[family-name:var(--font-display)]">Menu</h2>
             <div className="space-y-3">
               {business.products.map((p) => (
                 <div key={p.id} className="bg-white rounded-xl p-5 shadow-sm border border-amber-100 flex items-start justify-between gap-4">

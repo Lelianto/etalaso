@@ -13,7 +13,7 @@ export default function GlassTemplate({ business }: { business: BusinessData }) 
   const hours = getOpeningHours(business)
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-violet-950 via-purple-900 to-fuchsia-900 text-white font-sans">
+    <div className="min-h-screen bg-gradient-to-br from-violet-950 via-purple-900 to-fuchsia-900 text-white font-[family-name:var(--font-body)]">
       {/* Decorative blobs */}
       <div className="fixed inset-0 overflow-hidden pointer-events-none">
         <div className="absolute -top-40 -right-40 w-96 h-96 bg-pink-500/20 rounded-full blur-3xl" />
@@ -33,7 +33,7 @@ export default function GlassTemplate({ business }: { business: BusinessData }) 
             <span className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse" />
             {hours || 'Buka'}
           </div>
-          <h1 className="text-5xl md:text-6xl font-black tracking-tight mb-4 bg-gradient-to-r from-white to-purple-200 bg-clip-text text-transparent">
+          <h1 className="text-5xl md:text-6xl font-black tracking-tight mb-4 bg-gradient-to-r from-white to-purple-200 bg-clip-text text-transparent font-[family-name:var(--font-display)]">
             {business.name}
           </h1>
           {business.address && (
