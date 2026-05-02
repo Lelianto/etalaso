@@ -173,22 +173,24 @@ export default function TemplateSelector({ businessId, currentTemplate, allowedT
 
   return (
     <div className="space-y-4">
-      {/* Category filter */}
-      <div className="flex flex-wrap gap-2">
-        {CATEGORIES.map(cat => (
-          <button
-            key={cat}
-            onClick={() => setCategory(cat)}
-            className={`px-3 py-1 text-xs font-medium rounded-full transition-colors ${
-              category === cat
-                ? 'bg-indigo-600 text-white'
-                : 'bg-slate-100 text-slate-600 hover:bg-slate-200'
-            }`}
-          >
-            {cat}
-          </button>
-        ))}
-      </div>
+      {/* Category filter - Hide if forcedCategory is provided */}
+      {!forcedCategory && (
+        <div className="flex flex-wrap gap-2">
+          {CATEGORIES.map(cat => (
+            <button
+              key={cat}
+              onClick={() => setCategory(cat)}
+              className={`px-3 py-1 text-xs font-medium rounded-full transition-colors ${
+                category === cat
+                  ? 'bg-indigo-600 text-white'
+                  : 'bg-slate-100 text-slate-600 hover:bg-slate-200'
+              }`}
+            >
+              {cat}
+            </button>
+          ))}
+        </div>
+      )}
 
       <p className="text-xs text-slate-400">
         {allowedTemplates.length} template tersedia dari paketmu

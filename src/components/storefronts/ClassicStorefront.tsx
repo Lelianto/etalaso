@@ -127,7 +127,7 @@ export default function ClassicStorefront({ business, theme }: ClassicStorefront
                   <div className={`shrink-0 px-3 py-1 rounded-full text-[10px] font-black uppercase tracking-widest ${
                     isOpen ? 'bg-green-100 text-green-700' : 'bg-red-100 text-red-700'
                   }`}>
-                    {isOpen ? 'Open Now' : 'Closed'}
+                    {isOpen ? 'Buka Sekarang' : 'Sedang Tutup'}
                   </div>
                 </div>
                 {business.tagline && (
@@ -150,7 +150,7 @@ export default function ClassicStorefront({ business, theme }: ClassicStorefront
                 )}
                 {business.operatingDays && (
                   <span className="inline-flex items-center gap-1.5 text-xs font-medium text-neutral-600 bg-neutral-100/80 backdrop-blur-sm px-3 py-1.5 rounded-full border border-neutral-200/50">
-                    <Clock size={12} className="text-neutral-400" /> {business.operatingDays.length === 7 ? 'Everyday' : business.operatingDays.join(', ')}
+                    <Clock size={12} className="text-neutral-400" /> {business.operatingDays.length === 7 ? 'Setiap Hari' : business.operatingDays.join(', ')}
                   </span>
                 )}
                 {business.deliveryMethods?.map(dm => {
@@ -177,8 +177,8 @@ export default function ClassicStorefront({ business, theme }: ClassicStorefront
         {products.length === 0 ? (
           <div className="text-center py-20 bg-neutral-50/50 rounded-[2.5rem] border border-dashed border-neutral-200">
             <div className="text-5xl mb-4 grayscale opacity-50">🍱</div>
-            <h3 className="font-bold text-neutral-900">Menu Coming Soon</h3>
-            <p className="text-sm text-neutral-500 mt-1">We are preparing our specialties for you.</p>
+            <h3 className="font-bold text-neutral-900">Menu Segera Hadir</h3>
+            <p className="text-sm text-neutral-500 mt-1">Kami sedang menyiapkan menu spesial untuk Anda.</p>
           </div>
         ) : (
           <div className="space-y-12">
@@ -192,7 +192,7 @@ export default function ClassicStorefront({ business, theme }: ClassicStorefront
                     <h2 className="text-xl font-bold text-neutral-900 tracking-tight" style={{ color: 'var(--primary)' }}>
                       {getSubcategoryLabel(subcategory)}
                     </h2>
-                    <p className="text-[10px] font-black uppercase tracking-[0.2em] text-neutral-400">{items.length} Items</p>
+                    <p className="text-[10px] font-black uppercase tracking-[0.2em] text-neutral-400">{items.length} Menu</p>
                   </div>
                 </div>
                 
@@ -281,7 +281,7 @@ function ProductCard({
             className="flex items-center gap-2 text-xs font-black uppercase tracking-widest px-4 py-2.5 rounded-xl hover:opacity-90 active:scale-95 transition-all shadow-sm"
             style={{ color: 'white', backgroundColor: accentColor }}
           >
-            Add +
+            Tambah +
           </button>
         </div>
       </div>

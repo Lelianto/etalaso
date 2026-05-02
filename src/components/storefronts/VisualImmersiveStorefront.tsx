@@ -63,7 +63,7 @@ export default function VisualImmersiveStorefront({ business, theme }: Storefron
           <div className="flex flex-wrap items-center gap-4 text-white/70 text-sm font-medium tracking-tight">
             <div className="flex items-center gap-2"><MapPin size={16} className="text-white" /> {business.kecamatan}</div>
             <div className="w-1.5 h-1.5 rounded-full bg-white/30" />
-            <div className="flex items-center gap-2"><Star size={16} className="text-yellow-400 fill-yellow-400" /> Premium Store</div>
+            <div className="flex items-center gap-2"><Star size={16} className="text-yellow-400 fill-yellow-400" /> Toko Pilihan</div>
           </div>
         </div>
       </header>
@@ -72,7 +72,7 @@ export default function VisualImmersiveStorefront({ business, theme }: Storefron
       <main className="relative z-10 -mt-10 rounded-t-[3rem] bg-white px-6 pt-12 pb-40">
         <div className="max-w-4xl mx-auto space-y-16">
           {products.length === 0 ? (
-            <div className="py-20 text-center text-neutral-400 font-medium tracking-tighter">Exploring our kitchen...</div>
+            <div className="py-20 text-center text-neutral-400 font-medium tracking-tighter">Sedang menyiapkan menu spesial...</div>
           ) : (
             products.map((p: any, idx: number) => (
               <div key={p.id} className={`flex flex-col md:flex-row gap-10 items-center ${idx % 2 === 1 ? 'md:flex-row-reverse' : ''}`}>
@@ -119,14 +119,14 @@ export default function VisualImmersiveStorefront({ business, theme }: Storefron
         <div className="max-w-md mx-auto px-6 pointer-events-auto">
           <div className="bg-black/90 backdrop-blur-2xl rounded-full p-2 flex items-center justify-between border border-white/10 shadow-2xl">
              <div className="flex items-center gap-4 pl-6 text-white text-xs font-black uppercase tracking-widest">
-               Explore Menu
+               Lihat Menu
              </div>
              <a 
                href={`https://wa.me/${business.whatsappNumber}`}
                className="h-14 px-8 rounded-full flex items-center justify-center font-black text-xs uppercase tracking-widest text-black"
                style={{ backgroundColor: 'white' }}
              >
-               Order Now
+               Pesan Sekarang
              </a>
           </div>
         </div>

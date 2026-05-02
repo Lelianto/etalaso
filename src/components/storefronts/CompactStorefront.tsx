@@ -86,7 +86,7 @@ export default function CompactStorefront({ business, theme }: StorefrontProps) 
             </div>
             <div className="flex items-center gap-2 text-[10px] font-black uppercase tracking-widest text-neutral-400">
                <Phone size={12} style={{ color: 'var(--accent)' }} /> 
-               <span>Direct Contact</span>
+               <span>Kontak Langsung</span>
             </div>
           </div>
         </div>
@@ -143,7 +143,7 @@ export default function CompactStorefront({ business, theme }: StorefrontProps) 
               className="w-full text-white py-4.5 rounded-2xl text-center font-black text-xs uppercase tracking-widest shadow-xl hover:scale-[1.02] active:scale-[0.98] transition-all"
               style={{ backgroundColor: 'var(--accent)' }}
             >
-              Start Order
+              Pesan Sekarang
             </a>
            </div>
         </div>

@@ -83,14 +83,14 @@ export default function ModernStorefront({ business, theme }: StorefrontProps) {
         
         <div className="absolute inset-0 flex flex-col justify-end p-8 md:p-12 max-w-5xl mx-auto w-full">
           <Link href="/kuliner" className="inline-flex items-center gap-2 text-white/60 text-xs font-black uppercase tracking-[0.2em] mb-6 hover:text-white transition-colors">
-            <ArrowLeft size={14} /> Back to Discover
+            <ArrowLeft size={14} /> Kembali
           </Link>
           
           <div className="flex flex-col md:flex-row md:items-end justify-between gap-8">
             <div className="space-y-4">
               <div className="inline-flex items-center gap-3 bg-white/10 backdrop-blur-md px-3 py-1 rounded-full border border-white/10">
                 <div className={`w-2 h-2 rounded-full ${isOpen ? 'bg-green-400 shadow-[0_0_8px_rgba(74,222,128,0.5)]' : 'bg-red-400'}`} />
-                <span className="text-[10px] font-black text-white uppercase tracking-widest">{isOpen ? 'Open For Business' : 'Taking a Break'}</span>
+                <span className="text-[10px] font-black text-white uppercase tracking-widest">{isOpen ? 'Buka Sekarang' : 'Sedang Tutup'}</span>
               </div>
               <h1 className="text-5xl md:text-7xl font-black text-white tracking-tighter leading-none" style={{ fontFamily: 'var(--font-display)' }}>
                 {business.name}
@@ -116,12 +116,17 @@ export default function ModernStorefront({ business, theme }: StorefrontProps) {
           </div>
           <div className="flex items-center gap-2 text-[10px] font-black uppercase tracking-widest text-neutral-400">
             <Clock size={14} style={{ color: 'var(--accent)' }} /> 
-            <span className="text-neutral-900">{business.operatingDays?.length === 7 ? 'Open Daily' : 'Scheduled Hours'}</span>
+            <span className="text-neutral-900">{business.operatingDays?.length === 7 ? 'Buka Setiap Hari' : 'Sesuai Jadwal'}</span>
           </div>
           <div className="flex flex-wrap gap-2 ml-auto">
-            {business.deliveryMethods?.map(m => (
-              <div key={m} className="px-3 py-1 rounded-full text-[9px] font-black uppercase tracking-tighter bg-neutral-50 border border-neutral-200 text-neutral-500">{m}</div>
-            ))}
+            {business.deliveryMethods?.map(m => {
+              const label = DELIVERY_METHODS.find(dm => dm.value === m)?.label || m
+              return (
+                <div key={m} className="px-3 py-1 rounded-full text-[9px] font-black uppercase tracking-tighter bg-neutral-50 border border-neutral-200 text-neutral-500">
+                  {label}
+                </div>
+              )
+            })}
           </div>
         </div>
       </div>
@@ -134,7 +139,7 @@ export default function ModernStorefront({ business, theme }: StorefrontProps) {
               <h2 className="text-3xl font-black text-neutral-900 tracking-tighter" style={{ color: 'var(--primary)' }}>
                 {getSubcategoryLabel(sub)}
               </h2>
-              <span className="text-[10px] font-black text-neutral-300 uppercase tracking-widest">{items.length} Options</span>
+              <span className="text-[10px] font-black text-neutral-300 uppercase tracking-widest">{items.length} Pilihan</span>
             </div>
             
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -153,7 +158,7 @@ export default function ModernStorefront({ business, theme }: StorefrontProps) {
                     )}
                     <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
                     <div className="absolute bottom-6 left-6 right-6 translate-y-4 group-hover:translate-y-0 opacity-0 group-hover:opacity-100 transition-all duration-500">
-                       <span className="text-white text-[10px] font-black uppercase tracking-widest bg-white/20 backdrop-blur-md px-3 py-1 rounded-full border border-white/20">View Detail</span>
+                       <span className="text-white text-[10px] font-black uppercase tracking-widest bg-white/20 backdrop-blur-md px-3 py-1 rounded-full border border-white/20">Lihat Detail</span>
                     </div>
                   </div>
                   
@@ -188,7 +193,7 @@ export default function ModernStorefront({ business, theme }: StorefrontProps) {
             href={`https://wa.me/${business.whatsappNumber}?text=${encodeURIComponent(`Halo ${business.name}, saya ingin memesan...`)}`}
             className="flex items-center justify-center gap-3 w-full bg-neutral-900 text-white py-5 rounded-[2rem] font-black text-xs uppercase tracking-widest shadow-2xl hover:bg-black hover:scale-[1.05] active:scale-[0.95] transition-all"
           >
-            <Phone size={16} fill="currentColor" className="text-white/30" /> Contact Via WhatsApp
+            <Phone size={16} fill="currentColor" className="text-white/30" /> Hubungi via WhatsApp
           </a>
         </div>
       )}
